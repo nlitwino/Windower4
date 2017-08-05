@@ -1,0 +1,5 @@
+<?xml version="1.0" ?>
+<autoexec>
+<!-- This is an autocreated AutoExec file. the next line is commented out and not going to be ran, its to show an example on how to add commands to this file. -->
+<!--register event="login" silent="true" runonce="true">load expwatch</register-->
+</autoexec>

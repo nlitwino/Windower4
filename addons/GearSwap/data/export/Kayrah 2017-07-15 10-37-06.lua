@@ -1,0 +1,17 @@
+sets.exported={
+    main="Bravura",
+    sub="Rose Strap",
+    ammo="Thr. Tomahawk",
+    head={ name="Walahra Turban", augments={'"Store TP"+10',}},
+    body="Hachiryu Haramaki",
+    hands="Heavy Gauntlets",
+    legs="Byakko's Haidate",
+    feet="Hachiryu Sune-Ate",
+    neck="Chivalrous Chain",
+    waist="Lycopodium Sash",
+    left_ear="Merman's Earring",
+    right_ear="Merman's Earring",
+    left_ring="Rajas Ring",
+    right_ring={ name="Toreador's Ring", augments={'MND-3','"Triple Atk."+2',}},
+    back="Nexus Cape",
+}

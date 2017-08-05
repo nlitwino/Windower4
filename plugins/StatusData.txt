@@ -1,0 +1,14 @@
+//Place any user desired durations in this file.
+//You can also change the display name if you like.
+//For IDs, look in resources.xml or online.
+//You can also use the "toggleextinfo" command in StatusTimer to see the IDs of your current buffs.
+//Format:  <status name>,<status ID>,<default duration in seconds>,<alternate duration in seconds>
+//If default duration is 0 (zero) or not given, time will always count up
+//If default duration is -1, time will not be displayed
+//If alternate duration is less than 1 or not given, it will be ignored
+//Use two slashes (//) or a semi-colon (;) in front of the lines if you want them ignored
+
+//Blink is included as a format demonstration, along with it needing an
+//alternate duration value (300 = 5 min = Blink, 900 = 15 min = Aerial Armor)
+
+Blink,36,300,900

@@ -1,0 +1,78 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<settings>
+  <autoload>
+    <addon>aecho</addon>
+    <addon>battlemod</addon>
+    <addon>cancel</addon>
+    <addon>chars</addon>
+    <addon>ConsoleBG</addon>
+    <addon>DressUp</addon>
+    <addon>enternity</addon>
+    <addon>findAll</addon>
+    <addon>GearSwap</addon>
+    <addon>InfoReplacer</addon>
+    <addon>linker</addon>
+    <addon>send</addon>
+    <addon>shortcuts</addon>
+    <addon>Silence</addon>
+    <addon>SpeedChecker</addon>
+    <addon>SpellCheck</addon>
+    <addon>TParty</addon>
+    <addon>update</addon>
+    <addon>Treasury</addon>
+    <addon>timestamp</addon>
+    <addon>PetTP</addon>
+    <addon>instaLS</addon>
+    <addon>autojoin</addon>
+    <addon>autoinvite</addon>
+    <addon>itemizer</addon>
+    <addon>DistancePlus</addon>
+    <plugin>Run</plugin>
+    <plugin>LightLuggage</plugin>
+    <plugin>InfoBar</plugin>
+    <plugin>DelayMeNot</plugin>
+    <plugin>FFXIDB</plugin>
+    <plugin>Config</plugin>
+    <plugin>ChatMon</plugin>
+    <plugin>AutoExec</plugin>
+    <plugin>Timers</plugin>
+    <plugin>Tickle</plugin>
+    <plugin>SSOrganizer</plugin>
+    <plugin>Bidder</plugin>
+    <plugin>WinControl</plugin>
+    <plugin>StatusTimer</plugin>
+  </autoload>
+  <profile name="">
+    <consolekey>Insert</consolekey>
+    <uiscale>1</uiscale>
+  </profile>
+  <profile name="Kayrah">
+    <consolekey>Insert</consolekey>
+    <mipmaplevel>6</mipmaplevel>
+    <uiscale>1</uiscale>
+    <supersampling>2</supersampling>
+    <bumpmapping>true</bumpmapping>
+  </profile>
+  <profile name="Mimosa">
+    <consolekey>Insert</consolekey>
+    <windowmode>Window</windowmode>
+    <width>1600</width>
+    <height>900</height>
+    <mipmaplevel>6</mipmaplevel>
+    <uiscale>1</uiscale>
+    <supersampling>2</supersampling>
+    <bumpmapping>true</bumpmapping>
+    <sound>false</sound>
+  </profile>
+  <profile name="Wentworth">
+    <consolekey>Insert</consolekey>
+    <windowmode>Window</windowmode>
+    <width>1600</width>
+    <height>900</height>
+    <uiscale>1</uiscale>
+    <hardwaremouse>false</hardwaremouse>
+    <sound>false</sound>
+    <alwaysplaysound>false</alwaysplaysound>
+    <alwaysenablegamepad>false</alwaysenablegamepad>
+  </profile>
+</settings>

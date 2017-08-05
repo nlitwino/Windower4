@@ -1,0 +1,2800 @@
+input /ma "Mage's Ballad" <me>
+wait 10
+input /ma "Mage's Ballad II" <me>
+wait 120
+input /ma "Mage's Ballad" <me>
+wait 10
+input /ma "Mage's Ballad II" <me>
+wait 120
+input /ma "Mage's Ballad" <me>
+wait 10
+input /ma "Mage's Ballad II" <me>
+wait 120
+input /ma "Mage's Ballad" <me>
+wait 10
+input /ma "Mage's Ballad II" <me>
+wait 120
+input /ma "Mage's Ballad" <me>
+wait 10
+input /ma "Mage's Ballad II" <me>
+wait 120
+input /ma "Mage's Ballad" <me>
+wait 10
+input /ma "Mage's Ballad II" <me>
+wait 120
+input /ma "Mage's Ballad" <me>
+wait 10
+input /ma "Mage's Ballad II" <me>
+wait 120
+input /ma "Mage's Ballad" <me>
+wait 10
+input /ma "Mage's Ballad II" <me>
+wait 120
+input /ma "Mage's Ballad" <me>
+wait 10
+input /ma "Mage's Ballad II" <me>
+wait 120
+input /ma "Mage's Ballad" <me>
+wait 10
+input /ma "Mage's Ballad II" <me>
+wait 120
+input /ma "Mage's Ballad" <me>
+wait 10
+input /ma "Mage's Ballad II" <me>
+wait 120
+input /ma "Mage's Ballad" <me>
+wait 10
+input /ma "Mage's Ballad II" <me>
+wait 120
+input /ma "Mage's Ballad" <me>
+wait 10
+input /ma "Mage's Ballad II" <me>
+wait 120
+input /ma "Mage's Ballad" <me>
+wait 10
+input /ma "Mage's Ballad II" <me>
+wait 120
+input /ma "Mage's Ballad" <me>
+wait 10
+input /ma "Mage's Ballad II" <me>
+wait 120
+input /ma "Mage's Ballad" <me>
+wait 10
+input /ma "Mage's Ballad II" <me>
+wait 120
+input /ma "Mage's Ballad" <me>
+wait 10
+input /ma "Mage's Ballad II" <me>
+wait 120
+input /ma "Mage's Ballad" <me>
+wait 10
+input /ma "Mage's Ballad II" <me>
+wait 120
+input /ma "Mage's Ballad" <me>
+wait 10
+input /ma "Mage's Ballad II" <me>
+wait 120
+input /ma "Mage's Ballad" <me>
+wait 10
+input /ma "Mage's Ballad II" <me>
+wait 120
+input /ma "Mage's Ballad" <me>
+wait 10
+input /ma "Mage's Ballad II" <me>
+wait 120
+input /ma "Mage's Ballad" <me>
+wait 10
+input /ma "Mage's Ballad II" <me>
+wait 120
+input /ma "Mage's Ballad" <me>
+wait 10
+input /ma "Mage's Ballad II" <me>
+wait 120
+input /ma "Mage's Ballad" <me>
+wait 10
+input /ma "Mage's Ballad II" <me>
+wait 120
+input /ma "Mage's Ballad" <me>
+wait 10
+input /ma "Mage's Ballad II" <me>
+wait 120
+input /ma "Mage's Ballad" <me>
+wait 10
+input /ma "Mage's Ballad II" <me>
+wait 120
+input /ma "Mage's Ballad" <me>
+wait 10
+input /ma "Mage's Ballad II" <me>
+wait 120
+input /ma "Mage's Ballad" <me>
+wait 10
+input /ma "Mage's Ballad II" <me>
+wait 120
+input /ma "Mage's Ballad" <me>
+wait 10
+input /ma "Mage's Ballad II" <me>
+wait 120
+input /ma "Mage's Ballad" <me>
+wait 10
+input /ma "Mage's Ballad II" <me>
+wait 120
+input /ma "Mage's Ballad" <me>
+wait 10
+input /ma "Mage's Ballad II" <me>
+wait 120
+input /ma "Mage's Ballad" <me>
+wait 10
+input /ma "Mage's Ballad II" <me>
+wait 120
+input /ma "Mage's Ballad" <me>
+wait 10
+input /ma "Mage's Ballad II" <me>
+wait 120
+input /ma "Mage's Ballad" <me>
+wait 10
+input /ma "Mage's Ballad II" <me>
+wait 120
+input /ma "Mage's Ballad" <me>
+wait 10
+input /ma "Mage's Ballad II" <me>
+wait 120
+input /ma "Mage's Ballad" <me>
+wait 10
+input /ma "Mage's Ballad II" <me>
+wait 120
+input /ma "Mage's Ballad" <me>
+wait 10
+input /ma "Mage's Ballad II" <me>
+wait 120
+input /ma "Mage's Ballad" <me>
+wait 10
+input /ma "Mage's Ballad II" <me>
+wait 120
+input /ma "Mage's Ballad" <me>
+wait 10
+input /ma "Mage's Ballad II" <me>
+wait 120
+input /ma "Mage's Ballad" <me>
+wait 10
+input /ma "Mage's Ballad II" <me>
+wait 120
+input /ma "Mage's Ballad" <me>
+wait 10
+input /ma "Mage's Ballad II" <me>
+wait 120
+input /ma "Mage's Ballad" <me>
+wait 10
+input /ma "Mage's Ballad II" <me>
+wait 120
+input /ma "Mage's Ballad" <me>
+wait 10
+input /ma "Mage's Ballad II" <me>
+wait 120
+input /ma "Mage's Ballad" <me>
+wait 10
+input /ma "Mage's Ballad II" <me>
+wait 120
+input /ma "Mage's Ballad" <me>
+wait 10
+input /ma "Mage's Ballad II" <me>
+wait 120
+input /ma "Mage's Ballad" <me>
+wait 10
+input /ma "Mage's Ballad II" <me>
+wait 120
+input /ma "Mage's Ballad" <me>
+wait 10
+input /ma "Mage's Ballad II" <me>
+wait 120
+input /ma "Mage's Ballad" <me>
+wait 10
+input /ma "Mage's Ballad II" <me>
+wait 120
+input /ma "Mage's Ballad" <me>
+wait 10
+input /ma "Mage's Ballad II" <me>
+wait 120
+input /ma "Mage's Ballad" <me>
+wait 10
+input /ma "Mage's Ballad II" <me>
+wait 120
+input /ma "Mage's Ballad" <me>
+wait 10
+input /ma "Mage's Ballad II" <me>
+wait 120
+input /ma "Mage's Ballad" <me>
+wait 10
+input /ma "Mage's Ballad II" <me>
+wait 120
+input /ma "Mage's Ballad" <me>
+wait 10
+input /ma "Mage's Ballad II" <me>
+wait 120
+input /ma "Mage's Ballad" <me>
+wait 10
+input /ma "Mage's Ballad II" <me>
+wait 120
+input /ma "Mage's Ballad" <me>
+wait 10
+input /ma "Mage's Ballad II" <me>
+wait 120
+input /ma "Mage's Ballad" <me>
+wait 10
+input /ma "Mage's Ballad II" <me>
+wait 120
+input /ma "Mage's Ballad" <me>
+wait 10
+input /ma "Mage's Ballad II" <me>
+wait 120
+input /ma "Mage's Ballad" <me>
+wait 10
+input /ma "Mage's Ballad II" <me>
+wait 120
+input /ma "Mage's Ballad" <me>
+wait 10
+input /ma "Mage's Ballad II" <me>
+wait 120
+input /ma "Mage's Ballad" <me>
+wait 10
+input /ma "Mage's Ballad II" <me>
+wait 120
+input /ma "Mage's Ballad" <me>
+wait 10
+input /ma "Mage's Ballad II" <me>
+wait 120
+input /ma "Mage's Ballad" <me>
+wait 10
+input /ma "Mage's Ballad II" <me>
+wait 120
+input /ma "Mage's Ballad" <me>
+wait 10
+input /ma "Mage's Ballad II" <me>
+wait 120
+input /ma "Mage's Ballad" <me>
+wait 10
+input /ma "Mage's Ballad II" <me>
+wait 120
+input /ma "Mage's Ballad" <me>
+wait 10
+input /ma "Mage's Ballad II" <me>
+wait 120
+input /ma "Mage's Ballad" <me>
+wait 10
+input /ma "Mage's Ballad II" <me>
+wait 120
+input /ma "Mage's Ballad" <me>
+wait 10
+input /ma "Mage's Ballad II" <me>
+wait 120
+input /ma "Mage's Ballad" <me>
+wait 10
+input /ma "Mage's Ballad II" <me>
+wait 120
+input /ma "Mage's Ballad" <me>
+wait 10
+input /ma "Mage's Ballad II" <me>
+wait 120
+input /ma "Mage's Ballad" <me>
+wait 10
+input /ma "Mage's Ballad II" <me>
+wait 120
+input /ma "Mage's Ballad" <me>
+wait 10
+input /ma "Mage's Ballad II" <me>
+wait 120
+input /ma "Mage's Ballad" <me>
+wait 10
+input /ma "Mage's Ballad II" <me>
+wait 120
+input /ma "Mage's Ballad" <me>
+wait 10
+input /ma "Mage's Ballad II" <me>
+wait 120
+input /ma "Mage's Ballad" <me>
+wait 10
+input /ma "Mage's Ballad II" <me>
+wait 120
+input /ma "Mage's Ballad" <me>
+wait 10
+input /ma "Mage's Ballad II" <me>
+wait 120
+input /ma "Mage's Ballad" <me>
+wait 10
+input /ma "Mage's Ballad II" <me>
+wait 120
+input /ma "Mage's Ballad" <me>
+wait 10
+input /ma "Mage's Ballad II" <me>
+wait 120
+input /ma "Mage's Ballad" <me>
+wait 10
+input /ma "Mage's Ballad II" <me>
+wait 120
+input /ma "Mage's Ballad" <me>
+wait 10
+input /ma "Mage's Ballad II" <me>
+wait 120
+input /ma "Mage's Ballad" <me>
+wait 10
+input /ma "Mage's Ballad II" <me>
+wait 120
+input /ma "Mage's Ballad" <me>
+wait 10
+input /ma "Mage's Ballad II" <me>
+wait 120
+input /ma "Mage's Ballad" <me>
+wait 10
+input /ma "Mage's Ballad II" <me>
+wait 120
+input /ma "Mage's Ballad" <me>
+wait 10
+input /ma "Mage's Ballad II" <me>
+wait 120
+input /ma "Mage's Ballad" <me>
+wait 10
+input /ma "Mage's Ballad II" <me>
+wait 120
+input /ma "Mage's Ballad" <me>
+wait 10
+input /ma "Mage's Ballad II" <me>
+wait 120
+input /ma "Mage's Ballad" <me>
+wait 10
+input /ma "Mage's Ballad II" <me>
+wait 120
+input /ma "Mage's Ballad" <me>
+wait 10
+input /ma "Mage's Ballad II" <me>
+wait 120
+input /ma "Mage's Ballad" <me>
+wait 10
+input /ma "Mage's Ballad II" <me>
+wait 120
+input /ma "Mage's Ballad" <me>
+wait 10
+input /ma "Mage's Ballad II" <me>
+wait 120
+input /ma "Mage's Ballad" <me>
+wait 10
+input /ma "Mage's Ballad II" <me>
+wait 120
+input /ma "Mage's Ballad" <me>
+wait 10
+input /ma "Mage's Ballad II" <me>
+wait 120
+input /ma "Mage's Ballad" <me>
+wait 10
+input /ma "Mage's Ballad II" <me>
+wait 120
+input /ma "Mage's Ballad" <me>
+wait 10
+input /ma "Mage's Ballad II" <me>
+wait 120
+input /ma "Mage's Ballad" <me>
+wait 10
+input /ma "Mage's Ballad II" <me>
+wait 120
+input /ma "Mage's Ballad" <me>
+wait 10
+input /ma "Mage's Ballad II" <me>
+wait 120
+input /ma "Mage's Ballad" <me>
+wait 10
+input /ma "Mage's Ballad II" <me>
+wait 120
+input /ma "Mage's Ballad" <me>
+wait 10
+input /ma "Mage's Ballad II" <me>
+wait 120
+input /ma "Mage's Ballad" <me>
+wait 10
+input /ma "Mage's Ballad II" <me>
+wait 120
+input /ma "Mage's Ballad" <me>
+wait 10
+input /ma "Mage's Ballad II" <me>
+wait 120
+input /ma "Mage's Ballad" <me>
+wait 10
+input /ma "Mage's Ballad II" <me>
+wait 120
+input /ma "Mage's Ballad" <me>
+wait 10
+input /ma "Mage's Ballad II" <me>
+wait 120
+input /ma "Mage's Ballad" <me>
+wait 10
+input /ma "Mage's Ballad II" <me>
+wait 120
+input /ma "Mage's Ballad" <me>
+wait 10
+input /ma "Mage's Ballad II" <me>
+wait 120
+input /ma "Mage's Ballad" <me>
+wait 10
+input /ma "Mage's Ballad II" <me>
+wait 120
+input /ma "Mage's Ballad" <me>
+wait 10
+input /ma "Mage's Ballad II" <me>
+wait 120
+input /ma "Mage's Ballad" <me>
+wait 10
+input /ma "Mage's Ballad II" <me>
+wait 120
+input /ma "Mage's Ballad" <me>
+wait 10
+input /ma "Mage's Ballad II" <me>
+wait 120
+input /ma "Mage's Ballad" <me>
+wait 10
+input /ma "Mage's Ballad II" <me>
+wait 120
+input /ma "Mage's Ballad" <me>
+wait 10
+input /ma "Mage's Ballad II" <me>
+wait 120
+input /ma "Mage's Ballad" <me>
+wait 10
+input /ma "Mage's Ballad II" <me>
+wait 120
+input /ma "Mage's Ballad" <me>
+wait 10
+input /ma "Mage's Ballad II" <me>
+wait 120
+input /ma "Mage's Ballad" <me>
+wait 10
+input /ma "Mage's Ballad II" <me>
+wait 120
+input /ma "Mage's Ballad" <me>
+wait 10
+input /ma "Mage's Ballad II" <me>
+wait 120
+input /ma "Mage's Ballad" <me>
+wait 10
+input /ma "Mage's Ballad II" <me>
+wait 120
+input /ma "Mage's Ballad" <me>
+wait 10
+input /ma "Mage's Ballad II" <me>
+wait 120
+input /ma "Mage's Ballad" <me>
+wait 10
+input /ma "Mage's Ballad II" <me>
+wait 120
+input /ma "Mage's Ballad" <me>
+wait 10
+input /ma "Mage's Ballad II" <me>
+wait 120
+input /ma "Mage's Ballad" <me>
+wait 10
+input /ma "Mage's Ballad II" <me>
+wait 120
+input /ma "Mage's Ballad" <me>
+wait 10
+input /ma "Mage's Ballad II" <me>
+wait 120
+input /ma "Mage's Ballad" <me>
+wait 10
+input /ma "Mage's Ballad II" <me>
+wait 120
+input /ma "Mage's Ballad" <me>
+wait 10
+input /ma "Mage's Ballad II" <me>
+wait 120
+input /ma "Mage's Ballad" <me>
+wait 10
+input /ma "Mage's Ballad II" <me>
+wait 120
+input /ma "Mage's Ballad" <me>
+wait 10
+input /ma "Mage's Ballad II" <me>
+wait 120
+input /ma "Mage's Ballad" <me>
+wait 10
+input /ma "Mage's Ballad II" <me>
+wait 120
+input /ma "Mage's Ballad" <me>
+wait 10
+input /ma "Mage's Ballad II" <me>
+wait 120
+input /ma "Mage's Ballad" <me>
+wait 10
+input /ma "Mage's Ballad II" <me>
+wait 120
+input /ma "Mage's Ballad" <me>
+wait 10
+input /ma "Mage's Ballad II" <me>
+wait 120
+input /ma "Mage's Ballad" <me>
+wait 10
+input /ma "Mage's Ballad II" <me>
+wait 120
+input /ma "Mage's Ballad" <me>
+wait 10
+input /ma "Mage's Ballad II" <me>
+wait 120
+input /ma "Mage's Ballad" <me>
+wait 10
+input /ma "Mage's Ballad II" <me>
+wait 120
+input /ma "Mage's Ballad" <me>
+wait 10
+input /ma "Mage's Ballad II" <me>
+wait 120
+input /ma "Mage's Ballad" <me>
+wait 10
+input /ma "Mage's Ballad II" <me>
+wait 120
+input /ma "Mage's Ballad" <me>
+wait 10
+input /ma "Mage's Ballad II" <me>
+wait 120
+input /ma "Mage's Ballad" <me>
+wait 10
+input /ma "Mage's Ballad II" <me>
+wait 120
+input /ma "Mage's Ballad" <me>
+wait 10
+input /ma "Mage's Ballad II" <me>
+wait 120
+input /ma "Mage's Ballad" <me>
+wait 10
+input /ma "Mage's Ballad II" <me>
+wait 120
+input /ma "Mage's Ballad" <me>
+wait 10
+input /ma "Mage's Ballad II" <me>
+wait 120
+input /ma "Mage's Ballad" <me>
+wait 10
+input /ma "Mage's Ballad II" <me>
+wait 120
+input /ma "Mage's Ballad" <me>
+wait 10
+input /ma "Mage's Ballad II" <me>
+wait 120
+input /ma "Mage's Ballad" <me>
+wait 10
+input /ma "Mage's Ballad II" <me>
+wait 120
+input /ma "Mage's Ballad" <me>
+wait 10
+input /ma "Mage's Ballad II" <me>
+wait 120
+input /ma "Mage's Ballad" <me>
+wait 10
+input /ma "Mage's Ballad II" <me>
+wait 120
+input /ma "Mage's Ballad" <me>
+wait 10
+input /ma "Mage's Ballad II" <me>
+wait 120
+input /ma "Mage's Ballad" <me>
+wait 10
+input /ma "Mage's Ballad II" <me>
+wait 120
+input /ma "Mage's Ballad" <me>
+wait 10
+input /ma "Mage's Ballad II" <me>
+wait 120
+input /ma "Mage's Ballad" <me>
+wait 10
+input /ma "Mage's Ballad II" <me>
+wait 120
+input /ma "Mage's Ballad" <me>
+wait 10
+input /ma "Mage's Ballad II" <me>
+wait 120
+input /ma "Mage's Ballad" <me>
+wait 10
+input /ma "Mage's Ballad II" <me>
+wait 120
+input /ma "Mage's Ballad" <me>
+wait 10
+input /ma "Mage's Ballad II" <me>
+wait 120
+input /ma "Mage's Ballad" <me>
+wait 10
+input /ma "Mage's Ballad II" <me>
+wait 120
+input /ma "Mage's Ballad" <me>
+wait 10
+input /ma "Mage's Ballad II" <me>
+wait 120
+input /ma "Mage's Ballad" <me>
+wait 10
+input /ma "Mage's Ballad II" <me>
+wait 120
+input /ma "Mage's Ballad" <me>
+wait 10
+input /ma "Mage's Ballad II" <me>
+wait 120
+input /ma "Mage's Ballad" <me>
+wait 10
+input /ma "Mage's Ballad II" <me>
+wait 120
+input /ma "Mage's Ballad" <me>
+wait 10
+input /ma "Mage's Ballad II" <me>
+wait 120
+input /ma "Mage's Ballad" <me>
+wait 10
+input /ma "Mage's Ballad II" <me>
+wait 120
+input /ma "Mage's Ballad" <me>
+wait 10
+input /ma "Mage's Ballad II" <me>
+wait 120
+input /ma "Mage's Ballad" <me>
+wait 10
+input /ma "Mage's Ballad II" <me>
+wait 120
+input /ma "Mage's Ballad" <me>
+wait 10
+input /ma "Mage's Ballad II" <me>
+wait 120
+input /ma "Mage's Ballad" <me>
+wait 10
+input /ma "Mage's Ballad II" <me>
+wait 120
+input /ma "Mage's Ballad" <me>
+wait 10
+input /ma "Mage's Ballad II" <me>
+wait 120
+input /ma "Mage's Ballad" <me>
+wait 10
+input /ma "Mage's Ballad II" <me>
+wait 120
+input /ma "Mage's Ballad" <me>
+wait 10
+input /ma "Mage's Ballad II" <me>
+wait 120
+input /ma "Mage's Ballad" <me>
+wait 10
+input /ma "Mage's Ballad II" <me>
+wait 120
+input /ma "Mage's Ballad" <me>
+wait 10
+input /ma "Mage's Ballad II" <me>
+wait 120
+input /ma "Mage's Ballad" <me>
+wait 10
+input /ma "Mage's Ballad II" <me>
+wait 120
+input /ma "Mage's Ballad" <me>
+wait 10
+input /ma "Mage's Ballad II" <me>
+wait 120
+input /ma "Mage's Ballad" <me>
+wait 10
+input /ma "Mage's Ballad II" <me>
+wait 120
+input /ma "Mage's Ballad" <me>
+wait 10
+input /ma "Mage's Ballad II" <me>
+wait 120
+input /ma "Mage's Ballad" <me>
+wait 10
+input /ma "Mage's Ballad II" <me>
+wait 120
+input /ma "Mage's Ballad" <me>
+wait 10
+input /ma "Mage's Ballad II" <me>
+wait 120
+input /ma "Mage's Ballad" <me>
+wait 10
+input /ma "Mage's Ballad II" <me>
+wait 120
+input /ma "Mage's Ballad" <me>
+wait 10
+input /ma "Mage's Ballad II" <me>
+wait 120
+input /ma "Mage's Ballad" <me>
+wait 10
+input /ma "Mage's Ballad II" <me>
+wait 120
+input /ma "Mage's Ballad" <me>
+wait 10
+input /ma "Mage's Ballad II" <me>
+wait 120
+input /ma "Mage's Ballad" <me>
+wait 10
+input /ma "Mage's Ballad II" <me>
+wait 120
+input /ma "Mage's Ballad" <me>
+wait 10
+input /ma "Mage's Ballad II" <me>
+wait 120
+input /ma "Mage's Ballad" <me>
+wait 10
+input /ma "Mage's Ballad II" <me>
+wait 120
+input /ma "Mage's Ballad" <me>
+wait 10
+input /ma "Mage's Ballad II" <me>
+wait 120
+input /ma "Mage's Ballad" <me>
+wait 10
+input /ma "Mage's Ballad II" <me>
+wait 120
+input /ma "Mage's Ballad" <me>
+wait 10
+input /ma "Mage's Ballad II" <me>
+wait 120
+input /ma "Mage's Ballad" <me>
+wait 10
+input /ma "Mage's Ballad II" <me>
+wait 120
+input /ma "Mage's Ballad" <me>
+wait 10
+input /ma "Mage's Ballad II" <me>
+wait 120
+input /ma "Mage's Ballad" <me>
+wait 10
+input /ma "Mage's Ballad II" <me>
+wait 120
+input /ma "Mage's Ballad" <me>
+wait 10
+input /ma "Mage's Ballad II" <me>
+wait 120
+input /ma "Mage's Ballad" <me>
+wait 10
+input /ma "Mage's Ballad II" <me>
+wait 120
+input /ma "Mage's Ballad" <me>
+wait 10
+input /ma "Mage's Ballad II" <me>
+wait 120
+input /ma "Mage's Ballad" <me>
+wait 10
+input /ma "Mage's Ballad II" <me>
+wait 120
+input /ma "Mage's Ballad" <me>
+wait 10
+input /ma "Mage's Ballad II" <me>
+wait 120
+input /ma "Mage's Ballad" <me>
+wait 10
+input /ma "Mage's Ballad II" <me>
+wait 120
+input /ma "Mage's Ballad" <me>
+wait 10
+input /ma "Mage's Ballad II" <me>
+wait 120
+input /ma "Mage's Ballad" <me>
+wait 10
+input /ma "Mage's Ballad II" <me>
+wait 120
+input /ma "Mage's Ballad" <me>
+wait 10
+input /ma "Mage's Ballad II" <me>
+wait 120
+input /ma "Mage's Ballad" <me>
+wait 10
+input /ma "Mage's Ballad II" <me>
+wait 120
+input /ma "Mage's Ballad" <me>
+wait 10
+input /ma "Mage's Ballad II" <me>
+wait 120
+input /ma "Mage's Ballad" <me>
+wait 10
+input /ma "Mage's Ballad II" <me>
+wait 120
+input /ma "Mage's Ballad" <me>
+wait 10
+input /ma "Mage's Ballad II" <me>
+wait 120
+input /ma "Mage's Ballad" <me>
+wait 10
+input /ma "Mage's Ballad II" <me>
+wait 120
+input /ma "Mage's Ballad" <me>
+wait 10
+input /ma "Mage's Ballad II" <me>
+wait 120
+input /ma "Mage's Ballad" <me>
+wait 10
+input /ma "Mage's Ballad II" <me>
+wait 120
+input /ma "Mage's Ballad" <me>
+wait 10
+input /ma "Mage's Ballad II" <me>
+wait 120
+input /ma "Mage's Ballad" <me>
+wait 10
+input /ma "Mage's Ballad II" <me>
+wait 120
+input /ma "Mage's Ballad" <me>
+wait 10
+input /ma "Mage's Ballad II" <me>
+wait 120
+input /ma "Mage's Ballad" <me>
+wait 10
+input /ma "Mage's Ballad II" <me>
+wait 120
+input /ma "Mage's Ballad" <me>
+wait 10
+input /ma "Mage's Ballad II" <me>
+wait 120
+input /ma "Mage's Ballad" <me>
+wait 10
+input /ma "Mage's Ballad II" <me>
+wait 120
+input /ma "Mage's Ballad" <me>
+wait 10
+input /ma "Mage's Ballad II" <me>
+wait 120
+input /ma "Mage's Ballad" <me>
+wait 10
+input /ma "Mage's Ballad II" <me>
+wait 120
+input /ma "Mage's Ballad" <me>
+wait 10
+input /ma "Mage's Ballad II" <me>
+wait 120
+input /ma "Mage's Ballad" <me>
+wait 10
+input /ma "Mage's Ballad II" <me>
+wait 120
+input /ma "Mage's Ballad" <me>
+wait 10
+input /ma "Mage's Ballad II" <me>
+wait 120
+input /ma "Mage's Ballad" <me>
+wait 10
+input /ma "Mage's Ballad II" <me>
+wait 120
+input /ma "Mage's Ballad" <me>
+wait 10
+input /ma "Mage's Ballad II" <me>
+wait 120
+input /ma "Mage's Ballad" <me>
+wait 10
+input /ma "Mage's Ballad II" <me>
+wait 120
+input /ma "Mage's Ballad" <me>
+wait 10
+input /ma "Mage's Ballad II" <me>
+wait 120
+input /ma "Mage's Ballad" <me>
+wait 10
+input /ma "Mage's Ballad II" <me>
+wait 120
+input /ma "Mage's Ballad" <me>
+wait 10
+input /ma "Mage's Ballad II" <me>
+wait 120
+input /ma "Mage's Ballad" <me>
+wait 10
+input /ma "Mage's Ballad II" <me>
+wait 120
+input /ma "Mage's Ballad" <me>
+wait 10
+input /ma "Mage's Ballad II" <me>
+wait 120
+input /ma "Mage's Ballad" <me>
+wait 10
+input /ma "Mage's Ballad II" <me>
+wait 120
+input /ma "Mage's Ballad" <me>
+wait 10
+input /ma "Mage's Ballad II" <me>
+wait 120
+input /ma "Mage's Ballad" <me>
+wait 10
+input /ma "Mage's Ballad II" <me>
+wait 120
+input /ma "Mage's Ballad" <me>
+wait 10
+input /ma "Mage's Ballad II" <me>
+wait 120
+input /ma "Mage's Ballad" <me>
+wait 10
+input /ma "Mage's Ballad II" <me>
+wait 120
+input /ma "Mage's Ballad" <me>
+wait 10
+input /ma "Mage's Ballad II" <me>
+wait 120
+input /ma "Mage's Ballad" <me>
+wait 10
+input /ma "Mage's Ballad II" <me>
+wait 120
+input /ma "Mage's Ballad" <me>
+wait 10
+input /ma "Mage's Ballad II" <me>
+wait 120
+input /ma "Mage's Ballad" <me>
+wait 10
+input /ma "Mage's Ballad II" <me>
+wait 120
+input /ma "Mage's Ballad" <me>
+wait 10
+input /ma "Mage's Ballad II" <me>
+wait 120
+input /ma "Mage's Ballad" <me>
+wait 10
+input /ma "Mage's Ballad II" <me>
+wait 120
+input /ma "Mage's Ballad" <me>
+wait 10
+input /ma "Mage's Ballad II" <me>
+wait 120
+input /ma "Mage's Ballad" <me>
+wait 10
+input /ma "Mage's Ballad II" <me>
+wait 120
+input /ma "Mage's Ballad" <me>
+wait 10
+input /ma "Mage's Ballad II" <me>
+wait 120
+input /ma "Mage's Ballad" <me>
+wait 10
+input /ma "Mage's Ballad II" <me>
+wait 120
+input /ma "Mage's Ballad" <me>
+wait 10
+input /ma "Mage's Ballad II" <me>
+wait 120
+input /ma "Mage's Ballad" <me>
+wait 10
+input /ma "Mage's Ballad II" <me>
+wait 120
+input /ma "Mage's Ballad" <me>
+wait 10
+input /ma "Mage's Ballad II" <me>
+wait 120
+input /ma "Mage's Ballad" <me>
+wait 10
+input /ma "Mage's Ballad II" <me>
+wait 120
+input /ma "Mage's Ballad" <me>
+wait 10
+input /ma "Mage's Ballad II" <me>
+wait 120
+input /ma "Mage's Ballad" <me>
+wait 10
+input /ma "Mage's Ballad II" <me>
+wait 120
+input /ma "Mage's Ballad" <me>
+wait 10
+input /ma "Mage's Ballad II" <me>
+wait 120
+input /ma "Mage's Ballad" <me>
+wait 10
+input /ma "Mage's Ballad II" <me>
+wait 120
+input /ma "Mage's Ballad" <me>
+wait 10
+input /ma "Mage's Ballad II" <me>
+wait 120
+input /ma "Mage's Ballad" <me>
+wait 10
+input /ma "Mage's Ballad II" <me>
+wait 120
+input /ma "Mage's Ballad" <me>
+wait 10
+input /ma "Mage's Ballad II" <me>
+wait 120
+input /ma "Mage's Ballad" <me>
+wait 10
+input /ma "Mage's Ballad II" <me>
+wait 120
+input /ma "Mage's Ballad" <me>
+wait 10
+input /ma "Mage's Ballad II" <me>
+wait 120
+input /ma "Mage's Ballad" <me>
+wait 10
+input /ma "Mage's Ballad II" <me>
+wait 120
+input /ma "Mage's Ballad" <me>
+wait 10
+input /ma "Mage's Ballad II" <me>
+wait 120
+input /ma "Mage's Ballad" <me>
+wait 10
+input /ma "Mage's Ballad II" <me>
+wait 120
+input /ma "Mage's Ballad" <me>
+wait 10
+input /ma "Mage's Ballad II" <me>
+wait 120
+input /ma "Mage's Ballad" <me>
+wait 10
+input /ma "Mage's Ballad II" <me>
+wait 120
+input /ma "Mage's Ballad" <me>
+wait 10
+input /ma "Mage's Ballad II" <me>
+wait 120
+input /ma "Mage's Ballad" <me>
+wait 10
+input /ma "Mage's Ballad II" <me>
+wait 120
+input /ma "Mage's Ballad" <me>
+wait 10
+input /ma "Mage's Ballad II" <me>
+wait 120
+input /ma "Mage's Ballad" <me>
+wait 10
+input /ma "Mage's Ballad II" <me>
+wait 120
+input /ma "Mage's Ballad" <me>
+wait 10
+input /ma "Mage's Ballad II" <me>
+wait 120
+input /ma "Mage's Ballad" <me>
+wait 10
+input /ma "Mage's Ballad II" <me>
+wait 120
+input /ma "Mage's Ballad" <me>
+wait 10
+input /ma "Mage's Ballad II" <me>
+wait 120
+input /ma "Mage's Ballad" <me>
+wait 10
+input /ma "Mage's Ballad II" <me>
+wait 120
+input /ma "Mage's Ballad" <me>
+wait 10
+input /ma "Mage's Ballad II" <me>
+wait 120
+input /ma "Mage's Ballad" <me>
+wait 10
+input /ma "Mage's Ballad II" <me>
+wait 120
+input /ma "Mage's Ballad" <me>
+wait 10
+input /ma "Mage's Ballad II" <me>
+wait 120
+input /ma "Mage's Ballad" <me>
+wait 10
+input /ma "Mage's Ballad II" <me>
+wait 120
+input /ma "Mage's Ballad" <me>
+wait 10
+input /ma "Mage's Ballad II" <me>
+wait 120
+input /ma "Mage's Ballad" <me>
+wait 10
+input /ma "Mage's Ballad II" <me>
+wait 120
+input /ma "Mage's Ballad" <me>
+wait 10
+input /ma "Mage's Ballad II" <me>
+wait 120
+input /ma "Mage's Ballad" <me>
+wait 10
+input /ma "Mage's Ballad II" <me>
+wait 120
+input /ma "Mage's Ballad" <me>
+wait 10
+input /ma "Mage's Ballad II" <me>
+wait 120
+input /ma "Mage's Ballad" <me>
+wait 10
+input /ma "Mage's Ballad II" <me>
+wait 120
+input /ma "Mage's Ballad" <me>
+wait 10
+input /ma "Mage's Ballad II" <me>
+wait 120
+input /ma "Mage's Ballad" <me>
+wait 10
+input /ma "Mage's Ballad II" <me>
+wait 120
+input /ma "Mage's Ballad" <me>
+wait 10
+input /ma "Mage's Ballad II" <me>
+wait 120
+input /ma "Mage's Ballad" <me>
+wait 10
+input /ma "Mage's Ballad II" <me>
+wait 120
+input /ma "Mage's Ballad" <me>
+wait 10
+input /ma "Mage's Ballad II" <me>
+wait 120
+input /ma "Mage's Ballad" <me>
+wait 10
+input /ma "Mage's Ballad II" <me>
+wait 120
+input /ma "Mage's Ballad" <me>
+wait 10
+input /ma "Mage's Ballad II" <me>
+wait 120
+input /ma "Mage's Ballad" <me>
+wait 10
+input /ma "Mage's Ballad II" <me>
+wait 120
+input /ma "Mage's Ballad" <me>
+wait 10
+input /ma "Mage's Ballad II" <me>
+wait 120
+input /ma "Mage's Ballad" <me>
+wait 10
+input /ma "Mage's Ballad II" <me>
+wait 120
+input /ma "Mage's Ballad" <me>
+wait 10
+input /ma "Mage's Ballad II" <me>
+wait 120
+input /ma "Mage's Ballad" <me>
+wait 10
+input /ma "Mage's Ballad II" <me>
+wait 120
+input /ma "Mage's Ballad" <me>
+wait 10
+input /ma "Mage's Ballad II" <me>
+wait 120
+input /ma "Mage's Ballad" <me>
+wait 10
+input /ma "Mage's Ballad II" <me>
+wait 120
+input /ma "Mage's Ballad" <me>
+wait 10
+input /ma "Mage's Ballad II" <me>
+wait 120
+input /ma "Mage's Ballad" <me>
+wait 10
+input /ma "Mage's Ballad II" <me>
+wait 120
+input /ma "Mage's Ballad" <me>
+wait 10
+input /ma "Mage's Ballad II" <me>
+wait 120
+input /ma "Mage's Ballad" <me>
+wait 10
+input /ma "Mage's Ballad II" <me>
+wait 120
+input /ma "Mage's Ballad" <me>
+wait 10
+input /ma "Mage's Ballad II" <me>
+wait 120
+input /ma "Mage's Ballad" <me>
+wait 10
+input /ma "Mage's Ballad II" <me>
+wait 120
+input /ma "Mage's Ballad" <me>
+wait 10
+input /ma "Mage's Ballad II" <me>
+wait 120
+input /ma "Mage's Ballad" <me>
+wait 10
+input /ma "Mage's Ballad II" <me>
+wait 120
+input /ma "Mage's Ballad" <me>
+wait 10
+input /ma "Mage's Ballad II" <me>
+wait 120
+input /ma "Mage's Ballad" <me>
+wait 10
+input /ma "Mage's Ballad II" <me>
+wait 120
+input /ma "Mage's Ballad" <me>
+wait 10
+input /ma "Mage's Ballad II" <me>
+wait 120
+input /ma "Mage's Ballad" <me>
+wait 10
+input /ma "Mage's Ballad II" <me>
+wait 120
+input /ma "Mage's Ballad" <me>
+wait 10
+input /ma "Mage's Ballad II" <me>
+wait 120
+input /ma "Mage's Ballad" <me>
+wait 10
+input /ma "Mage's Ballad II" <me>
+wait 120
+input /ma "Mage's Ballad" <me>
+wait 10
+input /ma "Mage's Ballad II" <me>
+wait 120
+input /ma "Mage's Ballad" <me>
+wait 10
+input /ma "Mage's Ballad II" <me>
+wait 120
+input /ma "Mage's Ballad" <me>
+wait 10
+input /ma "Mage's Ballad II" <me>
+wait 120
+input /ma "Mage's Ballad" <me>
+wait 10
+input /ma "Mage's Ballad II" <me>
+wait 120
+input /ma "Mage's Ballad" <me>
+wait 10
+input /ma "Mage's Ballad II" <me>
+wait 120
+input /ma "Mage's Ballad" <me>
+wait 10
+input /ma "Mage's Ballad II" <me>
+wait 120
+input /ma "Mage's Ballad" <me>
+wait 10
+input /ma "Mage's Ballad II" <me>
+wait 120
+input /ma "Mage's Ballad" <me>
+wait 10
+input /ma "Mage's Ballad II" <me>
+wait 120
+input /ma "Mage's Ballad" <me>
+wait 10
+input /ma "Mage's Ballad II" <me>
+wait 120
+input /ma "Mage's Ballad" <me>
+wait 10
+input /ma "Mage's Ballad II" <me>
+wait 120
+input /ma "Mage's Ballad" <me>
+wait 10
+input /ma "Mage's Ballad II" <me>
+wait 120
+input /ma "Mage's Ballad" <me>
+wait 10
+input /ma "Mage's Ballad II" <me>
+wait 120
+input /ma "Mage's Ballad" <me>
+wait 10
+input /ma "Mage's Ballad II" <me>
+wait 120
+input /ma "Mage's Ballad" <me>
+wait 10
+input /ma "Mage's Ballad II" <me>
+wait 120
+input /ma "Mage's Ballad" <me>
+wait 10
+input /ma "Mage's Ballad II" <me>
+wait 120
+input /ma "Mage's Ballad" <me>
+wait 10
+input /ma "Mage's Ballad II" <me>
+wait 120
+input /ma "Mage's Ballad" <me>
+wait 10
+input /ma "Mage's Ballad II" <me>
+wait 120
+input /ma "Mage's Ballad" <me>
+wait 10
+input /ma "Mage's Ballad II" <me>
+wait 120
+input /ma "Mage's Ballad" <me>
+wait 10
+input /ma "Mage's Ballad II" <me>
+wait 120
+input /ma "Mage's Ballad" <me>
+wait 10
+input /ma "Mage's Ballad II" <me>
+wait 120
+input /ma "Mage's Ballad" <me>
+wait 10
+input /ma "Mage's Ballad II" <me>
+wait 120
+input /ma "Mage's Ballad" <me>
+wait 10
+input /ma "Mage's Ballad II" <me>
+wait 120
+input /ma "Mage's Ballad" <me>
+wait 10
+input /ma "Mage's Ballad II" <me>
+wait 120
+input /ma "Mage's Ballad" <me>
+wait 10
+input /ma "Mage's Ballad II" <me>
+wait 120
+input /ma "Mage's Ballad" <me>
+wait 10
+input /ma "Mage's Ballad II" <me>
+wait 120
+input /ma "Mage's Ballad" <me>
+wait 10
+input /ma "Mage's Ballad II" <me>
+wait 120
+input /ma "Mage's Ballad" <me>
+wait 10
+input /ma "Mage's Ballad II" <me>
+wait 120
+input /ma "Mage's Ballad" <me>
+wait 10
+input /ma "Mage's Ballad II" <me>
+wait 120
+input /ma "Mage's Ballad" <me>
+wait 10
+input /ma "Mage's Ballad II" <me>
+wait 120
+input /ma "Mage's Ballad" <me>
+wait 10
+input /ma "Mage's Ballad II" <me>
+wait 120
+input /ma "Mage's Ballad" <me>
+wait 10
+input /ma "Mage's Ballad II" <me>
+wait 120
+input /ma "Mage's Ballad" <me>
+wait 10
+input /ma "Mage's Ballad II" <me>
+wait 120
+input /ma "Mage's Ballad" <me>
+wait 10
+input /ma "Mage's Ballad II" <me>
+wait 120
+input /ma "Mage's Ballad" <me>
+wait 10
+input /ma "Mage's Ballad II" <me>
+wait 120
+input /ma "Mage's Ballad" <me>
+wait 10
+input /ma "Mage's Ballad II" <me>
+wait 120
+input /ma "Mage's Ballad" <me>
+wait 10
+input /ma "Mage's Ballad II" <me>
+wait 120
+input /ma "Mage's Ballad" <me>
+wait 10
+input /ma "Mage's Ballad II" <me>
+wait 120
+input /ma "Mage's Ballad" <me>
+wait 10
+input /ma "Mage's Ballad II" <me>
+wait 120
+input /ma "Mage's Ballad" <me>
+wait 10
+input /ma "Mage's Ballad II" <me>
+wait 120
+input /ma "Mage's Ballad" <me>
+wait 10
+input /ma "Mage's Ballad II" <me>
+wait 120
+input /ma "Mage's Ballad" <me>
+wait 10
+input /ma "Mage's Ballad II" <me>
+wait 120
+input /ma "Mage's Ballad" <me>
+wait 10
+input /ma "Mage's Ballad II" <me>
+wait 120
+input /ma "Mage's Ballad" <me>
+wait 10
+input /ma "Mage's Ballad II" <me>
+wait 120
+input /ma "Mage's Ballad" <me>
+wait 10
+input /ma "Mage's Ballad II" <me>
+wait 120
+input /ma "Mage's Ballad" <me>
+wait 10
+input /ma "Mage's Ballad II" <me>
+wait 120
+input /ma "Mage's Ballad" <me>
+wait 10
+input /ma "Mage's Ballad II" <me>
+wait 120
+input /ma "Mage's Ballad" <me>
+wait 10
+input /ma "Mage's Ballad II" <me>
+wait 120
+input /ma "Mage's Ballad" <me>
+wait 10
+input /ma "Mage's Ballad II" <me>
+wait 120
+input /ma "Mage's Ballad" <me>
+wait 10
+input /ma "Mage's Ballad II" <me>
+wait 120
+input /ma "Mage's Ballad" <me>
+wait 10
+input /ma "Mage's Ballad II" <me>
+wait 120
+input /ma "Mage's Ballad" <me>
+wait 10
+input /ma "Mage's Ballad II" <me>
+wait 120
+input /ma "Mage's Ballad" <me>
+wait 10
+input /ma "Mage's Ballad II" <me>
+wait 120
+input /ma "Mage's Ballad" <me>
+wait 10
+input /ma "Mage's Ballad II" <me>
+wait 120
+input /ma "Mage's Ballad" <me>
+wait 10
+input /ma "Mage's Ballad II" <me>
+wait 120
+input /ma "Mage's Ballad" <me>
+wait 10
+input /ma "Mage's Ballad II" <me>
+wait 120
+input /ma "Mage's Ballad" <me>
+wait 10
+input /ma "Mage's Ballad II" <me>
+wait 120
+input /ma "Mage's Ballad" <me>
+wait 10
+input /ma "Mage's Ballad II" <me>
+wait 120
+input /ma "Mage's Ballad" <me>
+wait 10
+input /ma "Mage's Ballad II" <me>
+wait 120
+input /ma "Mage's Ballad" <me>
+wait 10
+input /ma "Mage's Ballad II" <me>
+wait 120
+input /ma "Mage's Ballad" <me>
+wait 10
+input /ma "Mage's Ballad II" <me>
+wait 120
+input /ma "Mage's Ballad" <me>
+wait 10
+input /ma "Mage's Ballad II" <me>
+wait 120
+input /ma "Mage's Ballad" <me>
+wait 10
+input /ma "Mage's Ballad II" <me>
+wait 120
+input /ma "Mage's Ballad" <me>
+wait 10
+input /ma "Mage's Ballad II" <me>
+wait 120
+input /ma "Mage's Ballad" <me>
+wait 10
+input /ma "Mage's Ballad II" <me>
+wait 120
+input /ma "Mage's Ballad" <me>
+wait 10
+input /ma "Mage's Ballad II" <me>
+wait 120
+input /ma "Mage's Ballad" <me>
+wait 10
+input /ma "Mage's Ballad II" <me>
+wait 120
+input /ma "Mage's Ballad" <me>
+wait 10
+input /ma "Mage's Ballad II" <me>
+wait 120
+input /ma "Mage's Ballad" <me>
+wait 10
+input /ma "Mage's Ballad II" <me>
+wait 120
+input /ma "Mage's Ballad" <me>
+wait 10
+input /ma "Mage's Ballad II" <me>
+wait 120
+input /ma "Mage's Ballad" <me>
+wait 10
+input /ma "Mage's Ballad II" <me>
+wait 120
+input /ma "Mage's Ballad" <me>
+wait 10
+input /ma "Mage's Ballad II" <me>
+wait 120
+input /ma "Mage's Ballad" <me>
+wait 10
+input /ma "Mage's Ballad II" <me>
+wait 120
+input /ma "Mage's Ballad" <me>
+wait 10
+input /ma "Mage's Ballad II" <me>
+wait 120
+input /ma "Mage's Ballad" <me>
+wait 10
+input /ma "Mage's Ballad II" <me>
+wait 120
+input /ma "Mage's Ballad" <me>
+wait 10
+input /ma "Mage's Ballad II" <me>
+wait 120
+input /ma "Mage's Ballad" <me>
+wait 10
+input /ma "Mage's Ballad II" <me>
+wait 120
+input /ma "Mage's Ballad" <me>
+wait 10
+input /ma "Mage's Ballad II" <me>
+wait 120
+input /ma "Mage's Ballad" <me>
+wait 10
+input /ma "Mage's Ballad II" <me>
+wait 120
+input /ma "Mage's Ballad" <me>
+wait 10
+input /ma "Mage's Ballad II" <me>
+wait 120
+input /ma "Mage's Ballad" <me>
+wait 10
+input /ma "Mage's Ballad II" <me>
+wait 120
+input /ma "Mage's Ballad" <me>
+wait 10
+input /ma "Mage's Ballad II" <me>
+wait 120
+input /ma "Mage's Ballad" <me>
+wait 10
+input /ma "Mage's Ballad II" <me>
+wait 120
+input /ma "Mage's Ballad" <me>
+wait 10
+input /ma "Mage's Ballad II" <me>
+wait 120
+input /ma "Mage's Ballad" <me>
+wait 10
+input /ma "Mage's Ballad II" <me>
+wait 120
+input /ma "Mage's Ballad" <me>
+wait 10
+input /ma "Mage's Ballad II" <me>
+wait 120
+input /ma "Mage's Ballad" <me>
+wait 10
+input /ma "Mage's Ballad II" <me>
+wait 120
+input /ma "Mage's Ballad" <me>
+wait 10
+input /ma "Mage's Ballad II" <me>
+wait 120
+input /ma "Mage's Ballad" <me>
+wait 10
+input /ma "Mage's Ballad II" <me>
+wait 120
+input /ma "Mage's Ballad" <me>
+wait 10
+input /ma "Mage's Ballad II" <me>
+wait 120
+input /ma "Mage's Ballad" <me>
+wait 10
+input /ma "Mage's Ballad II" <me>
+wait 120
+input /ma "Mage's Ballad" <me>
+wait 10
+input /ma "Mage's Ballad II" <me>
+wait 120
+input /ma "Mage's Ballad" <me>
+wait 10
+input /ma "Mage's Ballad II" <me>
+wait 120
+input /ma "Mage's Ballad" <me>
+wait 10
+input /ma "Mage's Ballad II" <me>
+wait 120
+input /ma "Mage's Ballad" <me>
+wait 10
+input /ma "Mage's Ballad II" <me>
+wait 120
+input /ma "Mage's Ballad" <me>
+wait 10
+input /ma "Mage's Ballad II" <me>
+wait 120
+input /ma "Mage's Ballad" <me>
+wait 10
+input /ma "Mage's Ballad II" <me>
+wait 120
+input /ma "Mage's Ballad" <me>
+wait 10
+input /ma "Mage's Ballad II" <me>
+wait 120
+input /ma "Mage's Ballad" <me>
+wait 10
+input /ma "Mage's Ballad II" <me>
+wait 120
+input /ma "Mage's Ballad" <me>
+wait 10
+input /ma "Mage's Ballad II" <me>
+wait 120
+input /ma "Mage's Ballad" <me>
+wait 10
+input /ma "Mage's Ballad II" <me>
+wait 120
+input /ma "Mage's Ballad" <me>
+wait 10
+input /ma "Mage's Ballad II" <me>
+wait 120
+input /ma "Mage's Ballad" <me>
+wait 10
+input /ma "Mage's Ballad II" <me>
+wait 120
+input /ma "Mage's Ballad" <me>
+wait 10
+input /ma "Mage's Ballad II" <me>
+wait 120
+input /ma "Mage's Ballad" <me>
+wait 10
+input /ma "Mage's Ballad II" <me>
+wait 120
+input /ma "Mage's Ballad" <me>
+wait 10
+input /ma "Mage's Ballad II" <me>
+wait 120
+input /ma "Mage's Ballad" <me>
+wait 10
+input /ma "Mage's Ballad II" <me>
+wait 120
+input /ma "Mage's Ballad" <me>
+wait 10
+input /ma "Mage's Ballad II" <me>
+wait 120
+input /ma "Mage's Ballad" <me>
+wait 10
+input /ma "Mage's Ballad II" <me>
+wait 120
+input /ma "Mage's Ballad" <me>
+wait 10
+input /ma "Mage's Ballad II" <me>
+wait 120
+input /ma "Mage's Ballad" <me>
+wait 10
+input /ma "Mage's Ballad II" <me>
+wait 120
+input /ma "Mage's Ballad" <me>
+wait 10
+input /ma "Mage's Ballad II" <me>
+wait 120
+input /ma "Mage's Ballad" <me>
+wait 10
+input /ma "Mage's Ballad II" <me>
+wait 120
+input /ma "Mage's Ballad" <me>
+wait 10
+input /ma "Mage's Ballad II" <me>
+wait 120
+input /ma "Mage's Ballad" <me>
+wait 10
+input /ma "Mage's Ballad II" <me>
+wait 120
+input /ma "Mage's Ballad" <me>
+wait 10
+input /ma "Mage's Ballad II" <me>
+wait 120
+input /ma "Mage's Ballad" <me>
+wait 10
+input /ma "Mage's Ballad II" <me>
+wait 120
+input /ma "Mage's Ballad" <me>
+wait 10
+input /ma "Mage's Ballad II" <me>
+wait 120
+input /ma "Mage's Ballad" <me>
+wait 10
+input /ma "Mage's Ballad II" <me>
+wait 120
+input /ma "Mage's Ballad" <me>
+wait 10
+input /ma "Mage's Ballad II" <me>
+wait 120
+input /ma "Mage's Ballad" <me>
+wait 10
+input /ma "Mage's Ballad II" <me>
+wait 120
+input /ma "Mage's Ballad" <me>
+wait 10
+input /ma "Mage's Ballad II" <me>
+wait 120
+input /ma "Mage's Ballad" <me>
+wait 10
+input /ma "Mage's Ballad II" <me>
+wait 120
+input /ma "Mage's Ballad" <me>
+wait 10
+input /ma "Mage's Ballad II" <me>
+wait 120
+input /ma "Mage's Ballad" <me>
+wait 10
+input /ma "Mage's Ballad II" <me>
+wait 120
+input /ma "Mage's Ballad" <me>
+wait 10
+input /ma "Mage's Ballad II" <me>
+wait 120
+input /ma "Mage's Ballad" <me>
+wait 10
+input /ma "Mage's Ballad II" <me>
+wait 120
+input /ma "Mage's Ballad" <me>
+wait 10
+input /ma "Mage's Ballad II" <me>
+wait 120
+input /ma "Mage's Ballad" <me>
+wait 10
+input /ma "Mage's Ballad II" <me>
+wait 120
+input /ma "Mage's Ballad" <me>
+wait 10
+input /ma "Mage's Ballad II" <me>
+wait 120
+input /ma "Mage's Ballad" <me>
+wait 10
+input /ma "Mage's Ballad II" <me>
+wait 120
+input /ma "Mage's Ballad" <me>
+wait 10
+input /ma "Mage's Ballad II" <me>
+wait 120
+input /ma "Mage's Ballad" <me>
+wait 10
+input /ma "Mage's Ballad II" <me>
+wait 120
+input /ma "Mage's Ballad" <me>
+wait 10
+input /ma "Mage's Ballad II" <me>
+wait 120
+input /ma "Mage's Ballad" <me>
+wait 10
+input /ma "Mage's Ballad II" <me>
+wait 120
+input /ma "Mage's Ballad" <me>
+wait 10
+input /ma "Mage's Ballad II" <me>
+wait 120
+input /ma "Mage's Ballad" <me>
+wait 10
+input /ma "Mage's Ballad II" <me>
+wait 120
+input /ma "Mage's Ballad" <me>
+wait 10
+input /ma "Mage's Ballad II" <me>
+wait 120
+input /ma "Mage's Ballad" <me>
+wait 10
+input /ma "Mage's Ballad II" <me>
+wait 120
+input /ma "Mage's Ballad" <me>
+wait 10
+input /ma "Mage's Ballad II" <me>
+wait 120
+input /ma "Mage's Ballad" <me>
+wait 10
+input /ma "Mage's Ballad II" <me>
+wait 120
+input /ma "Mage's Ballad" <me>
+wait 10
+input /ma "Mage's Ballad II" <me>
+wait 120
+input /ma "Mage's Ballad" <me>
+wait 10
+input /ma "Mage's Ballad II" <me>
+wait 120
+input /ma "Mage's Ballad" <me>
+wait 10
+input /ma "Mage's Ballad II" <me>
+wait 120
+input /ma "Mage's Ballad" <me>
+wait 10
+input /ma "Mage's Ballad II" <me>
+wait 120
+input /ma "Mage's Ballad" <me>
+wait 10
+input /ma "Mage's Ballad II" <me>
+wait 120
+input /ma "Mage's Ballad" <me>
+wait 10
+input /ma "Mage's Ballad II" <me>
+wait 120
+input /ma "Mage's Ballad" <me>
+wait 10
+input /ma "Mage's Ballad II" <me>
+wait 120
+input /ma "Mage's Ballad" <me>
+wait 10
+input /ma "Mage's Ballad II" <me>
+wait 120
+input /ma "Mage's Ballad" <me>
+wait 10
+input /ma "Mage's Ballad II" <me>
+wait 120
+input /ma "Mage's Ballad" <me>
+wait 10
+input /ma "Mage's Ballad II" <me>
+wait 120
+input /ma "Mage's Ballad" <me>
+wait 10
+input /ma "Mage's Ballad II" <me>
+wait 120
+input /ma "Mage's Ballad" <me>
+wait 10
+input /ma "Mage's Ballad II" <me>
+wait 120
+input /ma "Mage's Ballad" <me>
+wait 10
+input /ma "Mage's Ballad II" <me>
+wait 120
+input /ma "Mage's Ballad" <me>
+wait 10
+input /ma "Mage's Ballad II" <me>
+wait 120
+input /ma "Mage's Ballad" <me>
+wait 10
+input /ma "Mage's Ballad II" <me>
+wait 120
+input /ma "Mage's Ballad" <me>
+wait 10
+input /ma "Mage's Ballad II" <me>
+wait 120
+input /ma "Mage's Ballad" <me>
+wait 10
+input /ma "Mage's Ballad II" <me>
+wait 120
+input /ma "Mage's Ballad" <me>
+wait 10
+input /ma "Mage's Ballad II" <me>
+wait 120
+input /ma "Mage's Ballad" <me>
+wait 10
+input /ma "Mage's Ballad II" <me>
+wait 120
+input /ma "Mage's Ballad" <me>
+wait 10
+input /ma "Mage's Ballad II" <me>
+wait 120
+input /ma "Mage's Ballad" <me>
+wait 10
+input /ma "Mage's Ballad II" <me>
+wait 120
+input /ma "Mage's Ballad" <me>
+wait 10
+input /ma "Mage's Ballad II" <me>
+wait 120
+input /ma "Mage's Ballad" <me>
+wait 10
+input /ma "Mage's Ballad II" <me>
+wait 120
+input /ma "Mage's Ballad" <me>
+wait 10
+input /ma "Mage's Ballad II" <me>
+wait 120
+input /ma "Mage's Ballad" <me>
+wait 10
+input /ma "Mage's Ballad II" <me>
+wait 120
+input /ma "Mage's Ballad" <me>
+wait 10
+input /ma "Mage's Ballad II" <me>
+wait 120
+input /ma "Mage's Ballad" <me>
+wait 10
+input /ma "Mage's Ballad II" <me>
+wait 120
+input /ma "Mage's Ballad" <me>
+wait 10
+input /ma "Mage's Ballad II" <me>
+wait 120
+input /ma "Mage's Ballad" <me>
+wait 10
+input /ma "Mage's Ballad II" <me>
+wait 120
+input /ma "Mage's Ballad" <me>
+wait 10
+input /ma "Mage's Ballad II" <me>
+wait 120
+input /ma "Mage's Ballad" <me>
+wait 10
+input /ma "Mage's Ballad II" <me>
+wait 120
+input /ma "Mage's Ballad" <me>
+wait 10
+input /ma "Mage's Ballad II" <me>
+wait 120
+input /ma "Mage's Ballad" <me>
+wait 10
+input /ma "Mage's Ballad II" <me>
+wait 120
+input /ma "Mage's Ballad" <me>
+wait 10
+input /ma "Mage's Ballad II" <me>
+wait 120
+input /ma "Mage's Ballad" <me>
+wait 10
+input /ma "Mage's Ballad II" <me>
+wait 120
+input /ma "Mage's Ballad" <me>
+wait 10
+input /ma "Mage's Ballad II" <me>
+wait 120
+input /ma "Mage's Ballad" <me>
+wait 10
+input /ma "Mage's Ballad II" <me>
+wait 120
+input /ma "Mage's Ballad" <me>
+wait 10
+input /ma "Mage's Ballad II" <me>
+wait 120
+input /ma "Mage's Ballad" <me>
+wait 10
+input /ma "Mage's Ballad II" <me>
+wait 120
+input /ma "Mage's Ballad" <me>
+wait 10
+input /ma "Mage's Ballad II" <me>
+wait 120
+input /ma "Mage's Ballad" <me>
+wait 10
+input /ma "Mage's Ballad II" <me>
+wait 120
+input /ma "Mage's Ballad" <me>
+wait 10
+input /ma "Mage's Ballad II" <me>
+wait 120
+input /ma "Mage's Ballad" <me>
+wait 10
+input /ma "Mage's Ballad II" <me>
+wait 120
+input /ma "Mage's Ballad" <me>
+wait 10
+input /ma "Mage's Ballad II" <me>
+wait 120
+input /ma "Mage's Ballad" <me>
+wait 10
+input /ma "Mage's Ballad II" <me>
+wait 120
+input /ma "Mage's Ballad" <me>
+wait 10
+input /ma "Mage's Ballad II" <me>
+wait 120
+input /ma "Mage's Ballad" <me>
+wait 10
+input /ma "Mage's Ballad II" <me>
+wait 120
+input /ma "Mage's Ballad" <me>
+wait 10
+input /ma "Mage's Ballad II" <me>
+wait 120
+input /ma "Mage's Ballad" <me>
+wait 10
+input /ma "Mage's Ballad II" <me>
+wait 120
+input /ma "Mage's Ballad" <me>
+wait 10
+input /ma "Mage's Ballad II" <me>
+wait 120
+input /ma "Mage's Ballad" <me>
+wait 10
+input /ma "Mage's Ballad II" <me>
+wait 120
+input /ma "Mage's Ballad" <me>
+wait 10
+input /ma "Mage's Ballad II" <me>
+wait 120
+input /ma "Mage's Ballad" <me>
+wait 10
+input /ma "Mage's Ballad II" <me>
+wait 120
+input /ma "Mage's Ballad" <me>
+wait 10
+input /ma "Mage's Ballad II" <me>
+wait 120
+input /ma "Mage's Ballad" <me>
+wait 10
+input /ma "Mage's Ballad II" <me>
+wait 120
+input /ma "Mage's Ballad" <me>
+wait 10
+input /ma "Mage's Ballad II" <me>
+wait 120
+input /ma "Mage's Ballad" <me>
+wait 10
+input /ma "Mage's Ballad II" <me>
+wait 120
+input /ma "Mage's Ballad" <me>
+wait 10
+input /ma "Mage's Ballad II" <me>
+wait 120
+input /ma "Mage's Ballad" <me>
+wait 10
+input /ma "Mage's Ballad II" <me>
+wait 120
+input /ma "Mage's Ballad" <me>
+wait 10
+input /ma "Mage's Ballad II" <me>
+wait 120
+input /ma "Mage's Ballad" <me>
+wait 10
+input /ma "Mage's Ballad II" <me>
+wait 120
+input /ma "Mage's Ballad" <me>
+wait 10
+input /ma "Mage's Ballad II" <me>
+wait 120
+input /ma "Mage's Ballad" <me>
+wait 10
+input /ma "Mage's Ballad II" <me>
+wait 120
+input /ma "Mage's Ballad" <me>
+wait 10
+input /ma "Mage's Ballad II" <me>
+wait 120
+input /ma "Mage's Ballad" <me>
+wait 10
+input /ma "Mage's Ballad II" <me>
+wait 120
+input /ma "Mage's Ballad" <me>
+wait 10
+input /ma "Mage's Ballad II" <me>
+wait 120
+input /ma "Mage's Ballad" <me>
+wait 10
+input /ma "Mage's Ballad II" <me>
+wait 120
+input /ma "Mage's Ballad" <me>
+wait 10
+input /ma "Mage's Ballad II" <me>
+wait 120
+input /ma "Mage's Ballad" <me>
+wait 10
+input /ma "Mage's Ballad II" <me>
+wait 120
+input /ma "Mage's Ballad" <me>
+wait 10
+input /ma "Mage's Ballad II" <me>
+wait 120
+input /ma "Mage's Ballad" <me>
+wait 10
+input /ma "Mage's Ballad II" <me>
+wait 120
+input /ma "Mage's Ballad" <me>
+wait 10
+input /ma "Mage's Ballad II" <me>
+wait 120
+input /ma "Mage's Ballad" <me>
+wait 10
+input /ma "Mage's Ballad II" <me>
+wait 120
+input /ma "Mage's Ballad" <me>
+wait 10
+input /ma "Mage's Ballad II" <me>
+wait 120
+input /ma "Mage's Ballad" <me>
+wait 10
+input /ma "Mage's Ballad II" <me>
+wait 120
+input /ma "Mage's Ballad" <me>
+wait 10
+input /ma "Mage's Ballad II" <me>
+wait 120
+input /ma "Mage's Ballad" <me>
+wait 10
+input /ma "Mage's Ballad II" <me>
+wait 120
+input /ma "Mage's Ballad" <me>
+wait 10
+input /ma "Mage's Ballad II" <me>
+wait 120
+input /ma "Mage's Ballad" <me>
+wait 10
+input /ma "Mage's Ballad II" <me>
+wait 120
+input /ma "Mage's Ballad" <me>
+wait 10
+input /ma "Mage's Ballad II" <me>
+wait 120
+input /ma "Mage's Ballad" <me>
+wait 10
+input /ma "Mage's Ballad II" <me>
+wait 120
+input /ma "Mage's Ballad" <me>
+wait 10
+input /ma "Mage's Ballad II" <me>
+wait 120
+input /ma "Mage's Ballad" <me>
+wait 10
+input /ma "Mage's Ballad II" <me>
+wait 120
+input /ma "Mage's Ballad" <me>
+wait 10
+input /ma "Mage's Ballad II" <me>
+wait 120
+input /ma "Mage's Ballad" <me>
+wait 10
+input /ma "Mage's Ballad II" <me>
+wait 120
+input /ma "Mage's Ballad" <me>
+wait 10
+input /ma "Mage's Ballad II" <me>
+wait 120
+input /ma "Mage's Ballad" <me>
+wait 10
+input /ma "Mage's Ballad II" <me>
+wait 120
+input /ma "Mage's Ballad" <me>
+wait 10
+input /ma "Mage's Ballad II" <me>
+wait 120
+input /ma "Mage's Ballad" <me>
+wait 10
+input /ma "Mage's Ballad II" <me>
+wait 120
+input /ma "Mage's Ballad" <me>
+wait 10
+input /ma "Mage's Ballad II" <me>
+wait 120
+input /ma "Mage's Ballad" <me>
+wait 10
+input /ma "Mage's Ballad II" <me>
+wait 120
+input /ma "Mage's Ballad" <me>
+wait 10
+input /ma "Mage's Ballad II" <me>
+wait 120
+input /ma "Mage's Ballad" <me>
+wait 10
+input /ma "Mage's Ballad II" <me>
+wait 120
+input /ma "Mage's Ballad" <me>
+wait 10
+input /ma "Mage's Ballad II" <me>
+wait 120
+input /ma "Mage's Ballad" <me>
+wait 10
+input /ma "Mage's Ballad II" <me>
+wait 120
+input /ma "Mage's Ballad" <me>
+wait 10
+input /ma "Mage's Ballad II" <me>
+wait 120
+input /ma "Mage's Ballad" <me>
+wait 10
+input /ma "Mage's Ballad II" <me>
+wait 120
+input /ma "Mage's Ballad" <me>
+wait 10
+input /ma "Mage's Ballad II" <me>
+wait 120
+input /ma "Mage's Ballad" <me>
+wait 10
+input /ma "Mage's Ballad II" <me>
+wait 120
+input /ma "Mage's Ballad" <me>
+wait 10
+input /ma "Mage's Ballad II" <me>
+wait 120
+input /ma "Mage's Ballad" <me>
+wait 10
+input /ma "Mage's Ballad II" <me>
+wait 120
+input /ma "Mage's Ballad" <me>
+wait 10
+input /ma "Mage's Ballad II" <me>
+wait 120
+input /ma "Mage's Ballad" <me>
+wait 10
+input /ma "Mage's Ballad II" <me>
+wait 120
+input /ma "Mage's Ballad" <me>
+wait 10
+input /ma "Mage's Ballad II" <me>
+wait 120
+input /ma "Mage's Ballad" <me>
+wait 10
+input /ma "Mage's Ballad II" <me>
+wait 120
+input /ma "Mage's Ballad" <me>
+wait 10
+input /ma "Mage's Ballad II" <me>
+wait 120
+input /ma "Mage's Ballad" <me>
+wait 10
+input /ma "Mage's Ballad II" <me>
+wait 120
+input /ma "Mage's Ballad" <me>
+wait 10
+input /ma "Mage's Ballad II" <me>
+wait 120
+input /ma "Mage's Ballad" <me>
+wait 10
+input /ma "Mage's Ballad II" <me>
+wait 120
+input /ma "Mage's Ballad" <me>
+wait 10
+input /ma "Mage's Ballad II" <me>
+wait 120
+input /ma "Mage's Ballad" <me>
+wait 10
+input /ma "Mage's Ballad II" <me>
+wait 120
+input /ma "Mage's Ballad" <me>
+wait 10
+input /ma "Mage's Ballad II" <me>
+wait 120
+input /ma "Mage's Ballad" <me>
+wait 10
+input /ma "Mage's Ballad II" <me>
+wait 120
+input /ma "Mage's Ballad" <me>
+wait 10
+input /ma "Mage's Ballad II" <me>
+wait 120
+input /ma "Mage's Ballad" <me>
+wait 10
+input /ma "Mage's Ballad II" <me>
+wait 120
+input /ma "Mage's Ballad" <me>
+wait 10
+input /ma "Mage's Ballad II" <me>
+wait 120
+input /ma "Mage's Ballad" <me>
+wait 10
+input /ma "Mage's Ballad II" <me>
+wait 120
+input /ma "Mage's Ballad" <me>
+wait 10
+input /ma "Mage's Ballad II" <me>
+wait 120
+input /ma "Mage's Ballad" <me>
+wait 10
+input /ma "Mage's Ballad II" <me>
+wait 120
+input /ma "Mage's Ballad" <me>
+wait 10
+input /ma "Mage's Ballad II" <me>
+wait 120
+input /ma "Mage's Ballad" <me>
+wait 10
+input /ma "Mage's Ballad II" <me>
+wait 120
+input /ma "Mage's Ballad" <me>
+wait 10
+input /ma "Mage's Ballad II" <me>
+wait 120
+input /ma "Mage's Ballad" <me>
+wait 10
+input /ma "Mage's Ballad II" <me>
+wait 120
+input /ma "Mage's Ballad" <me>
+wait 10
+input /ma "Mage's Ballad II" <me>
+wait 120
+input /ma "Mage's Ballad" <me>
+wait 10
+input /ma "Mage's Ballad II" <me>
+wait 120
+input /ma "Mage's Ballad" <me>
+wait 10
+input /ma "Mage's Ballad II" <me>
+wait 120
+input /ma "Mage's Ballad" <me>
+wait 10
+input /ma "Mage's Ballad II" <me>
+wait 120
+input /ma "Mage's Ballad" <me>
+wait 10
+input /ma "Mage's Ballad II" <me>
+wait 120
+input /ma "Mage's Ballad" <me>
+wait 10
+input /ma "Mage's Ballad II" <me>
+wait 120
+input /ma "Mage's Ballad" <me>
+wait 10
+input /ma "Mage's Ballad II" <me>
+wait 120
+input /ma "Mage's Ballad" <me>
+wait 10
+input /ma "Mage's Ballad II" <me>
+wait 120
+input /ma "Mage's Ballad" <me>
+wait 10
+input /ma "Mage's Ballad II" <me>
+wait 120
+input /ma "Mage's Ballad" <me>
+wait 10
+input /ma "Mage's Ballad II" <me>
+wait 120
+input /ma "Mage's Ballad" <me>
+wait 10
+input /ma "Mage's Ballad II" <me>
+wait 120
+input /ma "Mage's Ballad" <me>
+wait 10
+input /ma "Mage's Ballad II" <me>
+wait 120
+input /ma "Mage's Ballad" <me>
+wait 10
+input /ma "Mage's Ballad II" <me>
+wait 120
+input /ma "Mage's Ballad" <me>
+wait 10
+input /ma "Mage's Ballad II" <me>
+wait 120
+input /ma "Mage's Ballad" <me>
+wait 10
+input /ma "Mage's Ballad II" <me>
+wait 120
+input /ma "Mage's Ballad" <me>
+wait 10
+input /ma "Mage's Ballad II" <me>
+wait 120
+input /ma "Mage's Ballad" <me>
+wait 10
+input /ma "Mage's Ballad II" <me>
+wait 120
+input /ma "Mage's Ballad" <me>
+wait 10
+input /ma "Mage's Ballad II" <me>
+wait 120
+input /ma "Mage's Ballad" <me>
+wait 10
+input /ma "Mage's Ballad II" <me>
+wait 120
+input /ma "Mage's Ballad" <me>
+wait 10
+input /ma "Mage's Ballad II" <me>
+wait 120
+input /ma "Mage's Ballad" <me>
+wait 10
+input /ma "Mage's Ballad II" <me>
+wait 120
+input /ma "Mage's Ballad" <me>
+wait 10
+input /ma "Mage's Ballad II" <me>
+wait 120
+input /ma "Mage's Ballad" <me>
+wait 10
+input /ma "Mage's Ballad II" <me>
+wait 120
+input /ma "Mage's Ballad" <me>
+wait 10
+input /ma "Mage's Ballad II" <me>
+wait 120
+input /ma "Mage's Ballad" <me>
+wait 10
+input /ma "Mage's Ballad II" <me>
+wait 120
+input /ma "Mage's Ballad" <me>
+wait 10
+input /ma "Mage's Ballad II" <me>
+wait 120
+input /ma "Mage's Ballad" <me>
+wait 10
+input /ma "Mage's Ballad II" <me>
+wait 120
+input /ma "Mage's Ballad" <me>
+wait 10
+input /ma "Mage's Ballad II" <me>
+wait 120
+input /ma "Mage's Ballad" <me>
+wait 10
+input /ma "Mage's Ballad II" <me>
+wait 120
+input /ma "Mage's Ballad" <me>
+wait 10
+input /ma "Mage's Ballad II" <me>
+wait 120
+input /ma "Mage's Ballad" <me>
+wait 10
+input /ma "Mage's Ballad II" <me>
+wait 120
+input /ma "Mage's Ballad" <me>
+wait 10
+input /ma "Mage's Ballad II" <me>
+wait 120
+input /ma "Mage's Ballad" <me>
+wait 10
+input /ma "Mage's Ballad II" <me>
+wait 120
+input /ma "Mage's Ballad" <me>
+wait 10
+input /ma "Mage's Ballad II" <me>
+wait 120
+input /ma "Mage's Ballad" <me>
+wait 10
+input /ma "Mage's Ballad II" <me>
+wait 120
+input /ma "Mage's Ballad" <me>
+wait 10
+input /ma "Mage's Ballad II" <me>
+wait 120
+input /ma "Mage's Ballad" <me>
+wait 10
+input /ma "Mage's Ballad II" <me>
+wait 120
+input /ma "Mage's Ballad" <me>
+wait 10
+input /ma "Mage's Ballad II" <me>
+wait 120
+input /ma "Mage's Ballad" <me>
+wait 10
+input /ma "Mage's Ballad II" <me>
+wait 120
+input /ma "Mage's Ballad" <me>
+wait 10
+input /ma "Mage's Ballad II" <me>
+wait 120
+input /ma "Mage's Ballad" <me>
+wait 10
+input /ma "Mage's Ballad II" <me>
+wait 120
+input /ma "Mage's Ballad" <me>
+wait 10
+input /ma "Mage's Ballad II" <me>
+wait 120
+input /ma "Mage's Ballad" <me>
+wait 10
+input /ma "Mage's Ballad II" <me>
+wait 120
+input /ma "Mage's Ballad" <me>
+wait 10
+input /ma "Mage's Ballad II" <me>
+wait 120
+input /ma "Mage's Ballad" <me>
+wait 10
+input /ma "Mage's Ballad II" <me>
+wait 120
+input /ma "Mage's Ballad" <me>
+wait 10
+input /ma "Mage's Ballad II" <me>
+wait 120
+input /ma "Mage's Ballad" <me>
+wait 10
+input /ma "Mage's Ballad II" <me>
+wait 120
+input /ma "Mage's Ballad" <me>
+wait 10
+input /ma "Mage's Ballad II" <me>
+wait 120
+input /ma "Mage's Ballad" <me>
+wait 10
+input /ma "Mage's Ballad II" <me>
+wait 120
+input /ma "Mage's Ballad" <me>
+wait 10
+input /ma "Mage's Ballad II" <me>
+wait 120
+input /ma "Mage's Ballad" <me>
+wait 10
+input /ma "Mage's Ballad II" <me>
+wait 120
+input /ma "Mage's Ballad" <me>
+wait 10
+input /ma "Mage's Ballad II" <me>
+wait 120
+input /ma "Mage's Ballad" <me>
+wait 10
+input /ma "Mage's Ballad II" <me>
+wait 120
+input /ma "Mage's Ballad" <me>
+wait 10
+input /ma "Mage's Ballad II" <me>
+wait 120
+input /ma "Mage's Ballad" <me>
+wait 10
+input /ma "Mage's Ballad II" <me>
+wait 120
+input /ma "Mage's Ballad" <me>
+wait 10
+input /ma "Mage's Ballad II" <me>
+wait 120
+input /ma "Mage's Ballad" <me>
+wait 10
+input /ma "Mage's Ballad II" <me>
+wait 120
+input /ma "Mage's Ballad" <me>
+wait 10
+input /ma "Mage's Ballad II" <me>
+wait 120
+input /ma "Mage's Ballad" <me>
+wait 10
+input /ma "Mage's Ballad II" <me>
+wait 120
+input /ma "Mage's Ballad" <me>
+wait 10
+input /ma "Mage's Ballad II" <me>
+wait 120
+input /ma "Mage's Ballad" <me>
+wait 10
+input /ma "Mage's Ballad II" <me>
+wait 120
+input /ma "Mage's Ballad" <me>
+wait 10
+input /ma "Mage's Ballad II" <me>
+wait 120
+input /ma "Mage's Ballad" <me>
+wait 10
+input /ma "Mage's Ballad II" <me>
+wait 120
+input /ma "Mage's Ballad" <me>
+wait 10
+input /ma "Mage's Ballad II" <me>
+wait 120
+input /ma "Mage's Ballad" <me>
+wait 10
+input /ma "Mage's Ballad II" <me>
+wait 120
+input /ma "Mage's Ballad" <me>
+wait 10
+input /ma "Mage's Ballad II" <me>
+wait 120
+input /ma "Mage's Ballad" <me>
+wait 10
+input /ma "Mage's Ballad II" <me>
+wait 120
+input /ma "Mage's Ballad" <me>
+wait 10
+input /ma "Mage's Ballad II" <me>
+wait 120
+input /ma "Mage's Ballad" <me>
+wait 10
+input /ma "Mage's Ballad II" <me>
+wait 120
+input /ma "Mage's Ballad" <me>
+wait 10
+input /ma "Mage's Ballad II" <me>
+wait 120
+input /ma "Mage's Ballad" <me>
+wait 10
+input /ma "Mage's Ballad II" <me>
+wait 120
+input /ma "Mage's Ballad" <me>
+wait 10
+input /ma "Mage's Ballad II" <me>
+wait 120
+input /ma "Mage's Ballad" <me>
+wait 10
+input /ma "Mage's Ballad II" <me>
+wait 120
+input /ma "Mage's Ballad" <me>
+wait 10
+input /ma "Mage's Ballad II" <me>
+wait 120
+input /ma "Mage's Ballad" <me>
+wait 10
+input /ma "Mage's Ballad II" <me>
+wait 120
+input /ma "Mage's Ballad" <me>
+wait 10
+input /ma "Mage's Ballad II" <me>
+wait 120
+input /ma "Mage's Ballad" <me>
+wait 10
+input /ma "Mage's Ballad II" <me>
+wait 120
+input /ma "Mage's Ballad" <me>
+wait 10
+input /ma "Mage's Ballad II" <me>
+wait 120
+input /ma "Mage's Ballad" <me>
+wait 10
+input /ma "Mage's Ballad II" <me>
+wait 120
+input /ma "Mage's Ballad" <me>
+wait 10
+input /ma "Mage's Ballad II" <me>
+wait 120
+input /ma "Mage's Ballad" <me>
+wait 10
+input /ma "Mage's Ballad II" <me>
+wait 120
+input /ma "Mage's Ballad" <me>
+wait 10
+input /ma "Mage's Ballad II" <me>
+wait 120
+input /ma "Mage's Ballad" <me>
+wait 10
+input /ma "Mage's Ballad II" <me>
+wait 120
+input /ma "Mage's Ballad" <me>
+wait 10
+input /ma "Mage's Ballad II" <me>
+wait 120
+input /ma "Mage's Ballad" <me>
+wait 10
+input /ma "Mage's Ballad II" <me>
+wait 120
+input /ma "Mage's Ballad" <me>
+wait 10
+input /ma "Mage's Ballad II" <me>
+wait 120
+input /ma "Mage's Ballad" <me>
+wait 10
+input /ma "Mage's Ballad II" <me>
+wait 120
+input /ma "Mage's Ballad" <me>
+wait 10
+input /ma "Mage's Ballad II" <me>
+wait 120
+input /ma "Mage's Ballad" <me>
+wait 10
+input /ma "Mage's Ballad II" <me>
+wait 120
+input /ma "Mage's Ballad" <me>
+wait 10
+input /ma "Mage's Ballad II" <me>
+wait 120
+input /ma "Mage's Ballad" <me>
+wait 10
+input /ma "Mage's Ballad II" <me>
+wait 120
+input /ma "Mage's Ballad" <me>
+wait 10
+input /ma "Mage's Ballad II" <me>
+wait 120
+input /ma "Mage's Ballad" <me>
+wait 10
+input /ma "Mage's Ballad II" <me>
+wait 120
+input /ma "Mage's Ballad" <me>
+wait 10
+input /ma "Mage's Ballad II" <me>
+wait 120
+input /ma "Mage's Ballad" <me>
+wait 10
+input /ma "Mage's Ballad II" <me>
+wait 120
+input /ma "Mage's Ballad" <me>
+wait 10
+input /ma "Mage's Ballad II" <me>
+wait 120
+input /ma "Mage's Ballad" <me>
+wait 10
+input /ma "Mage's Ballad II" <me>
+wait 120
+input /ma "Mage's Ballad" <me>
+wait 10
+input /ma "Mage's Ballad II" <me>
+wait 120
+input /ma "Mage's Ballad" <me>
+wait 10
+input /ma "Mage's Ballad II" <me>
+wait 120
+input /ma "Mage's Ballad" <me>
+wait 10
+input /ma "Mage's Ballad II" <me>
+wait 120
+input /ma "Mage's Ballad" <me>
+wait 10
+input /ma "Mage's Ballad II" <me>
+wait 120
+input /ma "Mage's Ballad" <me>
+wait 10
+input /ma "Mage's Ballad II" <me>
+wait 120
+input /ma "Mage's Ballad" <me>
+wait 10
+input /ma "Mage's Ballad II" <me>
+wait 120
+input /ma "Mage's Ballad" <me>
+wait 10
+input /ma "Mage's Ballad II" <me>
+wait 120
+input /ma "Mage's Ballad" <me>
+wait 10
+input /ma "Mage's Ballad II" <me>
+wait 120
+input /ma "Mage's Ballad" <me>
+wait 10
+input /ma "Mage's Ballad II" <me>
+wait 120
+input /ma "Mage's Ballad" <me>
+wait 10
+input /ma "Mage's Ballad II" <me>
+wait 120
+input /ma "Mage's Ballad" <me>
+wait 10
+input /ma "Mage's Ballad II" <me>
+wait 120
+input /ma "Mage's Ballad" <me>
+wait 10
+input /ma "Mage's Ballad II" <me>
+wait 120
+input /ma "Mage's Ballad" <me>
+wait 10
+input /ma "Mage's Ballad II" <me>
+wait 120
+input /ma "Mage's Ballad" <me>
+wait 10
+input /ma "Mage's Ballad II" <me>
+wait 120
+input /ma "Mage's Ballad" <me>
+wait 10
+input /ma "Mage's Ballad II" <me>
+wait 120
+input /ma "Mage's Ballad" <me>
+wait 10
+input /ma "Mage's Ballad II" <me>
+wait 120
+input /ma "Mage's Ballad" <me>
+wait 10
+input /ma "Mage's Ballad II" <me>
+wait 120
+input /ma "Mage's Ballad" <me>
+wait 10
+input /ma "Mage's Ballad II" <me>
+wait 120
+input /ma "Mage's Ballad" <me>
+wait 10
+input /ma "Mage's Ballad II" <me>
+wait 120
+input /ma "Mage's Ballad" <me>
+wait 10
+input /ma "Mage's Ballad II" <me>
+wait 120
+input /ma "Mage's Ballad" <me>
+wait 10
+input /ma "Mage's Ballad II" <me>
+wait 120
+input /ma "Mage's Ballad" <me>
+wait 10
+input /ma "Mage's Ballad II" <me>
+wait 120
+input /ma "Mage's Ballad" <me>
+wait 10
+input /ma "Mage's Ballad II" <me>
+wait 120
+input /ma "Mage's Ballad" <me>
+wait 10
+input /ma "Mage's Ballad II" <me>
+wait 120
+input /ma "Mage's Ballad" <me>
+wait 10
+input /ma "Mage's Ballad II" <me>
+wait 120
+input /ma "Mage's Ballad" <me>
+wait 10
+input /ma "Mage's Ballad II" <me>
+wait 120
+input /ma "Mage's Ballad" <me>
+wait 10
+input /ma "Mage's Ballad II" <me>
+wait 120
+input /ma "Mage's Ballad" <me>
+wait 10
+input /ma "Mage's Ballad II" <me>
+wait 120
+input /ma "Mage's Ballad" <me>
+wait 10
+input /ma "Mage's Ballad II" <me>
+wait 120
+input /ma "Mage's Ballad" <me>
+wait 10
+input /ma "Mage's Ballad II" <me>
+wait 120
+input /ma "Mage's Ballad" <me>
+wait 10
+input /ma "Mage's Ballad II" <me>
+wait 120
+input /ma "Mage's Ballad" <me>
+wait 10
+input /ma "Mage's Ballad II" <me>
+wait 120
+input /ma "Mage's Ballad" <me>
+wait 10
+input /ma "Mage's Ballad II" <me>
+wait 120
+input /ma "Mage's Ballad" <me>
+wait 10
+input /ma "Mage's Ballad II" <me>
+wait 120
+input /ma "Mage's Ballad" <me>
+wait 10
+input /ma "Mage's Ballad II" <me>
+wait 120
+input /ma "Mage's Ballad" <me>
+wait 10
+input /ma "Mage's Ballad II" <me>
+wait 120
+input /ma "Mage's Ballad" <me>
+wait 10
+input /ma "Mage's Ballad II" <me>
+wait 120
+input /ma "Mage's Ballad" <me>
+wait 10
+input /ma "Mage's Ballad II" <me>
+wait 120
+input /ma "Mage's Ballad" <me>
+wait 10
+input /ma "Mage's Ballad II" <me>
+wait 120
+input /ma "Mage's Ballad" <me>
+wait 10
+input /ma "Mage's Ballad II" <me>
+wait 120
+input /ma "Mage's Ballad" <me>
+wait 10
+input /ma "Mage's Ballad II" <me>
+wait 120
+input /ma "Mage's Ballad" <me>
+wait 10
+input /ma "Mage's Ballad II" <me>
+wait 120

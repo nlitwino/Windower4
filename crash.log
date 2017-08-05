@@ -1,0 +1,17 @@
+`````````````````````````````````````````````````````````````````````
+[ 4.3.6328.2702 ] 2017-04-29 16:33:41.4165951 UTC
+---------------------------------------------------------------------
+System.ComponentModel.Win32Exception (0x80004005): The parameter is incorrect
+   at Windower.Core.Injector.SetMemoryAccess(IntPtr address, Int32 length, UInt32 access)
+   at Windower.Core.Injector.RunProcessInitialization()
+   at Windower.Core.Injector.Inject(String dllPath)
+   at Launcher.PlayOnlineLauncher.Launch(String hook, Profile profile, Boolean debug, TimeSpan timeout)
+   at Launcher.Tasks.LaunchTask.Run()
+   at Launcher.Tasks.Task.Run(Core core)
+   at Launcher.Core.Run()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.ThreadHelper.ThreadStart()
+`````````````````````````````````````````````````````````````````````
+

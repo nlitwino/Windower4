@@ -1,0 +1,630 @@
+input /ma "Bio" <t>
+wait 8
+input /ma "Bio" <t>
+wait 8
+input /ma "Bio" <t>
+wait 8
+input /ma "Bio" <t>
+wait 8
+input /ma "Bio" <t>
+wait 8
+input /ma "Bio" <t>
+wait 8
+input /ma "Bio" <t>
+wait 8
+input /ma "Bio" <t>
+wait 8
+input /ma "Bio" <t>
+wait 8
+input /ma "Bio" <t>
+wait 8
+input /ma "Bio" <t>
+wait 8
+input /ma "Bio" <t>
+wait 8
+input /ma "Bio" <t>
+wait 8
+input /ma "Bio" <t>
+wait 8
+input /ma "Bio" <t>
+wait 8
+input /ma "Bio" <t>
+wait 8
+input /ma "Bio" <t>
+wait 8
+input /ma "Bio" <t>
+wait 8
+input /ma "Bio" <t>
+wait 8
+input /ma "Bio" <t>
+wait 8
+input /ma "Bio" <t>
+wait 8
+input /ma "Bio" <t>
+wait 8
+input /ma "Bio" <t>
+wait 8
+input /ma "Bio" <t>
+wait 8
+input /ma "Bio" <t>
+wait 8
+input /ma "Bio" <t>
+wait 8
+input /ma "Bio" <t>
+wait 8
+input /ma "Bio" <t>
+wait 8
+input /ma "Bio" <t>
+wait 8
+input /ma "Bio" <t>
+wait 8
+input /ma "Bio" <t>
+wait 8
+input /ma "Bio" <t>
+wait 8
+input /ma "Bio" <t>
+wait 8
+input /ma "Bio" <t>
+wait 8
+input /ma "Bio" <t>
+wait 8
+input /ma "Bio" <t>
+wait 8
+input /ma "Bio" <t>
+wait 8
+input /ma "Bio" <t>
+wait 8
+input /ma "Bio" <t>
+wait 8
+input /ma "Bio" <t>
+wait 8
+input /ma "Bio" <t>
+wait 8
+input /ma "Bio" <t>
+wait 8
+input /ma "Bio" <t>
+wait 8
+input /ma "Bio" <t>
+wait 8
+input /ma "Bio" <t>
+wait 8
+input /ma "Bio" <t>
+wait 8
+input /ma "Bio" <t>
+wait 8
+input /ma "Bio" <t>
+wait 8
+input /ma "Bio" <t>
+wait 8
+input /ma "Bio" <t>
+wait 8
+input /ma "Bio" <t>
+wait 8
+input /ma "Bio" <t>
+wait 8
+input /ma "Bio" <t>
+wait 8
+input /ma "Bio" <t>
+wait 8
+input /ma "Bio" <t>
+wait 8
+input /ma "Bio" <t>
+wait 8
+input /ma "Bio" <t>
+wait 8
+input /ma "Bio" <t>
+wait 8
+input /ma "Bio" <t>
+wait 8
+input /ma "Bio" <t>
+wait 8
+input /ma "Bio" <t>
+wait 8
+input /ma "Bio" <t>
+wait 8
+input /ma "Bio" <t>
+wait 8
+input /ma "Bio" <t>
+wait 8
+input /ma "Bio" <t>
+wait 8
+input /ma "Bio" <t>
+wait 8
+input /ma "Bio" <t>
+wait 8
+input /ma "Bio" <t>
+wait 8
+input /ma "Bio" <t>
+wait 8
+input /ma "Bio" <t>
+wait 8
+input /ma "Bio" <t>
+wait 8
+input /ma "Bio" <t>
+wait 8
+input /ma "Bio" <t>
+wait 8
+input /ma "Bio" <t>
+wait 8
+input /ma "Bio" <t>
+wait 8
+input /ma "Bio" <t>
+wait 8
+input /ma "Bio" <t>
+wait 8
+input /ma "Bio" <t>
+wait 8
+input /ma "Bio" <t>
+wait 8
+input /ma "Bio" <t>
+wait 8
+input /ma "Bio" <t>
+wait 8
+input /ma "Bio" <t>
+wait 8
+input /ma "Bio" <t>
+wait 8
+input /ma "Bio" <t>
+wait 8
+input /ma "Bio" <t>
+wait 8
+input /ma "Bio" <t>
+wait 8
+input /ma "Bio" <t>
+wait 8
+input /ma "Bio" <t>
+wait 8
+input /ma "Bio" <t>
+wait 8
+input /ma "Bio" <t>
+wait 8
+input /ma "Bio" <t>
+wait 8
+input /ma "Bio" <t>
+wait 8
+input /ma "Bio" <t>
+wait 8
+input /ma "Bio" <t>
+wait 8
+input /ma "Bio" <t>
+wait 8
+input /ma "Bio" <t>
+wait 8
+input /ma "Bio" <t>
+wait 8
+input /ma "Bio" <t>
+wait 8
+input /ma "Bio" <t>
+wait 8
+input /ma "Bio" <t>
+wait 8
+input /ma "Bio" <t>
+wait 8
+input /ma "Bio" <t>
+wait 8
+input /ma "Bio" <t>
+wait 8
+input /ma "Bio" <t>
+wait 8
+input /ma "Bio" <t>
+wait 8
+input /ma "Bio" <t>
+wait 8
+input /ma "Bio" <t>
+wait 8
+input /ma "Bio" <t>
+wait 8
+input /ma "Bio" <t>
+wait 8
+input /ma "Bio" <t>
+wait 8
+input /ma "Bio" <t>
+wait 8
+input /ma "Bio" <t>
+wait 8
+input /ma "Bio" <t>
+wait 8
+input /ma "Bio" <t>
+wait 8
+input /ma "Bio" <t>
+wait 8
+input /ma "Bio" <t>
+wait 8
+input /ma "Bio" <t>
+wait 8
+input /ma "Bio" <t>
+wait 8
+input /ma "Bio" <t>
+wait 8
+input /ma "Bio" <t>
+wait 8
+input /ma "Bio" <t>
+wait 8
+input /ma "Bio" <t>
+wait 8
+input /ma "Bio" <t>
+wait 8
+input /ma "Bio" <t>
+wait 8
+input /ma "Bio" <t>
+wait 8
+input /ma "Bio" <t>
+wait 8
+input /ma "Bio" <t>
+wait 8
+input /ma "Bio" <t>
+wait 8
+input /ma "Bio" <t>
+wait 8
+input /ma "Bio" <t>
+wait 8
+input /ma "Bio" <t>
+wait 8
+input /ma "Bio" <t>
+wait 8
+input /ma "Bio" <t>
+wait 8
+input /ma "Bio" <t>
+wait 8
+input /ma "Bio" <t>
+wait 8
+input /ma "Bio" <t>
+wait 8
+input /ma "Bio" <t>
+wait 8
+input /ma "Bio" <t>
+wait 8
+input /ma "Bio" <t>
+wait 8
+input /ma "Bio" <t>
+wait 8
+input /ma "Bio" <t>
+wait 8
+input /ma "Bio" <t>
+wait 8
+input /ma "Bio" <t>
+wait 8
+input /ma "Bio" <t>
+wait 8
+input /ma "Bio" <t>
+wait 8
+input /ma "Bio" <t>
+wait 8
+input /ma "Bio" <t>
+wait 8
+input /ma "Bio" <t>
+wait 8
+input /ma "Bio" <t>
+wait 8
+input /ma "Bio" <t>
+wait 8
+input /ma "Bio" <t>
+wait 8
+input /ma "Bio" <t>
+wait 8
+input /ma "Bio" <t>
+wait 8
+input /ma "Bio" <t>
+wait 8
+input /ma "Bio" <t>
+wait 8
+input /ma "Bio" <t>
+wait 8
+input /ma "Bio" <t>
+wait 8
+input /ma "Bio" <t>
+wait 8
+input /ma "Bio" <t>
+wait 8
+input /ma "Bio" <t>
+wait 8
+input /ma "Bio" <t>
+wait 8
+input /ma "Bio" <t>
+wait 8
+input /ma "Bio" <t>
+wait 8
+input /ma "Bio" <t>
+wait 8
+input /ma "Bio" <t>
+wait 8
+input /ma "Bio" <t>
+wait 8
+input /ma "Bio" <t>
+wait 8
+input /ma "Bio" <t>
+wait 8
+input /ma "Bio" <t>
+wait 8
+input /ma "Bio" <t>
+wait 8
+input /ma "Bio" <t>
+wait 8
+input /ma "Bio" <t>
+wait 8
+input /ma "Bio" <t>
+wait 8
+input /ma "Bio" <t>
+wait 8
+input /ma "Bio" <t>
+wait 8
+input /ma "Bio" <t>
+wait 8
+input /ma "Bio" <t>
+wait 8
+input /ma "Bio" <t>
+wait 8
+input /ma "Bio" <t>
+wait 8
+input /ma "Bio" <t>
+wait 8
+input /ma "Bio" <t>
+wait 8
+input /ma "Bio" <t>
+wait 8
+input /ma "Bio" <t>
+wait 8
+input /ma "Bio" <t>
+wait 8
+input /ma "Bio" <t>
+wait 8
+input /ma "Bio" <t>
+wait 8
+input /ma "Bio" <t>
+wait 8
+input /ma "Bio" <t>
+wait 8
+input /ma "Bio" <t>
+wait 8
+input /ma "Bio" <t>
+wait 8
+input /ma "Bio" <t>
+wait 8
+input /ma "Bio" <t>
+wait 8
+input /ma "Bio" <t>
+wait 8
+input /ma "Bio" <t>
+wait 8
+input /ma "Bio" <t>
+wait 8
+input /ma "Bio" <t>
+wait 8
+input /ma "Bio" <t>
+wait 8
+input /ma "Bio" <t>
+wait 8
+input /ma "Bio" <t>
+wait 8
+input /ma "Bio" <t>
+wait 8
+input /ma "Bio" <t>
+wait 8
+input /ma "Bio" <t>
+wait 8
+input /ma "Bio" <t>
+wait 8
+input /ma "Bio" <t>
+wait 8
+input /ma "Bio" <t>
+wait 8
+input /ma "Bio" <t>
+wait 8
+input /ma "Bio" <t>
+wait 8
+input /ma "Bio" <t>
+wait 8
+input /ma "Bio" <t>
+wait 8
+input /ma "Bio" <t>
+wait 8
+input /ma "Bio" <t>
+wait 8
+input /ma "Bio" <t>
+wait 8
+input /ma "Bio" <t>
+wait 8
+input /ma "Bio" <t>
+wait 8
+input /ma "Bio" <t>
+wait 8
+input /ma "Bio" <t>
+wait 8
+input /ma "Bio" <t>
+wait 8
+input /ma "Bio" <t>
+wait 8
+input /ma "Bio" <t>
+wait 8
+input /ma "Bio" <t>
+wait 8
+input /ma "Bio" <t>
+wait 8
+input /ma "Bio" <t>
+wait 8
+input /ma "Bio" <t>
+wait 8
+input /ma "Bio" <t>
+wait 8
+input /ma "Bio" <t>
+wait 8
+input /ma "Bio" <t>
+wait 8
+input /ma "Bio" <t>
+wait 8
+input /ma "Bio" <t>
+wait 8
+input /ma "Bio" <t>
+wait 8
+input /ma "Bio" <t>
+wait 8
+input /ma "Bio" <t>
+wait 8
+input /ma "Bio" <t>
+wait 8
+input /ma "Bio" <t>
+wait 8
+input /ma "Bio" <t>
+wait 8
+input /ma "Bio" <t>
+wait 8
+input /ma "Bio" <t>
+wait 8
+input /ma "Bio" <t>
+wait 8
+input /ma "Bio" <t>
+wait 8
+input /ma "Bio" <t>
+wait 8
+input /ma "Bio" <t>
+wait 8
+input /ma "Bio" <t>
+wait 8
+input /ma "Bio" <t>
+wait 8
+input /ma "Bio" <t>
+wait 8
+input /ma "Bio" <t>
+wait 8
+input /ma "Bio" <t>
+wait 8
+input /ma "Bio" <t>
+wait 8
+input /ma "Bio" <t>
+wait 8
+input /ma "Bio" <t>
+wait 8
+input /ma "Bio" <t>
+wait 8
+input /ma "Bio" <t>
+wait 8
+input /ma "Bio" <t>
+wait 8
+input /ma "Bio" <t>
+wait 8
+input /ma "Bio" <t>
+wait 8
+input /ma "Bio" <t>
+wait 8
+input /ma "Bio" <t>
+wait 8
+input /ma "Bio" <t>
+wait 8
+input /ma "Bio" <t>
+wait 8
+input /ma "Bio" <t>
+wait 8
+input /ma "Bio" <t>
+wait 8
+input /ma "Bio" <t>
+wait 8
+input /ma "Bio" <t>
+wait 8
+input /ma "Bio" <t>
+wait 8
+input /ma "Bio" <t>
+wait 8
+input /ma "Bio" <t>
+wait 8
+input /ma "Bio" <t>
+wait 8
+input /ma "Bio" <t>
+wait 8
+input /ma "Bio" <t>
+wait 8
+input /ma "Bio" <t>
+wait 8
+input /ma "Bio" <t>
+wait 8
+input /ma "Bio" <t>
+wait 8
+input /ma "Bio" <t>
+wait 8
+input /ma "Bio" <t>
+wait 8
+input /ma "Bio" <t>
+wait 8
+input /ma "Bio" <t>
+wait 8
+input /ma "Bio" <t>
+wait 8
+input /ma "Bio" <t>
+wait 8
+input /ma "Bio" <t>
+wait 8
+input /ma "Bio" <t>
+wait 8
+input /ma "Bio" <t>
+wait 8
+input /ma "Bio" <t>
+wait 8
+input /ma "Bio" <t>
+wait 8
+input /ma "Bio" <t>
+wait 8
+input /ma "Bio" <t>
+wait 8
+input /ma "Bio" <t>
+wait 8
+input /ma "Bio" <t>
+wait 8
+input /ma "Bio" <t>
+wait 8
+input /ma "Bio" <t>
+wait 8
+input /ma "Bio" <t>
+wait 8
+input /ma "Bio" <t>
+wait 8
+input /ma "Bio" <t>
+wait 8
+input /ma "Bio" <t>
+wait 8
+input /ma "Bio" <t>
+wait 8
+input /ma "Bio" <t>
+wait 8
+input /ma "Bio" <t>
+wait 8
+input /ma "Bio" <t>
+wait 8
+input /ma "Bio" <t>
+wait 8
+input /ma "Bio" <t>
+wait 8
+input /ma "Bio" <t>
+wait 8
+input /ma "Bio" <t>
+wait 8
+input /ma "Bio" <t>
+wait 8
+input /ma "Bio" <t>
+wait 8
+input /ma "Bio" <t>
+wait 8
+input /ma "Bio" <t>
+wait 8
+input /ma "Bio" <t>
+wait 8
+input /ma "Bio" <t>
+wait 8
+input /ma "Bio" <t>
+wait 8
+input /ma "Bio" <t>
+wait 8
+input /ma "Bio" <t>
+wait 8
+input /ma "Bio" <t>
+wait 8
+input /ma "Bio" <t>
+wait 8
+input /ma "Bio" <t>
+wait 8
+input /ma "Bio" <t>
+wait 8
+input /ma "Bio" <t>
+wait 8
+input /ma "Bio" <t>
+wait 8
+input /ma "Bio" <t>
+wait 8
