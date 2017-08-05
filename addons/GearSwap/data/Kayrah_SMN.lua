@@ -117,6 +117,8 @@ function job_setup()
     -- Flags for code to get around the issue of slow skill updates.
     wards.flag = false
     wards.spell = ''
+	
+	set_macro_page(1,15)
     
 end
 
@@ -128,6 +130,8 @@ end
 function user_setup()
 
     gear.perp_staff = {main="Claustrum"}
+	
+	set_macro_page(1,15)
 	
 end
 
@@ -141,7 +145,7 @@ function init_gear_sets()
 															  ,back="Ixion cape"                               ,legs="Mahatma slops",feet="Rostrum pumps"}
 															  
 	sets.INT                                                = {ammo="Phantom tathlum"
-															  ,head="Maat's cap"        ,neck="Lemegeton medallion +1",ear1="Abyssal earring",ear2="Morion earring"
+															  ,head="Maat's cap"        ,neck="Lemegeton medallion +1",ear1="Abyssal earring",ear2="Morion earring +1"
 															  ,body="Errant houppelande",hands="Errant cuffs"         ,ring1="Tamas ring"    ,ring2="Snow ring"
 															  ,back="Ixion cape"        ,waist="Ocean stone"          ,legs="Mahatma slops"  ,feet="Rostrum pumps"}
 	

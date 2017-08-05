@@ -35,7 +35,7 @@ function init_gear_sets()
 	
 	-- misc.
 	sets.INT 						    = {ammo="Phantom tathlum"
-	                                      ,head="Maat's cap"        ,neck="Lemegeton medallion +1",ear1="Abyssal earring",ear2="Morion earring"
+	                                      ,head="Maat's cap"        ,neck="Lemegeton medallion +1",ear1="Abyssal earring",ear2="Morion earring +1"
 									      ,body="Crimson scale mail",hands="Abyss gauntlets"      ,ring1="Flame ring"    ,ring2="Snow ring"
 									                                ,waist="Ocean stone"          ,legs="Jet seraweels"                        }
 	sets.obi 						    = {Fire      = {waist="Karin Obi"}

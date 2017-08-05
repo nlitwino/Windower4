@@ -29,7 +29,7 @@ function init_gear_sets()
 
 	--Misc
 	sets.MND 												 = {ammo="Bugard leather strap +1",head="Maat's cap",neck="Gnole torque",ear1="Mamool Ja earring",body="Crimson scale mail",hands="Bricta's cuffs",ring1="Tamas ring",back="Prism cape",waist="Duelist's belt",legs="Jet seraweels",feet="Duelist's boots"}
-	sets.INT 												 = {ammo="Bugard leather strap +1",ammo="Phantom tathlum",head="Maat's cap",neck="Lemegeton medallion +1",ear1="Abyssal earring",ear2="Morion earring",body="Crimson scale mail",hands="Duelist's gloves",ring1="Tamas ring",ring2="Snow ring",back="Prism cape",waist="Duelist's belt",legs="Jet seraweels",feet="Numerist pumps"}
+	sets.INT 												 = {ammo="Bugard leather strap +1",ammo="Phantom tathlum",head="Maat's cap",neck="Lemegeton medallion +1",ear1="Abyssal earring",ear2="Morion earring +1",body="Crimson scale mail",hands="Duelist's gloves",ring1="Tamas ring",ring2="Snow ring",back="Prism cape",waist="Duelist's belt",legs="Jet seraweels",feet="Numerist pumps"}
 	sets.resting 											 = {ammo="Bibiki seashell",neck="Gnole torque",ear2="Magnetic earring",body="Errant houppelande",waist="Duelist's belt",feet="Avocat pigaches"}
 	
 	sets.obi												 = {Fire 	= {waist="Karin Obi"},

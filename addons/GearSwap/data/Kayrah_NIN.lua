@@ -37,7 +37,7 @@ end
 function init_gear_sets()
 
 	-- misc.
-	sets.INT                                   = {head="Maat's cap"   ,neck="Lemegeton medallion +1",ear1="Morion earring"
+	sets.INT                                   = {head="Maat's cap"   ,neck="Lemegeton medallion +1",ear1="Morion earring +1"
 											     ,body="Kirin's osode"                              ,ring1="Flame ring",ring2="Snow ring"
 											                          ,waist="Ocean stone"}
 	                                           

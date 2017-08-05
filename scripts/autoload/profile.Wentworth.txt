@@ -31,6 +31,7 @@ lua load battlemod;
 lua load cancel;
 lua load chars;
 lua load ConsoleBG;
+lua load distance;
 lua load DressUp;
 lua load enternity;
 lua load findAll;

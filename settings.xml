@@ -27,6 +27,7 @@
     <addon>autoinvite</addon>
     <addon>itemizer</addon>
     <addon>DistancePlus</addon>
+    <addon>distance</addon>
     <plugin>Run</plugin>
     <plugin>LightLuggage</plugin>
     <plugin>InfoBar</plugin>

@@ -24,7 +24,6 @@ function user_setup()
 	state.MagicBurst = M(false, 'Magic Burst')
 	
 	--bind combat mode cycles
-	send_command('bind f9 gs c cycle CastingMode')
 	send_command('bind !f9 gs c toggle MagicBurst')
 	
 end
@@ -76,7 +75,7 @@ function init_gear_sets()
 															  ,back="Prism cape"                                      ,legs="Mahatma slops"    ,feet="Rostrum pumps"}
 															   
 	sets.INT 												= {                          sub="Bugard leather strap +1"                       ,ammo="Phantom tathlum"
-															  ,head="Maat's cap"        ,neck="Lemegeton medallion +1",ear1="Abyssal earring",ear2="Morion earring"
+															  ,head="Maat's cap"        ,neck="Lemegeton medallion +1",ear1="Abyssal earring",ear2="Morion earring +1"
 															  ,body="Errant houppelande",hands="Errant cuffs"         ,ring1="Tamas ring"    ,ring2="Snow ring"
 															  ,back="Prism cape"        ,waist="Sorcerer's belt"      ,legs="Mahatma slops"  ,feet="Rostrum pumps"}
 	
