@@ -153,7 +153,7 @@ function init_gear_sets()
 	sets.precast.WS                     = {ammo="Bomb core"
 									      ,head="Hecatomb cap"      ,neck="Chivalrous chain"      ,ear1="Fowling earring",ear2="Brutal earring"
 									      ,body="Armada hauberk"    ,hands="Alkyoneus's bracelets",ring1="Rajas ring"    ,ring2="Flame ring"
-									      ,back="Cerberus mantle +1",waist="Warwolf belt"         ,legs="Onyx cuisses"   ,feet="Hecatomb leggings +1 +1"}
+									      ,back="Cerberus mantle +1",waist="Warwolf belt"         ,legs="Onyx cuisses"   ,feet="Hecatomb leggings +1"}
 	sets.precast.WS.Acc                 = set_combine(sets.precast.WS,{ammo="Fire bomblet",neck="Peacock amulet",ring2=gear.TRing1,back="Cuchulain's mantle"})
 	
 	-- ws scythe

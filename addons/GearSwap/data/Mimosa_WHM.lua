@@ -80,6 +80,10 @@ function job_post_midcast(spell, action, spellMap, eventArgs)
 	
 end
 
+function job_post_aftercast(spell, action, spellMap, eventArgs)
+send_command('gs c update')
+end
+
 function job_midcast(spell, action, spellMap, eventArgs)
 	
 	if spell.skill == 'Enfeebling Magic' then
