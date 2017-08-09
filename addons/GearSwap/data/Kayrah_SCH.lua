@@ -47,12 +47,12 @@ function init_gear_sets()
 	sets.INT                                           = {main="Chatoyant staff"   ,sub="Bugard leather strap +1"                          ,ammo="Phantom tathlum"
 			                                             ,head="Maat's cap"        ,neck="Lemegeton medallion +1",ear1="Abyssal earring",ear2="Morion earring +1"
 			                                             ,body="Errant houppelande",hands="Errant cuffs"         ,ring1="Tamas ring"    ,ring2="Snow ring"
-			                                             ,back="Prism cape"        ,waist="Ocean stone"          ,legs="Mahatma slops"  ,feet="Rostrum pumps"}
+			                                             ,back="Prism cape"        ,waist="Argute belt"          ,legs="Mahatma slops"  ,feet="Rostrum pumps"}
 	                                                   
 	sets.MND                                           = {main="Chatoyant staff"   ,sub="Bugard leather strap +1"
 														 ,head="Maat's cap"        ,neck="Gnole torque"   ,ear1="Mamool Ja earring"
 			                                             ,body="Errant houppelande",hands="Bricta's cuffs",ring1="Tamas ring"      ,ring2="Star ring"
-			                                             ,back="Prism cape"        ,waist="Ocean stone"   ,legs="Mahatma slops"    ,feet="Mahatma pigaches"}
+			                                             ,back="Prism cape"        ,waist="Argute belt"   ,legs="Mahatma slops"    ,feet="Mahatma pigaches"}
 	
 	-- grips/obis
 	sets.obi 										   = {Fire 	    = {waist="Karin Obi"}

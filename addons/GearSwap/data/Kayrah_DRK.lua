@@ -81,7 +81,7 @@ function init_gear_sets()
 	sets.idle 						    = {ammo="Bibiki seashell"
 									      ,head="Crimson mask"        ,neck="Chocobo whistle" ,ear1="Merman's earring",ear2="Ethereal earring"
 									      ,body="Valhalla breastplate",hands="Heavy gauntlets",ring1="Defending ring" ,ring2="Shadow ring"
-									      ,back="Shadow mantle"       ,waist="Lycopodium sash",legs="Crimson cuisses" ,feet="Hecatomb leggings +1"}
+									      ,back="Shadow mantle"       ,waist="Lycopodium sash",legs="Blood cuisses" ,feet="Hecatomb leggings +1"}
 	sets.idle.Town 					    = set_combine(sets.idle,{ring2="Warp ring",back="Nexus cape"})
 	                                    
 	sets.resting 					    = {ammo="Bibiki seashell"}

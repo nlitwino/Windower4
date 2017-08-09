@@ -159,17 +159,17 @@ function init_gear_sets()
     sets.idle = {main="Bolelabunga",sub="Genbu's Shield",ammo="Impatiens",
         head="Vitivation Chapeau",neck="Wiglen Gorget",ear1="Bloodgem Earring",ear2="Loquacious Earring",
         body="Hagondes Coat",hands="Yaoyotl Gloves",ring1="Sheltered Ring",ring2="Paguroidea Ring",
-        back="Shadow Mantle",waist="Flume Belt",legs="Crimson Cuisses",feet="Hagondes Sabots"}
+        back="Shadow Mantle",waist="Flume Belt",legs="Blood cuisses",feet="Hagondes Sabots"}
 
     sets.idle.Town = {main="Bolelabunga",sub="Genbu's Shield",ammo="Impatiens",
         head="Atrophy Chapeau +1",neck="Wiglen Gorget",ear1="Bloodgem Earring",ear2="Loquacious Earring",
         body="Atrophy Tabard +1",hands="Atrophy Gloves +1",ring1="Sheltered Ring",ring2="Paguroidea Ring",
-        back="Shadow Mantle",waist="Flume Belt",legs="Crimson Cuisses",feet="Hagondes Sabots"}
+        back="Shadow Mantle",waist="Flume Belt",legs="Blood cuisses",feet="Hagondes Sabots"}
     
     sets.idle.Weak = {main="Bolelabunga",sub="Genbu's Shield",ammo="Impatiens",
         head="Vitivation Chapeau",neck="Wiglen Gorget",ear1="Bloodgem Earring",ear2="Loquacious Earring",
         body="Atrophy Tabard +1",hands="Serpentes Cuffs",ring1="Sheltered Ring",ring2="Paguroidea Ring",
-        back="Shadow Mantle",waist="Flume Belt",legs="Crimson Cuisses",feet="Hagondes Sabots"}
+        back="Shadow Mantle",waist="Flume Belt",legs="Blood cuisses",feet="Hagondes Sabots"}
 
     sets.idle.PDT = {main="Bolelabunga",sub="Genbu's Shield",ammo="Demonry Stone",
         head="Gendewitha Caubeen +1",neck="Twilight Torque",ear1="Bloodgem Earring",ear2="Loquacious Earring",
@@ -193,7 +193,7 @@ function init_gear_sets()
         body="Atrophy Tabard +1",hands="Yaoyotl Gloves",ring1="Defending Ring",ring2="Shadow Ring",
         back="Engulfer Cape",waist="Flume Belt",legs="Bokwus Slops",feet="Gendewitha Galoshes"}
 
-    sets.Kiting = {legs="Crimson Cuisses"}
+    sets.Kiting = {legs="Blood cuisses"}
 
     sets.latent_refresh = {waist="Fucho-no-obi"}
 

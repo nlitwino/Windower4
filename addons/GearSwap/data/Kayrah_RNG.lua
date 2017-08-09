@@ -54,7 +54,7 @@ function init_gear_sets()
 	-- idle
 	sets.idle                                 = {head="Crimson mask" ,neck="Chocobo whistle" ,ear1="Merman's earring",ear2="Merman's earring"
 												,body="Kyudogi +1"   ,hands="Seiryu's kote"  ,ring1="Defending ring" ,ring2="Shadow ring"
-												,back="Shadow mantle",waist="Lycopodium sash",legs="Crimson cuisses" ,feet="Trotter boots"}
+												,back="Shadow mantle",waist="Lycopodium sash",legs="Blood cuisses" ,feet="Trotter boots"}
 	sets.idle.Town                            = set_combine(sets.idle,{ring2="Warp ring",back="Nexus cape"})
 	
 	sets.resting                              = set_combine(sets.idle,{neck="Orochi nodowa",feet="Suzaku's sune-ate"})

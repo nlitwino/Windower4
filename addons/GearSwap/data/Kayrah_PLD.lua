@@ -21,6 +21,9 @@ function user_setup()
 	state.PhysicalDefenseMode:options('PDT')
 	state.MagicalDefenseMode:options('MDT')
 	
+	gear.main = player.equipment.main
+	gear.sub = player.equipment.sub
+	
 end
 
 function init_gear_sets()
@@ -31,7 +34,14 @@ function init_gear_sets()
 	                                        
 	sets.MND                                = {head="Maat's cap",neck="Gnole torque",ear2="Mamool Ja earring",body="Crimson scale mail",legs="Jet seraweels",feet="Valor leggings"}
 	                                        
-	-- Buff sets                            
+	sets.obi 										   = {Fire 	    = {waist="Karin Obi"}
+													     ,Earth 	= {waist="Dorin Obi"}
+													     ,Water 	= {waist="Suirin Obi"}
+													     ,Wind 	    = {waist="Furin Obi"}
+													     ,Ice 		= {waist="Hyorin Obi"}
+													     ,Lightning = {waist="Rairin Obi"}
+													     ,Light     = {waist="Korin Obi"}
+													     ,Dark 	    = {waist="Anrin Obi"}}                           
 	                                        
 	-- Precast JAs                          
 	sets.precast.JA                         = set_combine(sets.enmity,{})
@@ -43,16 +53,19 @@ function init_gear_sets()
 	sets.precast.JA['Holy Circle']          = set_combine(sets.precast.JA,{feet="Gallant leggings"})
 	                                       
 	-- Precast magic                        
-	sets.precast.FC                         = {ear1="Loquacious earring",ear2="Knightly earring",legs="Homam cosciales"}
-	                                        
+	sets.precast.FC                         = {ear1="Loquacious earring",legs="Homam cosciales"}
+		
+	sets.precast['Healing Magic']			= set_combine(sets.precast.FC,{head="Gnadbhod's helm",neck="Orochi nodowa",body="Haubergeon +1",hands="Heavy gauntlets",ring1="Astral ring",ring2="Serket ring",feet="Aurum sabatons"})
 	-- Midcast magic                        
-	sets.midcast['Enhancing magic']         = set_combine(sets.enmity,sets.precast.FC,{ammo="Sturm's report",legs="Gallant breeches"})
-	sets.midcast['Healing magic']           = 
-	sets.midcast['Divine magic']            = set_combine(sets.enmity,sets.precast.FC,{ammo="Sturm's report",head="Homam zucchetto",ear1="Knight's earring",body="Gallant surcoat"})
+	sets.midcast['Enhancing Magic']         = set_combine(sets.enmity,sets.precast.FC,{ammo="Sturm's report",legs="Gallant breeches"})
+	sets.midcast['Healing Magic']           = set_combine(sets.enmity,{head="Valor coronet"     ,neck="Ritter gorget"   ,ear1="Bloodbead earring",ear2="Cassie earring"
+	                                                                  ,body="Crimson scale mail",hands="Homam manopolas"                         ,ring2="Bloodbead ring"
+																	  ,back="Cerberus mantle"                           ,legs="Koenig diechlings",feet="Valor leggings"})
+	sets.midcast['Divine Magic']            = set_combine(sets.enmity,sets.precast.FC,{ammo="Sturm's report",head="Homam zucchetto",ear1="Knight's earring",body="Gallant surcoat"})
 	sets.midcast['Ninjutsu']                = set_combine(sets.enmity,sets.precast.FC,{ring1="Antica ring"})
 	                                        
 	-- Idle sets                            
-	sets.idle                               = {ammo="Bibiki seashell",head="",neck="Chocobo whistle",ear1="Ethereal earring",ear2="Merman's earring",body="Vermillion cloak",hands="Heavy gauntlets",ring1="Defending ring",ring2="Shadow ring",back="Shadow mantle",waist="Lycopodium sash",legs="Crimson cuisses",feet="Kaiser schuhs"}
+	sets.idle                               = {ammo="Bibiki seashell",head="",neck="Chocobo whistle",ear1="Ethereal earring",ear2="Merman's earring",body="Vermillion cloak",hands="Heavy gauntlets",ring1="Defending ring",ring2="Shadow ring",back="Shadow mantle",waist="Lycopodium sash",legs="Blood cuisses",feet="Kaiser schuhs"}
 	sets.idle.Town                          = set_combine(sets.idle,{head="Dream hat +1",ring2="Warp ring",back="Nexus cape",body="Republic aketon"})
 	
 	sets.idle.SuperMDT                      = {ammo="White tathlum"
@@ -76,7 +89,7 @@ function init_gear_sets()
 											  ,back="Cerberus mantle",waist="Velocious belt",legs="Homam cosciales",feet="Homam gambieras"}
 	sets.engaged.DW                         = set_combine(sets.engaged,{ear1="Suppanomimi",ring1="Rajas ring"})
 	sets.engaged.Heavy                      = {ammo="Bibiki seashell"
-	                                          ,head="Koenig schaller",neck="Fortified chain",ear1="Knight's earring",ear2="Ethereal earring"
+	                                          ,head="Koenig schaller",neck="Ritter gorget",ear1="Knight's earring",ear2="Ethereal earring"
 											  ,body="Valhalla breastplate",hands="Koenig handschuhs",ring1="Defending ring",ring2="Sattva ring"
 											  ,back="Shadow mantle",waist="Warwolf belt",legs="Koenig diechlings",feet="Kaiser schuhs"}
 	sets.engaged.Wyrms						= set_combine(sets.engaged.Heavy,{body="Crimson scale mail"})

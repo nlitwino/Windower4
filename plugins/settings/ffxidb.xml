@@ -9,7 +9,7 @@
         <ShowMob>true</ShowMob>
         <ShowMarker>true</ShowMarker>
         <ShowTargetLine>true</ShowTargetLine>
-        <Ranges />
+        <Ranges></Ranges>
     </global>
     <Mimosa>
         <X>1119</X>
@@ -39,4 +39,8 @@
         <X>1045</X>
         <Y>39</Y>
     </Deebiia>
+    <Relish>
+        <X>1057</X>
+        <Y>219</Y>
+    </Relish>
 </settings>

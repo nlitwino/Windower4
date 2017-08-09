@@ -73,10 +73,10 @@ function init_gear_sets()
 	sets.midcast['Elemental Magic'].Resistant				 = set_combine(sets.midcast['Elemental Magic'],{legs="Duelist's tights",feet="Numerist pumps"})
 	
 	--IdleMode
-	sets.idle												 = {ammo="Bibiki seashell",head="Duelist's chapeau",neck="Chocobo whistle",ear1="Merman's earring",ear2="Merman's earring",body="Dalmatica",hands="Crimson finger gauntlets",ring1="Defending ring",ring2="Shadow ring",back="Shadow mantle",waist="Lycopodium sash",legs="Crimson cuisses",feet="Duelist's boots"}
+	sets.idle												 = {ammo="Bibiki seashell",head="Duelist's chapeau",neck="Chocobo whistle",ear1="Merman's earring",ear2="Merman's earring",body="Dalmatica",hands="Crimson finger gauntlets",ring1="Defending ring",ring2="Shadow ring",back="Shadow mantle",waist="Lycopodium sash",legs="Blood cuisses",feet="Duelist's boots"}
 	sets.idle.Town											 = set_combine(sets.idle,{ring2="Warp ring",back="Nexus cape"})
 	
-	sets.Kiting												 = {legs="Crimson cuisses"}
+	sets.Kiting												 = {legs="Blood cuisses"}
 	
 	sets.idle.PDT											 = {ring1="Defending ring",ring2="Jelly ring"}
 	sets.idle.MDT											 = {ear1="Merman's ring",ear2="Merman's ring",body="Dalmatica",hands="Duelist's gloves",ring1="Defending ring",ring2="Shadow ring",back="Shadow mantle",waist="Resolute belt"}

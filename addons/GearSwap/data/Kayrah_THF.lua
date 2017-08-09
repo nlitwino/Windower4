@@ -27,7 +27,7 @@ function user_setup()
 	state.PhysicalDefenseMode:options('Evasion','PDT')
 	state.MagicalDefenseMode:options('MDT')
 	
-	send_command('bind !f9 gs c cycle TreasureMode')
+	send_command('bind !f9 gs c cycle TreasureMode; gs c custom_treasure_cycle')
 
 end
 
@@ -38,10 +38,10 @@ function init_gear_sets()
 										      --sub="Thief's knife"
 	-- buff                                  
 	sets.buff['Sneak Attack']                = {head="Maat's cap"        ,neck="Spike necklace"   ,ear1="Pixie earring"  
-								               ,body="Antares harness"   ,hands="Enkidu's mittens",ring1="Rajas ring"       
+								               ,body="Antares harness"   ,hands="Enkidu's mittens",ring1="Rajas ring",ring2=gear.TRing1       
 								               ,back="Cuchulain's mantle",waist="Warwolf belt"    ,legs="Hecatomb subligar +1",feet="Enkidu's leggings"}
 	sets.buff['Trick Attack'] 		         = {head="Maat's cap"                                                     ,ear2="Drone earring"
-									           ,body="Antares harness",hands="Rogue's armlets +1"                     ,ring2="Blobnag ring"
+									           ,body="Antares harness",hands="Rogue's armlets +1",ring1=gear.TRing2  ,ring2="Blobnag ring"
 									           ,back="Assassin's cape",waist="Warwolf belt"      ,legs="Oily trousers",feet="Enkidu's leggings"}
 	sets.buff['Assassin\'s Charge']			 = {ear2="Hollow earring"}
 	                                         
@@ -80,7 +80,7 @@ function init_gear_sets()
 										       ,body="Rapparee harness",hands="Dusk gloves +1"  ,ring1=gear.TRing2     ,ring2=gear.TRing1
 										       ,back="Cerberus mantle +1",waist="Velocious belt",legs="Homam cosciales",feet="Dusk ledelsens +1"}
 	sets.engaged.HybridAcc                   = set_combine(sets.engaged,{neck="Peacock amulet",hands="Homam manopolas",back="Cuchulain's mantle",feet="Homam gambieras"})
-	sets.engaged.Acc                         = set_combine(sets.engaged.HybridAcc,{head="Homam zucchetto",body="Homam corazza",hands="Enkidu's mittens"})
+	sets.engaged.Acc                         = set_combine(sets.engaged.HybridAcc,{head="Homam zucchetto",body="Homam corazza"})
 	                                         
 	-- ranged                                
 	sets.precast.RA                          = {head="Zha'Go's barbut"}
@@ -207,6 +207,14 @@ function job_handle_equipping_gear(status,eventArgs)
     check_buff('Sneak Attack', eventArgs)
     check_buff('Trick Attack', eventArgs)
 	check_buff('Assassin\'s Charge', eventArgs)
+	
+end
+
+function custom_treasure_cycle()
+	
+	if state.TreasureMode.value == 'Fulltime' then
+		equip(sets.TreasureHunter)sd
+	end
 	
 end
 
