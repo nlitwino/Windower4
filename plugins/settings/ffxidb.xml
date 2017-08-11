@@ -17,8 +17,8 @@
         <Zoom>20</Zoom>
     </Mimosa>
     <Kayrah>
-        <X>1436</X>
-        <Y>200</Y>
+        <X>1486</X>
+        <Y>99</Y>
         <Zoom>20</Zoom>
     </Kayrah>
     <Ixius>
@@ -43,4 +43,9 @@
         <X>1057</X>
         <Y>219</Y>
     </Relish>
+    <Deeity>
+        <Zoom>40</Zoom>
+        <X>1084</X>
+        <Y>109</Y>
+    </Deeity>
 </settings>

@@ -210,11 +210,13 @@ function job_handle_equipping_gear(status,eventArgs)
 	
 end
 
-function custom_treasure_cycle()
-	
+function customize_melee_set(meleeSet)
+
 	if state.TreasureMode.value == 'Fulltime' then
-		equip(sets.TreasureHunter)sd
-	end
+        meleeSet = set_combine(meleeSet, sets.TreasureHunter)
+    end
+
+    return meleeSet
 	
 end
 
