@@ -27,7 +27,7 @@ function user_setup()
 	state.PhysicalDefenseMode:options('Evasion','PDT')
 	state.MagicalDefenseMode:options('MDT')
 	
-	send_command('bind !f9 gs c cycle TreasureMode; gs c custom_treasure_cycle')
+	send_command('bind !f9 gs c cycle TreasureMode')
 
 end
 
