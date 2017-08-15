@@ -65,7 +65,7 @@ function init_gear_sets()
 	                                                                  ,body="Crimson scale mail",hands="Homam manopolas"                         ,ring2="Bloodbead ring"
 																	  ,back="Cerberus mantle"                           ,legs="Koenig diechlings",feet="Valor leggings"})
 	sets.midcast['Divine Magic']            = set_combine(sets.enmity,sets.precast.FC,{ammo="Sturm's report",head="Homam zucchetto",ear1="Knight's earring",body="Gallant surcoat"})
-	sets.midcast['Ninjutsu']                = set_combine(sets.enmity,sets.precast.FC,{ring1="Antica ring"})
+	sets.midcast['Ninjutsu']                = set_combine(sets.enmity,sets.precast.FC,{body="Koenig cuirass",ring1="Antica ring"})
 	                                        
 	-- Idle sets                            
 	sets.idle                               = {ammo="Bibiki seashell",head="",neck="Chocobo whistle",ear1="Ethereal earring",ear2="Merman's earring",body="Vermillion cloak",hands="Heavy gauntlets",ring1="Defending ring",ring2="Shadow ring",back="Shadow mantle",waist="Lycopodium sash",legs="Blood cuisses",feet="Kaiser schuhs"}

@@ -79,7 +79,7 @@ function init_gear_sets()
 	-- midcast ranged
 	sets.midcast.RA                           = set_combine(sets.precast.RA,{neck="Ranger's necklace",body="Kyudogi +1",hands="Blood finger gauntlets",waist="Scout's belt",feet="Scout's socks"})
 	sets.midcast.RA.HNM                       = set_combine(sets.midcast.RA,{neck="Peacock amulet",ring2="Merman's ring",back="Mamool Ja mantle",waist="Buccaneer's belt",legs="Oily trousers",feet="Hachiryu sune-ate"})
-	sets.midcast.RA.PureAcc                   = set_combine(sets.midcast.RA.HNM,{hands="Seiryu's kote",waist="Scout's belt"})
+	sets.midcast.RA.PureAcc                   = set_combine(sets.midcast.RA.HNM,{hands="Seiryu's kote",waist="Scout's belt",legs="Dusk trousers"})
 	
 	-- midcast anni
 	sets.midcast.RA.Anni                      = set_combine(sets.midcast.RA,{})
@@ -123,7 +123,7 @@ function init_gear_sets()
 	sets.precast.WS['Coronach']               = {head="Maat's cap"      ,neck="Thunder gorget" ,ear1="Drone earring"   ,ear2="Drone earring"
 												,body="Kirin's osode"   ,hands="Seiryu's kote" ,ring1="Rajas ring"     ,ring2="Blobnag ring"
 												,back="Commander's cape",waist="Scout's belt"  ,legs="Byakko's haidate",feet="Hachiryu sune-ate"}
-	sets.precast.WS['Coronach'].HNM           = set_combine(sets.precast.WS['Coronach'],{back="Amemet mantle +1",waist="Buccaneer's belt",legs="Hachiryu haidate"})
+	sets.precast.WS['Coronach'].HNM           = set_combine(sets.precast.WS['Coronach'],{ear1="Hollow earring",back="Amemet mantle +1",waist="Buccaneer's belt",legs="Hachiryu haidate"})
 	
 end
 
@@ -132,7 +132,7 @@ function job_precast(spell,action,spellMap,eventArgs)
 	if spell.type == 'WeaponSkill' and (spell.skill == 'Marksmanship' or spell.skill == 'Archery') then
 		if state.WeaponskillMode.value == 'HNM' then
 			if daytime then
-				equip({ear1="Ladybug earring +1",ear2="Ladybug earring +1"})
+				equip({ear2="Ladybug earring +1"})
 			else
 				if player.sub_job == 'SAM' then
 					equip({ear2="Bushinomimi"})
@@ -186,12 +186,8 @@ function job_post_midcast(spell,action,spellMap,eventsArgs)
 		if state.Buff['Sharpshot'] and state.RangedMode.value ~= 'Normal' then
 			equip(sets.buff['Sharpshot'])
 		end
-		if daytime then
+		if daytime and state.RangedMode.value == 'Normal' then
 			equip({ear1="Ladybug earring +1",ear2="Ladybug earring +1"})
-		else
-			if player.sub_job == 'SAM' then
-				equip({ear2="Bushinomimi"})
-			end
 		end
 	end
 
