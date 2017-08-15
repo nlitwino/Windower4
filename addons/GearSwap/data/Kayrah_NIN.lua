@@ -86,7 +86,9 @@ function init_gear_sets()
 	sets.defense.Evasion                       = {head="Gnole crown"        ,neck="Fortified chain",ear1="Suppanomimi",ear2="Drone earring"
 												 ,body="Scorpion harness +1",hands="Seiryu's kote"
 												                            ,waist="Koga sarashi"  ,legs="Koga hakama",feet="Hachiryu sune-ate"}
-	sets.defense.PDT                           = {head="Genbu's kabuto",ring1="Defending ring",ring2="Jelly ring",back="Shadow mantle"}
+	sets.defense.PDT                           = {ammo="Bibiki seashell"
+	                                             ,head="Arhat's jinpachi +1"
+												 ,body="Arhat's gi +1",ring1="Defending ring",ring2="Jelly ring",back="Shadow mantle",legs="Darksteel subligar +1"}
 	sets.defense.MDT                           = {ear1="Merman's earring",ear2="Merman's earring",ring1="Defending ring",ring2="Shadow ring",waist="Resolute belt",feet="Suzaku's sune-ate"}
 	                                           
 	-- engaged                                 
@@ -137,20 +139,19 @@ function init_gear_sets()
 	sets.precast.WS                            = {head="Maat's cap"        ,neck="Spike necklace"   ,ear1="Merman's earring" ,ear2="Brutal earring"
 	                                             ,body="Kirin's osode"     ,hands="Ninja tekko +1",ring1="Rajas ring"      ,ring2="Flame ring"
 												 ,back="Cerberus mantle +1",waist="Warwolf belt"    ,legs="Byakko's haidate",feet="Enkidu's leggings"}
-	sets.precast.WS.HNM                        = set_combine(sets.precast.WS,{back="Cerberus mantle"})
+	sets.precast.WS.HNM                        = set_combine(sets.precast.WS,{})
 	                                           
-	sets.precast.WS['Blade: Jin']              = set_combine(sets.precast.WS,{neck="Breeze gorget",ear1="Pixie earring",back="Cuchulain's mantle",legs="Byakko's haidate"})
-	sets.precast.WS['Blade: Jin'].HNM          = set_combine(sets.precast.WS.HNM,{neck="Breeze gorget"})
+	sets.precast.WS['Blade: Jin']              = set_combine(sets.precast.WS,{neck="Thunder gorget",ear1="Pixie earring",legs="Byakko's haidate"})
+	sets.precast.WS['Blade: Jin'].HNM          = set_combine(sets.precast.WS['Blade: Jin'],{back="Cuchulain's mantle"})
 	                                           
-	sets.precast.WS['Blade: Shun']             = set_combine(sets.precast.WS['Blade: Jin'],{neck="Flame gorget"})
-	sets.precast.WS['Blade: Shun'].HNM         = set_combine(sets.precast.WS['Blade: Jin'].HNM,{neck="Flame gorget"})
+	sets.precast.WS['Blade: Shun']             = set_combine(sets.precast.WS['Blade: Jin'],{})
+	sets.precast.WS['Blade: Shun'].HNM         = set_combine(sets.precast.WS['Blade: Jin'].HNM,{})
 	                                           
-	sets.precast.WS['Blade: Ku']               = set_combine(sets.precast.WS,{head="Gnadbhod's helm",neck="Soil gorget",body="Hachiryu haramaki",hands="Ochimusha kote"})
-	sets.precast.WS['Blade: Ku'].HNM           = set_combine(sets.precast.WS.HNM,{head="Gnadbhod's helm",neck="Soil gorget",body="Hachiryu haramaki",hands="Ochimusha kote"})
+	sets.precast.WS['Blade: Ku']               = set_combine(sets.precast.WS,{head="Gnadbhod's helm",neck="Shadow gorget",body="Hachiryu haramaki",hands="Ochimusha kote"})
+	sets.precast.WS['Blade: Ku'].HNM           = set_combine(sets.precast.WS['Blade: Ku'],{})
 	                                           
-	sets.precast.WS['Blade: Metsu']            = set_combine(sets.precast.WS,{neck="Shadow gorget",ear1="Pixie earring",body="Haubergeon +1",back="Cuchulain's mantle"})
-	sets.precast.WS['Blade: Metsu'].HNM        = set_combine(sets.precast.WS.HNM,{neck="Shadow gorget",back="Cerberus mantle"})
-	--sets.precast.WS['Blade: Metsu'].Test	   = set_combine(sets.precast.WS['Blade: Metsu'],{body="Haubergeon +1"})
+	sets.precast.WS['Blade: Metsu']            = set_combine(sets.precast.WS,{neck="Thunder gorget",ear1="Pixie earring",body="Haubergeon +1"})
+	sets.precast.WS['Blade: Metsu'].HNM        = set_combine(sets.precast.WS['Blade: Metsu'],{})
 	
 	-- night ws                                
 	sets.precast.WS.Night                      = set_combine(sets.precast.WS,{hands="Koga tekko",feet="Koga kyahan +1"})
@@ -167,7 +168,6 @@ function init_gear_sets()
 	                                           
 	sets.precast.WS['Blade: Metsu'].Night      = set_combine(sets.precast.WS['Blade: Metsu'],{feet="Koga kyahan +1"})
 	sets.precast.WS['Blade: Metsu'].HNM.Night  = set_combine(sets.precast.WS['Blade: Metsu'].HNM,{feet="Koga kyahan +1"})
-	--sets.precast.WS['Blade: Metsu'].Test.Night = set_combine(sets.precast.WS['Blade: Metsu'].Test,{feet="Koga kyahan +1"})
 	
 end
 
@@ -199,7 +199,7 @@ function job_post_midcast(spell,default_spell_map)
 
     if spell.skill == 'Ninjutsu' then 
 		if spell.element == world.weather_element or spell.element == world.day_element then
-			equip(sets.obi[spell.element])
+			equip({waist="Hachirin-no-obi"})
 		end
 	end
 	
@@ -235,13 +235,15 @@ function adjust_melee_groups()
 
 end
 
--- function customize_melee_set(meleeSet)
+function customize_melee_set(meleeSet)
+	add_to_chat(tostring(player.hpp))
+	if player.hpp < 75 then
+        meleeSet = set_combine(meleeSet,{ring1="Shinobi ring",legs="Koga hakama"})
+    end
 
-	-- if hpp < 75 then
-		-- return set_combine(meleeSet,{ring1="Shinobi ring",legs="Koga hakama"})
-	-- end
+    return meleeSet
 	
--- end
+end
 
 function get_custom_wsmode(spell,spellMap,default_wsmode)
 

@@ -37,18 +37,7 @@ function init_gear_sets()
 	sets.INT 						    = {ammo="Phantom tathlum"
 	                                      ,head="Maat's cap"        ,neck="Lemegeton medallion +1",ear1="Abyssal earring",ear2="Morion earring +1"
 									      ,body="Crimson scale mail",hands="Abyss gauntlets"      ,ring1="Flame ring"    ,ring2="Snow ring"
-									                                ,waist="Ocean stone"          ,legs="Jet seraweels"                        }
-	sets.obi 						    = {Fire      = {waist="Karin Obi"}
-									      ,Earth     = {waist="Dorin Obi"}
-									      ,Water     = {waist="Suirin Obi"}
-									      ,Wind 	 = {waist="Furin Obi"}
-									      ,Ice 	     = {waist="Hyorin Obi"}
-									      ,Lightning = {waist="Rairin Obi"}
-									      ,Light     = {waist="Korin Obi"}
-									      ,Dark 	 = {waist="Anrin Obi"}}
-	                                   
-	-- buff                            
-	                                   
+									                                ,waist="Ocean stone"          ,legs="Jet seraweels"                        }                                   
 	-- precast ja                      
 	sets.precast.JA 				    = {}
 	                                   
@@ -63,7 +52,7 @@ function init_gear_sets()
 	sets.midcast.FastRecast 		    = {head="Walahra turban",body="Scorpion harness +1",hands="Dusk gloves +1",waist="Velocious belt",legs="Homam cosciales",feet="Dusk ledelsens +1"}
 	                                   
 	sets.midcast['Ninjutsu']            = set_combine(sets.midcast.FastRecast,{neck="Fortified chain",ring2="Antica ring",back="Shadow mantle"})
-	sets.midcast['Dark Magic']		    = set_combine(sets.midcast.FastRecast,sets.INT,{ammo="Sturm's report",head="Chaos burgeonet",ear1="Abyssal earring",ear2="Loquacious earring",body="Demon's harness",hands="Crimson finger gauntlets",back="Abyss cape",legs="Abyss flanchard"})
+	sets.midcast['Dark Magic']		    = set_combine(sets.midcast.FastRecast,sets.INT,{ammo="Sturm's report",head="Chaos burgeonet",ear1="Abyssal earring",ear2="Loquacious earring",body="Demon's harness",hands="Blood finger gauntlets",back="Abyss cape",legs="Abyss flanchard"})
 	sets.midcast['Elemental Magic']     = set_combine(sets.midcast.FastRecast,sets.INT,{ear2="Moldavite earring",body="Abyss cuirass",back="Abyss cape"})
 	sets.midcast['Enfeebling Magic']    = set_combine(sets.midcast.FastRecast,{ammo="Sturm's report",head="Crimson mask",neck="Spider torque",body="Chaos cuirass",back="Abyss cape"})
 	                                   
@@ -75,7 +64,6 @@ function init_gear_sets()
 	                                       
 	sets.midcast['Bind']			    = sets.midcast.Sleep
 	sets.midcast['Stun']			    = set_combine(sets.midcast['Dark Magic'],{head="Homam zucchetto"})
-	                                   
 	                                   
 	-- idle                            
 	sets.idle 						    = {ammo="Bibiki seashell"
@@ -144,7 +132,7 @@ function init_gear_sets()
 	
 	-- ranged                            
 	sets.precast.RA 				    = {head="Zha'Go's barbut" ,neck="Peacock amulet"           ,ear1="Drone earring" ,ear2="Drone earring"
-	                                      ,body="Antares harness" ,hands="Crimson finger gauntlets",ring1="Merman's ring",ring2="Merman's ring"
+	                                      ,body="Antares harness" ,hands="Blood finger gauntlets",ring1="Merman's ring",ring2="Merman's ring"
 								          ,back="Amemet mantle +1",waist="Buccaneer's belt"        ,legs="Oily trousers"                       }
 					                          
 	sets.midcast.RA 				    = set_combine(sets.precast.RA,{})
@@ -161,17 +149,17 @@ function init_gear_sets()
 	sets.precast.WS['Guillotine'].Acc   = set_combine(sets.precast.WS['Guillotine'],{ammo="Fire bomblet",head="Hecatomb cap",back="Cuchulain's mantle"})
 	                                          
 	sets.precast.WS['Entropy']          = set_combine(sets.precast.WS['Guillotine'],{neck="Soil gorget"})
-    sets.precast.WS['Entropy'].Acc      = set_combine(sets.precast.WS['Entropy'],{ammo="Fire bomblet",head="Hecatomb cap",back="Cuchulain's mantle"})
+    sets.precast.WS['Entropy'].Acc      = set_combine(sets.precast.WS['Guillotine'].Acc,{neck="Soil gorget"})
                                               
     sets.precast.WS['Catastrophe']      = set_combine(sets.precast.WS,{neck="Shadow gorget",ear1="Abyssal earring"})
-    sets.precast.WS['Catastrophe'].Acc  = set_combine(sets.precast.WS['Catastrophe'],{ammo="Fire bomblet",back="Cuchulain's mantle"})
+    sets.precast.WS['Catastrophe'].Acc  = set_combine(sets.precast.WS['Catastrophe'],{ammo="Fire bomblet",neck="Shadow gorget",back="Cuchulain's mantle"})
 	
 	-- ws gs
 	sets.precast.WS['Scourge']			= set_combine(sets.precast.WS,{neck="Light gorget"})
-	sets.precast.WS['Scourge'].Acc      = set_combine(sets.precast.WS['Scourge'].Acc,{ammo="Fire bomblet",ring2=gear.TRing1})
+	sets.precast.WS['Scourge'].Acc      = set_combine(sets.precast.WS['Scourge'],{ammo="Fire bomblet",ring2=gear.TRing1})
 	
-	sets.precast.WS['Resolution']       = set_combine(sets.precast.WS,{neck="Breeze gorget",hands="Hecatomb mittens +1"})
-	sets.precast.WS['Resolution'].Acc   = set_combine(sets.precast.WS['Resolution'].Acc,{ammo="Fire bomblet",ring2=gear.TRing1})
+	sets.precast.WS['Resolution']       = set_combine(sets.precast.WS,{neck="Thunder gorget",hands="Hecatomb mittens +1"})
+	sets.precast.WS['Resolution'].Acc   = set_combine(sets.precast.WS['Resolution'],{ammo="Fire bomblet",ring2=gear.TRing1})
 end
 
 function job_post_precast(spell,action,spellMap,eventArgs)
@@ -203,7 +191,7 @@ function job_post_midcast(spell,action,spellMap,eventArgs)
 
 	if spell.skill == 'Elemental Magic' then
 		if spell.element == world.day_element or spell.element == world.weather_element then
-			equip(sets.obi[spell.element])
+			equip({waist="Hachirin-no-obi"})
 		end
 	end
 

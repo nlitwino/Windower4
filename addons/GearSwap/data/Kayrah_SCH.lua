@@ -54,16 +54,7 @@ function init_gear_sets()
 			                                             ,body="Errant houppelande",hands="Bricta's cuffs",ring1="Tamas ring"      ,ring2="Star ring"
 			                                             ,back="Prism cape"        ,waist="Argute belt"   ,legs="Mahatma slops"    ,feet="Mahatma pigaches"}
 	
-	-- grips/obis
-	sets.obi 										   = {Fire 	    = {waist="Karin Obi"}
-													     ,Earth 	= {waist="Dorin Obi"}
-													     ,Water 	= {waist="Suirin Obi"}
-													     ,Wind 	    = {waist="Furin Obi"}
-													     ,Ice 		= {waist="Hyorin Obi"}
-													     ,Lightning = {waist="Rairin Obi"}
-													     ,Light     = {waist="Korin Obi"}
-													     ,Dark 	    = {waist="Anrin Obi"}}
-													      
+	-- grips
 	sets.grip 										   = {Fire 	    = {sub="Fire Grip"}
 													     ,Earth 	= {sub="Earth Grip"}
 													     ,Water 	= {sub="Water Grip"}
@@ -145,14 +136,14 @@ function job_post_midcast(spell,action,spellMap,eventArgs)
 	-- weather/day element logic
 	if (spell.skill == 'Elemental Magic' or spell.skill == 'Healing Magic') and not helixes:contains(spell.english) then
 		if spell.element == world.weather_element or spell.element == world.day_element then
-			equip(sets.obi[spell.element])
+			equip({waist="Hachirin-no-obi"})
 		end
 		if state.CastingMode.value == 'TH' then
 			equip({main="Lotus katana"})
 		end
 	elseif helixes:contains(spell.english) then
 		if spell.element == world.day_element then
-			equip(sets.obi[spell.element])
+			equip({waist="Hachirin-no-obi"})
 		end
 	end
 	

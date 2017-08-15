@@ -71,7 +71,7 @@ function init_gear_sets()
 	sets.resting                             = {}
 	                                         
 	-- defense                               
-	sets.defense.Evasion                     = {head="Gnole crown",neck="Fortified chain",body="Scorpion harness +1",back="Boxer's mantle"}
+	sets.defense.Evasion                     = {head="Gnole crown",neck="Fortified chain",body="Scorpion harness +1",back="Boxer's mantle",legs="Raven hose"}
 	sets.defense.PDT                         = {body="Darksteel harness +1",ring1="Defending ring",ring2="Jelly ring",back="Shadow mantle",legs="Darksteel subligar +1"}
 	sets.defense.MDT                         = {ear1="Merman's earring",ear2="Merman's earring",body="Avalon breastplate",ring1="Defending ring",ring2="Shadow ring",waist="Resolute belt",feet="Merman's leggings"}
 	                                         
@@ -93,23 +93,23 @@ function init_gear_sets()
 	sets.precast.WS                          = {head="Maat's cap"      ,neck="Spike necklace"      ,ear1="Pixie earring"       ,ear2="Brutal earring"
 										       ,body="Hecatomb harness",hands="Hecatomb mittens +1",ring1="Rajas ring"         ,ring2="Flame ring"
 										       ,back="Commander's cape",waist="Warwolf belt"       ,legs="Hecatomb subligar +1",feet="Enkidu's leggings"}
-	sets.precast.WS.HNM                      = set_combine(sets.precast.WS,{head="Hecatomb cap",ear1="Bushinomimi",body="Hecatomb harness",feet="Hecatomb leggings +1"})
+	sets.precast.WS.HNM                      = set_combine(sets.precast.WS,{head="Hecatomb cap",neck="Peacock amulet",ear1="Bushinomimi",body="Hecatomb harness",feet="Hecatomb leggings +1"})
 	                                         
 	sets.precast.WS['Cyclone']               = set_combine(sets.precast.WS,{neck="Breeze gorget",ear2="Moldavite earring",ring2="Snow ring"})
 	                                         
-	sets.precast.WS['Dancing Edge']          = set_combine(sets.precast.WS,{neck="Soil gorget",ear1="Pixie earring",feet="Hecatomb leggings +1"})
+	sets.precast.WS['Dancing Edge']          = set_combine(sets.precast.WS,{neck="Breeze gorget",ear1="Pixie earring",feet="Hecatomb leggings +1"})
 	sets.precast.WS['Dancing Edge'].HNM      = set_combine(sets.precast.WS['Dancing Edge'],{head="Hecatomb cap",ear1="Bushinomimi"})
 	                                         
 	sets.precast.WS['Exenterator']           = set_combine(sets.precast.WS['Dancing Edge'],{})
 	sets.precast.WS['Exenterator'].HNM       = set_combine(sets.precast.WS['Dancing Edge'].HNM,{})
 	                                         
-	sets.precast.WS['Shark Bite']            = set_combine(sets.precast.WS,{neck="Breeze gorget",body="Antares harness",ring2="Blobnag ring",back="Assassin's cape",feet="Enkidu's leggings"})
+	sets.precast.WS['Shark Bite']            = set_combine(sets.precast.WS,{body="Antares harness",ring2="Blobnag ring",back="Assassin's cape",feet="Enkidu's leggings"})
 	sets.precast.WS['Shark Bite'].HNM        = set_combine(sets.precast.WS['Shark Bite'],{ear1="Bushinomimi",feet="Hecatomb leggings +1"})
 	                                         
 	sets.precast.WS['Evisceration']          = set_combine(sets.precast.WS,{head="Hecatomb cap",neck="Shadow gorget",back="Cuchulain's mantle",feet="Hecatomb leggings +1"})
 	sets.precast.WS['Evisceration'].HNM      = set_combine(sets.precast.WS['Evisceration'],{ear1="Bushinomimi",back="Commander's cape"})
 	                                         
-	sets.precast.WS['Mercy Stroke']          = set_combine(sets.precast.WS,{head="Hecatomb cap"    ,neck="Soil gorget"           ,ear1="Merman's earring" 
+	sets.precast.WS['Mercy Stroke']          = set_combine(sets.precast.WS,{head="Hecatomb cap"    ,neck="Shadow gorget"         ,ear1="Merman's earring" 
 										     							   ,body="Hecatomb harness",hands="Alkyoneus's bracelets"              
 										     							   ,back="Cerberus mantle +1"                                                    ,feet="Hecatomb leggings +1"})
 	sets.precast.WS['Mercy Stroke'].HNM      = set_combine(sets.precast.WS['Mercy Stroke'],{ear1="Bushinomimi",back="Cerberus mantle +1"})

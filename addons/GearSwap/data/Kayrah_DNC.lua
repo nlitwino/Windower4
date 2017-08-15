@@ -78,10 +78,10 @@ function init_gear_sets()
 	
 	-- engaged
 	sets.engaged                               = {ammo="Black tathlum"
-	                                             ,head="Walahra turban",neck="Chivalrous chain",ear1="Suppanomimi",ear2="Brutal earring"
-												 ,body="Rapparee harness",hands="Dusk gloves +1",ring1="Rajas ring",ring2=gear.TRing1
-												 ,back="Cerberus mantle +1",waist="Velocious belt",legs="Etoile tights",feet="Dusk ledelsens +1"}
-	sets.engaged.HybridAcc                     = set_combine(sets.engaged,{neck="Peacock amulet",ring1=gear.TRing2,back="Etoile cape"})
+	                                             ,head="Walahra turban"    ,neck="Chivalrous chain",ear1="Suppanomimi"  ,ear2="Brutal earring"
+												 ,body="Rapparee harness"  ,hands="Dusk gloves +1" ,ring1=gear.TRing2   ,ring2=gear.TRing1
+												 ,back="Cerberus mantle +1",waist="Velocious belt" ,legs="Etoile tights",feet="Dusk ledelsens +1"}
+	sets.engaged.HybridAcc                     = set_combine(sets.engaged,{neck="Peacock amulet",back="Etoile cape"})
 	sets.engaged.HNM                           = set_combine(sets.engaged.HybridAcc,{})
 	sets.engaged.Tank                          = set_combine(sets.engaged,{})
 	
@@ -92,21 +92,21 @@ function init_gear_sets()
 	sets.midcast.RA                            = set_combine(sets.precast.RA,{})
 	                                           
 	-- ws                                      
-	sets.precast.WS                            = {head="Maat's cap",neck="Chivalrous chain",ear1="Pixie earring",ear2="Brutal earring"
-												 ,body="Enkidu's harness",hands="Enkidu's mittens",ring1="Rajas ring",ring2="Flame ring"
-												 ,back="Cerberus mantle +1",waist="Warwolf belt",legs="Enkidu's subligar",feet="Enkidu's leggings"}
+	sets.precast.WS                            = {head="Maat's cap"        ,neck="Spike necklace"   ,ear1="Pixie earring"    ,ear2="Brutal earring"
+												 ,body="Enkidu's harness"  ,hands="Enkidu's mittens",ring1="Rajas ring"      ,ring2="Flame ring"
+												 ,back="Cerberus mantle +1",waist="Warwolf belt"    ,legs="Enkidu's subligar",feet="Enkidu's leggings"}
 	sets.precast.WS.HNM                        = set_combine(sets.precast.WS,{back="Cuchulain's mantle"})
 	
-	sets.precast.WS['Cyclone']                 = set_combine(sets.precast.WS,{neck="Lemegeton medallion +1",ear1="Moldavite earring",back="Etoile cape"})
+	sets.precast.WS['Cyclone']                 = set_combine(sets.precast.WS,{neck="Breeze gorget",ear1="Moldavite earring",back="Etoile cape"})
 	                                           
 	sets.precast.WS['Dancing Edge']            = set_combine(sets.precast.WS,{neck="Breeze gorget",back="Etoile cape"})
-	sets.precast.WS['Dancing Edge'].HNM        = set_combine(sets.precast.WS['Dancing Edge'],{back="Cerberus mantle +1"})
+	sets.precast.WS['Dancing Edge'].HNM        = set_combine(sets.precast.WS.HNM,{neck="Breeze gorget"})
 	                                           
-	sets.precast.WS['Exenterator']             = set_combine(sets.precast.WS,{neck="Thunder gorget",back="Etoile cape"})
-	sets.precast.WS['Exenterator'].HNM         = set_combine(sets.precast.WS['Exenterator'],{back="Cerberus mantle +1"})
+	sets.precast.WS['Exenterator']             = set_combine(sets.precast.WS['Dancing Edge'],{})
+	sets.precast.WS['Exenterator'].HNM         = set_combine(sets.precast.WS['Dancing Edge'].HNM,{})
 	                                           
-	sets.precast.WS['Evisceration']            = set_combine(sets.precast.WS,{neck="Shadow gorget",back="Etoile cape"})
-	sets.precast.WS['Evisceration'].HNM        = set_combine(sets.precast.WS['Evisceration'],{back="Cerberus mantle +1"})
+	sets.precast.WS['Evisceration']            = set_combine(sets.precast.WS,{neck="Breeze gorget"})
+	sets.precast.WS['Evisceration'].HNM        = set_combine(sets.precast.WS['Evisceration'],{neck="Breeze gorget"})
 	
 end
 

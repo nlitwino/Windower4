@@ -61,7 +61,7 @@ function init_gear_sets()
 															   
 	sets.CHR												 = {                        sub="Bugard leather strap +1",range="Gjallarhorn"
 															   ,head="Bard's roundlet" ,neck="Piper's torque"        ,ear1="Melody earring +1",ear2="Melody earring"
-															   ,body="Kirin's osode"   ,hands="Sheikh gages"	     ,ring1="Light ring"      ,ring2="Light ring"
+															   ,body="Kirin's osode"   ,hands="Choral cuffs +1"	     ,ring1="Light ring"      ,ring2="Light ring"
 															   ,back="Jester's cape +1",waist="Corsette"             ,legs="Mahatma slops"    ,feet="Sha'ir crackows"}
 	                                                         
 	sets.obi												 = {Fire 	  = {waist="Karin Obi"}
@@ -98,13 +98,13 @@ function init_gear_sets()
 	sets.midcast['Dark Magic']								 = set_combine(sets.INT, {neck="Dark torque"})
 	
 	
-	sets.midcast['BardSong']								 = set_combine(sets.CHR,{head="Bard's roundlet",neck="Wind torque",body="Minstrel's coat",hands="Bard's cuffs",ring1="Nereid ring",ring2="Nereid ring",legs="Choral cannions",feet="Oracle's pigaches"})
+	sets.midcast['BardSong']								 = set_combine(sets.CHR,{head="Bard's roundlet",neck="Wind torque",body="Minstrel's coat",hands="Choral cuffs +1",ring1="Nereid ring",ring2="Nereid ring",legs="Choral cannions",feet="Oracle's pigaches"})
 	
 	sets.midcast['Lullaby']									 = set_combine(sets.CHR,{neck="Piper's torque"})
 	sets.midcast['Magic Finale']							 = set_combine(sets.midcast['Lullaby'],{neck="Piper's torque"})
-	sets.midcast['Elegy']									 = set_combine(sets.midcast['Lullaby'],{neck="Piper's torque",hands="Bricta's cuffs"})
-	sets.midcast['Requiem']									 = set_combine(sets.midcast['Lullaby'],{neck="Piper's torque",hands="Bricta's cuffs"})
-	sets.midcast['Threnody']								 = set_combine(sets.midcast['Lullaby'],{neck="Piper's torque",hands="Bricta's cuffs"})
+	sets.midcast['Elegy']									 = set_combine(sets.midcast['Lullaby'],{neck="Piper's torque",hands="Choral cuffs +1"})
+	sets.midcast['Requiem']									 = set_combine(sets.midcast['Lullaby'],{neck="Piper's torque",hands="Choral cuffs +1"})
+	sets.midcast['Threnody']								 = set_combine(sets.midcast['Lullaby'],{neck="Piper's torque",hands="Choral cuffs +1"})
 	
 	
 	sets.midcast['Enfeebling Magic']['WhiteMagic'] 			 = set_combine(sets.MND, sets.midcast['Enfeebling Magic'])

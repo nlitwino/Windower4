@@ -21,6 +21,8 @@ function user_setup()
 	state.PhysicalDefenseMode:options('PDT')
 	state.MagicalDefenseMode:options('MDT')
 	
+	send_command('bind !f9 gs c cycle IdleMode')
+	
 	gear.main = player.equipment.main
 	gear.sub = player.equipment.sub
 	
@@ -56,6 +58,7 @@ function init_gear_sets()
 	sets.precast.FC                         = {ear1="Loquacious earring",legs="Homam cosciales"}
 		
 	sets.precast['Healing Magic']			= set_combine(sets.precast.FC,{head="Gnadbhod's helm",neck="Orochi nodowa",body="Haubergeon +1",hands="Heavy gauntlets",ring1="Astral ring",ring2="Serket ring",feet="Aurum sabatons"})
+	
 	-- Midcast magic                        
 	sets.midcast['Enhancing Magic']         = set_combine(sets.enmity,sets.precast.FC,{ammo="Sturm's report",legs="Gallant breeches"})
 	sets.midcast['Healing Magic']           = set_combine(sets.enmity,{head="Valor coronet"     ,neck="Ritter gorget"   ,ear1="Bloodbead earring",ear2="Cassie earring"
@@ -66,7 +69,7 @@ function init_gear_sets()
 	                                        
 	-- Idle sets                            
 	sets.idle                               = {ammo="Bibiki seashell",head="",neck="Chocobo whistle",ear1="Ethereal earring",ear2="Merman's earring",body="Vermillion cloak",hands="Heavy gauntlets",ring1="Defending ring",ring2="Shadow ring",back="Shadow mantle",waist="Lycopodium sash",legs="Blood cuisses",feet="Kaiser schuhs"}
-	sets.idle.Town                          = set_combine(sets.idle,{head="Dream hat +1",ring2="Warp ring",back="Nexus cape",body="Republic aketon"})
+	sets.idle.Town                          = set_combine(sets.idle,{ring2="Warp ring",back="Nexus cape"})
 	
 	sets.idle.SuperMDT                      = {ammo="White tathlum"
 	                                          ,head="Koenig schaller",neck="Gnole torque",ear1="Ethereal earring",ear2="Merman's earring"
@@ -95,16 +98,16 @@ function init_gear_sets()
 	sets.engaged.Wyrms						= set_combine(sets.engaged.Heavy,{body="Crimson scale mail"})
 	
 	-- Weaponskill sets                     
-	sets.precast.WS                         = {head="Hecatomb cap"      ,neck="Spike necklace"        ,ear1="Fowling earring",ear2="Brutal earring"
+	sets.precast.WS                         = {head="Hecatomb cap"      ,neck="Chivalrous chain"      ,ear1="Fowling earring",ear2="Brutal earring"
 	                                          ,body="Aurum cuirass"     ,hands="Alkyoneus's bracelets"                       ,ring2="Flame ring"
 											  ,back="Cerberus mantle +1",waist="Warwolf belt"         ,legs="Valor breeches" ,feet="Hecatomb leggings +1"}
 	sets.precast.WS.Acc                     = set_combine(sets.precast.WS,{neck="Peacock amulet",hands="Hecatomb mittens +1"})
 	                                        
-	sets.precast.WS['Vorpal Blade']         = set_combine(sets.precast.WS,{neck="Thunder gorget",body="Zahak's mail",hands="Hecatomb mittens +1",back="Cuchulain's mantle"})
-	sets.precast.WS['Vorpal Blade'].Acc     = set_combine(sets.precast.WS,{ring2=gear.TRing1})
+	sets.precast.WS['Vorpal Blade']         = set_combine(sets.precast.WS,{neck="Soil gorget",body="Zahak's mail",hands="Hecatomb mittens +1",back="Cuchulain's mantle"})
+	sets.precast.WS['Vorpal Blade'].Acc     = set_combine(sets.precast.WS['Vorpal Blade'],{ring2=gear.TRing1})
 	                                        
-	sets.precast.WS['Requiescat']           = set_combine(sets.precast.WS['Vorpal Blade'],{neck="Shadow gorget"})
-	sets.precast.WS['Requiescat'].Acc       = set_combine(sets.precast.WS['Requiescat'],{ring2=gear.TRing1})
+	sets.precast.WS['Requiescat']           = set_combine(sets.precast.WS['Vorpal Blade'],{})
+	sets.precast.WS['Requiescat'].Acc       = set_combine(sets.precast.WS['Vorpal Blade'].Acc,{})
 	                                       
 	sets.precast.WS['Knights of Round']     = set_combine(sets.precast.WS,{head="Maat's cap",neck="Light gorget"})
 	sets.precast.WS['Knights of Round'].Acc = set_combine(sets.precast.WS['Knights of Round'],{ring2=gear.TRing1})
@@ -112,17 +115,24 @@ function init_gear_sets()
 	sets.precast.WS['Swift Blade']          = set_combine(sets.precast.WS,{head="Maat's cap",neck="Soil gorget"})
 	sets.precast.WS['Swift Blade'].Acc      = set_combine(sets.precast.WS['Swift Blade'],{ring2=gear.TRing1})
 	                                        
-	sets.precast.WS['Savage Blade']         = set_combine(sets.precast.WS,{head="Maat's cap",neck="Breeze gorget"})
+	sets.precast.WS['Savage Blade']         = set_combine(sets.precast.WS,{head="Maat's cap",neck="Thunder gorget"})
 	sets.precast.WS['Savage Blade'].Acc     = set_combine(sets.precast.WS['Savage Blade'],{ring2=gear.TRing1})
 	
+end
+
+function job_post_precast(spell,action,spellMap,eventArgs)
+
+	if spellMap == 'Cure' then
+		equip(sets.precast['Healing Magic'])
+	end
 
 end
 
 function job_post_midcast(spell,action,spellMap,eventArgs)
 
 	if spell.skill == 'Healing Magic' or spell.skill == 'Divine magic' then 
-		if spell.element == world.weather_element or spell.element == world.day_element then
-			equip(sets.obi[spell.element])
+		if spell.element == world.weather_element or spell.element == world.day_element and world.weather_element ~= 'Dark' then
+			equip({waist="Hachirin-no-obi"})
 		end
 	end
 

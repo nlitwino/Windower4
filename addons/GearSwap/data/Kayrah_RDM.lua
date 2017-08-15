@@ -32,15 +32,7 @@ function init_gear_sets()
 	sets.INT 												 = {ammo="Bugard leather strap +1",ammo="Phantom tathlum",head="Maat's cap",neck="Lemegeton medallion +1",ear1="Abyssal earring",ear2="Morion earring +1",body="Crimson scale mail",hands="Duelist's gloves",ring1="Tamas ring",ring2="Snow ring",back="Prism cape",waist="Duelist's belt",legs="Jet seraweels",feet="Numerist pumps"}
 	sets.resting 											 = {ammo="Bibiki seashell",neck="Gnole torque",ear2="Magnetic earring",body="Errant houppelande",waist="Duelist's belt",feet="Avocat pigaches"}
 	
-	sets.obi												 = {Fire 	= {waist="Karin Obi"},
-															 Earth 		= {waist="Dorin Obi"},
-															 Water	 	= {waist="Suirin Obi"},
-															 Wind 		= {waist="Furin Obi"},
-															 Ice 		= {waist="Hyorin Obi"},
-															 Lightning	= {waist="Rairin Obi"},
-															 Light 		= {waist="Korin Obi"},
-															 Dark 		= {waist="Anrin Obi"}}
-															 	   
+	-- grips														 	   
 	sets.grip												 = {Fire 	= {sub="Fire Grip"},
 															 Earth 		= {sub="Earth Grip"},
 															 Water 		= {sub="Water Grip"},
@@ -68,12 +60,12 @@ function init_gear_sets()
 	sets.midcast['Enfeebling Magic']['BlackMagic']			 = set_combine(sets.INT,sets.midcast['Enfeebling Magic'],{ear2="Magnetic earring"})
 	sets.midcast['Enfeebling Magic']['BlackMagic'].Resistant = set_combine(sets.INT,sets.midcast['Enfeebling Magic'],{ear2="Magnetic earring"})
 	
-	sets.midcast['Dark Magic']								 = set_combine(sets.INT,{ear1="Abyssal earring",hands="Crimson finger gauntlets"})
+	sets.midcast['Dark Magic']								 = set_combine(sets.INT,{ear1="Abyssal earring",hands="Blood finger gauntlets"})
 	sets.midcast['Elemental Magic']							 = set_combine(sets.INT,{head="Warlock's chapeau",ear2="Moldavite earring",hands="Zenith mitts",feet="Duelist's boots",back="Hecate's cape"})
 	sets.midcast['Elemental Magic'].Resistant				 = set_combine(sets.midcast['Elemental Magic'],{legs="Duelist's tights",feet="Numerist pumps"})
 	
 	--IdleMode
-	sets.idle												 = {ammo="Bibiki seashell",head="Duelist's chapeau",neck="Chocobo whistle",ear1="Merman's earring",ear2="Merman's earring",body="Dalmatica",hands="Crimson finger gauntlets",ring1="Defending ring",ring2="Shadow ring",back="Shadow mantle",waist="Lycopodium sash",legs="Blood cuisses",feet="Duelist's boots"}
+	sets.idle												 = {ammo="Bibiki seashell",head="Duelist's chapeau",neck="Chocobo whistle",ear1="Merman's earring",ear2="Merman's earring",body="Dalmatica",hands="Blood finger gauntlets",ring1="Defending ring",ring2="Shadow ring",back="Shadow mantle",waist="Lycopodium sash",legs="Blood cuisses",feet="Duelist's boots"}
 	sets.idle.Town											 = set_combine(sets.idle,{ring2="Warp ring",back="Nexus cape"})
 	
 	sets.Kiting												 = {legs="Blood cuisses"}
@@ -109,13 +101,13 @@ function job_post_midcast(spell,action,spellMap,eventArgs)
 	-- Apply Obi
 	if spell.skill == 'Elemental Magic' then 
 		if spell.element == world.weather_element or spell.element == world.day_element then
-			equip(sets.obi[spell.element])
+			equip({waist="Hachirin-no-obi"})
 		end
 	end
 	
 	if spellMap == 'Cure' then
 		if not (world.weather_element == 'Dark' or world.day_element == 'Dark') then
-			equip(sets.obi[spell.element])
+			equip({waist="Hachirin-no-obi"})
 		end
 	end
 	

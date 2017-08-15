@@ -33,16 +33,7 @@ function init_gear_sets()
 	--misc.
 	sets.lowHP 												= {hands="Zenith mitts",ring1="Astral ring",ring2="Serket ring"}
 
-	--grips/obis
-	sets.obi 												= {Fire 	 = {waist="Karin Obi"}
-															  ,Earth 	 = {waist="Dorin Obi"}
-															  ,Water 	 = {waist="Suirin Obi"}
-															  ,Wind 	 = {waist="Furin Obi"}
-															  ,Ice 		 = {waist="Hyorin Obi"}
-															  ,Lightning = {waist="Rairin Obi"}
-															  ,Light     = {waist="Korin Obi"}
-															  ,Dark 	 = {waist="Anrin Obi"}}
-															   
+	--grips/obis														   
 	sets.grip 												= {Fire 	 = {sub="Fire Grip"}
 															  ,Earth 	 = {sub="Earth Grip"}
 															  ,Water 	 = {sub="Water Grip"}
@@ -120,14 +111,20 @@ function job_post_midcast(spell,action,spellMap,eventArgs)
 
 	if spell.skill == 'Elemental Magic' then
 		if spell.element == world.weather_element and spell.element == world.day_element then
-			equip(set_combine(sets.obi[spell.element],{main="Chatoyant staff",legs="Sorcerer's tonban"}))
+			equip({waist="Hachirin-no-obi",main="Chatoyant staff",legs="Sorcerer's tonban"})
 		elseif spell.element == world.day_element then
-			equip(set_combine(sets.obi[spell.element],{main="Claustrum",legs="Sorcerer's tonban"}))
+			equip({waist="Hachirin-no-obi",main="Claustrum",legs="Sorcerer's tonban"})
 		elseif spell.element == world.weather_element then
-			equip(set_combine(sets.obi[spell.element],{main="Chatoyant staff"}))
+			equip({waist="Hachirin-no-obi",main="Chatoyant staff"})
 		end
 		if state.CastingMode.value == 'TH' then
 			equip({main="Lotus Katana"})
+		end
+	end
+	
+	if spellMap == 'Cure' then
+		if not (world.weather_element == 'Dark' or world.day_element == 'Dark') then
+			equip({waist="Hachirin-no-obi"})
 		end
 	end
 		

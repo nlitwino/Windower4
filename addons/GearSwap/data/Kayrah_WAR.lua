@@ -94,50 +94,50 @@ function init_gear_sets()
 	
 	--Weaponskill Sets
 	sets.precast.WS = {ammo="Bomb core"
-					  ,head="Hecatomb cap"      ,neck="Spike necklace"                                ,ear2="Brutal earring"
+					  ,head="Hecatomb cap"      ,neck="Fotia gorget"                                  ,ear2="Brutal earring"
 					  ,body="Armada hauberk"    ,hands="Alkyoneus's bracelets",ring1="Rajas ring"     ,ring2="Flame ring"
 					  ,back="Cerberus mantle +1",waist="Warwolf belt"         ,legs="Hachiryu haidate",feet="Hecatomb leggings +1"}
 	sets.precast.WS.Acc = set_combine(sets.precast.WS,{ammo="Fire bomblet",neck="Chivalrous chain",ear1="Fowling earring",back="Cuchulain's mantle",waist="Warrior's stone"})
 	
 	----Sword
-	sets.precast.WS['Vorpal Blade']         = set_combine(sets.precast.WS,{neck="Thunder gorget",body="Zahak's mail",hands="Hecatomb mittens +1",back="Cuchulain's mantle"})
+	sets.precast.WS['Vorpal Blade']         = set_combine(sets.precast.WS,{body="Zahak's mail",hands="Hecatomb mittens +1",back="Cuchulain's mantle"})
 	sets.precast.WS['Vorpal Blade'].Acc     = set_combine(sets.precast.WS['Vorpal Blade'],{ammo="Fire bomblet",waist="Warrior's stone"})
 	                                        
-	sets.precast.WS['Requiescat']           = set_combine(sets.precast.WS['Vorpal Blade'],{neck="Shadow gorget"})
-	sets.precast.WS['Requiescat'].Acc       = set_combine(sets.precast.WS['Vorpal Blade'].Acc,{neck="Shadow gorget"})
+	sets.precast.WS['Requiescat']           = set_combine(sets.precast.WS['Vorpal Blade'],{})
+	sets.precast.WS['Requiescat'].Acc       = set_combine(sets.precast.WS['Vorpal Blade'].Acc,{})
 	                                        
 	----Sword MS                            
 	sets.precast.WS['Vorpal Blade'].MS      = set_combine(sets.precast.WS['Vorpal Blade'],{body="Armada hauberk",hands="Alkyoneus's bracelets"})
 	sets.precast.WS['Vorpal Blade'].Acc.MS  = set_combine(sets.precast.WS['Vorpal Blade'].MS,{ammo="Fire bomblet",waist="Warrior's stone"})
 	                                        
-	sets.precast.WS['Requiescat'].MS        = set_combine(sets.precast.WS['Vorpal Blade'].MS,{neck="Shadow gorget"})
-	sets.precast.WS['Requiescat'].Acc.MS    = set_combine(sets.precast.WS['Vorpal Blade'].Acc.MS,{neck="Shadow gorget"})
+	sets.precast.WS['Requiescat'].MS        = set_combine(sets.precast.WS['Vorpal Blade'].MS,{})
+	sets.precast.WS['Requiescat'].Acc.MS    = set_combine(sets.precast.WS['Vorpal Blade'].Acc.MS,{})
 	                                        
 	----Great Axe                           
-	sets.precast.WS['Raging Rush']          = set_combine(sets.precast.WS,{neck="Snow gorget",body="Zahak's mail",hands="Hecatomb mittens +1",back="Cuchulain's mantle"})
+	sets.precast.WS['Raging Rush']          = set_combine(sets.precast.WS,{body="Zahak's mail",hands="Hecatomb mittens +1",back="Cuchulain's mantle"})
 	sets.precast.WS['Raging Rush'].Acc      = set_combine(sets.precast.WS['Raging Rush'],{ammo="Fire bomblet",ear1="Fowling earring",waist="Warrior's stone"})
 	                                        
-	sets.precast.WS['Upheaval']             = set_combine(sets.precast.WS['Raging Rush'],{neck="Flame gorget"})
-	sets.precast.WS['Upheaval'].Acc         = set_combine(sets.precast.WS['Raging Rush'].Acc,{neck="Flame gorget"})
+	sets.precast.WS['Upheaval']             = set_combine(sets.precast.WS['Raging Rush'],{})
+	sets.precast.WS['Upheaval'].Acc         = set_combine(sets.precast.WS['Raging Rush'].Acc,{})
 	
 	sets.precast.WS['Metatron Torment']     = set_combine(sets.precast.WS,{neck="Light gorget"})
 	sets.precast.WS['Metatron Torment'].Acc = set_combine(sets.precast.WS['Metatron Torment'],{ammo="Fire bomblet",ear1="Fowling earring",waist="Warrior's stone"}) 
 	
-	sets.precast.WS['Steel Cyclone']        = set_combine(sets.precast.WS,{head="Maat's cap",neck="Breeze gorget",waist="Warwolf belt"})
+	sets.precast.WS['Steel Cyclone']        = set_combine(sets.precast.WS,{head="Maat's cap",waist="Warwolf belt"})
 	sets.precast.WS['Steel Cyclone'].Acc    = set_combine(sets.precast.WS['Steel Cyclone'],{ammo="Fire bomblet",ear2="Fowling earring",ring2="Ecphoria ring",back="Cuchulain's mantle"})
 	                    
 	----Great Axe MS                        
 	sets.precast.WS['Raging Rush'].MS       = set_combine(sets.precast.WS['Raging Rush'],{body="Armada hauberk",hands="Alkyoneus's bracelets"})
 	sets.precast.WS['Raging Rush'].Acc.MS   = set_combine(sets.precast.WS['Raging Rush'].MS,{ammo="Fire bomblet",ear1="Fowling earring",waist="Warrior's stone"})
 	                                        
-	sets.precast.WS['Upheaval'].MS          = set_combine(sets.precast.WS['Raging Rush'].MS,{neck="Flame gorget"})
-	sets.precast.WS['Upheaval'].Acc.MS      = set_combine(sets.precast.WS['Raging Rush'].Acc.MS,{neck="Flame gorget"})
+	sets.precast.WS['Upheaval'].MS          = set_combine(sets.precast.WS['Raging Rush'].MS,{})
+	sets.precast.WS['Upheaval'].Acc.MS      = set_combine(sets.precast.WS['Raging Rush'].Acc.MS,{})
 	
 	----Greatsword
-	sets.precast.WS['Scourge']              = set_combine(sets.precast.WS,{neck="Light gorget"})
+	sets.precast.WS['Scourge']              = set_combine(sets.precast.WS,{})
 	sets.precast.WS['Scourge'].Acc          = set_combine(sets.precast.WS['Scourge'],{})
 	
-	sets.precast.WS['Resolution']           = set_combine(sets.precast.WS,{neck="Breeze gorget",hands="Hecatomb mittens +1",back="Cerberus mantle +1",waist="Warrior's stone"})
+	sets.precast.WS['Resolution']           = set_combine(sets.precast.WS,{hands="Hecatomb mittens +1",back="Cerberus mantle +1",waist="Warrior's stone"})
 	sets.precast.WS['Resolution'].Acc       = set_combine(sets.precast.WS['Resolution'],{})
 
 end

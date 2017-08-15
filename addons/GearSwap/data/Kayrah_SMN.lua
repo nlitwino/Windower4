@@ -149,17 +149,6 @@ function init_gear_sets()
 															  ,body="Errant houppelande",hands="Errant cuffs"         ,ring1="Tamas ring"    ,ring2="Snow ring"
 															  ,back="Ixion cape"        ,waist="Ocean stone"          ,legs="Mahatma slops"  ,feet="Rostrum pumps"}
 	
-	--grips/obis
-    sets.obi 												= {Fire 	 = {waist="Karin Obi"}
-															  ,Earth 	 = {waist="Dorin Obi"}
-															  ,Water 	 = {waist="Suirin Obi"}
-															  ,Wind 	 = {waist="Furin Obi"}
-															  ,Ice 		 = {waist="Hyorin Obi"}
-															  ,Lightning = {waist="Rairin Obi"}
-															  ,Light     = {waist="Korin Obi"}
-															  ,Dark 	 = {waist="Anrin Obi"}}
-	
-	
     -- precast JA
     sets.precast.JA 										= {body="Errant houppelande",hands="Errant cuffs",waist="Buccaneer's belt",legs="Jet seraweels",feet="Avocat pigaches"}
 	
@@ -239,10 +228,14 @@ end
 function job_post_midcast(spell,action,spellMap,eventArgs)
 
 	if spell.skill == 'Elemental Magic' then
-		if spell.element == world.day_element then
-			if spell.element == world.weather_element then
-				equip(sets.obi[spell.element])
-			end
+		if spell.element == world.day_element or spell.element == world.weather_element then
+			equip({waist="Hachirin-no-obi"})
+		end
+	end
+	
+	if spellMap == 'Cure' then
+		if not (world.weather_element == 'Dark' or world.day_element == 'Dark') then
+			equip({waist="Hachirin-no-obi"})
 		end
 	end
 

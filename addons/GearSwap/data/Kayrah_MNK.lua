@@ -1,121 +1,157 @@
--------------------------------------------------------------------------------------------------------------------
--- Setup functions for this job.  Generally should not be modified.
--------------------------------------------------------------------------------------------------------------------
-
--- Initialization function for this job file.
 function get_sets()
 
-    mote_include_version = 2
-    include('Mote-Include.lua')
-	
+	mote_include_version = 2
+	include('Mote-Include.lua')
+
 end
 
-
--- Setup vars that are user-independent.  state.Buff vars initialized here will automatically be tracked.
 function job_setup()
 
-    state.Buff['Footwork'] = buffactive.Footwork or false
-    state.Buff['Hundred Fists'] = buffactive.Footwork or false
+	state.Buff['Footwork'] = buffactive['Footwork'] or false
+	state.Buff['Hundred Fists'] = buffactive['Hundred Fists'] or false
+	state.Buff['Focus'] = buffactive['Focus'] or false
 	
 	include('Kay-Include.lua')
 	
 	initialize_job()
 
-
 end
 
-
--------------------------------------------------------------------------------------------------------------------
--- User setup functions for this job.  Recommend that these be overridden in a sidecar file.
--------------------------------------------------------------------------------------------------------------------
-
--- Setup vars that are user-dependent.  Can override this function in a sidecar file.
 function user_setup()
 
-    state.OffenseMode:options('Normal','Acc','HNM')
-	state.WeaponskillMode:options('Normal','Acc','HNM')
-	state.PhysicalDefenseMode:options('Counterstance','PDT')
+	state.OffenseMode:options('Normal','HybridAcc','Acc','OffTank','Tank')
+	state.WeaponskillMode:options('Normal','HNM')
+	state.PhysicalDefenseMode:options('PDT')
 	state.MagicalDefenseMode:options('MDT')
-	
-	send_command('bind f9 gs c cycle OffenseMode')
-	send_command('bind f10 gs c cycle WeaponskillMode')
-	send_command('bind f11 gs c cycle PhysicalDefenseMode')
-	send_command('bind f12 gs c cycle MagicalDefenseMode')
-
-    select_default_macro_book()
 	
 end
 
-
--- Define sets and vars used by this job file.
 function init_gear_sets()
-    --------------------------------------
-    -- Start defining the sets
-    --------------------------------------
-    
-    -- Misc. Sets
-	sets.resting						 	= {neck="Orochi nodowa",body="Melee cyclas",back="Melee cape"}
-		
-	sets.enmity							 	= {back="Cerberus mantle +1",waist="Warwolf belt"}
-		
-	-- Buff Sets	
-		
-	-- Precast JAs (MNK)	
-	sets.precast.JA = sets.enmity	
-	sets.precast.JA['Focus']			 	= set_combine(sets.precast.JA,{head="Temple crown"})
-	sets.precast.JA['Dodge']			 	= set_combine(sets.precast.JA,{feet="Temple gaiters"})
-	sets.precast.JA['Chakra']			 	= set_combine(sets.precast.JA,{head="Genbu's kabuto",body="Temple cyclas",hands="Melee gloves",ring2="Bastokan ring",back="Melee cape",waist="Warwolf belt",legs="Kensei sitabaki"})
-	sets.precast.JA['Boost']			 	= set_combine(sets.precast.JA,{hands="Temple gloves"})
-	sets.precast.JA['Counterstance']	 	= set_combine(sets.precast.JA,{feet="Melee gaiters"})
-	sets.precast.JA['Chi Blast']		 	= set_combine(sets.precast.JA,{head="Temple crown",neck="Gnole torque",ear1="Mamool Ja earring",body="Kirin's osode",back="Melee cape",feet="Suzaku's sune-ate"})
-		
-	-- Precast Magic	
-	sets.precast.FC						 	= {}
-		
-	-- Midcast Magic	
-	sets.midcast.FastRecast				 	= {}
-	sets.midcast['Ninjutsu']			 	= {ring2="Antica ring"}
-		
-	-- Idle Sets	
-	sets.idle							 	= {ammo="Bibiki seashell"
-											  ,head="Genbu's kabuto"   ,neck="Chocobo whistle" ,ear1="Merman's earring",ear2="Merman's earring"
-											  ,body="Melee cyclas"     ,hands="Melee gloves"   ,ring1="Defending ring" ,ring2="Merman's ring"
-											  ,back="Kinesis mantle +1",waist="Lycopodium sash",legs="Byakko's haidate",feet="Hermes' sandals"}
-		
-	sets.idle.Town						 	= set_combine(sets.idle,{})
-		
-	sets.Kiting							 	= {feet="Hermes' sandals"}
-		
-	-- Defense Sets	
-	sets.defense.Counterstance = {}
-	sets.defense.PDT = {}
+
+	-- misc.
+	sets.VIT                             = {ammo="Bibiki seashell"
+			                               ,head="Genbu's kabuto"                      ,ear1="Cassie earring",ear2=""
+			                               ,body="Kirin's osode"                                             ,ring2="Corneus ring"
+			                               ,back="Melee cape"     ,waist="Warwolf belt",legs="Kensei sitabaki"}
+	sets.MND                             = {head="Maat's cap"   ,neck="Gnole torque",ear1="Mamool Ja earring"
+			                               ,body="Kirin's osode"                                          ,ring2="Star ring"
+			                               ,back="Melee cape"   ,waist="Ocean stone"                      ,feet="Suzaku's sune-ate"}
 	
-		
-	-- TP Sets	
-    sets.engaged						 	= {ammo="Black tathlum"
-	                                          ,head="Walahra turban" ,neck="Peacock amulet",ear1="Bushinomimi"     ,ear2="Pixie earring"
-											  ,body="Kirin's osode"  ,hands="Melee gloves" ,ring1="Rajas ring"     ,ring2="Flame ring"
-											  ,back="Cerberus mantle +1",waist="Black belt"   ,legs="Byakko's haidate",feet="Sarutobi kyahan"}
-	sets.engaged.Acc					 	= set_combine(sets.engaged,{body="Scorpion harness +1",ring2="Sniper's ring +1",back="Cuchulain's mantle"})
-	sets.engaged.HNM					 	= set_combine(sets.engaged.Acc,{})
-		
-	--sets.engaged['HF'] = {}	
-		
-    -- Weaponskill Sets	
-	sets.precast.WS						 	= {head="Maat's cap",neck="Spike necklace",ear1="Merman's earring",ear2="Merman's earring",body="Kirin's osode",hands="Ochimusha kote",ring1="Rajas ring",ring2="Flame ring",back="Cerberus mantle",waist="Warwolf belt",legs="Enkidu's subligar",feet="Enkidu's leggings"}
-	sets.precast.WS.Acc					 	= set_combine(sets.precast.WS,{body="Scorpion's harness +1",ring1="Sniper's ring +1",ring2="Sniper's ring +1"})
-	sets.precast.WS.HNM					 	= set_combine(sets.precast.WS.Acc,{})
-		
-	sets.precast.WS['Asuran Fists']		 	= {head="Maat's cap",neck="Flame gorget",ear1="Merman's earring",ear2="Merman's earring",body="Kirin's osode",hands="Ochimusha kote",ring1="Rajas ring",ring2="Flame ring",back="Cerberus mantle",waist="Warwolf belt",legs="Enkidu's subligar",feet="Enkidu's leggings"}
-	sets.precast.WS['Asuran Fists'].Acc	 	= set_combine(sets.precast.WS['Asuran Fists'],{body="Scorpion's harness +1",ring1="Sniper's ring +1",ring2="Sniper's ring +1"})
-	sets.precast.WS['Asuran Fists'].HNM	 	= set_combine(sets.precast.WS['Asuran Fists'].Acc,{})
-		
-	sets.precast.WS['Dragon Kick']		 	= set_combine(sets.precast.WS,{neck="Spike necklace",ear1="Bushinomimi"})
-	sets.precast.WS['Dragon Kick'].Acc	 	= set_combine(sets.precast.WS['Dragon Kick'].Acc,{neck="Breeze gorget"})
-	sets.precast.WS['Dragon Kick'].HNM	 	= set_combine(sets.precast.WS['Dragon Kick'].Acc,{})
-		
-	sets.precast.WS['Victory Smite']	 	= set_combine(sets.precast.WS['Asuran Fists'],{neck="Thunder gorget"})
-	sets.precast.WS['Victory Smite'].Acc	 = set_combine(sets.precast.WS['Asuran Fists'],{neck="Thunder gorget"})
-	sets.precast.WS['Victory Smite'].HNM	 = set_combine(sets.precast.WS['Asuran Fists'].HNM,{neck="Thunder gorget"})
+	-- precast ja
+	sets.precast.JA                      = {}
+	
+	sets.precast.JA['Chi Blast']         = set_combine(sets.MND,{})
+	sets.precast.JA['Boost']             = {hands="Temple gloves"}
+	sets.precast.JA['Chakra']            = set_combine(sets.VIT,{body="Temple cyclas",hands="Melee gloves"})
+	sets.precast.JA['Focus']             = {head="Temple crown"}
+	sets.precast.JA['Dodge']             = {feet="Temple gaiters"}
+	
+	-- precast magic
+	sets.precast.FC 					 = {ear1="Loquacious earring"}
+	
+	-- midcast magic
+	sets.midcast.FastRecast              = set_combine(sets.precast.FC,{ammo="Bibiki seashell"
+							                                           ,head="Walahra turban"     ,neck="Fortified chain"
+							                                           ,body="Scorpion harness +1"                       ,ring1="Defending ring"
+							                                           ,back="Boxer's mantle"     ,waist="Black belt"    ,legs="Byakko's haidate",feet="Sarutobi kyahan"})
+	
+	sets.midcast['Utsusemi: Ni']         = set_combine(sets.midcast.FastRecast,{ring2="Antica ring"})
+	sets.midcast['Utsusemi: Ichi']       = set_combine(sets.midcast.FastRecast,{waist="Resolute belt"})    
+	
+	-- idle
+	sets.idle                            = {ammo="Bibiki seashell"
+				                           ,head="Genbu's kabuto",neck="Chocobo whistle",ear1="Merman's earring",ear2="Merman's earring"
+				                           ,body="Melee cyclas",hands="Seiryu's kote",ring1="Defending ring",ring2="Shadow ring"
+				                           ,back="Shadow mantle",waist="Lycopodium sash",legs="Darksteel subligar +1",feet="Hermes' sandals"}
+	sets.idle.Town                       = set_combine(sets.idle,{ring2="Warp ring",back="Nexus cape"})
+	
+	-- defense
+	
+	
+	sets.defense.PDT 	                 = {ammo="Bibiki seashell",head="Genbu's kabuto",body="Darksteel harness +1",ring1="Defending ring",ring2="Jelly ring",back="Shadow mantle",waist="Black belt",legs="Darksteel subligar +1"}
+	sets.defense.Evasion                 = set_combine(sets.defense.PDT,{head="Gnole crown",neck="Fortified chain",ear1="Drone earring",ear2="Drone earring",hands="Seiryu's kote",ring1="Defending ring",back="Boxer's mantle",legs="Raven hose",feet="Hachiryu sune-ate"})
+	sets.defense.MDT                     = {ammo="Bibiki seashell"
+	                                       ,head="Genbu's kabuto"                          ,ear1="Merman's ring"   ,ear2="Merman's ring"
+					                       ,body="Avalon breastplate",hands="Seiryu's kote",ring1="Defending ring" ,ring2="Shadow ring"
+					                                                 ,waist="Resolute belt",legs="Byakko's haidate",feet="Suzaku's sune-ate"}
+	
+	-- engaged
+	sets.engaged                         = {ammo="Black tathlum"
+				                           ,head="Walahra turban",neck="Chivalrous chain",ear1="Bushinomimi",ear2="Brutal earring"
+				                           ,body="Hachiryu haramaki",hands="Ochimusha kote",ring1=gear.TRing2,ring2=gear.TRing1
+				                           ,back="Cerberus mantle +1",waist="Black belt",legs="Byakko's haidate",feet="Sarutobi kyahan"}
+	sets.engaged.HybridAcc               = set_combine(sets.engaged,{neck="Peacock amulet",ear1="Hollow earring",back="Cuchulain's mantle"})
+	sets.engaged.Acc                     = set_combine(sets.engaged.HybridAcc,{head="Enkidu's cap",hands="Hachiryu kote",feet="Enkidu's leggings"})
+	sets.engaged.OffTank                 = set_combine(sets.engaged,{ammo="Bibiki seashell",ear1="Cassie earring",hands="Melee gloves",ring1="Defending ring",back="Boxer's mantle"})
+	sets.engaged.Tank                    = set_combine(sets.engaged.OffTank,{head="Gnole crown",neck="Fortified chain",legs="Temple hose"})
+	
+	-- engaged FOCUS
+	sets.engaged.Focus                   = set_combine(sets.engaged,{})
+	sets.engaged.HybridAcc.Focus         = set_combine(sets.engaged,{})
+	sets.engaged.Acc.Focus               = set_combine(sets.engaged.HybridAcc,{})
+	sets.engaged.OffTank.Focus           = set_combine(sets.engaged.OffTank,{})
+	sets.engaged.Tank.Focus              = set_combine(sets.engaged.Tank,{})
+	
+	-- ws
+	sets.precast.WS                      = {ammo="Black tathlum"
+					                       ,head="Maat's cap"        ,neck="Chivalrous chain",ear1="Bushinomimi"     ,ear2="Brutal earring"
+					                       ,body="Kirin's osode"     ,hands="Ochimusha kote" ,ring1="Rajas ring"     ,ring2=gear.TRing1
+					                       ,back="Cerberus mantle +1",waist="Warwolf belt"   ,legs="Hachiryu haidate",feet="Rutter sabatons"}
+	sets.precast.WS.HNM                  = set_combine(sets.precast.WS,{head="Gnadbhod's helm"})
+	
+	sets.precast.WS['Dragon Kick']       = set_combine(sets.precast.WS,{neck="Thunder gorget"})
+	sets.precast.WS['Dragon Kick'].HNM   = set_combine(sets.precast.WS['Dragon Kick'],{})
+	
+	sets.precast.WS['Asuran Fists']      = set_combine(sets.precast.WS,{head="Gnadbhod's helm",neck="Soil gorget",ear1="Hollow earring",ear2="Merman's earring",body="Hachiryu haramaki"})
+	sets.precast.WS['Asuran Fists'].HNM  = set_combine(sets.precast.WS['Asuran Fists'],{})
+	
+	sets.precast.WS['Victory Smite']     = set_combine(sets.precast.WS['Asuran Fists'],{neck="Light gorget"})
+	sets.precast.WS['Victory Smite'].HNM = set_combine(sets.precast.WS['Asuran Fists'].HNM,{neck="Light gorget"})
+	
+end
+
+function job_buff_change(name,gain)
+	
+	sleep_swap(name,gain)
+	
+	if name == 'Hundred Fists' then
+		state.Buff[name] = gain
+		adjust_melee_groups()
+		handle_equipping_gear(player.status)
+	elseif name == 'Focus' then
+		state.Buff[name] = gain
+		adjust_melee_groups()
+		handle_equipping_gear(player.status)
+	end
+
+end
+
+function job_post_precast(spell,action,spellMap,eventArgs)
+
+	if state.Buff['Footwork'] and spell.type == 'WeaponSkill' then
+		equip({feet="Kyoshu kyahan"})
+	end
+
+end
+
+function customize_melee_set(meleeSet)
+
+	if state.Buff['Hundred Fists'] then
+        meleeSet = set_combine(meleeSet,sets.precast.WS,{head="Gnadbhod's helm",neck="Peacock amulet",ear1="Hollow earring",ring1=gear.TRing2,waist="Black belt"})
+	elseif state.Buff['Footwork'] then
+		meleeSet = set_combine(meleeSet, {feet="Kyoshu kyahan"})
+    end
+	
+    return meleeSet
+	
+end
+
+function adjust_melee_groups()
+
+	classes.CustomMeleeGroups:clear()
+	
+	if state.Buff['Focus'] then
+		classes.CustomMeleeGroups:append('Focus')
+	end
 	
 end

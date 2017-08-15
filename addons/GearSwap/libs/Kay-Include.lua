@@ -41,6 +41,7 @@ function initialize_job()
 	windower.register_event('zone change', 
 	function(new, old)
 		send_command('gs c update')
+		send_command('treasury clearall')
 	end)
 
 	windower.register_event('time change', 
