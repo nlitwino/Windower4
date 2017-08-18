@@ -100,9 +100,9 @@ function init_gear_sets()
 	
 	sets.midcast['BardSong']								 = set_combine(sets.CHR,{head="Bard's roundlet",neck="Wind torque",body="Minstrel's coat",hands="Choral cuffs +1",ring1="Nereid ring",ring2="Nereid ring",legs="Choral cannions",feet="Oracle's pigaches"})
 	
-	sets.midcast['Lullaby']									 = set_combine(sets.CHR,{neck="Piper's torque"})
-	sets.midcast['Magic Finale']							 = set_combine(sets.midcast['Lullaby'],{neck="Piper's torque"})
-	sets.midcast['Elegy']									 = set_combine(sets.midcast['Lullaby'],{neck="Piper's torque",hands="Choral cuffs +1"})
+	sets.midcast['Lullaby']									 = set_combine(sets.CHR,{neck="Piper's torque",hands="Sheikh gages"})
+	sets.midcast['Magic Finale']							 = set_combine(sets.midcast['Lullaby'],{neck="Piper's torque",hands="Sheikh gages"})
+	sets.midcast['Elegy']									 = set_combine(sets.midcast['Lullaby'],{neck="Piper's torque",hands="Sheikh gages"})
 	sets.midcast['Requiem']									 = set_combine(sets.midcast['Lullaby'],{neck="Piper's torque",hands="Choral cuffs +1"})
 	sets.midcast['Threnody']								 = set_combine(sets.midcast['Lullaby'],{neck="Piper's torque",hands="Choral cuffs +1"})
 	

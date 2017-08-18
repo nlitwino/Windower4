@@ -8,7 +8,7 @@
         <SlimMode>false</SlimMode>
         <ShowTenths>true</ShowTenths>
         <!--One of: Alphabetical, Creation, Duration-->
-        <SortType>Creation</SortType>
+        <SortType>Duration</SortType>
         <Show1HourName>true</Show1HourName>
         <HighRed>255</HighRed>
         <HighGreen>0</HighGreen>

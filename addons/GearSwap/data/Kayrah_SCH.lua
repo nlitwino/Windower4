@@ -93,7 +93,7 @@ function init_gear_sets()
 	sets.midcast['Elemental Magic']                    = set_combine(sets.INT,{ear1="Moldavite earring",hands="Vicious mufflers"})
 	sets.midcast['Elemental Magic'].Acc                = set_combine(sets.midcast['Elemental Magic'],{ammo="Sturm's report",ear1="Abyssal earring",hands="Errant cuffs"})
 	
-	sets.midcast['Dark Magic']                         = set_combine(sets.INT,{ear1="Loquacious earring",hands="Bricta's cuffs",legs="Argute pants"})
+	sets.midcast['Dark Magic']                         = set_combine(sets.INT,{ear1="Loquacious earring",neck="Dark torque",hands="Bricta's cuffs",legs="Argute pants"})
 	
 	sets.midcast['Enhancing Magic']                    = set_combine(sets.MND,{main="Seveneyes",sub="Genbu's shield",ear2="Magnetic earring",body="Argute gown"})
 	

@@ -94,19 +94,19 @@ function init_gear_sets()
 	
 	-- ws
 	sets.precast.WS                      = {ammo="Black tathlum"
-					                       ,head="Maat's cap"        ,neck="Chivalrous chain",ear1="Bushinomimi"     ,ear2="Brutal earring"
+					                       ,head="Maat's cap"        ,neck="Fotia gorget"    ,ear1="Bushinomimi"     ,ear2="Brutal earring"
 					                       ,body="Kirin's osode"     ,hands="Ochimusha kote" ,ring1="Rajas ring"     ,ring2=gear.TRing1
 					                       ,back="Cerberus mantle +1",waist="Warwolf belt"   ,legs="Hachiryu haidate",feet="Rutter sabatons"}
 	sets.precast.WS.HNM                  = set_combine(sets.precast.WS,{head="Gnadbhod's helm"})
 	
-	sets.precast.WS['Dragon Kick']       = set_combine(sets.precast.WS,{neck="Thunder gorget"})
+	sets.precast.WS['Dragon Kick']       = set_combine(sets.precast.WS,{})
 	sets.precast.WS['Dragon Kick'].HNM   = set_combine(sets.precast.WS['Dragon Kick'],{})
 	
-	sets.precast.WS['Asuran Fists']      = set_combine(sets.precast.WS,{head="Gnadbhod's helm",neck="Soil gorget",ear1="Hollow earring",ear2="Merman's earring",body="Hachiryu haramaki"})
+	sets.precast.WS['Asuran Fists']      = set_combine(sets.precast.WS,{head="Gnadbhod's helm",ear1="Hollow earring",ear2="Merman's earring",body="Hachiryu haramaki"})
 	sets.precast.WS['Asuran Fists'].HNM  = set_combine(sets.precast.WS['Asuran Fists'],{})
 	
-	sets.precast.WS['Victory Smite']     = set_combine(sets.precast.WS['Asuran Fists'],{neck="Light gorget"})
-	sets.precast.WS['Victory Smite'].HNM = set_combine(sets.precast.WS['Asuran Fists'].HNM,{neck="Light gorget"})
+	sets.precast.WS['Victory Smite']     = set_combine(sets.precast.WS['Asuran Fists'],{})
+	sets.precast.WS['Victory Smite'].HNM = set_combine(sets.precast.WS['Asuran Fists'].HNM,{})
 	
 end
 

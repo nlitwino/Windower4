@@ -88,7 +88,8 @@ function init_gear_sets()
 												                            ,waist="Koga sarashi"  ,legs="Koga hakama",feet="Hachiryu sune-ate"}
 	sets.defense.PDT                           = {ammo="Bibiki seashell"
 	                                             ,head="Arhat's jinpachi +1"
-												 ,body="Arhat's gi +1",ring1="Defending ring",ring2="Jelly ring",back="Shadow mantle",legs="Darksteel subligar +1"}
+												 ,body="Arhat's gi +1"      ,ring1="Defending ring"      ,ring2="Jelly ring"
+												 ,back="Shadow mantle"      ,legs="Darksteel subligar +1"}
 	sets.defense.MDT                           = {ear1="Merman's earring",ear2="Merman's earring",ring1="Defending ring",ring2="Shadow ring",waist="Resolute belt",feet="Suzaku's sune-ate"}
 	                                           
 	-- engaged                                 
@@ -136,21 +137,21 @@ function init_gear_sets()
 	sets.midcast.RA.HNM                        = set_combine(sets.midcast.HNM,{back="Mamool Ja mantle",hands="Seiryu's kote",feet="Hachiryu sune-ate"})
 	                                           
 	--ws                                       
-	sets.precast.WS                            = {head="Maat's cap"        ,neck="Spike necklace"   ,ear1="Merman's earring" ,ear2="Brutal earring"
+	sets.precast.WS                            = {head="Maat's cap"        ,neck="Fotia gorget"   ,ear1="Merman's earring" ,ear2="Brutal earring"
 	                                             ,body="Kirin's osode"     ,hands="Ninja tekko +1",ring1="Rajas ring"      ,ring2="Flame ring"
-												 ,back="Cerberus mantle +1",waist="Warwolf belt"    ,legs="Byakko's haidate",feet="Enkidu's leggings"}
+												 ,back="Cerberus mantle +1",waist="Warwolf belt"  ,legs="Byakko's haidate",feet="Enkidu's leggings"}
 	sets.precast.WS.HNM                        = set_combine(sets.precast.WS,{})
 	                                           
-	sets.precast.WS['Blade: Jin']              = set_combine(sets.precast.WS,{neck="Thunder gorget",ear1="Pixie earring",legs="Byakko's haidate"})
+	sets.precast.WS['Blade: Jin']              = set_combine(sets.precast.WS,{ear1="Pixie earring",legs="Byakko's haidate"})
 	sets.precast.WS['Blade: Jin'].HNM          = set_combine(sets.precast.WS['Blade: Jin'],{back="Cuchulain's mantle"})
 	                                           
 	sets.precast.WS['Blade: Shun']             = set_combine(sets.precast.WS['Blade: Jin'],{})
 	sets.precast.WS['Blade: Shun'].HNM         = set_combine(sets.precast.WS['Blade: Jin'].HNM,{})
 	                                           
-	sets.precast.WS['Blade: Ku']               = set_combine(sets.precast.WS,{head="Gnadbhod's helm",neck="Shadow gorget",body="Hachiryu haramaki",hands="Ochimusha kote"})
+	sets.precast.WS['Blade: Ku']               = set_combine(sets.precast.WS,{head="Gnadbhod's helm",body="Hachiryu haramaki",hands="Ochimusha kote"})
 	sets.precast.WS['Blade: Ku'].HNM           = set_combine(sets.precast.WS['Blade: Ku'],{})
 	                                           
-	sets.precast.WS['Blade: Metsu']            = set_combine(sets.precast.WS,{neck="Thunder gorget",ear1="Pixie earring",body="Haubergeon +1"})
+	sets.precast.WS['Blade: Metsu']            = set_combine(sets.precast.WS,{ear1="Pixie earring",body="Haubergeon +1"})
 	sets.precast.WS['Blade: Metsu'].HNM        = set_combine(sets.precast.WS['Blade: Metsu'],{})
 	
 	-- night ws                                

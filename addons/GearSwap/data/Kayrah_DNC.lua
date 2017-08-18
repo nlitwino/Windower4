@@ -92,21 +92,21 @@ function init_gear_sets()
 	sets.midcast.RA                            = set_combine(sets.precast.RA,{})
 	                                           
 	-- ws                                      
-	sets.precast.WS                            = {head="Maat's cap"        ,neck="Spike necklace"   ,ear1="Pixie earring"    ,ear2="Brutal earring"
+	sets.precast.WS                            = {head="Maat's cap"        ,neck="Fotia gorget"     ,ear1="Pixie earring"    ,ear2="Brutal earring"
 												 ,body="Enkidu's harness"  ,hands="Enkidu's mittens",ring1="Rajas ring"      ,ring2="Flame ring"
 												 ,back="Cerberus mantle +1",waist="Warwolf belt"    ,legs="Enkidu's subligar",feet="Enkidu's leggings"}
 	sets.precast.WS.HNM                        = set_combine(sets.precast.WS,{back="Cuchulain's mantle"})
 	
-	sets.precast.WS['Cyclone']                 = set_combine(sets.precast.WS,{neck="Breeze gorget",ear1="Moldavite earring",back="Etoile cape"})
+	sets.precast.WS['Cyclone']                 = set_combine(sets.precast.WS,{ear1="Moldavite earring",back="Etoile cape"})
 	                                           
-	sets.precast.WS['Dancing Edge']            = set_combine(sets.precast.WS,{neck="Breeze gorget",back="Etoile cape"})
-	sets.precast.WS['Dancing Edge'].HNM        = set_combine(sets.precast.WS.HNM,{neck="Breeze gorget"})
+	sets.precast.WS['Dancing Edge']            = set_combine(sets.precast.WS,{back="Etoile cape"})
+	sets.precast.WS['Dancing Edge'].HNM        = set_combine(sets.precast.WS.HNM,{
 	                                           
 	sets.precast.WS['Exenterator']             = set_combine(sets.precast.WS['Dancing Edge'],{})
 	sets.precast.WS['Exenterator'].HNM         = set_combine(sets.precast.WS['Dancing Edge'].HNM,{})
 	                                           
 	sets.precast.WS['Evisceration']            = set_combine(sets.precast.WS,{neck="Breeze gorget"})
-	sets.precast.WS['Evisceration'].HNM        = set_combine(sets.precast.WS['Evisceration'],{neck="Breeze gorget"})
+	sets.precast.WS['Evisceration'].HNM        = set_combine(sets.precast.WS['Evisceration'],{})
 	
 end
 

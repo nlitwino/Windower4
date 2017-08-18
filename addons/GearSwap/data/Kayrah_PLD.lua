@@ -98,24 +98,24 @@ function init_gear_sets()
 	sets.engaged.Wyrms						= set_combine(sets.engaged.Heavy,{body="Crimson scale mail"})
 	
 	-- Weaponskill sets                     
-	sets.precast.WS                         = {head="Hecatomb cap"      ,neck="Chivalrous chain"      ,ear1="Fowling earring",ear2="Brutal earring"
+	sets.precast.WS                         = {head="Hecatomb cap"      ,neck="Fotia gorget"      ,ear1="Fowling earring",ear2="Brutal earring"
 	                                          ,body="Aurum cuirass"     ,hands="Alkyoneus's bracelets"                       ,ring2="Flame ring"
 											  ,back="Cerberus mantle +1",waist="Warwolf belt"         ,legs="Valor breeches" ,feet="Hecatomb leggings +1"}
 	sets.precast.WS.Acc                     = set_combine(sets.precast.WS,{neck="Peacock amulet",hands="Hecatomb mittens +1"})
 	                                        
-	sets.precast.WS['Vorpal Blade']         = set_combine(sets.precast.WS,{neck="Soil gorget",body="Zahak's mail",hands="Hecatomb mittens +1",back="Cuchulain's mantle"})
+	sets.precast.WS['Vorpal Blade']         = set_combine(sets.precast.WS,{body="Zahak's mail",hands="Hecatomb mittens +1",back="Cuchulain's mantle"})
 	sets.precast.WS['Vorpal Blade'].Acc     = set_combine(sets.precast.WS['Vorpal Blade'],{ring2=gear.TRing1})
 	                                        
 	sets.precast.WS['Requiescat']           = set_combine(sets.precast.WS['Vorpal Blade'],{})
 	sets.precast.WS['Requiescat'].Acc       = set_combine(sets.precast.WS['Vorpal Blade'].Acc,{})
 	                                       
-	sets.precast.WS['Knights of Round']     = set_combine(sets.precast.WS,{head="Maat's cap",neck="Light gorget"})
+	sets.precast.WS['Knights of Round']     = set_combine(sets.precast.WS,{head="Maat's cap"})
 	sets.precast.WS['Knights of Round'].Acc = set_combine(sets.precast.WS['Knights of Round'],{ring2=gear.TRing1})
 	                                        
-	sets.precast.WS['Swift Blade']          = set_combine(sets.precast.WS,{head="Maat's cap",neck="Soil gorget"})
+	sets.precast.WS['Swift Blade']          = set_combine(sets.precast.WS,{head="Maat's cap"})
 	sets.precast.WS['Swift Blade'].Acc      = set_combine(sets.precast.WS['Swift Blade'],{ring2=gear.TRing1})
 	                                        
-	sets.precast.WS['Savage Blade']         = set_combine(sets.precast.WS,{head="Maat's cap",neck="Thunder gorget"})
+	sets.precast.WS['Savage Blade']         = set_combine(sets.precast.WS,{head="Maat's cap"})
 	sets.precast.WS['Savage Blade'].Acc     = set_combine(sets.precast.WS['Savage Blade'],{ring2=gear.TRing1})
 	
 end

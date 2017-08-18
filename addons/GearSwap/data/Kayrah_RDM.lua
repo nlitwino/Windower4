@@ -60,7 +60,8 @@ function init_gear_sets()
 	sets.midcast['Enfeebling Magic']['BlackMagic']			 = set_combine(sets.INT,sets.midcast['Enfeebling Magic'],{ear2="Magnetic earring"})
 	sets.midcast['Enfeebling Magic']['BlackMagic'].Resistant = set_combine(sets.INT,sets.midcast['Enfeebling Magic'],{ear2="Magnetic earring"})
 	
-	sets.midcast['Dark Magic']								 = set_combine(sets.INT,{ear1="Abyssal earring",hands="Blood finger gauntlets"})
+	sets.midcast['Dark Magic']								 = set_combine(sets.INT,{ear1="Abyssal earring",neck="Dark torque",hands="Blood finger gauntlets"})
+	
 	sets.midcast['Elemental Magic']							 = set_combine(sets.INT,{head="Warlock's chapeau",ear2="Moldavite earring",hands="Zenith mitts",feet="Duelist's boots",back="Hecate's cape"})
 	sets.midcast['Elemental Magic'].Resistant				 = set_combine(sets.midcast['Elemental Magic'],{legs="Duelist's tights",feet="Numerist pumps"})
 	

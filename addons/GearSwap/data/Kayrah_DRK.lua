@@ -52,7 +52,7 @@ function init_gear_sets()
 	sets.midcast.FastRecast 		    = {head="Walahra turban",body="Scorpion harness +1",hands="Dusk gloves +1",waist="Velocious belt",legs="Homam cosciales",feet="Dusk ledelsens +1"}
 	                                   
 	sets.midcast['Ninjutsu']            = set_combine(sets.midcast.FastRecast,{neck="Fortified chain",ring2="Antica ring",back="Shadow mantle"})
-	sets.midcast['Dark Magic']		    = set_combine(sets.midcast.FastRecast,sets.INT,{ammo="Sturm's report",head="Chaos burgeonet",ear1="Abyssal earring",ear2="Loquacious earring",body="Demon's harness",hands="Blood finger gauntlets",back="Abyss cape",legs="Abyss flanchard"})
+	sets.midcast['Dark Magic']		    = set_combine(sets.midcast.FastRecast,sets.INT,{ammo="Sturm's report",head="Chaos burgeonet",neck="Dark torque",ear1="Abyssal earring",ear2="Loquacious earring",body="Demon's harness",hands="Blood finger gauntlets",back="Abyss cape",legs="Abyss flanchard"})
 	sets.midcast['Elemental Magic']     = set_combine(sets.midcast.FastRecast,sets.INT,{ear2="Moldavite earring",body="Abyss cuirass",back="Abyss cape"})
 	sets.midcast['Enfeebling Magic']    = set_combine(sets.midcast.FastRecast,{ammo="Sturm's report",head="Crimson mask",neck="Spider torque",body="Chaos cuirass",back="Abyss cape"})
 	                                   
@@ -139,26 +139,26 @@ function init_gear_sets()
 	                                          
 	-- ws                                    
 	sets.precast.WS                     = {ammo="Bomb core"
-									      ,head="Hecatomb cap"      ,neck="Chivalrous chain"      ,ear1="Fowling earring",ear2="Brutal earring"
+									      ,head="Hecatomb cap"      ,neck="Fotia gorget"      ,ear1="Fowling earring",ear2="Brutal earring"
 									      ,body="Armada hauberk"    ,hands="Alkyoneus's bracelets",ring1="Rajas ring"    ,ring2="Flame ring"
 									      ,back="Cerberus mantle +1",waist="Warwolf belt"         ,legs="Onyx cuisses"   ,feet="Hecatomb leggings +1"}
 	sets.precast.WS.Acc                 = set_combine(sets.precast.WS,{ammo="Fire bomblet",neck="Peacock amulet",ring2=gear.TRing1,back="Cuchulain's mantle"})
 	
 	-- ws scythe
-	sets.precast.WS['Guillotine']       = set_combine(sets.precast.WS,{head="Maat's cap",neck="Snow gorget",ear1="Abyssal earring",ring2=gear.TRing2})
+	sets.precast.WS['Guillotine']       = set_combine(sets.precast.WS,{head="Maat's cap",ear1="Abyssal earring",ring2=gear.TRing2})
 	sets.precast.WS['Guillotine'].Acc   = set_combine(sets.precast.WS['Guillotine'],{ammo="Fire bomblet",head="Hecatomb cap",back="Cuchulain's mantle"})
 	                                          
-	sets.precast.WS['Entropy']          = set_combine(sets.precast.WS['Guillotine'],{neck="Soil gorget"})
-    sets.precast.WS['Entropy'].Acc      = set_combine(sets.precast.WS['Guillotine'].Acc,{neck="Soil gorget"})
+	sets.precast.WS['Entropy']          = set_combine(sets.precast.WS['Guillotine'],{})
+    sets.precast.WS['Entropy'].Acc      = set_combine(sets.precast.WS['Guillotine'].Acc,{})
                                               
-    sets.precast.WS['Catastrophe']      = set_combine(sets.precast.WS,{neck="Shadow gorget",ear1="Abyssal earring"})
-    sets.precast.WS['Catastrophe'].Acc  = set_combine(sets.precast.WS['Catastrophe'],{ammo="Fire bomblet",neck="Shadow gorget",back="Cuchulain's mantle"})
+    sets.precast.WS['Catastrophe']      = set_combine(sets.precast.WS,{ear1="Abyssal earring"})
+    sets.precast.WS['Catastrophe'].Acc  = set_combine(sets.precast.WS['Catastrophe'],{ammo="Fire bomblet",back="Cuchulain's mantle"})
 	
 	-- ws gs
-	sets.precast.WS['Scourge']			= set_combine(sets.precast.WS,{neck="Light gorget"})
+	sets.precast.WS['Scourge']			= set_combine(sets.precast.WS,{})
 	sets.precast.WS['Scourge'].Acc      = set_combine(sets.precast.WS['Scourge'],{ammo="Fire bomblet",ring2=gear.TRing1})
 	
-	sets.precast.WS['Resolution']       = set_combine(sets.precast.WS,{neck="Thunder gorget",hands="Hecatomb mittens +1"})
+	sets.precast.WS['Resolution']       = set_combine(sets.precast.WS,{hands="Hecatomb mittens +1"})
 	sets.precast.WS['Resolution'].Acc   = set_combine(sets.precast.WS['Resolution'],{ammo="Fire bomblet",ring2=gear.TRing1})
 end
 

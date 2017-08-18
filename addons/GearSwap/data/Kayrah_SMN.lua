@@ -142,17 +142,17 @@ function init_gear_sets()
 	-- misc
 	sets.MND                                                = {head="Maat's cap"        ,neck="Gnole torque"   ,ear1="Mamool Ja earring"
 															  ,body="Errant houppelande",hands="Bricta's cuffs",ring1="Tamas ring"
-															  ,back="Ixion cape"                               ,legs="Mahatma slops",feet="Rostrum pumps"}
+															  ,back="Prism cape"                               ,legs="Mahatma slops",feet="Rostrum pumps"}
 															  
 	sets.INT                                                = {ammo="Phantom tathlum"
 															  ,head="Maat's cap"        ,neck="Lemegeton medallion +1",ear1="Abyssal earring",ear2="Morion earring +1"
 															  ,body="Errant houppelande",hands="Errant cuffs"         ,ring1="Tamas ring"    ,ring2="Snow ring"
-															  ,back="Ixion cape"        ,waist="Ocean stone"          ,legs="Mahatma slops"  ,feet="Rostrum pumps"}
+															  ,back="Prism cape"        ,waist="Ocean stone"          ,legs="Mahatma slops"  ,feet="Rostrum pumps"}
 	
     -- precast JA
     sets.precast.JA 										= {body="Errant houppelande",hands="Errant cuffs",waist="Buccaneer's belt",legs="Jet seraweels",feet="Avocat pigaches"}
 	
-	sets.precast.JA['Elemental Siphon']						= set_combine(sets.precast.JA,{head="Evoker's horn",hands="Summoner's bracers",legs="Oracle's braconi",feet="Nashira crackows"})
+	sets.precast.JA['Elemental Siphon']						= set_combine(sets.precast.JA,{head="Evoker's horn",hands="Summoner's bracers",ring2="Evoker's ring",legs="Oracle's braconi",feet="Nashira crackows"})
     -- bp precast
     sets.precast.BloodPactWard 								= {head="Summoner's horn",body="Yinyang robe",hands="Summoner's bracers",legs="Summoner's spats",feet="Summoner's pigaches"}
     sets.precast.BloodPactRage 								= sets.precast.BloodPactWard
@@ -163,15 +163,15 @@ function init_gear_sets()
        
 	-- midcast magic
 	sets.midcast['Healing Magic'] 							= set_combine(sets.MND,{ammo="Sturm's report"})
-	sets.midcast['Divine Magic'] 							= set_combine(sets.MND,{ammo="Sturm's report",back="Hecate's cape"})
+	sets.midcast['Divine Magic'] 							= set_combine(sets.MND,{ammo="Sturm's report",back="Prism cape"})
 	
 	sets.midcast['Enfeebling Magic']      					= {ammo="Sturm's report",head="Elite beret",neck="Spider torque",hands="Oracle's gloves",feet="Avocat pigaches"}
-	sets.midcast['Enfeebling Magic']['BlackMagic']          = set_combine(sets.INT,sets.midcast['Enfeebling Magic'],{back="Hecate's cape"})
-	sets.midcast['Enfeebling Magic']['WhiteMagic']          = set_combine(sets.MND,sets.midcast['Enfeebling Magic'],{back="Hecate's cape"})
+	sets.midcast['Enfeebling Magic']['BlackMagic']          = set_combine(sets.INT,sets.midcast['Enfeebling Magic'],{back="Prism cape"})
+	sets.midcast['Enfeebling Magic']['WhiteMagic']          = set_combine(sets.MND,sets.midcast['Enfeebling Magic'],{back="Prism cape"})
 	
-	sets.midcast['Elemental Magic']            				= set_combine(sets.INT,{head="Oracle's cap",hands="Zenith mitts",back="Hecate's cape",feet="Numerist pumps"})
+	sets.midcast['Elemental Magic']            				= set_combine(sets.INT,{head="Oracle's cap",hands="Zenith mitts",back="Prism cape",feet="Numerist pumps"})
 	
-	sets.midcast['Dark Magic'] 								=  set_combine(sets.INT,{ammo="Sturm's report",back="Hecate's cape"})
+	sets.midcast['Dark Magic'] 								=  set_combine(sets.INT,{ammo="Sturm's report",neck="Dark torque",back="Prism cape"})
 	
 	-- avatar pacts
     sets.midcast.BloodPactWard 						    	= {head="Evoker's horn",hands="Summoner's bracers",legs="Oracle's braconi"}
@@ -192,14 +192,14 @@ function init_gear_sets()
 															  ,head="Elite beret"    ,neck="Chocobo whistle"  ,ear1="Ethereal earring",ear2="Merman's earring"
 															  ,body="Dalmatica"      ,hands="Evoker's bracers",ring1="Defending ring" ,ring2="Shadow ring"
 															  ,back="Shadow mantle"  ,waist="Lycopodium sash" ,legs="Evoker's spats"  ,feet="Summoner's pigaches"}
-    sets.idle.Avatar 										= set_combine(sets.idle,{body="Yinyang robe"})
-    sets.idle.Spirit 										= set_combine(sets.idle,{body="Yinyang robe"})
+    sets.idle.Avatar 										= set_combine(sets.idle,{body="Yinyang robe",ring2="Evoker's ring"})
+    sets.idle.Spirit 										= set_combine(sets.idle,{body="Yinyang robe",ring2="Evoker's ring"})
     sets.idle.Town 	 										= set_combine(sets.idle,{back="Nexus cape",ring2="Warp ring"})
 
     -- Favor uses Caller's Horn instead of Convoker's Horn for refresh
     sets.idle.Avatar.Melee                                  = set_combine(sets.idle.Avatar,{})
                                                             
-    sets.perp 				                                = {body="Yinyang robe"}
+    sets.perp 				                                = {body="Yinyang robe",ring2="Evoker's ring"}
     sets.perp.Day 			                                = {body="Summoner's doublet"}
     sets.perp.Weather 		                                = {head="Summoner's horn"}
     sets.perp.Carbuncle 	                                = {hands="Carbuncle's mitts"}
@@ -333,10 +333,6 @@ function customize_idle_set(idleSet)
         if pet.status == 'Engaged' then
             idleSet = set_combine(idleSet, sets.idle.Avatar.Melee)
         end
-		
-		if player.hpp < 75 then
-			idleSet = set_combine(idleSet,{ring1="Conjurer's ring"})
-		end
 		
     end
     

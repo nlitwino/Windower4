@@ -25,8 +25,8 @@ end
 function user_setup()
 	
 	-- Setup appropriate modes
-	state.OffenseMode:options('Normal','DW')
-	state.RangedMode:options('Normal','HNM','PureAcc')
+	state.OffenseMode:options('Normal','DW','HNM')
+	state.RangedMode:options('Normal','HybridAcc','Acc','Trash')
 	state.WeaponskillMode:options('Normal','HNM')
 
 end
@@ -44,9 +44,9 @@ function init_gear_sets()
 	sets.precast.JA['Scavenge']               = {feet="Hunter's socks"}
 	sets.precast.JA['Shadowbind']             = {hands="Hunter's bracers"}
 	sets.precast.JA['Sharpshot']              = {legs="Hunter's braccae"}
-	sets.precast.JA['Eagle Eye Shot']		  = {head="Zha'Go's barbut",neck="Ranger's necklace",ear1="Drone earring",ear2="Drone earring"
+	sets.precast.JA['Eagle Eye Shot']		  = {head="Zha'Go's barbut",neck="Ranger's necklace",ear1="Drone earring",ear2="Bushinomimi"
 												,body="Kyudogi +1",hands="Blood finger gauntlets",ring1="Rajas ring",ring2="Flame ring"
-												,back="Amemet mantle +1",waist="Scout's belt",legs="Hachiryu haidate",feet="Scout's socks"}
+												,back="Amemet mantle +1",waist="Scout's belt",legs="Hachiryu haidate",feet="Scout's socks +1"}
 	
 	-- precast magic
 	sets.precast.FC                           = {ear2="Loquacious earring"}
@@ -68,78 +68,66 @@ function init_gear_sets()
 												,body="Hachiryu haramaki" ,hands="Dusk gloves +1",ring1="Rajas ring"     ,ring2=gear.TRing1
 												,back="Cuchulain's mantle",waist="Velocious belt",legs="Byakko's haidate",feet="Dusk ledelsens +1"}
 	sets.engaged.DW                           = set_combine(sets.engaged,{ear1="Suppanomimi"})
+	sets.engaged.HNM                          = set_combine(sets.engaged,{head="Genbu's help"      ,neck="Orochi nodowa" ,ear1="Merman's earring",ear2="Merman's earring"
+																		 ,body="Avalon breastplate",hands="Seiryu's kote",ring1="Defending ring" ,ring2="Shadow ring"
+																		 ,back="Shadow mantle"     ,waist="Resolute belt",legs="Blood cuisses"   ,feet="Suzaku's sune-ate"})
 	
 	-- precast ranged
-	sets.precast.RA                           = {head="Zha'Go's barbut" ,neck="Peacock amulet"   ,ear1="Hollow earring",ear2="Drone earring"
-												,body="Scout's jerkin"  ,hands="Seiryu's kote"   ,ring1="Rajas ring"   ,ring2="Merman's ring"
-												,back="Amemet mantle +1",waist="Buccaneer's belt",legs="Oily trousers" ,feet="Hachiryu sune-ate"}
+	sets.precast.RA                           = {head="Zha'Go's barbut",neck="Peacock amulet",ear1="Drone earring",ear2="Hollow earring"
+												,body="Scout's jerkin",hands="Seiryu's kote",ring1="Rajas ring",ring2="Merman's ring"
+												,back="Mamool Ja mantle",waist="Scout's belt",legs="Dusk trousers",feet="Hachiryu sune-ate"}
 	sets.precast.RA.Anni 					  = set_combine(sets.precast.RA,{})
 	sets.precast.RA.Yoichi					  = set_combine(sets.precast.RA,{legs="Hachiryu haidate"})
 	
 	-- midcast ranged
-	sets.midcast.RA                           = set_combine(sets.precast.RA,{neck="Ranger's necklace",body="Kyudogi +1",hands="Blood finger gauntlets",waist="Scout's belt",feet="Scout's socks"})
-	sets.midcast.RA.HNM                       = set_combine(sets.midcast.RA,{neck="Peacock amulet",ring2="Merman's ring",back="Mamool Ja mantle",waist="Buccaneer's belt",legs="Oily trousers",feet="Hachiryu sune-ate"})
-	sets.midcast.RA.PureAcc                   = set_combine(sets.midcast.RA.HNM,{hands="Seiryu's kote",waist="Scout's belt",legs="Dusk trousers"})
+	sets.midcast.RA                           = {head="Zha'Go's barbut" ,neck="Ranger's necklace"      ,ear1="Drone earring"   ,ear2="Bushinomimi"
+												,body="Kyudogi +1"      ,hands="Blood finger gauntlets",ring1="Rajas ring"     ,ring2="Cerberus ring"
+												,back="Amemet mantle +1",waist="Scout's belt"          ,legs="Hachiryu haidate",feet="Scout's socks +1"}
+	sets.midcast.RA.HybridAcc                 = set_combine(sets.midcast.RA,{ear2="Hollow earring",ring1="Cerberus ring",ring2="Merman's ring",feet="Hachiryu sune-ate"})
+	sets.midcast.RA.Acc                       = set_combine(sets.midcast.RA.HybridAcc,{neck="Peacock amulet",hands="Seiryu's kote",back="Mamool Ja mantle",ring1="Merman's ring"})
+	sets.midcast.RA.Trash                     = set_combine(sets.midcast.RA,{head="Scout's beret"})
 	
 	-- midcast anni
 	sets.midcast.RA.Anni                      = set_combine(sets.midcast.RA,{})
-	sets.midcast.RA.Anni.HNM                  = set_combine(sets.midcast.RA.HNM,{})
-	sets.midcast.RA.Anni.PureAcc              = set_combine(sets.midcast.RA.PureAcc,{})
-	                                          
+	sets.midcast.RA.Anni.HybridAcc            = set_combine(sets.midcast.RA.HybridAcc,{})
+	sets.midcast.RA.Anni.Acc                  = set_combine(sets.midcast.RA.Acc,{})
+	sets.midcast.RA.Anni.Trash                = set_combine(sets.midcast.RA.Trash,{})
+	
 	-- midcast yoichi                         
-	sets.midcast.RA.Yoichi                    = set_combine(sets.midcast.RA,{legs="Hachiryu haidate",feet="Hachiryu sune-ate"})
-	sets.midcast.RA.Yoichi.HNM                = set_combine(sets.midcast.RA.HNM,{legs="Hachiryu haidate"})
-	sets.midcast.RA.Yoichi.PureAcc            = set_combine(sets.midcast.RA.PureAcc,{legs="Hachiryu haidate"})
+	sets.midcast.RA.Yoichi                    = set_combine(sets.midcast.RA,{feet="Hachiryu sune-ate"})
+	sets.midcast.RA.Yoichi.HybridAcc          = set_combine(sets.midcast.RA.HybridAcc,{})
+	sets.midcast.RA.Yoichi.Acc                = set_combine(sets.midcast.RA.Acc,{})
+	sets.midcast.RA.Yoichi.Trash              = set_combine(sets.midcast.RA.Trash,{feet="Hachiryu sune-ate"})
 	
 	-- weaponskill
-	sets.precast.WS                           = {head="Maat's cap"      ,neck="Ranger's necklace",ear1="Drone earring",ear2="Drone earring"
-												,body="Kirin's osode"   ,hands="Seiryu's kote"   ,ring1="Rajas ring"  ,ring2="Blobnag ring"
-												,back="Amemet mantle +1",waist="Scout's belt"    ,legs="Oily trousers",feet="Hachiryu sune-ate"}
-	sets.precast.WS.HNM                       = set_combine(sets.precast.WS,{ring1="Merman's ring",back="Mamool Ja mantle",waist="Buccaneer's belt",legs="Hachiryu haidate"})
+	sets.precast.WS                           = {head="Maat's cap"      ,neck="Fotia gorget"   ,ear1="Drone earring"   ,ear2="Drone earring"
+												,body="Kirin's osode"   ,hands="Seiryu's kote" ,ring1="Rajas ring"     ,ring2="Blobnag ring"
+												,back="Amemet mantle +1",waist="Scout's's belt",legs="Hachiryu haidate",feet="Hachiryu sune-ate"}
+	sets.precast.WS.HNM                       = set_combine(sets.precast.WS,{})
 	
 	-- bow specific ws
-	sets.precast.WS['Sidewinder']             = {head="Maat's cap"      ,neck="Breeze gorget" ,ear1="Drone earring",ear2="Drone earring"
-												,body="Kirin's osode"   ,hands="Seiryu's kote",ring1="Rajas ring"  ,ring2="Blobnag ring"
-												,back="Amemet mantle +1",waist="Scout's belt" ,legs="Oily trousers",feet="Hachiryu sune-ate"}
-	sets.precast.WS['Sidewinder'].HNM         = set_combine(sets.precast.WS['Sidewinder'],{ring1="Merman's ring",back="Mamool Ja mantle",legs="Hachiryu haidate"})
+	sets.precast.WS['Sidewinder']             = set_combine(sets.precast.WS,{})
+	sets.precast.WS['Sidewinder'].HNM         = set_combine(sets.precast.WS['Sidewinder'],{ear2="Hollow earring"})
 	
-	sets.precast.WS['Jishnu\'s Radiance']     = set_combine(sets.precast.WS['Sidewinder'],{neck="Flame gorget"})
-	sets.precast.WS['Jishnu\'s Radiance'].HNM = set_combine(sets.precast.WS['Sidewinder'].HNM,{neck="Flame gorget"})
+	sets.precast.WS['Jishnu\'s Radiance']     = set_combine(sets.precast.WS['Sidewinder'],{})
+	sets.precast.WS['Jishnu\'s Radiance'].HNM = set_combine(sets.precast.WS['Sidewinder'].HNM,{})
 	
-	sets.precast.WS['Namas Arrow']            = {head="Maat's cap"      ,neck="Light gorget"  ,ear1="Drone earring"    ,ear2="Drone earring"   
-												,body="Kirin's osode"   ,hands="Seiryu's kote",ring1="Rajas ring"      ,ring2="Blobnag ring"
-												,back="Amemet mantle +1",waist="Scout's belt" ,legs="Hachiryu haidate",feet="Hachiryu sune-ate"}
-	sets.precast.WS['Namas Arrow'].HNM        = set_combine(sets.precast.WS['Namas Arrow'],{waist="Buccaneer's belt"})
+	sets.precast.WS['Namas Arrow']            = set_combine(sets.precast.WS,{ear2="Bushinomimi"})
+	sets.precast.WS['Namas Arrow'].HNM        = set_combine(sets.precast.WS.HNM,{waist="Buccaneer's belt"})
 	
 	-- gun specific ws
-	sets.precast.WS['Slug Shot']              = {head="Maat's cap"      ,neck="Aqua gorget"   ,ear1="Drone earring"
-												,body="Kirin's osode"   ,hands="Seiryu's kote",ring1="Rajas ring"  ,ring2="Blobnag ring"
-												,back="Amemet mantle +1",waist="Scout's belt" ,legs="Oily trousers",feet="Hachiryu sune-ate"}
-	sets.precast.WS['Slug Shot'].HNM          = set_combine(sets.precast.WS['Slug Shot'],{waist="Buccaneer's belt",legs="Hachiryu haidate"})
+	sets.precast.WS['Slug Shot']              = set_combine(sets.precast.WS,{ear2="Drone earring"})
+	sets.precast.WS['Slug Shot'].HNM          = set_combine(sets.precast.WS['Slug Shot'],{ear2="Hollow earring"})
 	
-	sets.precast.WS['Last Stand']             = set_combine(sets.precast.WS['Slug Shot'],{neck="Flame gorget"})
-	sets.precast.WS['Last Stand'].HNM         = set_combine(sets.precast.WS['Slug Shot'].HNM,{neck="Flame gorget"})
+	sets.precast.WS['Last Stand']             = set_combine(sets.precast.WS['Slug Shot'],{})
+	sets.precast.WS['Last Stand'].HNM         = set_combine(sets.precast.WS['Slug Shot'].HNM,{})
 	
-	sets.precast.WS['Coronach']               = {head="Maat's cap"      ,neck="Thunder gorget" ,ear1="Drone earring"   ,ear2="Drone earring"
-												,body="Kirin's osode"   ,hands="Seiryu's kote" ,ring1="Rajas ring"     ,ring2="Blobnag ring"
-												,back="Commander's cape",waist="Scout's belt"  ,legs="Byakko's haidate",feet="Hachiryu sune-ate"}
-	sets.precast.WS['Coronach'].HNM           = set_combine(sets.precast.WS['Coronach'],{ear1="Hollow earring",back="Amemet mantle +1",waist="Buccaneer's belt",legs="Hachiryu haidate"})
+	sets.precast.WS['Coronach']               = set_combine(sets.precast.WS,{back="Commander's cape",legs="Byakko's haidate"})
+	sets.precast.WS['Coronach'].HNM           = set_combine(sets.precast.WS.HNM,{ear2="Hollow earring",waist="Buccaneer's belt"})
 	
 end
 
 function job_precast(spell,action,spellMap,eventArgs)
-	
-	if spell.type == 'WeaponSkill' and (spell.skill == 'Marksmanship' or spell.skill == 'Archery') then
-		if state.WeaponskillMode.value == 'HNM' then
-			if daytime then
-				equip({ear2="Ladybug earring +1"})
-			else
-				if player.sub_job == 'SAM' then
-					equip({ear2="Bushinomimi"})
-				end
-			end
-		end
-	end
 	
 	if spell.action_type == 'Ranged Attack' or spell.type == 'WeaponSkill' and (spell.skill == 'Marksmanship' or spell.skill == 'Archery') then
 		ammo_recharge()
@@ -155,18 +143,25 @@ function job_post_precast(spell,action,spellMap,eventsArgs)
 		state.CombatWeapon:set('Yoichi')
 	end
 	
-	if state.Buff['Unlimited Shot'] and spell.type == 'WeaponSkill' then
-		equip({ammo="Combat Caster's arrow"})
+	if spell.type == 'WeaponSkill' and (spell.skill == 'Marksmanship' or spell.skill == 'Archery') then
+		if state.WeaponskillMode.value == 'HNM' then
+			if daytime then
+				equip({ear1="Ladybug earring +1"})
+			else
+				equip({ear1="Fenrir's earring"})
+			end
+		end
 	end
-	
 	if spell.name == 'Eagle Eye Shot' then
 		if daytime then
 			equip({ear1="Ladybug earring +1",ear2="Ladybug earring +1"})
 		else
-			if player.sub_job == 'SAM' then
-				equip({ear2="Bushinomimi"})
-			end
+			equip({ear1="Fenrir's earring"})
 		end
+	end
+	
+	if state.Buff['Unlimited Shot'] and spell.type == 'WeaponSkill' and spell.skill == 'Archery' then
+		equip({ammo="Combat Caster's arrow"})
 	end
 	
 end
@@ -183,11 +178,22 @@ end
 function job_post_midcast(spell,action,spellMap,eventsArgs)
 
 	if spell.action_type == 'Ranged Attack' then
-		if state.Buff['Sharpshot'] and state.RangedMode.value ~= 'Normal' then
-			equip(sets.buff['Sharpshot'])
+		if daytime then
+			equip({ear1="Ladybug earring +1"})
+			if state.RangedMode.value == 'Normal' or state.RangedMode.value == 'Trash' then
+				equip({ear2="Ladybug earring +1"})
+			end
+		else
+			equip({ear1="Fenrir's earring"})
 		end
-		if daytime and state.RangedMode.value == 'Normal' then
-			equip({ear1="Ladybug earring +1",ear2="Ladybug earring +1"})
+		if state.Buff['Sharpshot'] and state.CombatWeapon.value == 'Anni' then
+			if state.RangedMode.value == 'Normal' or state.RangedMode.value == 'Trash' then
+				equip(sets.buff['Sharpshot'])
+			end
+		end
+		if state.RangedMode.value == 'HybridAcc' then
+			add_to_chat("adsfasdf")
+			--equip({ring1="Merman's ring"})
 		end
 	end
 

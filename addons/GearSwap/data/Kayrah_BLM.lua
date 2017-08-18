@@ -87,7 +87,7 @@ function init_gear_sets()
 	sets.midcast['Elemental Magic'].Accuracy 				= set_combine(sets.INT,{head="Sorcerer's petasos",body="Igqira weskit",hands="Wizard's gloves"})
 	sets.midcast['Elemental Magic'].Hybrid 					= set_combine(sets.INT,{back="Hecate's cape",feet="Numerist pumps"})
 	
-	sets.midcast['Dark Magic'] 								= set_combine(sets.INT,{hands="Sorcerer's gloves",back="Hecate's cape",legs="Wizard's tonban",feet="Igqira huaraches"})
+	sets.midcast['Dark Magic'] 								= set_combine(sets.INT,{neck="Dark torque",hands="Sorcerer's gloves",legs="Wizard's tonban",feet="Igqira huaraches"})
 	
 	sets.midcast['Enhancing magic']							= set_combine(sets.MND,sets.precast.FastRecast,{ear2="Magnetic earring",waist="Sorcerer's belt",feet="Igqira huaraches"})
 	
