@@ -77,11 +77,11 @@ function init_gear_sets()
 	
 	-- engaged
 	sets.engaged                         = {ammo="Black tathlum"
-				                           ,head="Walahra turban",neck="Chivalrous chain",ear1="Bushinomimi",ear2="Brutal earring"
-				                           ,body="Hachiryu haramaki",hands="Ochimusha kote",ring1=gear.TRing2,ring2=gear.TRing1
-				                           ,back="Cerberus mantle +1",waist="Black belt",legs="Byakko's haidate",feet="Sarutobi kyahan"}
-	sets.engaged.HybridAcc               = set_combine(sets.engaged,{neck="Peacock amulet",ear1="Hollow earring",back="Cuchulain's mantle"})
-	sets.engaged.Acc                     = set_combine(sets.engaged.HybridAcc,{head="Enkidu's cap",hands="Hachiryu kote",feet="Enkidu's leggings"})
+				                           ,head="Walahra turban"    ,neck="Faith torque"   ,ear1="Bushinomimi"     ,ear2="Brutal earring"
+				                           ,body="Hachiryu haramaki" ,hands="Ochimusha kote",ring1=gear.TRing2      ,ring2=gear.TRing1
+				                           ,back="Cerberus mantle +1",waist="Black belt"    ,legs="Byakko's haidate",feet="Sarutobi kyahan"}
+	sets.engaged.HybridAcc               = set_combine(sets.engaged,{back="Cuchulain's mantle"})
+	sets.engaged.Acc                     = set_combine(sets.engaged.HybridAcc,{head="Enkidu's cap",ear1="Hollow earring",neck="Peacock amulet",hands="Hachiryu kote",feet="Enkidu's leggings"})
 	sets.engaged.OffTank                 = set_combine(sets.engaged,{ammo="Bibiki seashell",ear1="Cassie earring",hands="Melee gloves",ring1="Defending ring",back="Boxer's mantle"})
 	sets.engaged.Tank                    = set_combine(sets.engaged.OffTank,{head="Gnole crown",neck="Fortified chain",legs="Temple hose"})
 	
@@ -128,8 +128,13 @@ end
 
 function job_post_precast(spell,action,spellMap,eventArgs)
 
-	if state.Buff['Footwork'] and spell.type == 'WeaponSkill' then
-		equip({feet="Kyoshu kyahan"})
+	if spell.type == 'WeaponSkilll' then
+		if state.Buff['Footwork'] then
+		--equip({feet="Kyoshu kyahan"})
+		end
+		if daytime then
+			equip({ear1="Fenrir's earring"})
+		end
 	end
 
 end
@@ -138,10 +143,13 @@ function customize_melee_set(meleeSet)
 
 	if state.Buff['Hundred Fists'] then
         meleeSet = set_combine(meleeSet,sets.precast.WS,{head="Gnadbhod's helm",neck="Peacock amulet",ear1="Hollow earring",ring1=gear.TRing2,waist="Black belt"})
-	elseif state.Buff['Footwork'] then
-		meleeSet = set_combine(meleeSet, {feet="Kyoshu kyahan"})
+	end
+	if state.Buff['Footwork'] then
+		--meleeSet = set_combine(meleeSet, {feet="Kyoshu kyahan"})
     end
-	
+	if daytime then
+		meleeSet = set_combine(meleeSet, {ear1="Fenrir's earring"})
+	end
     return meleeSet
 	
 end

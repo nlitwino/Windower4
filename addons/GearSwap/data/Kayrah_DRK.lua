@@ -139,7 +139,7 @@ function init_gear_sets()
 	                                          
 	-- ws                                    
 	sets.precast.WS                     = {ammo="Bomb core"
-									      ,head="Hecatomb cap"      ,neck="Fotia gorget"      ,ear1="Fowling earring",ear2="Brutal earring"
+									      ,head="Hecatomb cap"      ,neck="Fotia gorget"          ,ear1="Fowling earring",ear2="Brutal earring"
 									      ,body="Armada hauberk"    ,hands="Alkyoneus's bracelets",ring1="Rajas ring"    ,ring2="Flame ring"
 									      ,back="Cerberus mantle +1",waist="Warwolf belt"         ,legs="Onyx cuisses"   ,feet="Hecatomb leggings +1"}
 	sets.precast.WS.Acc                 = set_combine(sets.precast.WS,{ammo="Fire bomblet",neck="Peacock amulet",ring2=gear.TRing1,back="Cuchulain's mantle"})
@@ -166,6 +166,11 @@ function job_post_precast(spell,action,spellMap,eventArgs)
 
 	if spell.name == 'Catastrophe' then
 		equip({ammo="White tathlum"})
+	end
+	if spell.type == 'WeaponSkill' and daytime then
+		if (state.WeaponskillMode.value == 'Normal' and state.CombatWeapon.value == 'Apocalypse') or state.CombatWeapon.value == 'Ragnarok' then
+			equip({ear1="Fenrir's earring"})
+		end
 	end
 	
 end
@@ -226,6 +231,16 @@ function adjust_melee_groups()
 	if state.Buff.Aftermath then
 		classes.CustomMeleeGroups:append('AM')
 	end
+	
+end
+
+function customize_melee_set(meleeSet)
+
+	if state.OffenseMode.value == 'Normal' then
+        meleeSet = set_combine(meleeSet, {ear1="Fenrir's earring"})
+    end
+
+    return meleeSet
 	
 end
 

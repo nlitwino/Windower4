@@ -137,12 +137,12 @@ function init_gear_sets()
 	sets.midcast.RA.HNM                        = set_combine(sets.midcast.HNM,{back="Mamool Ja mantle",hands="Seiryu's kote",feet="Hachiryu sune-ate"})
 	                                           
 	--ws                                       
-	sets.precast.WS                            = {head="Maat's cap"        ,neck="Fotia gorget"   ,ear1="Merman's earring" ,ear2="Brutal earring"
-	                                             ,body="Kirin's osode"     ,hands="Ninja tekko +1",ring1="Rajas ring"      ,ring2="Flame ring"
+	sets.precast.WS                            = {head="Maat's cap"        ,neck="Fotia gorget"   ,ear1="Fenrir's earring",ear2="Brutal earring"
+	                                             ,body="Kirin's osode"     ,hands="Ninja tekko +1",ring1="Rajas ring"     ,ring2="Flame ring"
 												 ,back="Cerberus mantle +1",waist="Warwolf belt"  ,legs="Byakko's haidate",feet="Enkidu's leggings"}
 	sets.precast.WS.HNM                        = set_combine(sets.precast.WS,{})
 	                                           
-	sets.precast.WS['Blade: Jin']              = set_combine(sets.precast.WS,{ear1="Pixie earring",legs="Byakko's haidate"})
+	sets.precast.WS['Blade: Jin']              = set_combine(sets.precast.WS,{legs="Byakko's haidate"})
 	sets.precast.WS['Blade: Jin'].HNM          = set_combine(sets.precast.WS['Blade: Jin'],{back="Cuchulain's mantle"})
 	                                           
 	sets.precast.WS['Blade: Shun']             = set_combine(sets.precast.WS['Blade: Jin'],{})
@@ -151,7 +151,7 @@ function init_gear_sets()
 	sets.precast.WS['Blade: Ku']               = set_combine(sets.precast.WS,{head="Gnadbhod's helm",body="Hachiryu haramaki",hands="Ochimusha kote"})
 	sets.precast.WS['Blade: Ku'].HNM           = set_combine(sets.precast.WS['Blade: Ku'],{})
 	                                           
-	sets.precast.WS['Blade: Metsu']            = set_combine(sets.precast.WS,{ear1="Pixie earring",body="Haubergeon +1"})
+	sets.precast.WS['Blade: Metsu']            = set_combine(sets.precast.WS,{body="Haubergeon +1"})
 	sets.precast.WS['Blade: Metsu'].HNM        = set_combine(sets.precast.WS['Blade: Metsu'],{})
 	
 	-- night ws                                
@@ -159,7 +159,7 @@ function init_gear_sets()
 	sets.precast.WS.HNM.Night                  = set_combine(sets.precast.WS.HNM,{hands="Koga tekko",feet="Koga kyahan +1"})
 	                                           
 	sets.precast.WS['Blade: Jin'].Night        = set_combine(sets.precast.WS,{hands="Koga tekko",feet="Koga kyahan +1"})
-	sets.precast.WS['Blade: Jin'].HNM.Night    = set_combine(sets.precast.WS.HNM,{hands="Koga tekko",feet="Koga kyahan +1"})
+	sets.precast.WS['Blade: Jin'].HNM.Night    = set_combine(sets.precast.WS.HNM,{ear1="Pixie earring",hands="Koga tekko",feet="Koga kyahan +1"})
 	                                           
 	sets.precast.WS['Blade: Shun'].Night       = set_combine(sets.precast.WS,{hands="Koga tekko",feet="Koga kyahan +1"})
 	sets.precast.WS['Blade: Shun'].HNM.Night   = set_combine(sets.precast.WS.HNM,{hands="Koga tekko",feet="Koga kyahan +1"})
@@ -167,8 +167,8 @@ function init_gear_sets()
 	sets.precast.WS['Blade: Ku'].Night         = set_combine(sets.precast.WS['Blade: Ku'],{})
 	sets.precast.WS['Blade: Ku'].HNM.Night     = set_combine(sets.precast.WS['Blade: Ku'].HNM,{})
 	                                           
-	sets.precast.WS['Blade: Metsu'].Night      = set_combine(sets.precast.WS['Blade: Metsu'],{feet="Koga kyahan +1"})
-	sets.precast.WS['Blade: Metsu'].HNM.Night  = set_combine(sets.precast.WS['Blade: Metsu'].HNM,{feet="Koga kyahan +1"})
+	sets.precast.WS['Blade: Metsu'].Night      = set_combine(sets.precast.WS['Blade: Metsu'],{ear1="Pixie earring",feet="Koga kyahan +1"})
+	sets.precast.WS['Blade: Metsu'].HNM.Night  = set_combine(sets.precast.WS['Blade: Metsu'].HNM,{ear1="Pixie earring",feet="Koga kyahan +1"})
 	
 end
 
@@ -237,6 +237,7 @@ function adjust_melee_groups()
 end
 
 function customize_melee_set(meleeSet)
+
 	add_to_chat(tostring(player.hpp))
 	if player.hpp < 75 then
         meleeSet = set_combine(meleeSet,{ring1="Shinobi ring",legs="Koga hakama"})

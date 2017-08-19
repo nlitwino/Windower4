@@ -110,6 +110,14 @@ function init_gear_sets()
 	
 end
 
+function job_post_precast(spell,action,spellMap,eventArgs)
+
+	if spell.type == 'WeaponSkill' and daytime then
+		equip({ear1="Fenrir's earring"})
+	end
+	
+end
+
 function job_buff_change(name,gain)
 
 	sleep_swap(name,gain)

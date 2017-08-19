@@ -149,6 +149,7 @@ function init_gear_sets()
 end
 
 function job_post_precast(spell,action,spellMap,eventArgs)
+
 	if spell.name == 'Namas Arrow' then
 		currentAM = 'Bow'
 	elseif spell.name == 'Tachi: Kaiten' then
@@ -160,7 +161,7 @@ function job_post_precast(spell,action,spellMap,eventArgs)
 	if spell.type == 'JobAbility' and state.OffenseMode.value == 'Tank' then
 		equip(set_combine(sets.enmity,sets.precast.JA[spell.name]))
 	end
-	add_to_chat(spell.type)
+	
 end
 
 function job_buff_change(name,gain)

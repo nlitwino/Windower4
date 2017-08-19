@@ -142,6 +142,28 @@ function init_gear_sets()
 
 end
 
+function job_post_precast(spell,action,spellMap,eventsArgs)
+
+	if daytime and spell.skill == 'WeaponSkill' then
+		if state.Buff['Warrior\'s Charge'] then
+			equip({ear2="Fenrir's earring"})
+		else
+			if state.WeaponskillMode.value == 'Normal' then
+				equip({ear1="Fenrir's earring"})
+			end
+		end
+	elseif spell.skill == 'WeaponSkill' then
+		if state.Buff['Warrior\'s Charge'] then
+			if player.inventory['Bushinomimi'] then
+				equip({ear2="Bushinomimi"})
+			else
+				equip({ear2="Merman's earring"})
+			end
+		end
+	end
+
+end
+
 function job_buff_change(name,gain)
 
 	sleep_swap(name,gain)
@@ -176,11 +198,22 @@ function get_custom_wsmode(spell,spellMap,default_wsmode)
 end
 
 function customize_idle_set(idleSet)
+
     if player.hpp < 51 then
         idleSet = set_combine(idleSet,{ring2="Hercules' ring"})
     end
     
     return idleSet
+end
+
+function customize_melee_set(meleeSet)
+
+	if daytime and state.OffenseMode.value == 'Normal' then
+        meleeSet = set_combine(meleeSet,{ear1="Fenrir's earring"})
+    end
+
+    return meleeSet
+	
 end
 
 function adjust_melee_groups()

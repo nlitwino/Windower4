@@ -85,9 +85,9 @@ function init_gear_sets()
 	-- ranged                                
 	sets.precast.RA                          = {head="Zha'Go's barbut"}
 	                                         
-	sets.midcast.RA                          = {head="Zha'Go's barbut" ,neck="Peacock amulet"       ,ear1="Drone earring",ear2="Drone earring"
+	sets.midcast.RA                          = {head="Zha'Go's barbut" ,neck="Faith torque"         ,ear1="Drone earring",ear2="Drone earring"
 										       ,body="Enkidu's harness",hands="Barbarossa's moufles",ring1="Merman's ring",ring2="Merman's ring"
-										       ,back="Mamool Ja mantle",waist="Buccaneer's belt"    ,legs="Oily trousers" ,feet="Enkidu's leggings"}
+										       ,back="Mamool Ja mantle",waist="Buccaneer's belt"    ,legs="Dusk trousers" ,feet="Enkidu's leggings"}
 	                                         
 	-- ws                                    
 	sets.precast.WS                          = {head="Maat's cap"      ,neck="Fotia gorget"        ,ear1="Pixie earring"       ,ear2="Brutal earring"
@@ -175,14 +175,20 @@ function job_post_precast(spell,action,spellMap,eventArgs)
             equip(sets.TreasureHunter)
         end
     end
-	if spell.type == 'WeaponSkill' and state.Buff['Assassin\'s Charge'] then
-		if player.inventory['Bushinomimi'] then
-			equip({ear2="Bushinomimi"})
-		else
-			if state.Buff['Trick Attack'] then
-				equip({ear2="Drone earring"})
+	if spell.type == 'WeaponSkill' then
+		if daytime then
+			if state.Buff['Assassin\'s Charge'] then
+				equip({ear2="Fenrir's earring"})
 			else
-				equip({ear2="Merman's earring"})
+				equip({ear1="Fenrir's earring"})
+			end
+		else
+			if state.Buff['Assassin\'s Charge'] then
+				if state.Buff['Trick Attack'] then
+					equip({ear2="Drone earring"})
+				else
+					equip({ear2="Merman's earring"})
+				end
 			end
 		end
 	end
@@ -198,6 +204,7 @@ function get_custom_wsmode(spell, spellMap, defaut_wsmode)
     if state.Buff['Trick Attack'] then
         wsmode = (wsmode or '') .. 'TA'
     end
+	add_to_chat(state.CustomWeaponskillMode.value)
     return wsmode
 	
 end

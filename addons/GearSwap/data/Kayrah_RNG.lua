@@ -73,7 +73,7 @@ function init_gear_sets()
 																		 ,back="Shadow mantle"     ,waist="Resolute belt",legs="Blood cuisses"   ,feet="Suzaku's sune-ate"})
 	
 	-- precast ranged
-	sets.precast.RA                           = {head="Zha'Go's barbut",neck="Peacock amulet",ear1="Drone earring",ear2="Hollow earring"
+	sets.precast.RA                           = {head="Hunter's beret",neck="Peacock amulet",ear1="Drone earring",ear2="Hollow earring"
 												,body="Scout's jerkin",hands="Seiryu's kote",ring1="Rajas ring",ring2="Merman's ring"
 												,back="Mamool Ja mantle",waist="Scout's belt",legs="Dusk trousers",feet="Hachiryu sune-ate"}
 	sets.precast.RA.Anni 					  = set_combine(sets.precast.RA,{})
@@ -88,8 +88,8 @@ function init_gear_sets()
 	sets.midcast.RA.Trash                     = set_combine(sets.midcast.RA,{head="Scout's beret"})
 	
 	-- midcast anni
-	sets.midcast.RA.Anni                      = set_combine(sets.midcast.RA,{})
-	sets.midcast.RA.Anni.HybridAcc            = set_combine(sets.midcast.RA.HybridAcc,{})
+	sets.midcast.RA.Anni                      = set_combine(sets.midcast.RA,{neck="Faith torque"})
+	sets.midcast.RA.Anni.HybridAcc            = set_combine(sets.midcast.RA.HybridAcc,{neck="Faith torque"})
 	sets.midcast.RA.Anni.Acc                  = set_combine(sets.midcast.RA.Acc,{})
 	sets.midcast.RA.Anni.Trash                = set_combine(sets.midcast.RA.Trash,{})
 	
