@@ -191,10 +191,6 @@ function job_post_midcast(spell,action,spellMap,eventsArgs)
 				equip(sets.buff['Sharpshot'])
 			end
 		end
-		if state.RangedMode.value == 'HybridAcc' then
-			add_to_chat("adsfasdf")
-			--equip({ring1="Merman's ring"})
-		end
 	end
 
 end
