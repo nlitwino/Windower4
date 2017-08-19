@@ -32,7 +32,7 @@ function user_setup()
 end
 
 function init_gear_sets()
-
+	sets.test = {head=""}
 	-- misc.
 	sets.TreasureHunter 				     = {hands="Assassin's armlets"}
 										      --sub="Thief's knife"

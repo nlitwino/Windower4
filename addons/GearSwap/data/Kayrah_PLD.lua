@@ -82,7 +82,7 @@ function init_gear_sets()
 	
 	-- Defense sets                         
 	sets.defense.PDT                        = set_combine(sets.enmity,{hands="Heavy gauntlets",ring1="Defending ring",ring2="Jelly ring"})
-	sets.defense.MDT                        = set_combine(sets.enmity,{ear2="Merman's earring",hands="Heavy gauntlets",ring1="Defending ring",ring2="Merman's ring"})
+	sets.defense.MDT                        = set_combine(sets.enmity,{ear2="Merman's earring",ring1="Defending ring",ring2="Merman's ring"})
 	sets.defense.Breath                     = set_combine(sets.enmity,{body="Crimson scale mail",ring1="Defending ring"})
 	                                        
 	-- Engaged sets                         
