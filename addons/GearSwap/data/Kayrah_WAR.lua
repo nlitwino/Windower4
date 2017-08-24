@@ -20,8 +20,8 @@ function user_setup()
 
 	state.OffenseMode:options('Normal','Acc')
 	state.WeaponskillMode:options('Normal','HNM')
-	state.PhysicalDefenseMode:options('Normal','PDT')
-	state.MagicalDefenseMode:options('Normal','MDT')
+	state.PhysicalDefenseMode:options('PDT')
+	state.MagicalDefenseMode:options('MDT')
 	
 end
 
@@ -43,7 +43,7 @@ function init_gear_sets()
 	sets.precast.FC = {ear2="Loquacious earring"}
 	
 	--Midcast Magic
-	sets.midcast.FastRecast = set_combine(sets.precast.FC,{head="Walahra turban",hands="Dusk gloves +1",waist="Velocious belt",legs="Byakko's haidate",feet="Dusk ledelsens +1"})
+	sets.midcast.FastRecast = set_combine(sets.precast.FC,{head="Walahra turban",ear2="Magnetic earring",hands="Dusk gloves +1",waist="Velocious belt",legs="Byakko's haidate",feet="Dusk ledelsens +1"})
 	
 	sets.midcast['Ninjutsu'] = set_combine(sets.midcast.FastRecast,{neck="Fortified chain",ring2="Antica ring",back="Shadow mantle"})
 	
@@ -61,9 +61,9 @@ function init_gear_sets()
 	
 	-- default engaged
 	sets.engaged                  = {ammo="Bomb core"
-									,head="Walahra turban",neck="Chivalrous chain",ear1="Bushinomimi",ear2="Brutal earring"
-									,body="Armada hauberk",hands="Dusk gloves +1",ring1=gear.TRing2,ring2=gear.TRing1
-									,back="Cerberus mantle +1",waist="Velocious belt",legs="Byakko's haidate",feet="Dusk ledelsens +1"}
+									,head="Walahra turban"    ,neck="Chivalrous chain",ear1="Bushinomimi"     ,ear2="Brutal earring"
+									,body="Armada hauberk"    ,hands="Dusk gloves +1" ,ring1=gear.TRing2      ,ring2=gear.TRing1
+									,back="Cerberus mantle +1",waist="Velocious belt" ,legs="Byakko's haidate",feet="Dusk ledelsens +1"}
 	sets.engaged.Acc              = set_combine(sets.engaged,{ammo="Fire bomblet",neck="Peacock amulet",ear1="Fowling earring",back="Cuchulain's mantle",feet="Aurum sabatons"})
 	
 	-- bravura engaged (normal) [[Rose strap]]  
@@ -76,9 +76,9 @@ function init_gear_sets()
 	                              
 	-- ragnarok engaged (normal)  
 	sets.engaged.Ragnarok         = {ammo="Bomb core"
-									,head="Walahra turban",neck="Chivalrous chain",ear1="Fowling earring",ear2="Brutal earring"
-									,body="Hachiryu haramaki",hands="Dusk gloves +1",ring1="Rajas ring",ring2=gear.TRing1
-									,back="Bushido cape",waist="Velocious belt",legs="Byakko's haidate",feet="Dusk ledelsens +1"}
+									,head="Walahra turban"   ,neck="Chivalrous chain",ear1="Fowling earring" ,ear2="Brutal earring"
+									,body="Hachiryu haramaki",hands="Dusk gloves +1" ,ring1="Rajas ring"     ,ring2=gear.TRing1
+									,back="Bushido cape"     ,waist="Velocious belt" ,legs="Byakko's haidate",feet="Dusk ledelsens +1"}
 	sets.engaged.Ragnarok.Acc     = set_combine(sets.engaged.Ragnarok,{ammo="Fire bomblet",neck="Peacock amulet",hands="Hachiryu kote",back="Cuchulain's mantle"})
 	
 	-- ragnarok engaged (SAM)
@@ -123,8 +123,8 @@ function init_gear_sets()
 	sets.precast.WS['Metatron Torment']     = set_combine(sets.precast.WS,{neck="Light gorget"})
 	sets.precast.WS['Metatron Torment'].Acc = set_combine(sets.precast.WS['Metatron Torment'],{ammo="Fire bomblet",ear1="Fowling earring",waist="Warrior's stone"}) 
 	
-	sets.precast.WS['Steel Cyclone']        = set_combine(sets.precast.WS,{head="Maat's cap",waist="Warwolf belt"})
-	sets.precast.WS['Steel Cyclone'].Acc    = set_combine(sets.precast.WS['Steel Cyclone'],{ammo="Fire bomblet",ear2="Fowling earring",ring2="Ecphoria ring",back="Cuchulain's mantle"})
+	sets.precast.WS['Steel Cyclone']        = set_combine(sets.precast.WS,{head="Maat's cap",body="Kirin's osode",waist="Warwolf belt"})
+	sets.precast.WS['Steel Cyclone'].Acc    = set_combine(sets.precast.WS['Steel Cyclone'],{ammo="Fire bomblet",ear2="Fowling earring",ring2="Corneus ring",back="Cuchulain's mantle"})
 	                    
 	----Great Axe MS                        
 	sets.precast.WS['Raging Rush'].MS       = set_combine(sets.precast.WS['Raging Rush'],{body="Armada hauberk",hands="Alkyoneus's bracelets"})

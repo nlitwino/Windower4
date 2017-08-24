@@ -95,7 +95,7 @@ function init_gear_sets()
 	sets.precast.WS                            = {head="Maat's cap"        ,neck="Fotia gorget"     ,ear1="Pixie earring"    ,ear2="Brutal earring"
 												 ,body="Enkidu's harness"  ,hands="Enkidu's mittens",ring1="Rajas ring"      ,ring2="Flame ring"
 												 ,back="Cerberus mantle +1",waist="Warwolf belt"    ,legs="Enkidu's subligar",feet="Enkidu's leggings"}
-	sets.precast.WS.HNM                        = set_combine(sets.precast.WS,{back="Cuchulain's mantle"})
+	sets.precast.WS.HNM                        = set_combine(sets.precast.WS,{ring2="Zilant ring",back="Cuchulain's mantle"})
 	
 	sets.precast.WS['Cyclone']                 = set_combine(sets.precast.WS,{ear1="Moldavite earring",back="Etoile cape"})
 	                                           

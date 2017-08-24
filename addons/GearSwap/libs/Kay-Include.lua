@@ -171,7 +171,7 @@ end
 function select_default_macro_book()
 	
 	local mainjobs = {'WAR','MNK','WHM','BLM','RDM','THF','PLD','DRK','BST','BRD','RNG','SAM','NIN','DRG','SMN','BLU','COR','PUP','DNC','SCH'}
-	local commonsubs = {'NIN','DNC','WAR','SAM','THF','WHM','RDM','SCH','BLM','DRK'}
+	local commonsubs = {'NIN','DNC','WAR','SAM','THF','WHM','RDM','SCH','BLM','DRG'}
 	
 	local mainpage
 	local subpage

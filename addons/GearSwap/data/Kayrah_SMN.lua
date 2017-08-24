@@ -202,7 +202,7 @@ function init_gear_sets()
     sets.perp 				                                = {body="Yinyang robe",ring2="Evoker's ring"}
     sets.perp.Day 			                                = {body="Summoner's doublet"}
     sets.perp.Weather 		                                = {head="Summoner's horn"}
-    sets.perp.Carbuncle 	                                = {hands="Carbuncle's mitts"}
+    sets.perp.Carbuncle 	                                = {hands="Carbuncle mitts"}
     sets.perp.Alexander 	                                = sets.midcast.Pet.BloodPactWard
 
     sets.perp.staff_and_grip                                = {main=gear.perp_staff}

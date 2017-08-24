@@ -31,7 +31,7 @@ end
 function init_gear_sets()
 
 	--misc.
-	sets.lowHP 												= {hands="Zenith mitts",ring1="Astral ring",ring2="Serket ring"}
+	sets.lowHP 												= {hands="Zenith mitts",ring1="Ether ring",ring2="Serket ring"}
 
 	--grips/obis														   
 	sets.grip 												= {Fire 	 = {sub="Fire Grip"}
