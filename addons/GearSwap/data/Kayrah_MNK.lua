@@ -45,6 +45,7 @@ function init_gear_sets()
 	sets.precast.JA['Chakra']            = set_combine(sets.VIT,{body="Temple cyclas",hands="Melee gloves"})
 	sets.precast.JA['Focus']             = {head="Temple crown"}
 	sets.precast.JA['Dodge']             = {feet="Temple gaiters"}
+	sets.precast.JA['Footwork']			 = {feet="Kyoshu kyahan"}
 	
 	-- precast magic
 	sets.precast.FC 					 = {ear1="Loquacious earring"}
@@ -60,15 +61,15 @@ function init_gear_sets()
 	
 	-- idle
 	sets.idle                            = {ammo="Bibiki seashell"
-				                           ,head="Genbu's kabuto",neck="Chocobo whistle",ear1="Merman's earring",ear2="Merman's earring"
-				                           ,body="Melee cyclas",hands="Seiryu's kote",ring1="Defending ring",ring2="Shadow ring"
-				                           ,back="Shadow mantle",waist="Lycopodium sash",legs="Darksteel subligar +1",feet="Hermes' sandals"}
+				                           ,head="Arhat's jinpachi +1",neck="Chocobo whistle" ,ear1="Merman's earring"     ,ear2="Merman's earring"
+				                           ,body="Melee cyclas"       ,hands="Seiryu's kote"  ,ring1="Defending ring"      ,ring2="Shadow ring"
+				                           ,back="Shadow mantle"      ,waist="Lycopodium sash",legs="Darksteel subligar +1",feet="Hermes' sandals"}
 	sets.idle.Town                       = set_combine(sets.idle,{ring2="Warp ring",back="Nexus cape"})
 	
 	-- defense
 	
 	
-	sets.defense.PDT 	                 = {ammo="Bibiki seashell",head="Genbu's kabuto",body="Darksteel harness +1",ring1="Defending ring",ring2="Jelly ring",back="Shadow mantle",waist="Black belt",legs="Darksteel subligar +1"}
+	sets.defense.PDT 	                 = {ammo="Bibiki seashell",head="Arhat's jinpachi +1",body="Arhat's gi +1",ring1="Defending ring",ring2="Jelly ring",back="Shadow mantle",waist="Black belt",legs="Darksteel subligar +1"}
 	sets.defense.Evasion                 = set_combine(sets.defense.PDT,{head="Gnole crown",neck="Fortified chain",ear1="Drone earring",ear2="Drone earring",hands="Seiryu's kote",ring1="Defending ring",back="Boxer's mantle",legs="Raven hose",feet="Hachiryu sune-ate"})
 	sets.defense.MDT                     = {ammo="Bibiki seashell"
 	                                       ,head="Genbu's kabuto"                          ,ear1="Merman's ring"   ,ear2="Merman's ring"

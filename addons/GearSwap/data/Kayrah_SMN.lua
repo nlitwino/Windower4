@@ -152,9 +152,10 @@ function init_gear_sets()
     -- precast JA
     sets.precast.JA 										= {body="Errant houppelande",hands="Errant cuffs",waist="Buccaneer's belt",legs="Jet seraweels",feet="Avocat pigaches"}
 	
-	sets.precast.JA['Elemental Siphon']						= set_combine(sets.precast.JA,{head="Evoker's horn",hands="Summoner's bracers",ring2="Evoker's ring",legs="Oracle's braconi",feet="Nashira crackows"})
-    -- bp precast
-    sets.precast.BloodPactWard 								= {head="Summoner's horn",body="Yinyang robe",hands="Summoner's bracers",legs="Summoner's spats",feet="Summoner's pigaches"}
+	sets.precast.JA['Elemental Siphon']						= set_combine(sets.precast.JA,{head="Evoker's horn",hands="Summoner's bracers",ring2="Evoker's ring",back="Astute cape",legs="Oracle's braconi",feet="Nashira crackows"})
+   
+   -- bp precast
+    sets.precast.BloodPactWard 								= set_combine(sets.precast.JA['Elemental Siphon'],{head="Summoner's horn",body="Yinyang robe",hands="Summoner's bracers",legs="Summoner's spats",feet="Summoner's pigaches"})
     sets.precast.BloodPactRage 								= sets.precast.BloodPactWard
 
     -- Fast cast sets for spells
@@ -174,7 +175,7 @@ function init_gear_sets()
 	sets.midcast['Dark Magic'] 								=  set_combine(sets.INT,{ammo="Sturm's report",neck="Dark torque",back="Prism cape"})
 	
 	-- avatar pacts
-    sets.midcast.BloodPactWard 						    	= {head="Evoker's horn",hands="Summoner's bracers",legs="Oracle's braconi"}
+    sets.midcast.BloodPactWard 						    	= set_combine(sets.precast.JA['Elemental Siphon'],{head="Evoker's horn",hands="Summoner's bracers",legs="Oracle's braconi"})
     sets.midcast.DebuffBloodPactWard 				    	= set_combine(sets.midcast.Pet.BloodPactWard,{})
     sets.midcast.PhysicalBloodPactRage 				    	= set_combine(sets.midcast.Pet.BloodPactWard,{body="Summoner's doublet",legs="Evoker's spats"})
     sets.midcast.MagicalBloodPactRage 				    	= set_combine(sets.midcast.Pet.BloodPactWard,{})

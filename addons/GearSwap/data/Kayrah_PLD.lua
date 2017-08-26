@@ -77,7 +77,7 @@ function init_gear_sets()
 											  ,back="Valor cape",waist="Resolute belt",legs="Koenig diechlings",feet="Valor leggings"}
 	sets.idle.SuperPDT                      = {ammo="Bibiki seashell"
 											  ,head="Koenig schaller",neck="Fortified chain",ear1="Knight's earring",ear2="Ethereal earring"
-											  ,body="Valhalla breastplate",hands="Heavy gauntlets",ring1="Defending ring",ring2=""
+											  ,body="Valhalla breastplate",hands="Heavy gauntlets",ring1="Defending ring",ring2="Corneus ring"
 											  ,back="Shadow mantle",waist="Warwolf belt",legs="Koenig diechlings",feet="Kaiser schuhs"}
 	
 	-- Defense sets                         

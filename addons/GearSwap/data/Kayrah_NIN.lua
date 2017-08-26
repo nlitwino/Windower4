@@ -68,8 +68,8 @@ function init_gear_sets()
 	                                           
 	sets.midcast['Utsusemi: Ni']               = set_combine(sets.midcast.FastRecast,{})
 	sets.midcast['Utsusemi: Ichi']             = set_combine(sets.midcast['Utsusemi: Ni'],{head="Ninja hatsuburi +1",hands="Yasha tekko",legs="Yasha hakama",feet="Koga kyahan +1"})
-	sets.midcast.NinjutsuDebuff                = set_combine(sets.midcast.FastRecast,{head="Ninja hatsuburi +1",feet="Koga kyahan +1"})
-	sets.midcast.ElementalNinjutsu             = set_combine(sets.midcast.FastRecast,sets.INT,{})
+	sets.midcast.NinjutsuDebuff                = set_combine(sets.midcast.FastRecast,{head="Ninja hatsuburi +1",feet="Koga kyahan +1",back="Astute cape"})
+	sets.midcast.ElementalNinjutsu             = set_combine(sets.midcast.FastRecast,sets.INT,{back="Astute cape"})
 	                                           
 	sets.midcast.NinjutsuDebuff.Enmity         = set_combine(sets.midcast.NinjutsuDebuff,sets.enmityUp,{})
 	sets.midcast.ElementalNinjutsu.Enmity      = set_combine(sets.midcast.ElementalNinjutsu,sets.enmityUp,{})
@@ -94,10 +94,10 @@ function init_gear_sets()
 	                                           
 	-- engaged                                 
 	sets.engaged                               = {ammo="Bomb core"
-												 ,head="Walahra turban"    ,neck="Chivalrous chain",ear1="Suppanomimi"     ,ear2="Brutal earring"
-												 ,body="Ninja chainmail +1",hands="Dusk gloves +1" ,ring1=gear.TRing2      ,ring2=gear.TRing1
-												 ,back="Cerberus mantle +1",waist="Velocious belt" ,legs="Byakko's haidate",feet="Dusk ledelsens +1"}
-	sets.engaged.HybridAcc                     = set_combine(sets.engaged,{neck="Peacock amulet",back="Cuchulain's mantle"})											
+												 ,head="Walahra turban"    ,neck="Hope torque"    ,ear1="Suppanomimi"     ,ear2="Brutal earring"
+												 ,body="Ninja chainmail +1",hands="Dusk gloves +1",ring1=gear.TRing2      ,ring2=gear.TRing1
+												 ,back="Cerberus mantle +1",waist="Velocious belt",legs="Byakko's haidate",feet="Dusk ledelsens +1"}
+	sets.engaged.HybridAcc                     = set_combine(sets.engaged,{back="Cuchulain's mantle"})											
 	sets.engaged.Acc                           = set_combine(sets.engaged,{ammo="Fire bomblet",neck="Peacock amulet",body="Hachiryu haramaki",back="Cuchulain's mantle"})
 	sets.engaged.Tank                          = set_combine(sets.engaged.Acc,{back="Boxer's mantle",})
 	                                           

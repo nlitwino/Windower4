@@ -80,21 +80,21 @@ function init_gear_sets()
 	sets.precast.RA.Yoichi					  = set_combine(sets.precast.RA,{legs="Hachiryu haidate"})
 	
 	-- midcast ranged
-	sets.midcast.RA                           = {head="Zha'Go's barbut" ,neck="Ranger's necklace"      ,ear1="Drone earring"   ,ear2="Bushinomimi"
-												,body="Kyudogi +1"      ,hands="Blood finger gauntlets",ring1="Rajas ring"     ,ring2="Cerberus ring"
+	sets.midcast.RA                           = {head="Zha'Go's barbut" ,neck="Faith torque"           ,ear1="Drone earring"   ,ear2="Bushinomimi"
+												,body="Kyudogi +1"      ,hands="Blood finger gauntlets",ring1="Rajas ring"     ,ring2="Cerberus ring +1"
 												,back="Amemet mantle +1",waist="Scout's belt"          ,legs="Hachiryu haidate",feet="Scout's socks +1"}
-	sets.midcast.RA.HybridAcc                 = set_combine(sets.midcast.RA,{ear2="Hollow earring",ring1="Cerberus ring",ring2="Merman's ring",feet="Hachiryu sune-ate"})
+	sets.midcast.RA.HybridAcc                 = set_combine(sets.midcast.RA,{ear2="Hollow earring",ring1="Cerberus ring +1",ring2="Merman's ring",feet="Hachiryu sune-ate"})
 	sets.midcast.RA.Acc                       = set_combine(sets.midcast.RA.HybridAcc,{neck="Peacock amulet",hands="Seiryu's kote",back="Mamool Ja mantle",ring1="Merman's ring"})
 	sets.midcast.RA.Trash                     = set_combine(sets.midcast.RA,{head="Scout's beret"})
 	
 	-- midcast anni
-	sets.midcast.RA.Anni                      = set_combine(sets.midcast.RA,{neck="Faith torque"})
+	sets.midcast.RA.Anni                      = set_combine(sets.midcast.RA,{})
 	sets.midcast.RA.Anni.HybridAcc            = set_combine(sets.midcast.RA.HybridAcc,{neck="Faith torque"})
 	sets.midcast.RA.Anni.Acc                  = set_combine(sets.midcast.RA.Acc,{})
 	sets.midcast.RA.Anni.Trash                = set_combine(sets.midcast.RA.Trash,{})
 	
 	-- midcast yoichi                         
-	sets.midcast.RA.Yoichi                    = set_combine(sets.midcast.RA,{feet="Hachiryu sune-ate"})
+	sets.midcast.RA.Yoichi                    = set_combine(sets.midcast.RA,{neck="Hope torque",feet="Hachiryu sune-ate"})
 	sets.midcast.RA.Yoichi.HybridAcc          = set_combine(sets.midcast.RA.HybridAcc,{})
 	sets.midcast.RA.Yoichi.Acc                = set_combine(sets.midcast.RA.Acc,{})
 	sets.midcast.RA.Yoichi.Trash              = set_combine(sets.midcast.RA.Trash,{feet="Hachiryu sune-ate"})

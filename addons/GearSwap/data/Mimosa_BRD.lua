@@ -65,12 +65,12 @@ function init_gear_sets()
 															   ,back="Jester's cape +1",waist="Corsette"             ,legs="Mahatma slops"    ,feet="Sha'ir crackows"}
 	                                                         
 	sets.obi												 = {Fire 	  = {waist="Karin Obi"}
-															   ,Earth  	 = {waist="Dorin Obi"}
+															   ,Earth  	  = {waist="Dorin Obi"}
 															   ,Water	  = {waist="Suirin Obi"}
 															   ,Wind 	  = {waist="Furin Obi"}
 															   ,Ice 	  = {waist="Hyorin Obi"}
 															   ,Lightning = {waist="Rairin Obi"}
-															   ,Light  	 = {waist="Korin Obi"}
+															   ,Light  	  = {waist="Korin Obi"}
 															   ,Dark 	  = {waist="Anrin Obi"}}
 															 	   
 	sets.grip												 = {Fire 	  = {sub="Fire Grip"}
