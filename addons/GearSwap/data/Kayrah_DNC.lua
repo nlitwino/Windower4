@@ -59,13 +59,13 @@ function init_gear_sets()
 	                                           
 	-- midcast magic                           
 	sets.midcast.FastRecast                    = set_combine(sets.precast.FC,{head="Walahra turban",body="Rapparee harness",hands="Dusk gloves +1",legs="Etoile tights",feet="Dusk ledelsens +1"})
-	sets.midcast['Ninjutsu']                   = set_combine(sets.midcast.FastRecast,{ring2="Antica ring",back="Shadow mantle"})
+	sets.midcast['Ninjutsu']                   = set_combine(sets.midcast.FastRecast,{ring2="Antica ring",back="Prism cape"})
 	                                           
 	-- idle                                    
 	sets.idle                                  = {ammo="Bibiki seashell"
 												 ,head="Gnole crown",neck="Chocobo whistle",ear1="Merman's earring",ear2="Merman's earring"
-												 ,body="Enkidu's harness",hands="Enkidu's mittens",ring1="Defending ring",ring2="Shadow ring"
-												 ,back="Shadow mantle",waist="Lycopodium sash",legs="Enkidu's subligar",feet="Merman's leggings"}
+												 ,body="Avalon breastplate",hands="Enkidu's mittens",ring1="Defending ring",ring2="Shadow ring"
+												 ,back="Shadow mantle",waist="Lycopodium sash",legs="Darksteel subligar +1",feet="Merman's leggings"}
 	                                           
 	sets.idle.Town                             = set_combine(sets.idle,{ring2="Warp ring",back="Nexus cape"})
 	                                           
@@ -74,7 +74,7 @@ function init_gear_sets()
 	-- defense
 	sets.defense.Evasion                       = {head="Gnole crown",neck="Fortified torque",ear2="Drone earring",body="Scorpion harness +1",feet="Dancer's toe shoes"}
 	sets.defense.PDT                           = {ring1="Defending ring",ring2="Jelly ring",back="Shadow mantle"}
-	sets.defense.MDT                           = {ear1="Merman's earring",ear2="Merman's earring",ring1="Defending ring",ear2="Shadow ring",waist="Resolute belt",feet="Merman's leggings"}
+	sets.defense.MDT                           = {ear1="Merman's earring",ear2="Merman's earring",body="Avalon breastplate",ring1="Defending ring",ear2="Shadow ring",waist="Resolute belt",feet="Merman's leggings"}
 	
 	-- engaged
 	sets.engaged                               = {ammo="Black tathlum"
@@ -93,14 +93,14 @@ function init_gear_sets()
 	                                           
 	-- ws                                      
 	sets.precast.WS                            = {head="Maat's cap"        ,neck="Fotia gorget"     ,ear1="Pixie earring"    ,ear2="Brutal earring"
-												 ,body="Enkidu's harness"  ,hands="Enkidu's mittens",ring1="Rajas ring"      ,ring2="Flame ring"
+												 ,body="Etoile casaque"  ,hands="Enkidu's mittens",ring1="Rajas ring"      ,ring2="Zilant ring"
 												 ,back="Cerberus mantle +1",waist="Warwolf belt"    ,legs="Enkidu's subligar",feet="Enkidu's leggings"}
-	sets.precast.WS.HNM                        = set_combine(sets.precast.WS,{ring2="Zilant ring",back="Cuchulain's mantle"})
+	sets.precast.WS.HNM                        = set_combine(sets.precast.WS,{feet="Rutter sabatons"})
 	
 	sets.precast.WS['Cyclone']                 = set_combine(sets.precast.WS,{ear1="Moldavite earring",back="Etoile cape"})
 	                                           
 	sets.precast.WS['Dancing Edge']            = set_combine(sets.precast.WS,{back="Etoile cape"})
-	sets.precast.WS['Dancing Edge'].HNM        = set_combine(sets.precast.WS.HNM,{
+	sets.precast.WS['Dancing Edge'].HNM        = set_combine(sets.precast.WS.HNM,{})
 	                                           
 	sets.precast.WS['Exenterator']             = set_combine(sets.precast.WS['Dancing Edge'],{})
 	sets.precast.WS['Exenterator'].HNM         = set_combine(sets.precast.WS['Dancing Edge'].HNM,{})

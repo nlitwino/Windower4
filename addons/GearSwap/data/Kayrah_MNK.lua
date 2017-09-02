@@ -54,7 +54,7 @@ function init_gear_sets()
 	sets.midcast.FastRecast              = set_combine(sets.precast.FC,{ammo="Bibiki seashell"
 							                                           ,head="Walahra turban"     ,neck="Fortified chain"
 							                                           ,body="Scorpion harness +1"                       ,ring1="Defending ring"
-							                                           ,back="Boxer's mantle"     ,waist="Black belt"    ,legs="Byakko's haidate",feet="Sarutobi kyahan"})
+							                                           ,back="Prism cape"         ,waist="Black belt"    ,legs="Byakko's haidate",feet="Sarutobi kyahan"})
 	
 	sets.midcast['Utsusemi: Ni']         = set_combine(sets.midcast.FastRecast,{ring2="Antica ring"})
 	sets.midcast['Utsusemi: Ichi']       = set_combine(sets.midcast.FastRecast,{waist="Resolute belt"})    
@@ -78,9 +78,9 @@ function init_gear_sets()
 	
 	-- engaged
 	sets.engaged                         = {ammo="Black tathlum"
-				                           ,head="Walahra turban"    ,neck="Faith torque"   ,ear1="Bushinomimi"     ,ear2="Brutal earring"
-				                           ,body="Hachiryu haramaki" ,hands="Ochimusha kote",ring1=gear.TRing2      ,ring2=gear.TRing1
-				                           ,back="Cerberus mantle +1",waist="Black belt"    ,legs="Byakko's haidate",feet="Sarutobi kyahan"}
+				                           ,head="Walahra turban"    ,neck="Faith torque"    ,ear1="Bushinomimi"     ,ear2="Brutal earring"
+				                           ,body="Hachiryu haramaki" ,hands="Bandomusha kote",ring1=gear.TRing2      ,ring2=gear.TRing1
+				                           ,back="Cerberus mantle +1",waist="Black belt"     ,legs="Byakko's haidate",feet="Sarutobi kyahan"}
 	sets.engaged.HybridAcc               = set_combine(sets.engaged,{back="Cuchulain's mantle"})
 	sets.engaged.Acc                     = set_combine(sets.engaged.HybridAcc,{head="Enkidu's cap",ear1="Hollow earring",neck="Peacock amulet",hands="Hachiryu kote",feet="Enkidu's leggings"})
 	sets.engaged.OffTank                 = set_combine(sets.engaged,{ammo="Bibiki seashell",ear1="Cassie earring",hands="Melee gloves",ring1="Defending ring",back="Boxer's mantle"})
@@ -96,7 +96,7 @@ function init_gear_sets()
 	-- ws
 	sets.precast.WS                      = {ammo="Black tathlum"
 					                       ,head="Maat's cap"        ,neck="Fotia gorget"    ,ear1="Bushinomimi"     ,ear2="Brutal earring"
-					                       ,body="Kirin's osode"     ,hands="Ochimusha kote" ,ring1="Rajas ring"     ,ring2=gear.TRing1
+					                       ,body="Kirin's osode"     ,hands="Bandomusha kote",ring1="Rajas ring"     ,ring2=gear.TRing1
 					                       ,back="Cerberus mantle +1",waist="Warwolf belt"   ,legs="Hachiryu haidate",feet="Rutter sabatons"}
 	sets.precast.WS.HNM                  = set_combine(sets.precast.WS,{head="Gnadbhod's helm"})
 	

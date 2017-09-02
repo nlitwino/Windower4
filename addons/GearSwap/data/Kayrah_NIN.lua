@@ -62,9 +62,9 @@ function init_gear_sets()
 	sets.precast.FC                            = {ear2="Loquacious earring"}
 	                                           
 	-- midcast magic                           
-	sets.midcast.FastRecast                    = {head="Walahra turban",neck="Fortified chain",ear1="Drone earring",ear2="Magnetic earring"
-												 ,body="Yasha samue",hands="Dusk gloves +1",ring1="Defending ring",ring2="Antica ring"
-												 ,back="Shadow mantle",waist="Resolute belt",legs="Byakko's haidate",feet="Dusk ledelsens +1"}
+	sets.midcast.FastRecast                    = {head="Walahra turban",neck="Fortified chain",ear1="Drone earring"   ,ear2="Magnetic earring"
+												 ,body="Yasha samue"   ,hands="Dusk gloves +1",ring1="Defending ring" ,ring2="Antica ring"
+												 ,back="Prism cape"    ,waist="Resolute belt" ,legs="Byakko's haidate",feet="Dusk ledelsens +1"}
 	                                           
 	sets.midcast['Utsusemi: Ni']               = set_combine(sets.midcast.FastRecast,{})
 	sets.midcast['Utsusemi: Ichi']             = set_combine(sets.midcast['Utsusemi: Ni'],{head="Ninja hatsuburi +1",hands="Yasha tekko",legs="Yasha hakama",feet="Koga kyahan +1"})
@@ -97,7 +97,7 @@ function init_gear_sets()
 												 ,head="Walahra turban"    ,neck="Hope torque"    ,ear1="Suppanomimi"     ,ear2="Brutal earring"
 												 ,body="Ninja chainmail +1",hands="Dusk gloves +1",ring1=gear.TRing2      ,ring2=gear.TRing1
 												 ,back="Cerberus mantle +1",waist="Velocious belt",legs="Byakko's haidate",feet="Dusk ledelsens +1"}
-	sets.engaged.HybridAcc                     = set_combine(sets.engaged,{back="Cuchulain's mantle"})											
+	sets.engaged.HybridAcc                     = set_combine(sets.engaged,{neck="Peacock amulet",back="Cuchulain's mantle"})											
 	sets.engaged.Acc                           = set_combine(sets.engaged,{ammo="Fire bomblet",neck="Peacock amulet",body="Hachiryu haramaki",back="Cuchulain's mantle"})
 	sets.engaged.Tank                          = set_combine(sets.engaged.Acc,{back="Boxer's mantle",})
 	                                           
@@ -148,7 +148,7 @@ function init_gear_sets()
 	sets.precast.WS['Blade: Shun']             = set_combine(sets.precast.WS['Blade: Jin'],{})
 	sets.precast.WS['Blade: Shun'].HNM         = set_combine(sets.precast.WS['Blade: Jin'].HNM,{})
 	                                           
-	sets.precast.WS['Blade: Ku']               = set_combine(sets.precast.WS,{head="Gnadbhod's helm",body="Hachiryu haramaki",hands="Ochimusha kote"})
+	sets.precast.WS['Blade: Ku']               = set_combine(sets.precast.WS,{head="Gnadbhod's helm",body="Hachiryu haramaki",hands="Bandomusha kote"})
 	sets.precast.WS['Blade: Ku'].HNM           = set_combine(sets.precast.WS['Blade: Ku'],{})
 	                                           
 	sets.precast.WS['Blade: Metsu']            = set_combine(sets.precast.WS,{body="Haubergeon +1"})
@@ -177,7 +177,6 @@ function job_buff_change(name,gain)
 	sleep_swap(name,gain)
 	
 	if name == 'Yonin' or name == 'Innin'then
-		state.Buff[name] = gain
 		adjust_melee_groups()
 		handle_equipping_gear(player.status)
 	end

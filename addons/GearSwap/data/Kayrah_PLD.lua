@@ -98,7 +98,7 @@ function init_gear_sets()
 	sets.engaged.Wyrms						= set_combine(sets.engaged.Heavy,{body="Crimson scale mail"})
 	
 	-- Weaponskill sets                     
-	sets.precast.WS                         = {head="Hecatomb cap"      ,neck="Fotia gorget"      ,ear1="Fowling earring",ear2="Brutal earring"
+	sets.precast.WS                         = {head="Hecatomb cap +1"      ,neck="Fotia gorget"      ,ear1="Fowling earring",ear2="Brutal earring"
 	                                          ,body="Aurum cuirass"     ,hands="Alkyoneus's bracelets"                       ,ring2="Flame ring"
 											  ,back="Cerberus mantle +1",waist="Warwolf belt"         ,legs="Valor breeches" ,feet="Hecatomb leggings +1"}
 	sets.precast.WS.Acc                     = set_combine(sets.precast.WS,{neck="Peacock amulet",hands="Hecatomb mittens +1"})

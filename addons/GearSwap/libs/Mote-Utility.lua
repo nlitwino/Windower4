@@ -178,13 +178,13 @@ function refine_waltz(spell, action, spellMap, eventArgs)
             elseif missingHP < 200 then
                 newWaltz = 'Curing Waltz'
                 waltzID = 190
-            elseif missingHP < 600 then
+            elseif missingHP < 400 then
                 newWaltz = 'Curing Waltz II'
                 waltzID = 191
-            elseif missingHP < 1100 then
+            elseif missingHP < 600 then
                 newWaltz = 'Curing Waltz III'
                 waltzID = 192
-            elseif missingHP < 1500 then
+            elseif missingHP < 800 then
                 newWaltz = 'Curing Waltz IV'
                 waltzID = 193
             else

@@ -20,7 +20,6 @@
     <addon>TParty</addon>
     <addon>update</addon>
     <addon>Treasury</addon>
-    <addon>timestamp</addon>
     <addon>PetTP</addon>
     <addon>instaLS</addon>
     <addon>autojoin</addon>
@@ -28,6 +27,7 @@
     <addon>itemizer</addon>
     <addon>DistancePlus</addon>
     <addon>distance</addon>
+    <addon>timestamp</addon>
     <plugin>Run</plugin>
     <plugin>LightLuggage</plugin>
     <plugin>InfoBar</plugin>

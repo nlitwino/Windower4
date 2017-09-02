@@ -32,7 +32,7 @@ function user_setup()
 end
 
 function init_gear_sets()
-	sets.test = {head=""}
+
 	-- misc.
 	sets.TreasureHunter 				     = {hands="Assassin's armlets"}
 										      --sub="Thief's knife"
@@ -48,7 +48,7 @@ function init_gear_sets()
 	-- precast ja                            
 	sets.precast.JA                          = {waist="Buccaneer's belt"}
 	                                         
-	sets.precast.JA['Flee']                  = set_combine(sets.precast.JA,{feet="Rogue's poulaines"})
+	sets.precast.JA['Flee']                  = set_combine(sets.precast.JA,{feet="Rogue's poulaines +1"})
 	sets.precast.JA['Steal']                 = set_combine(sets.precast.JA,{head="Rogue's bonnet",hands="Rogue's armlets",legs="Rogue's culottes",feet="Rogue's poulaines"})
 	sets.precast.JA['Mug']                   = set_combine(sets.precast.JA,{head="Assassin's bonnet"})
 	sets.precast.JA['Hide']                  = set_combine(sets.precast.JA,{body="Rogue's vest"})
@@ -87,18 +87,18 @@ function init_gear_sets()
 	                                         
 	sets.midcast.RA                          = {head="Zha'Go's barbut" ,neck="Faith torque"         ,ear1="Drone earring",ear2="Drone earring"
 										       ,body="Enkidu's harness",hands="Barbarossa's moufles",ring1="Merman's ring",ring2="Merman's ring"
-										       ,back="Mamool Ja mantle",waist="Buccaneer's belt"    ,legs="Dusk trousers" ,feet="Enkidu's leggings"}
+										       ,back="Mamool Ja mantle",waist="Buccaneer's belt"    ,legs="Dusk trousers" ,feet="Rogue's poulaines +1"}
 	                                         
 	-- ws                                    
 	sets.precast.WS                          = {head="Maat's cap"      ,neck="Fotia gorget"        ,ear1="Pixie earring"       ,ear2="Brutal earring"
 										       ,body="Hecatomb harness",hands="Hecatomb mittens +1",ring1="Rajas ring"         ,ring2="Zilant ring"
 										       ,back="Commander's cape",waist="Warwolf belt"       ,legs="Hecatomb subligar +1",feet="Enkidu's leggings"}
-	sets.precast.WS.HNM                      = set_combine(sets.precast.WS,{head="Hecatomb cap",neck="Peacock amulet",ear1="Bushinomimi",body="Hecatomb harness",ring2="Flame ring",feet="Hecatomb leggings +1"})
+	sets.precast.WS.HNM                      = set_combine(sets.precast.WS,{head="Hecatomb cap +1",neck="Peacock amulet",ear1="Bushinomimi",body="Hecatomb harness",ring2="Flame ring",feet="Hecatomb leggings +1"})
 	                                         
 	sets.precast.WS['Cyclone']               = set_combine(sets.precast.WS,{ear2="Moldavite earring",ring2="Snow ring"})
 	                                         
 	sets.precast.WS['Dancing Edge']          = set_combine(sets.precast.WS,{ear1="Pixie earring",feet="Hecatomb leggings +1"})
-	sets.precast.WS['Dancing Edge'].HNM      = set_combine(sets.precast.WS['Dancing Edge'],{head="Hecatomb cap",ear1="Bushinomimi"})
+	sets.precast.WS['Dancing Edge'].HNM      = set_combine(sets.precast.WS['Dancing Edge'],{head="Hecatomb cap +1",ear1="Bushinomimi"})
 	                                         
 	sets.precast.WS['Exenterator']           = set_combine(sets.precast.WS['Dancing Edge'],{})
 	sets.precast.WS['Exenterator'].HNM       = set_combine(sets.precast.WS['Dancing Edge'].HNM,{})
@@ -106,10 +106,10 @@ function init_gear_sets()
 	sets.precast.WS['Shark Bite']            = set_combine(sets.precast.WS,{body="Antares harness",ring2="Zilant ring",back="Assassin's cape",feet="Enkidu's leggings"})
 	sets.precast.WS['Shark Bite'].HNM        = set_combine(sets.precast.WS['Shark Bite'],{ear1="Bushinomimi",feet="Hecatomb leggings +1"})
 	                                         
-	sets.precast.WS['Evisceration']          = set_combine(sets.precast.WS,{head="Hecatomb cap",back="Cuchulain's mantle",feet="Hecatomb leggings +1"})
+	sets.precast.WS['Evisceration']          = set_combine(sets.precast.WS,{head="Hecatomb cap +1",back="Cuchulain's mantle",feet="Hecatomb leggings +1"})
 	sets.precast.WS['Evisceration'].HNM      = set_combine(sets.precast.WS['Evisceration'],{ear1="Bushinomimi",back="Commander's cape"})
 	                                         
-	sets.precast.WS['Mercy Stroke']          = set_combine(sets.precast.WS,{head="Hecatomb cap"                                  ,ear1="Merman's earring" 
+	sets.precast.WS['Mercy Stroke']          = set_combine(sets.precast.WS,{head="Hecatomb cap +1"                                  ,ear1="Merman's earring" 
 										     							   ,body="Hecatomb harness",hands="Alkyoneus's bracelets"              
 										     							   ,back="Cerberus mantle +1"                                                    ,feet="Hecatomb leggings +1"})
 	sets.precast.WS['Mercy Stroke'].HNM      = set_combine(sets.precast.WS['Mercy Stroke'],{ear1="Bushinomimi"})
@@ -136,7 +136,7 @@ function init_gear_sets()
 	
 	-- SATA WS
 	sets.precast.WS.SATA                     = set_combine(sets.precast.WS,sets.buff['Sneak Attack'],sets.buff['Trick Attack'])
-	sets.precast.WS.HNM.SATA                 = set_combine(sets.buff['Sneak Attack'],sets.buff['Trick Attack'],{head="Hecatomb cap",ear1="Bushinomimi",body="Hecatomb harness",feet="Hecatomb leggings +1"})
+	sets.precast.WS.HNM.SATA                 = set_combine(sets.buff['Sneak Attack'],sets.buff['Trick Attack'],{head="Hecatomb cap +1",ear1="Bushinomimi",body="Hecatomb harness",feet="Hecatomb leggings +1"})
 	
 	sets.precast.WS['Shark Bite'].SATA       = set_combine(sets.precast.WS['Shark Bite'],{})
 	sets.precast.WS['Shark Bite'].HNM.SATA   = set_combine(sets.precast.WS['Shark Bite'].HNM,{})

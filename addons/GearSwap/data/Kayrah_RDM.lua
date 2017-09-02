@@ -62,7 +62,7 @@ function init_gear_sets()
 	sets.idle.Combat                                   = set_combine(sets.idle,{main="",sub=""})
 	sets.idle.Town.Combat                              = set_combine(sets.idle.Combat,{ring2="Warp ring",back="Nexus cape"})
 	
-	sets.resting 									   = {main="Chatoyant staff",ammo="Bibiki seashell",neck="Gnole torque",ear2="Magnetic earring",body="Errant houppelande",ring2="Star ring",waist="Duelist's belt",feet="Avocat pigaches"}
+	sets.resting 									   = {main="Chatoyant staff",ammo="Bibiki seashell",neck="Gnole torque",ear1="Relaxing earring",ear2="Magnetic earring",body="Errant houppelande",ring2="Star ring",waist="Duelist's belt",feet="Avocat pigaches"}
 	
 	-- precast magic
 	sets.precast.FC                                    = {head="Warlock's chapeau",ear1="Loquacious earring",body="Duelist's tabard"}
@@ -128,7 +128,11 @@ function job_post_midcast(spell,action,spellMap,eventsArgs)
 		end
 	else
 		if player.status == 'Idle' and state.IdleMode.value == 'Normal' and state.CastingMode.value ~= 'Combat' then
-			equip({main="Chatoyant staff"})
+			if state.CastingMode.value == 'Normal' and spell.skill == 'Enfeebling Magic' then
+				equip({main="Alkalurops"})
+			else
+				equip({main="Chatoyant staff"})
+			end
 			if state.CastingMode.value == 'Acc' and player.status ~= 'Engaged' then
 				equip(sets.grip[spell.element])
 			end
