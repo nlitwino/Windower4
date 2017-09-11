@@ -113,7 +113,7 @@ function init_gear_sets()
 	sets.midcast.RA                           = set_combine(sets.precast.RA,{neck="Hope torque"})
 	sets.midcast.RA.Acc                       = set_combine(sets.midcast.RA.Acc,{ring1="Merman's ring"})
 	
-	-- GK ws (184tp)
+	-- GK ws (186tp)
 	sets.precast.WS                           = {head="Gnadbhod's helm"   ,neck="Fotia gorget"          ,ear1="Bushinomimi"     ,ear2="Brutal earring"
 												,body="Byrnie +1"         ,hands="Alkyoneus's bracelets",ring1="Rajas ring"     ,ring2="Flame ring"
 												,back="Cerberus mantle +1",waist="Warwolf belt"         ,legs="Hachiryu haidate",feet="Hachiman sune-ate"}

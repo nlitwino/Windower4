@@ -118,6 +118,8 @@ function init_gear_sets()
 	
 	sets.midcast.FastRecast 								 = set_combine(sets.precast.FC, {head="Walahra turban",legs="Byakko's haidate"})
 	
+	sets.midcast['Stoneskin']								 = set_combine(sets.MND,sets.midcast['Enhancing Magic'],{head="Walahra turban",waist="Velocious belt"})
+	
 	-- Idle sets
 	sets.idle 												 = {main="Earth staff" ,sub="Bugard leather strap +1",range="Gjallarhorn"
 															   ,head="Hecatomb cap",neck="Chocobo whistle"       ,ear1="Mamool Ja earring",ear2="Star earring"

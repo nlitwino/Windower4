@@ -29,8 +29,8 @@ function initialize_job()
 	daytime = world.time <= (18*60) and world.time >= (6*60)
 	duskdawn = (world.time >= (17*60) and world.time <= (18*60)) and (world.time >= (6*60) and world.time <= (7*60))
 	
-	gear.TRing1 = { name="Toreador's Ring", augments={'"Triple Atk."+2','Dark resistance+12',}}
-	gear.TRing2 = { name="Toreador's Ring", augments={'MND-3','"Triple Atk."+2',}}
+	gear.TRing1 = { name="Toreador's Ring", augments={'Earth resistance-7','"Triple Atk."+2',}}
+	gear.TRing2 = { name="Toreador's Ring", augments={'"Triple Atk."+2','Dark resistance+12',}}
 	
 	gear.main = player.equipment.main
 	gear.sub = player.equipment.sub

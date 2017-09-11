@@ -13,7 +13,7 @@ function job_setup()
 								  false
 		
 		absorbs = S{'Absorb-STR', 'Absorb-DEX', 'Absorb-VIT', 'Absorb-AGI', 'Absorb-INT', 'Absorb-MND', 'Absorb-CHR', 'Absorb-Attri', 'Absorb-ACC'}
-		sleeps = S{'Sleep', 'Sleep II', 'Sleepga', 'Sleepga II'}
+		sleeps = S{'Sleep', 'Sleep II', 'Sleepga', 'Sleepga II', 'Bind'}
 		
 		include('Kay-Include.lua')
 		
@@ -62,7 +62,6 @@ function init_gear_sets()
 	sets.midcast.Absorb                 = set_combine(sets.midcast['Dark Magic'],{hands="Vicious mufflers",legs="Onyx cuisses"})
 	sets.midcast.Sleep				    = set_combine(sets.midcast.FastRecast,sets.INT,{ammo="Sturm's report",head="Crimson mask",neck="Spider torque",body="Chaos cuirass",back="Abyss cape"})
 	                                       
-	sets.midcast['Bind']			    = sets.midcast.Sleep
 	sets.midcast['Stun']			    = set_combine(sets.midcast['Dark Magic'],{head="Homam zucchetto"})
 	                                   
 	-- idle                            
@@ -160,6 +159,7 @@ function init_gear_sets()
 	
 	sets.precast.WS['Resolution']       = set_combine(sets.precast.WS,{hands="Hecatomb mittens +1"})
 	sets.precast.WS['Resolution'].Acc   = set_combine(sets.precast.WS['Resolution'],{ammo="Fire bomblet",ring2=gear.TRing1})
+
 end
 
 function job_post_precast(spell,action,spellMap,eventArgs)

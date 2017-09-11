@@ -49,7 +49,7 @@ function init_gear_sets()
 												         ,Water 	  = {sub="Water Grip"}
 												         ,Wind 	      = {sub="Wind Grip"}
 												         ,Ice 	      = {sub="Ice Grip"}
-												         ,Lightning   = {sub="Lightning Grip"}
+												         ,Lightning   = {sub="Thunder Grip"}
 												         ,Light 	  = {sub="Light Grip"}
 												         ,Dark 	      = {sub="Dark Grip"}}
 	-- idle
@@ -173,9 +173,3 @@ function job_buff_change(name,gain)
 	end
 
 end
-
-
-
-
-
-

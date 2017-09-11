@@ -170,7 +170,7 @@ function init_gear_sets()
 	sets.midcast['Enfeebling Magic']['BlackMagic']          = set_combine(sets.INT,sets.midcast['Enfeebling Magic'],{back="Prism cape"})
 	sets.midcast['Enfeebling Magic']['WhiteMagic']          = set_combine(sets.MND,sets.midcast['Enfeebling Magic'],{back="Prism cape"})
 	
-	sets.midcast['Elemental Magic']            				= set_combine(sets.INT,{head="Oracle's cap",hands="Zenith mitts",back="Prism cape",feet="Numerist pumps"})
+	sets.midcast['Elemental Magic']            				= set_combine(sets.INT,{head="Oracle's cap",body="Oracle's robe",hands="Zenith mitts",back="Prism cape",feet="Numerist pumps"})
 	
 	sets.midcast['Dark Magic'] 								=  set_combine(sets.INT,{ammo="Sturm's report",neck="Dark torque",back="Prism cape"})
 	
@@ -186,7 +186,7 @@ function init_gear_sets()
     sets.midcast.Pet['Elemental Magic'] 					= set_combine(sets.midcast.Pet.MagicalBloodPactRage, {legs="Summoner's Spats"})
 	
     -- Resting sets
-    sets.resting 											= {main="Claustrum",ammo="Bibiki seashell",head="Oracle's cap",neck="Gnole torque",body="Errant houppelande",hands="Oracle's gloves",legs="Oracle's braconi",feet="Avocat pigaches"}
+    sets.resting 											= {main="Claustrum",ammo="Bibiki seashell",head="Oracle's cap",neck="Gnole torque",body="Oracle's robe",hands="Oracle's gloves",legs="Oracle's braconi",feet="Avocat pigaches"}
     
     -- Idle sets
     sets.idle		 										= {ammo="Bibiki seashell"

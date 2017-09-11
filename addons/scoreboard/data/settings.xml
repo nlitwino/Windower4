@@ -66,6 +66,10 @@
     </global>
     <kayrah>
         <display>
+            <pos>
+                <x>2218</x>
+                <y>763</y>
+            </pos>
             <text>
                 <stroke>
                     <alpha>-64770</alpha>

@@ -103,7 +103,7 @@ function init_gear_sets()
 	sets.precast.WS['Dragon Kick']       = set_combine(sets.precast.WS,{})
 	sets.precast.WS['Dragon Kick'].HNM   = set_combine(sets.precast.WS['Dragon Kick'],{})
 	
-	sets.precast.WS['Asuran Fists']      = set_combine(sets.precast.WS,{head="Gnadbhod's helm",ear1="Hollow earring",ear2="Merman's earring",body="Hachiryu haramaki"})
+	sets.precast.WS['Asuran Fists']      = set_combine(sets.precast.WS,{head="Hissho hachimaki",ear1="Hollow earring",ear2="Merman's earring",body="Hachiryu haramaki"})
 	sets.precast.WS['Asuran Fists'].HNM  = set_combine(sets.precast.WS['Asuran Fists'],{})
 	
 	sets.precast.WS['Victory Smite']     = set_combine(sets.precast.WS['Asuran Fists'],{})
@@ -143,7 +143,7 @@ end
 function customize_melee_set(meleeSet)
 
 	if state.Buff['Hundred Fists'] then
-        meleeSet = set_combine(meleeSet,sets.precast.WS,{head="Gnadbhod's helm",neck="Peacock amulet",ear1="Hollow earring",ring1=gear.TRing2,waist="Black belt"})
+        meleeSet = set_combine(meleeSet,sets.precast.WS,{head="Hissho hachimaki",neck="Peacock amulet",ear1="Hollow earring",ring1=gear.TRing2,waist="Black belt"})
 	end
 	if state.Buff['Footwork'] then
 		--meleeSet = set_combine(meleeSet, {feet="Kyoshu kyahan"})

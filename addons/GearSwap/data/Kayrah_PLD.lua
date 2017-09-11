@@ -68,7 +68,7 @@ function init_gear_sets()
 	sets.midcast['Ninjutsu']                = set_combine(sets.enmity,sets.precast.FC,{body="Koenig cuirass",ring1="Antica ring"})
 	                                        
 	-- Idle sets                            
-	sets.idle                               = {ammo="Bibiki seashell",head="",neck="Chocobo whistle",ear1="Ethereal earring",ear2="Merman's earring",body="Vermillion cloak",hands="Heavy gauntlets",ring1="Defending ring",ring2="Shadow ring",back="Shadow mantle",waist="Lycopodium sash",legs="Blood cuisses",feet="Kaiser schuhs"}
+	sets.idle                               = {ammo="Bibiki seashell",head="",neck="Chocobo whistle",ear1="Ethereal earring",ear2="Merman's earring",body="Vermillion cloak",hands="Heavy gauntlets",ring1="Defending ring",ring2="Shadow ring",back="Shadow mantle",waist="Lycopodium sash",legs="Blood cuisses",feet="Gallant leggings +1"}
 	sets.idle.Town                          = set_combine(sets.idle,{ring2="Warp ring",back="Nexus cape"})
 	
 	sets.idle.SuperMDT                      = {ammo="White tathlum"
@@ -94,7 +94,7 @@ function init_gear_sets()
 	sets.engaged.Heavy                      = {ammo="Bibiki seashell"
 	                                          ,head="Koenig schaller",neck="Ritter gorget",ear1="Knight's earring",ear2="Ethereal earring"
 											  ,body="Valhalla breastplate",hands="Koenig handschuhs",ring1="Defending ring",ring2="Sattva ring"
-											  ,back="Shadow mantle",waist="Warwolf belt",legs="Koenig diechlings",feet="Kaiser schuhs"}
+											  ,back="Shadow mantle",waist="Warwolf belt",legs="Koenig diechlings",feet="Gallant leggings +1"}
 	sets.engaged.Wyrms						= set_combine(sets.engaged.Heavy,{body="Crimson scale mail"})
 	
 	-- Weaponskill sets                     

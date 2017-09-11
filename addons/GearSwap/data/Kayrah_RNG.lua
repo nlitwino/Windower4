@@ -27,7 +27,7 @@ function user_setup()
 	-- Setup appropriate modes
 	state.OffenseMode:options('Normal','DW','HNM')
 	state.RangedMode:options('Normal','HybridAcc','Acc','Trash')
-	state.WeaponskillMode:options('Normal','HNM','Test')
+	state.WeaponskillMode:options('Normal','Power','Acc')
 
 end
 
@@ -86,8 +86,8 @@ function init_gear_sets()
 	sets.midcast.RA.Trash                     = set_combine(sets.midcast.RA,{head="Scout's beret"})
 	
 	-- Mekki Shakki
-	sets.midcast.RA.HybridAcc                 = set_combine(sets.midcast.RA,{ear2="Hollow earring",ring1="Merman's ring",ring2="Cerberus ring +1",feet="Hachiryu sune-ate"})
-	sets.midcast.RA.Acc                       = set_combine(sets.midcast.RA.HybridAcc,{hands="Seiryu's kote",back="Mamool Ja mantle",ring2="Merman's ring",ring2="Merman's ring"})
+	sets.midcast.RA.HybridAcc                 = set_combine(sets.midcast.RA,{ear2="Hollow earring",ring1="Dragon ring",feet="Hachiryu sune-ate"})
+	sets.midcast.RA.Acc                       = set_combine(sets.midcast.RA.HybridAcc,{hands="Seiryu's kote",back="Mamool Ja mantle",ring2="Merman's ring"})
 	
 	-- midcast anni
 	sets.midcast.RA.Anni                      = set_combine(sets.midcast.RA,{})
@@ -104,7 +104,7 @@ function init_gear_sets()
 	-- weaponskill
 	sets.precast.WS                           = {head="Maat's cap"      ,neck="Fotia gorget"   ,ear1="Drone earring"   ,ear2="Drone earring"
 												,body="Kirin's osode"   ,hands="Seiryu's kote" ,ring1="Rajas ring"     ,ring2="Blobnag ring"
-												,back="Amemet mantle +1",waist="Scout's's belt",legs="Hachiryu haidate",feet="Hachiryu sune-ate"}
+												,back="Amemet mantle +1",waist="Scout's belt",legs="Hachiryu haidate",feet="Hachiryu sune-ate"}
 	sets.precast.WS.HNM                       = set_combine(sets.precast.WS,{})
 	
 	-- bow specific ws
@@ -112,21 +112,25 @@ function init_gear_sets()
 	sets.precast.WS['Sidewinder'].HNM         = set_combine(sets.precast.WS['Sidewinder'],{ear2="Hollow earring"})
 	
 	sets.precast.WS['Jishnu\'s Radiance']     = set_combine(sets.precast.WS['Sidewinder'],{})
-	sets.precast.WS['Jishnu\'s Radiance'].HNM = set_combine(sets.precast.WS['Sidewinder'].HNM,{})
+	sets.precast.WS['Jishnu\'s Radiance'].HNM = set_combine(sets.precast.WS['Sidewinder'],{})
 	
-	sets.precast.WS['Namas Arrow']            = set_combine(sets.precast.WS,{ear2="Bushinomimi"})
-	sets.precast.WS['Namas Arrow'].HNM        = set_combine(sets.precast.WS.HNM,{waist="Buccaneer's belt"})
+	sets.precast.WS['Namas Arrow']            = set_combine(sets.precast.WS,{ear1="Bushinomimi",ear2="Triumph earring"})
+	sets.precast.WS['Namas Arrow'].Power      = set_combine(sets.precast.WS['Namas Arrow'],{hands="Blood finger gauntlets",ring2="Cerberus ring +1"})
+	sets.precast.WS['Namas Arrow'].Acc        = set_combine(sets.precast.WS['Namas Arrow'],{ear1="Drone earring",ear2="Drone earring",waist="Blobnag ring"})
 	
 	-- gun specific ws
-	sets.precast.WS['Slug Shot']              = set_combine(sets.precast.WS,{ear2="Drone earring"})
-	sets.precast.WS['Slug Shot'].HNM          = set_combine(sets.precast.WS['Slug Shot'],{ear2="Hollow earring"})
+	sets.precast.WS['Slug Shot']              = set_combine(sets.precast.WS,{ear2="Triumph earring"})
+	sets.precast.WS['Slug Shot'].Power        = set_combine(sets.precast.WS['Slug Shot'],{hands="Blood finger gauntlets",ring2="Cerberus ring +1",feet="Scout's socks +1"})
+	sets.precast.WS['Slug Shot'].Acc          = set_combine(sets.precast.WS['Slug Shot'],{ear2="Drone earring",legs="Oily trousers"})
 	
 	sets.precast.WS['Last Stand']             = set_combine(sets.precast.WS['Slug Shot'],{})
-	sets.precast.WS['Last Stand'].HNM         = set_combine(sets.precast.WS['Slug Shot'].HNM,{})
+	sets.precast.WS['Last Stand'].Power       = set_combine(sets.precast.WS['Slug Shot'].Power,{})
+	sets.precast.WS['Last Stand'].Acc         = set_combine(sets.precast.WS['Slug Shot'].Acc,{})
+												
+	sets.precast.WS['Coronach']               = set_combine(sets.precast.WS,{ear2="Triumph earring",feet="Hunter's socks +1"})
+	sets.precast.WS['Coronach'].Power         = set_combine(sets.precast.WS['Coronach'],{hands="Blood finger gauntlets",ring2="Cerberus ring +1",feet="Scout's socks +1"})
+	sets.precast.WS['Coronach'].Acc           = set_combine(sets.precast.WS['Coronach'],{ear2="Hollow earring",feet="Hachiryu sune-ate"})
 	
-	sets.precast.WS['Coronach']               = set_combine(sets.precast.WS,{legs="Oily trousers"})
-	sets.precast.WS['Coronach'].HNM           = set_combine(sets.precast.WS.HNM,{ear2="Hollow earring"})
-	sets.precast.WS['Coronach'].Test          = set_combine(sets.precast.WS,{legs="Byakko's haidate"})
 end
 
 function job_precast(spell,action,spellMap,eventArgs)
@@ -146,9 +150,7 @@ function job_post_precast(spell,action,spellMap,eventsArgs)
 	
 	if spell.type == 'WeaponSkill' and (spell.skill == 'Marksmanship' or spell.skill == 'Archery') then
 		if state.WeaponskillMode.value == 'HNM' then
-			if daytime then
-				equip({ear1="Ladybug earring +1"})
-			else
+			if not daytime then
 				equip({ear1="Fenrir's earring"})
 			end
 		end

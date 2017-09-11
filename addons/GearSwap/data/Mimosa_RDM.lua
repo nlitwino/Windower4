@@ -66,6 +66,7 @@ function init_gear_sets()
 	
 	sets.midcast.FastRecast 								 = set_combine(sets.precast.FC, {})
 	
+	sets.midcast['Stoneskin']								 = set_combine(sets.MND,sets.midcast['Enhancing Magic'],sets.midcast.FastRecast)
 	
 	--Idle Sets
 	sets.idle 												 = {main="Chatoyant staff", sub="Bugard leather strap +1", ammo="Phantom tathlum", head="Duelist's chapeau", neck="Chocobo whistle", ear1="Star earring", ear2="Mamool Ja earring", body="Dalmatica", hands="Duelist's gloves", ring1="Tamas ring", ring2="Ether ring", back="Prism cape", waist="Lycopodium sash", legs="Warlock's tights", feet="Duelist's boots"}

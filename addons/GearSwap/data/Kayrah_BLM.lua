@@ -39,7 +39,7 @@ function init_gear_sets()
 															  ,Water 	 = {sub="Water Grip"}
 															  ,Wind 	 = {sub="Wind Grip"}
 															  ,Ice 		 = {sub="Ice Grip"}
-															  ,Lightning = {sub="Lightning Grip"}
+															  ,Lightning = {sub="Thunder Grip"}
 															  ,Light 	 = {sub="Light Grip"}
 															  ,Dark 	 = {sub="Dark Grip"}}
 	
@@ -51,10 +51,10 @@ function init_gear_sets()
 															  
 	sets.idle.Town 											= set_combine(sets.idle,{back="Nexus cape",ring2="Warp ring"})
 	
-	sets.resting 											= {main="Claustrum"                                                         ,ammo="Bibiki seashell"
-															  ,head="Oracle's cap"      ,neck="Gnole torque"                            ,ear2="Magnetic earring"
-															  ,body="Errant houppelande",hands="Oracle's gloves"                        ,ring2=""
-															                                                    ,legs="Oracle's braconi",feet="Avocat pigaches"}
+	sets.resting 											= {main="Claustrum"                                                    ,ammo="Bibiki seashell"
+															  ,head="Oracle's cap" ,neck="Gnole torque"                            ,ear2="Magnetic earring"
+															  ,body="Oracle's robe",hands="Oracle's gloves"                        ,ring2=""
+															                                               ,legs="Oracle's braconi",feet="Avocat pigaches"}
 	--precast magic
 	sets.precast.FC 										= {ear2="Loquacious earring",feet="Rostrum pumps"}
 	sets.precast.FastRecast 								= {head="Walahra turban"}
@@ -83,8 +83,8 @@ function init_gear_sets()
 	sets.midcast['Enfeebling Magic']['WhiteMagic'].Accuracy = set_combine(sets.MND,sets.midcast['Enfeebling Magic'])
 	sets.midcast['Enfeebling Magic']['WhiteMagic'].Hybrid   = set_combine(sets.MND,{head="Sorcerer's petasos",legs="Avocat pigaches"})
 	
-	sets.midcast['Elemental Magic']            				= set_combine(sets.INT,{ear2="Moldavite earring",body="Igqira weskit",hands="Zenith mitts",feet="Sorcerer's sabots"})
-	sets.midcast['Elemental Magic'].Accuracy 				= set_combine(sets.INT,{head="Sorcerer's petasos",body="Igqira weskit",hands="Wizard's gloves"})
+	sets.midcast['Elemental Magic']            				= set_combine(sets.INT,{ear2="Moldavite earring",body="Oracle's robe",hands="Zenith mitts",feet="Sorcerer's sabots"})
+	sets.midcast['Elemental Magic'].Accuracy 				= set_combine(sets.INT,{head="Sorcerer's petasos",body="Oracle's robe",hands="Wizard's gloves"})
 	sets.midcast['Elemental Magic'].Hybrid 					= set_combine(sets.INT,{back="Hecate's cape",feet="Numerist pumps"})
 	
 	sets.midcast['Dark Magic'] 								= set_combine(sets.INT,{neck="Dark torque",hands="Sorcerer's gloves",legs="Wizard's tonban",feet="Igqira huaraches"})
