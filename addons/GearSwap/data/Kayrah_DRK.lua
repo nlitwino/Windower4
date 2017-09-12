@@ -89,7 +89,7 @@ function init_gear_sets()
 									      ,head="Walahra turban"  ,neck="Chivalrous chain",ear1="Abyssal earring",ear2="Brutal earring"
 									      ,body="Armada hauberk"  ,hands="Dusk gloves +1" ,ring1="Rajas ring"    ,ring2=gear.TRing1
 									      ,back="Cerberus mantle +1",waist="Velocious belt" ,legs="Homam cosciales",feet="Dusk ledelsens +1"}
-	sets.engaged.Apocalypse.Acc         = set_combine(sets.engaged.Apocalypse,{ammo="Fire bomblet",neck="Peacock amulet",hands="Homam manopolas",back="Cuchulain's mantle",feet="Homam gambieras"})
+	sets.engaged.Apocalypse.Acc         = set_combine(sets.engaged.Apocalypse,{ammo="Fire bomblet",neck="Ancient torque",hands="Homam manopolas",back="Cuchulain's mantle",feet="Homam gambieras"})
 	sets.engaged.Apocalypse.Tank		= set_combine(sets.engaged.Apocalypse,{ammo="Bibiki seashell",back="Shadow mantle",ring2="Defending ring"})
 	
 	sets.engaged.Apocalypse.AM          = set_combine(sets.engaged.Apocalypse,{waist="Warwolf belt"})
@@ -112,7 +112,7 @@ function init_gear_sets()
 										  ,head="Walahra turban"  ,neck="Chivalrous chain",ear1="Fowling earring",ear2="Brutal earring"
 										  ,body="Armada hauberk"  ,hands="Dusk gloves +1" ,ring1="Rajas ring"    ,ring2=gear.TRing1
 										  ,back="Cerberus mantle +1",waist="Velocious belt" ,legs="Homam cosciales",feet="Dusk ledelsens +1"}
-	sets.engaged.Ragnarok.Acc			= set_combine(sets.engaged.Ragnarok,{neck="Peacock amulet",hands="Homam manopolas",back="Cuchulain's mantle",feet="Homam gambieras"})
+	sets.engaged.Ragnarok.Acc			= set_combine(sets.engaged.Ragnarok,{neck="Ancient torque",hands="Homam manopolas",back="Cuchulain's mantle",feet="Homam gambieras"})
 	
 	-- ragnarok engaged (SAM)                
 	sets.engaged.Ragnarok.SAM           = {ammo="White tathlum"

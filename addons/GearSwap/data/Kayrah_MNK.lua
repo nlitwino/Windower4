@@ -82,7 +82,7 @@ function init_gear_sets()
 				                           ,body="Hachiryu haramaki" ,hands="Bandomusha kote",ring1=gear.TRing2      ,ring2=gear.TRing1
 				                           ,back="Cerberus mantle +1",waist="Black belt"     ,legs="Byakko's haidate",feet="Sarutobi kyahan"}
 	sets.engaged.HybridAcc               = set_combine(sets.engaged,{back="Cuchulain's mantle"})
-	sets.engaged.Acc                     = set_combine(sets.engaged.HybridAcc,{head="Enkidu's cap",ear1="Hollow earring",neck="Peacock amulet",hands="Hachiryu kote",feet="Enkidu's leggings"})
+	sets.engaged.Acc                     = set_combine(sets.engaged.HybridAcc,{head="Enkidu's cap",ear1="Hollow earring",neck="Ancient torque",hands="Hachiryu kote",feet="Enkidu's leggings"})
 	sets.engaged.OffTank                 = set_combine(sets.engaged,{ammo="Bibiki seashell",ear1="Cassie earring",hands="Melee gloves",ring1="Defending ring",back="Boxer's mantle"})
 	sets.engaged.Tank                    = set_combine(sets.engaged.OffTank,{head="Gnole crown",neck="Fortified chain",legs="Temple hose"})
 	

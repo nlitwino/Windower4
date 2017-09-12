@@ -81,7 +81,7 @@ function init_gear_sets()
 	                                             ,head="Walahra turban"    ,neck="Chivalrous chain",ear1="Suppanomimi"  ,ear2="Brutal earring"
 												 ,body="Rapparee harness"  ,hands="Dusk gloves +1" ,ring1=gear.TRing2   ,ring2=gear.TRing1
 												 ,back="Cerberus mantle +1",waist="Velocious belt" ,legs="Etoile tights",feet="Dusk ledelsens +1"}
-	sets.engaged.HybridAcc                     = set_combine(sets.engaged,{neck="Peacock amulet",back="Etoile cape"})
+	sets.engaged.HybridAcc                     = set_combine(sets.engaged,{neck="Ancient torque",back="Etoile cape"})
 	sets.engaged.HNM                           = set_combine(sets.engaged.HybridAcc,{})
 	sets.engaged.Tank                          = set_combine(sets.engaged,{})
 	

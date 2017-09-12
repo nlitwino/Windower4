@@ -64,11 +64,11 @@ function init_gear_sets()
 								          	  ,head="Walahra turban"    ,neck="Chivalrous chain",ear1="Bushinomimi"     ,ear2="Brutal earring"
 								          	  ,body="Armada hauberk"    ,hands="Dusk gloves +1" ,ring1=gear.TRing2      ,ring2=gear.TRing1
 								           	  ,back="Cerberus mantle +1",waist="Velocious belt" ,legs="Byakko's haidate",feet="Dusk ledelsens +1"}
-	sets.engaged.Acc                        = set_combine(sets.engaged,{ammo="Fire bomblet",neck="Peacock amulet",ear1="Fowling earring",back="Cuchulain's mantle",feet="Aurum sabatons"})
+	sets.engaged.Acc                        = set_combine(sets.engaged,{ammo="Fire bomblet",neck="Ancient torque",ear1="Fowling earring",back="Cuchulain's mantle",feet="Aurum sabatons"})
 	
 	-- bravura engaged (normal) [[Rose strap]]  
 	sets.engaged.Bravura                    = set_combine(sets.engaged,{body="Aurum cuirass",ring1="Rajas ring"})
-	sets.engaged.Bravura.Acc                = set_combine(sets.engaged.Bravura,{ammo="Fire bomblet",neck="Peacock amulet",ear1="Fowling earring",back="Cuchulain's mantle",feet="Aurum sabatons"})
+	sets.engaged.Bravura.Acc                = set_combine(sets.engaged.Bravura,{ammo="Fire bomblet",neck="Ancient torque",ear1="Fowling earring",back="Cuchulain's mantle",feet="Aurum sabatons"})
 								  
 	-- bravura engaged (SAM) [[Pole grip]]     
 	sets.engaged.Bravura.SAM                = set_combine(sets.engaged,{})
@@ -79,7 +79,7 @@ function init_gear_sets()
 									          ,head="Walahra turban"   ,neck="Chivalrous chain",ear1="Fowling earring" ,ear2="Brutal earring"
 									          ,body="Hachiryu haramaki",hands="Dusk gloves +1" ,ring1="Rajas ring"     ,ring2=gear.TRing1
 									          ,back="Bushido cape"     ,waist="Velocious belt" ,legs="Byakko's haidate",feet="Dusk ledelsens +1"}
-	sets.engaged.Ragnarok.Acc               = set_combine(sets.engaged.Ragnarok,{ammo="Fire bomblet",neck="Peacock amulet",hands="Hachiryu kote",back="Cuchulain's mantle"})
+	sets.engaged.Ragnarok.Acc               = set_combine(sets.engaged.Ragnarok,{ammo="Fire bomblet",neck="Ancient torque",hands="Hachiryu kote",back="Cuchulain's mantle"})
 	
 	-- ragnarok engaged (SAM)
 	sets.engaged.Ragnarok.SAM               = {ammo="White tathlum"
@@ -97,7 +97,7 @@ function init_gear_sets()
 					                          ,head="Hecatomb cap +1"      ,neck="Fotia gorget"                                  ,ear2="Brutal earring"
 					                          ,body="Armada hauberk"    ,hands="Alkyoneus's bracelets",ring1="Rajas ring"     ,ring2="Flame ring"
 					                          ,back="Cerberus mantle +1",waist="Warwolf belt"         ,legs="Hachiryu haidate",feet="Hecatomb leggings +1"}
-	sets.precast.WS.Acc                     = set_combine(sets.precast.WS,{ammo="Fire bomblet",neck="Chivalrous chain",ear1="Fowling earring",back="Cuchulain's mantle",waist="Warrior's stone"})
+	sets.precast.WS.Acc                     = set_combine(sets.precast.WS,{ammo="Fire bomblet",ear1="Fowling earring",back="Cuchulain's mantle",waist="Warrior's stone"})
 	
 	----Sword
 	sets.precast.WS['Vorpal Blade']         = set_combine(sets.precast.WS,{body="Zahak's mail",hands="Hecatomb mittens +1",back="Cuchulain's mantle"})

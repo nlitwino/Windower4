@@ -97,8 +97,8 @@ function init_gear_sets()
 												 ,head="Walahra turban"    ,neck="Hope torque"    ,ear1="Suppanomimi"     ,ear2="Brutal earring"
 												 ,body="Ninja chainmail +1",hands="Dusk gloves +1",ring1=gear.TRing2      ,ring2=gear.TRing1
 												 ,back="Cerberus mantle +1",waist="Velocious belt",legs="Byakko's haidate",feet="Dusk ledelsens +1"}
-	sets.engaged.HybridAcc                     = set_combine(sets.engaged,{neck="Peacock amulet",back="Cuchulain's mantle"})											
-	sets.engaged.Acc                           = set_combine(sets.engaged,{ammo="Fire bomblet",neck="Peacock amulet",body="Hachiryu haramaki",back="Cuchulain's mantle"})
+	sets.engaged.HybridAcc                     = set_combine(sets.engaged,{neck="Ancient torque",back="Cuchulain's mantle"})											
+	sets.engaged.Acc                           = set_combine(sets.engaged,{ammo="Fire bomblet",body="Hachiryu haramaki",back="Cuchulain's mantle"})
 	sets.engaged.Tank                          = set_combine(sets.engaged.Acc,{back="Boxer's mantle",})
 	                                           
 	sets.engaged.Night                         = set_combine(sets.engaged,{hands="Koga tekko"})
