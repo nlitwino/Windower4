@@ -36,8 +36,8 @@ function init_gear_sets()
 	-- misc.
 	
 	-- buff
-	sets.buff['Camouflage']                   = {body="Hunter's jerkin"}
-	sets.buff['Barrage']					  = {hands="Hunter's bracers +1"}
+	sets.Buff['Camouflage']                   = {body="Hunter's jerkin"}
+	sets.Buff['Barrage']					  = {hands="Hunter's bracers +1"}
 	
 	-- precast ja
 	sets.precast.JA['Camoflage']              = {body="Hunter's jerkin"}
@@ -182,7 +182,7 @@ function job_post_midcast(spell,action,spellMap,eventsArgs)
 
 	if spell.action_type == 'Ranged Attack' then
 		if state.Buff['Barrage'] then
-			equip(sets.buff['Barrage'])
+			equip(sets.Buff['Barrage'])
 		end
 		if daytime then
 			equip({ear1="Ladybug earring +1"})
@@ -202,7 +202,7 @@ function job_buff_change(buff,gain)
 	
 	if buff == "Camouflage" then
 		if gain then
-			equip(sets.buff['Camouflage'])
+			equip(sets.Buff['Camouflage'])
 			disable('body')
 		else
 			enable('body')

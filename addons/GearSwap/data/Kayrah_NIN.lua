@@ -237,7 +237,6 @@ end
 
 function customize_melee_set(meleeSet)
 
-	add_to_chat(tostring(player.hpp))
 	if player.hpp < 75 then
         meleeSet = set_combine(meleeSet,{ring1="Shinobi ring",legs="Koga hakama"})
     end

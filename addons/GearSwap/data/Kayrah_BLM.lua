@@ -52,7 +52,7 @@ function init_gear_sets()
 	sets.idle.Town 											= set_combine(sets.idle,{back="Nexus cape",ring2="Warp ring"})
 	
 	sets.resting 											= {main="Claustrum"                                                    ,ammo="Bibiki seashell"
-															  ,head="Oracle's cap" ,neck="Gnole torque"                            ,ear2="Magnetic earring"
+															  ,head="Oracle's cap" ,neck="Gnole torque"    ,ear1="Relaxing earring",ear2="Magnetic earring"
 															  ,body="Oracle's robe",hands="Oracle's gloves"                        ,ring2=""
 															                                               ,legs="Oracle's braconi",feet="Avocat pigaches"}
 	--precast magic
