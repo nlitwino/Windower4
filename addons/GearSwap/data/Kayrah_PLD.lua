@@ -9,10 +9,9 @@ function job_setup()
 
 	include('Kay-Include.lua')
 	
-	state.Buff['Utsusemi'] = (buffactive['Copy Image (3)'] or
-							 buffactive['Copy Image (2)'] or
-							 buffactive['Copy Image']) or
-							 false
+	state.Buff['Copy Image (3)'] = buffactive['Copy Image (3)'] or false
+    state.Buff['Copy Image (2)'] = buffactive['Copy Image (2)'] or false
+    state.Buff['Copy Image (1)'] = buffactive['Copy Image'] or false
 	
 	initialize_job()
 
@@ -119,20 +118,18 @@ function job_buff_change(name,gain)
 	sleep_swap(name,gain)
 	
 	if name:contains('Copy Image') then
-		if gain then 
-			add_to_chat('gained '..name)
-		else
-			add_to_chat('lost '..name)
-		end
-		add_to_chat(tostring(state.Buff['Utsusemi']))
+		state.Buff[name] = gain
+		handle_equipping_gear(player.status)
 	end
-
+	
 end
 
 function customize_melee_set(meleeSet)
 
 	if state.OffenseMode.value ~= 'Normal' then
-	
+		if state.Buff['Copy Image (3)'] or state.Buff['Copy Image (2)'] or state.Buff['Copy Image'] then
+			meleeSet = sets.engaged.Acc
+		end
 	end
 	
 	return meleeSet
