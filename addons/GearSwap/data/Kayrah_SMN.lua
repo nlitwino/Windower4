@@ -192,15 +192,15 @@ function init_gear_sets()
     sets.idle		 										= {ammo="Bibiki seashell"
 															  ,head="Elite beret"    ,neck="Chocobo whistle"  ,ear1="Ethereal earring",ear2="Merman's earring"
 															  ,body="Dalmatica"      ,hands="Evoker's bracers",ring1="Defending ring" ,ring2="Shadow ring"
-															  ,back="Shadow mantle"  ,waist="Lycopodium sash" ,legs="Evoker's spats"  ,feet="Summoner's pigaches"}
-    sets.idle.Avatar 										= set_combine(sets.idle,{body="Yinyang robe",ring2="Evoker's ring"})
-    sets.idle.Spirit 										= set_combine(sets.idle,{body="Yinyang robe",ring2="Evoker's ring"})
+															  ,back="Shadow mantle"  ,waist="Lycopodium sash" ,legs="Evoker's spats"  ,feet="Herald's gaiters"}
+    sets.idle.Avatar 										= set_combine(sets.idle,{body="Yinyang robe",ring2="Evoker's ring",feet="Evoker's pigaches +1"})
+    sets.idle.Spirit 										= set_combine(sets.idle,{body="Yinyang robe",ring2="Evoker's ring",feet="Evoker's pigaches +1"})
     sets.idle.Town 	 										= set_combine(sets.idle,{back="Nexus cape",ring2="Warp ring"})
 
     -- Favor uses Caller's Horn instead of Convoker's Horn for refresh
     sets.idle.Avatar.Melee                                  = set_combine(sets.idle.Avatar,{})
                                                             
-    sets.perp 				                                = {body="Yinyang robe",ring2="Evoker's ring"}
+    sets.perp 				                                = {body="Yinyang robe",ring2="Evoker's ring",feet="Evoker's pigaches +1"}
     sets.perp.Day 			                                = {body="Summoner's doublet"}
     sets.perp.Weather 		                                = {head="Summoner's horn"}
     sets.perp.Carbuncle 	                                = {hands="Carbuncle mitts"}

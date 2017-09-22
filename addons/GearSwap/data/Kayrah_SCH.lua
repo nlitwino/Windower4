@@ -44,18 +44,18 @@ end
 function init_gear_sets()
 
 	-- misc
-	sets.sublimation = {main="Elder staff"          ,sub="Axe grip"                                 ,ammo="White tathlum"
-					   ,head="Scholar's mortarboard",neck="Chocobo whistle",ear1="Bloodbead earring",ear2="Cassie earring"
-					   ,body="Argute gown"          ,hands="Garden bangles",ring1="Bomb queen ring" ,ring2="Bloodbead ring"
-					   ,back="Gigant mantle"        ,waist="Ocean sash"    ,legs="Argute pants"}
-	sets.INT = {main="Alkalurops"        ,sub="Bugard leather strap +1"                       ,ammo="Phantom tathlum"
-			   ,head="Maat's cap"        ,neck="Lemegeton medallion +1",ear1="Abyssal earring",ear2="Morion earring +1"
-			   ,body="Errant houppelande",hands="Errant cuffs"         ,ring1="Tamas ring"    ,ring2="Snow ring"
-			   ,back="Prism cape"        ,waist="Argute belt"          ,legs="Mahatma slops"  ,feet="Rostrum pumps"}
-	sets.MND = {main="Alkalurops"        ,sub="Bugard leather strap +1"
-	           ,head="Maat's cap"        ,neck="Gnole torque"          ,ear1="Mamool Ja earring",ear2="Star earring"
-			   ,body="Errant houppelande",hands="Scholar's bracers +1" ,ring1="Tamas ring"      ,ring2="Star ring"
-			   ,back="Prism cape"        ,waist="Argute belt"          ,legs="Mahatma slops"    ,feet="Mahatma pigaches"}
+	sets.sublimation                                   = {main="Elder staff"             ,sub="Axe grip"                                 ,ammo="White tathlum"
+					                                     ,head="Scholar's mortarboard +1",neck="Chocobo whistle",ear1="Bloodbead earring",ear2="Cassie earring"
+					                                     ,body="Argute gown"             ,hands="Garden bangles",ring1="Bomb queen ring" ,ring2="Bloodbead ring"
+					                                     ,back="Gigant mantle"           ,waist="Ocean sash"    ,legs="Argute pants"}
+	sets.INT                                           = {main="Alkalurops"        ,sub="Bugard leather strap +1"                       ,ammo="Phantom tathlum"
+			                                             ,head="Maat's cap"        ,neck="Lemegeton medallion +1",ear1="Abyssal earring",ear2="Morion earring +1"
+			                                             ,body="Errant houppelande",hands="Errant cuffs"         ,ring1="Tamas ring"    ,ring2="Snow ring"
+			                                             ,back="Prism cape"        ,waist="Argute belt"          ,legs="Mahatma slops"  ,feet="Scholar's loafers +1"}
+	sets.MND                                           = {main="Alkalurops"        ,sub="Bugard leather strap +1"
+	                                                     ,head="Maat's cap"        ,neck="Gnole torque"          ,ear1="Mamool Ja earring",ear2="Star earring"
+			                                             ,body="Errant houppelande",hands="Scholar's bracers +1" ,ring1="Tamas ring"      ,ring2="Star ring"
+			                                             ,back="Prism cape"        ,waist="Argute belt"          ,legs="Mahatma slops"    ,feet="Mahatma pigaches"}
 	
 	sets.grips 										   = {Fire 	    = {sub="Fire Grip"}
 				                                         ,Earth 	= {sub="Earth Grip"}
@@ -107,7 +107,7 @@ end
 function job_post_precast(spell,action,spellMap,eventArgs)
 
 	if (spell.type == 'BlackMagic' and state.Buff['Dark Arts']) or (spell.type == 'WhiteMagic' and state.Buff['Light Arts']) then
-		equip({head="Argute mortarboard",feet="Scholar's loafers"})
+		equip({head="Argute mortarboard",feet="Scholar's loafers +1"})
 	end
 	
 	if spell.element == world.weather_element and (state.Buff['Celerity'] or state.Buff['Alacrity']) then
@@ -178,12 +178,12 @@ function job_post_midcast(spell,action,spellMap,eventArgs)
 		equip({main="Elder staff",body="Scholar's gown"})
 	elseif state.Buff['Light Arts'] and light_arts_skill:contains(spell.skill) then
 		if spell.skill == 'Enhancing Magic' then
-			equip({legs="Scholar's pants"})
+			equip({legs="Scholar's pants +1"})
 			if spell.name == 'Phalanx' then
 				equip({main="Elder staff"})
 			end
 		else
-			equip({main="Elder staff",legs="Scholar's pants"})
+			equip({main="Elder staff",legs="Scholar's pants +1"})
 		end
 	end
 	
@@ -192,6 +192,10 @@ function job_post_midcast(spell,action,spellMap,eventArgs)
 		if player.status ~= 'Engaged' then
 			equip(sets.grip[spell.element])
 		end
+	end
+	
+	if state.CastingMode.value == 'TH' then
+		equip({main="Lotus katana"})
 	end
 
 end

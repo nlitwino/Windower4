@@ -9,9 +9,10 @@ function job_setup()
 
 	include('Kay-Include.lua')
 	
-	state.Buff['Copy Image (3)'] = buffactive['Copy Image (3)'] or false
-    state.Buff['Copy Image (2)'] = buffactive['Copy Image (2)'] or false
-    state.Buff['Copy Image (1)'] = buffactive['Copy Image'] or false
+	state.Buff['Utsusemi'] = buffactive['Copy Image (3)'] or
+							 buffactive['Copy Image (2)'] or
+							 buffactive['Copy Image (1)'] or
+							 false
 	
 	initialize_job()
 
@@ -67,7 +68,7 @@ function init_gear_sets()
 	sets.midcast['Enhancing Magic']     = set_combine(sets.enmity,sets.precast.FastRecast,{legs="Gallant breeches"})
 	sets.midcast['Divine Magic']        = set_combine(sets.enmity,sets.precast.FastRecast,{body="Gallant surcoat"})
 	                                    
-	sets.midcast['Utsusemi: Ni']        = set_combine(sets.enmity,sets.midcast.FastRecast,{neck="Fortified chain",ear1="Knight's earring",ear2="Knightly earring",ring2="Antica ring",back="Boxer's mantle"})
+	sets.midcast['Utsusemi: Ni']        = set_combine(sets.enmity,sets.midcast.FastRecast,{neck="Fortified torque",ear1="Knight's earring",ear2="Knightly earring",ring2="Antica ring",back="Boxer's mantle"})
 	sets.midcast['Utsusemi: Ichi']      = set_combine(sets.enmity,sets.midcast.FastRecast,{head="Koenig schaller",ear2="Knightly earring",ring2="Antica ring",waist="Resolute belt",back="Boxer's mantle",feet="Gallant leggings +1"})
 	                                    
 	sets.midcast['Flash']			    = set_combine(sets.enmity,sets.precast.FC,{ear2="Knight's earring",head="Homam zucchetto",hands="Homam manopolas",waist="Velocious belt",legs="Homam cosciales",feet="Homam gambieras"})
@@ -79,9 +80,9 @@ function init_gear_sets()
 	
 	-- idle
 	sets.idle                           = {ammo="Bibiki seashell"
-				                          ,head="Crimson mask"        ,neck="Chocobo whistle" ,ear1="Ethereal earring",ear2="Merman's earring"
-				                          ,body="Valhalla breastplate",hands="Heavy gauntlets",ring1="Defending ring" ,ring2="Shadow ring"
-				                          ,back="Shadow mantle"       ,waist="Lycopodium sash",legs="Blood cuisses"   ,feet="Kaiser schuhs"}
+				                          ,head="Crimson mask",neck="Chocobo whistle",ear1="Ethereal earring",ear2="Merman's earring"
+				                          ,body="Valhalla breastplate",hands="Heavy gauntlets",ring1="Defending ring",ring2="Shadow ring"
+				                          ,back="Shadow mantle",waist="Lycopodium sash",legs="Blood cuisses",feet="Kaiser schuhs"}
 	sets.idle.Town                      = set_combine(sets.idle,{ring2="Warp ring",back="Nexus cape"})
 	                                    
 	sets.idle.SuperPDT                  = set_combine(sets.idle,sets.defense.PDT)
@@ -94,7 +95,7 @@ function init_gear_sets()
 				                          ,body="Homam corazza"     ,hands="Dusk gloves +1",ring1=gear.TRing2,ring2=gear.TRing1
 				                          ,back="Cerberus mantle +1",waist="Velocious belt",legs="Homam cosciales",feet="Homam gambieras"}
 	sets.engaged.Acc                    = set_combine(sets.engaged,{head="Homam zucchetto",neck="Ancient torque",ear1="Ethereal earring",hands="Homam manopolas"})
-	sets.engaged.Heavy                  = {head="Koenig schaller"     ,neck="Foritified chain" ,ear1="Ethereal earring",ear2="Knight's earring"
+	sets.engaged.Heavy                  = {head="Koenig schaller"     ,neck="Foritified torque" ,ear1="Ethereal earring",ear2="Knight's earring"
 	                                      ,body="Valhalla breastplate",hands="Koenig handschuhs",ring1="Defending ring" ,ring2="Jelly ring"
 						                  ,back="Boxer's mantle",waist="Warwolf belt",legs="Koenig diechlings",feet="Gallant leggings +1"}
 	sets.engaged.Wyrms                  = set_combine(sets.engaged.Heavy,{body="Crimson scale mail"})
@@ -114,32 +115,17 @@ function init_gear_sets()
 end
 
 function job_buff_change(name,gain)
-	
-	sleep_swap(name,gain)
-	
-	if name:contains('Copy Image') then
-		state.Buff[name] = gain
-		handle_equipping_gear(player.status)
-	end
-	
-end
 
-function customize_melee_set(meleeSet)
-
-	if state.OffenseMode.value ~= 'Normal' then
-		if state.Buff['Copy Image (3)'] or state.Buff['Copy Image (2)'] or state.Buff['Copy Image'] then
-			meleeSet = set_combine(sets.engaged.Acc,{body="Avalon breastplate",ring1="Defending ring"})
-		end
+	if name:contains("Copy Image") then
+		add_to_chat("asdf")
 	end
-	
-	return meleeSet
-	
+
 end
 
 function job_post_midcast(spell,action,spellMap,eventArgs)
 
 	if spellMap == 'Cure' and spell.target.type == 'SELF' then
-        equip(sets.midcast['Healing Magic'].self)
+        equip(sets.midcast.CureSelf)
     end
 	
 	if spell.skill == 'Healing Magic' or spell.skill == 'Divine magic' then 
@@ -151,24 +137,20 @@ function job_post_midcast(spell,action,spellMap,eventArgs)
 end
 
 function job_status_change(new,old)
+
+	if new == "Idle" then
+		if (player.hp/player.max_hp) > 0.85 then
+			equip({neck="Parade gorget"})
+			disable("neck")
+		elseif (player.hp/player.max_hp) < 0.50 then
+			equip({ring2="Hercules' ring"})
+			disable("neck")
+		end
+	else
+		enable("neck")
+	end
 	
 	gear.main = player.equipment.main
 	gear.sub = player.equipment.sub
-	
-end
-
-function customize_idle_set(idleSet)
-
-	if state.IdleMode.value ~= 'Normal' then
-		if player.hpp < 75 then
-			idleSet = set_combine(idleSet,{neck="Orochi nodowa"})
-			if player.hpp < 50 then
-				idleSet = set_combine(idleSet,{ring2="Hercules' ring"})
-			end
-		elseif (player.hpp >= 85 and player.mpp < 50) then
-			idleSet = set_combine(idleSet,{neck="Parade gorget"})
-		end
-	end
-	return idleSet
 	
 end

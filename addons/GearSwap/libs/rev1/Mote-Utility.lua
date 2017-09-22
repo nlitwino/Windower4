@@ -41,12 +41,12 @@ function cancel_conflicting_buffs(spell, action, spellMap, eventArgs)
 			send_command('@wait 1.7;cancel sneak')
 		elseif spell.english == 'Utsusemi: Ichi' then
 			send_command('@wait 1.7;cancel copy image*')
-		elseif (spell.english == 'Trance' or spell.type=='Waltz') and buffactive['saber dance'] then
-			cast_delay(0.2)
-			send_command('cancel saber dance')
-		elseif spell.type=='Samba' and buffactive['fan dance'] then
-			cast_delay(0.2)
-			send_command('cancel fan dance')
+		-- elseif (spell.english == 'Trance' or spell.type=='Waltz') and buffactive['saber dance'] then
+			-- cast_delay(0.2)
+			-- send_command('cancel saber dance')
+		-- elseif spell.type=='Samba' and buffactive['fan dance'] then
+			-- cast_delay(0.2)
+			-- send_command('cancel fan dance')
 		end
 	end
 end
@@ -150,126 +150,126 @@ local waltz_tp_cost = {['Curing Waltz'] = 200, ['Curing Waltz II'] = 350, ['Curi
 
 -- Utility function for automatically adjusting the waltz spell being used to match HP needs and TP limits.
 -- Handle spell changes before attempting any precast stuff.
-function refine_waltz(spell, action, spellMap, eventArgs)
-	if spell.type ~= 'Waltz' then
-		return
-	end
+-- function refine_waltz(spell, action, spellMap, eventArgs)
+	-- if spell.type ~= 'Waltz' then
+		-- return
+	-- end
 	
-	-- Don't modify anything for Healing Waltz or Divine Waltzes
-	if spell.english == "Healing Waltz" or spell.english == "Divine Waltz" or spell.english == "Divine Waltz II" then
-		return
-	end
+	-- -- Don't modify anything for Healing Waltz or Divine Waltzes
+	-- if spell.english == "Healing Waltz" or spell.english == "Divine Waltz" or spell.english == "Divine Waltz II" then
+		-- return
+	-- end
 
-	local newWaltz = spell.english
-	local waltzID
+	-- local newWaltz = spell.english
+	-- local waltzID
 	
-	local missingHP
+	-- local missingHP
 	
-	-- If curing ourself, get our exact missing HP
-	if spell.target.type == "SELF" then
-		missingHP = player.max_hp - player.hp
-	-- If curing someone in our alliance, we can estimate their missing HP
-	elseif spell.target.isallymember then
-		local target = find_player_in_alliance(spell.target.name)
-		local est_max_hp = target.hp / (target.hpp/100)
-		missingHP = math.floor(est_max_hp - target.hp)
-	end
+	-- -- If curing ourself, get our exact missing HP
+	-- if spell.target.type == "SELF" then
+		-- missingHP = player.max_hp - player.hp
+	-- -- If curing someone in our alliance, we can estimate their missing HP
+	-- elseif spell.target.isallymember then
+		-- local target = find_player_in_alliance(spell.target.name)
+		-- local est_max_hp = target.hp / (target.hpp/100)
+		-- missingHP = math.floor(est_max_hp - target.hp)
+	-- end
 	
-	-- If we have an estimated missing HP value, we can adjust the preferred tier used.
-	if missingHP ~= nil then
-		if player.main_job == 'DNC' then
-			if missingHP < 40 and spell.target.name == player.name then
-				-- Not worth curing yourself for so little.
-				-- Don't block when curing others to allow for waking them up.
-				add_to_chat(122,'Full HP!')
-				eventArgs.cancel = true
-				return
-			elseif missingHP < 200 then
-				newWaltz = 'Curing Waltz'
-				waltzID = 190
-			elseif missingHP < 600 then
-				newWaltz = 'Curing Waltz II'
-				waltzID = 191
-			elseif missingHP < 1100 then
-				newWaltz = 'Curing Waltz III'
-				waltzID = 192
-			elseif missingHP < 1500 then
-				newWaltz = 'Curing Waltz IV'
-				waltzID = 193
-			else
-				newWaltz = 'Curing Waltz V'
-				waltzID = 311
-			end
-		elseif player.sub_job == 'DNC' then
-			if missingHP < 40 and spell.target.name == player.name then
-				-- Not worth curing yourself for so little.
-				-- Don't block when curing others to allow for waking them up.
-				add_to_chat(122,'Full HP!')
-				eventArgs.cancel = true
-				return
-			elseif missingHP < 150 then
-				newWaltz = 'Curing Waltz'
-				waltzID = 190
-			elseif missingHP < 300 then
-				newWaltz = 'Curing Waltz II'
-				waltzID = 191
-			else
-				newWaltz = 'Curing Waltz III'
-				waltzID = 192
-			end
-		else
-			-- Not dnc main or sub; bail out
-			return
-		end
-	end
+	-- -- If we have an estimated missing HP value, we can adjust the preferred tier used.
+	-- if missingHP ~= nil then
+		-- if player.main_job == 'DNC' then
+			-- if missingHP < 40 and spell.target.name == player.name then
+				-- -- Not worth curing yourself for so little.
+				-- -- Don't block when curing others to allow for waking them up.
+				-- add_to_chat(122,'Full HP!')
+				-- eventArgs.cancel = true
+				-- return
+			-- elseif missingHP < 200 then
+				-- newWaltz = 'Curing Waltz'
+				-- waltzID = 190
+			-- elseif missingHP < 600 then
+				-- newWaltz = 'Curing Waltz II'
+				-- waltzID = 191
+			-- elseif missingHP < 1100 then
+				-- newWaltz = 'Curing Waltz III'
+				-- waltzID = 192
+			-- elseif missingHP < 1500 then
+				-- newWaltz = 'Curing Waltz IV'
+				-- waltzID = 193
+			-- else
+				-- newWaltz = 'Curing Waltz V'
+				-- waltzID = 311
+			-- end
+		-- elseif player.sub_job == 'DNC' then
+			-- if missingHP < 40 and spell.target.name == player.name then
+				-- -- Not worth curing yourself for so little.
+				-- -- Don't block when curing others to allow for waking them up.
+				-- add_to_chat(122,'Full HP!')
+				-- eventArgs.cancel = true
+				-- return
+			-- elseif missingHP < 150 then
+				-- newWaltz = 'Curing Waltz'
+				-- waltzID = 190
+			-- elseif missingHP < 300 then
+				-- newWaltz = 'Curing Waltz II'
+				-- waltzID = 191
+			-- else
+				-- newWaltz = 'Curing Waltz III'
+				-- waltzID = 192
+			-- end
+		-- else
+			-- -- Not dnc main or sub; bail out
+			-- return
+		-- end
+	-- end
 
-	local tpCost = waltz_tp_cost[newWaltz]
+	-- local tpCost = waltz_tp_cost[newWaltz]
 
-	local downgrade
+	-- local downgrade
 	
-	-- Downgrade the spell to what we can afford
-	if player.tp < tpCost and not buffactive.trance then
-		--[[ Costs:
-			Curing Waltz:     200 TP
-			Curing Waltz II:  350 TP
-			Curing Waltz III: 500 TP
-			Curing Waltz IV:  650 TP
-			Curing Waltz V:   800 TP
-			Divine Waltz:     400 TP
-			Divine Waltz II:  800 TP
-		--]]
+	-- -- Downgrade the spell to what we can afford
+	-- if player.tp < tpCost and not buffactive.trance then
+		-- --[[ Costs:
+			-- Curing Waltz:     200 TP
+			-- Curing Waltz II:  350 TP
+			-- Curing Waltz III: 500 TP
+			-- Curing Waltz IV:  650 TP
+			-- Curing Waltz V:   800 TP
+			-- Divine Waltz:     400 TP
+			-- Divine Waltz II:  800 TP
+		-- --]]
 		
-		if player.tp < 200 then
-			add_to_chat(122, 'Insufficient TP ['..tostring(player.tp)..']. Cancelling.')
-			eventArgs.cancel = true
-			return
-		elseif player.tp < 350 then
-			newWaltz = 'Curing Waltz'
-		elseif player.tp < 500 then
-			newWaltz = 'Curing Waltz II'
-		elseif player.tp < 650 then
-			newWaltz = 'Curing Waltz III'
-		elseif player.tp < 800 then
-			newWaltz = 'Curing Waltz IV'
-		end
+		-- if player.tp < 200 then
+			-- add_to_chat(122, 'Insufficient TP ['..tostring(player.tp)..']. Cancelling.')
+			-- eventArgs.cancel = true
+			-- return
+		-- elseif player.tp < 350 then
+			-- newWaltz = 'Curing Waltz'
+		-- elseif player.tp < 500 then
+			-- newWaltz = 'Curing Waltz II'
+		-- elseif player.tp < 650 then
+			-- newWaltz = 'Curing Waltz III'
+		-- elseif player.tp < 800 then
+			-- newWaltz = 'Curing Waltz IV'
+		-- end
 		
-		downgrade = 'Insufficient TP ['..tostring(player.tp)..']. Downgrading to '..newWaltz..'.'
-	end
+		-- downgrade = 'Insufficient TP ['..tostring(player.tp)..']. Downgrading to '..newWaltz..'.'
+	-- end
 
 	
-	if newWaltz ~= spell.english then
-		send_command('@input /ja "'..newWaltz..'" '..tostring(spell.target.raw))
-		if downgrade then
-			add_to_chat(122, downgrade)
-		end
-		eventArgs.cancel = true
-		return
-	end
+	-- if newWaltz ~= spell.english then
+		-- send_command('@input /ja "'..newWaltz..'" '..tostring(spell.target.raw))
+		-- if downgrade then
+			-- add_to_chat(122, downgrade)
+		-- end
+		-- eventArgs.cancel = true
+		-- return
+	-- end
 
-	if missingHP and missingHP > 0 then
-		add_to_chat(122,'Trying to cure '..tostring(missingHP)..' HP using '..newWaltz..'.')
-	end
-end
+	-- if missingHP and missingHP > 0 then
+		-- add_to_chat(122,'Trying to cure '..tostring(missingHP)..' HP using '..newWaltz..'.')
+	-- end
+-- end
 
 
 -- Function to allow for automatic adjustment of the spell target type based on preferences.

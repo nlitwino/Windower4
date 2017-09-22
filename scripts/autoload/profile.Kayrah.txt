@@ -32,6 +32,7 @@ lua load cancel;
 lua load chars;
 lua load ConsoleBG;
 lua load distance;
+lua load DistancePlus;
 lua load DressUp;
 lua load enternity;
 lua load findAll;
