@@ -39,6 +39,12 @@
             </stroke>
         </text>
     </global>
+    <kayrah>
+        <pos>
+            <x>21</x>
+            <y>93</y>
+        </pos>
+    </kayrah>
     <mimosa>
         <pos>
             <x>427</x>

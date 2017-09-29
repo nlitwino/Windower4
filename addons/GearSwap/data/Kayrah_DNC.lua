@@ -83,7 +83,7 @@ function init_gear_sets()
 	                                               ,body="Darksteel harness +1"                   ,ring1="Defending ring"      ,ring2="Jelly ring"
 					                               ,back="Shadow mantle"                          ,legs="Darksteel subligar +1"}
 	                                             
-	sets.defense.MDT                             = {ammo="Bibiki seashell",ear1="Merman's earring",ear2="Merman's earring",body="Avalon breastpalte",ring1="Defending ring",ring2="Shadow ring",waist="Resolute belt",feet="Merman's leggings"}
+	sets.defense.MDT                             = {ammo="Bibiki seashell",ear1="Merman's earring",ear2="Merman's earring",body="Avalon breastplate",ring1="Defending ring",ring2="Shadow ring",waist="Resolute belt",feet="Merman's leggings"}
 	                                             
 	-- engaged                                   
 	sets.engaged                                 = {ammo="Black tathlum"

@@ -90,14 +90,14 @@ function init_gear_sets()
 										       ,back="Mamool Ja mantle",waist="Buccaneer's belt"    ,legs="Dusk trousers" ,feet="Rogue's poulaines +1"}
 	                                         
 	-- ws                                    
-	sets.precast.WS                          = {head="Maat's cap"      ,neck="Fotia gorget"        ,ear1="Pixie earring"       ,ear2="Brutal earring"
-										       ,body="Hecatomb harness",hands="Hecatomb mittens +1",ring1="Rajas ring"         ,ring2="Zilant ring"
-										       ,back="Commander's cape",waist="Warwolf belt"       ,legs="Hecatomb subligar +1",feet="Enkidu's leggings"}
+	sets.precast.WS                          = {head="Maat's cap"        ,neck="Fotia gorget"        ,ear1="Pixie earring"       ,ear2="Brutal earring"
+										       ,body="Hecatomb harness"  ,hands="Hecatomb mittens +1",ring1="Rajas ring"         ,ring2="Zilant ring"
+										       ,back="Cerberus mantle +1",waist="Warwolf belt"       ,legs="Hecatomb subligar +1",feet="Enkidu's leggings"}
 	sets.precast.WS.HNM                      = set_combine(sets.precast.WS,{head="Hecatomb cap +1",neck="Peacock amulet",ear1="Triumph earring",body="Hecatomb harness",ring2="Flame ring",feet="Hecatomb leggings +1"})
 	                                         
 	sets.precast.WS['Cyclone']               = set_combine(sets.precast.WS,{ear2="Moldavite earring",ring2="Snow ring"})
 	                                         
-	sets.precast.WS['Dancing Edge']          = set_combine(sets.precast.WS,{ear1="Pixie earring",feet="Hecatomb leggings +1"})
+	sets.precast.WS['Dancing Edge']          = set_combine(sets.precast.WS,{feet="Hecatomb leggings +1"})
 	sets.precast.WS['Dancing Edge'].HNM      = set_combine(sets.precast.WS['Dancing Edge'],{head="Hecatomb cap +1",ear1="Triumph earring"})
 	                                         
 	sets.precast.WS['Exenterator']           = set_combine(sets.precast.WS['Dancing Edge'],{})
@@ -113,6 +113,8 @@ function init_gear_sets()
 										     							   ,body="Hecatomb harness",hands="Alkyoneus's bracelets"              
 										     							   ,back="Cerberus mantle +1"                                                    ,feet="Hecatomb leggings +1"})
 	sets.precast.WS['Mercy Stroke'].HNM      = set_combine(sets.precast.WS['Mercy Stroke'],{ear1="Triumph earring"})
+	
+	sets.precast.WS['Mandalic Stab'] = set_combine(sets.precast.WS,{head="Hecatomb cap +1",ear1="Merman's earring",feet="Hecatomb leggings +1"})
 	
 	-- SA WS
 	sets.precast.WS.SA                       = set_combine(sets.precast.WS,sets.buff['Sneak Attack'])

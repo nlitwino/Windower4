@@ -12,7 +12,7 @@
         <Ranges></Ranges>
     </global>
     <Mimosa>
-        <X>1119</X>
+        <X>1118</X>
         <Y>104</Y>
         <Zoom>20</Zoom>
     </Mimosa>
@@ -24,6 +24,7 @@
     <Ixius>
         <X>1057</X>
         <Y>91</Y>
+        <Zoom>10</Zoom>
     </Ixius>
     <Dynamisjeu>
         <Zoom>10</Zoom>

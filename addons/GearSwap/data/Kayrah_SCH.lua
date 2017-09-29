@@ -57,7 +57,7 @@ function init_gear_sets()
 			                                             ,body="Errant houppelande",hands="Scholar's bracers +1" ,ring1="Tamas ring"      ,ring2="Star ring"
 			                                             ,back="Prism cape"        ,waist="Argute belt"          ,legs="Mahatma slops"    ,feet="Mahatma pigaches"}
 	
-	sets.grips 										   = {Fire 	    = {sub="Fire Grip"}
+	sets.grip 										   = {Fire 	    = {sub="Fire Grip"}
 				                                         ,Earth 	= {sub="Earth Grip"}
 				                                         ,Water 	= {sub="Water Grip"}
 				                                         ,Wind 	    = {sub="Wind Grip"}
