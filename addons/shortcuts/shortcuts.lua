@@ -115,7 +115,13 @@ default_aliases = {
     cw3="Curing Waltz III",
     cw4="Curing Waltz IV",
     cw5="Curing Waltz V",
-    hw="Healing Waltz"
+    hw="Healing Waltz",
+	cw1="Curing Waltz",
+	cw2="Curing Waltz II",
+	cw3="Curing Waltz III",
+	cw4="Curing Waltz IV",
+	dw="Divine Waltz",
+	sj="Spectral Jig"
 }
 
 aliases = config.load('data\\aliases.xml',default_aliases)

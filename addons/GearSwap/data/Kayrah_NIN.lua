@@ -38,7 +38,8 @@ function init_gear_sets()
 
 	-- misc.
 	sets.INT                                   = {head="Maat's cap"   ,neck="Lemegeton medallion +1",ear1="Morion earring +1"
-											     ,body="Kirin's osode"                              ,ring1="Flame ring",ring2="Snow ring"
+											     ,body="Kirin's osode"                              --,ring1="Flame ring"
+												 ,ring2="Snow ring"
 											                          ,waist="Ocean stone"}
 	                                           
 	sets.obi                                   = {Fire      = {waist="Karin Obi"}
@@ -138,7 +139,7 @@ function init_gear_sets()
 	                                           
 	--ws                                       
 	sets.precast.WS                            = {head="Maat's cap"        ,neck="Fotia gorget"   ,ear1="Fenrir's earring",ear2="Brutal earring"
-	                                             ,body="Kirin's osode"     ,hands="Ninja tekko +1",ring1="Rajas ring"     ,ring2="Flame ring"
+	                                             ,body="Kirin's osode"     ,hands="Ninja tekko +1",ring1="Rajas ring"     ,ring2="Strigoi ring"
 												 ,back="Cerberus mantle +1",waist="Warwolf belt"  ,legs="Byakko's haidate",feet="Enkidu's leggings"}
 	sets.precast.WS.HNM                        = set_combine(sets.precast.WS,{})
 	                                           
@@ -153,6 +154,9 @@ function init_gear_sets()
 	                                           
 	sets.precast.WS['Blade: Metsu']            = set_combine(sets.precast.WS,{body="Haubergeon +1"})
 	sets.precast.WS['Blade: Metsu'].HNM        = set_combine(sets.precast.WS['Blade: Metsu'],{})
+	
+	sets.precast.WS['Blade: Kamu'] 			   = set_combine(sets.precast.WS,{ear1="Fenrir earring",hands="Alkyoneus's bracelets",legs="Hachiryu haidate",feet="Rutter sabatons"})
+	sets.precast.WS['Blade: Kamu'].HNM 		   = set_combine(sets.precast.WS['Blade: Kamu'],{body="Haubergeon +1"})
 	
 	-- night ws                                
 	sets.precast.WS.Night                      = set_combine(sets.precast.WS,{hands="Koga tekko",feet="Koga kyahan +1"})
@@ -169,6 +173,9 @@ function init_gear_sets()
 	                                           
 	sets.precast.WS['Blade: Metsu'].Night      = set_combine(sets.precast.WS['Blade: Metsu'],{ear1="Pixie earring",feet="Koga kyahan +1"})
 	sets.precast.WS['Blade: Metsu'].HNM.Night  = set_combine(sets.precast.WS['Blade: Metsu'].HNM,{ear1="Pixie earring",feet="Koga kyahan +1"})
+	
+	sets.precast.WS['Blade: Kamu'].Night       = set_combine(sets.precast.WS['Blade: Kamu'],{ear1="Triumph earring",hands="Koga tekko"})
+	sets.precast.WS['Blade: Kamu'].HNM.Night   = set_combine(sets.precast.WS['Blade: Kamu'].Night,{body="Haubergeon +1"})
 	
 end
 

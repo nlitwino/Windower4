@@ -20,7 +20,7 @@
             </others>
             <party>
                 <always>false</always>
-                <combat>false</combat>
+                <combat>true</combat>
                 <target>true</target>
             </party>
             <self>

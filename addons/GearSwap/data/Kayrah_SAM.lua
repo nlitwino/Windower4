@@ -107,7 +107,7 @@ function init_gear_sets()
 	
 	-- ranged / yoichi
 	sets.precast.RA                           = {head="Zha'Go's barbut" ,neck="Peacock amulet"   ,ear1="Drone earring" ,ear2="Drone earring"
-												,body="Kyudogi +1"      ,hands="Seiryu's kote"   ,ring1="Cerberus ring +1",ring2="Merman's ring"
+												,body="Kyudogi +1"      ,hands="Seiryu's kote"   ,ring1="Cerberus ring +1",ring2="Behemoth ring +1"
 												,back="Amemet mantle +1",waist="Buccaneer's belt",legs="Dusk trousers" ,feet="Hachiryu sune-ate"}
 	                                          
 	sets.midcast.RA                           = set_combine(sets.precast.RA,{neck="Hope torque"})
@@ -115,7 +115,7 @@ function init_gear_sets()
 	
 	-- GK ws (186tp)
 	sets.precast.WS                           = {head="Gnadbhod's helm"   ,neck="Fotia gorget"          ,ear1="Bushinomimi"     ,ear2="Brutal earring"
-												,body="Byrnie +1"         ,hands="Alkyoneus's bracelets",ring1="Rajas ring"     ,ring2="Flame ring"
+												,body="Byrnie +1"         ,hands="Alkyoneus's bracelets",ring1="Rajas ring"     ,ring2="Strigoi ring"
 												,back="Cerberus mantle +1",waist="Warwolf belt"         ,legs="Hachiryu haidate",feet="Hachiman sune-ate"}
 	sets.precast.WS.Acc                       = set_combine(sets.precast.WS,{body="Hachiman domaru +1"})
 	
@@ -143,7 +143,7 @@ function init_gear_sets()
 	sets.precast.WS['Jishnu\'s Radiance'] 	  = set_combine(sets.precast.WS['Sidewinder'],{})
 	sets.precast.WS['Jishnu\'s Radiance'].Acc = set_combine(sets.precast.WS['Sidewinder'].Acc,{})
 	
-	sets.precast.WS['Namas Arrow'] 		      = set_combine(sets.precast.WS['Sidewinder'],{})
+	sets.precast.WS['Namas Arrow'] 		      = set_combine(sets.precast.WS['Sidewinder'],{ear1="Triumph earring",ring2="Strigoi ring"})
 	sets.precast.WS['Namas Arrow'].Acc        = set_combine(sets.precast.WS['Sidewinder'],{})
 	
 end
@@ -160,6 +160,14 @@ function job_post_precast(spell,action,spellMap,eventArgs)
 	end
 	if spell.type == 'JobAbility' and state.OffenseMode.value == 'Tank' then
 		equip(set_combine(sets.enmity,sets.precast.JA[spell.name]))
+	end
+	
+	if spell.type == 'WeaponSkill' and (spell.skill == 'Marksmanship' or spell.skill == 'Archery') then
+		if state.WeaponskillMode.value ~= 'Acc' then
+			if not daytime then
+				equip({ear1="Fenrir's earring"})
+			end
+		end
 	end
 	
 end

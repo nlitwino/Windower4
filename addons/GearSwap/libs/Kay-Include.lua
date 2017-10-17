@@ -20,6 +20,9 @@ function job_self_command(commandArgs,eventArgs)
         wards.flag = false
         wards.spell = ''
         eventArgs.handled = true
+	elseif commandArgs[1] == 'lock_ranged' then
+		lock_ranged()
+	    eventArgs.handled = true
     end
 	
 end
@@ -31,6 +34,10 @@ function initialize_job()
 	
 	gear.TRing1 = { name="Toreador's Ring", augments={'Earth resistance-7','"Triple Atk."+2',}}
 	gear.TRing2 = { name="Toreador's Ring", augments={'"Triple Atk."+2','Dark resistance+12',}}
+	gear.CritRing = { name="Toreador's Ring", augments={'Crit. hit damage +4%','Crit. hit damage +2%',}}
+	
+	state.Tank = M(false, 'Tank')
+	state.Range = M(false, 'Range')
 	
 	gear.main = player.equipment.main
 	gear.sub = player.equipment.sub
@@ -41,7 +48,7 @@ function initialize_job()
 	windower.register_event('zone change', 
 	function(new, old)
 		send_command('gs c update')
-		send_command('treasury clearall')
+		--send_command('treasury clearall')
 	end)
 
 	windower.register_event('time change', 
@@ -82,7 +89,7 @@ function set_custom_universal_keybinds()
 	
 	-- Misc. cycles
 	-- F9 left out for customs
-	send_command('bind !f10 gs c update')
+	send_command('bind !f10 gs c toggle Tank')
 	send_command('bind !f11 gs c regear')
 	send_command('bind !f12 gs reload')
 	
@@ -236,4 +243,14 @@ function ammo_recharge()
 		gear.ammo = player.equipment.ammo
 	end
 
+end
+
+function lock_ranged()
+	
+	if state.Range.value then
+		disable("range","ammo")
+	else
+		enable("range","ammo")
+	end
+	
 end

@@ -27,7 +27,7 @@ function user_setup()
 	-- Setup appropriate modes
 	state.OffenseMode:options('Normal','DW','HNM')
 	state.RangedMode:options('Normal','HybridAcc','Acc','Trash')
-	state.WeaponskillMode:options('Normal','Power','Acc')
+	state.WeaponskillMode:options('Normal','Power','Acc','Test')
 
 end
 
@@ -44,7 +44,7 @@ function init_gear_sets()
 	sets.precast.JA['Scavenge']               = {feet="Hunter's socks +1"}
 	sets.precast.JA['Shadowbind']             = {hands="Hunter's bracers +1"}
 	sets.precast.JA['Eagle Eye Shot']		  = {head="Zha'Go's barbut" ,neck="Ranger's necklace"      ,ear1="Drone earring"   ,ear2="Bushinomimi"
-												,body="Kyudogi +1"      ,hands="Blood finger gauntlets",ring1="Rajas ring"     ,ring2="Flame ring"
+												,body="Kyudogi +1"      ,hands="Blood finger gauntlets",ring1="Rajas ring"     ,ring2="Cerberus ring +1"
 												,back="Amemet mantle +1",waist="Scout's belt"          ,legs="Hachiryu haidate",feet="Scout's socks +1"}
 	
 	-- precast magic
@@ -73,8 +73,8 @@ function init_gear_sets()
 	
 	-- precast ranged
 	sets.precast.RA                           = {head="Hunter's beret +1",neck="Peacock amulet",ear1="Drone earring",ear2="Hollow earring"
-												,body="Scout's jerkin",hands="Seiryu's kote",ring1="Rajas ring",ring2="Merman's ring"
-												,back="Mamool Ja mantle",waist="Scout's belt",legs="Dusk trousers",feet="Hachiryu sune-ate"}
+												,body="Scout's jerkin",hands="Seiryu's kote",ring1="Rajas ring",ring2="Behemoth ring +1"
+												,back="Mamool Ja mantle",waist="Scout's belt",legs="Dusk trousers +1",feet="Hachiryu sune-ate"}
 	sets.precast.RA.Anni 					  = set_combine(sets.precast.RA,{})
 	sets.precast.RA.Yoichi					  = set_combine(sets.precast.RA,{legs="Hachiryu haidate"})
 	
@@ -86,8 +86,8 @@ function init_gear_sets()
 	sets.midcast.RA.Trash                     = set_combine(sets.midcast.RA,{head="Scout's beret"})
 	
 	-- Mekki Shakki
-	sets.midcast.RA.HybridAcc                 = set_combine(sets.midcast.RA,{ear2="Hollow earring",ring1="Behemoth ring +1",feet="Hachiryu sune-ate"})
-	sets.midcast.RA.Acc                       = set_combine(sets.midcast.RA.HybridAcc,{hands="Seiryu's kote",back="Mamool Ja mantle",ring2="Dragon ring"})
+	sets.midcast.RA.HybridAcc                 = set_combine(sets.midcast.RA,{ear2="Hollow earring",ring2="Behemoth ring +1",feet="Hachiryu sune-ate"})
+	sets.midcast.RA.Acc                       = set_combine(sets.midcast.RA.HybridAcc,{hands="Seiryu's kote",back="Mamool Ja mantle",legs="Dusk trousers +1"})
 	
 	-- midcast anni
 	sets.midcast.RA.Anni                      = set_combine(sets.midcast.RA,{})
@@ -127,9 +127,10 @@ function init_gear_sets()
 	sets.precast.WS['Last Stand'].Power       = set_combine(sets.precast.WS['Slug Shot'].Power,{})
 	sets.precast.WS['Last Stand'].Acc         = set_combine(sets.precast.WS['Slug Shot'].Acc,{})
 												
-	sets.precast.WS['Coronach']               = set_combine(sets.precast.WS,{ear2="Triumph earring",ring2="Cerberus ring +1",feet="Hunter's socks +1"})
+	sets.precast.WS['Coronach']               = set_combine(sets.precast.WS,{ear2="Hollow earring",ring2="Cerberus ring +1",feet="Hunter's socks +1"})
 	sets.precast.WS['Coronach'].Power         = set_combine(sets.precast.WS['Coronach'],{hands="Blood finger gauntlets",ring2="Cerberus ring +1",feet="Scout's socks +1"})
 	sets.precast.WS['Coronach'].Acc           = set_combine(sets.precast.WS['Coronach'],{ear2="Hollow earring",feet="Hachiryu sune-ate"})
+	sets.precast.WS['Coronach'].Test		  = set_combine(sets.precast.WS['Coronach'].Power,{ring2="Strigoi ring"})
 	
 end
 

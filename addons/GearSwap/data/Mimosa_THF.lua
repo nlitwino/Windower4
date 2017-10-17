@@ -27,17 +27,7 @@ function user_setup()
 	state.PhysicalDefenseMode:options('None','Evasion','PDT')
 	state.MagicalDefenseMode:options('None','MDT')
 
-	send_command('bind f9 gs c cycle OffenseMode')
-	send_command('bind f10 gs c cycle TreasureMode; gs c custom_treasure_cycle')
-	send_command('bind f11 gs c cycle WeaponskillMode')
-	send_command('bind f12 gs c cycle PhysicalDefenseMode')
-	send_command('bind ^f12 gs c cycle MagicalDefenseMode')
-	
-	send_command('bind !x gs c trade_earring1')
-	send_command('bind !c gs c trade_earring2')
-	send_command('bind !v gs c trade_ring')
-	
-	send_command('bind ^g gs c regear')
+	send_command('bind !f9 gs c cycle TreasureMode')
 	
 	gear.main = player.equipment.main
 	gear.sub = player.equipment.sub
@@ -83,9 +73,9 @@ function init_gear_sets()
 	sets.defense.MDT                         = {waist="Resolute belt"}
 	                                         
 	-- engaged                               
-	sets.engaged                             = {head="Walahra turban"  ,neck="Chivalrous chain" ,ear1="Suppanomimi"    ,ear2="Hollow earring"
-										       ,body="Homam corazza",hands="Dusk gloves"  ,ring1="Rajas ring"    ,ring2="Sniper's ring +1"
-										       ,back="Amemet mantle",waist="Velocious belt"  ,legs="Homam cosciales",feet="Dusk ledelsens"}
+	sets.engaged                             = {head="Walahra turban"  ,neck="Chivalrous chain" ,ear1="Suppanomimi"    ,ear2="Brutal earring"
+										       ,body="Rapparee harness",hands="Homam manopolas"  ,ring1="Rajas ring"    ,ring2="Sniper's ring +1"
+										       ,back="Forager's mantle",waist="Velocious belt"  ,legs="Homam cosciales",feet="Homam gambieras"}
 	sets.engaged.HybridAcc                   = set_combine(sets.engaged,{neck="Peacock amulet",ring1="Sniper's ring +1"})
 	sets.engaged.Acc                         = set_combine(sets.engaged.HybridAcc,{body="Homam corazza",hands="Enkidu's mittens"})
 	                                         
@@ -217,13 +207,12 @@ function check_buff(buff_name,eventArgs)
 	
 end
 
-function custom_treasure_cycle()
-	
+function customize_melee_set(meleeSet)
+
 	if state.TreasureMode.value == 'Fulltime' then
-		equip(sets.TreasureHunter)
-		disable('hands')
-	else
-		enable('hands')
-	end
+        meleeSet = set_combine(meleeSet, sets.TreasureHunter)
+    end
+
+    return meleeSet
 	
 end

@@ -17,8 +17,8 @@
         </flags>
         <padding>0</padding>
         <pos>
-            <x>0</x>
-            <y>0</y>
+            <x>17</x>
+            <y>41</y>
         </pos>
         <text>
             <alpha>255</alpha>
@@ -39,10 +39,4 @@
             </stroke>
         </text>
     </global>
-    <mimosa>
-        <pos>
-            <x>17</x>
-            <y>41</y>
-        </pos>
-    </mimosa>
 </settings>

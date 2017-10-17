@@ -105,7 +105,7 @@ function init_gear_sets()
 	
 	-- ws
 	sets.precast.WS                                    = {head="Maat's cap"         ,neck="Fotia gorget"          ,ear1="Merman's earring",ear2="Brutal earring"
-					                                     ,body="Scorpion harness +1",hands="Alkyoneus's bracelets",ring1="Flame ring"     ,ring2=gear.TRing1
+					                                     ,body="Scorpion harness +1",hands="Alkyoneus's bracelets",ring1="Strigoi ring"     ,ring2=gear.TRing1
 					                                     ,back="Cerberus mantle +1" ,waist="Warwolf belt"         ,legs="Dusk trousers"   ,feet="Rutter sabatons"}
 	
 end

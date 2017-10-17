@@ -71,7 +71,6 @@
     <width>1600</width>
     <height>900</height>
     <uiscale>1</uiscale>
-    <hardwaremouse>false</hardwaremouse>
     <sound>false</sound>
     <alwaysplaysound>false</alwaysplaysound>
     <alwaysenablegamepad>false</alwaysenablegamepad>

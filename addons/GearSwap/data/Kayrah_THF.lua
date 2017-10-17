@@ -6,12 +6,12 @@ function get_sets()
 end
 
 function job_setup()
+	
+	include('Kay-Include.lua')
 
 	state.Buff['Sneak Attack'] 		 = buffactive['Sneak Attack'] or false
 	state.Buff['Trick Attack'] 		 = buffactive['Trick Attack'] or false
 	state.Buff['Assassin\'s Charge'] = buffactive['Assassin\'s Charge'] or false
-	
-	include('Kay-Include.lua')
 	
 	initialize_job()
 	
@@ -22,130 +22,153 @@ function user_setup()
 	include('Mote-TreasureHunter.lua')
 
 	state.OffenseMode:options('Normal','HybridAcc','Acc')
-	state.WeaponskillMode:options('Normal','HNM')
-	state.RangedMode:options('Normal')
+	state.WeaponskillMode:options('Normal','Power','Acc')
+	state.RangedMode:options('Normal','Acid','Bloody','Sleep')
 	state.PhysicalDefenseMode:options('Evasion','PDT')
 	state.MagicalDefenseMode:options('MDT')
 	
+	single_hit_ws = S{'Wasp Sting','Shadowstitch','Viper Bite','Mercy Stroke','Mandalic Stab'}
+	
 	send_command('bind !f9 gs c cycle TreasureMode')
+	send_command('bind !f12 gs c toggle Range;gs c lock_ranged')
 
 end
 
 function init_gear_sets()
 
 	-- misc.
-	sets.TreasureHunter 				     = {hands="Assassin's armlets"}
-										      --sub="Thief's knife"
-	-- buff                                  
-	sets.buff['Sneak Attack']                = {head="Maat's cap"        ,neck="Spike necklace"   ,ear1="Pixie earring"  
-								               ,body="Antares harness"   ,hands="Enkidu's mittens",ring1="Rajas ring",ring2="Zilant ring"      
-								               ,back="Cuchulain's mantle",waist="Warwolf belt"    ,legs="Hecatomb subligar +1",feet="Enkidu's leggings"}
-	sets.buff['Trick Attack'] 		         = {head="Maat's cap"                                                     ,ear2="Drone earring"
-									           ,body="Antares harness",hands="Rogue's armlets +1",ring1=gear.TRing2  ,ring2="Blobnag ring"
-									           ,back="Assassin's cape",waist="Warwolf belt"      ,legs="Oily trousers",feet="Enkidu's leggings"}
-	sets.buff['Assassin\'s Charge']			 = {ear2="Hollow earring"}
-	                                         
-	-- precast ja                            
-	sets.precast.JA                          = {waist="Buccaneer's belt"}
-	                                         
-	sets.precast.JA['Flee']                  = set_combine(sets.precast.JA,{feet="Rogue's poulaines +1"})
-	sets.precast.JA['Steal']                 = set_combine(sets.precast.JA,{head="Rogue's bonnet",hands="Rogue's armlets +1",legs="Rogue's culottes +1",feet="Rogue's poulaines +1"})
-	sets.precast.JA['Mug']                   = set_combine(sets.precast.JA,{head="Assassin's bonnet"})
-	sets.precast.JA['Hide']                  = set_combine(sets.precast.JA,{body="Rogue's vest +1"})
-	                                         
-	-- precast magic                         
-	sets.precast.FC                          = {ear2="Loquacious earring",legs="Homam cosciales"}
-	                                         
-	-- midcast magic                         
-	sets.midcast.FastRecast                  = set_combine(sets.precast.FC,{head="Walahra turban"  ,neck="Fortified chain",ear1="Drone earring"  ,ear2="Magnetic earring"
-	                                                                       ,body="Rapparee harness",hands="Dusk gloves +1",ring1="Defending ring"                     
-																		   ,back="Shadow mantle"   ,waist="Velocious belt",legs="Homam cosciales",feet="Dusk ledelsens +1"})
-	sets.midcast['Utsusemi: Ni']             = set_combine(sets.midcast.FastRecast,{ring2="Antica ring"})
-	sets.midcast['Utsusemi: Ichi']           = set_combine(sets.midcast.FastRecast,{body="Scorpion harness +1",waist="Resolute belt"})                                         
-	-- idle                                  
-	sets.idle                                = {head="Gnole crown"  ,neck="Chocobo whistle"     ,ear1="Merman's earring"    ,ear2="Merman's earring"
-										       ,body="Homam corazza",hands="Hecatomb mittens +1",ring1="Defending ring"     ,ring2="Shadow ring"
-										       ,back="Shadow mantle",waist="Lycopodium sash"    ,legs="Hecatomb subligar +1",feet="Trotter boots"}
-	sets.idle.Town                           = set_combine(sets.idle,{back="Nexus cape",ring2="Warp ring"})
-	                                         
-	sets.resting                             = {}
-	                                         
-	-- defense                               
-	sets.defense.Evasion                     = {head="Gnole crown",neck="Fortified chain",body="Scorpion harness +1",back="Boxer's mantle",legs="Raven hose"}
-	sets.defense.PDT                         = {body="Darksteel harness +1",ring1="Defending ring",ring2="Jelly ring",back="Shadow mantle",legs="Darksteel subligar +1"}
-	sets.defense.MDT                         = {ear1="Merman's earring",ear2="Merman's earring",body="Avalon breastplate",ring1="Defending ring",ring2="Shadow ring",waist="Resolute belt",feet="Merman's leggings"}
-	                                         
-	-- engaged                               
-	sets.engaged                             = {head="Walahra turban"  ,neck="Chivalrous chain" ,ear1="Suppanomimi"    ,ear2="Brutal earring"
-										       ,body="Rapparee harness",hands="Dusk gloves +1"  ,ring1=gear.TRing2     ,ring2=gear.TRing1
-										       ,back="Cerberus mantle +1",waist="Velocious belt",legs="Homam cosciales",feet="Dusk ledelsens +1"}
-	sets.engaged.HybridAcc                   = set_combine(sets.engaged,{neck="Ancient torque",hands="Homam manopolas",back="Cuchulain's mantle",feet="Homam gambieras"})
-	sets.engaged.Acc                         = set_combine(sets.engaged.HybridAcc,{head="Homam zucchetto",body="Homam corazza"})
-	                                         
-	-- ranged                                
-	sets.precast.RA                          = {head="Zha'Go's barbut"}
-	                                         
-	sets.midcast.RA                          = {head="Zha'Go's barbut" ,neck="Faith torque"         ,ear1="Drone earring",ear2="Drone earring"
-										       ,body="Enkidu's harness",hands="Barbarossa's moufles",ring1="Dragon ring",ring2="Merman's ring"
-										       ,back="Mamool Ja mantle",waist="Buccaneer's belt"    ,legs="Dusk trousers" ,feet="Rogue's poulaines +1"}
-	                                         
-	-- ws                                    
-	sets.precast.WS                          = {head="Maat's cap"        ,neck="Fotia gorget"        ,ear1="Pixie earring"       ,ear2="Brutal earring"
-										       ,body="Hecatomb harness"  ,hands="Hecatomb mittens +1",ring1="Rajas ring"         ,ring2="Zilant ring"
-										       ,back="Cerberus mantle +1",waist="Warwolf belt"       ,legs="Hecatomb subligar +1",feet="Enkidu's leggings"}
-	sets.precast.WS.HNM                      = set_combine(sets.precast.WS,{head="Hecatomb cap +1",neck="Peacock amulet",ear1="Triumph earring",body="Hecatomb harness",ring2="Flame ring",feet="Hecatomb leggings +1"})
-	                                         
-	sets.precast.WS['Cyclone']               = set_combine(sets.precast.WS,{ear2="Moldavite earring",ring2="Snow ring"})
-	                                         
-	sets.precast.WS['Dancing Edge']          = set_combine(sets.precast.WS,{feet="Hecatomb leggings +1"})
-	sets.precast.WS['Dancing Edge'].HNM      = set_combine(sets.precast.WS['Dancing Edge'],{head="Hecatomb cap +1",ear1="Triumph earring"})
-	                                         
-	sets.precast.WS['Exenterator']           = set_combine(sets.precast.WS['Dancing Edge'],{})
-	sets.precast.WS['Exenterator'].HNM       = set_combine(sets.precast.WS['Dancing Edge'].HNM,{})
-	                                         
-	sets.precast.WS['Shark Bite']            = set_combine(sets.precast.WS,{body="Antares harness",ring2="Zilant ring",back="Assassin's cape",feet="Enkidu's leggings"})
-	sets.precast.WS['Shark Bite'].HNM        = set_combine(sets.precast.WS['Shark Bite'],{ear1="Triumph earring",feet="Hecatomb leggings +1"})
-	                                         
-	sets.precast.WS['Evisceration']          = set_combine(sets.precast.WS,{head="Hecatomb cap +1",back="Cuchulain's mantle",feet="Hecatomb leggings +1"})
-	sets.precast.WS['Evisceration'].HNM      = set_combine(sets.precast.WS['Evisceration'],{ear1="Triumph earring",back="Commander's cape"})
-	                                         
-	sets.precast.WS['Mercy Stroke']          = set_combine(sets.precast.WS,{head="Hecatomb cap +1"                                  ,ear1="Merman's earring" 
-										     							   ,body="Hecatomb harness",hands="Alkyoneus's bracelets"              
-										     							   ,back="Cerberus mantle +1"                                                    ,feet="Hecatomb leggings +1"})
-	sets.precast.WS['Mercy Stroke'].HNM      = set_combine(sets.precast.WS['Mercy Stroke'],{ear1="Triumph earring"})
+	sets.TreasureHunter                       = {hands="Assassin's armlets"}
 	
-	sets.precast.WS['Mandalic Stab'] = set_combine(sets.precast.WS,{head="Hecatomb cap +1",ear1="Merman's earring",feet="Hecatomb leggings +1"})
+	sets.enmityUp                             = {head="Assassin's bonnet",neck="Ritter gorget",ear1="Hades earring +1",body="Avalon breastplate",hands="Assassin's armlets",ring2="Corneus ring",back="Assassin's cape",waist="Trance belt",legs="Assassin's culottes"}
+	sets.enmityDown                           = {ammo="White tathlum",head="Zha'Go's barbut",ear1="Novia earring",ring2="Veela ring",waist="Buccaneer's belt",legs="Raven hose"}
+	
+	-- buff
+	sets.buff['Sneak Attack']                 = {head="Hecatomb cap +1"   ,neck="Ancient torque"      ,ear1="Pixie earring"
+	                                            ,body="Antares harness"   ,hands="Hecatomb mittens +1",ring1="Rajas ring"         ,ring2=gear.CritRing
+												,back="Cuchulain's mantle",waist="Warwolf belt"       ,legs="Hecatomb subligar +1",feet="Hecatomb leggings +1"}
+	sets.buff['Trick Attack']                 = {head="Maat's cap"        ,neck="Faith torque"        ,ear1="Hollow earring"
+												,body="Antares harness"   ,hands="Rogue's armlets +1" ,ring1="Blobnag ring"       ,ring2=gear.CritRing
+												,back="Assassin's cape"   ,legs="Oily trousers"       ,feet="Enkidu's leggings"                               }
+	
+	sets.buff['Assassin\'s Charge']           = {}
+	
+	-- precast ja
+	sets.precast.JA                           = {}
+	
+	sets.precast.JA['Flee']                   = {feet="Rogue's poulaines +1"}
+	sets.precast.JA['Steal']                  = {head="Rogue's bonnet",hands="Rogue's armlets +1",legs="Assassin's culottes",feet="Rogue's poulaines +1"}
+	sets.precast.JA['Mug']                    = {head="Assassin's bonnet"}
+	sets.precast.JA['Hide']                   = {body="Rogue's vest +1"}
+	
+	-- precast magic
+	sets.precast.FC                           = {ear2="Loquacious earring",legs="Homam cosciales"}
+	
+	-- midcast magic
+	sets.midcast.FastRecast                   = set_combine(sets.precast.FC,{head="Walahra turban",body="Rapparee harness",hands="Dusk gloves +1",waist="Velocious belt",feet="Dusk ledelsens +1"})
+	
+	sets.midcast['Utsusemi: Ni']              = set_combine(sets.midcast.FastRecast,{neck="Fortified chain",ear1="Magnetic earring",ring1="Defending ring",ring2="Antica ring",back="Boxer's mantle"})
+	sets.midcast['Utsusemi: Ichi']            = set_combine(sets.midcast['Utsusemi: Ni'],{body="Scorpion harness +1",waist="Resolute belt"})
+	
+	-- idle
+	sets.idle                                 = {ammo="Bibiki seashell"
+												,head="Gnole crown"       ,neck="Chocobo whistle"    ,ear1="Novia earring"        ,ear2="Merman's earring"
+												,body="Avalon breastplate",hands="Assassin's armlets",ring1="Defending ring"      ,ring2="Shadow ring"
+												,back="Shadow mantle"     ,waist="Resolute belt"     ,legs="Darksteel subligar +1",feet="Trotter boots"}
+	sets.idle.Town                            = set_combine(sets.idle,{ring2="Warp ring",back="Nexus cape"})
+	sets.resting                              = {}
+	
+	-- defense
+	sets.defense.Evasion                      = {head="Gnole crown",neck="Fortified chain",ear1="Novia earring",body="Scorpion harness +1",back="Boxer's mantle",legs="Raven hose"}
+	sets.defense.PDT                          = {ammo="Bibiki seashell",head="Darksteel cap +1",neck="Ritter gorget",body="Darksteel harness +1",hands="Homam manopolas",ring1="Defending ring",ring2="Jelly ring",back="Shadow mantle",waist="Warwolf belt",legs="Darksteel subligar +1",feet="Homam gambieras"}
+	sets.defense.MDT                          = {ammo="Bibiki seashell",ear1="Merman's earring",ear2="Merman's earring",body="Avalon breastplate",ring1="Defending ring",ring2="Shadow ring",waist="Resolute belt",feet="Merman's leggings"}
+	
+	-- engaged
+	sets.engaged                              = {ammo="Bomb core"
+												,head="Walahra turban"    ,neck="Chivalrous chain",ear1="Suppanomimi"    ,ear2="Brutal earring"
+												,body="Rapparee harness"  ,hands="Dusk gloves +1" ,ring1=gear.TRing1     ,ring2=gear.TRing2
+												,back="Cerberus mantle +1",waist="Velocious belt" ,legs="Homam cosciales",feet="Dusk ledelsens +1"}
+	sets.engaged.HybridAcc                    = set_combine(sets.engaged,{ammo="Fire bomblet",neck="Ancient torque",hands="Homam manopolas",back="Cuchulain's mantle",feet="Homam gambieras"})
+	sets.engaged.Acc                          = set_combine(sets.engaged.HybridAcc,{head="Homam zucchetto",body="Homam corazza",hands="Enkidu's mittens",waist="Lycopodium sash"})
+	
+	-- ranged
+	sets.precast.RA                           = {head="Zha'Go's barbut"}
+	sets.midcast.RA                           = {head="Zha'Go's barbut" ,neck="Peacock amulet"       ,ear1="Drone earring"    ,ear2="Drone earring"
+												,body="Rapparee harness",hands="Barbarossa's moufles",ring1="Behemoth ring +1",ring2="Blobnag ring"
+												,back="Mamool Ja mantle",waist="Buccaneer's belt"    ,legs="Dusk trousers +1" ,feet="Homam gambieras"}
+	
+	-- WS
+	sets.precast.WS                           = {ammo="Bomb core"
+												,head="Maat's cap"        ,neck="Fotia gorget"        ,ear1="Triumph earring"     ,ear2="Brutal earring"
+												,body="Antares harness"   ,hands="Hecatomb mittens +1",ring1="Rajas ring"         ,ring2="Strigoi ring"
+												,back="Cerberus mantle +1",waist="Warwolf belt"       ,legs="Hecatomb subligar +1",feet="Hecatomb leggings +1"}
+	sets.precast.WS.Power                     = set_combine(sets.precast.WS      ,{head="Hecatomb cap +1",body="Hecatomb harness"})
+	sets.precast.WS.Acc                       = set_combine(sets.precast.WS.Power,{ammo="Fire bomblet",hands="Enkidu's mittens",ring2="Zilant ring",back="Cuchulain's mantle"})
+	
+	sets.precast.WS['Cyclone']                = set_combine(sets.precast.WS,{ammo="Black tathlum",ear1="Moldavite earring",ear2="Morion earring +1",ring1="Snow ring",ring2="Zilant ring",back="Cuchulain's mantle",waist="Ocean stone"})
+	
+	sets.precast.WS['Shark Bite']             = set_combine(sets.precast.WS              ,{back="Assassin's cape"})
+	sets.precast.WS['Shark Bite'].Power       = set_combine(sets.precast.WS['Shark Bite'],{head="Hecatomb cap +1"})
+	sets.precast.WS['Shark Bite'].Acc         = set_combine(sets.precast.WS['Shark Bite'],{ammo="Fire bomblet",ear1="Pixie earring",ring2="Zilant ring",back="Cuchulain's mantle"})
+	
+	sets.precast.WS['Mercy Stroke']           = set_combine(sets.precast.WS                ,{head="Hecatomb cap +1",body="Hecatomb harness",hands="Alkyoneus's bracelets"})
+	sets.precast.WS['Mercy Stroke'].Power     = set_combine(sets.precast.WS['Mercy Stroke'],{})
+	sets.precast.WS['Mercy Stroke'].Acc       = set_combine(sets.precast.WS['Mercy Stroke'],{ammo="Fire bomblet",hands="Enkidu's mittens",back="Cuchulain's mantle"})
+	
+	sets.precast.WS['Mandalic Stab']          = set_combine(sets.precast.WS      ,{head="Hecatomb cap +1",ring2="Zilant ring"})
+	sets.precast.WS['Mandalic Stab'].Power    = set_combine(sets.precast.WS.Power,{})
+	sets.precast.WS['Mandalic Stab'].Acc      = set_combine(sets.precast.WS.Acc  ,{ammo="Fire bomblet",hands="Enkidu's mittens",back="Cuchulain's mantle"})
 	
 	-- SA WS
-	sets.precast.WS.SA                       = set_combine(sets.precast.WS,sets.buff['Sneak Attack'])
-	sets.precast.WS.HNM.SA                   = set_combine(sets.precast.WS.HNM,sets.buff['Sneak Attack'])
+	sets.precast.WS.SA                        = set_combine(sets.precast.WS      ,{ear1="Pixie earring",ring2=gear.CritRing})
+	sets.precast.WS.Power.SA                  = set_combine(sets.precast.WS.Power,{ring2=gear.CritRing})
+	sets.precast.WS.Acc.SA                    = set_combine(sets.precast.WS.Acc  ,{ear1="Pixie earring",ring2=gear.CritRing})
 	
-	sets.precast.WS['Shark Bite'].SA         = set_combine(sets.precast.WS['Shark Bite'],sets.buff['Sneak Attack'])
-	sets.precast.WS['Shark Bite'].HNM.SA     = set_combine(sets.precast.WS['Shark Bite'].HNM,sets.buff['Sneak Attack'])
+	sets.precast.WS['Shark Bite'].SA          = set_combine(sets.precast.WS['Shark Bite']      ,{ear1="Pixie earring",ring2=gear.CritRing})
+	sets.precast.WS['Shark Bite'].Power.SA    = set_combine(sets.precast.WS['Shark Bite'].Power,{ear1="Pixie earring",ring2=gear.CritRing})
+	sets.precast.WS['Shark Bite'].Acc.SA      = set_combine(sets.precast.WS['Shark Bite'].Acc  ,{ear1="Pixie earring",ring2=gear.CritRing})
 	
-	sets.precast.WS['Mercy Stroke'].SA       = set_combine(sets.precast.WS['Mercy Stroke'],{ear1="Pixie earring",hands="Hecatomb mittens +1"})
-	sets.precast.WS['Mercy Stroke'].HNM.SA   = set_combine(sets.precast.WS['Mercy Stroke'].HNM,{ear1="Triumph earring",hands="Hecatomb mittens +1",back="Cuchulain's mantle"})
+	sets.precast.WS['Mercy Stroke'].SA        = set_combine(sets.precast.WS['Mercy Stroke']      ,{hands="Hecatomb mittens +1",ring2=gear.CritRing})
+	sets.precast.WS['Mercy Stroke'].Power.SA  = set_combine(sets.precast.WS['Mercy Stroke'].Power,{hands="Hecatomb mittens +1",ring2=gear.CritRing})
+	sets.precast.WS['Mercy Stroke'].Acc.SA    = set_combine(sets.precast.WS['Mercy Stroke'].Acc  ,{ring2=gear.CritRing})
+	
+	sets.precast.WS['Mandalic Stab'].SA       = set_combine(sets.precast.WS['Mandalic Stab']      ,{ring2=gear.CritRing})
+	sets.precast.WS['Mandalic Stab'].Power.SA = set_combine(sets.precast.WS['Mandalic Stab'].Power,{ring2=gear.CritRing})
+	sets.precast.WS['Mandalic Stab'].Acc.SA   = set_combine(sets.precast.WS['Mandalic Stab'].Acc  ,{ring2=gear.CritRing})
 	
 	-- TA WS
-	sets.precast.WS.TA                       = set_combine(sets.precast.WS,sets.buff['Trick Attack'])
-	sets.precast.WS.HNM.TA                   = set_combine(sets.precast.WS.HNM,sets.buff['Trick Attack'])
+	sets.precast.WS.TA                        = set_combine(sets.precast.WS      ,{head="Maat's cap",ear1="Drone earring",hands="Rogue's armlets +1",ring2=gear.CritRing})
+	sets.precast.WS.Power.TA                  = set_combine(sets.precast.WS.Power,{head="Maat's cap",ear1="Drone earring",hands="Rogue's armlets +1",ring2=gear.CritRing})
+	sets.precast.WS.Acc.TA                    = set_combine(sets.precast.WS.Acc  ,{head="Maat's cap",ear1="Drone earring",hands="Rogue's armlets +1",ring2=gear.CritRing})
 	
-	sets.precast.WS['Shark Bite'].TA         = set_combine(sets.precast.WS['Shark Bite'],sets.buff['Trick Attack'])
-	sets.precast.WS['Shark Bite'].HNM.TA     = set_combine(sets.precast.WS['Shark Bite'].HNM,sets.buff['Trick Attack'])
+	sets.precast.WS['Shark Bite'].TA          = set_combine(sets.precast.WS['Shark Bite']      ,{ear1="Drone earring",hands="Rogue's armlets +1",ring2=gear.CritRing})
+	sets.precast.WS['Shark Bite'].Power.TA    = set_combine(sets.precast.WS['Shark Bite'].Power,{head="Maat's cap",ear1="Drone earring",hands="Rogue's armlets +1",ring2=gear.CritRing})
+	sets.precast.WS['Shark Bite'].Acc.TA      = set_combine(sets.precast.WS['Shark Bite'].Acc  ,{ear1="Drone earring",hands="Rogue's armlets +1",ring2=gear.CritRing})
 	
-	sets.precast.WS['Mercy Stroke'].TA       = set_combine(sets.precast.WS['Mercy Stroke'],{head="Maat's cap",ear1="Drone earring",hands="Rogue's armlets +1",ring2="Blobnag ring"})
-	sets.precast.WS['Mercy Stroke'].HNM.TA   = set_combine(sets.precast.WS['Mercy Stroke'].HNM,{head="Maat's cap",ear1="Triumph earring",hands="Rogue's armlets +1",ring2="Blobnag ring"})
+	sets.precast.WS['Mercy Stroke'].TA        = set_combine(sets.precast.WS['Mercy Stroke']      ,{head="Maat's cap",ear1="Drone earring",hands="Rogue's armlets +1",ring2=gear.CritRing})
+	sets.precast.WS['Mercy Stroke'].Power.TA  = set_combine(sets.precast.WS['Mercy Stroke'].Power,{ear1="Drone earring",hands="Rogue's armlets +1",ring2=gear.CritRing})
+	sets.precast.WS['Mercy Stroke'].Acc.TA    = set_combine(sets.precast.WS['Mercy Stroke'].Acc  ,{head="Maat's cap",ear1="Drone earring",hands="Rogue's armlets +1",ring2=gear.CritRing})
+	
+	sets.precast.WS['Mandalic Stab'].TA       = set_combine(sets.precast.WS['Mandalic Stab']      ,{head="Maat's cap",ear1="Drone earring",hands="Rogue's armlets +1",ring2=gear.CritRing,back="Assassin's cape"})
+	sets.precast.WS['Mandalic Stab'].Power.TA = set_combine(sets.precast.WS['Mandalic Stab'].Power,{head="Maat's cap",ear1="Drone earring",hands="Rogue's armlets +1",ring2=gear.CritRing,back="Assassin's cape"})
+	sets.precast.WS['Mandalic Stab'].Acc.TA   = set_combine(sets.precast.WS['Mandalic Stab'].Acc  ,{head="Maat's cap",ear1="Drone earring",body="Antares harness",hands="Rogue's armlets +1",ring2=gear.CritRing,back="Assassin's cape"})
 	
 	-- SATA WS
-	sets.precast.WS.SATA                     = set_combine(sets.precast.WS,sets.buff['Sneak Attack'],sets.buff['Trick Attack'])
-	sets.precast.WS.HNM.SATA                 = set_combine(sets.buff['Sneak Attack'],sets.buff['Trick Attack'],{head="Hecatomb cap +1",ear1="Triumph earring",body="Hecatomb harness",feet="Hecatomb leggings +1"})
-	
-	sets.precast.WS['Shark Bite'].SATA       = set_combine(sets.precast.WS['Shark Bite'],{})
-	sets.precast.WS['Shark Bite'].HNM.SATA   = set_combine(sets.precast.WS['Shark Bite'].HNM,{})
-	
-	sets.precast.WS['Mercy Stroke'].SATA     = set_combine(sets.precast.WS['Mercy Stroke'],{head="Maat's cap",ear1="Pixie earring",body="Antares harness",hands="Rogue's armlets +1",back="Commander's cape",legs="Hecatomb subligar +1"})
-	sets.precast.WS['Mercy Stroke'].HNM.SATA = set_combine(sets.precast.WS['Mercy Stroke'].HNM,{head="Maat's cap",ear1="Pixie earring",hands="Rogue's armlets +1",back="Commander's cape",legs="Hecatomb subligar +1"})
+	sets.precast.WS.SATA                        = set_combine(sets.precast.WS.TA,{back="Assassin's cape"})
+	sets.precast.WS.Power.SATA                  = set_combine(sets.precast.WS.Power.TA,{ear1="Triumph earring",back="Assassin's cape"})
+	sets.precast.WS.Acc.SATA                    = set_combine(sets.precast.WS.Acc.TA,{})
 
+	sets.precast.WS['Shark Bite'].SATA          = set_combine(sets.precast.WS['Shark Bite'].TA,{})
+	sets.precast.WS['Shark Bite'].Power.SATA    = set_combine(sets.precast.WS['Shark Bite'].Power.TA,{})
+	sets.precast.WS['Shark Bite'].Acc.SATA      = set_combine(sets.precast.WS['Shark Bite'].Acc.TA,{})
+	
+	sets.precast.WS['Mercy Stroke'].SATA        = set_combine(sets.precast.WS['Mercy Stroke'].TA,{back="Assassin's cape"})
+	sets.precast.WS['Mercy Stroke'].Power.SATA  = set_combine(sets.precast.WS['Mercy Stroke'].Power.TA,{})
+	sets.precast.WS['Mercy Stroke'].Acc.SATA    = set_combine(sets.precast.WS['Mercy Stroke'].Acc.TA,{})
+
+	sets.precast.WS['Mandalic Stab'].SATA       = set_combine(sets.precast.WS['Mandalic Stab'].TA,{ear1="Pixie earring"})
+	sets.precast.WS['Mandalic Stab'].Power.SATA = set_combine(sets.precast.WS['Mandalic Stab'].Power.TA,{ear1="Pixie earring"})
+	sets.precast.WS['Mandalic Stab'].Acc.SATA   = set_combine(sets.precast.WS['Mandalic Stab'].Acc.TA,{})
+	
 end
 
 function job_buff_change(name,gain)
@@ -161,35 +184,78 @@ function job_buff_change(name,gain)
 end
 
 function job_post_precast(spell,action,spellMap,eventArgs)
-
+	
+	-- no archery handling cuz lul
+	if spell.action_type == 'Ranged Attack' then
+		if state.Range.value then
+			local ammunition
+			if state.RangedMode.value ~= 'Normal' then
+				enable("ammo")
+				ammunition = tostring(state.RangedMode.value)..' Bolt'
+				send_command('find '..ammunition)
+				equip({ammo=ammunition})
+				disable("ammo")
+			end
+		else
+			cancel_spell()
+		end
+	end
+	
 	if spell.english == 'Cyclone' and state.TreasureMode.value ~= 'None' then
-        equip(sets.TreasureHunter)
-    elseif (state.Buff['Sneak Attack'] or state.Buff['Trick Attack']) and spell.type == 'WeaponSkill' then
+		equip(sets.TreasureHunter)
+	elseif (state.Buff['Sneak Attack'] or state.Buff['Trick Attack']) and spell.type == 'WeaponSkill' then
         if state.TreasureMode.value == 'SATA' then
             equip(sets.TreasureHunter)
         end
     end
+	
 	if spell.type == 'WeaponSkill' then
 		if daytime then
 			if state.Buff['Assassin\'s Charge'] then
-				equip({ear2="Fenrir's earring"})
+				if single_hit_ws:contains(spell.name) then
+					equip({ear2="Fenrir's earring"})
+				else
+					equip({ear1="Fenrir's earring"})
+				end
 			else
 				equip({ear1="Fenrir's earring"})
 			end
 		else
 			if state.Buff['Assassin\'s Charge'] then
-				if state.Buff['Trick Attack'] then
-					equip({ear2="Drone earring"})
-				else
+				if single_hit_ws:contains(spell.name) then
 					equip({ear2="Merman's earring"})
 				end
 			end
 		end
+	elseif spell.type == 'JobAbility' then
+		if state.Tank.value then
+			equip(set_combine(sets.enmityUp,sets.precast.JA[spell.english]) or sets.enmityUp)
+		else
+			equip(set_combine(sets.enmityDown,sets.precast.JA[spell.english]) or sets.enmityDown)
+		end
 	end
+	
+end
+
+function customize_melee_set(meleeSet)
+
+	if state.TreasureMode.value == 'Fulltime' then
+        meleeSet = set_combine(meleeSet, sets.TreasureHunter)
+    end
+    return meleeSet
+	
+end
+
+function customize_idle_set(idleSet)
+
+	if daytime then
+		idleSet = set_combine(idleSet,{hands="Garden bangles",waist="Lycopodium sash"})
+	end
+	return idleSet
 
 end
 
-function get_custom_wsmode(spell, spellMap, defaut_wsmode)
+function get_custom_wsmode(spell,spellMap,default_wsmode)
 
     local wsmode
     if state.Buff['Sneak Attack'] then
@@ -204,27 +270,17 @@ function get_custom_wsmode(spell, spellMap, defaut_wsmode)
 end
 
 function job_handle_equipping_gear(status,eventArgs)
-    
+
     check_buff('Sneak Attack', eventArgs)
     check_buff('Trick Attack', eventArgs)
 	check_buff('Assassin\'s Charge', eventArgs)
 	
 end
 
-function customize_melee_set(meleeSet)
-
-	if state.TreasureMode.value == 'Fulltime' then
-        meleeSet = set_combine(meleeSet, sets.TreasureHunter)
-    end
-
-    return meleeSet
+function check_buff(name,eventArgs)
 	
-end
-
-function check_buff(buff_name,eventArgs)
-	
-	if state.Buff[buff_name] then
-        equip(sets.buff[buff_name] or {})
+	if state.Buff[name] then
+        equip(sets.buff[name] or {})
         if state.TreasureMode.value == 'SATA' or state.TreasureMode.value == 'Fulltime' then
             equip(sets.TreasureHunter)
         end

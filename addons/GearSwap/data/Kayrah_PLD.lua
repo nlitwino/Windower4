@@ -20,7 +20,7 @@ end
 function user_setup()
 
 	state.IdleMode:options('Normal','SuperMDT','SuperPDT')
-	state.OffenseMode:options('Normal','Acc','Heavy','Wyrms')
+	state.OffenseMode:options('Normal','Acc','Heavy','Wyrm')
 	state.WeaponskillMode:options('Normal','Acc')
 	state.PhysicalDefenseMode:options('PDT','Breath')
 	state.MagicalDefenseMode:options('MDT')
@@ -84,7 +84,7 @@ function init_gear_sets()
 				                          ,back="Shadow mantle"       ,waist="Lycopodium sash",legs="Blood cuisses"   ,feet="Kaiser schuhs"}
 	sets.idle.Town                      = set_combine(sets.idle,{ring2="Warp ring",back="Nexus cape"})
 	                                    
-	sets.idle.SuperPDT                  = set_combine(sets.idle,sets.defense.PDT)
+	sets.idle.SuperPDT                  = set_combine(sets.idle,sets.defense.PDT,{head="Koenig schaller",feet="Gallant leggings +1"})
 	sets.idle.SuperMDT                  = set_combine(sets.idle,sets.defense.MDT)
 	
 	sets.resting                        = {ammo="Bibiki seashell",neck="Gnole torque",ear2="Relaxing earring",body="Vermillion cloak",ring2="Star ring"}
@@ -97,11 +97,11 @@ function init_gear_sets()
 	sets.engaged.Heavy                  = {head="Koenig schaller"     ,neck="Foritified chain" ,ear1="Ethereal earring",ear2="Knight's earring"
 	                                      ,body="Valhalla breastplate",hands="Koenig handschuhs",ring1="Defending ring" ,ring2="Jelly ring"
 						                  ,back="Boxer's mantle",waist="Warwolf belt",legs="Koenig diechlings",feet="Gallant leggings +1"}
-	sets.engaged.Wyrms                  = set_combine(sets.engaged.Heavy,{body="Crimson scale mail"})
+	sets.engaged.Wyrm                   = set_combine(sets.engaged.Heavy,{body="Crimson scale mail"})
 	
 	-- weaponskill 
 	sets.precast.WS                     = {head="Hecatomb cap +1"   ,neck="Fotia gorget"          ,ear1="Triumph earring"     ,ear2="Brutal earring"
-					                      ,body="Hecatomb harness"  ,hands="Alkyoneus's bracelets",ring1="Flame ring"         ,ring2="Zilant ring"
+					                      ,body="Hecatomb harness"  ,hands="Alkyoneus's bracelets",ring1="Strigoi ring"         ,ring2="Zilant ring"
 					                      ,back="Cerberus mantle +1",waist="Warwolf belt"         ,legs="Hecatomb subligar +1",feet="Hecatomb leggings +1"}
 	sets.precast.WS.Acc                 = set_combine(sets.precast.WS,{hands="Hecatomb mittens +1",ring2=gear.TRing1,back="Cuchulain's mantle"})
 	
@@ -110,7 +110,10 @@ function init_gear_sets()
 	
 	sets.precast.WS['Requiescat']       = set_combine(sets.precast.WS['Vorpal Blade'],{})
 	sets.precast.WS['Requiescat'].Acc   = set_combine(sets.precast.WS['Vorpal Blade'].Acc,{})
-
+	
+	sets.precast.WS['Atonement'] 		= set_combine(sets.enmity,{})
+	sets.precast.WS['Atonement'].Acc	= set_combine(sets.precast.WS['Atonement'],{})
+	
 end
 
 function job_buff_change(name,gain)
@@ -126,9 +129,11 @@ end
 
 function customize_melee_set(meleeSet)
 
-	if state.OffenseMode.value ~= 'Normal' then
-		if state.Buff['Copy Image (3)'] or state.Buff['Copy Image (2)'] or state.Buff['Copy Image'] then
+	if state.Buff['Copy Image (3)'] or state.Buff['Copy Image (2)'] or state.Buff['Copy Image'] then
+		if state.OffenseMode.value == 'Heavy' then
 			meleeSet = set_combine(sets.engaged.Acc,{body="Avalon breastplate",ring1="Defending ring"})
+		elseif state.OffenseMode.value == 'Wyrm' then
+			meleeSet = set_combine(sets.engaged.Acc,{body="Crimson scale mail",ring1="Defending ring"})
 		end
 	end
 	
