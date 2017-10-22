@@ -31,7 +31,7 @@ end
 function init_gear_sets()
 
 	-- misc
-	sets.enmityUp                                = {neck="Ritter gorget",ear1="Hades earring +1",body="Avalon breastplate",hands="Etoile bangles",ring2="Corneus ring",back="Cerberus mantle",waist="Trance belt"}
+	sets.enmityUp                                = {neck="Ritter gorget",ear1="Hades earring +1",body="Avalon breastplate",hands="Etoile bangles +1",ring2="Corneus ring",back="Cerberus mantle",waist="Trance belt"}
 	sets.enmityDown							     = {ammo="White tathlum",head="Zha'Go's barbut",ear1="Novia earring",body="Dancer's casaque",waist="Buccaneer's belt",legs="Raven hose"}
 	
 	-- precast ja
@@ -40,10 +40,10 @@ function init_gear_sets()
 						                           ,body="Scorpion harness +1",hands="Dancer's bangles +1",ring1=gear.TRing2,ring2=gear.TRing1
 						                           ,back="Etoile cape",waist="Lycopodium sash",legs="Oily trousers",feet="Etoile toeshoes"}
 	    -- Waltz set (chr and vit)
-    sets.precast.Waltz                           = {head="Etoile tiara"    ,neck="Flower necklace"
-						                           ,body="Dancer's casaque"     
+    sets.precast.Waltz                           = {head="Etoile tiara +1"    ,neck="Flower necklace"
+						                           ,body="Dancer's casaque"                       ,ring1="Veela ring"
 						                           ,back="Etoile cape"                            ,legs="Dancer's tights +1",feet="Volunteer's nails"}
-	sets.precast.WaltzSelf                       = set_combine(sets.precast.Waltz,{ear2="Cassie earring",ring1="Veela ring",ring2="Corneus ring",waist="Warwolf belt"})
+	sets.precast.WaltzSelf                       = set_combine(sets.precast.Waltz,{ear2="Cassie earring",hands="Etoile bangles +1",ring2="Corneus ring",waist="Warwolf belt"})
         
     -- Don't need any special gear for Healing Waltz.
     sets.precast.Waltz['Healing Waltz']          = {}
@@ -75,9 +75,9 @@ function init_gear_sets()
 	sets.idle.Town                               = set_combine(sets.idle,{ring2="Warp ring",back="Nexus cape"})
 	                                             
 	-- defense                                   
-	sets.defense.Evasion                         = {head="Gnole crown"        ,neck="Fortified chain",ear1="Novia earring"
-						                           ,body="Scorpion harness +1",hands="Etoile bangles"
-						                           ,back="Boxer's mantle"                            ,legs="Raven hose",feet="Dancer's toe shoes +1"}
+	sets.defense.Evasion                         = {head="Gnole crown"        ,neck="Fortified chain"   ,ear1="Novia earring"
+						                           ,body="Scorpion harness +1",hands="Etoile bangles +1"
+						                           ,back="Boxer's mantle"                               ,legs="Raven hose",feet="Dancer's toe shoes +1"}
 	sets.defense.PDT                             = {ammo="Bibiki seashell"
 												   ,head="Darksteel cap +1",neck="Wivre gorget +1"
 	                                               ,body="Darksteel harness +1"                   ,ring1="Defending ring"      ,ring2="Jelly ring"

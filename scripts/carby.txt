@@ -1,4096 +1,576 @@
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
-input /ma "Carbuncle" <me>
-wait 11
-input /release
-wait 2
+input /ma "Barstonra" <me>
+wait 5
+input /ma "Barwatera" <me>
+wait 5
+input /ma "Barstonra" <me>
+wait 5
+input /ma "Barwatera" <me>
+wait 5
+input /ma "Barstonra" <me>
+wait 5
+input /ma "Barwatera" <me>
+wait 5
+input /ma "Barstonra" <me>
+wait 5
+input /ma "Barwatera" <me>
+wait 5
+input /ma "Barstonra" <me>
+wait 5
+input /ma "Barwatera" <me>
+wait 5
+input /ma "Barstonra" <me>
+wait 5
+input /ma "Barwatera" <me>
+wait 5
+input /ma "Barstonra" <me>
+wait 5
+input /ma "Barwatera" <me>
+wait 5
+input /ma "Barstonra" <me>
+wait 5
+input /ma "Barwatera" <me>
+wait 5
+input /ma "Barstonra" <me>
+wait 5
+input /ma "Barwatera" <me>
+wait 5
+input /ma "Barstonra" <me>
+wait 5
+input /ma "Barwatera" <me>
+wait 5
+input /ma "Barstonra" <me>
+wait 5
+input /ma "Barwatera" <me>
+wait 5
+input /ma "Barstonra" <me>
+wait 5
+input /ma "Barwatera" <me>
+wait 5
+input /ma "Barstonra" <me>
+wait 5
+input /ma "Barwatera" <me>
+wait 5
+input /ma "Barstonra" <me>
+wait 5
+input /ma "Barwatera" <me>
+wait 5
+input /ma "Barstonra" <me>
+wait 5
+input /ma "Barwatera" <me>
+wait 5
+input /ma "Barstonra" <me>
+wait 5
+input /ma "Barwatera" <me>
+wait 5
+input /ma "Barstonra" <me>
+wait 5
+input /ma "Barwatera" <me>
+wait 5
+input /ma "Barstonra" <me>
+wait 5
+input /ma "Barwatera" <me>
+wait 5
+input /ma "Barstonra" <me>
+wait 5
+input /ma "Barwatera" <me>
+wait 5
+input /ma "Barstonra" <me>
+wait 5
+input /ma "Barwatera" <me>
+wait 5
+input /ma "Barstonra" <me>
+wait 5
+input /ma "Barwatera" <me>
+wait 5
+input /ma "Barstonra" <me>
+wait 5
+input /ma "Barwatera" <me>
+wait 5
+input /ma "Barstonra" <me>
+wait 5
+input /ma "Barwatera" <me>
+wait 5
+input /ma "Barstonra" <me>
+wait 5
+input /ma "Barwatera" <me>
+wait 5
+input /ma "Barstonra" <me>
+wait 5
+input /ma "Barwatera" <me>
+wait 5
+input /ma "Barstonra" <me>
+wait 5
+input /ma "Barwatera" <me>
+wait 5
+input /ma "Barstonra" <me>
+wait 5
+input /ma "Barwatera" <me>
+wait 5
+input /ma "Barstonra" <me>
+wait 5
+input /ma "Barwatera" <me>
+wait 5
+input /ma "Barstonra" <me>
+wait 5
+input /ma "Barwatera" <me>
+wait 5
+input /ma "Barstonra" <me>
+wait 5
+input /ma "Barwatera" <me>
+wait 5
+input /ma "Barstonra" <me>
+wait 5
+input /ma "Barwatera" <me>
+wait 5
+input /ma "Barstonra" <me>
+wait 5
+input /ma "Barwatera" <me>
+wait 5
+input /ma "Barstonra" <me>
+wait 5
+input /ma "Barwatera" <me>
+wait 5
+input /ma "Barstonra" <me>
+wait 5
+input /ma "Barwatera" <me>
+wait 5
+input /ma "Barstonra" <me>
+wait 5
+input /ma "Barwatera" <me>
+wait 5
+input /ma "Barstonra" <me>
+wait 5
+input /ma "Barwatera" <me>
+wait 5
+input /ma "Barstonra" <me>
+wait 5
+input /ma "Barwatera" <me>
+wait 5
+input /ma "Barstonra" <me>
+wait 5
+input /ma "Barwatera" <me>
+wait 5
+input /ma "Barstonra" <me>
+wait 5
+input /ma "Barwatera" <me>
+wait 5
+input /ma "Barstonra" <me>
+wait 5
+input /ma "Barwatera" <me>
+wait 5
+input /ma "Barstonra" <me>
+wait 5
+input /ma "Barwatera" <me>
+wait 5
+input /ma "Barstonra" <me>
+wait 5
+input /ma "Barwatera" <me>
+wait 5
+input /ma "Barstonra" <me>
+wait 5
+input /ma "Barwatera" <me>
+wait 5
+input /ma "Barstonra" <me>
+wait 5
+input /ma "Barwatera" <me>
+wait 5
+input /ma "Barstonra" <me>
+wait 5
+input /ma "Barwatera" <me>
+wait 5
+input /ma "Barstonra" <me>
+wait 5
+input /ma "Barwatera" <me>
+wait 5
+input /ma "Barstonra" <me>
+wait 5
+input /ma "Barwatera" <me>
+wait 5
+input /ma "Barstonra" <me>
+wait 5
+input /ma "Barwatera" <me>
+wait 5
+input /ma "Barstonra" <me>
+wait 5
+input /ma "Barwatera" <me>
+wait 5
+input /ma "Barstonra" <me>
+wait 5
+input /ma "Barwatera" <me>
+wait 5
+input /ma "Barstonra" <me>
+wait 5
+input /ma "Barwatera" <me>
+wait 5
+input /ma "Barstonra" <me>
+wait 5
+input /ma "Barwatera" <me>
+wait 5
+input /ma "Barstonra" <me>
+wait 5
+input /ma "Barwatera" <me>
+wait 5
+input /ma "Barstonra" <me>
+wait 5
+input /ma "Barwatera" <me>
+wait 5
+input /ma "Barstonra" <me>
+wait 5
+input /ma "Barwatera" <me>
+wait 5
+input /ma "Barstonra" <me>
+wait 5
+input /ma "Barwatera" <me>
+wait 5
+input /ma "Barstonra" <me>
+wait 5
+input /ma "Barwatera" <me>
+wait 5
+input /ma "Barstonra" <me>
+wait 5
+input /ma "Barwatera" <me>
+wait 5
+input /ma "Barstonra" <me>
+wait 5
+input /ma "Barwatera" <me>
+wait 5
+input /ma "Barstonra" <me>
+wait 5
+input /ma "Barwatera" <me>
+wait 5
+input /ma "Barstonra" <me>
+wait 5
+input /ma "Barwatera" <me>
+wait 5
+input /ma "Barstonra" <me>
+wait 5
+input /ma "Barwatera" <me>
+wait 5
+input /ma "Barstonra" <me>
+wait 5
+input /ma "Barwatera" <me>
+wait 5
+input /ma "Barstonra" <me>
+wait 5
+input /ma "Barwatera" <me>
+wait 5
+input /ma "Barstonra" <me>
+wait 5
+input /ma "Barwatera" <me>
+wait 5
+input /ma "Barstonra" <me>
+wait 5
+input /ma "Barwatera" <me>
+wait 5
+input /ma "Barstonra" <me>
+wait 5
+input /ma "Barwatera" <me>
+wait 5
+input /ma "Barstonra" <me>
+wait 5
+input /ma "Barwatera" <me>
+wait 5
+input /ma "Barstonra" <me>
+wait 5
+input /ma "Barwatera" <me>
+wait 5
+input /ma "Barstonra" <me>
+wait 5
+input /ma "Barwatera" <me>
+wait 5
+input /ma "Barstonra" <me>
+wait 5
+input /ma "Barwatera" <me>
+wait 5
+input /ma "Barstonra" <me>
+wait 5
+input /ma "Barwatera" <me>
+wait 5
+input /ma "Barstonra" <me>
+wait 5
+input /ma "Barwatera" <me>
+wait 5
+input /ma "Barstonra" <me>
+wait 5
+input /ma "Barwatera" <me>
+wait 5
+input /ma "Barstonra" <me>
+wait 5
+input /ma "Barwatera" <me>
+wait 5
+input /ma "Barstonra" <me>
+wait 5
+input /ma "Barwatera" <me>
+wait 5
+input /ma "Barstonra" <me>
+wait 5
+input /ma "Barwatera" <me>
+wait 5
+input /ma "Barstonra" <me>
+wait 5
+input /ma "Barwatera" <me>
+wait 5
+input /ma "Barstonra" <me>
+wait 5
+input /ma "Barwatera" <me>
+wait 5
+input /ma "Barstonra" <me>
+wait 5
+input /ma "Barwatera" <me>
+wait 5
+input /ma "Barstonra" <me>
+wait 5
+input /ma "Barwatera" <me>
+wait 5
+input /ma "Barstonra" <me>
+wait 5
+input /ma "Barwatera" <me>
+wait 5
+input /ma "Barstonra" <me>
+wait 5
+input /ma "Barwatera" <me>
+wait 5
+input /ma "Barstonra" <me>
+wait 5
+input /ma "Barwatera" <me>
+wait 5
+input /ma "Barstonra" <me>
+wait 5
+input /ma "Barwatera" <me>
+wait 5
+input /ma "Barstonra" <me>
+wait 5
+input /ma "Barwatera" <me>
+wait 5
+input /ma "Barstonra" <me>
+wait 5
+input /ma "Barwatera" <me>
+wait 5
+input /ma "Barstonra" <me>
+wait 5
+input /ma "Barwatera" <me>
+wait 5
+input /ma "Barstonra" <me>
+wait 5
+input /ma "Barwatera" <me>
+wait 5
+input /ma "Barstonra" <me>
+wait 5
+input /ma "Barwatera" <me>
+wait 5
+input /ma "Barstonra" <me>
+wait 5
+input /ma "Barwatera" <me>
+wait 5
+input /ma "Barstonra" <me>
+wait 5
+input /ma "Barwatera" <me>
+wait 5
+input /ma "Barstonra" <me>
+wait 5
+input /ma "Barwatera" <me>
+wait 5
+input /ma "Barstonra" <me>
+wait 5
+input /ma "Barwatera" <me>
+wait 5
+input /ma "Barstonra" <me>
+wait 5
+input /ma "Barwatera" <me>
+wait 5
+input /ma "Barstonra" <me>
+wait 5
+input /ma "Barwatera" <me>
+wait 5
+input /ma "Barstonra" <me>
+wait 5
+input /ma "Barwatera" <me>
+wait 5
+input /ma "Barstonra" <me>
+wait 5
+input /ma "Barwatera" <me>
+wait 5
+input /ma "Barstonra" <me>
+wait 5
+input /ma "Barwatera" <me>
+wait 5
+input /ma "Barstonra" <me>
+wait 5
+input /ma "Barwatera" <me>
+wait 5
+input /ma "Barstonra" <me>
+wait 5
+input /ma "Barwatera" <me>
+wait 5
+input /ma "Barstonra" <me>
+wait 5
+input /ma "Barwatera" <me>
+wait 5
+input /ma "Barstonra" <me>
+wait 5
+input /ma "Barwatera" <me>
+wait 5
+input /ma "Barstonra" <me>
+wait 5
+input /ma "Barwatera" <me>
+wait 5
+input /ma "Barstonra" <me>
+wait 5
+input /ma "Barwatera" <me>
+wait 5
+input /ma "Barstonra" <me>
+wait 5
+input /ma "Barwatera" <me>
+wait 5
+input /ma "Barstonra" <me>
+wait 5
+input /ma "Barwatera" <me>
+wait 5
+input /ma "Barstonra" <me>
+wait 5
+input /ma "Barwatera" <me>
+wait 5
+input /ma "Barstonra" <me>
+wait 5
+input /ma "Barwatera" <me>
+wait 5
+input /ma "Barstonra" <me>
+wait 5
+input /ma "Barwatera" <me>
+wait 5
+input /ma "Barstonra" <me>
+wait 5
+input /ma "Barwatera" <me>
+wait 5
+input /ma "Barstonra" <me>
+wait 5
+input /ma "Barwatera" <me>
+wait 5
+input /ma "Barstonra" <me>
+wait 5
+input /ma "Barwatera" <me>
+wait 5
+input /ma "Barstonra" <me>
+wait 5
+input /ma "Barwatera" <me>
+wait 5
+input /ma "Barstonra" <me>
+wait 5
+input /ma "Barwatera" <me>
+wait 5
+input /ma "Barstonra" <me>
+wait 5
+input /ma "Barwatera" <me>
+wait 5
+input /ma "Barstonra" <me>
+wait 5
+input /ma "Barwatera" <me>
+wait 5
+input /ma "Barstonra" <me>
+wait 5
+input /ma "Barwatera" <me>
+wait 5
+input /ma "Barstonra" <me>
+wait 5
+input /ma "Barwatera" <me>
+wait 5
+input /ma "Barstonra" <me>
+wait 5
+input /ma "Barwatera" <me>
+wait 5
+input /ma "Barstonra" <me>
+wait 5
+input /ma "Barwatera" <me>
+wait 5
+input /ma "Barstonra" <me>
+wait 5
+input /ma "Barwatera" <me>
+wait 5
+input /ma "Barstonra" <me>
+wait 5
+input /ma "Barwatera" <me>
+wait 5
+input /ma "Barstonra" <me>
+wait 5
+input /ma "Barwatera" <me>
+wait 5
+input /ma "Barstonra" <me>
+wait 5
+input /ma "Barwatera" <me>
+wait 5
+input /ma "Barstonra" <me>
+wait 5
+input /ma "Barwatera" <me>
+wait 5
+input /ma "Barstonra" <me>
+wait 5
+input /ma "Barwatera" <me>
+wait 5
+input /ma "Barstonra" <me>
+wait 5
+input /ma "Barwatera" <me>
+wait 5
+input /ma "Barstonra" <me>
+wait 5
+input /ma "Barwatera" <me>
+wait 5
+input /ma "Barstonra" <me>
+wait 5
+input /ma "Barwatera" <me>
+wait 5
+input /ma "Barstonra" <me>
+wait 5
+input /ma "Barwatera" <me>
+wait 5
+input /ma "Barstonra" <me>
+wait 5
+input /ma "Barwatera" <me>
+wait 5
+input /ma "Barstonra" <me>
+wait 5
+input /ma "Barwatera" <me>
+wait 5
+input /ma "Barstonra" <me>
+wait 5
+input /ma "Barwatera" <me>
+wait 5
+input /ma "Barstonra" <me>
+wait 5
+input /ma "Barwatera" <me>
+wait 5
+input /ma "Barstonra" <me>
+wait 5
+input /ma "Barwatera" <me>
+wait 5
+input /ma "Barstonra" <me>
+wait 5
+input /ma "Barwatera" <me>
+wait 5
+input /ma "Barstonra" <me>
+wait 5
+input /ma "Barwatera" <me>
+wait 5
+input /ma "Barstonra" <me>
+wait 5
+input /ma "Barwatera" <me>
+wait 5
+input /ma "Barstonra" <me>
+wait 5
+input /ma "Barwatera" <me>
+wait 5
+input /ma "Barstonra" <me>
+wait 5
+input /ma "Barwatera" <me>
+wait 5
+input /ma "Barstonra" <me>
+wait 5
+input /ma "Barwatera" <me>
+wait 5
+input /ma "Barstonra" <me>
+wait 5
+input /ma "Barwatera" <me>
+wait 5
+input /ma "Barstonra" <me>
+wait 5
+input /ma "Barwatera" <me>
+wait 5

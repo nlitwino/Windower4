@@ -41,7 +41,7 @@ function init_gear_sets()
 										      --sub="Thief's knife"
 	-- buff                                  
 	sets.buff['Sneak Attack']                = {head="Hecatomb cap",neck="Spike necklace",ear1="Pixie earring",hands="Enkidu's mittens",ring1="Rajas ring",legs="Hecatomb subligar",feet="Enkidu's leggings"}
-	sets.buff['Trick Attack'] 		         = {head="Enkidu's cap",body="Enkidu's harness",hands="Assassin's armlets",ring2="Celerity ring",feet="Enkidu's leggings"}
+	sets.buff['Trick Attack'] 		         = {head="Enkidu's cap",body="Enkidu's harness",hands="Rogue's armlets +1",ring2="Celerity ring",feet="Enkidu's leggings"}
 	sets.buff['Assassin\'s Charge']			 = {ear2="Hollow earring"}
 	                                         
 	-- precast ja                            
@@ -135,11 +135,11 @@ function init_gear_sets()
 	sets.precast.WS.SATA                     = set_combine(sets.precast.WS,sets.buff['Sneak Attack'],sets.buff['Trick Attack'])
 	sets.precast.WS.HNM.SATA                 = set_combine(sets.buff['Sneak Attack'],sets.buff['Trick Attack'],{head="Hecatomb cap",ear1="Bushinomimi",body="Hecatomb harness",feet="Hecatomb leggings +1"})
 	
-	sets.precast.WS['Shark Bite'].SATA       = set_combine(sets.precast.WS['Shark Bite'],{})
-	sets.precast.WS['Shark Bite'].HNM.SATA   = set_combine(sets.precast.WS['Shark Bite'].HNM,{})
+	sets.precast.WS['Shark Bite'].SATA       = set_combine(sets.precast.WS['Shark Bite'],{hands="Rogue's armlets +1"})
+	sets.precast.WS['Shark Bite'].HNM.SATA   = set_combine(sets.precast.WS['Shark Bite'].HNM,{hands="Rogue's armlets +1"})
 	
-	sets.precast.WS['Mercy Stroke'].SATA     = set_combine(sets.precast.WS['Mercy Stroke'],{ear1="Pixie earring",hands="Hecatomb mittens",legs="Hecatomb subligar"})
-	sets.precast.WS['Mercy Stroke'].HNM.SATA = set_combine(sets.precast.WS['Mercy Stroke'].HNM,{ear1="Pixie earring",hands="Hecatomb mittens",legs="Hecatomb subligar"})
+	sets.precast.WS['Mercy Stroke'].SATA     = set_combine(sets.precast.WS['Mercy Stroke'],{ear1="Pixie earring",hands="Rogue's armlets +1",legs="Hecatomb subligar"})
+	sets.precast.WS['Mercy Stroke'].HNM.SATA = set_combine(sets.precast.WS['Mercy Stroke'].HNM,{ear1="Pixie earring",hands="Rogue's armlets +1",legs="Hecatomb subligar"})
 
 end
 

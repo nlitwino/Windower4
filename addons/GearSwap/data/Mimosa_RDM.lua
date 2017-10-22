@@ -1,12 +1,16 @@
 function get_sets()
 
 	mote_include_version = 2
-	include('organizer-lib.lua')
+
 	include('Mote-Include.lua')
 	
 end
 
 function job_setup()
+	
+	include('Kay-Include.lua')
+		
+	initialize_job()
 	
 end
 

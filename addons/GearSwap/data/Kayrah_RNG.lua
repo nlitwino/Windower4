@@ -67,7 +67,7 @@ function init_gear_sets()
 												,body="Hachiryu haramaki" ,hands="Dusk gloves +1",ring1="Rajas ring"     ,ring2=gear.TRing1
 												,back="Cuchulain's mantle",waist="Velocious belt",legs="Byakko's haidate",feet="Dusk ledelsens +1"}
 	sets.engaged.DW                           = set_combine(sets.engaged,{ear1="Suppanomimi"})
-	sets.engaged.HNM                          = set_combine(sets.engaged,{head="Genbu's help"      ,neck="Orochi nodowa" ,ear1="Merman's earring",ear2="Merman's earring"
+	sets.engaged.HNM                          = set_combine(sets.engaged,{head="Genbu's helm"      ,neck="Orochi nodowa" ,ear1="Merman's earring",ear2="Merman's earring"
 																		 ,body="Avalon breastplate",hands="Seiryu's kote",ring1="Defending ring" ,ring2="Shadow ring"
 																		 ,back="Shadow mantle"     ,waist="Resolute belt",legs="Blood cuisses"   ,feet="Suzaku's sune-ate"})
 	
