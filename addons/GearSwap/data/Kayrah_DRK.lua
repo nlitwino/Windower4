@@ -99,9 +99,9 @@ function init_gear_sets()
 	
 	-- apoc engaged (SAM)               
 	sets.engaged.Apocalypse.SAM         = {ammo="White tathlum"
-									      ,head="Walahra turban"  ,neck="Chivalrous chain",ear1="Abyssal earring",ear2="Brutal earring"
-									      ,body="Aurum cuirass"   ,hands="Dusk gloves +1" ,ring1="Rajas ring"    ,ring2=gear.TRing1
-									      ,back="Cerberus mantle +1",waist="Velocious belt" ,legs="Homam cosciales",feet="Dusk ledelsens +1"}
+									      ,head="Walahra turban"   ,neck="Almah torque"      ,ear1="Abyssal earring",ear2="Brutal earring"
+									      ,body="Aurum cuirass"    ,hands="Dusk gloves +1"   ,ring1=gear.TRing2     ,ring2=gear.TRing1
+									      ,back="Cerberus mantle +1",waist="Velocious belt" ,legs="Homam cosciales" ,feet="Dusk ledelsens +1"}
 	sets.engaged.Apocalypse.Acc.SAM     = set_combine(sets.engaged.Apocalypse.SAM,{back="Cuchulain's mantle",hands="Homam manopolas",feet="Homam gambieras"})
 	                                    
 	sets.engaged.Apocalypse.SAM.AM      = set_combine(sets.engaged.Apocalypse.SAM,{waist="Warwolf belt"})
@@ -138,7 +138,7 @@ function init_gear_sets()
 	                                          
 	-- ws                                    
 	sets.precast.WS                     = {ammo="Bomb core"
-									      ,head="Hecatomb cap +1"      ,neck="Fotia gorget"          ,ear1="Fowling earring",ear2="Brutal earring"
+									      ,head="Hecatomb cap +1"   ,neck="Fotia gorget"          ,ear1="Fowling earring",ear2="Brutal earring"
 									      ,body="Armada hauberk"    ,hands="Alkyoneus's bracelets",ring1="Rajas ring"    ,ring2="Strigoi ring"
 									      ,back="Cerberus mantle +1",waist="Warwolf belt"         ,legs="Onyx cuisses"   ,feet="Hecatomb leggings +1"}
 	sets.precast.WS.Acc                 = set_combine(sets.precast.WS,{ammo="Fire bomblet",neck="Peacock amulet",ring2=gear.TRing1,back="Cuchulain's mantle"})
@@ -164,9 +164,6 @@ end
 
 function job_post_precast(spell,action,spellMap,eventArgs)
 
-	if spell.name == 'Catastrophe' then
-		equip({ammo="White tathlum"})
-	end
 	if spell.type == 'WeaponSkill' and daytime then
 		if (state.WeaponskillMode.value == 'Normal' and state.CombatWeapon.value == 'Apocalypse') or state.CombatWeapon.value == 'Ragnarok' then
 			equip({ear1="Fenrir's earring"})

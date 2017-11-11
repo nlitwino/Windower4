@@ -15,3 +15,22 @@ System.ComponentModel.Win32Exception (0x80004005): The parameter is incorrect
    at System.Threading.ThreadHelper.ThreadStart()
 `````````````````````````````````````````````````````````````````````
 
+`````````````````````````````````````````````````````````````````````
+[ 4.3.6504.11447 ] 2017-10-28 22:42:15.3689680 UTC
+---------------------------------------------------------------------
+System.IO.IOException: The process cannot access the file 'D:\Program Files (x86)\Windower4\scripts\autoload\profile.Mimosa.txt' because it is being used by another process.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share)
+   at System.IO.File.Open(String path, FileMode mode)
+   at Launcher.Injector.Launch(String hook, Profile profile, Boolean debug, TimeSpan timeout)
+   at Launcher.Tasks.LaunchTask.Run()
+   at Launcher.Tasks.Task.Run(Core core)
+   at Launcher.Core.Run()
+   at System.Threading.ThreadHelper.ThreadStart_Context(Object state)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.ThreadHelper.ThreadStart()
+`````````````````````````````````````````````````````````````````````
+

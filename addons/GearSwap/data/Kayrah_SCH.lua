@@ -205,7 +205,7 @@ function customize_idle_set(idleSet)
 	if state.Buff['Sublimation: Activated'] then
 		idleSet = set_combine(idleSet,sets.sublimation)
 	else
-		if player.mpp > 75 then 
+		if player.mpp > 95 then 
 			idleSet = set_combine(idleSet,{main="Terra's staff"})
 		end
 	end

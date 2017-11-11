@@ -56,11 +56,11 @@ function init_gear_sets()
 	sets.precast.FC                          = {ear2="Loquacious earring",legs="Homam cosciales"}
 	                                         
 	-- midcast magic                         
-	sets.midcast.FastRecast                  = set_combine(sets.precast.FC,{head="Walahra turban",body="Rapparee harness",hands="Dusk gloves",waist="Velocious belt",legs="Homam cosciales",feet="Dusk ledelsens"})
+	sets.midcast.FastRecast                  = set_combine(sets.precast.FC,{head="Walahra turban",body="Rapparee harness",hands="Dusk gloves",waist="Velocious belt",legs="Homam cosciales",feet="Dusk ledelsens +1"})
 	sets.midcast['Ninjutsu']                 = set_combine(sets.midcast.FastRecast,{})
 	                                         
 	-- idle                                  
-	sets.idle                                = {head="Hecatomb cap"  ,neck="Chocobo whistle"  ,ear1="Suppanomimi"      ,ear2="Hollow earring"
+	sets.idle                                = {head="Hecatomb cap"  ,neck="Chocobo whistle"  ,ear1="Suppanomimi"      ,ear2="Brutal earring"
 										       ,body="Homam corazza" ,hands="Hecatomb mittens",ring1="Rajas ring"      ,ring2="Celerity ring"
 										       ,back="Cerberus cape" ,waist="Lycopodium sash" ,legs="Hecatomb subligar",feet="Trotter boots"}
 	sets.idle.Town                           = set_combine(sets.idle,{back="Nexus cape",ring2="Warp ring"})
@@ -68,14 +68,14 @@ function init_gear_sets()
 	sets.resting                             = {}
 	                                         
 	-- defense                               
-	sets.defense.Evasion                     = {}
+	sets.defense.Evasion                     = {body="Scorpion harness +1"}
 	sets.defense.PDT                         = {}
 	sets.defense.MDT                         = {waist="Resolute belt"}
 	                                         
 	-- engaged                               
 	sets.engaged                             = {head="Walahra turban"  ,neck="Chivalrous chain" ,ear1="Suppanomimi"    ,ear2="Brutal earring"
 										       ,body="Rapparee harness",hands="Homam manopolas"  ,ring1="Rajas ring"    ,ring2="Sniper's ring +1"
-										       ,back="Forager's mantle",waist="Velocious belt"  ,legs="Homam cosciales",feet="Homam gambieras"}
+										       ,back="Forager's mantle",waist="Velocious belt"  ,legs="Homam cosciales",feet="Dusk ledelsens +1"}
 	sets.engaged.HybridAcc                   = set_combine(sets.engaged,{neck="Peacock amulet",ring1="Sniper's ring +1"})
 	sets.engaged.Acc                         = set_combine(sets.engaged.HybridAcc,{body="Homam corazza",hands="Enkidu's mittens"})
 	                                         

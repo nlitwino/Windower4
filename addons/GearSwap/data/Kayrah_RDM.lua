@@ -74,7 +74,7 @@ function init_gear_sets()
 	sets.midcast['Utsusemi: Ichi']                     = set_combine(sets.midcast['Ninjutsu'],{neck="Fortified chain",ear1="Magnetic earring",ring1="Defending ring",waist="Resolute belt",back="Prism cape"})
 	sets.midcast['Utsusemi: Ni']                       = set_combine(sets.midcast['Ninjutsu'],{})
 	                                                   
-	sets.midcast['Healing Magic']                      = set_combine(sets.MND,{ear2="Magnetic earring",body="Duelist's tabard",legs="Warlock's tights"})
+	sets.midcast['Healing Magic']                      = set_combine(sets.MND,{ear1="Roundel earring",ear2="Magnetic earring",body="Duelist's tabard",legs="Warlock's tights"})
 	                                                   
 	sets.midcast['Divine Magic']                       = set_combine(sets.MND,{head="Elite beret"})
 	                                                   
@@ -84,14 +84,14 @@ function init_gear_sets()
 	sets.midcast['Enfeebling Magic']['BlackMagic'].Acc = set_combine(sets.midcast['Enfeebling Magic']['BlackMagic'],sets.midcast['Enfeebling Magic'],{ammo="Sturm's report"})
 	
 	sets.midcast['Enfeebling Magic']['WhiteMagic']     = set_combine(sets.MND,{ammo="Sturm's report"})
-	sets.midcast['Enfeebling Magic']['WhiteMagic'].Acc = set_combine(sets.midcast['Enfeebling Magic']['WhiteMagic'],sets.midcast['Enfeebling Magic'])
+	sets.midcast['Enfeebling Magic']['WhiteMagic'].Acc = set_combine(sets.midcast['Enfeebling Magic']['WhiteMagic'],sets.midcast['Enfeebling Magic'],{ammo="Sturm's report"})
 	
 	sets.midcast['Elemental Magic']					   = set_combine(sets.INT,{ear1="Moldavite earring",hands="Zenith mitts",feet="Duelist's boots"})
-	sets.midcast['Elemental Magic'].Acc				   = set_combine(sets.midcast['Elemental Magic'],{legs="Duelist's tights",feet="Nashira crackows"})
+	sets.midcast['Elemental Magic'].Acc				   = set_combine(sets.midcast['Elemental Magic'],{ammo="Sturm's report",legs="Duelist's tights",feet="Nashira crackows"})
 	                                                   
 	sets.midcast['Dark Magic']						   = set_combine(sets.INT,{ammo="Sturm's report",neck="Dark torque",ear2="Loquacious earring",body="Nashira manteel",hands="Blood finger gauntlets"})
 	                                                   
-	sets.midcast['Enhancing Magic']                    = set_combine(sets.midcast.FastRecast,{ear2="Magnetic earring",hands="Duelist's gloves",waist="Hachirin-no-obi",legs="Warlock's tights"})
+	sets.midcast['Enhancing Magic']                    = set_combine(sets.midcast.FastRecast,{ear2="Magnetic earring",hands="Duelist's gloves",waist="Velocious belt",legs="Warlock's tights"})
 	                                                   
 	-- custom midcast magic                            
 	sets.midcast['Stoneskin']                          = set_combine(sets.MND,sets.midcast.FastRecast,{ear2="Magnetic earring"})

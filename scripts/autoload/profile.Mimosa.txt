@@ -20,7 +20,6 @@ load InfoBar;
 load LightLuggage;
 load Run;
 load SSOrganizer;
-load StatusTimer;
 load Tickle;
 load Timers;
 load WinControl;

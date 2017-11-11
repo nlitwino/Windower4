@@ -70,7 +70,7 @@ function init_gear_sets()
 															  ,body="Errant houppelande",hands="Errant cuffs"         ,ring1="Tamas ring"    ,ring2="Snow ring"
 															  ,back="Prism cape"        ,waist="Sorcerer's belt"      ,legs="Mahatma slops"  ,feet="Rostrum pumps"}
 	
-	sets.midcast['Healing Magic'] 							= set_combine(sets.MND,{})
+	sets.midcast['Healing Magic'] 							= set_combine(sets.MND,{ear1="Roundel earring"})
 	sets.midcast['Divine Magic'] 							= set_combine(sets.MND,{})
 	
 	sets.midcast['Enfeebling Magic']      					= {head="Sorcerer's petasos",body="Wizard's coat",legs="Igqira lappas",feet="Avocat pigaches"}

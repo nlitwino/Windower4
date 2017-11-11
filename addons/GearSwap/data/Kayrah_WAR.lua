@@ -89,12 +89,12 @@ function init_gear_sets()
 	sets.engaged.Ragnarok.SAM.Acc 			= set_combine(sets.engaged.Ragnarok.SAM,{back="Cuchulain's mantle"})
 				
 	-- dual wield engaged			
-	sets.engaged.DW               			= set_combine(sets.engaged,{ear1="Suppanomimi",ring1=gear.TRing2})
+	sets.engaged.DW               			= set_combine(sets.engaged,{neck="Ancient torque",ear1="Suppanomimi",ear2="Fowling earring",ring1="Rajas ring",ring2="Zilant ring"})
 	sets.engaged.DW.Acc           			= set_combine(sets.engaged.DW,{ammo="Fire bomblet",back="Cuchulain's mantle",feet="Aurum sabatons"})
 	
 	--Weaponskill Sets
 	sets.precast.WS                         = {ammo="Bomb core"
-					                          ,head="Hecatomb cap +1"      ,neck="Fotia gorget"                                  ,ear2="Brutal earring"
+					                          ,head="Hecatomb cap +1"   ,neck="Fotia gorget"                                  ,ear2="Brutal earring"
 					                          ,body="Armada hauberk"    ,hands="Alkyoneus's bracelets",ring1="Rajas ring"     ,ring2="Strigoi ring"
 					                          ,back="Cerberus mantle +1",waist="Warwolf belt"         ,legs="Hachiryu haidate",feet="Hecatomb leggings +1"}
 	sets.precast.WS.Acc                     = set_combine(sets.precast.WS,{ammo="Fire bomblet",ear1="Fowling earring",back="Cuchulain's mantle",waist="Warrior's stone"})
@@ -208,7 +208,7 @@ end
 
 function customize_melee_set(meleeSet)
 
-	if daytime and state.OffenseMode.value == 'Normal' then
+	if daytime and state.OffenseMode.value == 'Normal' and state.CombatWeapon.value ~= 'DW' then
         meleeSet = set_combine(meleeSet,{ear1="Fenrir's earring"})
     end
 

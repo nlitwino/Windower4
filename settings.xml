@@ -41,7 +41,6 @@
     <plugin>SSOrganizer</plugin>
     <plugin>Bidder</plugin>
     <plugin>WinControl</plugin>
-    <plugin>StatusTimer</plugin>
   </autoload>
   <profile name="">
     <consolekey>Insert</consolekey>

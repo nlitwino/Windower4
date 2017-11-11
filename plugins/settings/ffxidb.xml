@@ -9,16 +9,16 @@
         <ShowMob>true</ShowMob>
         <ShowMarker>true</ShowMarker>
         <ShowTargetLine>true</ShowTargetLine>
-        <Ranges></Ranges>
+        <Ranges />
     </global>
     <Mimosa>
         <X>1118</X>
         <Y>104</Y>
-        <Zoom>20</Zoom>
+        <Zoom>30</Zoom>
     </Mimosa>
     <Kayrah>
-        <X>1486</X>
-        <Y>99</Y>
+        <X>1839</X>
+        <Y>59</Y>
         <Zoom>20</Zoom>
     </Kayrah>
     <Ixius>
@@ -65,7 +65,7 @@
     <Mian>
         <X>1056</X>
         <Y>54</Y>
-        <Zoom>30</Zoom>
+        <Zoom>10</Zoom>
     </Mian>
     <Ixiustwopointoh>
         <X>422</X>

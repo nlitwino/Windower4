@@ -163,7 +163,7 @@ function init_gear_sets()
 	sets.precast.FastRecast 								= {head="Walahra turban"}
        
 	-- midcast magic
-	sets.midcast['Healing Magic'] 							= set_combine(sets.MND,{ammo="Sturm's report"})
+	sets.midcast['Healing Magic'] 							= set_combine(sets.MND,{ammo="Sturm's report",ear1="Roundel earring"})
 	sets.midcast['Divine Magic'] 							= set_combine(sets.MND,{ammo="Sturm's report",back="Prism cape"})
 	
 	sets.midcast['Enfeebling Magic']      					= {ammo="Sturm's report",head="Elite beret",neck="Spider torque",hands="Oracle's gloves",feet="Avocat pigaches"}

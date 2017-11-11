@@ -36,13 +36,13 @@ function init_gear_sets()
 	
 	-- precast ja
 	sets.precast.Step                            = {ammo="Black tathlum"
-						                           ,head="Enkidu's cap",neck="Ancient torque"  ,ear2="Pixie earring"
-						                           ,body="Scorpion harness +1",hands="Dancer's bangles +1",ring1=gear.TRing2,ring2=gear.TRing1
-						                           ,back="Etoile cape",waist="Lycopodium sash",legs="Oily trousers",feet="Etoile toeshoes"}
+						                           ,head="Enkidu's cap"       ,neck="Ancient torque"                           ,ear2="Pixie earring"
+						                           ,body="Scorpion harness +1",hands="Dancer's bangles +1",ring1=gear.TRing2   ,ring2=gear.TRing1
+						                           ,back="Etoile cape"        ,waist="Lycopodium sash"    ,legs="Oily trousers",feet="Etoile toeshoes"}
 	    -- Waltz set (chr and vit)
-    sets.precast.Waltz                           = {head="Etoile tiara +1"    ,neck="Flower necklace"
-						                           ,body="Dancer's casaque"                       ,ring1="Veela ring"
-						                           ,back="Etoile cape"                            ,legs="Dancer's tights +1",feet="Volunteer's nails"}
+    sets.precast.Waltz                           = {head="Etoile tiara +1"    ,neck="Flower necklace",ear1="Roundel earring"
+						                           ,body="Dancer's casaque +1"                       ,ring1="Veela ring"
+						                           ,back="Etoile cape"                               ,legs="Dancer's tights +1",feet="Volunteer's nails"}
 	sets.precast.WaltzSelf                       = set_combine(sets.precast.Waltz,{ear2="Cassie earring",hands="Etoile bangles +1",ring2="Corneus ring",waist="Warwolf belt"})
         
     -- Don't need any special gear for Healing Waltz.
@@ -52,9 +52,9 @@ function init_gear_sets()
 	                                             
     sets.precast.Jig                             = {legs="Etoile tights", feet="Dancer's toe shoes +1"}
 	                                             
-    sets.precast.JA['Violent Flourish']          = {head="Walahra turban",neck="Chivalrous chain"    ,ear1="Triumph earring"  ,ear2="Brutal earring"
-	                                               ,body="Etoile casaque",hands="Dancer's bangles +1",ring1="Rajas ring"
-												   ,back="Bushido cape"  ,waist="Warwolf belt"       ,legs="Enkidu's subligar",feet="Rutter sabatons"}
+    sets.precast.JA['Violent Flourish']          = {head="Enkidu's cap"      ,neck="Ancient torque"                        ,ear2="Pixie earring" 
+	                                               ,body="Etoile casaque"    ,hands="Enkidu's mittens",ring1="Omega ring"
+												   ,back="Cuchulain's mantle",waist="Lycopodium sash" ,legs="Oily trousers",feet="Etoile toeshoes"}
     sets.precast.JA['Desperate Flourish']        = set_combine(sets.precast.Step,{hands="Enkidu's mittens"})
 	sets.precast.JA['Wild Flourish']             = set_combine(sets.precast.JA['Desperate Flourish'])
 	
@@ -110,8 +110,8 @@ function init_gear_sets()
 	sets.precast.WS['Evisceration']              = set_combine(sets.precast.WS,{})
 	sets.precast.WS['Evisceration'].Power        = set_combine(sets.precast.WS.Power,{})
 	                                             
-	sets.precast.WS['Pyrrhic Kleos']             = set_combine(sets.precast.WS,{hands="Enkidu's mittens"})
-	sets.precast.WS['Pyrrhic Kleos'].Power       = set_combine(sets.precast.WS['Pyrrhic Kleos'],{head="Gnadbhod's helm",hands="Alkyoneus's bracelets"})
+	sets.precast.WS['Pyrrhic Kleos']             = set_combine(sets.precast.WS,{body="Dancer's casaque +1",hands="Enkidu's mittens"})
+	sets.precast.WS['Pyrrhic Kleos'].Power       = set_combine(sets.precast.WS['Pyrrhic Kleos'],{head="Gnadbhod's helm",body="Etoile casaque",hands="Alkyoneus's bracelets"})
 	
 end
 

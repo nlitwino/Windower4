@@ -1,256 +1,256 @@
 input /ma "Stone" <t>
-wait 7
+wait 4
 input /ma "Water" <t>
-wait 7
+wait 4
 input /ma "Stone" <t>
-wait 7
+wait 4
 input /ma "Water" <t>
-wait 7
+wait 4
 input /ma "Stone" <t>
-wait 7
+wait 4
 input /ma "Water" <t>
-wait 7
+wait 4
 input /ma "Stone" <t>
-wait 7
+wait 4
 input /ma "Water" <t>
-wait 7
+wait 4
 input /ma "Stone" <t>
-wait 7
+wait 4
 input /ma "Water" <t>
-wait 7
+wait 4
 input /ma "Stone" <t>
-wait 7
+wait 4
 input /ma "Water" <t>
-wait 7
+wait 4
 input /ma "Stone" <t>
-wait 7
+wait 4
 input /ma "Water" <t>
-wait 7
+wait 4
 input /ma "Stone" <t>
-wait 7
+wait 4
 input /ma "Water" <t>
-wait 7
+wait 4
 input /ma "Stone" <t>
-wait 7
+wait 4
 input /ma "Water" <t>
-wait 7
+wait 4
 input /ma "Stone" <t>
-wait 7
+wait 4
 input /ma "Water" <t>
-wait 7
+wait 4
 input /ma "Stone" <t>
-wait 7
+wait 4
 input /ma "Water" <t>
-wait 7
+wait 4
 input /ma "Stone" <t>
-wait 7
+wait 4
 input /ma "Water" <t>
-wait 7
+wait 4
 input /ma "Stone" <t>
-wait 7
+wait 4
 input /ma "Water" <t>
-wait 7
+wait 4
 input /ma "Stone" <t>
-wait 7
+wait 4
 input /ma "Water" <t>
-wait 7
+wait 4
 input /ma "Stone" <t>
-wait 7
+wait 4
 input /ma "Water" <t>
-wait 7
+wait 4
 input /ma "Stone" <t>
-wait 7
+wait 4
 input /ma "Water" <t>
-wait 7
+wait 4
 input /ma "Stone" <t>
-wait 7
+wait 4
 input /ma "Water" <t>
-wait 7
+wait 4
 input /ma "Stone" <t>
-wait 7
+wait 4
 input /ma "Water" <t>
-wait 7
+wait 4
 input /ma "Stone" <t>
-wait 7
+wait 4
 input /ma "Water" <t>
-wait 7
+wait 4
 input /ma "Stone" <t>
-wait 7
+wait 4
 input /ma "Water" <t>
-wait 7
+wait 4
 input /ma "Stone" <t>
-wait 7
+wait 4
 input /ma "Water" <t>
-wait 7
+wait 4
 input /ma "Stone" <t>
-wait 7
+wait 4
 input /ma "Water" <t>
-wait 7
+wait 4
 input /ma "Stone" <t>
-wait 7
+wait 4
 input /ma "Water" <t>
-wait 7
+wait 4
 input /ma "Stone" <t>
-wait 7
+wait 4
 input /ma "Water" <t>
-wait 7
+wait 4
 input /ma "Stone" <t>
-wait 7
+wait 4
 input /ma "Water" <t>
-wait 7
+wait 4
 input /ma "Stone" <t>
-wait 7
+wait 4
 input /ma "Water" <t>
-wait 7
+wait 4
 input /ma "Stone" <t>
-wait 7
+wait 4
 input /ma "Water" <t>
-wait 7
+wait 4
 input /ma "Stone" <t>
-wait 7
+wait 4
 input /ma "Water" <t>
-wait 7
+wait 4
 input /ma "Stone" <t>
-wait 7
+wait 4
 input /ma "Water" <t>
-wait 7
+wait 4
 input /ma "Stone" <t>
-wait 7
+wait 4
 input /ma "Water" <t>
-wait 7
+wait 4
 input /ma "Stone" <t>
-wait 7
+wait 4
 input /ma "Water" <t>
-wait 7
+wait 4
 input /ma "Stone" <t>
-wait 7
+wait 4
 input /ma "Water" <t>
-wait 7
+wait 4
 input /ma "Stone" <t>
-wait 7
+wait 4
 input /ma "Water" <t>
-wait 7
+wait 4
 input /ma "Stone" <t>
-wait 7
+wait 4
 input /ma "Water" <t>
-wait 7
+wait 4
 input /ma "Stone" <t>
-wait 7
+wait 4
 input /ma "Water" <t>
-wait 7
+wait 4
 input /ma "Stone" <t>
-wait 7
+wait 4
 input /ma "Water" <t>
-wait 7
+wait 4
 input /ma "Stone" <t>
-wait 7
+wait 4
 input /ma "Water" <t>
-wait 7
+wait 4
 input /ma "Stone" <t>
-wait 7
+wait 4
 input /ma "Water" <t>
-wait 7
+wait 4
 input /ma "Stone" <t>
-wait 7
+wait 4
 input /ma "Water" <t>
-wait 7
+wait 4
 input /ma "Stone" <t>
-wait 7
+wait 4
 input /ma "Water" <t>
-wait 7
+wait 4
 input /ma "Stone" <t>
-wait 7
+wait 4
 input /ma "Water" <t>
-wait 7
+wait 4
 input /ma "Stone" <t>
-wait 7
+wait 4
 input /ma "Water" <t>
-wait 7
+wait 4
 input /ma "Stone" <t>
-wait 7
+wait 4
 input /ma "Water" <t>
-wait 7
+wait 4
 input /ma "Stone" <t>
-wait 7
+wait 4
 input /ma "Water" <t>
-wait 7
+wait 4
 input /ma "Stone" <t>
-wait 7
+wait 4
 input /ma "Water" <t>
-wait 7
+wait 4
 input /ma "Stone" <t>
-wait 7
+wait 4
 input /ma "Water" <t>
-wait 7
+wait 4
 input /ma "Stone" <t>
-wait 7
+wait 4
 input /ma "Water" <t>
-wait 7
+wait 4
 input /ma "Stone" <t>
-wait 7
+wait 4
 input /ma "Water" <t>
-wait 7
+wait 4
 input /ma "Stone" <t>
-wait 7
+wait 4
 input /ma "Water" <t>
-wait 7
+wait 4
 input /ma "Stone" <t>
-wait 7
+wait 4
 input /ma "Water" <t>
-wait 7
+wait 4
 input /ma "Stone" <t>
-wait 7
+wait 4
 input /ma "Water" <t>
-wait 7
+wait 4
 input /ma "Stone" <t>
-wait 7
+wait 4
 input /ma "Water" <t>
-wait 7
+wait 4
 input /ma "Stone" <t>
-wait 7
+wait 4
 input /ma "Water" <t>
-wait 7
+wait 4
 input /ma "Stone" <t>
-wait 7
+wait 4
 input /ma "Water" <t>
-wait 7
+wait 4
 input /ma "Stone" <t>
-wait 7
+wait 4
 input /ma "Water" <t>
-wait 7
+wait 4
 input /ma "Stone" <t>
-wait 7
+wait 4
 input /ma "Water" <t>
-wait 7
+wait 4
 input /ma "Stone" <t>
-wait 7
+wait 4
 input /ma "Water" <t>
-wait 7
+wait 4
 input /ma "Stone" <t>
-wait 7
+wait 4
 input /ma "Water" <t>
-wait 7
+wait 4
 input /ma "Stone" <t>
-wait 7
+wait 4
 input /ma "Water" <t>
-wait 7
+wait 4
 input /ma "Stone" <t>
-wait 7
+wait 4
 input /ma "Water" <t>
-wait 7
+wait 4
 input /ma "Stone" <t>
-wait 7
+wait 4
 input /ma "Water" <t>
-wait 7
+wait 4
 input /ma "Stone" <t>
-wait 7
+wait 4
 input /ma "Water" <t>
-wait 7
+wait 4
 input /ma "Stone" <t>
-wait 7
+wait 4
 input /ma "Water" <t>
-wait 7
+wait 4
 input /ma "Stone" <t>
-wait 7
+wait 4
 input /ma "Water" <t>
-wait 7
+wait 4

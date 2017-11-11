@@ -94,14 +94,14 @@ function init_gear_sets()
 				                          ,body="Homam corazza"     ,hands="Dusk gloves +1",ring1=gear.TRing2,ring2=gear.TRing1
 				                          ,back="Cerberus mantle +1",waist="Velocious belt",legs="Homam cosciales",feet="Homam gambieras"}
 	sets.engaged.Acc                    = set_combine(sets.engaged,{head="Homam zucchetto",neck="Ancient torque",ear1="Ethereal earring",hands="Homam manopolas"})
-	sets.engaged.Heavy                  = {head="Koenig schaller"     ,neck="Foritified chain" ,ear1="Ethereal earring",ear2="Knight's earring"
+	sets.engaged.Heavy                  = {head="Koenig schaller"     ,neck="Fortified chain" ,ear1="Ethereal earring",ear2="Knight's earring"
 	                                      ,body="Valhalla breastplate",hands="Koenig handschuhs",ring1="Defending ring" ,ring2="Jelly ring"
 						                  ,back="Boxer's mantle",waist="Warwolf belt",legs="Koenig diechlings",feet="Gallant leggings +1"}
 	sets.engaged.Wyrm                   = set_combine(sets.engaged.Heavy,{body="Crimson scale mail"})
 	
 	-- weaponskill 
 	sets.precast.WS                     = {head="Hecatomb cap +1"   ,neck="Fotia gorget"          ,ear1="Triumph earring"     ,ear2="Brutal earring"
-					                      ,body="Hecatomb harness"  ,hands="Alkyoneus's bracelets",ring1="Strigoi ring"         ,ring2="Zilant ring"
+					                      ,body="Hecatomb harness"  ,hands="Alkyoneus's bracelets",ring1="Strigoi ring"         ,ring2=gear.TRing1
 					                      ,back="Cerberus mantle +1",waist="Warwolf belt"         ,legs="Hecatomb subligar +1",feet="Hecatomb leggings +1"}
 	sets.precast.WS.Acc                 = set_combine(sets.precast.WS,{hands="Hecatomb mittens +1",ring2=gear.TRing1,back="Cuchulain's mantle"})
 	

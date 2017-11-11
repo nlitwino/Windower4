@@ -26,7 +26,7 @@ function user_setup()
 	
 	-- Setup appropriate modes
 	state.OffenseMode:options('Normal','DW','HNM')
-	state.RangedMode:options('Normal','HybridAcc','Acc','Trash')
+	state.RangedMode:options('Normal','HybridAcc','Acc','Trash','WAR')
 	state.WeaponskillMode:options('Normal','Power','Acc','Test')
 
 end
@@ -130,7 +130,6 @@ function init_gear_sets()
 	sets.precast.WS['Coronach']               = set_combine(sets.precast.WS,{ear2="Hollow earring",ring2="Cerberus ring +1",feet="Hunter's socks +1"})
 	sets.precast.WS['Coronach'].Power         = set_combine(sets.precast.WS['Coronach'],{hands="Blood finger gauntlets",ring2="Cerberus ring +1",feet="Scout's socks +1"})
 	sets.precast.WS['Coronach'].Acc           = set_combine(sets.precast.WS['Coronach'],{ear2="Hollow earring",feet="Hachiryu sune-ate"})
-	sets.precast.WS['Coronach'].Test		  = set_combine(sets.precast.WS['Coronach'].Power,{ring2="Strigoi ring"})
 	
 end
 

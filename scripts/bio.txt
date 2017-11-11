@@ -1,630 +1,630 @@
 input /ma "Dia" <t>
-wait 8
+wait 6
 input /ma "Dia" <t>
-wait 8
+wait 6
 input /ma "Dia" <t>
-wait 8
+wait 6
 input /ma "Dia" <t>
-wait 8
+wait 6
 input /ma "Dia" <t>
-wait 8
+wait 6
 input /ma "Dia" <t>
-wait 8
+wait 6
 input /ma "Dia" <t>
-wait 8
+wait 6
 input /ma "Dia" <t>
-wait 8
+wait 6
 input /ma "Dia" <t>
-wait 8
+wait 6
 input /ma "Dia" <t>
-wait 8
+wait 6
 input /ma "Dia" <t>
-wait 8
+wait 6
 input /ma "Dia" <t>
-wait 8
+wait 6
 input /ma "Dia" <t>
-wait 8
+wait 6
 input /ma "Dia" <t>
-wait 8
+wait 6
 input /ma "Dia" <t>
-wait 8
+wait 6
 input /ma "Dia" <t>
-wait 8
+wait 6
 input /ma "Dia" <t>
-wait 8
+wait 6
 input /ma "Dia" <t>
-wait 8
+wait 6
 input /ma "Dia" <t>
-wait 8
+wait 6
 input /ma "Dia" <t>
-wait 8
+wait 6
 input /ma "Dia" <t>
-wait 8
+wait 6
 input /ma "Dia" <t>
-wait 8
+wait 6
 input /ma "Dia" <t>
-wait 8
+wait 6
 input /ma "Dia" <t>
-wait 8
+wait 6
 input /ma "Dia" <t>
-wait 8
+wait 6
 input /ma "Dia" <t>
-wait 8
+wait 6
 input /ma "Dia" <t>
-wait 8
+wait 6
 input /ma "Dia" <t>
-wait 8
+wait 6
 input /ma "Dia" <t>
-wait 8
+wait 6
 input /ma "Dia" <t>
-wait 8
+wait 6
 input /ma "Dia" <t>
-wait 8
+wait 6
 input /ma "Dia" <t>
-wait 8
+wait 6
 input /ma "Dia" <t>
-wait 8
+wait 6
 input /ma "Dia" <t>
-wait 8
+wait 6
 input /ma "Dia" <t>
-wait 8
+wait 6
 input /ma "Dia" <t>
-wait 8
+wait 6
 input /ma "Dia" <t>
-wait 8
+wait 6
 input /ma "Dia" <t>
-wait 8
+wait 6
 input /ma "Dia" <t>
-wait 8
+wait 6
 input /ma "Dia" <t>
-wait 8
+wait 6
 input /ma "Dia" <t>
-wait 8
+wait 6
 input /ma "Dia" <t>
-wait 8
+wait 6
 input /ma "Dia" <t>
-wait 8
+wait 6
 input /ma "Dia" <t>
-wait 8
+wait 6
 input /ma "Dia" <t>
-wait 8
+wait 6
 input /ma "Dia" <t>
-wait 8
+wait 6
 input /ma "Dia" <t>
-wait 8
+wait 6
 input /ma "Dia" <t>
-wait 8
+wait 6
 input /ma "Dia" <t>
-wait 8
+wait 6
 input /ma "Dia" <t>
-wait 8
+wait 6
 input /ma "Dia" <t>
-wait 8
+wait 6
 input /ma "Dia" <t>
-wait 8
+wait 6
 input /ma "Dia" <t>
-wait 8
+wait 6
 input /ma "Dia" <t>
-wait 8
+wait 6
 input /ma "Dia" <t>
-wait 8
+wait 6
 input /ma "Dia" <t>
-wait 8
+wait 6
 input /ma "Dia" <t>
-wait 8
+wait 6
 input /ma "Dia" <t>
-wait 8
+wait 6
 input /ma "Dia" <t>
-wait 8
+wait 6
 input /ma "Dia" <t>
-wait 8
+wait 6
 input /ma "Dia" <t>
-wait 8
+wait 6
 input /ma "Dia" <t>
-wait 8
+wait 6
 input /ma "Dia" <t>
-wait 8
+wait 6
 input /ma "Dia" <t>
-wait 8
+wait 6
 input /ma "Dia" <t>
-wait 8
+wait 6
 input /ma "Dia" <t>
-wait 8
+wait 6
 input /ma "Dia" <t>
-wait 8
+wait 6
 input /ma "Dia" <t>
-wait 8
+wait 6
 input /ma "Dia" <t>
-wait 8
+wait 6
 input /ma "Dia" <t>
-wait 8
+wait 6
 input /ma "Dia" <t>
-wait 8
+wait 6
 input /ma "Dia" <t>
-wait 8
+wait 6
 input /ma "Dia" <t>
-wait 8
+wait 6
 input /ma "Dia" <t>
-wait 8
+wait 6
 input /ma "Dia" <t>
-wait 8
+wait 6
 input /ma "Dia" <t>
-wait 8
+wait 6
 input /ma "Dia" <t>
-wait 8
+wait 6
 input /ma "Dia" <t>
-wait 8
+wait 6
 input /ma "Dia" <t>
-wait 8
+wait 6
 input /ma "Dia" <t>
-wait 8
+wait 6
 input /ma "Dia" <t>
-wait 8
+wait 6
 input /ma "Dia" <t>
-wait 8
+wait 6
 input /ma "Dia" <t>
-wait 8
+wait 6
 input /ma "Dia" <t>
-wait 8
+wait 6
 input /ma "Dia" <t>
-wait 8
+wait 6
 input /ma "Dia" <t>
-wait 8
+wait 6
 input /ma "Dia" <t>
-wait 8
+wait 6
 input /ma "Dia" <t>
-wait 8
+wait 6
 input /ma "Dia" <t>
-wait 8
+wait 6
 input /ma "Dia" <t>
-wait 8
+wait 6
 input /ma "Dia" <t>
-wait 8
+wait 6
 input /ma "Dia" <t>
-wait 8
+wait 6
 input /ma "Dia" <t>
-wait 8
+wait 6
 input /ma "Dia" <t>
-wait 8
+wait 6
 input /ma "Dia" <t>
-wait 8
+wait 6
 input /ma "Dia" <t>
-wait 8
+wait 6
 input /ma "Dia" <t>
-wait 8
+wait 6
 input /ma "Dia" <t>
-wait 8
+wait 6
 input /ma "Dia" <t>
-wait 8
+wait 6
 input /ma "Dia" <t>
-wait 8
+wait 6
 input /ma "Dia" <t>
-wait 8
+wait 6
 input /ma "Dia" <t>
-wait 8
+wait 6
 input /ma "Dia" <t>
-wait 8
+wait 6
 input /ma "Dia" <t>
-wait 8
+wait 6
 input /ma "Dia" <t>
-wait 8
+wait 6
 input /ma "Dia" <t>
-wait 8
+wait 6
 input /ma "Dia" <t>
-wait 8
+wait 6
 input /ma "Dia" <t>
-wait 8
+wait 6
 input /ma "Dia" <t>
-wait 8
+wait 6
 input /ma "Dia" <t>
-wait 8
+wait 6
 input /ma "Dia" <t>
-wait 8
+wait 6
 input /ma "Dia" <t>
-wait 8
+wait 6
 input /ma "Dia" <t>
-wait 8
+wait 6
 input /ma "Dia" <t>
-wait 8
+wait 6
 input /ma "Dia" <t>
-wait 8
+wait 6
 input /ma "Dia" <t>
-wait 8
+wait 6
 input /ma "Dia" <t>
-wait 8
+wait 6
 input /ma "Dia" <t>
-wait 8
+wait 6
 input /ma "Dia" <t>
-wait 8
+wait 6
 input /ma "Dia" <t>
-wait 8
+wait 6
 input /ma "Dia" <t>
-wait 8
+wait 6
 input /ma "Dia" <t>
-wait 8
+wait 6
 input /ma "Dia" <t>
-wait 8
+wait 6
 input /ma "Dia" <t>
-wait 8
+wait 6
 input /ma "Dia" <t>
-wait 8
+wait 6
 input /ma "Dia" <t>
-wait 8
+wait 6
 input /ma "Dia" <t>
-wait 8
+wait 6
 input /ma "Dia" <t>
-wait 8
+wait 6
 input /ma "Dia" <t>
-wait 8
+wait 6
 input /ma "Dia" <t>
-wait 8
+wait 6
 input /ma "Dia" <t>
-wait 8
+wait 6
 input /ma "Dia" <t>
-wait 8
+wait 6
 input /ma "Dia" <t>
-wait 8
+wait 6
 input /ma "Dia" <t>
-wait 8
+wait 6
 input /ma "Dia" <t>
-wait 8
+wait 6
 input /ma "Dia" <t>
-wait 8
+wait 6
 input /ma "Dia" <t>
-wait 8
+wait 6
 input /ma "Dia" <t>
-wait 8
+wait 6
 input /ma "Dia" <t>
-wait 8
+wait 6
 input /ma "Dia" <t>
-wait 8
+wait 6
 input /ma "Dia" <t>
-wait 8
+wait 6
 input /ma "Dia" <t>
-wait 8
+wait 6
 input /ma "Dia" <t>
-wait 8
+wait 6
 input /ma "Dia" <t>
-wait 8
+wait 6
 input /ma "Dia" <t>
-wait 8
+wait 6
 input /ma "Dia" <t>
-wait 8
+wait 6
 input /ma "Dia" <t>
-wait 8
+wait 6
 input /ma "Dia" <t>
-wait 8
+wait 6
 input /ma "Dia" <t>
-wait 8
+wait 6
 input /ma "Dia" <t>
-wait 8
+wait 6
 input /ma "Dia" <t>
-wait 8
+wait 6
 input /ma "Dia" <t>
-wait 8
+wait 6
 input /ma "Dia" <t>
-wait 8
+wait 6
 input /ma "Dia" <t>
-wait 8
+wait 6
 input /ma "Dia" <t>
-wait 8
+wait 6
 input /ma "Dia" <t>
-wait 8
+wait 6
 input /ma "Dia" <t>
-wait 8
+wait 6
 input /ma "Dia" <t>
-wait 8
+wait 6
 input /ma "Dia" <t>
-wait 8
+wait 6
 input /ma "Dia" <t>
-wait 8
+wait 6
 input /ma "Dia" <t>
-wait 8
+wait 6
 input /ma "Dia" <t>
-wait 8
+wait 6
 input /ma "Dia" <t>
-wait 8
+wait 6
 input /ma "Dia" <t>
-wait 8
+wait 6
 input /ma "Dia" <t>
-wait 8
+wait 6
 input /ma "Dia" <t>
-wait 8
+wait 6
 input /ma "Dia" <t>
-wait 8
+wait 6
 input /ma "Dia" <t>
-wait 8
+wait 6
 input /ma "Dia" <t>
-wait 8
+wait 6
 input /ma "Dia" <t>
-wait 8
+wait 6
 input /ma "Dia" <t>
-wait 8
+wait 6
 input /ma "Dia" <t>
-wait 8
+wait 6
 input /ma "Dia" <t>
-wait 8
+wait 6
 input /ma "Dia" <t>
-wait 8
+wait 6
 input /ma "Dia" <t>
-wait 8
+wait 6
 input /ma "Dia" <t>
-wait 8
+wait 6
 input /ma "Dia" <t>
-wait 8
+wait 6
 input /ma "Dia" <t>
-wait 8
+wait 6
 input /ma "Dia" <t>
-wait 8
+wait 6
 input /ma "Dia" <t>
-wait 8
+wait 6
 input /ma "Dia" <t>
-wait 8
+wait 6
 input /ma "Dia" <t>
-wait 8
+wait 6
 input /ma "Dia" <t>
-wait 8
+wait 6
 input /ma "Dia" <t>
-wait 8
+wait 6
 input /ma "Dia" <t>
-wait 8
+wait 6
 input /ma "Dia" <t>
-wait 8
+wait 6
 input /ma "Dia" <t>
-wait 8
+wait 6
 input /ma "Dia" <t>
-wait 8
+wait 6
 input /ma "Dia" <t>
-wait 8
+wait 6
 input /ma "Dia" <t>
-wait 8
+wait 6
 input /ma "Dia" <t>
-wait 8
+wait 6
 input /ma "Dia" <t>
-wait 8
+wait 6
 input /ma "Dia" <t>
-wait 8
+wait 6
 input /ma "Dia" <t>
-wait 8
+wait 6
 input /ma "Dia" <t>
-wait 8
+wait 6
 input /ma "Dia" <t>
-wait 8
+wait 6
 input /ma "Dia" <t>
-wait 8
+wait 6
 input /ma "Dia" <t>
-wait 8
+wait 6
 input /ma "Dia" <t>
-wait 8
+wait 6
 input /ma "Dia" <t>
-wait 8
+wait 6
 input /ma "Dia" <t>
-wait 8
+wait 6
 input /ma "Dia" <t>
-wait 8
+wait 6
 input /ma "Dia" <t>
-wait 8
+wait 6
 input /ma "Dia" <t>
-wait 8
+wait 6
 input /ma "Dia" <t>
-wait 8
+wait 6
 input /ma "Dia" <t>
-wait 8
+wait 6
 input /ma "Dia" <t>
-wait 8
+wait 6
 input /ma "Dia" <t>
-wait 8
+wait 6
 input /ma "Dia" <t>
-wait 8
+wait 6
 input /ma "Dia" <t>
-wait 8
+wait 6
 input /ma "Dia" <t>
-wait 8
+wait 6
 input /ma "Dia" <t>
-wait 8
+wait 6
 input /ma "Dia" <t>
-wait 8
+wait 6
 input /ma "Dia" <t>
-wait 8
+wait 6
 input /ma "Dia" <t>
-wait 8
+wait 6
 input /ma "Dia" <t>
-wait 8
+wait 6
 input /ma "Dia" <t>
-wait 8
+wait 6
 input /ma "Dia" <t>
-wait 8
+wait 6
 input /ma "Dia" <t>
-wait 8
+wait 6
 input /ma "Dia" <t>
-wait 8
+wait 6
 input /ma "Dia" <t>
-wait 8
+wait 6
 input /ma "Dia" <t>
-wait 8
+wait 6
 input /ma "Dia" <t>
-wait 8
+wait 6
 input /ma "Dia" <t>
-wait 8
+wait 6
 input /ma "Dia" <t>
-wait 8
+wait 6
 input /ma "Dia" <t>
-wait 8
+wait 6
 input /ma "Dia" <t>
-wait 8
+wait 6
 input /ma "Dia" <t>
-wait 8
+wait 6
 input /ma "Dia" <t>
-wait 8
+wait 6
 input /ma "Dia" <t>
-wait 8
+wait 6
 input /ma "Dia" <t>
-wait 8
+wait 6
 input /ma "Dia" <t>
-wait 8
+wait 6
 input /ma "Dia" <t>
-wait 8
+wait 6
 input /ma "Dia" <t>
-wait 8
+wait 6
 input /ma "Dia" <t>
-wait 8
+wait 6
 input /ma "Dia" <t>
-wait 8
+wait 6
 input /ma "Dia" <t>
-wait 8
+wait 6
 input /ma "Dia" <t>
-wait 8
+wait 6
 input /ma "Dia" <t>
-wait 8
+wait 6
 input /ma "Dia" <t>
-wait 8
+wait 6
 input /ma "Dia" <t>
-wait 8
+wait 6
 input /ma "Dia" <t>
-wait 8
+wait 6
 input /ma "Dia" <t>
-wait 8
+wait 6
 input /ma "Dia" <t>
-wait 8
+wait 6
 input /ma "Dia" <t>
-wait 8
+wait 6
 input /ma "Dia" <t>
-wait 8
+wait 6
 input /ma "Dia" <t>
-wait 8
+wait 6
 input /ma "Dia" <t>
-wait 8
+wait 6
 input /ma "Dia" <t>
-wait 8
+wait 6
 input /ma "Dia" <t>
-wait 8
+wait 6
 input /ma "Dia" <t>
-wait 8
+wait 6
 input /ma "Dia" <t>
-wait 8
+wait 6
 input /ma "Dia" <t>
-wait 8
+wait 6
 input /ma "Dia" <t>
-wait 8
+wait 6
 input /ma "Dia" <t>
-wait 8
+wait 6
 input /ma "Dia" <t>
-wait 8
+wait 6
 input /ma "Dia" <t>
-wait 8
+wait 6
 input /ma "Dia" <t>
-wait 8
+wait 6
 input /ma "Dia" <t>
-wait 8
+wait 6
 input /ma "Dia" <t>
-wait 8
+wait 6
 input /ma "Dia" <t>
-wait 8
+wait 6
 input /ma "Dia" <t>
-wait 8
+wait 6
 input /ma "Dia" <t>
-wait 8
+wait 6
 input /ma "Dia" <t>
-wait 8
+wait 6
 input /ma "Dia" <t>
-wait 8
+wait 6
 input /ma "Dia" <t>
-wait 8
+wait 6
 input /ma "Dia" <t>
-wait 8
+wait 6
 input /ma "Dia" <t>
-wait 8
+wait 6
 input /ma "Dia" <t>
-wait 8
+wait 6
 input /ma "Dia" <t>
-wait 8
+wait 6
 input /ma "Dia" <t>
-wait 8
+wait 6
 input /ma "Dia" <t>
-wait 8
+wait 6
 input /ma "Dia" <t>
-wait 8
+wait 6
 input /ma "Dia" <t>
-wait 8
+wait 6
 input /ma "Dia" <t>
-wait 8
+wait 6
 input /ma "Dia" <t>
-wait 8
+wait 6
 input /ma "Dia" <t>
-wait 8
+wait 6
 input /ma "Dia" <t>
-wait 8
+wait 6
 input /ma "Dia" <t>
-wait 8
+wait 6
 input /ma "Dia" <t>
-wait 8
+wait 6
 input /ma "Dia" <t>
-wait 8
+wait 6
 input /ma "Dia" <t>
-wait 8
+wait 6
 input /ma "Dia" <t>
-wait 8
+wait 6
 input /ma "Dia" <t>
-wait 8
+wait 6
 input /ma "Dia" <t>
-wait 8
+wait 6
 input /ma "Dia" <t>
-wait 8
+wait 6
 input /ma "Dia" <t>
-wait 8
+wait 6
 input /ma "Dia" <t>
-wait 8
+wait 6
 input /ma "Dia" <t>
-wait 8
+wait 6
 input /ma "Dia" <t>
-wait 8
+wait 6
 input /ma "Dia" <t>
-wait 8
+wait 6
 input /ma "Dia" <t>
-wait 8
+wait 6
 input /ma "Dia" <t>
-wait 8
+wait 6
 input /ma "Dia" <t>
-wait 8
+wait 6
 input /ma "Dia" <t>
-wait 8
+wait 6
 input /ma "Dia" <t>
-wait 8
+wait 6
 input /ma "Dia" <t>
-wait 8
+wait 6
 input /ma "Dia" <t>
-wait 8
+wait 6
 input /ma "Dia" <t>
-wait 8
+wait 6
 input /ma "Dia" <t>
-wait 8
+wait 6
 input /ma "Dia" <t>
-wait 8
+wait 6
 input /ma "Dia" <t>
-wait 8
+wait 6
 input /ma "Dia" <t>
-wait 8
+wait 6
 input /ma "Dia" <t>
-wait 8
+wait 6
 input /ma "Dia" <t>
-wait 8
+wait 6
 input /ma "Dia" <t>
-wait 8
+wait 6
 input /ma "Dia" <t>
-wait 8
+wait 6
 input /ma "Dia" <t>
-wait 8
+wait 6
 input /ma "Dia" <t>
-wait 8
+wait 6
 input /ma "Dia" <t>
-wait 8
+wait 6
 input /ma "Dia" <t>
-wait 8
+wait 6
 input /ma "Dia" <t>
-wait 8
+wait 6
 input /ma "Dia" <t>
-wait 8
+wait 6
 input /ma "Dia" <t>
-wait 8
+wait 6
 input /ma "Dia" <t>
-wait 8
+wait 6

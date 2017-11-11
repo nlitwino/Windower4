@@ -9,4 +9,7 @@
         <Pass />
         <Verbose>false</Verbose>
     </global>
+    <mimosa>
+        <Pass>Beastcoin</Pass>
+    </mimosa>
 </settings>

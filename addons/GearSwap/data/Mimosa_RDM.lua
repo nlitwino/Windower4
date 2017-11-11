@@ -27,7 +27,7 @@ function init_gear_sets()
 	--Misc.
 	sets.MND 												= {sub="Bugard leather strap +1", neck="Holy phial", ear1="Star earring", body="Errant houppelande", hands="Bricta's cuffs", ring1="Tamas ring", ring2="Star ring", back="Prism cape", waist="Duelist's belt", legs="Jet seraweels", feet="Duelist's boots"}
 	sets.INT 												= {sub="Bugard leather strap +1", head="Warlock's chapeau", ear2="Abyssal earring", body="Errant houppelande", hands="Bricta's cuffs", ring1="Tamas ring", ring2="Snow ring", back="Prism cape", waist="Duelist's belt", legs="Jet seraweels"}
-	sets.resting 											= {main="Chatoyant staff", sub="Bugard leather strap +1", body="Errant houppelande"}
+	sets.resting 											= {main="Chatoyant staff", sub="Bugard leather strap +1", ammo="Bibiki seashell", body="Errant houppelande"}
 
 	sets.obi												= {Fire 	= {waist="Karin Obi"},
 															Earth 		= {waist="Dorin Obi"},
@@ -73,7 +73,7 @@ function init_gear_sets()
 	sets.midcast['Stoneskin']								 = set_combine(sets.MND,sets.midcast['Enhancing Magic'],sets.midcast.FastRecast)
 	
 	--Idle Sets
-	sets.idle 												 = {main="Chatoyant staff", sub="Bugard leather strap +1", ammo="Phantom tathlum", head="Duelist's chapeau", neck="Chocobo whistle", ear1="Star earring", ear2="Mamool Ja earring", body="Dalmatica", hands="Duelist's gloves", ring1="Tamas ring", ring2="Ether ring", back="Prism cape", waist="Lycopodium sash", legs="Warlock's tights", feet="Duelist's boots"}
+	sets.idle 												 = {main="Terra's staff", sub="Bugard leather strap +1", ammo="Phantom tathlum", head="Duelist's chapeau", neck="Chocobo whistle", ear1="Star earring", ear2="Mamool Ja earring", body="Dalmatica", hands="Duelist's gloves", ring1="Tamas ring", ring2="Ether ring", back="Prism cape", waist="Lycopodium sash", legs="Warlock's tights", feet="Duelist's boots"}
 	sets.idle.Town 											 = set_combine(sets.idle, {})
 	
 	sets.Kiting 											 = {legs="Blood cuisses"}

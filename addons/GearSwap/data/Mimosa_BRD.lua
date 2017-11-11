@@ -59,7 +59,7 @@ function init_gear_sets()
 															   ,body="Kirin's osode"  ,hands="Garrison gloves"      ,ring1="Tamas ring"    ,ring2="Snow ring"
 															   ,back="Prism cape"                                   ,legs="Mahatma slops"  ,feet="Rostrum pumps"}
 															   
-	sets.CHR												 = {                        sub="Bugard leather strap +1",range="Gjallarhorn"
+	sets.CHR												 = {main="Chatoyant staff" ,sub="Bugard leather strap +1",range="Gjallarhorn"
 															   ,head="Bard's roundlet" ,neck="Piper's torque"        ,ear1="Melody earring +1",ear2="Melody earring"
 															   ,body="Kirin's osode"   ,hands="Choral cuffs +1"	     ,ring1="Light ring"      ,ring2="Light ring"
 															   ,back="Jester's cape +1",waist="Corsette"             ,legs="Mahatma slops"    ,feet="Sha'ir crackows"}
@@ -98,7 +98,7 @@ function init_gear_sets()
 	sets.midcast['Dark Magic']								 = set_combine(sets.INT, {neck="Dark torque"})
 	
 	
-	sets.midcast['BardSong']								 = set_combine(sets.CHR,{head="Bard's roundlet",neck="Wind torque",body="Minstrel's coat",hands="Choral cuffs +1",ring1="Nereid ring",ring2="Nereid ring",legs="Choral cannions",feet="Oracle's pigaches"})
+	sets.midcast['BardSong']								 = set_combine(sets.CHR,{head="Bard's roundlet",neck="Wind torque",ear1="Musical earring",body="Minstrel's coat",hands="Choral cuffs +1",ring1="Nereid ring",ring2="Nereid ring",legs="Choral cannions +1",feet="Oracle's pigaches"})
 	
 	sets.midcast['Lullaby']									 = set_combine(sets.CHR,{neck="Piper's torque",hands="Sheikh gages"})
 	sets.midcast['Magic Finale']							 = set_combine(sets.midcast['Lullaby'],{neck="Piper's torque",hands="Sheikh gages"})
@@ -121,10 +121,10 @@ function init_gear_sets()
 	sets.midcast['Stoneskin']								 = set_combine(sets.MND,sets.midcast['Enhancing Magic'],{head="Walahra turban",waist="Velocious belt"})
 	
 	-- Idle sets
-	sets.idle 												 = {main="Earth staff" ,sub="Bugard leather strap +1",range="Gjallarhorn"
-															   ,head="Hecatomb cap",neck="Chocobo whistle"       ,ear1="Mamool Ja earring",ear2="Star earring"
-															   ,body="Dalmatica"   ,hands="Zenith mitts"         ,ring1="Ether ring"      ,ring2="Serket ring"
-															   ,back="Bard's cape" ,waist="Lycopodium sash"      ,legs="Zenith slacks"    ,feet="Rostrum pumps"}
+	sets.idle 												 = {main="Terra's staff",sub="Bugard leather strap +1",range="Gjallarhorn"
+															   ,head="Hecatomb cap" ,neck="Chocobo whistle"       ,ear1="Mamool Ja earring",ear2="Star earring"
+															   ,body="Dalmatica"    ,hands="Zenith mitts"         ,ring1="Ether ring"      ,ring2="Serket ring"
+															   ,back="Bard's cape"  ,waist="Lycopodium sash"      ,legs="Zenith slacks"    ,feet="Rostrum pumps"}
 	sets.idle.Town 											 = set_combine(sets.idle,{back="Nexus cape",ring2="Warp ring"})
 	
 	sets.resting											 = {main="Chatoyant staff",head="Oracle's cap",neck="Orochi nodowa",body="Oracle's robe",hands="Oracle's gloves",ring2="Star ring",legs="Oracle's braconi",feet="Numerist pumps"}

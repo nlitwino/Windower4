@@ -43,7 +43,7 @@ function init_gear_sets()
 	sets.enmityDown                           = {ammo="White tathlum",head="Zha'Go's barbut",ear1="Novia earring",ring2="Veela ring",waist="Buccaneer's belt",legs="Raven hose"}
 	
 	-- buff
-	sets.buff['Sneak Attack']                 = {head="Hecatomb cap +1"   ,neck="Ancient torque"      ,ear1="Pixie earring"
+	sets.buff['Sneak Attack']                 = {head="Hecatomb cap +1"   ,neck="Love torque"         ,ear1="Pixie earring"
 	                                            ,body="Antares harness"   ,hands="Hecatomb mittens +1",ring1="Rajas ring"         ,ring2=gear.CritRing
 												,back="Cuchulain's mantle",waist="Warwolf belt"       ,legs="Hecatomb subligar +1",feet="Hecatomb leggings +1"}
 	sets.buff['Trick Attack']                 = {head="Maat's cap"        ,neck="Faith torque"        ,ear1="Hollow earring"
@@ -84,11 +84,11 @@ function init_gear_sets()
 	
 	-- engaged
 	sets.engaged                              = {ammo="Bomb core"
-												,head="Walahra turban"    ,neck="Chivalrous chain",ear1="Suppanomimi"    ,ear2="Brutal earring"
-												,body="Rapparee harness"  ,hands="Dusk gloves +1" ,ring1=gear.TRing1     ,ring2=gear.TRing2
-												,back="Cerberus mantle +1",waist="Velocious belt" ,legs="Homam cosciales",feet="Dusk ledelsens +1"}
-	sets.engaged.HybridAcc                    = set_combine(sets.engaged,{ammo="Fire bomblet",neck="Ancient torque",hands="Homam manopolas",back="Cuchulain's mantle",feet="Homam gambieras"})
-	sets.engaged.Acc                          = set_combine(sets.engaged.HybridAcc,{head="Homam zucchetto",body="Homam corazza",hands="Enkidu's mittens",waist="Lycopodium sash"})
+												,head="Walahra turban"    ,neck="Love torque"    ,ear1="Suppanomimi"    ,ear2="Brutal earring"
+												,body="Rapparee harness"  ,hands="Dusk gloves +1",ring1=gear.TRing1     ,ring2=gear.TRing2
+												,back="Cerberus mantle +1",waist="Velocious belt",legs="Homam cosciales",feet="Dusk ledelsens +1"}
+	sets.engaged.HybridAcc                    = set_combine(sets.engaged,{ammo="Fire bomblet",hands="Homam manopolas",back="Cuchulain's mantle",feet="Homam gambieras"})
+	sets.engaged.Acc                          = set_combine(sets.engaged.HybridAcc,{head="Homam zucchetto",neck="Ancient torque",body="Homam corazza",hands="Enkidu's mittens",waist="Lycopodium sash"})
 	
 	-- ranged
 	sets.precast.RA                           = {head="Zha'Go's barbut"}

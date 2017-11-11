@@ -32,9 +32,9 @@ function initialize_job()
 	daytime = world.time <= (18*60) and world.time >= (6*60)
 	duskdawn = (world.time >= (17*60) and world.time <= (18*60)) and (world.time >= (6*60) and world.time <= (7*60))
 	
-	gear.TRing1 = { name="Toreador's Ring", augments={'Earth resistance-7','"Triple Atk."+2',}}
-	gear.TRing2 = { name="Toreador's Ring", augments={'"Triple Atk."+2','Dark resistance+12',}}
-	gear.CritRing = { name="Toreador's Ring", augments={'Crit. hit damage +4%','Crit. hit damage +2%',}}
+	gear.TRing1 = { name="Toreador's Ring", augments={'"Triple Atk."+2','Accuracy+4',}}
+	gear.TRing2 = { name="Toreador's Ring", augments={'Accuracy+5','"Triple Atk."+2',}}
+	gear.CritRing = { name="Toreador's Ring", augments={'Crit.hit rate+6',}}
 	
 	state.Tank = M(false, 'Tank')
 	state.Range = M(false, 'Range')
@@ -254,3 +254,15 @@ function lock_ranged()
 	end
 	
 end
+
+-- function protect_shell_pt()
+
+	-- local x = 0
+
+	-- while x < (party.count - 1) then
+	
+		-- send_command('@input /ma "Protect IV')
+	
+	-- end
+
+-- end
