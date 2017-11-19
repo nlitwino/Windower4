@@ -32,9 +32,9 @@ function initialize_job()
 	daytime = world.time <= (18*60) and world.time >= (6*60)
 	duskdawn = (world.time >= (17*60) and world.time <= (18*60)) and (world.time >= (6*60) and world.time <= (7*60))
 	
-	gear.TRing1 = { name="Toreador's Ring", augments={'"Triple Atk."+2','Accuracy+4',}}
-	gear.TRing2 = { name="Toreador's Ring", augments={'Accuracy+5','"Triple Atk."+2',}}
-	gear.CritRing = { name="Toreador's Ring", augments={'Crit.hit rate+6',}}
+	
+	
+	initialize_custom_augments(player.name)
 	
 	state.Tank = M(false, 'Tank')
 	state.Range = M(false, 'Range')
@@ -71,6 +71,23 @@ function initialize_job()
 		end
 	end)
 	
+end
+
+function initialize_custom_augments(name)
+
+	if name == "Kayrah" then
+		gear.TRing1 = { name="Toreador's Ring", augments={'"Triple Atk."+2','Accuracy+4',}}
+		gear.TRing2 = { name="Toreador's Ring", augments={'Accuracy+5','"Triple Atk."+2',}}
+		gear.CritRing = { name="Toreador's Ring", augments={'Crit.hit rate+6',}}
+		gear.HasteHarness = { name="Scorpion Harness +1", augments={'Haste+11',}}
+		gear.RSHarness = { name="Scorpion Harness +1", augments={'"Rapid Shot"+11',}}
+	elseif name == "Mimosa" then
+		gear.HasteHarness = { name="Scp. Harness +1", augments={'Haste+11',}}
+	elseif name == "Mian" then
+		gear.RSHarness = { name="Scp. Harness +1", augments={'"Rapid Shot"+10',}}
+	end
+	
+
 end
 
 function set_custom_universal_keybinds()

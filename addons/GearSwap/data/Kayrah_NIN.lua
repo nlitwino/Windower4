@@ -67,7 +67,7 @@ function init_gear_sets()
 												 ,body="Yasha samue"   ,hands="Dusk gloves +1",ring1="Defending ring" ,ring2="Antica ring"
 												 ,back="Prism cape"    ,waist="Resolute belt" ,legs="Byakko's haidate",feet="Dusk ledelsens +1"}
 	                                           
-	sets.midcast['Utsusemi: Ni']               = set_combine(sets.midcast.FastRecast,{})
+	sets.midcast['Utsusemi: Ni']               = set_combine(sets.midcast.FastRecast,{body=gear.HasteHarness})
 	sets.midcast['Utsusemi: Ichi']             = set_combine(sets.midcast['Utsusemi: Ni'],{head="Ninja hatsuburi +1",hands="Yasha tekko",legs="Yasha hakama",feet="Koga kyahan +1"})
 	sets.midcast.NinjutsuDebuff                = set_combine(sets.midcast.FastRecast,{head="Ninja hatsuburi +1",feet="Koga kyahan +1",back="Astute cape"})
 	sets.midcast.ElementalNinjutsu             = set_combine(sets.midcast.FastRecast,sets.INT,{back="Astute cape"})
@@ -85,7 +85,7 @@ function init_gear_sets()
 	                                           
 	-- defense                                 
 	sets.defense.Evasion                       = {head="Gnole crown"        ,neck="Fortified chain",ear1="Suppanomimi",ear2="Drone earring"
-												 ,body="Scorpion harness +1",hands="Seiryu's kote"
+												 ,body=gear.HasteHarness,hands="Seiryu's kote"
 												                            ,waist="Koga sarashi"  ,legs="Koga hakama",feet="Hachiryu sune-ate"}
 	sets.defense.PDT                           = {ammo="Bibiki seashell"
 	                                             ,head="Arhat's jinpachi +1"
@@ -131,10 +131,10 @@ function init_gear_sets()
 	                                           
 	-- ranged                                  
 	sets.precast.RA                            = {head="Zha'Go's barbut",neck="Peacock amulet",ear1="Drone earring",ear2="Drone earring"
-	                                             ,body="Koga chainmail",hands="Ninja tekko +1",ring1="Merman's ring",ring2="Merman's ring"
+	                                             ,gear.RSHarness,hands="Ninja tekko +1",ring1="Merman's ring",ring2="Merman's ring"
 												 ,back="Amemet mantle +1",waist="Buccaneer's belt",legs="Ninja hakama +1",feet="Enkidu's leggings"}
 	                                           
-	sets.midcast.RA                            = set_combine(sets.precast.RA,{})
+	sets.midcast.RA                            = set_combine(sets.precast.RA,{body="Koga chainmail"})
 	sets.midcast.RA.HNM                        = set_combine(sets.midcast.HNM,{back="Mamool Ja mantle",hands="Seiryu's kote",feet="Hachiryu sune-ate"})
 	                                           
 	--ws                                       

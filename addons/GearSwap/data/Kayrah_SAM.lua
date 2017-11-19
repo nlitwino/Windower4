@@ -107,10 +107,10 @@ function init_gear_sets()
 	
 	-- ranged / yoichi
 	sets.precast.RA                           = {head="Zha'Go's barbut" ,neck="Peacock amulet"   ,ear1="Drone earring" ,ear2="Drone earring"
-												,body="Kyudogi +1"      ,hands="Seiryu's kote"   ,ring1="Cerberus ring +1",ring2="Behemoth ring +1"
+												,gear.RSHarness         ,hands="Seiryu's kote"   ,ring1="Cerberus ring +1",ring2="Behemoth ring +1"
 												,back="Amemet mantle +1",waist="Buccaneer's belt",legs="Dusk trousers" ,feet="Hachiryu sune-ate"}
 	                                          
-	sets.midcast.RA                           = set_combine(sets.precast.RA,{neck="Hope torque"})
+	sets.midcast.RA                           = set_combine(sets.precast.RA,{neck="Hope torque",body="Kyudogi +1" })
 	sets.midcast.RA.Acc                       = set_combine(sets.midcast.RA.Acc,{ring1="Merman's ring"})
 	
 	-- GK ws (186tp)

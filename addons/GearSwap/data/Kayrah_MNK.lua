@@ -53,7 +53,7 @@ function init_gear_sets()
 	-- midcast magic
 	sets.midcast.FastRecast              = set_combine(sets.precast.FC,{ammo="Bibiki seashell"
 							                                           ,head="Walahra turban"     ,neck="Fortified chain"
-							                                           ,body="Scorpion harness +1"                       ,ring1="Defending ring"
+							                                           ,body=gear.HasteHarness                           ,ring1="Defending ring"
 							                                           ,back="Prism cape"         ,waist="Black belt"    ,legs="Byakko's haidate",feet="Sarutobi kyahan"})
 	
 	sets.midcast['Utsusemi: Ni']         = set_combine(sets.midcast.FastRecast,{ring2="Antica ring"})

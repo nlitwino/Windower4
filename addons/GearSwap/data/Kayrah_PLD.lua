@@ -58,7 +58,7 @@ function init_gear_sets()
 	sets.precast.FC 			        = {ear1="Loquacious earring",legs="Homam cosciales"}
 	
 	-- midcast magic
-	sets.midcast.FastRecast 		    = set_combine(sets.precast.FC,{head="Walahra turban",body="Scorpion harness +1",hands="Homam manopolas",waist="Velocious belt",feet="Homam gambieras"}) 
+	sets.midcast.FastRecast 		    = set_combine(sets.precast.FC,{head="Walahra turban",body=gear.HasteHarness,hands="Homam manopolas",waist="Velocious belt",feet="Homam gambieras"}) 
 	
 	sets.midcast['Healing Magic']       = set_combine(sets.enmity,sets.MND,{head="Valor coronet",neck="Ritter gorget",body="Avalon breastplate",ring1="Sattva ring"})
 	sets.midcast['Healing Magic'].self  = set_combine(sets.midcast['Healing Magic'],{ear1="Cassie earring",ear2="Bloodbead earring"

@@ -71,10 +71,10 @@ function init_gear_sets()
 	sets.midcast.FastRecast                            = set_combine(sets.precast.FC,{hands="Dusk gloves +1",body="Nashira manteel",waist="Velocious belt",feet="Dusk ledelsens +1"})
 	                                                   
 	sets.midcast['Ninjutsu']                           = set_combine(sets.midcast.FastRecast,{ring2="Antica ring"})
-	sets.midcast['Utsusemi: Ichi']                     = set_combine(sets.midcast['Ninjutsu'],{neck="Fortified chain",ear1="Magnetic earring",ring1="Defending ring",waist="Resolute belt",back="Prism cape"})
+	sets.midcast['Utsusemi: Ichi']                     = set_combine(sets.midcast['Ninjutsu'],{neck="Fortified chain",ear1="Magnetic earring",gear.HasteHarness,ring1="Defending ring",waist="Resolute belt",back="Prism cape"})
 	sets.midcast['Utsusemi: Ni']                       = set_combine(sets.midcast['Ninjutsu'],{})
 	                                                   
-	sets.midcast['Healing Magic']                      = set_combine(sets.MND,{ear1="Roundel earring",ear2="Magnetic earring",body="Duelist's tabard",legs="Warlock's tights"})
+	sets.midcast['Healing Magic']                      = set_combine(sets.MND,{neck="Fylgja torque +1",ear1="Roundel earring",ear2="Magnetic earring",body="Duelist's tabard",legs="Warlock's tights"})
 	                                                   
 	sets.midcast['Divine Magic']                       = set_combine(sets.MND,{head="Elite beret"})
 	                                                   

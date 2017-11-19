@@ -54,7 +54,7 @@ function init_gear_sets()
 	sets.midcast['Enhancing Magic'] 						 = {main="Seveneyes",sub="Genbu's shield",body="Glamor jupon", hands="Duelist's gloves", legs="Warlock's tights"}
 	sets.midcast['Enfeebling Magic'] 						 = {neck="Enfeebling torque",body="Warlock's tabard",feet="Avocat pigaches"}
 	
-	sets.midcast['Healing Magic']							 = set_combine(sets.MND, {body="Duelist's tabard", legs="Warlock's tights"})
+	sets.midcast['Healing Magic']							 = set_combine(sets.MND, {neck="Fylgja torque +1",body="Duelist's tabard", legs="Warlock's tights"})
 	
 	sets.midcast['Divine Magic'] 							 = set_combine(sets.MND, {})
 	sets.midcast['Divine Magic'].Resistant 					 = set_combine(sets.MND, {})

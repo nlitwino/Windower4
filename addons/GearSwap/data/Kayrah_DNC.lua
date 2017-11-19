@@ -52,8 +52,9 @@ function init_gear_sets()
 	                                             
     sets.precast.Jig                             = {legs="Etoile tights", feet="Dancer's toe shoes +1"}
 	                                             
-    sets.precast.JA['Violent Flourish']          = {head="Enkidu's cap"      ,neck="Ancient torque"                        ,ear2="Pixie earring" 
-	                                               ,body="Etoile casaque"    ,hands="Enkidu's mittens",ring1="Omega ring"
+    sets.precast.JA['Violent Flourish']          = {ammo="Sturm's report"
+												   ,head="Enkidu's cap"      ,neck="Ancient torque"                        ,ear2="Pixie earring" 
+	                                               ,body="Etoile casaque"    ,hands="Enkidu's mittens",ring1="Omega ring"  ,ring2="Insect ring"
 												   ,back="Cuchulain's mantle",waist="Lycopodium sash" ,legs="Oily trousers",feet="Etoile toeshoes"}
     sets.precast.JA['Desperate Flourish']        = set_combine(sets.precast.Step,{hands="Enkidu's mittens"})
 	sets.precast.JA['Wild Flourish']             = set_combine(sets.precast.JA['Desperate Flourish'])
@@ -64,7 +65,7 @@ function init_gear_sets()
 	sets.midcast.FastRecast                      = set_combine(sets.precast.FC,{head="Walahra turban",body="Rapparee harness",hands="Dusk gloves +1",waist="Velocious belt",legs="Etoile tights",feet="Dusk ledelsens +1"})
 	                                             
 	sets.midcast['Utsusemi: Ni']                 = set_combine(sets.midcast.FastRecast,{ear2="Magnetic earring",ring1="Defending ring",ring2="Antica ring",back="Boxer's mantle"})
-	sets.midcast['Utsusemi: Ichi']               = set_combine(sets.midcast['Utusemi: Ni'],{head="Gnole crown",neck="Fortified chain",ear1="Novia earring",body="Scorpion harness +1",waist="Resolute belt",legs="Raven hose",feet="Dancer's toe shoes +1"})
+	sets.midcast['Utsusemi: Ichi']               = set_combine(sets.midcast['Utusemi: Ni'],{head="Gnole crown",neck="Fortified chain",ear1="Novia earring",body=gear.HasteHarness,waist="Resolute belt",legs="Raven hose",feet="Dancer's toe shoes +1"})
 	                                             
 	-- idle                                          
 	sets.idle                                    = {ammo="Bibiki seashell"
@@ -92,7 +93,7 @@ function init_gear_sets()
 				                                   ,back="Cerberus mantle +1",waist="Velocious belt" ,legs="Etoile tights",feet="Dusk ledelsens +1"}
 	sets.engaged.HybridAcc                       = set_combine(sets.engaged,{back="Cuchulain's mantle",feet="Enkidu's leggings"})
 	sets.engaged.OffTank                         = set_combine(sets.engaged.HybridAcc,{ring1="Defending ring",back="Boxer's mantle"})
-	sets.engaged.Tank                            = set_combine(sets.engaged.OffTank,{body="Scorpion harness +1",back="Etoile cape"})
+	sets.engaged.Tank                            = set_combine(sets.engaged.OffTank,{body=gear.HasteHarness,back="Etoile cape"})
 	                                               
 	-- ws                                            
 	sets.precast.WS                              = {ammo="Black tathlum"

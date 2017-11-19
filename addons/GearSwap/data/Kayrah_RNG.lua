@@ -51,7 +51,7 @@ function init_gear_sets()
 	sets.precast.FC                           = {ear2="Loquacious earring"}
 	
 	-- midcast magic
-	sets.midcast.FastRecast                   = {head="Walahra turban",hands="Dusk gloves +1",waist="Velocious belt",legs="Byakko's haidate",feet="Dusk ledelsens +1"}
+	sets.midcast.FastRecast                   = {head="Walahra turban",body=gear.HasteHarness,hands="Dusk gloves +1",waist="Velocious belt",legs="Byakko's haidate",feet="Dusk ledelsens +1"}
 	sets.midcast['Ninjutsu']                  = set_combine(sets.midcast.FastRecast,{ring1="Antica ring",back="Prism cape"})
 	
 	-- idle
@@ -72,9 +72,9 @@ function init_gear_sets()
 																		 ,back="Shadow mantle"     ,waist="Resolute belt",legs="Blood cuisses"   ,feet="Suzaku's sune-ate"})
 	
 	-- precast ranged
-	sets.precast.RA                           = {head="Hunter's beret +1",neck="Peacock amulet",ear1="Drone earring",ear2="Hollow earring"
-												,body="Scout's jerkin",hands="Seiryu's kote",ring1="Rajas ring",ring2="Behemoth ring +1"
-												,back="Mamool Ja mantle",waist="Scout's belt",legs="Dusk trousers +1",feet="Hachiryu sune-ate"}
+	sets.precast.RA                           = {head="Hunter's beret +1",neck="Peacock amulet",ear1="Drone earring"   ,ear2="Hollow earring"
+												,body="Scout's jerkin"   ,hands="Seiryu's kote",ring1="Rajas ring"     ,ring2="Behemoth ring +1"
+												,back="Mamool Ja mantle" ,waist="Scout's belt" ,legs="Dusk trousers +1",feet="Hachiryu sune-ate"}
 	sets.precast.RA.Anni 					  = set_combine(sets.precast.RA,{})
 	sets.precast.RA.Yoichi					  = set_combine(sets.precast.RA,{legs="Hachiryu haidate"})
 	
@@ -114,9 +114,9 @@ function init_gear_sets()
 	sets.precast.WS['Jishnu\'s Radiance']     = set_combine(sets.precast.WS['Sidewinder'],{})
 	sets.precast.WS['Jishnu\'s Radiance'].HNM = set_combine(sets.precast.WS['Sidewinder'],{})
 	
-	sets.precast.WS['Namas Arrow']            = set_combine(sets.precast.WS,{ear1="Bushinomimi",ear2="Triumph earring"})
-	sets.precast.WS['Namas Arrow'].Power      = set_combine(sets.precast.WS['Namas Arrow'],{hands="Blood finger gauntlets",ring2="Cerberus ring +1"})
-	sets.precast.WS['Namas Arrow'].Acc        = set_combine(sets.precast.WS['Namas Arrow'],{ear1="Drone earring",ear2="Drone earring",waist="Blobnag ring"})
+	sets.precast.WS['Namas Arrow']            = set_combine(sets.precast.WS,{ear2="Triumph earring",ring2="Strigoi ring"})
+	sets.precast.WS['Namas Arrow'].Power      = set_combine(sets.precast.WS['Namas Arrow'],{hands="Blood finger gauntlets"})
+	sets.precast.WS['Namas Arrow'].Acc        = set_combine(sets.precast.WS['Namas Arrow'],{ear1="Drone earring",ear2="Drone earring",ring2="Blobnag ring"})
 	
 	-- gun specific ws
 	sets.precast.WS['Slug Shot']              = set_combine(sets.precast.WS,{ear2="Triumph earring"})

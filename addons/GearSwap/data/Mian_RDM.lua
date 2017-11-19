@@ -37,7 +37,7 @@ function init_gear_sets()
 
 	--Misc
 	sets.MND 										   = {neck="Morgana's choker",body="Errant houppelande",hands="Devotee's mitts +1",back="Prism cape",waist="Penitent's rope",legs="Errant slops",feet="Errant pigaches"}
-	sets.INT 										   = {ammo="Phantom tathlum",head="Warlock's chapeau",neck="Philomath stole",ear1="Abyssal earring",body="Errant houppelande",hands="Errant cuffs",ring1="Genius ring +1",ring2="Zircon ring",back="Prism cape",waist="Penitent's rope",legs="Errant slops",feet="Custom F boots"}
+	sets.INT 										   = {ammo="Phantom tathlum",head="Warlock's chapeau",neck="Lemegeton medallion +1",ear1="Abyssal earring",body="Errant houppelande",hands="Errant cuffs",ring1="Genius ring +1",ring2="Zircon ring",back="Prism cape",waist="Penitent's rope",legs="Errant slops",feet="Custom F boots"}
 	
 	-- grips														 	   
 	sets.grip										   = {Fire 	      = {sub="Fire Grip"}
@@ -50,9 +50,9 @@ function init_gear_sets()
 												         ,Dark 	      = {sub="Dark Grip"}}
 	-- idle
 	sets.idle                                          = {main="Terra's staff"      ,sub="Bugard leather strap +1"                        ,ammo="Bibiki seashell"
-				                                         ,head="Warlock's chapeau",neck="Chocobo whistle"       ,ear1="Abyssal earring" ,ear2="Loquacious earring"
-				                                         ,body="Dalmatica"        ,hands="Duelist's gloves"     ,ring1="Defending ring" ,ring2="Shadow ring"
-				                                         ,back="Prism cape"       ,waist="Velocious belt"       ,legs="Warlock's tights",feet="Duelist's boots"}
+				                                         ,head="Duelist's chapeau",neck="Chocobo whistle"         ,ear1="Abyssal earring" ,ear2="Loquacious earring"
+				                                         ,body="Dalmatica"        ,hands="Duelist's gloves"       ,ring1="Defending ring" ,ring2="Shadow ring"
+				                                         ,back="Prism cape"       ,waist="Resolute belt"          ,legs="Crimson cuisses" ,feet="Duelist's boots"}
 	sets.idle.Combat                                   = set_combine(sets.idle,{main="",sub=""})
 	sets.idle.Town                                     = set_combine(sets.idle,{ring2="Warp ring",back="Nexus cape"})
 	sets.idle.Combat                                   = set_combine(sets.idle,{main="",sub=""})
@@ -61,20 +61,20 @@ function init_gear_sets()
 	sets.resting 									   = {main="Chatoyant staff",ammo="Bibiki seashell",body="Errant houppelande",feet="Avocat pigaches"}
 	
 	-- precast magic
-	sets.precast.FC                                    = {head="Warlock's chapeau",ear1="Loquacious earring"}
+	sets.precast.FC                                    = {head="Warlock's chapeau",ear1="Loquacious earring",body="Duelist's tabard"}
 	                                                   
 	-- midcast magic                                   
 	sets.midcast.FastRecast                            = set_combine(sets.precast.FC,{hands="Dusk gloves",waist="Velocious belt",feet="Dusk ledelsens +1"})
 	                                                   
 	sets.midcast['Ninjutsu']                           = set_combine(sets.midcast.FastRecast,{})
-	sets.midcast['Utsusemi: Ichi']                     = set_combine(sets.midcast['Ninjutsu'],{})
+	sets.midcast['Utsusemi: Ichi']                     = set_combine(sets.midcast['Ninjutsu'],{waist="Resolute belt"})
 	sets.midcast['Utsusemi: Ni']                       = set_combine(sets.midcast['Ninjutsu'],{})
 	                                                   
-	sets.midcast['Healing Magic']                      = set_combine(sets.MND,{ear2="Loqacious earring",legs="Warlock's tights"})
+	sets.midcast['Healing Magic']                      = set_combine(sets.MND,{neck="Fylgja torque +1",ear2="Loqacious earring",body="Duelist's tabard",legs="Warlock's tights"})
 	                                                   
 	sets.midcast['Divine Magic']                       = set_combine(sets.MND,{})
 	                                                   
-	sets.midcast['Enfeebling Magic']                   = {neck="Spider torque",body="Warlock's tabard",feet="Avocat pigaches"}
+	sets.midcast['Enfeebling Magic']                   = {head="Duelist's chapeau",neck="Spider torque",body="Warlock's tabard",feet="Avocat pigaches"}
 	                                                   
 	sets.midcast['Enfeebling Magic']['BlackMagic']     = set_combine(sets.INT,{})
 	sets.midcast['Enfeebling Magic']['BlackMagic'].Acc = set_combine(sets.midcast['Enfeebling Magic']['BlackMagic'],sets.midcast['Enfeebling Magic'],{ammo="Sturm's report"})

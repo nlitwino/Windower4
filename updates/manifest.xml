@@ -1,9 +1,9 @@
 <update>
   <launcher>
-    <version>4.3.6504.11447</version>
+    <version>4.3.6527.29983</version>
   </launcher>
   <hook>
-    <version>4.3.4.5</version>
+    <version>4.3.4.7</version>
   </hook>
   <plugins>
     <plugin>

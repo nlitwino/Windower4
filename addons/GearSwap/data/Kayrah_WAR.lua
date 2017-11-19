@@ -43,7 +43,7 @@ function init_gear_sets()
 	sets.precast.FC                         = {ear2="Loquacious earring"}
 	
 	--Midcast Magic
-	sets.midcast.FastRecast                 = set_combine(sets.precast.FC,{head="Walahra turban",ear2="Magnetic earring",hands="Dusk gloves +1",waist="Velocious belt",legs="Byakko's haidate",feet="Dusk ledelsens +1"})
+	sets.midcast.FastRecast                 = set_combine(sets.precast.FC,{head="Walahra turban",ear2="Magnetic earring",body=gear.HasteHarness,hands="Dusk gloves +1",waist="Velocious belt",legs="Byakko's haidate",feet="Dusk ledelsens +1"})
 	
 	sets.midcast['Ninjutsu']                = set_combine(sets.midcast.FastRecast,{neck="Fortified chain",ring2="Antica ring",back="Shadow mantle"})
 	
@@ -71,8 +71,8 @@ function init_gear_sets()
 	sets.engaged.Bravura.Acc                = set_combine(sets.engaged.Bravura,{ammo="Fire bomblet",neck="Ancient torque",ear1="Fowling earring",back="Cuchulain's mantle",feet="Aurum sabatons"})
 								  
 	-- bravura engaged (SAM) [[Pole grip]]     
-	sets.engaged.Bravura.SAM                = set_combine(sets.engaged,{})
-	sets.engaged.Bravura.SAM.Acc            = set_combine(sets.engaged.Bravura.SAM,{ammo="Fire bomblet",ear1="Fowling earring",back="Cuchulain's mantle",feet="Aurum sabatons"})
+	sets.engaged.Bravura.SAM                = set_combine(sets.engaged,{ammo="White tathlum",neck="Almah torque",body="Aurum cuirass",ring1="Rajas ring"})
+	sets.engaged.Bravura.SAM.Acc            = set_combine(sets.engaged.Bravura.SAM,{ear1="Fowling earring",back="Cuchulain's mantle",feet="Aurum sabatons"})
 	                              
 	-- ragnarok engaged (normal)  
 	sets.engaged.Ragnarok                   = {ammo="Bomb core"
@@ -120,7 +120,7 @@ function init_gear_sets()
 	sets.precast.WS['Upheaval']             = set_combine(sets.precast.WS['Raging Rush'],{})
 	sets.precast.WS['Upheaval'].Acc         = set_combine(sets.precast.WS['Raging Rush'].Acc,{})
 	
-	sets.precast.WS['Metatron Torment']     = set_combine(sets.precast.WS,{neck="Light gorget"})
+	sets.precast.WS['Metatron Torment']     = set_combine(sets.precast.WS,{body="Aurum cuirass"})
 	sets.precast.WS['Metatron Torment'].Acc = set_combine(sets.precast.WS['Metatron Torment'],{ammo="Fire bomblet",ear1="Fowling earring",waist="Warrior's stone"}) 
 	
 	sets.precast.WS['Steel Cyclone']        = set_combine(sets.precast.WS,{head="Maat's cap",body="Kirin's osode",waist="Warwolf belt"})

@@ -1,0 +1,18 @@
+sets.exported={
+    main="Mandau",
+    sub="Thief's Knife",
+    range="Staurobow",
+    ammo="Sleep Bolt",
+    head="Hecatomb Cap",
+    body={ name="Scp. Harness +1", augments={'Haste+11',}},
+    hands="Hecatomb Mittens",
+    legs="Hecatomb Subligar",
+    feet="Trotter Boots",
+    neck="Chocobo Whistle",
+    waist="Lycopodium Sash",
+    left_ear="Suppanomimi",
+    right_ear={ name="Brutal Earring", augments={'Haste+7','"Dbl.Atk."+2',}},
+    left_ring="Rajas Ring",
+    right_ring="Warp Ring",
+    back="Nexus Cape",
+}

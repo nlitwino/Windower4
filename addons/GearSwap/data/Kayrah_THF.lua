@@ -67,7 +67,7 @@ function init_gear_sets()
 	sets.midcast.FastRecast                   = set_combine(sets.precast.FC,{head="Walahra turban",body="Rapparee harness",hands="Dusk gloves +1",waist="Velocious belt",feet="Dusk ledelsens +1"})
 	
 	sets.midcast['Utsusemi: Ni']              = set_combine(sets.midcast.FastRecast,{neck="Fortified chain",ear1="Magnetic earring",ring1="Defending ring",ring2="Antica ring",back="Boxer's mantle"})
-	sets.midcast['Utsusemi: Ichi']            = set_combine(sets.midcast['Utsusemi: Ni'],{body="Scorpion harness +1",waist="Resolute belt"})
+	sets.midcast['Utsusemi: Ichi']            = set_combine(sets.midcast['Utsusemi: Ni'],{body=gear.HasteHarness,waist="Resolute belt"})
 	
 	-- idle
 	sets.idle                                 = {ammo="Bibiki seashell"
@@ -87,11 +87,11 @@ function init_gear_sets()
 												,head="Walahra turban"    ,neck="Love torque"    ,ear1="Suppanomimi"    ,ear2="Brutal earring"
 												,body="Rapparee harness"  ,hands="Dusk gloves +1",ring1=gear.TRing1     ,ring2=gear.TRing2
 												,back="Cerberus mantle +1",waist="Velocious belt",legs="Homam cosciales",feet="Dusk ledelsens +1"}
-	sets.engaged.HybridAcc                    = set_combine(sets.engaged,{ammo="Fire bomblet",hands="Homam manopolas",back="Cuchulain's mantle",feet="Homam gambieras"})
+	sets.engaged.HybridAcc                    = set_combine(sets.engaged,{ammo="Fire bomblet",neck="Ancient torque",hands="Homam manopolas",back="Cuchulain's mantle",feet="Homam gambieras"})
 	sets.engaged.Acc                          = set_combine(sets.engaged.HybridAcc,{head="Homam zucchetto",neck="Ancient torque",body="Homam corazza",hands="Enkidu's mittens",waist="Lycopodium sash"})
 	
 	-- ranged
-	sets.precast.RA                           = {head="Zha'Go's barbut"}
+	sets.precast.RA                           = {head="Zha'Go's barbut",gear.RSHarness}
 	sets.midcast.RA                           = {head="Zha'Go's barbut" ,neck="Peacock amulet"       ,ear1="Drone earring"    ,ear2="Drone earring"
 												,body="Rapparee harness",hands="Barbarossa's moufles",ring1="Behemoth ring +1",ring2="Blobnag ring"
 												,back="Mamool Ja mantle",waist="Buccaneer's belt"    ,legs="Dusk trousers +1" ,feet="Homam gambieras"}

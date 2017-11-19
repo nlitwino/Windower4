@@ -81,7 +81,7 @@ function init_gear_sets()
 	-- midcast
 	sets.midcast.FastRecast                            = set_combine(sets.precast.FC,{head="Walahra turban"})
 	
-	sets.midcast['Healing Magic']                      = set_combine(sets.MND,{main="Elder staff",ear2="Magnetic earring",feet="Argute loafers"})
+	sets.midcast['Healing Magic']                      = set_combine(sets.MND,{main="Elder staff",neck="Fylgja torque +1",ear2="Magnetic earring",feet="Argute loafers"})
 	sets.midcast['Divine Magic']                       = set_combine(sets.MND,{main="Chatoyant staff"})
 	
 	sets.midcast['Enfeebling Magic']                   = {main="Chatoyant staff",hands="Argute bracers",feet="Avocat pigaches"}
