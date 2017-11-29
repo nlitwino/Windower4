@@ -4,43 +4,35 @@
     <addon>aecho</addon>
     <addon>battlemod</addon>
     <addon>cancel</addon>
-    <addon>chars</addon>
-    <addon>ConsoleBG</addon>
+    <addon>DistancePlus</addon>
     <addon>DressUp</addon>
     <addon>enternity</addon>
+    <addon>FastCS</addon>
     <addon>findAll</addon>
     <addon>GearSwap</addon>
     <addon>InfoReplacer</addon>
-    <addon>linker</addon>
+    <addon>instaLS</addon>
+    <addon>ohShi</addon>
+    <addon>PetTP</addon>
     <addon>send</addon>
     <addon>shortcuts</addon>
     <addon>Silence</addon>
-    <addon>SpeedChecker</addon>
-    <addon>SpellCheck</addon>
-    <addon>TParty</addon>
-    <addon>update</addon>
-    <addon>Treasury</addon>
-    <addon>PetTP</addon>
-    <addon>instaLS</addon>
-    <addon>autojoin</addon>
-    <addon>autoinvite</addon>
-    <addon>itemizer</addon>
-    <addon>DistancePlus</addon>
-    <addon>distance</addon>
     <addon>timestamp</addon>
-    <plugin>Run</plugin>
-    <plugin>LightLuggage</plugin>
-    <plugin>InfoBar</plugin>
+    <addon>TParty</addon>
+    <addon>Treasury</addon>
+    <addon>update</addon>
+    <addon>zonetimer</addon>
+    <plugin>AutoExec</plugin>
+    <plugin>Bidder</plugin>
+    <plugin>ChatMon</plugin>
+    <plugin>Config</plugin>
     <plugin>DelayMeNot</plugin>
     <plugin>FFXIDB</plugin>
-    <plugin>Config</plugin>
-    <plugin>ChatMon</plugin>
-    <plugin>AutoExec</plugin>
-    <plugin>Timers</plugin>
+    <plugin>InfoBar</plugin>
+    <plugin>LightLuggage</plugin>
+    <plugin>Run</plugin>
     <plugin>Tickle</plugin>
-    <plugin>SSOrganizer</plugin>
-    <plugin>Bidder</plugin>
-    <plugin>WinControl</plugin>
+    <plugin>Timers</plugin>
   </autoload>
   <profile name="">
     <consolekey>Insert</consolekey>
@@ -48,23 +40,14 @@
   </profile>
   <profile name="Kayrah">
     <consolekey>Insert</consolekey>
-    <mipmaplevel>6</mipmaplevel>
+    <mipmaplevel>4</mipmaplevel>
     <uiscale>1</uiscale>
     <supersampling>2</supersampling>
     <bumpmapping>true</bumpmapping>
+    <alwaysenablegamepad>false</alwaysenablegamepad>
+    <args>--server 8.26.94.111 --user naterun427 --pass running92</args>
   </profile>
   <profile name="Mimosa">
-    <consolekey>Insert</consolekey>
-    <windowmode>Window</windowmode>
-    <width>1600</width>
-    <height>900</height>
-    <mipmaplevel>6</mipmaplevel>
-    <uiscale>1</uiscale>
-    <supersampling>2</supersampling>
-    <bumpmapping>true</bumpmapping>
-    <sound>false</sound>
-  </profile>
-  <profile name="Wentworth">
     <consolekey>Insert</consolekey>
     <windowmode>Window</windowmode>
     <width>1600</width>
@@ -73,5 +56,138 @@
     <sound>false</sound>
     <alwaysplaysound>false</alwaysplaysound>
     <alwaysenablegamepad>false</alwaysenablegamepad>
+    <args>--server 8.26.94.111 --user blank92 --pass nathan</args>
+  </profile>
+  <profile name="Mian">
+    <consolekey>Insert</consolekey>
+    <windowmode>Window</windowmode>
+    <width>1600</width>
+    <height>900</height>
+    <uiscale>1</uiscale>
+    <hardwaremouse>false</hardwaremouse>
+    <sound>false</sound>
+    <alwaysplaysound>false</alwaysplaysound>
+    <alwaysenablegamepad>false</alwaysenablegamepad>
+    <args>--server 8.26.94.111 --user mian --pass mian92</args>
+  </profile>
+  <profile name="Sheila">
+    <consolekey>Insert</consolekey>
+    <windowmode>Window</windowmode>
+    <width>1600</width>
+    <height>900</height>
+    <uiscale>1</uiscale>
+    <hardwaremouse>false</hardwaremouse>
+    <sound>false</sound>
+    <alwaysplaysound>false</alwaysplaysound>
+    <alwaysenablegamepad>false</alwaysenablegamepad>
+    <args>--server 8.26.94.111 --user cdspops --pass cdspops</args>
+  </profile>
+  <profile name="Wentworth">
+    <consolekey>Insert</consolekey>
+    <windowmode>Window</windowmode>
+    <width>1600</width>
+    <height>900</height>
+    <uiscale>1</uiscale>
+    <hardwaremouse>false</hardwaremouse>
+    <sound>false</sound>
+    <alwaysplaysound>false</alwaysplaysound>
+    <alwaysenablegamepad>false</alwaysenablegamepad>
+    <args>--server 8.26.94.111 --user jgwentworth --pass 877cashnow</args>
+  </profile>
+  <profile name="Sandworm - Batallia">
+    <consolekey>Insert</consolekey>
+    <windowmode>Window</windowmode>
+    <width>1600</width>
+    <height>900</height>
+    <uiscale>1</uiscale>
+    <hardwaremouse>false</hardwaremouse>
+    <sound>false</sound>
+    <alwaysplaysound>false</alwaysplaysound>
+    <alwaysenablegamepad>false</alwaysenablegamepad>
+    <args>--server 8.26.94.111 --user cdssw1 --pass cdsadmin</args>
+  </profile>
+  <profile name="Sandworm - Rolanberry">
+    <consolekey>Insert</consolekey>
+    <windowmode>Window</windowmode>
+    <width>1600</width>
+    <height>900</height>
+    <uiscale>1</uiscale>
+    <hardwaremouse>false</hardwaremouse>
+    <sound>false</sound>
+    <alwaysplaysound>false</alwaysplaysound>
+    <alwaysenablegamepad>false</alwaysenablegamepad>
+    <args>--server 8.26.94.111 --user cdssw2 --pass cdsadmin</args>
+  </profile>
+  <profile name="Sandworm - Ronfaure">
+    <consolekey>Insert</consolekey>
+    <windowmode>Window</windowmode>
+    <width>1600</width>
+    <height>900</height>
+    <uiscale>1</uiscale>
+    <hardwaremouse>false</hardwaremouse>
+    <sound>false</sound>
+    <alwaysplaysound>false</alwaysplaysound>
+    <alwaysenablegamepad>false</alwaysenablegamepad>
+    <args>--server 8.26.94.111 --user cdssw3 --pass cdsadmin</args>
+  </profile>
+  <profile name="Sandworm - Meriphataud">
+    <consolekey>Insert</consolekey>
+    <windowmode>Window</windowmode>
+    <width>1600</width>
+    <height>900</height>
+    <uiscale>1</uiscale>
+    <hardwaremouse>false</hardwaremouse>
+    <sound>false</sound>
+    <alwaysplaysound>false</alwaysplaysound>
+    <alwaysenablegamepad>false</alwaysenablegamepad>
+    <args>--server 8.26.94.111 --user cdssw4 --pass cdsadmin</args>
+  </profile>
+  <profile name="Sandworm - Gustaberg">
+    <consolekey>Insert</consolekey>
+    <windowmode>Window</windowmode>
+    <width>1600</width>
+    <height>900</height>
+    <uiscale>1</uiscale>
+    <hardwaremouse>false</hardwaremouse>
+    <sound>false</sound>
+    <alwaysplaysound>false</alwaysplaysound>
+    <alwaysenablegamepad>false</alwaysenablegamepad>
+    <args>--server 8.26.94.111 --user cdssw5 --pass cdsadmin</args>
+  </profile>
+  <profile name="Sandworm - Sauromugue">
+    <consolekey>Insert</consolekey>
+    <windowmode>Window</windowmode>
+    <width>1600</width>
+    <height>900</height>
+    <uiscale>1</uiscale>
+    <hardwaremouse>false</hardwaremouse>
+    <sound>false</sound>
+    <alwaysplaysound>false</alwaysplaysound>
+    <alwaysenablegamepad>false</alwaysenablegamepad>
+    <args>--server 8.26.94.111 --user cdssw6 --pass cdsadmin</args>
+  </profile>
+  <profile name="Sandworm - Sarutabaruta">
+    <consolekey>Insert</consolekey>
+    <windowmode>Window</windowmode>
+    <width>1600</width>
+    <height>900</height>
+    <uiscale>1</uiscale>
+    <hardwaremouse>false</hardwaremouse>
+    <sound>false</sound>
+    <alwaysplaysound>false</alwaysplaysound>
+    <alwaysenablegamepad>false</alwaysenablegamepad>
+    <args>--server 8.26.94.111 --user cdssw7 --pass cdsadmin</args>
+  </profile>
+  <profile name="Jormugand">
+    <consolekey>Insert</consolekey>
+    <windowmode>Window</windowmode>
+    <width>1600</width>
+    <height>900</height>
+    <uiscale>1</uiscale>
+    <hardwaremouse>false</hardwaremouse>
+    <sound>false</sound>
+    <alwaysplaysound>false</alwaysplaysound>
+    <alwaysenablegamepad>false</alwaysenablegamepad>
+    <args>--server 8.26.94.111 --user thetwicer --pass gibbyplease1237</args>
   </profile>
 </settings>

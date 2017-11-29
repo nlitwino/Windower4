@@ -22,7 +22,7 @@ end
 function user_setup()
 
     state.OffenseMode:options('Normal','HybridAcc','OffTank','Tank')
-    state.WeaponskillMode:options('Normal', 'Power')
+    state.WeaponskillMode:options('Normal', 'HNM')
 	state.PhysicalDefenseMode:options('Evasion','PDT')
 	state.MagicalDefenseMode:options('MDT')
 
@@ -50,28 +50,28 @@ function init_gear_sets()
 	                                             
     sets.precast.Samba                           = {head="Dancer's tiara"}
 	                                             
-    sets.precast.Jig                             = {legs="Etoile tights", feet="Dancer's toe shoes +1"}
+    sets.precast.Jig                             = {legs="Etoile tights +1", feet="Dancer's toe shoes +1"}
 	                                             
     sets.precast.JA['Violent Flourish']          = {ammo="Sturm's report"
-												   ,head="Enkidu's cap"      ,neck="Ancient torque"                        ,ear2="Pixie earring" 
-	                                               ,body="Etoile casaque"    ,hands="Enkidu's mittens",ring1="Omega ring"  ,ring2="Insect ring"
-												   ,back="Cuchulain's mantle",waist="Lycopodium sash" ,legs="Oily trousers",feet="Etoile toeshoes"}
+												   ,head="Ree Habalo's headgear",neck="Ancient torque"                        ,ear2="Pixie earring" 
+	                                               ,body="Etoile casaque +1"    ,hands="Enkidu's mittens",ring1="Omega ring"  ,ring2="Insect ring"
+												   ,back="Cuchulain's mantle"   ,waist="Lycopodium sash" ,legs="Oily trousers",feet="Etoile toeshoes"}
     sets.precast.JA['Desperate Flourish']        = set_combine(sets.precast.Step,{hands="Enkidu's mittens"})
 	sets.precast.JA['Wild Flourish']             = set_combine(sets.precast.JA['Desperate Flourish'])
 	
 	-- precast magic
 	sets.precast.FC                              = {ear1="Loquacious earring"}          
 	-- midcast magic                                 
-	sets.midcast.FastRecast                      = set_combine(sets.precast.FC,{head="Walahra turban",body="Rapparee harness",hands="Dusk gloves +1",waist="Velocious belt",legs="Etoile tights",feet="Dusk ledelsens +1"})
+	sets.midcast.FastRecast                      = set_combine(sets.precast.FC,{head="Walahra turban",body="Rapparee harness",hands="Dusk gloves +1",waist="Velocious belt",legs="Etoile tights +1",feet="Dusk ledelsens +1"})
 	                                             
 	sets.midcast['Utsusemi: Ni']                 = set_combine(sets.midcast.FastRecast,{ear2="Magnetic earring",ring1="Defending ring",ring2="Antica ring",back="Boxer's mantle"})
 	sets.midcast['Utsusemi: Ichi']               = set_combine(sets.midcast['Utusemi: Ni'],{head="Gnole crown",neck="Fortified chain",ear1="Novia earring",body=gear.HasteHarness,waist="Resolute belt",legs="Raven hose",feet="Dancer's toe shoes +1"})
 	                                             
 	-- idle                                          
 	sets.idle                                    = {ammo="Bibiki seashell"
-				                                   ,head="Gnole crown",neck="Chocobo whistle",ear1="Merman's earring",ear2="Merman's earring"
-				                                   ,body="Avalon breastplate",hands="Garden bangles",ring1="Defending ring",ring2="Shadow ring"
-				                                   ,back="Shadow mantle",waist="Lycopodium sash",legs="Darksteel subligar +1",feet="Merman's leggings"}
+				                                   ,head="Gnole crown"       ,neck="Chocobo whistle" ,ear1="Merman's earring"     ,ear2="Merman's earring"
+				                                   ,body="Avalon breastplate",hands="Garden bangles" ,ring1="Defending ring"      ,ring2="Shadow ring"
+				                                   ,back="Shadow mantle"     ,waist="Lycopodium sash",legs="Darksteel subligar +1",feet="Merman's leggings"}
 				                                 
 	sets.idle.Town                               = set_combine(sets.idle,{ring2="Warp ring",back="Nexus cape"})
 	                                             
@@ -90,29 +90,29 @@ function init_gear_sets()
 	sets.engaged                                 = {ammo="Black tathlum"
 				                                   ,head="Walahra turban"    ,neck="Ancient torque",ear1="Suppanomimi"  ,ear2="Brutal earring"
 				                                   ,body="Rapparee harness"  ,hands="Dusk gloves +1" ,ring1=gear.TRing2   ,ring2=gear.TRing1
-				                                   ,back="Cerberus mantle +1",waist="Velocious belt" ,legs="Etoile tights",feet="Dusk ledelsens +1"}
+				                                   ,back="Cerberus mantle +1",waist="Velocious belt" ,legs="Etoile tights +1",feet="Dusk ledelsens +1"}
 	sets.engaged.HybridAcc                       = set_combine(sets.engaged,{back="Cuchulain's mantle",feet="Enkidu's leggings"})
 	sets.engaged.OffTank                         = set_combine(sets.engaged.HybridAcc,{ring1="Defending ring",back="Boxer's mantle"})
 	sets.engaged.Tank                            = set_combine(sets.engaged.OffTank,{body=gear.HasteHarness,back="Etoile cape"})
 	                                               
 	-- ws                                            
 	sets.precast.WS                              = {ammo="Black tathlum"
-					                               ,head="Maat's cap"        ,neck="Fotia gorget"        ,ear1="Triumph earring",ear2="Brutal earring"
-					                               ,body="Etoile casaque"    ,hands="Dancer's bangles +1",ring1="Rajas ring"    ,ring2="Strigoi ring"
-					                               ,back="Cerberus mantle +1",waist="Warwolf belt"       ,legs="Dusk trousers +1"  ,feet="Rutter sabatons"}
-	sets.precast.WS.Power                        = set_combine(sets.precast.WS,{hands="Enkidu's mittens"})
+					                               ,head="Gnadbhod's helm"   ,neck="Fotia gorget"      ,ear1="Merman's earring",ear2="Brutal earring"
+					                               ,body="Etoile casaque +1" ,hands="Tarasque Mitts +1",ring1="Rajas ring"     ,ring2="Strigoi ring"
+					                               ,back="Cerberus mantle +1",waist="Warwolf belt"     ,legs="Dusk trousers +1",feet="Dancer's toe shoes +1"}
+    sets.precast.WS.HNM                          = set_combine(sets.precast.WS,{hands="Enkidu's mittens",ring2=gear.TRing1,back="Cuchulain's mantle",waist="Potent belt"})
 	                                             
-	sets.precast.WS['Dancing Edge']              = set_combine(sets.precast.WS,{ear1="Pixie earring",ring2="Zilant ring",back="Etoile cape",feet="Enkidu's leggings"})
-	sets.precast.WS['Dancing Edge'].Power        = set_combine(sets.precast.WS.Power,{head="Gnadbhod's helm"})
+	sets.precast.WS['Dancing Edge']              = set_combine(sets.precast.WS,{head="Maat's cap",hands="Dancer's bangles +1"})
+    sets.precast.WS['Dancing Edge'].HNM          = set_combine(sets.precast.WS.HNM,{head="Maat's cap",hands="Dancer's bangles +1"})
 	                                             
 	sets.precast.WS['Exenterator']               = set_combine(sets.precast.WS['Dancing Edge'],{})
-	sets.precast.WS['Exenterator'].Power         = set_combine(sets.precast.WS['Dancing Edge'].Power,{})
+    sets.precast.WS['Exenterator'].HNM           = set_combine(sets.precast.WS['Dancing Edge'].HNM,{})
 	                                             
-	sets.precast.WS['Evisceration']              = set_combine(sets.precast.WS,{})
-	sets.precast.WS['Evisceration'].Power        = set_combine(sets.precast.WS.Power,{})
-	                                             
-	sets.precast.WS['Pyrrhic Kleos']             = set_combine(sets.precast.WS,{body="Dancer's casaque +1",hands="Enkidu's mittens"})
-	sets.precast.WS['Pyrrhic Kleos'].Power       = set_combine(sets.precast.WS['Pyrrhic Kleos'],{head="Gnadbhod's helm",body="Etoile casaque",hands="Alkyoneus's bracelets"})
+	sets.precast.WS['Evisceration']              = set_combine(sets.precast.WS,{ring2=gear.CritRing})
+    sets.precast.WS['Evisceration'].HNM          = set_combine(sets.precast.WS.HNM,{ring2=gear.CritRing})
+    
+	sets.precast.WS['Pyrrhic Kleos']             = set_combine(sets.precast.WS,{})
+    sets.precast.WS['Pyrrhic Kleos'].HNM         = set_combine(sets.precast.WS.HNM,{})
 	
 end
 
@@ -128,10 +128,10 @@ function job_post_precast(spell,action,spellMap,eventArgs)
 	if spell.type == 'Waltz' and spell.target.type == 'SELF' then
 		equip(sets.precast.WaltzSelf)
 	end
-	if (spell.type == 'WeaponSkill' or spell.name == 'Violent Flourish') and daytime then
+	if spell.type == 'WeaponSkill' and daytime then
 		equip({ear1="Fenrir's earring"})
 	end
-	
+
 end
 
 function job_buff_change(name,gain)

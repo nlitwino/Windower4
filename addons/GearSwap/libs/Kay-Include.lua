@@ -76,8 +76,8 @@ end
 function initialize_custom_augments(name)
 
 	if name == "Kayrah" then
-		gear.TRing1 = { name="Toreador's Ring", augments={'"Triple Atk."+2','Accuracy+4',}}
-		gear.TRing2 = { name="Toreador's Ring", augments={'Accuracy+5','"Triple Atk."+2',}}
+		gear.TRing1 = { name="Toreador's Ring", augments={'Accuracy+5','"Triple Atk."+2',}}
+		gear.TRing2 = { name="Toreador's Ring", augments={'"Triple Atk."+2','Accuracy+4',}}
 		gear.CritRing = { name="Toreador's Ring", augments={'Crit.hit rate+6',}}
 		gear.HasteHarness = { name="Scorpion Harness +1", augments={'Haste+11',}}
 		gear.RSHarness = { name="Scorpion Harness +1", augments={'"Rapid Shot"+11',}}

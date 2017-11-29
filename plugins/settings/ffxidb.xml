@@ -9,7 +9,7 @@
         <ShowMob>true</ShowMob>
         <ShowMarker>true</ShowMarker>
         <ShowTargetLine>true</ShowTargetLine>
-        <Ranges></Ranges>
+        <Ranges />
     </global>
     <Mimosa>
         <X>1117</X>
@@ -76,4 +76,19 @@
         <X>1180</X>
         <Y>58</Y>
     </Lelelelelelelel>
+    <Wyrmkiller>
+        <Zoom>20</Zoom>
+        <X>892</X>
+        <Y>74</Y>
+    </Wyrmkiller>
+    <Starutaru>
+        <Zoom>20</Zoom>
+    </Starutaru>
+    <Sandwormkiller>
+        <Zoom>20</Zoom>
+    </Sandwormkiller>
+    <Twicer>
+        <X>185</X>
+        <Y>11</Y>
+    </Twicer>
 </settings>

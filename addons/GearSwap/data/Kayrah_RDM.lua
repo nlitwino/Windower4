@@ -95,6 +95,7 @@ function init_gear_sets()
 	                                                   
 	-- custom midcast magic                            
 	sets.midcast['Stoneskin']                          = set_combine(sets.MND,sets.midcast.FastRecast,{ear2="Magnetic earring"})
+	sets.midcast['Erase']							   = set_combine(sets.midcast.FastRecast,{ear2="Magnetic earring"})
 	
 	-- engaged
 	sets.engaged                                       = {ammo="Bibiki seashell"
