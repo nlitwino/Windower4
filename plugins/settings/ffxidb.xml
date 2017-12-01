@@ -9,7 +9,7 @@
         <ShowMob>true</ShowMob>
         <ShowMarker>true</ShowMarker>
         <ShowTargetLine>true</ShowTargetLine>
-        <Ranges />
+        <Ranges></Ranges>
     </global>
     <Mimosa>
         <X>1117</X>
@@ -63,9 +63,9 @@
         <Y>49</Y>
     </Sheila>
     <Mian>
-        <X>1056</X>
-        <Y>54</Y>
-        <Zoom>30</Zoom>
+        <X>1097</X>
+        <Y>136</Y>
+        <Zoom>20</Zoom>
     </Mian>
     <Ixiustwopointoh>
         <X>422</X>

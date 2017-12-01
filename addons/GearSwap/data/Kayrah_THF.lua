@@ -48,7 +48,7 @@ function init_gear_sets()
 												,back="Cuchulain's mantle",waist="Warwolf belt"       ,legs="Hecatomb subligar +1",feet="Hecatomb leggings +1"}
 	sets.buff['Trick Attack']                 = {head="Maat's cap"        ,neck="Faith torque"        ,ear1="Hollow earring"
 												,body="Antares harness"   ,hands="Rogue's armlets +1" ,ring1="Blobnag ring"       ,ring2=gear.CritRing
-												,back="Assassin's cape"   ,legs="Oily trousers"       ,feet="Enkidu's leggings"                               }
+												,back="Assassin's cape"   ,waist="Warwolf belt"       ,legs="Oily trousers"       ,feet="Enkidu's leggings"                               }
 	
 	sets.buff['Assassin\'s Charge']           = {}
 	

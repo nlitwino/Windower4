@@ -17,6 +17,7 @@ load Config;
 load DelayMeNot;
 load FFXIDB;
 load InfoBar;
+load JaZero;
 load LightLuggage;
 load Run;
 load Tickle;

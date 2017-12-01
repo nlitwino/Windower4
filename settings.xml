@@ -33,6 +33,7 @@
     <plugin>Run</plugin>
     <plugin>Tickle</plugin>
     <plugin>Timers</plugin>
+    <plugin>JaZero</plugin>
   </autoload>
   <profile name="">
     <consolekey>Insert</consolekey>
