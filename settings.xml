@@ -95,6 +95,18 @@
     <alwaysenablegamepad>false</alwaysenablegamepad>
     <args>--server 8.26.94.111 --user jgwentworth --pass 877cashnow</args>
   </profile>
+  <profile name="Ixius">
+    <consolekey>Insert</consolekey>
+    <windowmode>Window</windowmode>
+    <width>1600</width>
+    <height>900</height>
+    <uiscale>1</uiscale>
+    <hardwaremouse>false</hardwaremouse>
+    <sound>false</sound>
+    <alwaysplaysound>false</alwaysplaysound>
+    <alwaysenablegamepad>false</alwaysenablegamepad>
+    <args>--server 8.26.94.111 --user Ixius --pass bndlz225</args>
+  </profile>
   <profile name="Sandworm - Batallia">
     <consolekey>Insert</consolekey>
     <windowmode>Window</windowmode>

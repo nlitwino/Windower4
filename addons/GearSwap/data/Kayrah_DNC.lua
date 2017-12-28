@@ -88,9 +88,9 @@ function init_gear_sets()
 	                                             
 	-- engaged                                   
 	sets.engaged                                 = {ammo="Black tathlum"
-				                                   ,head="Walahra turban"    ,neck="Ancient torque",ear1="Suppanomimi"  ,ear2="Brutal earring"
-				                                   ,body="Rapparee harness"  ,hands="Dusk gloves +1" ,ring1=gear.TRing2   ,ring2=gear.TRing1
-				                                   ,back="Cerberus mantle +1",waist="Velocious belt" ,legs="Etoile tights +1",feet="Dusk ledelsens +1"}
+				                                   ,head="Walahra turban"    ,neck="Ancient torque",ear1="Suppanomimi"          ,ear2="Brutal earring"
+				                                   ,body="Rapparee harness"  ,hands="Dusk gloves +1" ,ring1=gear.TRing2         ,ring2=gear.TRing1
+				                                   ,back="Cerberus mantle +1",waist="Velocious belt" ,legs="Barbarossa's zerehs",feet="Dusk ledelsens +1"}
 	sets.engaged.HybridAcc                       = set_combine(sets.engaged,{back="Cuchulain's mantle",feet="Enkidu's leggings"})
 	sets.engaged.OffTank                         = set_combine(sets.engaged.HybridAcc,{ring1="Defending ring",back="Boxer's mantle"})
 	sets.engaged.Tank                            = set_combine(sets.engaged.OffTank,{body=gear.HasteHarness,back="Etoile cape"})

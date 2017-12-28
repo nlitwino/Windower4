@@ -134,9 +134,9 @@ function init_gear_sets()
 	sets.defense.MDT 										 = {}
 	
 	-- Engaged sets
-	sets.engaged											 = {head="Walahra turban",neck="Chivalrous chain"
-															   ,body="Sha'ir manteel"
-															   ,back="Bard's cape"   ,waist="Velocious belt",legs="Byakko haidate"}
+	sets.engaged											 = {head="Walahra turban",neck="Peacock amulet",ear1="Pixie earring",ear2="Brutal earring"
+															   ,body="Sha'ir manteel",hands="Dusk gloves",ring1="Sniper's ring +1",ring2="Sniper's ring +1"
+															   ,back="Bard's cape"   ,waist="Velocious belt",legs="Byakko's haidate",feet="Dusk ledelsens +1"}
 	sets.engaged.Acc										 = set_combine(sets.engaged,{})
 	sets.engaged.HNM 										 = set_combine(sets.engaged.Acc, {})
 	

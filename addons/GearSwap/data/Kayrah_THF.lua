@@ -84,10 +84,10 @@ function init_gear_sets()
 	
 	-- engaged
 	sets.engaged                              = {ammo="Bomb core"
-												,head="Walahra turban"    ,neck="Love torque"    ,ear1="Suppanomimi"    ,ear2="Brutal earring"
-												,body="Rapparee harness"  ,hands="Dusk gloves +1",ring1=gear.TRing1     ,ring2=gear.TRing2
-												,back="Cerberus mantle +1",waist="Velocious belt",legs="Homam cosciales",feet="Dusk ledelsens +1"}
-	sets.engaged.HybridAcc                    = set_combine(sets.engaged,{ammo="Fire bomblet",neck="Ancient torque",hands="Homam manopolas",back="Cuchulain's mantle",feet="Homam gambieras"})
+												,head="Walahra turban"    ,neck="Love torque"    ,ear1="Suppanomimi"        ,ear2="Brutal earring"
+												,body="Rapparee harness"  ,hands="Dusk gloves +1",ring1=gear.TRing1         ,ring2=gear.TRing2
+												,back="Cerberus mantle +1",waist="Velocious belt",legs="Barbarossa's zerehs",feet="Dusk ledelsens +1"}
+	sets.engaged.HybridAcc                    = set_combine(sets.engaged,{ammo="Fire bomblet",neck="Ancient torque",hands="Homam manopolas",back="Cuchulain's mantle",legs="Homam cosciales",feet="Homam gambieras"})
 	sets.engaged.Acc                          = set_combine(sets.engaged.HybridAcc,{head="Homam zucchetto",neck="Ancient torque",body="Homam corazza",hands="Enkidu's mittens",waist="Lycopodium sash"})
 	
 	-- ranged
@@ -119,38 +119,38 @@ function init_gear_sets()
 	sets.precast.WS['Mandalic Stab'].Acc      = set_combine(sets.precast.WS.Acc  ,{ammo="Fire bomblet",hands="Enkidu's mittens",back="Cuchulain's mantle"})
 	
 	-- SA WS
-	sets.precast.WS.SA                        = set_combine(sets.precast.WS      ,{ear1="Pixie earring",ring2=gear.CritRing})
-	sets.precast.WS.Power.SA                  = set_combine(sets.precast.WS.Power,{ring2=gear.CritRing})
-	sets.precast.WS.Acc.SA                    = set_combine(sets.precast.WS.Acc  ,{ear1="Pixie earring",ring2=gear.CritRing})
+	sets.precast.WS.SA                        = set_combine(sets.precast.WS      ,{ear1="Pixie earring"})
+	sets.precast.WS.Power.SA                  = set_combine(sets.precast.WS.Power,{})
+	sets.precast.WS.Acc.SA                    = set_combine(sets.precast.WS.Acc  ,{ear1="Pixie earring"})
 	
-	sets.precast.WS['Shark Bite'].SA          = set_combine(sets.precast.WS['Shark Bite']      ,{ear1="Pixie earring",ring2=gear.CritRing})
-	sets.precast.WS['Shark Bite'].Power.SA    = set_combine(sets.precast.WS['Shark Bite'].Power,{ear1="Pixie earring",ring2=gear.CritRing})
-	sets.precast.WS['Shark Bite'].Acc.SA      = set_combine(sets.precast.WS['Shark Bite'].Acc  ,{ear1="Pixie earring",ring2=gear.CritRing})
+	sets.precast.WS['Shark Bite'].SA          = set_combine(sets.precast.WS['Shark Bite']      ,{ear1="Pixie earring"})
+	sets.precast.WS['Shark Bite'].Power.SA    = set_combine(sets.precast.WS['Shark Bite'].Power,{ear1="Pixie earring"})
+	sets.precast.WS['Shark Bite'].Acc.SA      = set_combine(sets.precast.WS['Shark Bite'].Acc  ,{ear1="Pixie earring"})
 	
-	sets.precast.WS['Mercy Stroke'].SA        = set_combine(sets.precast.WS['Mercy Stroke']      ,{hands="Hecatomb mittens +1",ring2=gear.CritRing})
-	sets.precast.WS['Mercy Stroke'].Power.SA  = set_combine(sets.precast.WS['Mercy Stroke'].Power,{hands="Hecatomb mittens +1",ring2=gear.CritRing})
-	sets.precast.WS['Mercy Stroke'].Acc.SA    = set_combine(sets.precast.WS['Mercy Stroke'].Acc  ,{ring2=gear.CritRing})
+	sets.precast.WS['Mercy Stroke'].SA        = set_combine(sets.precast.WS['Mercy Stroke']      ,{hands="Hecatomb mittens +1"})
+	sets.precast.WS['Mercy Stroke'].Power.SA  = set_combine(sets.precast.WS['Mercy Stroke'].Power,{hands="Hecatomb mittens +1"})
+	sets.precast.WS['Mercy Stroke'].Acc.SA    = set_combine(sets.precast.WS['Mercy Stroke'].Acc  ,{})
 	
-	sets.precast.WS['Mandalic Stab'].SA       = set_combine(sets.precast.WS['Mandalic Stab']      ,{ring2=gear.CritRing})
-	sets.precast.WS['Mandalic Stab'].Power.SA = set_combine(sets.precast.WS['Mandalic Stab'].Power,{ring2=gear.CritRing})
-	sets.precast.WS['Mandalic Stab'].Acc.SA   = set_combine(sets.precast.WS['Mandalic Stab'].Acc  ,{ring2=gear.CritRing})
+	sets.precast.WS['Mandalic Stab'].SA       = set_combine(sets.precast.WS['Mandalic Stab']      ,{})
+	sets.precast.WS['Mandalic Stab'].Power.SA = set_combine(sets.precast.WS['Mandalic Stab'].Power,{})
+	sets.precast.WS['Mandalic Stab'].Acc.SA   = set_combine(sets.precast.WS['Mandalic Stab'].Acc  ,{})
 	
 	-- TA WS
-	sets.precast.WS.TA                        = set_combine(sets.precast.WS      ,{head="Maat's cap",ear1="Drone earring",hands="Rogue's armlets +1",ring2=gear.CritRing})
-	sets.precast.WS.Power.TA                  = set_combine(sets.precast.WS.Power,{head="Maat's cap",ear1="Drone earring",hands="Rogue's armlets +1",ring2=gear.CritRing})
-	sets.precast.WS.Acc.TA                    = set_combine(sets.precast.WS.Acc  ,{head="Maat's cap",ear1="Drone earring",hands="Rogue's armlets +1",ring2=gear.CritRing})
+	sets.precast.WS.TA                        = set_combine(sets.precast.WS      ,{head="Maat's cap",ear1="Drone earring",hands="Rogue's armlets +1"})
+	sets.precast.WS.Power.TA                  = set_combine(sets.precast.WS.Power,{head="Maat's cap",ear1="Drone earring",hands="Rogue's armlets +1"})
+	sets.precast.WS.Acc.TA                    = set_combine(sets.precast.WS.Acc  ,{head="Maat's cap",ear1="Drone earring",hands="Rogue's armlets +1"})
 	
-	sets.precast.WS['Shark Bite'].TA          = set_combine(sets.precast.WS['Shark Bite']      ,{ear1="Drone earring",hands="Rogue's armlets +1",ring2=gear.CritRing})
-	sets.precast.WS['Shark Bite'].Power.TA    = set_combine(sets.precast.WS['Shark Bite'].Power,{head="Maat's cap",ear1="Drone earring",hands="Rogue's armlets +1",ring2=gear.CritRing})
-	sets.precast.WS['Shark Bite'].Acc.TA      = set_combine(sets.precast.WS['Shark Bite'].Acc  ,{ear1="Drone earring",hands="Rogue's armlets +1",ring2=gear.CritRing})
+	sets.precast.WS['Shark Bite'].TA          = set_combine(sets.precast.WS['Shark Bite']      ,{ear1="Drone earring",hands="Rogue's armlets +1"})
+	sets.precast.WS['Shark Bite'].Power.TA    = set_combine(sets.precast.WS['Shark Bite'].Power,{head="Maat's cap",ear1="Drone earring",hands="Rogue's armlets +1"})
+	sets.precast.WS['Shark Bite'].Acc.TA      = set_combine(sets.precast.WS['Shark Bite'].Acc  ,{ear1="Drone earring",hands="Rogue's armlets +1"})
 	
-	sets.precast.WS['Mercy Stroke'].TA        = set_combine(sets.precast.WS['Mercy Stroke']      ,{head="Maat's cap",ear1="Drone earring",hands="Rogue's armlets +1",ring2=gear.CritRing})
-	sets.precast.WS['Mercy Stroke'].Power.TA  = set_combine(sets.precast.WS['Mercy Stroke'].Power,{ear1="Drone earring",hands="Rogue's armlets +1",ring2=gear.CritRing})
-	sets.precast.WS['Mercy Stroke'].Acc.TA    = set_combine(sets.precast.WS['Mercy Stroke'].Acc  ,{head="Maat's cap",ear1="Drone earring",hands="Rogue's armlets +1",ring2=gear.CritRing})
+	sets.precast.WS['Mercy Stroke'].TA        = set_combine(sets.precast.WS['Mercy Stroke']      ,{head="Maat's cap",ear1="Drone earring",hands="Rogue's armlets +1"})
+	sets.precast.WS['Mercy Stroke'].Power.TA  = set_combine(sets.precast.WS['Mercy Stroke'].Power,{ear1="Drone earring",hands="Rogue's armlets +1"})
+	sets.precast.WS['Mercy Stroke'].Acc.TA    = set_combine(sets.precast.WS['Mercy Stroke'].Acc  ,{head="Maat's cap",ear1="Drone earring",hands="Rogue's armlets +1"})
 	
-	sets.precast.WS['Mandalic Stab'].TA       = set_combine(sets.precast.WS['Mandalic Stab']      ,{head="Maat's cap",ear1="Drone earring",hands="Rogue's armlets +1",ring2=gear.CritRing,back="Assassin's cape"})
-	sets.precast.WS['Mandalic Stab'].Power.TA = set_combine(sets.precast.WS['Mandalic Stab'].Power,{head="Maat's cap",ear1="Drone earring",hands="Rogue's armlets +1",ring2=gear.CritRing,back="Assassin's cape"})
-	sets.precast.WS['Mandalic Stab'].Acc.TA   = set_combine(sets.precast.WS['Mandalic Stab'].Acc  ,{head="Maat's cap",ear1="Drone earring",body="Antares harness",hands="Rogue's armlets +1",ring2=gear.CritRing,back="Assassin's cape"})
+	sets.precast.WS['Mandalic Stab'].TA       = set_combine(sets.precast.WS['Mandalic Stab']      ,{head="Maat's cap",ear1="Drone earring",hands="Rogue's armlets +1",back="Assassin's cape"})
+	sets.precast.WS['Mandalic Stab'].Power.TA = set_combine(sets.precast.WS['Mandalic Stab'].Power,{head="Maat's cap",ear1="Drone earring",hands="Rogue's armlets +1",back="Assassin's cape"})
+	sets.precast.WS['Mandalic Stab'].Acc.TA   = set_combine(sets.precast.WS['Mandalic Stab'].Acc  ,{head="Maat's cap",ear1="Drone earring",body="Antares harness",hands="Rogue's armlets +1",back="Assassin's cape"})
 	
 	-- SATA WS
 	sets.precast.WS.SATA                        = set_combine(sets.precast.WS.TA,{back="Assassin's cape"})

@@ -77,18 +77,18 @@ function init_gear_sets()
     
     --default engaged
     sets.engaged                        = {ammo="Black tathlum"
-                                          ,head="Walahra turban",neck="Love torque",ear1="Merman's earring",ear2="Brutal earring"
-                                          ,body="Wyrm mail +1",hands="Dusk gloves +1",ring1="Rajas ring",ring2=gear.TRing1
-                                          ,back="Cerberus mantle +1",waist="Velocious belt",legs="Homam cosciales",feet="Dusk ledelsens +1"}
-    sets.engaged.HybridAcc              = set_combine(sets.engaged,{ear1="Fowling earring",back="Cuchulain's mantle",feet="Homam gambieras"})
+                                          ,head="Walahra turban"    ,neck="Love torque"    ,ear1="Merman's earring"   ,ear2="Brutal earring"
+                                          ,body="Wyrm mail +1"      ,hands="Dusk gloves +1",ring1="Rajas ring"        ,ring2=gear.TRing1
+                                          ,back="Cerberus mantle +1",waist="Velocious belt",legs="Barbarossa's zerehs",feet="Dusk ledelsens +1"}
+    sets.engaged.HybridAcc              = set_combine(sets.engaged,{ear1="Fowling earring",back="Cuchulain's mantle",legs="Homam cosciales",feet="Homam gambieras"})
     sets.engaged.Acc                    = set_combine(sets.engaged.HybridAcc,{hands="Homam manopolas"})
     
     --engaged (sam)
     sets.engaged.SAM                    = {ammo="White tathlum"
                                           ,head="Walahra turban",neck="Love torque",ear1="Merman's earring",ear2="Brutal earring"
                                           ,body="Aurum cuirass",hands="Dusk gloves +1",ring1="Rajas ring",ring2=gear.TRing1
-                                          ,back="Cerberus mantle +1",waist="Velocious belt",legs="Homam cosciales",feet="Dusk ledelsens +1"}
-    sets.engaged.HybridAcc.SAM          = set_combine(sets.engaged.SAM,{ear1="Fowling earring",back="Cuchulain's mantle",feet="Homam gambieras"})
+                                          ,back="Cerberus mantle +1",waist="Velocious belt",legs="Barbarossa's zerehs",feet="Dusk ledelsens +1"}
+    sets.engaged.HybridAcc.SAM          = set_combine(sets.engaged.SAM,{ear1="Fowling earring",back="Cuchulain's mantle",legs="Homam cosciales",feet="Homam gambieras"})
     sets.engaged.Acc.SAM                = set_combine(sets.engaged.HybridAcc.SAM,{hands="Homam manopolas"})
     
     --ws

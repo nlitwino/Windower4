@@ -27,20 +27,20 @@
         <!--2 for 30 FPS, 1 for 60 FPS, 0 for uncapped frame rates-->
         <FrameRateDivisor>1</FrameRateDivisor>
     </Relish>
-    <Mimosa>
-        <!--2 for 30 FPS, 1 for 60 FPS, 0 for uncapped frame rates-->
-        <FrameRateDivisor>1</FrameRateDivisor>
-    </Mimosa>
     <Sandypants>
         <!--2 for 30 FPS, 1 for 60 FPS, 0 for uncapped frame rates-->
         <FrameRateDivisor>1</FrameRateDivisor>
     </Sandypants>
-    <Mian>
-        <!--2 for 30 FPS, 1 for 60 FPS, 0 for uncapped frame rates-->
-        <FrameRateDivisor>1</FrameRateDivisor>
-    </Mian>
     <Kayrah>
         <!--2 for 30 FPS, 1 for 60 FPS, 0 for uncapped frame rates-->
         <FrameRateDivisor>1</FrameRateDivisor>
     </Kayrah>
+    <Mimosa>
+        <!--2 for 30 FPS, 1 for 60 FPS, 0 for uncapped frame rates-->
+        <FrameRateDivisor>1</FrameRateDivisor>
+    </Mimosa>
+    <Mian>
+        <!--2 for 30 FPS, 1 for 60 FPS, 0 for uncapped frame rates-->
+        <FrameRateDivisor>1</FrameRateDivisor>
+    </Mian>
 </settings>

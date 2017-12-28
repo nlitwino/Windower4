@@ -153,9 +153,9 @@ function init_gear_sets()
 						                   ,back="Gigant mantle"    ,waist="Velocious belt",legs="Homam cosciales"  ,feet="Homam gambieras"}
 	-- default ws                        
 	sets.precast.WS                      = {ammo="Bomb core"
-					                       ,head="Hecatomb cap +1",neck="Fotia gorget",ear1="Triumph earring",ear2="Brutal earring"
-					                       ,body="Armada hauberk",hands="Alkyoneus's bracelets",ring1="Rajas ring",ring2="Strigoi ring"
-					                       ,back="Cerberus mantle +1",waist="Warwolf belt",legs="Onyx cuisses",feet="Hecatomb leggings +1"}
+					                       ,head="Hecatomb cap +1"   ,neck="Fotia gorget"          ,ear1="Triumph earring",ear2="Brutal earring"
+					                       ,body="Armada hauberk"    ,hands="Alkyoneus's bracelets",ring1="Rajas ring"    ,ring2="Strigoi ring"
+					                       ,back="Cerberus mantle +1",waist="Warwolf belt"         ,legs="Onyx cuisses"   ,feet="Hecatomb leggings +1"}
 	sets.precast.WS.HNM                  = set_combine(sets.precast.WS,{ammo="Fire bomblet",ear1="Fowling earring",hands="Hecatomb mittens +1"})
 	                                     
 	-- ws scythe                         

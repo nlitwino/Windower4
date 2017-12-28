@@ -200,7 +200,7 @@ function init_gear_sets()
     -- Favor uses Caller's Horn instead of Convoker's Horn for refresh
     sets.idle.Avatar.Melee                                  = set_combine(sets.idle.Avatar,{})
                                                             
-    sets.perp 				                                = {body="Yinyang robe",ring2="Evoker's ring",feet="Evoker's pigaches +1"}
+    sets.perp 				                                = {body="Yinyang robe",hands="Nashira gages",ring2="Evoker's ring",feet="Evoker's pigaches +1"}
     sets.perp.Day 			                                = {body="Summoner's doublet"}
     sets.perp.Weather 		                                = {head="Summoner's horn"}
     sets.perp.Carbuncle 	                                = {hands="Carbuncle mitts"}
