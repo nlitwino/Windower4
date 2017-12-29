@@ -25,6 +25,7 @@ load Timers;
 lua load aecho;
 lua load battlemod;
 lua load cancel;
+lua load craft;
 lua load DistancePlus;
 lua load DressUp;
 lua load enternity;
