@@ -23,7 +23,7 @@ function init_gear_sets()
 	--Misc.
 	sets.MND 													= {sub="Bugard leather strap +1", head="Healer's cap", neck="Holy phial", ear1="Mamool Ja earring", ear2="Star earring", body="Errant houppelande", hands="Blessed mitts", ring1="Tamas ring", ring2="Star ring", back="Prism cape", waist="Cleric's belt", legs="Blessed trousers", feet="Cleric's duckbills"}
 	sets.INT 													= {sub="Bugard leather strap +1", body="Errant houppelande", ring1="Tamas ring", ring2="Snow ring", back="Prism cape", legs="Jet seraweels"}
-	sets.resting 												= {main="Chatoyant staff", sub="Bugard leather strap +1 +1", body="Errant houppelande", hands="Oracle's gloves", feet="Oracle's Pigaches"}
+	sets.resting 												= {main="Chatoyant staff", sub="Bugard leather strap +1 +1", body="Errant houppelande", hands="Oracle's gloves", back="Invigorating cape",feet="Oracle's Pigaches"}
 	
 	--Precast Magic
 	sets.precast.FC 											= {main="Chatoyant staff", sub="Magic strap", waist="Cleric's belt",feet="Rostrum pumps"}
@@ -49,12 +49,12 @@ function init_gear_sets()
 	sets.midcast.FastRecast										= set_combine(sets.precast.FC, {})
 	
 	--Idle Sets
-	sets.idle 													= {main="Kerykeion", sub="Genbu's shield", head="Cait Sith cap", neck="Chocobo whistle", ear1="Mamool Ja earring", ear2="Star earring", body="Dalmatica", hands="Healer's mitts", ring1="Tamas ring", ring2="Star ring", back="Prism cape", waist="Lycopodium sash", legs="Healer's pantaloons", feet="Healer's duckbills"}
+	sets.idle 													= {main="Kerykeion", sub="Genbu's shield", head="Cait Sith cap", neck="Chocobo whistle", ear1="Mamool Ja earring", ear2="Star earring", body="Dalmatica", hands="Healer's mitts", ring1="Merman's ring", ring2="Merman's ring", back="Hexerei cape", waist="Lycopodium sash", legs="Healer's pantaloons", feet="Healer's duckbills"}
 	sets.idle.Town												= set_combine(sets.idle, {})
 	sets.Kiting													= {feet="Herald's gaiters"}
 	
 	sets.idle.PDT												= set_combine(sets.idle, {})
-	sets.idle.MDT												= set_combine(sets.idle, {})
+	sets.idle.MDT												= set_combine(sets.idle, {ring1="Merman's ring",ring2="Merman's ring"})
 	
 	--Engaged Sets
 	sets.engaged												= {head="Walahra turban", hands="Blessed mitts", waist="Headlong belt", legs="Blessed trousers", feet="Blessed pumps"}

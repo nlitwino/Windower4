@@ -599,5 +599,8 @@
   <b id="610" duration="0" jp="ネゲートチャーム" enLog="Negate Charm">Negate Charm</b>
   <b id="611" duration="0" jp="魔法回避率アップ" enLog="Magic Evasion Boost">Magic Evasion Boost</b>
   <b id="612" duration="0" jp="コルア展開" enLog="Colure Active">Colure Active</b>
-  <b id="613" duration="0" jp="なし" enLog="Combat Learning">Combat Learning</b>
+  <b id="613" duration="0" jp="ミュモルの光" enLog="Mumor's Radiance">Mumor's Radiance</b>
+  <b id="614" duration="0" jp="ウルゴアの闇" enLog="Ullegore's Gloom">Ullegore's Gloom</b>
+  <b id="615" duration="0" jp="ためる" enLog="Boost">Boost</b>
+  <b id="616" duration="0" jp="芸術家肌" enLog="Artisanal Knowledge">Artisanal Knowledge</b>
 </status>

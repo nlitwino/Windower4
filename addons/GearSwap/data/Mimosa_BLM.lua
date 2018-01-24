@@ -45,12 +45,12 @@ function init_gear_sets()
 															Dark 		= {sub="Dark Grip"}}
 	
 	--Idle Sets
-	sets.idle 												 = {head="Cait sith cap",neck="Chocobo whistle",ear1="Abyssal earring",ear2="Star earring",body="Dalmatica",hands="Sorcerer's gloves",ring1="Tamas ring",ring2="Star ring",back="Prism cape",waist="Lycopodium sash",legs="Jet seraweels",feet="Sorcerer's sabots"}
+	sets.idle 												 = {head="Cait sith cap",neck="Chocobo whistle",ear1="Abyssal earring",ear2="Star earring",body="Dalmatica",hands="Sorcerer's gloves",ring1="Merman's ring",ring2="Merman's ring",back="Hexerei cape",waist="Lycopodium sash",legs="Jet seraweels",feet="Sorcerer's sabots"}
 	sets.idle.Town											 = set_combine(sets.idle, {})
 						 
 	sets.Kiting 											 = {}
 						 
-	sets.resting 											 = set_combine(sets.idle,{main="Chatoyant staff",head="Oracle's cap",neck="Grandiose chain",hands="Oracle's gloves",body="Oracle's robe",ring2="Star ring",legs="Oracle's braconi",feet="Numerist pumps"})
+	sets.resting 											 = set_combine(sets.idle,{main="Chatoyant staff",head="Oracle's cap",neck="Grandiose chain",hands="Oracle's gloves",body="Oracle's robe",ring2="Star ring",back="Invigorating cape",legs="Oracle's braconi",feet="Numerist pumps"})
 						 
 	--Precast Magic					 
 	sets.precast.FC 										 = {feet="Wizard's sabots",waist="Sorcerer's belt",feet="Rostrum pumps"}

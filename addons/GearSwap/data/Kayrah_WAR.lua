@@ -67,7 +67,7 @@ function init_gear_sets()
 	sets.engaged.Acc                        = set_combine(sets.engaged,{ammo="Fire bomblet",neck="Ancient torque",ear1="Fowling earring",back="Cuchulain's mantle",feet="Aurum sabatons"})
 	
 	-- bravura engaged (normal) [[Rose strap]]  
-	sets.engaged.Bravura                    = set_combine(sets.engaged,{body="Aurum cuirass",ring1="Rajas ring"})
+	sets.engaged.Bravura                    = set_combine(sets.engaged,{neck="Fortitude torque",body="Aurum cuirass"})
 	sets.engaged.Bravura.Acc                = set_combine(sets.engaged.Bravura,{ammo="Fire bomblet",neck="Ancient torque",ear1="Fowling earring",back="Cuchulain's mantle",feet="Aurum sabatons"})
 								  
 	-- bravura engaged (SAM) [[Pole grip]]     

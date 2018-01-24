@@ -36,9 +36,9 @@ function init_gear_sets()
 	
 	-- precast ja
 	sets.precast.Step                            = {ammo="Black tathlum"
-						                           ,head="Enkidu's cap"       ,neck="Ancient torque"                           ,ear2="Pixie earring"
-						                           ,body="Scorpion harness +1",hands="Dancer's bangles +1",ring1=gear.TRing2   ,ring2=gear.TRing1
-						                           ,back="Etoile cape"        ,waist="Lycopodium sash"    ,legs="Oily trousers",feet="Etoile toeshoes"}
+						                           ,head="Enkidu's cap"     ,neck="Ancient torque"                           ,ear2="Pixie earring"
+						                           ,body="Etoile casaque +1",hands="Dancer's bangles +1",ring1=gear.TRing2   ,ring2=gear.TRing1
+						                           ,back="Etoile cape"      ,waist="Lycopodium sash"    ,legs="Oily trousers",feet="Etoile toe shoes +1"}
 	    -- Waltz set (chr and vit)
     sets.precast.Waltz                           = {head="Etoile tiara +1"    ,neck="Flower necklace",ear1="Roundel earring"
 						                           ,body="Dancer's casaque +1"                       ,ring1="Veela ring"
@@ -48,14 +48,14 @@ function init_gear_sets()
     -- Don't need any special gear for Healing Waltz.
     sets.precast.Waltz['Healing Waltz']          = {}
 	                                             
-    sets.precast.Samba                           = {head="Dancer's tiara"}
+    sets.precast.Samba                           = {head="Dancer's tiara +1"}
 	                                             
     sets.precast.Jig                             = {legs="Etoile tights +1", feet="Dancer's toe shoes +1"}
 	                                             
     sets.precast.JA['Violent Flourish']          = {ammo="Sturm's report"
 												   ,head="Ree Habalo's headgear",neck="Ancient torque"                        ,ear2="Pixie earring" 
 	                                               ,body="Etoile casaque +1"    ,hands="Enkidu's mittens",ring1="Omega ring"  ,ring2="Insect ring"
-												   ,back="Cuchulain's mantle"   ,waist="Lycopodium sash" ,legs="Oily trousers",feet="Etoile toeshoes"}
+												   ,back="Cuchulain's mantle"   ,waist="Lycopodium sash" ,legs="Oily trousers",feet="Etoile toe shoes +1"}
     sets.precast.JA['Desperate Flourish']        = set_combine(sets.precast.Step,{hands="Enkidu's mittens"})
 	sets.precast.JA['Wild Flourish']             = set_combine(sets.precast.JA['Desperate Flourish'])
 	
@@ -76,9 +76,9 @@ function init_gear_sets()
 	sets.idle.Town                               = set_combine(sets.idle,{ring2="Warp ring",back="Nexus cape"})
 	                                             
 	-- defense                                   
-	sets.defense.Evasion                         = {head="Gnole crown"        ,neck="Fortified chain"   ,ear1="Novia earring"
-						                           ,body="Scorpion harness +1",hands="Etoile bangles +1"
-						                           ,back="Boxer's mantle"                               ,legs="Raven hose",feet="Dancer's toe shoes +1"}
+	sets.defense.Evasion                         = {head="Gnole crown"    ,neck="Fortified chain"   ,ear1="Novia earring"
+						                           ,body=gear.HasteHarness,hands="Etoile bangles +1"
+						                           ,back="Boxer's mantle"                           ,legs="Raven hose",feet="Dancer's toe shoes +1"}
 	sets.defense.PDT                             = {ammo="Bibiki seashell"
 												   ,head="Darksteel cap +1",neck="Wivre gorget +1"
 	                                               ,body="Darksteel harness +1"                   ,ring1="Defending ring"      ,ring2="Jelly ring"

@@ -3593,6 +3593,7 @@
   <i id="20562" enl="Carnwenhan" jp="カルンウェナン" jpl="" slots="0003" jobs="00000400" races="01FE" level="99" targets="None" casttime="0" recast="0">Carnwenhan</i>
   <i id="20563" enl="Twashtar" jp="トゥワシュトラ" jpl="" slots="0003" jobs="00080440" races="01FE" level="99" targets="None" casttime="0" recast="0">Twashtar</i>
   <i id="20564" enl="Twashtar" jp="トゥワシュトラ" jpl="" slots="0003" jobs="00080440" races="01FE" level="99" targets="None" casttime="0" recast="0">Twashtar</i>
+  <i id="20577" enl="chicken knife II" jp="チキンナイフII" jpl="" slots="0003" jobs="007FFFFE" races="01FE" level="1" targets="None" casttime="0" recast="0">Chicken Knife II</i>
   <i id="20579" enl="Skinflayer" jp="スキンフレア" jpl="" slots="0003" jobs="00080440" races="01FE" level="99" targets="None" casttime="0" recast="0">Skinflayer</i>
   <i id="20580" enl="kustawi" jp="クスタウィ" jpl="" slots="0003" jobs="000E7DC2" races="01FE" level="99" targets="None" casttime="0" recast="0">Kustawi</i>
   <i id="20581" enl="kustawi +1" jp="クスタウィ+1" jpl="" slots="0003" jobs="000E7DC2" races="01FE" level="99" targets="None" casttime="0" recast="0">Kustawi +1</i>
@@ -3663,6 +3664,8 @@
   <i id="20652" enl="Tizona" jp="ティソーナ" jpl="" slots="0003" jobs="00010000" races="01FE" level="99" targets="None" casttime="0" recast="0">Tizona</i>
   <i id="20653" enl="Almace" jp="アルマス" jpl="" slots="0003" jobs="000100A0" races="01FE" level="99" targets="None" casttime="0" recast="0">Almace</i>
   <i id="20654" enl="Almace" jp="アルマス" jpl="" slots="0003" jobs="000100A0" races="01FE" level="99" targets="None" casttime="0" recast="0">Almace</i>
+  <i id="20666" enl="blizzard brand" jp="ブリザドブランド" jpl="" slots="0003" jobs="007FFFFE" races="01FE" level="1" targets="None" casttime="0" recast="0">Blizzard Brand</i>
+  <i id="20667" enl="blizzard brand +1" jp="ブリザドブランド+1" jpl="" slots="0003" jobs="007FFFFE" races="01FE" level="1" targets="Enemy" casttime="0" recast="1968129">Blizzard Brand +1</i>
   <i id="20668" enl="firetongue" jp="ファイアタン" jpl="" slots="0003" jobs="007FFFFE" races="01FE" level="1" targets="None" casttime="0" recast="0">Firetongue</i>
   <i id="20669" enl="firetongue +1" jp="ファイアタン+1" jpl="" slots="0003" jobs="007FFFFE" races="01FE" level="1" targets="Enemy" casttime="0" recast="1968129">Firetongue +1</i>
   <i id="20677" enl="Colada" jp="コラーダ" jpl="" slots="0003" jobs="000100A0" races="01FE" level="99" targets="None" casttime="0" recast="0">Colada</i>
@@ -4089,7 +4092,7 @@
   <i id="21119" enl="eminent wand" jp="エミネンワンド" jpl="" slots="0003" jobs="00318038" races="01FE" level="99" targets="None" casttime="0" recast="0">Eminent Wand</i>
   <i id="21120" enl="patriarch cane" jp="ペトリアークケーン" jpl="" slots="0003" jobs="00308018" races="01FE" level="99" targets="None" casttime="0" recast="0">Patriarch Cane</i>
   <i id="21121" enl="Rose Couverte -1" jp="ローズクーベルト-1" jpl="" slots="0003" jobs="00000008" races="01FE" level="99" targets="None" casttime="0" recast="0">Rose Couverte -1</i>
-  <i id="21122" enl="mes'yohi rod" jp="メスヨヒロッド" jpl="" slots="0003" jobs="00308018" races="01FE" level="99" targets="None" casttime="0" recast="0">Mes'yohi rod</i>
+  <i id="21122" enl="mes'yohi rod" jp="メスヨヒロッド" jpl="" slots="0003" jobs="00308018" races="01FE" level="99" targets="None" casttime="0" recast="0">Mes'yohi Rod</i>
   <i id="21123" enl="camaraderie wand" jp="カマラデリワンド" jpl="" slots="0003" jobs="00318038" races="01FE" level="99" targets="None" casttime="0" recast="0">Cama. Wand</i>
   <i id="21124" enl="dowser's wand" jp="ダウザーワンド" jpl="" slots="0003" jobs="00200000" races="01FE" level="99" targets="None" casttime="0" recast="0">Dowser's Wand</i>
   <i id="21125" enl="Tamaxchi" jp="タマシチ" jpl="" slots="0003" jobs="00318038" races="01FE" level="99" targets="None" casttime="0" recast="0">Tamaxchi</i>
@@ -4256,6 +4259,7 @@
   <i id="21292" enl="bandeiras gun" jp="バンデイラスガン" jpl="" slots="0004" jobs="00020800" races="01FE" level="99" targets="None" casttime="0" recast="0">Bandeiras Gun</i>
   <i id="21293" enl="bandeiras gun +1" jp="バンデイラスガン+1" jpl="" slots="0004" jobs="00020800" races="01FE" level="99" targets="None" casttime="0" recast="0">Bandeiras Gun +1</i>
   <i id="21294" enl="hgafircian" jp="ヒガフィリシャン" jpl="" slots="0004" jobs="00020800" races="01FE" level="99" targets="None" casttime="0" recast="0">Hgafircian</i>
+  <i id="21295" enl="beryllium arrow" jp="ベリリムアロー" jpl="" slots="0008" jobs="00003BE2" races="01FE" level="99" targets="None" casttime="0" recast="0">Beryllium Arrow</i>
   <i id="21296" enl="chrono bullet" jp="クロノブレット" jpl="" slots="0008" jobs="00020800" races="01FE" level="99" targets="None" casttime="0" recast="0">Chrono Bullet</i>
   <i id="21297" enl="chrono arrow" jp="クロノアロー" jpl="" slots="0008" jobs="00000800" races="01FE" level="99" targets="None" casttime="0" recast="0">Chrono Arrow</i>
   <i id="21298" enl="Artemis's arrow" jp="アルテミスの矢" jpl="" slots="0008" jobs="00000800" races="01FE" level="99" targets="None" casttime="0" recast="0">Artemis's Arrow</i>
@@ -4270,6 +4274,7 @@
   <i id="21307" enl="achiyalabopa arrow" jp="アチヤルアロー" jpl="" slots="0008" jobs="00000800" races="01FE" level="99" targets="None" casttime="0" recast="0">Achiyal. Arrow</i>
   <i id="21308" enl="mantid arrow" jp="マンティッドアロー" jpl="" slots="0008" jobs="00000800" races="01FE" level="99" targets="None" casttime="0" recast="0">Mantid Arrow</i>
   <i id="21309" enl="chapuli arrow" jp="チャプリアロー" jpl="" slots="0008" jobs="00003BE2" races="01FE" level="99" targets="None" casttime="0" recast="0">Chapuli Arrow</i>
+  <i id="21310" enl="raetic arrow" jp="レテクアロー" jpl="" slots="0008" jobs="0011BFF2" races="01FE" level="99" targets="None" casttime="0" recast="0">Raetic Arrow</i>
   <i id="21311" enl="quelling bolt" jp="クェリングボルト" jpl="" slots="0008" jobs="00000800" races="01FE" level="99" targets="None" casttime="0" recast="0">Quelling Bolt</i>
   <i id="21312" enl="divine bolt" jp="ディバインボルト" jpl="" slots="0008" jobs="00000800" races="01FE" level="99" targets="None" casttime="0" recast="0">Divine Bolt</i>
   <i id="21313" enl="gashing bolt" jp="ガッシングボルト" jpl="" slots="0008" jobs="00000942" races="01FE" level="99" targets="None" casttime="0" recast="0">Gashing Bolt</i>
@@ -4326,7 +4331,7 @@
   <i id="21364" enl="elder's grip +1" jp="エルダーグリップ+1" jpl="" slots="0002" jobs="007FFFFE" races="01FE" level="99" targets="None" casttime="0" recast="0">Elder's Grip +1</i>
   <i id="21365" enl="dilettante's grip +1" jp="デレタングリップ+1" jpl="" slots="0002" jobs="007FFFFE" races="01FE" level="99" targets="None" casttime="0" recast="0">Dilet.'s Grip +1</i>
   <i id="21366" enl="floestone" jp="フローストーン" jpl="" slots="0008" jobs="007FFFFE" races="01FE" level="99" targets="None" casttime="0" recast="0">Floestone</i>
-  <i id="21367" enl="Tengu-no-Hane" jp="天狗の羽根" jpl="" slots="0008" jobs="007FFFFE" races="01FE" level="99" targets="None" casttime="0" recast="0">Tengu-no-Hane</i>
+  <i id="21367" enl="tengu-no-hane" jp="天狗の羽根" jpl="" slots="0008" jobs="007FFFFE" races="01FE" level="99" targets="None" casttime="0" recast="0">Tengu-no-Hane</i>
   <i id="21368" enl="bestas bane" jp="ベスタスベーン" jpl="" slots="0004" jobs="00092040" races="01FE" level="99" targets="None" casttime="0" recast="0">Bestas Bane</i>
   <i id="21369" enl="moggie goodie bag" jp="モグのたなぼた" jpl="" slots="0008" jobs="007FFFFE" races="01FE" level="1" targets="Self" casttime="0" recast="658444">Moggie Goodie Bag</i>
   <i id="21370" enl="gobbie goodie bag" jp="ゴブのたなぼた" jpl="" slots="0008" jobs="007FFFFE" races="01FE" level="1" targets="Self" casttime="0" recast="658444">Gobbie Goodie Bag</i>
@@ -4434,19 +4439,39 @@
   <i id="21499" enl="jug of creepy broth" jp="唆る蟻人汁" jpl="" slots="0008" jobs="00000200" races="01FE" level="99" targets="None" casttime="0" recast="0">Creepy Broth</i>
   <i id="21504" enl="arasy sainti" jp="アラシサインティ" jpl="" slots="0001" jobs="00042206" races="01FE" level="99" targets="None" casttime="0" recast="0">Arasy Sainti</i>
   <i id="21505" enl="arasy sainti +1" jp="アラシサインティ+1" jpl="" slots="0001" jobs="00042206" races="01FE" level="99" targets="None" casttime="0" recast="0">Arasy Sainti +1</i>
-  <i id="21506" enl="jolt counter" jp="ジョルトカウンタ" jpl="" slots="0001" jobs="00040004" races="01FE" level="99" targets="None" casttime="0" recast="0">Jolt Counter</i>
-  <i id="21507" enl="jolt counter +1" jp="ジョルトカウンタ+1" jpl="" slots="0001" jobs="00040004" races="01FE" level="99" targets="None" casttime="0" recast="0">Jolt Counter +1</i>
+  <i id="21506" enl="pair of jolt counter" jp="ジョルトカウンタ" jpl="" slots="0001" jobs="00040004" races="01FE" level="99" targets="None" casttime="0" recast="0">Jolt Counter</i>
+  <i id="21507" enl="pair of jolt counter +1" jp="ジョルトカウンタ+1" jpl="" slots="0001" jobs="00040004" races="01FE" level="99" targets="None" casttime="0" recast="0">Jolt Counter +1</i>
+  <i id="21511" enl="hepatizon baghnakhs" jp="ヘパテゾバグナウ" jpl="" slots="0001" jobs="000C2366" races="01FE" level="99" targets="None" casttime="0" recast="0">Hep. Baghnakhs</i>
+  <i id="21512" enl="hepatizon baghnakhs +1" jp="ヘパテゾバグナウ+1" jpl="" slots="0001" jobs="000C2366" races="01FE" level="99" targets="None" casttime="0" recast="0">Hep. Baghnakhs +1</i>
+  <i id="21513" enl="pair of raetic baghnakhs" jp="レテクバグナウ" jpl="" slots="0001" jobs="001DA776" races="01FE" level="99" targets="None" casttime="0" recast="0">Raetic Baghnakhs</i>
+  <i id="21514" enl="pair of raetic baghnakhs +1" jp="レテクバグナウ+1" jpl="" slots="0001" jobs="001DA776" races="01FE" level="99" targets="None" casttime="0" recast="0">Rae. Baghnakhs +1</i>
   <i id="21554" enl="arasy knife" jp="アラシナイフ" jpl="" slots="0003" jobs="000E7DC2" races="01FE" level="99" targets="None" casttime="0" recast="0">Arasy Knife</i>
   <i id="21555" enl="arasy knife +1" jp="アラシナイフ+1" jpl="" slots="0003" jobs="000E7DC2" races="01FE" level="99" targets="None" casttime="0" recast="0">Arasy Knife +1</i>
+  <i id="21556" enl="beryllium kris" jp="ベリリムクリス" jpl="" slots="0003" jobs="00308010" races="01FE" level="99" targets="None" casttime="0" recast="0">Beryllium Kris</i>
+  <i id="21557" enl="beryllium kris +1" jp="ベリリムクリス+1" jpl="" slots="0003" jobs="00308010" races="01FE" level="99" targets="None" casttime="0" recast="0">Beryllium Kris +1</i>
+  <i id="21558" enl="rune kris" jp="ルーンクリス" jpl="" slots="0003" jobs="000AAC70" races="01FE" level="70" targets="None" casttime="0" recast="0">Rune Kris</i>
+  <i id="21559" enl="raetic kris" jp="レテククリス" jpl="" slots="0003" jobs="000AAC70" races="01FE" level="99" targets="None" casttime="0" recast="0">Raetic Kris</i>
+  <i id="21560" enl="raetic kris +1" jp="レテククリス+1" jpl="" slots="0003" jobs="000AAC70" races="01FE" level="99" targets="None" casttime="0" recast="0">Raetic Kris +1</i>
   <i id="21604" enl="arasy sword" jp="アラシソード" jpl="" slots="0003" jobs="000100A0" races="01FE" level="99" targets="None" casttime="0" recast="0">Arasy Sword</i>
   <i id="21605" enl="arasy sword +1" jp="アラシソード+1" jpl="" slots="0003" jobs="000100A0" races="01FE" level="99" targets="None" casttime="0" recast="0">Arasy Sword +1</i>
   <i id="21606" enl="enriching sword" jp="エンリッチソード" jpl="" slots="0003" jobs="00000020" races="01FE" level="99" targets="None" casttime="0" recast="0">Enriching Sword</i>
   <i id="21607" enl="enriching sword +1" jp="エンリッチソード+1" jpl="" slots="0003" jobs="00000020" races="01FE" level="99" targets="None" casttime="0" recast="0">Enr. Sword +1</i>
   <i id="21608" enl="onion sword II" jp="オニオンソードII" jpl="" slots="0003" jobs="007FFFFE" races="01FE" level="1" targets="None" casttime="0" recast="0">Onion Sword II</i>
+  <i id="21610" enl="hepatizon rapier" jp="ヘパテゾレイピア" jpl="" slots="0003" jobs="000A44A2" races="01FE" level="99" targets="None" casttime="0" recast="0">Hepatizon Rapier</i>
+  <i id="21611" enl="hepatizon rapier +1" jp="ヘパテゾレイピア+1" jpl="" slots="0003" jobs="000A44A2" races="01FE" level="99" targets="None" casttime="0" recast="0">Hep. Rapier +1</i>
+  <i id="21612" enl="raetic blade" jp="レテクブレード" jpl="" slots="0003" jobs="00539DF2" races="01FE" level="99" targets="None" casttime="0" recast="0">Raetic Blade</i>
+  <i id="21613" enl="raetic blade +1" jp="レテクブレード+1" jpl="" slots="0003" jobs="00539DF2" races="01FE" level="99" targets="None" casttime="0" recast="0">Raetic Blade +1</i>
+  <i id="21614" enl="hepatizon sapara" jp="ヘパテゾサパラ" jpl="" slots="0003" jobs="00031142" races="01FE" level="99" targets="None" casttime="0" recast="0">Hepatizon Sapara</i>
+  <i id="21615" enl="hepatizon sapara +1" jp="ヘパテゾサパラ+1" jpl="" slots="0003" jobs="00031142" races="01FE" level="99" targets="None" casttime="0" recast="0">Hep. Sapara +1</i>
   <i id="21654" enl="arasy claymore" jp="アラシクレイモア" jpl="" slots="0001" jobs="00400182" races="01FE" level="99" targets="None" casttime="0" recast="0">Arasy Claymore</i>
   <i id="21655" enl="arasy claymore +1" jp="アラシクレイモア+1" jpl="" slots="0001" jobs="00400182" races="01FE" level="99" targets="None" casttime="0" recast="0">Arasy Claymore +1</i>
   <i id="21656" enl="Dyrnwyn" jp="ダンウィン" jpl="" slots="0001" jobs="00000100" races="01FE" level="99" targets="None" casttime="0" recast="0">Dyrnwyn</i>
   <i id="21657" enl="Dyrnwyn +1" jp="ダンウィン+1" jpl="" slots="0001" jobs="00000100" races="01FE" level="99" targets="None" casttime="0" recast="0">Dyrnwyn +1</i>
+  <i id="21659" enl="beryllium sword" jp="ベリリムソード" jpl="" slots="0001" jobs="00400182" races="01FE" level="99" targets="None" casttime="0" recast="0">Beryllium Sword</i>
+  <i id="21660" enl="beryllium sword +1" jp="ベリリムソード+1" jpl="" slots="0001" jobs="00400182" races="01FE" level="99" targets="None" casttime="0" recast="0">Bery. Sword +1</i>
+  <i id="21661" enl="rune algol" jp="ルーンアルゴル" jpl="" slots="0001" jobs="00400182" races="01FE" level="70" targets="None" casttime="0" recast="0">Rune Algol</i>
+  <i id="21662" enl="raetic algol" jp="レテクアルゴル" jpl="" slots="0001" jobs="00400182" races="01FE" level="99" targets="None" casttime="0" recast="0">Raetic Algol</i>
+  <i id="21663" enl="raetic algol +1" jp="レテクアルゴル+1" jpl="" slots="0001" jobs="00400182" races="01FE" level="99" targets="None" casttime="0" recast="0">Raetic Algol +1</i>
   <i id="21683" enl="Ragnarok" jp="ラグナロク" jpl="" slots="0001" jobs="00000182" races="01FE" level="99" targets="None" casttime="0" recast="0">Ragnarok</i>
   <i id="21684" enl="Caladbolg" jp="カラドボルグ" jpl="" slots="0001" jobs="00000180" races="01FE" level="99" targets="None" casttime="0" recast="0">Caladbolg</i>
   <i id="21685" enl="Epeolatry" jp="エピオラトリー" jpl="" slots="0001" jobs="00400000" races="01FE" level="99" targets="None" casttime="0" recast="0">Epeolatry</i>
@@ -4471,6 +4496,11 @@
   <i id="21705" enl="arasy tabar +1" jp="アラシタバール+1" jpl="" slots="0003" jobs="00000202" races="01FE" level="99" targets="None" casttime="0" recast="0">Arasy Tabar +1</i>
   <i id="21706" enl="Barbarity" jp="バーバリティ" jpl="" slots="0003" jobs="00000202" races="01FE" level="99" targets="None" casttime="0" recast="0">Barbarity</i>
   <i id="21707" enl="Barbarity +1" jp="バーバリティ+1" jpl="" slots="0003" jobs="00000202" races="01FE" level="99" targets="None" casttime="0" recast="0">Barbarity +1</i>
+  <i id="21708" enl="beryllium pick" jp="ベリリムピック" jpl="" slots="0003" jobs="00400302" races="01FE" level="99" targets="None" casttime="0" recast="0">Beryllium Pick</i>
+  <i id="21709" enl="beryllium pick +1" jp="ベリリムピック+1" jpl="" slots="0003" jobs="00400302" races="01FE" level="99" targets="None" casttime="0" recast="0">Beryllium Pick +1</i>
+  <i id="21710" enl="raetic axe" jp="レテクアクス" jpl="" slots="0003" jobs="00508F12" races="01FE" level="99" targets="None" casttime="0" recast="0">Raetic Axe</i>
+  <i id="21711" enl="raetic axe +1" jp="レテクアクス+1" jpl="" slots="0003" jobs="00508F12" races="01FE" level="99" targets="None" casttime="0" recast="0">Raetic Axe +1</i>
+  <i id="21741" enl="demonic axe" jp="魔人の斧" jpl="" slots="0003" jobs="007FFFFE" races="01FE" level="1" targets="None" casttime="0" recast="0">Demonic Axe</i>
   <i id="21746" enl="Digirbalag" jp="デゲールバラグ" jpl="" slots="0003" jobs="00000202" races="01FE" level="99" targets="None" casttime="0" recast="0">Digirbalag</i>
   <i id="21747" enl="Freydis" jp="フレイディス" jpl="" slots="0003" jobs="00000202" races="01FE" level="99" targets="None" casttime="0" recast="0">Freydis</i>
   <i id="21748" enl="Habilitator" jp="ハビリテイター" jpl="" slots="0003" jobs="00000200" races="01FE" level="99" targets="None" casttime="0" recast="0">Habilitator</i>
@@ -4486,14 +4516,23 @@
   <i id="21758" enl="Ukonvasara" jp="ウコンバサラ" jpl="" slots="0001" jobs="00000002" races="01FE" level="99" targets="None" casttime="0" recast="0">Ukonvasara</i>
   <i id="21762" enl="arasy axe" jp="アラシアクス" jpl="" slots="0001" jobs="00400102" races="01FE" level="99" targets="None" casttime="0" recast="0">Arasy Axe</i>
   <i id="21763" enl="arasy axe +1" jp="アラシアクス+1" jpl="" slots="0001" jobs="00400102" races="01FE" level="99" targets="None" casttime="0" recast="0">Arasy Axe +1</i>
+  <i id="21765" enl="hepatizon axe" jp="ヘパテゾアクス" jpl="" slots="0001" jobs="00400102" races="01FE" level="99" targets="None" casttime="0" recast="0">Hepatizon Axe</i>
+  <i id="21766" enl="hepatizon axe +1" jp="ヘパテゾアクス+1" jpl="" slots="0001" jobs="00400102" races="01FE" level="99" targets="None" casttime="0" recast="0">Hepatizon Axe +1</i>
+  <i id="21767" enl="raetic chopper" jp="レテクチョッパー" jpl="" slots="0001" jobs="00508512" races="01FE" level="99" targets="None" casttime="0" recast="0">Raetic Chopper</i>
+  <i id="21768" enl="raetic chopper +1" jp="レテクチョッパー+1" jpl="" slots="0001" jobs="00508512" races="01FE" level="99" targets="None" casttime="0" recast="0">Raetic Chopper +1</i>
   <i id="21804" enl="Obschine" jp="オブズチャイン" jpl="" slots="0001" jobs="00000100" races="01FE" level="99" targets="None" casttime="0" recast="0">Obschine</i>
   <i id="21805" enl="pixquizpan" jp="ピクイズパン" jpl="" slots="0001" jobs="00000312" races="01FE" level="99" targets="None" casttime="0" recast="0">Pixquizpan</i>
   <i id="21806" enl="pixquizpan +1" jp="ピクイズパン+1" jpl="" slots="0001" jobs="00000312" races="01FE" level="99" targets="None" casttime="0" recast="0">Pixquizpan +1</i>
   <i id="21808" enl="Apocalypse" jp="アポカリプス" jpl="" slots="0001" jobs="00000100" races="01FE" level="99" targets="None" casttime="0" recast="0">Apocalypse</i>
   <i id="21809" enl="Liberator" jp="リベレーター" jpl="" slots="0001" jobs="00000100" races="01FE" level="99" targets="None" casttime="0" recast="0">Liberator</i>
   <i id="21810" enl="Redemption" jp="リデンプション" jpl="" slots="0001" jobs="00000100" races="01FE" level="99" targets="None" casttime="0" recast="0">Redemption</i>
-  <i id="21812" enl="arasy scythe" jp="アラシサイス" jpl="" slots="0001" jobs="00000100" races="01FE" level="99" targets="None" casttime="0" recast="0">Arasy Scythe</i>
-  <i id="21813" enl="arasy scythe +1" jp="アラシサイス+1" jpl="" slots="0001" jobs="00000100" races="01FE" level="99" targets="None" casttime="0" recast="0">Arasy Scythe +1</i>
+  <i id="21812" enl="arasy scythe" jp="アラシサイズ" jpl="" slots="0001" jobs="00000100" races="01FE" level="99" targets="None" casttime="0" recast="0">Arasy Scythe</i>
+  <i id="21813" enl="arasy scythe +1" jp="アラシサイズ+1" jpl="" slots="0001" jobs="00000100" races="01FE" level="99" targets="None" casttime="0" recast="0">Arasy Scythe +1</i>
+  <i id="21815" enl="maliya sickle" jp="マリヤシックル" jpl="" slots="0001" jobs="00000312" races="01FE" level="99" targets="None" casttime="0" recast="0">Maliya Sickle</i>
+  <i id="21816" enl="maliya sickle +1" jp="マリヤシックル+1" jpl="" slots="0001" jobs="00000312" races="01FE" level="99" targets="None" casttime="0" recast="0">Maliya Sickle +1</i>
+  <i id="21817" enl="rune scythe" jp="ルーンサイズ" jpl="" slots="0001" jobs="00000312" races="01FE" level="70" targets="None" casttime="0" recast="0">Rune Scythe</i>
+  <i id="21818" enl="raetic scythe" jp="レテクサイズ" jpl="" slots="0001" jobs="00000312" races="01FE" level="99" targets="None" casttime="0" recast="0">Raetic Scythe</i>
+  <i id="21819" enl="raetic scythe +1" jp="レテクサイズ+1" jpl="" slots="0001" jobs="00000312" races="01FE" level="99" targets="None" casttime="0" recast="0">Raetic Scythe +1</i>
   <i id="21854" enl="Reienkyo" jp="冷艶鋸" jpl="" slots="0001" jobs="00004000" races="01FE" level="99" targets="None" casttime="0" recast="0">Reienkyo</i>
   <i id="21855" enl="Lembing" jp="レムビング" jpl="" slots="0001" jobs="00004000" races="01FE" level="99" targets="None" casttime="0" recast="0">Lembing</i>
   <i id="21857" enl="Gungnir" jp="グングニル" jpl="" slots="0001" jobs="00004000" races="01FE" level="99" targets="None" casttime="0" recast="0">Gungnir</i>
@@ -4501,6 +4540,10 @@
   <i id="21859" enl="Rhongomiant" jp="ロンゴミアント" jpl="" slots="0001" jobs="00004000" races="01FE" level="99" targets="None" casttime="0" recast="0">Rhongomiant</i>
   <i id="21865" enl="arasy lance" jp="アラシランス" jpl="" slots="0001" jobs="00004000" races="01FE" level="99" targets="None" casttime="0" recast="0">Arasy Lance</i>
   <i id="21866" enl="arasy lance +1" jp="アラシランス+1" jpl="" slots="0001" jobs="00004000" races="01FE" level="99" targets="None" casttime="0" recast="0">Arasy Lance +1</i>
+  <i id="21869" enl="exalted spear" jp="神依の槍" jpl="" slots="0001" jobs="00005082" races="01FE" level="99" targets="None" casttime="0" recast="0">Exalted Spear</i>
+  <i id="21870" enl="exalted spear +1" jp="神依の槍+1" jpl="" slots="0001" jobs="00005082" races="01FE" level="99" targets="None" casttime="0" recast="0">Exalted Spear +1</i>
+  <i id="21871" enl="raetic halberd" jp="レテクハルバード" jpl="" slots="0001" jobs="0010D492" races="01FE" level="99" targets="None" casttime="0" recast="0">Raetic Halberd</i>
+  <i id="21872" enl="raetic halberd +1" jp="レテクハルバード+1" jpl="" slots="0001" jobs="0010D492" races="01FE" level="99" targets="None" casttime="0" recast="0">Raetic Halberd +1</i>
   <i id="21904" enl="Kanaria" jp="金糸雀" jpl="" slots="0003" jobs="00002000" races="01FE" level="99" targets="None" casttime="0" recast="0">Kanaria</i>
   <i id="21905" enl="Taka" jp="鷹" jpl="" slots="0003" jobs="00002000" races="01FE" level="99" targets="None" casttime="0" recast="0">Taka</i>
   <i id="21906" enl="Kikoku" jp="鬼哭" jpl="" slots="0003" jobs="00002000" races="01FE" level="99" targets="None" casttime="0" recast="0">Kikoku</i>
@@ -4513,6 +4556,8 @@
   <i id="21956" enl="Masamune" jp="正宗" jpl="" slots="0001" jobs="00001000" races="01FE" level="99" targets="None" casttime="0" recast="0">Masamune</i>
   <i id="21960" enl="Ashijiro no Tachi" jp="足白の太刀" jpl="" slots="0001" jobs="00001000" races="01FE" level="99" targets="None" casttime="0" recast="0">Ashijiro no Tachi</i>
   <i id="21961" enl="Ashijiro no Tachi +1" jp="足白の太刀改" jpl="" slots="0001" jobs="00001000" races="01FE" level="99" targets="None" casttime="0" recast="0">Ashi. no Tachi +1</i>
+  <i id="21963" enl="beryllium tachi" jp="ベリリムタチ" jpl="" slots="0001" jobs="00003000" races="01FE" level="99" targets="None" casttime="0" recast="0">Beryllium Tachi</i>
+  <i id="21964" enl="beryllium tachi +1" jp="ベリリムタチ+1" jpl="" slots="0001" jobs="00003000" races="01FE" level="99" targets="None" casttime="0" recast="0">Beryllium Tachi +1</i>
   <i id="22015" enl="arasy rod" jp="アラシロッド" jpl="" slots="0003" jobs="00308018" races="01FE" level="99" targets="None" casttime="0" recast="0">Arasy Rod</i>
   <i id="22016" enl="arasy rod +1" jp="アラシロッド+1" jpl="" slots="0003" jobs="00308018" races="01FE" level="99" targets="None" casttime="0" recast="0">Arasy Rod +1</i>
   <i id="22017" enl="seika uchiwa" jp="盛夏団扇" jpl="" slots="0003" jobs="007FFFFE" races="01FE" level="1" targets="None" casttime="0" recast="0">Seika Uchiwa</i>
@@ -4521,6 +4566,10 @@
   <i id="22020" enl="jingly rod +1" jp="チャリロッド+1" jpl="" slots="0003" jobs="007FFFFE" races="01FE" level="1" targets="Self" casttime="0" recast="1967105">Jingly Rod +1</i>
   <i id="22021" enl="ames" jp="アメス" jpl="" slots="0003" jobs="00318038" races="01FE" level="99" targets="None" casttime="0" recast="0">Ames</i>
   <i id="22022" enl="ames +1" jp="アメス+1" jpl="" slots="0003" jobs="00318038" races="01FE" level="99" targets="None" casttime="0" recast="0">Ames +1</i>
+  <i id="22023" enl="beryllium mace" jp="ベリリムメイス" jpl="" slots="0003" jobs="0020008A" races="01FE" level="99" targets="None" casttime="0" recast="0">Beryllium Mace</i>
+  <i id="22024" enl="beryllium mace +1" jp="ベリリムメイス+1" jpl="" slots="0003" jobs="0020008A" races="01FE" level="99" targets="None" casttime="0" recast="0">Beryllium Mace +1</i>
+  <i id="22025" enl="raetic rod" jp="レテクロッド" jpl="" slots="0003" jobs="00308018" races="01FE" level="99" targets="None" casttime="0" recast="0">Raetic Rod</i>
+  <i id="22026" enl="raetic rod +1" jp="レテクロッド+1" jpl="" slots="0003" jobs="00308018" races="01FE" level="99" targets="None" casttime="0" recast="0">Raetic Rod +1</i>
   <i id="22054" enl="Grioavolr" jp="グリオアヴァール" jpl="" slots="0001" jobs="00308438" races="01FE" level="99" targets="None" casttime="0" recast="0">Grioavolr</i>
   <i id="22055" enl="Oranyan" jp="オランヤン" jpl="" slots="0001" jobs="00308438" races="01FE" level="99" targets="None" casttime="0" recast="0">Oranyan</i>
   <i id="22056" enl="Gozuki Mezuki" jp="牛頭鬼馬頭鬼" jpl="" slots="0001" jobs="007FFFFE" races="01FE" level="99" targets="None" casttime="0" recast="0">Gozuki Mezuki</i>
@@ -4536,6 +4585,10 @@
   <i id="22075" enl="arasy staff +1" jp="アラシスタッフ+1" jpl="" slots="0001" jobs="0030863E" races="01FE" level="99" targets="None" casttime="0" recast="0">Arasy Staff +1</i>
   <i id="22076" enl="was" jp="ワス" jpl="" slots="0001" jobs="00008000" races="01FE" level="99" targets="None" casttime="0" recast="0">Was</i>
   <i id="22077" enl="was +1" jp="ワス+1" jpl="" slots="0001" jobs="00008000" races="01FE" level="99" targets="None" casttime="0" recast="0">Was +1</i>
+  <i id="22078" enl="exalted staff" jp="神依棒" jpl="" slots="0001" jobs="0000408C" races="01FE" level="99" targets="None" casttime="0" recast="0">Exalted Staff</i>
+  <i id="22079" enl="exalted staff +1" jp="神依棒+1" jpl="" slots="0001" jobs="0000408C" races="01FE" level="99" targets="None" casttime="0" recast="0">Exalted Staff +1</i>
+  <i id="22080" enl="raetic staff" jp="レテクスタッフ" jpl="" slots="0001" jobs="0030863E" races="01FE" level="99" targets="None" casttime="0" recast="0">Raetic Staff</i>
+  <i id="22081" enl="raetic staff +1" jp="レテクスタッフ+1" jpl="" slots="0001" jobs="0030863E" races="01FE" level="99" targets="None" casttime="0" recast="0">Raetic Staff +1</i>
   <i id="22113" enl="Teller" jp="テルア" jpl="" slots="0004" jobs="00000800" races="01FE" level="99" targets="None" casttime="0" recast="0">Teller</i>
   <i id="22114" enl="Steinthor" jp="スタインソール" jpl="" slots="0004" jobs="00000800" races="01FE" level="99" targets="None" casttime="0" recast="0">Steinthor</i>
   <i id="22115" enl="Yoichinoyumi" jp="与一の弓" jpl="" slots="0004" jobs="00001800" races="01FE" level="99" targets="Self" casttime="0" recast="657409">Yoichinoyumi</i>
@@ -4547,9 +4600,15 @@
   <i id="22121" enl="imati +1" jp="イマーティ+1" jpl="" slots="0004" jobs="00000800" races="01FE" level="99" targets="None" casttime="0" recast="0">Imati +1</i>
   <i id="22122" enl="arasy bow" jp="アラシボウ" jpl="" slots="0004" jobs="00000800" races="01FE" level="99" targets="None" casttime="0" recast="0">Arasy Bow</i>
   <i id="22123" enl="arasy bow +1" jp="アラシボウ+1" jpl="" slots="0004" jobs="00000800" races="01FE" level="99" targets="None" casttime="0" recast="0">Arasy Bow +1</i>
+  <i id="22125" enl="exalted bow" jp="神依の弓" jpl="" slots="0004" jobs="00003BE2" races="01FE" level="99" targets="None" casttime="0" recast="0">Exalted Bow</i>
+  <i id="22126" enl="exalted bow +1" jp="神依の弓+1" jpl="" slots="0004" jobs="00003BE2" races="01FE" level="99" targets="None" casttime="0" recast="0">Exalted Bow +1</i>
+  <i id="22127" enl="raetic bow" jp="レテクボウ" jpl="" slots="0004" jobs="0011BFF2" races="01FE" level="99" targets="None" casttime="0" recast="0">Raetic Bow</i>
+  <i id="22128" enl="raetic bow +1" jp="レテクボウ+1" jpl="" slots="0004" jobs="0011BFF2" races="01FE" level="99" targets="None" casttime="0" recast="0">Raetic Bow +1</i>
   <i id="22134" enl="Holliday" jp="ハリデー" jpl="" slots="0004" jobs="00020800" races="01FE" level="99" targets="None" casttime="0" recast="0">Holliday</i>
   <i id="22135" enl="arasy gun" jp="アラシガン" jpl="" slots="0004" jobs="00020800" races="01FE" level="99" targets="None" casttime="0" recast="0">Arasy Gun</i>
   <i id="22136" enl="arasy gun +1" jp="アラシガン+1" jpl="" slots="0004" jobs="00020800" races="01FE" level="99" targets="None" casttime="0" recast="0">Arasy Gun +1</i>
+  <i id="22137" enl="exalted crossbow" jp="神依の弩" jpl="" slots="0004" jobs="00000942" races="01FE" level="99" targets="None" casttime="0" recast="0">Exalted C.bow</i>
+  <i id="22138" enl="exalted crossbow +1" jp="神依の弩+1" jpl="" slots="0004" jobs="00000942" races="01FE" level="99" targets="None" casttime="0" recast="0">Exalted C.bow +1</i>
   <i id="22195" enl="flanged grip" jp="フランジドグリップ" jpl="" slots="0002" jobs="007FFFFE" races="01FE" level="99" targets="None" casttime="0" recast="0">Flanged Grip</i>
   <i id="22196" enl="alber strap" jp="アルバーストラップ" jpl="" slots="0002" jobs="007FFFFE" races="01FE" level="99" targets="None" casttime="0" recast="0">Alber Strap</i>
   <i id="22197" enl="niobid strap" jp="ニオビッドストラップ" jpl="" slots="0002" jobs="007FFFFE" races="01FE" level="99" targets="None" casttime="0" recast="0">Niobid Strap</i>
@@ -4599,4 +4658,5 @@
   <i id="22280" enl="yamarang" jp="ヤメラング" jpl="" slots="0008" jobs="00482040" races="01FE" level="99" targets="None" casttime="0" recast="0">Yamarang</i>
   <i id="22281" enl="knobkierrie" jp="ノブキエリ" jpl="" slots="0008" jobs="00405106" races="01FE" level="99" targets="None" casttime="0" recast="0">Knobkierrie</i>
   <i id="22284" enl="Abdhaljs tome" jp="アブダルスの写本" jpl="" slots="0008" jobs="007FFFFE" races="01FE" level="99" targets="Self" casttime="0" recast="657409">Abdhaljs Tome</i>
+  <i id="22285" enl="beryllium bolt" jp="ベリリムボルト" jpl="" slots="0008" jobs="00000942" races="01FE" level="99" targets="None" casttime="0" recast="0">Beryllium Bolt</i>
 </items>

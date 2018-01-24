@@ -36,8 +36,8 @@ end
 function init_gear_sets()
 
 	--Misc
-	sets.MND 										   = {neck="Morgana's choker",body="Errant houppelande",hands="Devotee's mitts +1",back="Prism cape",waist="Penitent's rope",legs="Errant slops",feet="Errant pigaches"}
-	sets.INT 										   = {ammo="Phantom tathlum",head="Warlock's chapeau",neck="Lemegeton medallion +1",ear1="Abyssal earring",body="Errant houppelande",hands="Errant cuffs",ring1="Genius ring +1",ring2="Zircon ring",back="Prism cape",waist="Penitent's rope",legs="Errant slops",feet="Custom F boots"}
+	sets.MND 										   = {neck="Morgana's choker",body="Errant houppelande",hands="Devotee's mitts +1",ring2="Tamas ring",back="Prism cape",waist="Penitent's rope",legs="Errant slops",feet="Errant pigaches"}
+	sets.INT 										   = {ammo="Phantom tathlum",head="Warlock's chapeau",neck="Lemegeton medallion +1",ear1="Abyssal earring",body="Errant houppelande",hands="Errant cuffs",ring1="Genius ring +1",ring2="Tamas ring",back="Prism cape",waist="Penitent's rope",legs="Errant slops",feet="Custom F boots"}
 	
 	-- grips														 	   
 	sets.grip										   = {Fire 	      = {sub="Fire Grip"}
@@ -49,10 +49,10 @@ function init_gear_sets()
 												         ,Light 	  = {sub="Light Grip"}
 												         ,Dark 	      = {sub="Dark Grip"}}
 	-- idle
-	sets.idle                                          = {main="Terra's staff"      ,sub="Bugard leather strap +1"                        ,ammo="Bibiki seashell"
-				                                         ,head="Duelist's chapeau",neck="Chocobo whistle"         ,ear1="Abyssal earring" ,ear2="Loquacious earring"
-				                                         ,body="Dalmatica"        ,hands="Duelist's gloves"       ,ring1="Defending ring" ,ring2="Shadow ring"
-				                                         ,back="Prism cape"       ,waist="Resolute belt"          ,legs="Crimson cuisses" ,feet="Duelist's boots"}
+	sets.idle                                          = {main="Terra's staff"      ,sub="Bugard leather strap +1"                       ,ammo="Bibiki seashell"
+				                                         ,head="Duelist's chapeau",neck="Chocobo whistle"         ,ear1="Abyssal earring",ear2="Astral earring"
+				                                         ,body="Dalmatica"        ,hands="Duelist's gloves"       ,ring1="Merman's ring" ,ring2="Merman's ring"
+				                                         ,back="Prism cape"       ,waist="Resolute belt"          ,legs="Crimson cuisses",feet="Duelist's boots"}
 	sets.idle.Combat                                   = set_combine(sets.idle,{main="",sub=""})
 	sets.idle.Town                                     = set_combine(sets.idle,{ring2="Warp ring",back="Nexus cape"})
 	sets.idle.Combat                                   = set_combine(sets.idle,{main="",sub=""})
@@ -70,7 +70,7 @@ function init_gear_sets()
 	sets.midcast['Utsusemi: Ichi']                     = set_combine(sets.midcast['Ninjutsu'],{waist="Resolute belt"})
 	sets.midcast['Utsusemi: Ni']                       = set_combine(sets.midcast['Ninjutsu'],{})
 	                                                   
-	sets.midcast['Healing Magic']                      = set_combine(sets.MND,{neck="Fylgja torque +1",ear2="Loqacious earring",body="Duelist's tabard",legs="Warlock's tights"})
+	sets.midcast['Healing Magic']                      = set_combine(sets.MND,{ear2="Magnetic earring",neck="Fylgja torque +1",ear2="Loqacious earring",body="Duelist's tabard",legs="Warlock's tights"})
 	                                                   
 	sets.midcast['Divine Magic']                       = set_combine(sets.MND,{})
 	                                                   
@@ -87,10 +87,10 @@ function init_gear_sets()
 	                                                   
 	sets.midcast['Dark Magic']						   = set_combine(sets.INT,{ammo="Sturm's report",hands="Crimson finger gauntlets"})
 	                                                   
-	sets.midcast['Enhancing Magic']                    = set_combine(sets.midcast.FastRecast,{hands="Duelist's gloves",legs="Warlock's tights"})
+	sets.midcast['Enhancing Magic']                    = set_combine(sets.midcast.FastRecast,{ear2="Magnetic earring",hands="Duelist's gloves",legs="Warlock's tights"})
 	                                                   
 	-- custom midcast magic                            
-	sets.midcast['Stoneskin']                          = set_combine(sets.MND,sets.midcast.FastRecast,{})
+	sets.midcast['Stoneskin']                          = set_combine(sets.MND,sets.midcast.FastRecast,{ear2="Magnetic earring"})
 	
 	-- engaged
 	sets.engaged                                       = {}
@@ -130,13 +130,13 @@ function job_post_midcast(spell,action,spellMap,eventsArgs)
 		end
 	end
 
-	-- if spell.skill ~= 'Enhancing Magic' or spell.skill ~= 'Enfeebling Magic' then
-		-- if spell.element == world.weather_element or spell.element == world.day_element then
-			-- if world.weather_element ~= 'Dark' and spellMap == 'Cure' then
-				-- equip({waist="Hachirin-no-obi"})
-			-- end
-		-- end
-	-- end
+	if spell.skill ~= 'Enhancing Magic' or spell.skill ~= 'Enfeebling Magic' then
+		if spell.element == world.weather_element or spell.element == world.day_element then
+			if world.weather_element ~= 'Dark' and spellMap == 'Cure' then
+				equip({waist="Hachirin-no-obi"})
+			end
+		end
+	end
 	
 end
 

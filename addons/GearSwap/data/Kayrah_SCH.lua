@@ -175,7 +175,7 @@ function job_post_midcast(spell,action,spellMap,eventArgs)
 	
 	-- midcast logic
 	if state.Buff['Dark Arts'] and dark_arts_skill:contains(spell.skill) and spell.skill ~= 'Elemental Magic' then
-		equip({main="Elder staff",body="Scholar's gown"})
+		equip({main="Elder staff",body="Scholar's gown +1"})
 	elseif state.Buff['Light Arts'] and light_arts_skill:contains(spell.skill) then
 		if spell.skill == 'Enhancing Magic' then
 			equip({legs="Scholar's pants +1"})

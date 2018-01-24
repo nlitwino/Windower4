@@ -77,11 +77,11 @@ function init_gear_sets()
 	                                           
 	-- idle                                    
 	sets.idle                                  = {ammo="Bibiki seashell"
-												 ,head="Gnole crown",neck="Chocobo whistle",ear1="Merman's earring",ear2="Merman's earring"
-	                                             ,body="Ninja chainmail +1",hands="Seiryu's kote",ring1="Defending ring",ring2="Shadow ring"
-												 ,back="Shadow mantle",waist="Lycopodium sash",legs="Koga hakama",feet="Ninja kyahan +1"}
+												 ,head="Arhat's jinpachi +1",neck="Chocobo whistle",ear1="Merman's earring",ear2="Merman's earring"
+	                                             ,body="Arhat's gi +1",hands="Seiryu's kote",ring1="Defending ring",ring2="Shadow ring"
+												 ,back="Shadow mantle",waist="Lycopodium sash",legs="Darksteel subligar +1",feet="Ninja kyahan +1"}
 	                                           
-	sets.idle.Town                             = set_combine(sets.idle,{ring2="Warp ring",back="Nexus cape"})
+	sets.idle.Town                             = set_combine(sets.idle,{head="Gnole crown",ring2="Warp ring",back="Nexus cape"})
 	                                           
 	-- defense                                 
 	sets.defense.Evasion                       = {head="Gnole crown"        ,neck="Fortified chain",ear1="Suppanomimi",ear2="Drone earring"
@@ -95,7 +95,7 @@ function init_gear_sets()
 	                                           
 	-- engaged                                 
 	sets.engaged                               = {ammo="Bomb core"
-												 ,head="Walahra turban"    ,neck="Hope torque"    ,ear1="Suppanomimi"     ,ear2="Brutal earring"
+												 ,head="Walahra turban"    ,neck="Ancient torque"    ,ear1="Suppanomimi"     ,ear2="Brutal earring"
 												 ,body="Ninja chainmail +1",hands="Dusk gloves +1",ring1=gear.TRing2      ,ring2=gear.TRing1
 												 ,back="Cerberus mantle +1",waist="Velocious belt",legs="Byakko's haidate",feet="Dusk ledelsens +1"}
 	sets.engaged.HybridAcc                     = set_combine(sets.engaged,{neck="Ancient torque",back="Cuchulain's mantle"})											
@@ -153,7 +153,7 @@ function init_gear_sets()
 	sets.precast.WS['Blade: Ku'].HNM           = set_combine(sets.precast.WS['Blade: Ku'],{})
 	                                           
 	sets.precast.WS['Blade: Metsu']            = set_combine(sets.precast.WS,{body="Haubergeon +1"})
-	sets.precast.WS['Blade: Metsu'].HNM        = set_combine(sets.precast.WS['Blade: Metsu'],{})
+	sets.precast.WS['Blade: Metsu'].HNM        = set_combine(sets.precast.WS['Blade: Metsu'],{head="Gnadbhod's helm",hands="Bandomusha kote"}) --nin tekko +1 vs bandos
 	
 	sets.precast.WS['Blade: Kamu'] 			   = set_combine(sets.precast.WS,{ear1="Fenrir earring",hands="Alkyoneus's bracelets",legs="Hachiryu haidate",feet="Rutter sabatons"})
 	sets.precast.WS['Blade: Kamu'].HNM 		   = set_combine(sets.precast.WS['Blade: Kamu'],{body="Haubergeon +1"})

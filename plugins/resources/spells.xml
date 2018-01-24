@@ -938,6 +938,7 @@
   <s id="952" index="996" prefix="/magic" english="AAGK" japanese="アークGK" type="Trust" element="Light" targets="Self" skill="0" mpcost="0" casttime="2" recast="48" duration="0" alias="" />
   <s id="957" index="997" prefix="/magic" english="Iroha" japanese="イロハ" type="Trust" element="Light" targets="Self" skill="0" mpcost="0" casttime="2" recast="48" duration="0" alias="" />
   <s id="1003" index="998" prefix="/magic" english="Ygnas" japanese="ユグナス" type="Trust" element="Light" targets="Self" skill="0" mpcost="0" casttime="2" recast="48" duration="0" alias="" />
+  <s id="1008" index="1003" prefix="/magic" english="Cornelia" japanese="コーネリア" type="Trust" element="Light" targets="Self" skill="0" mpcost="0" casttime="2" recast="48" duration="0" alias="" />
   <s id="933" index="1004" prefix="/magic" english="Excenmille [S]" japanese="エグセニミルII" type="Trust" element="Light" targets="Self" skill="0" mpcost="0" casttime="2" recast="48" duration="0" alias="" />
   <s id="1015" index="1005" prefix="/magic" english="Ayame (UC)" japanese="アヤメ(UC)" type="Trust" element="Light" targets="Self" skill="0" mpcost="0" casttime="2" recast="48" duration="0" alias="" />
   <s id="1019" index="1006" prefix="/magic" english="Maat (UC)" japanese="マート(UC)" type="Trust" element="Light" targets="Self" skill="0" mpcost="0" casttime="2" recast="48" duration="0" alias="" />

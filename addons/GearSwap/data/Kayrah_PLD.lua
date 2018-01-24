@@ -90,10 +90,10 @@ function init_gear_sets()
 	sets.resting                        = {ammo="Bibiki seashell",neck="Gnole torque",ear2="Relaxing earring",body="Vermillion cloak",ring2="Star ring"}
 	
 	-- engaged
-	sets.engaged                        = {head="Walahra turban"    ,neck="Chivalrous chain",ear1="Cassie earring",ear2="Brutal earring"
+	sets.engaged                        = {head="Walahra turban"    ,neck="Fortitude torque",ear1="Cassie earring",ear2="Brutal earring"
 				                          ,body="Homam corazza"     ,hands="Dusk gloves +1",ring1=gear.TRing2,ring2=gear.TRing1
 				                          ,back="Cerberus mantle +1",waist="Velocious belt",legs="Homam cosciales",feet="Homam gambieras"}
-	sets.engaged.Acc                    = set_combine(sets.engaged,{head="Homam zucchetto",neck="Ancient torque",ear1="Ethereal earring",hands="Homam manopolas"})
+	sets.engaged.Acc                    = set_combine(sets.engaged,{head="Homam zucchetto",ear1="Ethereal earring",hands="Homam manopolas"})
 	sets.engaged.Heavy                  = {head="Koenig schaller"     ,neck="Fortified chain" ,ear1="Ethereal earring",ear2="Knight's earring"
 	                                      ,body="Valhalla breastplate",hands="Koenig handschuhs",ring1="Defending ring" ,ring2="Jelly ring"
 						                  ,back="Boxer's mantle",waist="Warwolf belt",legs="Koenig diechlings",feet="Gallant leggings +1"}

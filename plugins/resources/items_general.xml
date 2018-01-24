@@ -3532,6 +3532,9 @@
   <i id="3717" enl="birch tree" jp="カバノキ" jpl="" targets="None">Birch Tree</i>
   <i id="3718" enl="handful of Adoulinian tomatoes" jp="アドゥリントマト" jpl="" targets="None">Ado. Tomatoes</i>
   <i id="3722" enl="Lion statue" jp="ライオンの像" jpl="" targets="None">Lion Statue</i>
+  <i id="3726" enl="Aphmau statue" jp="アフマウの像" jpl="" targets="None">Aphmau Statue</i>
+  <i id="3727" enl="Mumor statue" jp="ミュモルの像" jpl="" targets="None">Mumor Statue</i>
+  <i id="3728" enl="Ullegore statue" jp="ウルゴアの像" jpl="" targets="None">Ullegore Statue</i>
   <i id="3729" enl="light chest" jp="ライトチェスト" jpl="" targets="None">Light Chest</i>
   <i id="3730" enl="bulky coffer" jp="バルキーコッファー" jpl="" targets="None">Bulky Coffer</i>
   <i id="3731" enl="azure chest" jp="アジュールチェスト" jpl="" targets="None">Azure Chest</i>
@@ -3777,6 +3780,9 @@
   <i id="4080" enl="pot of moonbow urushi" jp="月虹漆" jpl="" targets="None">Moonbow Urushi</i>
   <i id="4081" enl="moonbow stone" jp="月虹石" jpl="" targets="None">Moonbow Stone</i>
   <i id="4082" enl="piece of moonlight coral" jp="月明の珊瑚" jpl="" targets="None">Moonlight Coral</i>
+  <i id="4083" enl="handful of beryllium arrowheads" jp="ベリリムの矢尻" jpl="" targets="None">Ber. Arrowheads</i>
+  <i id="4084" enl="bag of mixed fletchings" jp="混合翅の矢羽根" jpl="" targets="None">Mixed Fletchings</i>
+  <i id="4085" enl="handful of beryllium bolt heads" jp="ベリリムの鏃" jpl="" targets="None">Ber. Bolt Heads</i>
   <i id="4094" enl="bowl of Goblin stew 880" jp="ゴブリンシチュー880" jpl="" targets="None">Goblin Stew 880</i>
   <i id="4095" enl="bismuth sheet" jp="ビスマス板" jpl="" targets="None">Bismuth Sheet</i>
   <i id="4096" enl="fire crystal" jp="炎のクリスタル" jpl="" targets="Self" casttime="0">Fire Crystal</i>
@@ -5996,7 +6002,10 @@
   <i id="6415" enl="seki shuriken pouch" jp="合切袋【世鬼】" jpl="" targets="Self" casttime="1">Seki Sh. Pouch</i>
   <i id="6416" enl="hunk of behemoth meat" jp="ベヒーモスの肉" jpl="" targets="Self" casttime="1">Behemoth Meat</i>
   <i id="6417" enl="divine quiver" jp="箙【ディバイン】" jpl="" targets="Self" casttime="1">Divine Quiver</i>
+  <i id="6418" enl="beryllium quiver" jp="箙【ベリリム】" jpl="" targets="Self" casttime="1">Beryllium Quiver</i>
+  <i id="6419" enl="raetic quiver" jp="箙【レテク】" jpl="" targets="Self" casttime="1">Raetic Quiver</i>
   <i id="6427" enl="divine bolt quiver" jp="矢筒【ディバイン】" jpl="" targets="Self" casttime="1">Div. Bolt Quiver</i>
+  <i id="6428" enl="beryllium bolt quiver" jp="矢筒【ベリリム】" jpl="" targets="Self" casttime="1">Ber. Bolt Quiver</i>
   <i id="6437" enl="divine bullet quiver" jp="胴乱【ディバイン】" jpl="" targets="Self" casttime="1">Div. Bul. Quiver</i>
   <i id="6447" enl="sasuke shuriken pouch" jp="合切袋【佐助】" jpl="" targets="Self" casttime="1">Sasu. Sh. Pouch</i>
   <i id="6448" enl="sasuke shuriken pouch +1" jp="合切袋【佐助改】" jpl="" targets="Self" casttime="1">Sa. Sh. Pouch +1</i>
@@ -6046,6 +6055,9 @@
   <i id="6515" enl="large tail" jp="大きな尻尾" jpl="" targets="Self" casttime="1">Large Tail</i>
   <i id="6516" enl="large stone" jp="大きな石" jpl="" targets="Self" casttime="1">Large Stone</i>
   <i id="6517" enl="large leaf" jp="大きな双葉" jpl="" targets="Self" casttime="1">Large Leaf</i>
+  <i id="6518" enl="morbol latte" jp="モルボルカフェラテ" jpl="" targets="Self" casttime="1">Morbol Latte</i>
+  <i id="6519" enl="serving of fetid curry" jp="くさいカレー" jpl="" targets="Self" casttime="1">Fetid Curry</i>
+  <i id="6520" enl="cup of rancid coffee" jp="くさいコーヒー" jpl="" targets="Self" casttime="1">Rancid Coffee</i>
   <i id="6521" enl="decanter: Ingrid" jp="包【イングリッド】" jpl="" targets="Self" casttime="1">Dec.: Ingrid</i>
   <i id="6522" enl="decanter: Darrcuiln" jp="包【ダラクァルン】" jpl="" targets="Self" casttime="1">Dec.: Darrcuiln</i>
   <i id="6523" enl="decanter: Arciela" jp="包【アシェラ】" jpl="" targets="Self" casttime="1">Dec.: Arciela</i>
@@ -6055,6 +6067,13 @@
   <i id="6527" enl="decanter: August" jp="包【オーグスト】" jpl="" targets="Self" casttime="1">Dec.: August</i>
   <i id="6528" enl="decanter: Sajj'aka" jp="包【ハーサーカ】" jpl="" targets="Self" casttime="1">Dec.: Sajj'aka</i>
   <i id="6529" enl="decanter: Arciela II" jp="包【アシェラII】" jpl="" targets="Self" casttime="1">Dec.: Arciela II</i>
+  <i id="6530" enl="rolanberry pickled rarab tail" jp="ララブのベリー漬け" jpl="" targets="Self" casttime="1">R. Pickled R. Tail</i>
+  <i id="6531" enl="black hourglass" jp="黒い砂時計" jpl="" targets="Self" casttime="10">Black Hourglass</i>
+  <i id="6532" enl="pluton coffer" jp="宝箱【深成岩】" jpl="" targets="Self" casttime="1">Coffer (Pluton)</i>
+  <i id="6533" enl="beitetsu coffer" jp="宝箱【餅鉄】" jpl="" targets="Self" casttime="1">Coffer (Beitetsu)</i>
+  <i id="6534" enl="rift boulder coffer" jp="宝箱【ボウルダー】" jpl="" targets="Self" casttime="1">Coffer (Boulder)</i>
+  <i id="6535" enl="pinch of pungent powder II" jp="ベビーパウダーII" jpl="" targets="Self" casttime="1">Pungent Powder II</i>
+  <i id="6536" enl="New Year's pouch" jp="小袋【お年玉】" jpl="" targets="Self" casttime="1">New Year's Pouch</i>
   <i id="8193" enl="Harlequin head" jp="湎用ヘッド" jpl="">Harlequin Head</i>
   <i id="8194" enl="Valoredge X-900 head" jp="白兵戦ヘッド" jpl="">Valoredge Head</i>
   <i id="8195" enl="Sharpshot Z-500 head" jp="射撃戦ヘッド" jpl="">Sharpshot Head</i>
@@ -6715,7 +6734,9 @@
   <i id="9268" enl="Ambuscade token: legs +1" jp="Ａ．トークン：脚+1" jpl="" targets="None">A. Tok.: Legs +1</i>
   <i id="9269" enl="Ambuscade token: feet +1" jp="Ａ．トークン：足+1" jpl="" targets="None">A. Tok.: Feet +1</i>
   <i id="9270" enl="vial of Abdhaljs metal" jp="アブダルスメタル" jpl="" targets="None">Abdhaljs Metal</i>
+  <i id="9271" enl="loop of Abdhaljs fiber" jp="アブダルスファイバ" jpl="" targets="None">Abdhaljs Fiber</i>
   <i id="9272" enl="Ambuscade voucher: fingers" jp="Ａ．チケット：指" jpl="" targets="None">A. Vou.: Fingers</i>
+  <i id="9273" enl="Ambuscade token: fingers" jp="Ａ．トークン：指" jpl="" targets="None">A. Tok.: Fingers</i>
   <i id="9274" enl="dial key #ANV" jp="ダイヤルキー#ANV" jpl="" targets="None">Dial Key #ANV</i>
   <i id="9280" enl="damage gauge II" jp="ダメージゲージII" jpl="" targets="None">Damage Gauge II</i>
   <i id="9281" enl="paragon warrior card" jp="大戦士のカード" jpl="" targets="None">P. WAR Card</i>
@@ -6751,72 +6772,104 @@
   <i id="9311" enl="gold screw: woodworking" jp="ゴールドビス：木" jpl="" targets="None">G. Screw: Wood.</i>
   <i id="9312" enl="sequoia: woodworking" jp="セコイア材：木" jpl="" targets="None">Sequoia: Wood.</i>
   <i id="9313" enl="platinum screw: woodworking" jp="プラチナビス：木" jpl="" targets="None">P. Screw: Wood.</i>
+  <i id="9314" enl="adamantite screw: woodworking" jp="アダマンビス：木" jpl="" targets="None">A. Screw: Wood.</i>
   <i id="9315" enl="titanium frame: woodworking" jp="チタンフレーム：木" jpl="" targets="None">T. Frame: Wood.</i>
   <i id="9316" enl="chrome-molybdenum sheet: wood." jp="クロモリ板：木" jpl="" targets="None">C. M. Sheet: Wood.</i>
+  <i id="9317" enl="apex crystal: woodworking" jp="努力の極致：木" jpl="" targets="None">A. Crystal: Wood.</i>
   <i id="9318" enl="sanukite slab: woodworking" jp="サヌカイト：木" jpl="" targets="None">Sanukite: Wood.</i>
+  <i id="9319" enl="duralumin frame: woodworking" jp="ジュラルミン板：木" jpl="" targets="None">D. Frame: Wood.</i>
+  <i id="9320" enl="guild emblem: woodworking" jp="ギルドプレート：木" jpl="" targets="None">G. Emblem: Wood.</i>
   <i id="9321" enl="craftsman's crystal: smithing" jp="努力の結晶：鍛" jpl="" targets="None">C. Crystal: Smith.</i>
   <i id="9322" enl="mythril screw: smithing" jp="ミスリルビス：鍛" jpl="" targets="None">M. Screw: Smith.</i>
   <i id="9323" enl="camphor: smithing" jp="カンファー材：鍛" jpl="" targets="None">Camphor: Smith.</i>
   <i id="9324" enl="gold screw: smithing" jp="ゴールドビス：鍛" jpl="" targets="None">G. Screw: Smith.</i>
   <i id="9325" enl="sequoia: smithing" jp="セコイア材：鍛" jpl="" targets="None">Sequoia: Smith.</i>
   <i id="9326" enl="platinum screw: smithing" jp="プラチナビス：鍛" jpl="" targets="None">P. Screw: Smith.</i>
+  <i id="9327" enl="adamantite screw: smithing" jp="アダマンビス：鍛" jpl="" targets="None">A. Screw: Smith.</i>
   <i id="9328" enl="titanium frame: smithing" jp="チタンフレーム：鍛" jpl="" targets="None">T. Frame: Smith.</i>
   <i id="9329" enl="chrome-molybdenum sheet: smi." jp="クロモリ板：鍛" jpl="" targets="None">C. M. Sheet: Smith.</i>
+  <i id="9330" enl="apex crystal: smithing" jp="努力の極致：鍛" jpl="" targets="None">A. Crystal: Smith.</i>
   <i id="9331" enl="sanukite slab: smithing" jp="サヌカイト：鍛" jpl="" targets="None">Sanukite: Smith.</i>
+  <i id="9332" enl="duralumin frame: smithing" jp="ジュラルミン板：鍛" jpl="" targets="None">D. Frame: Smith.</i>
+  <i id="9333" enl="guild emblem: smithing" jp="ギルドプレート：鍛" jpl="" targets="None">G. Emblem: Smith.</i>
   <i id="9334" enl="craftsman's crystal: goldsmithing" jp="努力の結晶：彫" jpl="" targets="None">C. Crystal: Gold.</i>
   <i id="9335" enl="mythril screw: goldsmithing" jp="ミスリルビス：彫" jpl="" targets="None">M. Screw: Gold.</i>
   <i id="9336" enl="camphor: goldsmithing" jp="カンファー材：彫" jpl="" targets="None">Camphor: Gold.</i>
   <i id="9337" enl="gold screw: goldsmithing" jp="ゴールドビス：彫" jpl="" targets="None">G. Screw: Gold.</i>
   <i id="9338" enl="sequoia: goldsmithing" jp="セコイア材：彫" jpl="" targets="None">Sequoia: Gold.</i>
   <i id="9339" enl="platinum screw: goldsmithing" jp="プラチナビス：彫" jpl="" targets="None">P. Screw: Gold.</i>
+  <i id="9340" enl="adamantite screw: goldsmithing" jp="アダマンビス：彫" jpl="" targets="None">A. Screw: Gold.</i>
   <i id="9341" enl="titanium frame: goldsmithing" jp="チタンフレーム：彫" jpl="" targets="None">T. Frame: Gold.</i>
   <i id="9342" enl="chrome-molybdenum sheet: gold." jp="クロモリ板：彫" jpl="" targets="None">C. M. Sheet: Gold.</i>
+  <i id="9343" enl="apex crystal: goldsmithing" jp="努力の極致：彫" jpl="" targets="None">A. Crystal: Gold.</i>
   <i id="9344" enl="sanukite slab: goldsmithing" jp="サヌカイト：彫" jpl="" targets="None">Sanukite: Gold.</i>
+  <i id="9345" enl="duralumin frame: goldsmithing" jp="ジュラルミン板：彫" jpl="" targets="None">D. Frame: Gold.</i>
+  <i id="9346" enl="guild emblem: goldsmithing" jp="ギルドプレート：彫" jpl="" targets="None">G. Emblem: Gold.</i>
   <i id="9347" enl="craftsman's crystal: clothcraft" jp="努力の結晶：裁" jpl="" targets="None">C. Crystal: Cloth.</i>
   <i id="9348" enl="mythril screw: clothcraft" jp="ミスリルビス：裁" jpl="" targets="None">M. Screw: Cloth.</i>
   <i id="9349" enl="camphor: clothcraft" jp="カンファー材：裁" jpl="" targets="None">Camphor: Cloth.</i>
   <i id="9350" enl="gold screw: clothcraft" jp="ゴールドビス：裁" jpl="" targets="None">G. Screw: Cloth.</i>
   <i id="9351" enl="sequoia: clothcraft" jp="セコイア材：裁" jpl="" targets="None">Sequoia: Cloth.</i>
   <i id="9352" enl="platinum screw: clothcraft" jp="プラチナビス：裁" jpl="" targets="None">P. Screw: Cloth.</i>
+  <i id="9353" enl="adamantite screw: clothcraft" jp="アダマンビス：裁" jpl="" targets="None">A. Screw: Cloth.</i>
   <i id="9354" enl="titanium frame: clothcraft" jp="チタンフレーム：裁" jpl="" targets="None">T. Frame: Cloth.</i>
   <i id="9355" enl="chrome-molybdenum sheet: clo." jp="クロモリ板：裁" jpl="" targets="None">C. M. Sheet: Cloth.</i>
+  <i id="9356" enl="apex crystal: clothcraft" jp="努力の極致：裁" jpl="" targets="None">A. Crystal: Cloth.</i>
   <i id="9357" enl="sanukite slab: clothcraft" jp="サヌカイト：裁" jpl="" targets="None">Sanukite: Cloth.</i>
+  <i id="9358" enl="duralumin frame: clothcraft" jp="ジュラルミン板：裁" jpl="" targets="None">D. Frame: Cloth.</i>
+  <i id="9359" enl="guild emblem: clothcraft" jp="ギルドプレート：裁" jpl="" targets="None">G. Emblem: Cloth.</i>
   <i id="9360" enl="craftsman's crystal: leathercraft" jp="努力の結晶：革" jpl="" targets="None">C. Crystal: Leath.</i>
   <i id="9361" enl="mythril screw: leathercraft" jp="ミスリルビス：革" jpl="" targets="None">M. Screw: Leath.</i>
   <i id="9362" enl="camphor: leathercraft" jp="カンファー材：革" jpl="" targets="None">Camphor: Leath.</i>
   <i id="9363" enl="gold screw: leathercraft" jp="ゴールドビス：革" jpl="" targets="None">G. Screw: Leath.</i>
   <i id="9364" enl="sequoia: leathercraft" jp="セコイア材：革" jpl="" targets="None">Sequoia: Leath.</i>
   <i id="9365" enl="platinum screw: leathercraft" jp="プラチナビス：革" jpl="" targets="None">P. Screw: Leath.</i>
+  <i id="9366" enl="adamantite screw: leathercraft" jp="アダマンビス：革" jpl="" targets="None">A. Screw: Leath.</i>
   <i id="9367" enl="titanium frame: leathercraft" jp="チタンフレーム：革" jpl="" targets="None">T. Frame: Leath.</i>
   <i id="9368" enl="chrome-molybdenum sheet: lea." jp="クロモリ板：革" jpl="" targets="None">C. M. Sheet: Leath.</i>
+  <i id="9369" enl="apex crystal: leathercraft" jp="努力の極致：革" jpl="" targets="None">A. Crystal: Leath.</i>
   <i id="9370" enl="sanukite slab: leathercraft" jp="サヌカイト：革" jpl="" targets="None">Sanukite: Leath.</i>
+  <i id="9371" enl="duralumin frame: leathercraft" jp="ジュラルミン板：革" jpl="" targets="None">D. Frame: Leath.</i>
+  <i id="9372" enl="guild emblem: leathercraft" jp="ギルドプレート：革" jpl="" targets="None">G. Emblem: Leath.</i>
   <i id="9373" enl="craftsman's crystal: bonecraft" jp="努力の結晶：骨" jpl="" targets="None">C. Crystal: Bone.</i>
   <i id="9374" enl="mythril screw: bonecraft" jp="ミスリルビス：骨" jpl="" targets="None">M. Screw: Bone.</i>
   <i id="9375" enl="camphor: bonecraft" jp="カンファー材：骨" jpl="" targets="None">Camphor: Bone.</i>
   <i id="9376" enl="gold screw: bonecraft" jp="ゴールドビス：骨" jpl="" targets="None">G. Screw: Bone.</i>
   <i id="9377" enl="sequoia: bonecraft" jp="セコイア材：骨" jpl="" targets="None">Sequoia: Bone.</i>
   <i id="9378" enl="platinum screw: bonecraft" jp="プラチナビス：骨" jpl="" targets="None">P. Screw: Bone.</i>
+  <i id="9379" enl="adamantite screw: bonecraft" jp="アダマンビス：骨" jpl="" targets="None">A. Screw: Bone.</i>
   <i id="9380" enl="titanium frame: bonecraft" jp="チタンフレーム：骨" jpl="" targets="None">T. Frame: Bone.</i>
   <i id="9381" enl="chrome-molybdenum sheet: bone." jp="クロモリ板：骨" jpl="" targets="None">C. M. Sheet: Bone.</i>
+  <i id="9382" enl="apex crystal: bonecraft" jp="努力の極致：骨" jpl="" targets="None">A. Crystal: Bone.</i>
   <i id="9383" enl="sanukite slab: bonecraft" jp="サヌカイト：骨" jpl="" targets="None">Sanukite: Bone.</i>
+  <i id="9384" enl="duralumin frame: bonecraft" jp="ジュラルミン板：骨" jpl="" targets="None">D. Frame: Bone.</i>
+  <i id="9385" enl="guild emblem: bonecraft" jp="ギルドプレート：骨" jpl="" targets="None">G. Emblem: Bone.</i>
   <i id="9386" enl="craftsman's crystal: alchemy" jp="努力の結晶：錬" jpl="" targets="None">C. Crystal: Alch.</i>
   <i id="9387" enl="mythril screw: alchemy" jp="ミスリルビス：錬" jpl="" targets="None">M. Screw: Alch.</i>
   <i id="9388" enl="camphor: alchemy" jp="カンファー材：錬" jpl="" targets="None">Camphor: Alch.</i>
   <i id="9389" enl="gold screw: alchemy" jp="ゴールドビス：錬" jpl="" targets="None">G. Screw: Alch.</i>
   <i id="9390" enl="sequoia: alchemy" jp="セコイア材：錬" jpl="" targets="None">Sequoia: Alch.</i>
   <i id="9391" enl="platinum screw: alchemy" jp="プラチナビス：錬" jpl="" targets="None">P. Screw: Alch.</i>
+  <i id="9392" enl="adamantite screw: alchemy" jp="アダマンビス：錬" jpl="" targets="None">A. Screw: Alch.</i>
   <i id="9393" enl="titanium frame: alchemy" jp="チタンフレーム：錬" jpl="" targets="None">T. Frame: Alch.</i>
   <i id="9394" enl="chrome-molybdenum sheet: alch." jp="クロモリ板：錬" jpl="" targets="None">C. M. Sheet: Alch.</i>
+  <i id="9395" enl="apex crystal: alchemy" jp="努力の極致：錬" jpl="" targets="None">A. Crystal: Alch.</i>
   <i id="9396" enl="sanukite slab: alchemy" jp="サヌカイト：錬" jpl="" targets="None">Sanukite: Alch.</i>
+  <i id="9397" enl="duralumin frame: alchemy" jp="ジュラルミン板：錬" jpl="" targets="None">D. Frame: Alch.</i>
+  <i id="9398" enl="guild emblem: alchemy" jp="ギルドプレート：錬" jpl="" targets="None">G. Emblem: Alch.</i>
   <i id="9399" enl="craftsman's crystal: cooking" jp="努力の結晶：調" jpl="" targets="None">C. Crystal: Cook.</i>
   <i id="9400" enl="mythril screw: cooking" jp="ミスリルビス：調" jpl="" targets="None">M. Screw: Cook.</i>
   <i id="9401" enl="camphor: cooking" jp="カンファー材：調" jpl="" targets="None">Camphor: Cook.</i>
   <i id="9402" enl="gold screw: cooking" jp="ゴールドビス：調" jpl="" targets="None">G. Screw: Cook.</i>
   <i id="9403" enl="sequoia: cooking" jp="セコイア材：調" jpl="" targets="None">Sequoia: Cook.</i>
   <i id="9404" enl="platinum screw: cooking" jp="プラチナビス：調" jpl="" targets="None">P. Screw: Cook.</i>
+  <i id="9405" enl="adamantite screw: cooking" jp="アダマンビス：調" jpl="" targets="None">A. Screw: Cook.</i>
   <i id="9406" enl="titanium frame: cooking" jp="チタンフレーム：調" jpl="" targets="None">T. Frame: Cook.</i>
   <i id="9407" enl="chrome-molybdenum sheet: cook." jp="クロモリ板：調" jpl="" targets="None">C. M. Sheet: Cook.</i>
+  <i id="9408" enl="apex crystal: cooking" jp="努力の極致：調" jpl="" targets="None">A. Crystal: Cook.</i>
   <i id="9409" enl="sanukite slab: cooking" jp="サヌカイト：調" jpl="" targets="None">Sanukite: Cook.</i>
+  <i id="9410" enl="duralumin frame: cooking" jp="ジュラルミン板：調" jpl="" targets="None">D. Frame: Cook.</i>
+  <i id="9411" enl="guild emblem: cooking" jp="ギルドプレート：調" jpl="" targets="None">G. Emblem: Cook.</i>
   <i id="9412" enl="woodworking set 25" jp="木工セット25" jpl="" targets="None">Wood. Set 25</i>
   <i id="9413" enl="woodworking set 45" jp="木工セット45" jpl="" targets="None">Wood. Set 45</i>
   <i id="9414" enl="woodworking set 65" jp="木工セット65" jpl="" targets="None">Wood. Set 65</i>
@@ -6929,6 +6982,112 @@
   <i id="9521" enl="cooking kit 85" jp="調理キット85" jpl="" targets="None">Cook. Kit 85</i>
   <i id="9522" enl="cooking kit 90" jp="調理キット90" jpl="" targets="None">Cook. Kit 90</i>
   <i id="9523" enl="cooking kit 95" jp="調理キット95" jpl="" targets="None">Cook. Kit 95</i>
+  <i id="9524" enl="liquefaction sphere" jp="溶解の幻珠" jpl="" targets="None">Lique. Sphere</i>
+  <i id="9525" enl="induration sphere" jp="硬化の幻珠" jpl="" targets="None">Indur. Sphere</i>
+  <i id="9526" enl="detonation sphere" jp="炸裂の幻珠" jpl="" targets="None">Deton. Sphere</i>
+  <i id="9527" enl="scission sphere" jp="切断の幻珠" jpl="" targets="None">Sciss. Sphere</i>
+  <i id="9528" enl="impaction sphere" jp="衝撃の幻珠" jpl="" targets="None">Impac. Sphere</i>
+  <i id="9529" enl="reverberation sphere" jp="振動の幻珠" jpl="" targets="None">Rever. Sphere</i>
+  <i id="9530" enl="transfixion sphere" jp="貫通の幻珠" jpl="" targets="None">Trans. Sphere</i>
+  <i id="9531" enl="compression sphere" jp="収縮の幻珠" jpl="" targets="None">Compr. Sphere</i>
+  <i id="9532" enl="fusion sphere" jp="核熱の幻珠" jpl="" targets="None">Fusion Sphere</i>
+  <i id="9533" enl="distortion sphere" jp="湾曲の幻珠" jpl="" targets="None">Disto. Sphere</i>
+  <i id="9534" enl="fragmentation sphere" jp="分解の幻珠" jpl="" targets="None">Fragm. Sphere</i>
+  <i id="9535" enl="gravitation sphere" jp="重力の幻珠" jpl="" targets="None">Gravi. Sphere</i>
+  <i id="9536" enl="light sphere" jp="光の幻珠" jpl="" targets="None">Light Sphere</i>
+  <i id="9537" enl="darkness sphere" jp="闇の幻珠" jpl="" targets="None">Darkn. Sphere</i>
+  <i id="9538" enl="rusted identification card" jp="錆びた認識票" jpl="" targets="None">Rusted I. Card</i>
+  <i id="9539" enl="beastmen's medal" jp="獣人勲章" jpl="" targets="None">Beastmen's Medal</i>
+  <i id="9540" enl="blackened identification card" jp="黒ずんだ認識票" jpl="" targets="None">Black. I. Card</i>
+  <i id="9541" enl="kindred's medal" jp="獣神勲章" jpl="" targets="None">Kindred's Medal</i>
+  <i id="9632" enl="handshard: WAR" jp="手具の破片：戦" jpl="" targets="None">Handshard: WAR</i>
+  <i id="9633" enl="handshard: MNK" jp="手具の破片：モ" jpl="" targets="None">Handshard: MNK</i>
+  <i id="9634" enl="handshard: WHM" jp="手具の破片：白" jpl="" targets="None">Handshard: WHM</i>
+  <i id="9635" enl="handshard: BLM" jp="手具の破片：黒" jpl="" targets="None">Handshard: BLM</i>
+  <i id="9636" enl="handshard: RDM" jp="手具の破片：赤" jpl="" targets="None">Handshard: RDM</i>
+  <i id="9637" enl="handshard: THF" jp="手具の破片：シ" jpl="" targets="None">Handshard: THF</i>
+  <i id="9638" enl="handshard: PLD" jp="手具の破片：ナ" jpl="" targets="None">Handshard: PLD</i>
+  <i id="9639" enl="handshard: DRK" jp="手具の破片：暗" jpl="" targets="None">Handshard: DRK</i>
+  <i id="9640" enl="handshard: BSM" jp="手具の破片：獣" jpl="" targets="None">Handshard: BSM</i>
+  <i id="9641" enl="handshard: BRD" jp="手具の破片：吟" jpl="" targets="None">Handshard: BRD</i>
+  <i id="9642" enl="handshard: RNG" jp="手具の破片：狩" jpl="" targets="None">Handshard: RNG</i>
+  <i id="9643" enl="handshard: SAM" jp="手具の破片：侍" jpl="" targets="None">Handshard: SAM</i>
+  <i id="9644" enl="handshard: NIN" jp="手具の破片：忍" jpl="" targets="None">Handshard: NIN</i>
+  <i id="9645" enl="handshard: DRG" jp="手具の破片：竜" jpl="" targets="None">Handshard: DRG</i>
+  <i id="9646" enl="handshard: SMN" jp="手具の破片：召" jpl="" targets="None">Handshard: SMN</i>
+  <i id="9647" enl="handshard: BLU" jp="手具の破片：青" jpl="" targets="None">Handshard: BLU</i>
+  <i id="9648" enl="handshard: COR" jp="手具の破片：コ" jpl="" targets="None">Handshard: COR</i>
+  <i id="9649" enl="handshard: PUP" jp="手具の破片：か" jpl="" targets="None">Handshard: PUP</i>
+  <i id="9650" enl="handshard: DNC" jp="手具の破片：踊" jpl="" targets="None">Handshard: DNC</i>
+  <i id="9651" enl="handshard: SCH" jp="手具の破片：学" jpl="" targets="None">Handshard: SCH</i>
+  <i id="9652" enl="handshard: GEO" jp="手具の破片：風" jpl="" targets="None">Handshard: GEO</i>
+  <i id="9653" enl="handshard: RUN" jp="手具の破片：剣" jpl="" targets="None">Handshard: RUN</i>
+  <i id="9654" enl="pair of void handwear: WAR" jp="闇の手具：戦" jpl="" targets="None">Voidhand: WAR</i>
+  <i id="9655" enl="pair of void handwear: MNK" jp="闇の手具：モ" jpl="" targets="None">Voidhand: MNK</i>
+  <i id="9656" enl="pair of void handwear: WHM" jp="闇の手具：白" jpl="" targets="None">Voidhand: WHM</i>
+  <i id="9657" enl="pair of void handwear: BLM" jp="闇の手具：黒" jpl="" targets="None">Voidhand: BLM</i>
+  <i id="9658" enl="pair of void handwear: RDM" jp="闇の手具：赤" jpl="" targets="None">Voidhand: RDM</i>
+  <i id="9659" enl="pair of void handwear: THF" jp="闇の手具：シ" jpl="" targets="None">Voidhand: THF</i>
+  <i id="9660" enl="pair of void handwear: PLD" jp="闇の手具：ナ" jpl="" targets="None">Voidhand: PLD</i>
+  <i id="9661" enl="pair of void handwear: DRK" jp="闇の手具：暗" jpl="" targets="None">Voidhand: DRK</i>
+  <i id="9662" enl="pair of void handwear: BSM" jp="闇の手具：獣" jpl="" targets="None">Voidhand: BSM</i>
+  <i id="9663" enl="pair of void handwear: BRD" jp="闇の手具：吟" jpl="" targets="None">Voidhand: BRD</i>
+  <i id="9664" enl="pair of void handwear: RNG" jp="闇の手具：狩" jpl="" targets="None">Voidhand: RNG</i>
+  <i id="9665" enl="pair of void handwear: SAM" jp="闇の手具：侍" jpl="" targets="None">Voidhand: SAM</i>
+  <i id="9666" enl="pair of void handwear: NIN" jp="闇の手具：忍" jpl="" targets="None">Voidhand: NIN</i>
+  <i id="9667" enl="pair of void handwear: DRG" jp="闇の手具：竜" jpl="" targets="None">Voidhand: DRG</i>
+  <i id="9668" enl="pair of void handwear: SMN" jp="闇の手具：召" jpl="" targets="None">Voidhand: SMN</i>
+  <i id="9669" enl="pair of void handwear: BLU" jp="闇の手具：青" jpl="" targets="None">Voidhand: BLU</i>
+  <i id="9670" enl="pair of void handwear: COR" jp="闇の手具：コ" jpl="" targets="None">Voidhand: COR</i>
+  <i id="9671" enl="pair of void handwear: PUP" jp="闇の手具：か" jpl="" targets="None">Voidhand: PUP</i>
+  <i id="9672" enl="pair of void handwear: DNC" jp="闇の手具：踊" jpl="" targets="None">Voidhand: DNC</i>
+  <i id="9673" enl="pair of void handwear: SCH" jp="闇の手具：学" jpl="" targets="None">Voidhand: SCH</i>
+  <i id="9674" enl="pair of void handwear: GEO" jp="闇の手具：風" jpl="" targets="None">Voidhand: GEO</i>
+  <i id="9675" enl="pair of void handwear: RUN" jp="闇の手具：剣" jpl="" targets="None">Voidhand: RUN</i>
+  <i id="9720" enl="footshard: WAR" jp="足具の破片：戦" jpl="" targets="None">Footshard: WAR</i>
+  <i id="9721" enl="footshard: MNK" jp="足具の破片：モ" jpl="" targets="None">Footshard: MNK</i>
+  <i id="9722" enl="footshard: WHM" jp="足具の破片：白" jpl="" targets="None">Footshard: WHM</i>
+  <i id="9723" enl="footshard: BLM" jp="足具の破片：黒" jpl="" targets="None">Footshard: BLM</i>
+  <i id="9724" enl="footshard: RDM" jp="足具の破片：赤" jpl="" targets="None">Footshard: RDM</i>
+  <i id="9725" enl="footshard: THF" jp="足具の破片：シ" jpl="" targets="None">Footshard: THF</i>
+  <i id="9726" enl="footshard: PLD" jp="足具の破片：ナ" jpl="" targets="None">Footshard: PLD</i>
+  <i id="9727" enl="footshard: DRK" jp="足具の破片：暗" jpl="" targets="None">Footshard: DRK</i>
+  <i id="9728" enl="footshard: BSM" jp="足具の破片：獣" jpl="" targets="None">Footshard: BSM</i>
+  <i id="9729" enl="footshard: BRD" jp="足具の破片：吟" jpl="" targets="None">Footshard: BRD</i>
+  <i id="9730" enl="footshard: RNG" jp="足具の破片：狩" jpl="" targets="None">Footshard: RNG</i>
+  <i id="9731" enl="footshard: SAM" jp="足具の破片：侍" jpl="" targets="None">Footshard: SAM</i>
+  <i id="9732" enl="footshard: NIN" jp="足具の破片：忍" jpl="" targets="None">Footshard: NIN</i>
+  <i id="9733" enl="footshard: DRG" jp="足具の破片：竜" jpl="" targets="None">Footshard: DRG</i>
+  <i id="9734" enl="footshard: SMN" jp="足具の破片：召" jpl="" targets="None">Footshard: SMN</i>
+  <i id="9735" enl="footshard: BLU" jp="足具の破片：青" jpl="" targets="None">Footshard: BLU</i>
+  <i id="9736" enl="footshard: COR" jp="足具の破片：コ" jpl="" targets="None">Footshard: COR</i>
+  <i id="9737" enl="footshard: PUP" jp="足具の破片：か" jpl="" targets="None">Footshard: PUP</i>
+  <i id="9738" enl="footshard: DNC" jp="足具の破片：踊" jpl="" targets="None">Footshard: DNC</i>
+  <i id="9739" enl="footshard: SCH" jp="足具の破片：学" jpl="" targets="None">Footshard: SCH</i>
+  <i id="9740" enl="footshard: GEO" jp="足具の破片：風" jpl="" targets="None">Footshard: GEO</i>
+  <i id="9741" enl="footshard: RUN" jp="足具の破片：剣" jpl="" targets="None">Footshard: RUN</i>
+  <i id="9742" enl="pair of void footwear: WAR" jp="闇の足具：戦" jpl="" targets="None">Voidfoot: WAR</i>
+  <i id="9743" enl="pair of void footwear: MNK" jp="闇の足具：モ" jpl="" targets="None">Voidfoot: MNK</i>
+  <i id="9744" enl="pair of void footwear: WHM" jp="闇の足具：白" jpl="" targets="None">Voidfoot: WHM</i>
+  <i id="9745" enl="pair of void footwear: BLM" jp="闇の足具：黒" jpl="" targets="None">Voidfoot: BLM</i>
+  <i id="9746" enl="pair of void footwear: RDM" jp="闇の足具：赤" jpl="" targets="None">Voidfoot: RDM</i>
+  <i id="9747" enl="pair of void footwear: THF" jp="闇の足具：シ" jpl="" targets="None">Voidfoot: THF</i>
+  <i id="9748" enl="pair of void footwear: PLD" jp="闇の足具：ナ" jpl="" targets="None">Voidfoot: PLD</i>
+  <i id="9749" enl="pair of void footwear: DRK" jp="闇の足具：暗" jpl="" targets="None">Voidfoot: DRK</i>
+  <i id="9750" enl="pair of void footwear: BSM" jp="闇の足具：獣" jpl="" targets="None">Voidfoot: BSM</i>
+  <i id="9751" enl="pair of void footwear: BRD" jp="闇の足具：吟" jpl="" targets="None">Voidfoot: BRD</i>
+  <i id="9752" enl="pair of void footwear: RNG" jp="闇の足具：狩" jpl="" targets="None">Voidfoot: RNG</i>
+  <i id="9753" enl="pair of void footwear: SAM" jp="闇の足具：侍" jpl="" targets="None">Voidfoot: SAM</i>
+  <i id="9754" enl="pair of void footwear: NIN" jp="闇の足具：忍" jpl="" targets="None">Voidfoot: NIN</i>
+  <i id="9755" enl="pair of void footwear: DRG" jp="闇の足具：竜" jpl="" targets="None">Voidfoot: DRG</i>
+  <i id="9756" enl="pair of void footwear: SMN" jp="闇の足具：召" jpl="" targets="None">Voidfoot: SMN</i>
+  <i id="9757" enl="pair of void footwear: BLU" jp="闇の足具：青" jpl="" targets="None">Voidfoot: BLU</i>
+  <i id="9758" enl="pair of void footwear: COR" jp="闇の足具：コ" jpl="" targets="None">Voidfoot: COR</i>
+  <i id="9759" enl="pair of void footwear: PUP" jp="闇の足具：か" jpl="" targets="None">Voidfoot: PUP</i>
+  <i id="9760" enl="pair of void footwear: DNC" jp="闇の足具：踊" jpl="" targets="None">Voidfoot: DNC</i>
+  <i id="9761" enl="pair of void footwear: SCH" jp="闇の足具：学" jpl="" targets="None">Voidfoot: SCH</i>
+  <i id="9762" enl="pair of void footwear: GEO" jp="闇の足具：風" jpl="" targets="None">Voidfoot: GEO</i>
+  <i id="9763" enl="pair of void footwear: RUN" jp="闇の足具：剣" jpl="" targets="None">Voidfoot: RUN</i>
   <i id="10049" enl="♪Raptor" jp="♪ラプトル" jpl="" targets="None">♪Raptor</i>
   <i id="10050" enl="♪Tiger" jp="♪剣虎" jpl="" targets="None">♪Tiger</i>
   <i id="10051" enl="♪Crab" jp="♪クラブ" jpl="" targets="None">♪Crab</i>
@@ -6944,6 +7103,8 @@
   <i id="10061" enl="♪Tulfaire" jp="♪トゥルフェイア" jpl="" targets="None">♪Tulfaire</i>
   <i id="10062" enl="♪Warmachine" jp="♪ウォーマシン" jpl="" targets="None">♪Warmachine</i>
   <i id="10063" enl="♪Xzomit" jp="♪ゾミト" jpl="" targets="None">♪Xzomit</i>
+  <i id="10064" enl="♪Hippogryph" jp="♪ヒポグリフ" jpl="" targets="None">♪Hippogryph</i>
+  <i id="10065" enl="♪Spectral Chair" jp="♪悪霊の椅子" jpl="" targets="None">♪Spectral Chair</i>
   <i id="10112" enl="cipher of Zeid's alter ego" jp="盟-ザイド" jpl="" targets="None">Cipher: Zeid</i>
   <i id="10113" enl="cipher of Lion's alter ego" jp="盟-ライオン" jpl="" targets="None">Cipher: Lion</i>
   <i id="10114" enl="cipher of Tenzen's alter ego" jp="盟-テンゼン" jpl="" targets="None">Cipher: Tenzen</i>
@@ -7020,6 +7181,7 @@
   <i id="10185" enl="cipher of Iroha's alter ego" jp="盟-イロハ" jpl="" targets="None">Cipher: Iroha</i>
   <i id="10186" enl="cipher of Iroha's alter ego II" jp="盟-イロハII" jpl="" targets="None">Cipher: Iroha II</i>
   <i id="10187" enl="cipher of Shantotto's alter ego II" jp="盟-シャントットII" jpl="" targets="None">Cipher: Shantotto II</i>
+  <i id="10188" enl="cipher of AA HM's alter ego" jp="盟-アークHM" jpl="" targets="None">Cipher: Ark HM</i>
   <i id="10189" enl="cipher of AA TT's alter ego" jp="盟-アークTT" jpl="" targets="None">Cipher: Ark TT</i>
   <i id="10190" enl="cipher of AA MR's alter ego" jp="盟-アークMR" jpl="" targets="None">Cipher: Ark MR</i>
   <i id="10191" enl="cipher of AA EV's alter ego" jp="盟-アークEV" jpl="" targets="None">Cipher: Ark EV</i>
@@ -7164,6 +7326,8 @@
   <i id="29334" enl="moogle storage slip 23" jp="モグの預り帳【23】" jpl="">Storage Slip 23</i>
   <i id="29335" enl="moogle storage slip 24" jp="モグの預り帳【24】" jpl="">Storage Slip 24</i>
   <i id="29336" enl="moogle storage slip 25" jp="モグの預り帳【25】" jpl="">Storage Slip 25</i>
+  <i id="29337" enl="moogle storage slip 26" jp="モグの預り帳【26】" jpl="">Storage Slip 26</i>
+  <i id="29338" enl="moogle storage slip 27" jp="モグの預り帳【27】" jpl="">Storage Slip 27</i>
   <i id="29695" enl="mangled mess" jp="？？？" jpl="">Mangled Mess</i>
   <i id="61441" enl="Rabbit" jp="ウサギ族" jpl="">Rabbit</i>
   <i id="61442" enl="Behemoth" jp="ベヒーモス族" jpl="">Behemoth</i>

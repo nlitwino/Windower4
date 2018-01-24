@@ -25,8 +25,8 @@ end
 
 function user_setup()
 
-	state.OffenseMode:options('Normal','Acc','Tank')
-	state.WeaponskillMode:options('Normal','HNM')
+	state.OffenseMode:options('Normal','Acc')
+	state.WeaponskillMode:options('Normal','HNM','Test')
 	state.CastingMode:options('Normal','Acc')
 	state.PhysicalDefenseMode:options('PDT')
 	state.MagicalDefenseMode:options('MDT')
@@ -110,10 +110,10 @@ function init_gear_sets()
 	                                     
 	-- apoc engaged (no sam)             
 	sets.engaged.Apocalypse              = {ammo="Bomb core"
-								           ,head="Walahra turban"    ,neck="Chivalrous chain",ear1="Abyssal earring",ear2="Brutal earring"
+								           ,head="Walahra turban"    ,neck="Justice torque",ear1="Abyssal earring",ear2="Brutal earring"
 								           ,body="Armada hauberk"    ,hands="Dusk gloves +1" ,ring1=gear.TRing1     ,ring2=gear.TRing2
 								           ,back="Cerberus mantle +1",waist="Velocious belt" ,legs="Homam cosciales",feet="Dusk ledelsens +1"}
-	sets.engaged.Apocalypse.Acc          = set_combine(sets.engaged.Apocalypse,{ammo="Fire bomblet",neck="Ancient torque",hands="Homam manopolas",back="Cuchulain's mantle",feet="Homam gambieras"})
+	sets.engaged.Apocalypse.Acc          = set_combine(sets.engaged.Apocalypse,{ammo="Fire bomblet",hands="Homam manopolas",back="Cuchulain's mantle",feet="Homam gambieras"})
 	sets.engaged.Apocalypse.Tank         = set_combine(sets.engaged.Apocalypse.Acc,{ammo="Bibiki seashell",ear2="Ethereal earring",ring1="Defending ring",back="Shadow mantle"})
 	                                     
 	sets.engaged.Apocalypse.AM           = set_combine(sets.engaged.Apocalypse,{hands="Tarasque mitts +1",legs="Onyx cuisses"})
@@ -122,7 +122,7 @@ function init_gear_sets()
 	                                     
 	-- apoc engaged (sam)                
 	sets.engaged.Apocalypse.SAM          = {ammo="White tathlum"
-								           ,head="Walahra turban"    ,neck="Almah torque"   ,ear1="Abyssal earring",ear2="Brutal earring"
+								           ,head="Walahra turban"    ,neck="Justice torque" ,ear1="Abyssal earring",ear2="Brutal earring"
 								           ,body="Aurum cuirass"     ,hands="Dusk gloves +1",ring1=gear.TRing1     ,ring2=gear.TRing2
 								           ,back="Cerberus mantle +1",waist="Velocious belt",legs="Homam cosciales",feet="Dusk ledelsens +1"}
 	sets.engaged.Apocalypse.Acc.SAM 	 = set_combine(sets.engaged.Apocalypse.SAM,{hands="Homam manopolas",back="Cuchulain's mantle",feet="Homam gambieras"})
@@ -165,8 +165,9 @@ function init_gear_sets()
 	sets.precast.WS['Entropy']           = set_combine(sets.precast.WS['Guillotine'],{})
 	sets.precast.WS['Entropy'].HNM       = set_combine(sets.precast.WS['Guillotine'].HNM,{})
 	                                     
-	sets.precast.WS['Catastrophe']       = set_combine(sets.precast.WS,{ear1="Abyssal earring"})
-	sets.precast.WS['Catastrophe'].HNM   = set_combine(sets.precast.WS['Catastrophe'],{ammo="Fire bomblet"})
+	sets.precast.WS['Catastrophe']       = set_combine(sets.precast.WS,{ear1="Abyssal earring",body="Aurum cuirass"})
+	sets.precast.WS['Catastrophe'].HNM   = set_combine(sets.precast.WS['Catastrophe'],{})
+	sets.precast.WS['Catastrophe'].Test  = set_combine(sets.precast.WS['Catastrophe'],{ear2="Triumph earring",ring2=empty})
 
 end
 

@@ -124,14 +124,14 @@ function init_gear_sets()
 	sets.idle 												 = {main="Terra's staff",sub="Bugard leather strap +1",range="Gjallarhorn"
 															   ,head="Hecatomb cap" ,neck="Chocobo whistle"       ,ear1="Mamool Ja earring",ear2="Star earring"
 															   ,body="Dalmatica"    ,hands="Zenith mitts"         ,ring1="Ether ring"      ,ring2="Serket ring"
-															   ,back="Bard's cape"  ,waist="Lycopodium sash"      ,legs="Zenith slacks"    ,feet="Rostrum pumps"}
+															   ,back="Hexerei cape" ,waist="Lycopodium sash"      ,legs="Zenith slacks"    ,feet="Rostrum pumps"}
 	sets.idle.Town 											 = set_combine(sets.idle,{back="Nexus cape",ring2="Warp ring"})
 	
-	sets.resting											 = {main="Chatoyant staff",head="Oracle's cap",neck="Orochi nodowa",body="Oracle's robe",hands="Oracle's gloves",ring2="Star ring",legs="Oracle's braconi",feet="Numerist pumps"}
+	sets.resting											 = {main="Chatoyant staff",head="Oracle's cap",neck="Orochi nodowa",body="Oracle's robe",hands="Oracle's gloves",ring2="Star ring",back="Invigorating cape",legs="Oracle's braconi",feet="Numerist pumps"}
 	
 	-- Defense sets
 	sets.defense.PDT										 = {}
-	sets.defense.MDT 										 = {}
+	sets.defense.MDT 										 = {ring1="Merman's ring",ring2="Merman's ring"}
 	
 	-- Engaged sets
 	sets.engaged											 = {head="Walahra turban",neck="Peacock amulet",ear1="Pixie earring",ear2="Brutal earring"

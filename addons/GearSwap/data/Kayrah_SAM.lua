@@ -66,11 +66,11 @@ function init_gear_sets()
 	
 	-- default engaged / 450 delay GKT (hagun/soboro) 
 	------------------ WHITE TATHLUM ------------------
-	sets.engaged                              = {head="Walahra turban"    ,neck="Chivalrous chain",ear1="Bushinomimi"     ,ear2="Brutal earring"
-												,body="Hachiman domaru +1",hands="Dusk gloves +1" ,ring1="Rajas ring"     ,ring2=gear.TRing1
-												,back="Cerberus mantle +1",waist="Velocious belt" ,legs="Byakko's haidate",feet="Dusk ledelsens +1"}
+	sets.engaged                              = {head="Walahra turban"     ,neck="Justice torque"  ,ear1="Bushinomimi"     ,ear2="Brutal earring"
+												,body="Shinimusha hara-ate",hands="Dusk gloves +1" ,ring1=gear.TRing2      ,ring2=gear.TRing1
+												,back="Cerberus mantle +1" ,waist="Velocious belt" ,legs="Byakko's haidate",feet="Dusk ledelsens +1"}
 	------------------ NEED ROSE FOR ACC SETUP ------------------
-	sets.engaged.Acc                          = set_combine(sets.engaged,{body="Hachiryu haramaki",hands="Hachiryu kote",back="Cuchulain's mantle"})
+	sets.engaged.Acc                          = set_combine(sets.engaged,{back="Cuchulain's mantle"})
 	sets.engaged.Tank                         = set_combine(sets.engaged,{head="Arhat's jinpachi +1",body="Arhat's gi +1",neck="Fortified chain",ring1="Defending ring",ring2="Corneus ring"})
 	
 	------------------ BLACK TATH ------------------
@@ -97,7 +97,7 @@ function init_gear_sets()
 	
 	-- nanatsu engaged /  420 delay GKT
 	---------------- ROSE STRAP / WHITE TATH ---------------
-	sets.engaged.Nanatsu                      = set_combine(sets.engaged,{hands="Hachiman kote +1"})
+	sets.engaged.Nanatsu                      = set_combine(sets.engaged,{ring1="Rajas ring"})
 	sets.engaged.Acc.Nanatsu                  = set_combine(sets.engaged.Nanatsu,{back="Cuchulain's mantle"})
 	sets.engaged.Tank.Nanatsu                 = set_combine(sets.engaged.Tank,{head="Arhat's jinpachi +1",body="Arhat's gi +1",neck="Fortified chain",ring1="Defending ring",ring2="Corneus ring"})
 	
@@ -115,8 +115,8 @@ function init_gear_sets()
 	
 	-- GK ws (186tp)
 	sets.precast.WS                           = {head="Gnadbhod's helm"   ,neck="Fotia gorget"          ,ear1="Bushinomimi"     ,ear2="Brutal earring"
-												,body="Byrnie +1"         ,hands="Alkyoneus's bracelets",ring1="Rajas ring"     ,ring2="Strigoi ring"
-												,back="Cerberus mantle +1",waist="Warwolf belt"         ,legs="Hachiryu haidate",feet="Hachiman sune-ate"}
+												,body="Byrnie +1"         ,hands="Bandomusha kote",ring1="Rajas ring"     ,ring2="Strigoi ring"
+												,back="Cerberus mantle +1",waist="Swordbelt +1"         ,legs="Hachiryu haidate",feet="Hachiman sune-ate +1"}
 	sets.precast.WS.Acc                       = set_combine(sets.precast.WS,{body="Hachiman domaru +1"})
 	
 	-- sets.precast.WS['Tachi: Yukikaze']        = {}

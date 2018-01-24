@@ -84,7 +84,7 @@ function initialize_custom_augments(name)
 	elseif name == "Mimosa" then
 		gear.HasteHarness = { name="Scp. Harness +1", augments={'Haste+11',}}
 	elseif name == "Mian" then
-		gear.RSHarness = { name="Scp. Harness +1", augments={'"Rapid Shot"+10',}}
+		gear.RSHarness = { name="Scp. Harness +1", augments={'"Rapid Shot"+11',}}
 	end
 	
 

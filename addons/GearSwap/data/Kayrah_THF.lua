@@ -21,13 +21,16 @@ function user_setup()
 
 	include('Mote-TreasureHunter.lua')
 
-	state.OffenseMode:options('Normal','HybridAcc','Acc')
+	state.OffenseMode:options('Normal','HybridAcc','Acc','MDT')
 	state.WeaponskillMode:options('Normal','Power','Acc')
 	state.RangedMode:options('Normal','Acid','Bloody','Sleep')
 	state.PhysicalDefenseMode:options('Evasion','PDT')
 	state.MagicalDefenseMode:options('MDT')
 	
 	single_hit_ws = S{'Wasp Sting','Shadowstitch','Viper Bite','Mercy Stroke','Mandalic Stab'}
+	
+	offhand_misc = S{'Ridill','Kraken Club'}
+	offhand_daggers = S{'Thief\'s Knife','Mercurial Kris'}
 	
 	send_command('bind !f9 gs c cycle TreasureMode')
 	send_command('bind !f12 gs c toggle Range;gs c lock_ranged')
@@ -87,8 +90,9 @@ function init_gear_sets()
 												,head="Walahra turban"    ,neck="Love torque"    ,ear1="Suppanomimi"        ,ear2="Brutal earring"
 												,body="Rapparee harness"  ,hands="Dusk gloves +1",ring1=gear.TRing1         ,ring2=gear.TRing2
 												,back="Cerberus mantle +1",waist="Velocious belt",legs="Barbarossa's zerehs",feet="Dusk ledelsens +1"}
-	sets.engaged.HybridAcc                    = set_combine(sets.engaged,{ammo="Fire bomblet",neck="Ancient torque",hands="Homam manopolas",back="Cuchulain's mantle",legs="Homam cosciales",feet="Homam gambieras"})
-	sets.engaged.Acc                          = set_combine(sets.engaged.HybridAcc,{head="Homam zucchetto",neck="Ancient torque",body="Homam corazza",hands="Enkidu's mittens",waist="Lycopodium sash"})
+	sets.engaged.HybridAcc                    = set_combine(sets.engaged,{ammo="Fire bomblet",hands="Homam manopolas",back="Cuchulain's mantle",legs="Homam cosciales",feet="Homam gambieras"})
+	sets.engaged.Acc                          = set_combine(sets.engaged.HybridAcc,{head="Homam zucchetto",neck="Ancient torque",body="Homam corazza"})
+	sets.engaged.MDT                          = set_combine(sets.engaged.Acc,{ear1="Merman's earring",ear2="Merman's earring",body="Avalon breastplate",ring1="Defending ring"})
 	
 	-- ranged
 	sets.precast.RA                           = {head="Zha'Go's barbut",gear.RSHarness}
@@ -242,6 +246,7 @@ function customize_melee_set(meleeSet)
 	if state.TreasureMode.value == 'Fulltime' then
         meleeSet = set_combine(meleeSet, sets.TreasureHunter)
     end
+	--adjust_engaged_neck(player.equipment.main,player.equipment.sub)
     return meleeSet
 	
 end

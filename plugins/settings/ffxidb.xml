@@ -34,7 +34,7 @@
     <Wentworth>
         <X>1203</X>
         <Y>67</Y>
-        <Zoom>10</Zoom>
+        <Zoom>30</Zoom>
     </Wentworth>
     <Deebiia>
         <X>1045</X>
@@ -86,13 +86,18 @@
     </Starutaru>
     <Sandwormkiller>
         <Zoom>20</Zoom>
+        <X>1208</X>
+        <Y>76</Y>
     </Sandwormkiller>
     <Twicer>
-        <X>185</X>
-        <Y>11</Y>
+        <X>1084</X>
+        <Y>91</Y>
     </Twicer>
     <Sandybritches>
         <X>1325</X>
         <Y>54</Y>
     </Sandybritches>
+    <Sandypants>
+        <Zoom>30</Zoom>
+    </Sandypants>
 </settings>
