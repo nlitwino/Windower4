@@ -272,6 +272,48 @@ function lock_ranged()
 	
 end
 
+function handle_cor_rolls(roll)
+	
+	
+    rolls = {
+        ["Corsair's Roll"]   = {lucky=5, unlucky=9, bonus="Experience Points"},
+        ["Ninja Roll"]       = {lucky=4, unlucky=8, bonus="Evasion"},
+        ["Hunter's Roll"]    = {lucky=4, unlucky=8, bonus="Accuracy"},
+        ["Chaos Roll"]       = {lucky=4, unlucky=8, bonus="Attack"},
+        ["Magus's Roll"]     = {lucky=2, unlucky=6, bonus="Magic Defense"},
+        ["Healer's Roll"]    = {lucky=3, unlucky=7, bonus="Cure Potency Received"},
+        ["Puppet Roll"]      = {lucky=4, unlucky=8, bonus="Pet Magic Accuracy/Attack"},
+        ["Choral Roll"]      = {lucky=2, unlucky=6, bonus="Spell Interruption Rate"},
+        ["Monk's Roll"]      = {lucky=3, unlucky=7, bonus="Subtle Blow"},
+        ["Beast Roll"]       = {lucky=4, unlucky=8, bonus="Pet Attack"},
+        ["Samurai Roll"]     = {lucky=2, unlucky=6, bonus="Store TP"},
+        ["Evoker's Roll"]    = {lucky=5, unlucky=9, bonus="Refresh"},
+        ["Rogue's Roll"]     = {lucky=5, unlucky=9, bonus="Critical Hit Rate"},
+        ["Warlock's Roll"]   = {lucky=4, unlucky=8, bonus="Magic Accuracy"},
+        ["Fighter's Roll"]   = {lucky=5, unlucky=9, bonus="Double Attack Rate"},
+        ["Drachen Roll"]     = {lucky=3, unlucky=7, bonus="Pet Accuracy"},
+        ["Gallant's Roll"]   = {lucky=3, unlucky=7, bonus="Defense"},
+        ["Wizard's Roll"]    = {lucky=5, unlucky=9, bonus="Magic Attack"},
+        ["Dancer's Roll"]    = {lucky=3, unlucky=7, bonus="Regen"},
+        ["Scholar's Roll"]   = {lucky=2, unlucky=6, bonus="Conserve MP"},
+        ["Bolter's Roll"]    = {lucky=3, unlucky=9, bonus="Movement Speed"},
+        ["Caster's Roll"]    = {lucky=2, unlucky=7, bonus="Fast Cast"},
+        ["Courser's Roll"]   = {lucky=3, unlucky=9, bonus="Snapshot"},
+        ["Blitzer's Roll"]   = {lucky=4, unlucky=9, bonus="Attack Delay"},
+        ["Tactician's Roll"] = {lucky=5, unlucky=8, bonus="Regain"},
+        ["Allies's Roll"]    = {lucky=3, unlucky=10, bonus="Skillchain Damage"},
+        ["Miser's Roll"]     = {lucky=5, unlucky=7, bonus="Save TP"},
+        ["Companion's Roll"] = {lucky=2, unlucky=10, bonus="Pet Regain and Regen"},
+        ["Avenger's Roll"]   = {lucky=4, unlucky=8, bonus="Counter Rate"},
+    }
+	
+	rollinfo = rolls[roll]
+	if rollinfo then
+        add_to_chat(roll..': '..rollinfo.bonus..'.')
+        add_to_chat('Lucky: '..tostring(rollinfo.lucky)..', Unlucky: '..tostring(rollinfo.unlucky)..'.')
+    end
+end
+
 -- function protect_shell_pt()
 
 	-- local x = 0
