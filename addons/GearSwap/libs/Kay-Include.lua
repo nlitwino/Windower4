@@ -1,38 +1,36 @@
 function job_self_command(commandArgs,eventArgs)
 
-	if commandArgs[1] == 'trade_ring' then
-		trade_ring()
-	elseif commandArgs[1] == 'trade_earring1' then
-		trade_earring1()
+  if commandArgs[1] == 'trade_ring' then
+    trade_ring()
+  elseif commandArgs[1] == 'trade_earring1' then
+    trade_earring1()
 	elseif commandArgs[1] == 'trade_earring2' then
 		trade_earring2()
 	elseif commandArgs[1] == 'regear' then
 		regear()
 	elseif commandArgs[1] == 'custom_treasure_cycle' then
 		custom_treasure_cycle()
-	elseif commandArgs[1]:lower() == 'siphon' then
-        handle_siphoning()
-        eventArgs.handled = true
-    elseif commandArgs[1]:lower() == 'pact' then
-        handle_pacts(commandArgs)
-        eventArgs.handled = true
-    elseif commandArgs[1] == 'reset_ward_flag' then
-        wards.flag = false
-        wards.spell = ''
-        eventArgs.handled = true
+  elseif commandArgs[1]:lower() == 'siphon' then
+    handle_siphoning()
+    eventArgs.handled = true
+  elseif commandArgs[1]:lower() == 'pact' then
+    handle_pacts(commandArgs)
+    eventArgs.handled = true
+  elseif commandArgs[1] == 'reset_ward_flag' then
+    wards.flag = false
+    wards.spell = ''
+    eventArgs.handled = true
 	elseif commandArgs[1] == 'lock_ranged' then
-		lock_ranged()
-	    eventArgs.handled = true
-    end
-	
+    lock_ranged()
+    eventArgs.handled = true
+  end
+    
 end
 
 function initialize_job()
 	
 	daytime = world.time <= (18*60) and world.time >= (6*60)
 	duskdawn = (world.time >= (17*60) and world.time <= (18*60)) and (world.time >= (6*60) and world.time <= (7*60))
-	
-	
 	
 	initialize_custom_augments(player.name)
 	
@@ -48,7 +46,6 @@ function initialize_job()
 	windower.register_event('zone change', 
 	function(new, old)
 		send_command('gs c update')
-		--send_command('treasury clearall')
 	end)
 
 	windower.register_event('time change', 
@@ -76,18 +73,43 @@ end
 function initialize_custom_augments(name)
 
 	if name == "Kayrah" then
-		gear.TRing1 = { name="Toreador's Ring", augments={'Accuracy+5','"Triple Atk."+2',}}
-		gear.TRing2 = { name="Toreador's Ring", augments={'"Triple Atk."+2','Accuracy+4',}}
-		gear.CritRing = { name="Toreador's Ring", augments={'Crit.hit rate+6',}}
-		gear.HasteHarness = { name="Scorpion Harness +1", augments={'Haste+11',}}
-		gear.RSHarness = { name="Scorpion Harness +1", augments={'"Rapid Shot"+11',}}
+    toreador_ring
+	   = {["Triple Attack (1)"] = { name="Toreador's Ring", augments={'Accuracy+5','"Triple Atk."+2',}}
+	     ,["Triple Attack (2)"] = { name="Toreador's Ring", augments={'"Triple Atk."+2','Accuracy+4',}}
+	     ,["Critical Damage"]   = { name="Toreador's Ring", augments={'Attack+4','Crit. hit damage +5%',}}}
+	     
+    scorpion_harness
+     = {["Haste"]      = { name="Scorpion Harness +1", augments={'Haste+11',}}
+       ,["Rapid Shot"] = { name="Scorpion Harness +1", augments={'"Rapid Shot"+11',}}}
+       
+		prism_cape
+		 = {["Fast Cast"]       = { name="Prism Cape", augments={'"Fast Cast"+3',}}
+			 ,["Spell Interrupt"] = { name="Prism Cape", augments={'Spell interruption rate down -20%',}}
+			 ,["Magic Accuracy"]  = { name="Prism Cape", augments={'Mag. Acc.+4',}}
+			 ,["Cure Potency"]    = { name="Prism Cape", augments={'"Cure" potency +4%',}}}
+			 
 	elseif name == "Mimosa" then
-		gear.HasteHarness = { name="Scp. Harness +1", augments={'Haste+11',}}
+    scorpion_harness
+     = {["Haste"]      = { name="Scorpion Harness +1", augments={'Haste+11',}}}
+     
+		prism_cape 
+		 = {["Fast Cast"]       = { name="Prism Cape", augments={'"Fast Cast"+3',}}
+			 ,["Spell Interrupt"] = { name="Prism Cape", augments={'Spell interruption rate down -20%',}}
+			 ,["Magic Accuracy"]  = { name="Prism Cape", augments={'Mag. Acc.+4',}}
+			 ,["Cure Potency"]    = { name="Prism Cape", augments={'"Cure" potency +4%',}}}
+		
 	elseif name == "Mian" then
-		gear.RSHarness = { name="Scp. Harness +1", augments={'"Rapid Shot"+11',}}
+    scorpion_harness
+     = {["Rapid Shot"] = { name="Scorpion Harness +1", augments={'"Rapid Shot"+11',}}}
+     
+		prism_cape 
+     = {["Fast Cast"]       = { name="Prism Cape", augments={'"Fast Cast"+2',}}
+       ,["Spell Interrupt"] = { name="Prism Cape", augments={'Spell interruption rate down -17%',}}
+       ,["Magic Accuracy"]  = { name="Prism Cape", augments={'Mag. Acc.+4',}}
+       ,["Cure Potency"]    = { name="Prism Cape", augments={'"Cure" potency +3%',}}}
+       
 	end
 	
-
 end
 
 function set_custom_universal_keybinds()
@@ -111,6 +133,7 @@ function set_custom_universal_keybinds()
 	send_command('bind !f12 gs reload')
 	
 	-- Trade functions
+	send_command('bind !z input /pcmd leader '..player.name)
 	send_command('bind !x gs c trade_earring1')
 	send_command('bind !c gs c trade_earring2')
 	send_command('bind !v gs c trade_ring')

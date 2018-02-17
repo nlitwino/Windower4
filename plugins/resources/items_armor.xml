@@ -6113,6 +6113,28 @@
   <i id="23060" enl="academic's mortarboard +2" jp="ＡＣボード+2" jpl="" slots="0010" jobs="00100000" races="01FE" level="99" targets="None" casttime="0" recast="0">Acad. Mortar. +2</i>
   <i id="23061" enl="geomancy galero +2" jp="ＧＯガレーロ+2" jpl="" slots="0010" jobs="00200000" races="01FE" level="99" targets="None" casttime="0" recast="0">Geo. Galero +2</i>
   <i id="23062" enl="runeist's bandeau +2" jp="ＲＮバンド+2" jpl="" slots="0010" jobs="00400000" races="01FE" level="99" targets="None" casttime="0" recast="0">Rune. Bandeau +2</i>
+  <i id="23063" enl="agoge mask +2" jp="ＡＧマスク+2" jpl="" slots="0010" jobs="00000002" races="01FE" level="99" targets="None" casttime="0" recast="0">Agoge Mask +2</i>
+  <i id="23064" enl="hesychast's crown +2" jp="ＨＥクラウン+2" jpl="" slots="0010" jobs="00000004" races="01FE" level="99" targets="None" casttime="0" recast="0">Hes. Crown +2</i>
+  <i id="23065" enl="piety cap +2" jp="ＰＩキャップ+2" jpl="" slots="0010" jobs="00000008" races="01FE" level="99" targets="None" casttime="0" recast="0">Piety Cap +2</i>
+  <i id="23066" enl="archmage's petasos +2" jp="ＡＲペタソス+2" jpl="" slots="0010" jobs="00000010" races="01FE" level="99" targets="None" casttime="0" recast="0">Arch. Petasos +2</i>
+  <i id="23067" enl="vitiation chapeau +2" jp="ＶＩシャポー+2" jpl="" slots="0010" jobs="00000020" races="01FE" level="99" targets="None" casttime="0" recast="0">Viti. Chapeau +2</i>
+  <i id="23068" enl="plunderer's bonnet +2" jp="ＰＤボンネット+2" jpl="" slots="0010" jobs="00000040" races="01FE" level="99" targets="None" casttime="0" recast="0">Plun. Bonnet +2</i>
+  <i id="23069" enl="caballarius coronet +2" jp="ＣＢコロネット+2" jpl="" slots="0010" jobs="00000080" races="01FE" level="99" targets="None" casttime="0" recast="0">Cab. Coronet +2</i>
+  <i id="23070" enl="fallen's burgeonet +2" jp="ＦＬバーゴネット+2" jpl="" slots="0010" jobs="00000100" races="01FE" level="99" targets="None" casttime="0" recast="0">Fall. Burgeonet +2</i>
+  <i id="23071" enl="ankusa helm +2" jp="ＡＫヘルム+2" jpl="" slots="0010" jobs="00000200" races="01FE" level="99" targets="None" casttime="0" recast="0">Ankusa Helm +2</i>
+  <i id="23072" enl="bihu roundlet +2" jp="ＢＩラウンドリト+2" jpl="" slots="0010" jobs="00000400" races="01FE" level="99" targets="None" casttime="0" recast="0">Bihu Roundlet +2</i>
+  <i id="23073" enl="arcadian beret +2" jp="ＡＲベレー+2" jpl="" slots="0010" jobs="00000800" races="01FE" level="99" targets="None" casttime="0" recast="0">Arcadian Beret +2</i>
+  <i id="23074" enl="sakonji kabuto +2" jp="真左近士桃形兜" jpl="" slots="0010" jobs="00001000" races="01FE" level="99" targets="None" casttime="0" recast="0">Sakonji Kabuto +2</i>
+  <i id="23075" enl="mochizuki hatsuburi +2" jp="真望月半首" jpl="" slots="0010" jobs="00002000" races="01FE" level="99" targets="None" casttime="0" recast="0">Mochi. Hatsuburi +2</i>
+  <i id="23076" enl="pteroslaver armet +2" jp="ＰＴアーメット+2" jpl="" slots="0010" jobs="00004000" races="01FE" level="99" targets="None" casttime="0" recast="0">Ptero. Armet +2</i>
+  <i id="23077" enl="glyphic horn +2" jp="ＧＬホーン+2" jpl="" slots="0010" jobs="00008000" races="01FE" level="99" targets="None" casttime="0" recast="0">Glyphic Horn +2</i>
+  <i id="23078" enl="luhlaza keffiyeh +2" jp="ＬＬケフィエ+2" jpl="" slots="0010" jobs="00010000" races="01FE" level="99" targets="None" casttime="0" recast="0">Luh. Keffiyeh +2</i>
+  <i id="23079" enl="lanun tricorne +2" jp="ＬＡトリコルヌ+2" jpl="" slots="0010" jobs="00020000" races="01FE" level="99" targets="None" casttime="0" recast="0">Lanun Tricorne +2</i>
+  <i id="23080" enl="pitre taj +2" jp="ＰＩタージ+2" jpl="" slots="0010" jobs="00040000" races="01FE" level="99" targets="None" casttime="0" recast="0">Pitre Taj +2</i>
+  <i id="23081" enl="horos tiara +2" jp="ＨＯティアラ+2" jpl="" slots="0010" jobs="00080000" races="01FE" level="99" targets="None" casttime="0" recast="0">Horos Tiara +2</i>
+  <i id="23082" enl="pedagogy mortarboard +2" jp="ＰＤボード+2" jpl="" slots="0010" jobs="00100000" races="01FE" level="99" targets="None" casttime="0" recast="0">Peda. M.Board +2</i>
+  <i id="23083" enl="bagua galero +2" jp="ＢＡガレーロ+2" jpl="" slots="0010" jobs="00200000" races="01FE" level="99" targets="None" casttime="0" recast="0">Bagua Galero +2</i>
+  <i id="23084" enl="futhark bandeau +2" jp="ＦＵバンド+2" jpl="" slots="0010" jobs="00400000" races="01FE" level="99" targets="None" casttime="0" recast="0">Fu. Bandeau +2</i>
   <i id="23107" enl="pummeler's lorica +2" jp="ＰＭロリカ+2" jpl="" slots="0020" jobs="00000002" races="01FE" level="99" targets="None" casttime="0" recast="0">Pumm. Lorica +2</i>
   <i id="23108" enl="anchorite's cyclas +2" jp="ＡＮシクラス+2" jpl="" slots="0020" jobs="00000004" races="01FE" level="99" targets="None" casttime="0" recast="0">Anch. Cyclas +2</i>
   <i id="23109" enl="theophany briault +2" jp="ＴＥブリオー+2" jpl="" slots="0020" jobs="00000008" races="01FE" level="99" targets="None" casttime="0" recast="0">Theo. Briault +2</i>
@@ -6272,6 +6294,28 @@
   <i id="23395" enl="academic's mortarboard +3" jp="ＡＣボード+3" jpl="" slots="0010" jobs="00100000" races="01FE" level="99" targets="None" casttime="0" recast="0">Acad. Mortar. +3</i>
   <i id="23396" enl="geomancy galero +3" jp="ＧＯガレーロ+3" jpl="" slots="0010" jobs="00200000" races="01FE" level="99" targets="None" casttime="0" recast="0">Geo. Galero +3</i>
   <i id="23397" enl="runeist's bandeau +3" jp="ＲＮバンド+3" jpl="" slots="0010" jobs="00400000" races="01FE" level="99" targets="None" casttime="0" recast="0">Rune. Bandeau +3</i>
+  <i id="23398" enl="agoge mask +3" jp="ＡＧマスク+3" jpl="" slots="0010" jobs="00000002" races="01FE" level="99" targets="None" casttime="0" recast="0">Agoge Mask +3</i>
+  <i id="23399" enl="hesychast's crown +3" jp="ＨＥクラウン+3" jpl="" slots="0010" jobs="00000004" races="01FE" level="99" targets="None" casttime="0" recast="0">Hes. Crown +3</i>
+  <i id="23400" enl="piety cap +3" jp="ＰＩキャップ+3" jpl="" slots="0010" jobs="00000008" races="01FE" level="99" targets="None" casttime="0" recast="0">Piety Cap +3</i>
+  <i id="23401" enl="archmage's petasos +3" jp="ＡＲペタソス+3" jpl="" slots="0010" jobs="00000010" races="01FE" level="99" targets="None" casttime="0" recast="0">Arch. Petasos +3</i>
+  <i id="23402" enl="vitiation chapeau +3" jp="ＶＩシャポー+3" jpl="" slots="0010" jobs="00000020" races="01FE" level="99" targets="None" casttime="0" recast="0">Viti. Chapeau +3</i>
+  <i id="23403" enl="plunderer's bonnet +3" jp="ＰＤボンネット+3" jpl="" slots="0010" jobs="00000040" races="01FE" level="99" targets="None" casttime="0" recast="0">Plun. Bonnet +3</i>
+  <i id="23404" enl="caballarius coronet +3" jp="ＣＢコロネット+3" jpl="" slots="0010" jobs="00000080" races="01FE" level="99" targets="None" casttime="0" recast="0">Cab. Coronet +3</i>
+  <i id="23405" enl="fallen's burgeonet +3" jp="ＦＬバーゴネット+3" jpl="" slots="0010" jobs="00000100" races="01FE" level="99" targets="None" casttime="0" recast="0">Fall. Burgeonet +3</i>
+  <i id="23406" enl="ankusa helm +3" jp="ＡＫヘルム+3" jpl="" slots="0010" jobs="00000200" races="01FE" level="99" targets="None" casttime="0" recast="0">Ankusa Helm +3</i>
+  <i id="23407" enl="bihu roundlet +3" jp="ＢＩラウンドリト+3" jpl="" slots="0010" jobs="00000400" races="01FE" level="99" targets="None" casttime="0" recast="0">Bihu Roundlet +3</i>
+  <i id="23408" enl="arcadian beret +3" jp="ＡＲベレー+3" jpl="" slots="0010" jobs="00000800" races="01FE" level="99" targets="None" casttime="0" recast="0">Arcadian Beret +3</i>
+  <i id="23409" enl="sakonji kabuto +3" jp="極左近士桃形兜" jpl="" slots="0010" jobs="00001000" races="01FE" level="99" targets="None" casttime="0" recast="0">Sakonji Kabuto +3</i>
+  <i id="23410" enl="mochizuki hatsuburi +3" jp="極望月半首" jpl="" slots="0010" jobs="00002000" races="01FE" level="99" targets="None" casttime="0" recast="0">Mochi. Hatsuburi +3</i>
+  <i id="23411" enl="pteroslaver armet +3" jp="ＰＴアーメット+3" jpl="" slots="0010" jobs="00004000" races="01FE" level="99" targets="None" casttime="0" recast="0">Ptero. Armet +3</i>
+  <i id="23412" enl="glyphic horn +3" jp="ＧＬホーン+3" jpl="" slots="0010" jobs="00008000" races="01FE" level="99" targets="None" casttime="0" recast="0">Glyphic Horn +3</i>
+  <i id="23413" enl="luhlaza keffiyeh +3" jp="ＬＬケフィエ+3" jpl="" slots="0010" jobs="00010000" races="01FE" level="99" targets="None" casttime="0" recast="0">Luh. Keffiyeh +3</i>
+  <i id="23414" enl="lanun tricorne +3" jp="ＬＡトリコルヌ+3" jpl="" slots="0010" jobs="00020000" races="01FE" level="99" targets="None" casttime="0" recast="0">Lanun Tricorne +3</i>
+  <i id="23415" enl="pitre taj +3" jp="ＰＩタージ+3" jpl="" slots="0010" jobs="00040000" races="01FE" level="99" targets="None" casttime="0" recast="0">Pitre Taj +3</i>
+  <i id="23416" enl="horos tiara +3" jp="ＨＯティアラ+3" jpl="" slots="0010" jobs="00080000" races="01FE" level="99" targets="None" casttime="0" recast="0">Horos Tiara +3</i>
+  <i id="23417" enl="pedagogy mortarboard +3" jp="ＰＤボード+3" jpl="" slots="0010" jobs="00100000" races="01FE" level="99" targets="None" casttime="0" recast="0">Peda. M.Board +3</i>
+  <i id="23418" enl="bagua galero +3" jp="ＢＡガレーロ+3" jpl="" slots="0010" jobs="00200000" races="01FE" level="99" targets="None" casttime="0" recast="0">Bagua Galero +3</i>
+  <i id="23419" enl="futhark bandeau +3" jp="ＦＵバンド+3" jpl="" slots="0010" jobs="00400000" races="01FE" level="99" targets="None" casttime="0" recast="0">Fu. Bandeau +3</i>
   <i id="23442" enl="pummeler's lorica +3" jp="ＰＭロリカ+3" jpl="" slots="0020" jobs="00000002" races="01FE" level="99" targets="None" casttime="0" recast="0">Pumm. Lorica +3</i>
   <i id="23443" enl="anchorite's cyclas +3" jp="ＡＮシクラス+3" jpl="" slots="0020" jobs="00000004" races="01FE" level="99" targets="None" casttime="0" recast="0">Anch. Cyclas +3</i>
   <i id="23444" enl="theophany briault +3" jp="ＴＥブリオー+3" jpl="" slots="0020" jobs="00000008" races="01FE" level="99" targets="None" casttime="0" recast="0">Theo. Briault +3</i>
@@ -6410,14 +6454,19 @@
   <i id="23687" enl="futhark boots +3" jp="ＦＵブーツ+3" jpl="" slots="0100" jobs="00400000" races="01FE" level="99" targets="None" casttime="0" recast="0">Futhark Boots +3</i>
   <i id="23710" enl="volte beret" jp="ヴォルトベレー" jpl="" slots="0010" jobs="00308438" races="01FE" level="99" targets="None" casttime="0" recast="0">Volte Beret</i>
   <i id="23711" enl="volte tiara" jp="ヴォルトティアラ" jpl="" slots="0010" jobs="004F7FE6" races="01FE" level="99" targets="None" casttime="0" recast="0">Volte Tiara</i>
+  <i id="23712" enl="volte salade" jp="ヴォルトサラド" jpl="" slots="0010" jobs="00000182" races="01FE" level="99" targets="None" casttime="0" recast="0">Volte Salade</i>
   <i id="23714" enl="volte doublet" jp="ヴォルトダブレット" jpl="" slots="0020" jobs="00308438" races="01FE" level="99" targets="Self" casttime="0" recast="72000">Volte Doublet</i>
   <i id="23715" enl="volte harness" jp="ヴォルトハーネス" jpl="" slots="0020" jobs="004F7FE6" races="01FE" level="99" targets="Self" casttime="0" recast="72000">Volte Harness</i>
+  <i id="23716" enl="volte haubert" jp="ヴォルトオーベール" jpl="" slots="0020" jobs="00000182" races="01FE" level="99" targets="None" casttime="0" recast="0">Volte Haubert</i>
   <i id="23718" enl="volte gloves" jp="ヴォルトグローブ" jpl="" slots="0040" jobs="00308438" races="01FE" level="99" targets="None" casttime="0" recast="0">Volte Gloves</i>
   <i id="23719" enl="volte mittens" jp="ヴォルトミトン" jpl="" slots="0040" jobs="004F7FE6" races="01FE" level="99" targets="None" casttime="0" recast="0">Volte Mittens</i>
+  <i id="23720" enl="volte moufles" jp="ヴォルトムフル" jpl="" slots="0040" jobs="00000182" races="01FE" level="99" targets="None" casttime="0" recast="0">Volte Moufles</i>
   <i id="23722" enl="volte brais" jp="ヴォルトブレー" jpl="" slots="0080" jobs="00308438" races="01FE" level="99" targets="None" casttime="0" recast="0">Volte Brais</i>
   <i id="23723" enl="volte tights" jp="ヴォルトタイツ" jpl="" slots="0080" jobs="004F7FE6" races="01FE" level="99" targets="None" casttime="0" recast="0">Volte Tights</i>
+  <i id="23724" enl="volte brayettes" jp="ヴォルトブレエット" jpl="" slots="0080" jobs="00000182" races="01FE" level="99" targets="None" casttime="0" recast="0">Volte Brayettes</i>
   <i id="23726" enl="volte gaiters" jp="ヴォルトゲートル" jpl="" slots="0100" jobs="00308438" races="01FE" level="99" targets="None" casttime="0" recast="0">Volte Gaiters</i>
   <i id="23727" enl="volte spats" jp="ヴォルトスパッツ" jpl="" slots="0100" jobs="004F7FE6" races="01FE" level="99" targets="None" casttime="0" recast="0">Volte Spats</i>
+  <i id="23728" enl="volte sollerets" jp="ヴォルトソルレ" jpl="" slots="0100" jobs="00000182" races="01FE" level="99" targets="None" casttime="0" recast="0">Volte Sollerets</i>
   <i id="25549" enl="Oshosi mask" jp="オショシマスク" jpl="" slots="0010" jobs="00020800" races="01FE" level="99" targets="None" casttime="0" recast="0">Oshosi Mask</i>
   <i id="25550" enl="Oshosi mask +1" jp="オショシマスク+1" jpl="" slots="0010" jobs="00020800" races="01FE" level="99" targets="None" casttime="0" recast="0">Oshosi Mask +1</i>
   <i id="25551" enl="kendatsuba jinpachi" jp="乾闥婆陣鉢" jpl="" slots="0010" jobs="00003004" races="01FE" level="99" targets="None" casttime="0" recast="0">Ken. Jinpachi</i>
@@ -8682,7 +8731,7 @@
   <i id="28274" enl="regal pumps +1" jp="リーガルパンプス+1" jpl="" slots="0100" jobs="00348018" races="01FE" level="99" targets="None" casttime="0" recast="0">Regal Pumps +1</i>
   <i id="28275" enl="jute boots" jp="ジュートブーツ" jpl="" slots="0100" jobs="00000840" races="01FE" level="99" targets="None" casttime="0" recast="0">Jute Boots</i>
   <i id="28276" enl="jute boots +1" jp="ジュートブーツ+1" jpl="" slots="0100" jobs="00000840" races="01FE" level="99" targets="None" casttime="0" recast="0">Jute Boots +1</i>
-  <i id="28277" enl="perle solerets +1" jp="ＰＥソルレ+1" jpl="" slots="0100" jobs="00005382" races="01FE" level="90" targets="None" casttime="0" recast="0">Perle Solerets +1</i>
+  <i id="28277" enl="perle sollerets +1" jp="ＰＥソルレ+1" jpl="" slots="0100" jobs="00005382" races="01FE" level="90" targets="None" casttime="0" recast="0">Perle Sollerets +1</i>
   <i id="28278" enl="aurore gaiters +1" jp="ＡＵゲートル+1" jpl="" slots="0100" jobs="004F2A44" races="01FE" level="90" targets="None" casttime="0" recast="0">Aurore Gaiters +1</i>
   <i id="28279" enl="teal pigaches +1" jp="ＴＥピガッシュ+1" jpl="" slots="0100" jobs="00758438" races="01FE" level="90" targets="None" casttime="0" recast="0">Teal Pigaches +1</i>
   <i id="28280" enl="sokushitsu sune-ate" jp="速疾脛当" jpl="" slots="0100" jobs="00003004" races="01FE" level="99" targets="None" casttime="0" recast="0">Soku. Sune-Ate</i>

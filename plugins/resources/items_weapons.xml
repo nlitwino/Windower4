@@ -4457,6 +4457,7 @@
   <i id="21606" enl="enriching sword" jp="エンリッチソード" jpl="" slots="0003" jobs="00000020" races="01FE" level="99" targets="None" casttime="0" recast="0">Enriching Sword</i>
   <i id="21607" enl="enriching sword +1" jp="エンリッチソード+1" jpl="" slots="0003" jobs="00000020" races="01FE" level="99" targets="None" casttime="0" recast="0">Enr. Sword +1</i>
   <i id="21608" enl="onion sword II" jp="オニオンソードII" jpl="" slots="0003" jobs="007FFFFE" races="01FE" level="1" targets="None" casttime="0" recast="0">Onion Sword II</i>
+  <i id="21609" enl="Save the Queen II" jp="セイブザクイーンII" jpl="" slots="0003" jobs="007FFFFE" races="01FE" level="1" targets="None" casttime="0" recast="0">Save the Queen II</i>
   <i id="21610" enl="hepatizon rapier" jp="ヘパテゾレイピア" jpl="" slots="0003" jobs="000A44A2" races="01FE" level="99" targets="None" casttime="0" recast="0">Hepatizon Rapier</i>
   <i id="21611" enl="hepatizon rapier +1" jp="ヘパテゾレイピア+1" jpl="" slots="0003" jobs="000A44A2" races="01FE" level="99" targets="None" casttime="0" recast="0">Hep. Rapier +1</i>
   <i id="21612" enl="raetic blade" jp="レテクブレード" jpl="" slots="0003" jobs="00539DF2" races="01FE" level="99" targets="None" casttime="0" recast="0">Raetic Blade</i>

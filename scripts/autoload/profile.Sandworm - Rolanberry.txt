@@ -33,6 +33,7 @@ lua load GearSwap;
 lua load InfoReplacer;
 lua load instaLS;
 lua load ohShi;
+lua load organizer;
 lua load PetTP;
 lua load send;
 lua load shortcuts;

@@ -73,7 +73,7 @@ function init_gear_sets()
 	-- bravura engaged (SAM) [[Pole grip]]     
 	sets.engaged.Bravura.SAM                = set_combine(sets.engaged,{ammo="White tathlum",neck="Almah torque",body="Aurum cuirass",ring1="Rajas ring"})
 	sets.engaged.Bravura.SAM.Acc            = set_combine(sets.engaged.Bravura.SAM,{ear1="Fowling earring",back="Cuchulain's mantle",feet="Aurum sabatons"})
-	                              
+	
 	-- ragnarok engaged (normal)  
 	sets.engaged.Ragnarok                   = {ammo="Bomb core"
 									          ,head="Walahra turban"   ,neck="Chivalrous chain",ear1="Fowling earring" ,ear2="Brutal earring"
@@ -144,7 +144,7 @@ end
 
 function job_post_precast(spell,action,spellMap,eventsArgs)
 
-	if daytime and spell.skill == 'WeaponSkill' then
+	if daytime and spell.type == 'WeaponSkill' then
 		if state.Buff['Warrior\'s Charge'] then
 			equip({ear2="Fenrir's earring"})
 		else

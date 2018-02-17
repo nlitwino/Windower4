@@ -25705,6 +25705,19 @@ return {
             "Rainbow Thread",
         },
     },
+    ["Rainbow Cloth 2"] = {
+        ["crystal"] = "Earth Crystal",
+        ["ingredients"] = {
+            "Rainbow Thread",
+            "Rainbow Thread",
+            "Rainbow Thread",
+            "Rainbow Thread",
+            "Rainbow Thread",
+            "Rainbow Thread",
+            "Rainbow Thread",
+            "Rainbow Thread",
+        },
+    },
     ["Rainbow Headband"] = {
         ["crystal"] = "Earth Crystal",
         ["ingredients"] = {

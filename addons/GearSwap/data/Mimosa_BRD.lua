@@ -16,11 +16,6 @@ function job_setup()
 	
 	initialize_job()
 	
-	send_command('bind !x gs c trade_earring1')
-	send_command('bind !c gs c trade_earring2')
-	send_command('bind !v gs c trade_ring')
-	send_command('bind ^g gs c regear')
-	
 end
 
 -------------------------------------------------------------------------------------------------------------------
@@ -35,12 +30,6 @@ function user_setup()
 	state.WeaponskillMode:options('Normal','Acc')
 	state.PhysicalDefenseMode:options('None','PDT')
 	state.MagicalDefenseMode:options('None','MDT')
-	
-	send_command('bind f9 gs c cycle OffenseMode')
-	send_command('bind ^f9 gs c cycle CastingMode')
-	send_command('bind f10 gs c cycle WeaponskillMode')
-	send_command('bind f11 gs c cycle PhysicalDefenseMode')
-	send_command('bind f12 gs c cycle MagicalDefenseMode')
 
 end
 
@@ -49,18 +38,18 @@ end
 function init_gear_sets()
 
 	-- Misc.
-	sets.MND 												 = {main="Chatoyant staff",sub="Bugard leather strap +1"
-	                                                           ,head="Choral roundlet",neck="Holy phial"            ,ear1="Mamool Ja earring",ear2="Star earring"
-															   ,body="Kirin's osode"  ,hands="Bricta's cuffs"       ,ring1="Tamas ring"      ,ring2="Star ring"
-															   ,back="Prism cape"     ,waist="Steppe rope"          ,legs="Mahatma slops"    ,feet="Suzaku's sune-ate"}
+	sets.MND 												 = {main="Chatoyant staff"            ,sub="Bugard leather strap +1"
+	                                                           ,head="Choral roundlet"            ,neck="Holy phial"            ,ear1="Mamool Ja earring",ear2="Star earring"
+															   ,body="Kirin's osode"              ,hands="Bricta's cuffs"       ,ring1="Tamas ring"      ,ring2="Star ring"
+															   ,back=prism_capes['Magic Accuracy'],waist="Steppe rope"          ,legs="Mahatma slops"    ,feet="Suzaku's sune-ate"}
 															   
-	sets.INT												 = {main="Chatoyant staff",sub="Bugard leather strap +1"                       ,ammo="Phantom tathlum"
-															                                                        ,ear1="Abyssal earring"
-															   ,body="Kirin's osode"  ,hands="Garrison gloves"      ,ring1="Tamas ring"    ,ring2="Snow ring"
-															   ,back="Prism cape"                                   ,legs="Mahatma slops"  ,feet="Rostrum pumps"}
+	sets.INT												 = {main="Chatoyant staff"            ,sub="Bugard leather strap +1"                       ,ammo="Phantom tathlum"
+															                                                                    ,ear1="Abyssal earring"
+															   ,body="Kirin's osode"              ,hands="Garrison gloves"      ,ring1="Tamas ring"    ,ring2="Snow ring"
+															   ,back=prism_capes['Magic Accuracy']                              ,legs="Mahatma slops"  ,feet="Rostrum pumps"}
 															   
 	sets.CHR												 = {main="Chatoyant staff" ,sub="Bugard leather strap +1",range="Gjallarhorn"
-															   ,head="Bard's roundlet" ,neck="Piper's torque"        ,ear1="Melody earring +1",ear2="Melody earring"
+															   ,head="Bard's roundlet" ,neck="Piper's torque"        ,ear1="Melody earring +1",ear2="Melody earring +1"
 															   ,body="Kirin's osode"   ,hands="Choral cuffs +1"	     ,ring1="Light ring"      ,ring2="Light ring"
 															   ,back="Jester's cape +1",waist="Corsette"             ,legs="Mahatma slops"    ,feet="Sha'ir crackows"}
 	                                                         
@@ -83,7 +72,7 @@ function init_gear_sets()
 															   ,Dark 	  = {sub="Dark Grip"}}
 	
 	-- Precast magic
-    sets.precast.FC 										 = {feet="Rostrum pumps"}
+    sets.precast.FC 										 = {ear2="Loquacious earring",feet="Rostrum pumps",back=prism_capes['Fast Cast']}
     sets.precast.JA				 							 = {head="Bard's roundlet",body="Errant houppelande",hands="Bard's cuffs",ring1="Tamas ring",back="Ixion cape",legs="Choral cannions",feet="Avocat pigaches"}
 	
     sets.precast.Waltz 										 = set_combine(sets.CHR,{})
@@ -107,18 +96,18 @@ function init_gear_sets()
 	sets.midcast['Threnody']								 = set_combine(sets.midcast['Lullaby'],{neck="Piper's torque",hands="Choral cuffs +1"})
 	
 	
-	sets.midcast['Enfeebling Magic']['WhiteMagic'] 			 = set_combine(sets.MND, sets.midcast['Enfeebling Magic'])
-	sets.midcast['Enfeebling Magic']['WhiteMagic'].Resistant = set_combine(sets.MND, sets.midcast['Enfeebling Magic'])
+	sets.midcast['Enfeebling Magic']['WhiteMagic'] 			 = set_combine(sets.MND,sets.midcast['Enfeebling Magic'])
+	sets.midcast['Enfeebling Magic']['WhiteMagic'].Resistant = set_combine(sets.MND,sets.midcast['Enfeebling Magic'])
 	
-	sets.midcast['Elemental Magic'] 						 = set_combine(sets.INT, {head="Oracle's cap",neck="Elemental torque",hands="Zenith mitts",back="Ixion cape"})
+	sets.midcast['Elemental Magic'] 						 = set_combine(sets.INT,{head="Oracle's cap",neck="Elemental torque",hands="Zenith mitts",back="Ixion cape"})
 	sets.midcast['Elemental Magic'].Resistant 				 = set_combine(sets.midcast['Elemental Magic'],{})
 	
-	sets.midcast['Enfeebling Magic']['BlackMagic'] 			 = set_combine(sets.MND, sets.midcast['Enfeebling Magic'])
-	sets.midcast['Enfeebling Magic']['BlackMagic'].Resitant  = set_combine(sets.MND, sets.midcast['Enfeebling Magic'])
+	sets.midcast['Enfeebling Magic']['BlackMagic'] 			 = set_combine(sets.MND,sets.midcast['Enfeebling Magic'])
+	sets.midcast['Enfeebling Magic']['BlackMagic'].Resitant  = set_combine(sets.MND,sets.midcast['Enfeebling Magic'])
 	
-	sets.midcast.FastRecast 								 = set_combine(sets.precast.FC, {head="Walahra turban",legs="Byakko's haidate"})
+	sets.midcast.FastRecast 								 = set_combine(sets.precast.FC,{head="Walahra turban",legs="Byakko's haidate"})
 	
-	sets.midcast['Stoneskin']								 = set_combine(sets.MND,sets.midcast['Enhancing Magic'],{head="Walahra turban",waist="Velocious belt"})
+	sets.midcast['Stoneskin']								 = set_combine(sets.MND,sets.midcast['Enhancing Magic'],{head="Walahra turban",waist="Velocious belt",})
 	
 	-- Idle sets
 	sets.idle 												 = {main="Terra's staff",sub="Bugard leather strap +1",range="Gjallarhorn"

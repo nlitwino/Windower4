@@ -178,6 +178,7 @@
   <i id="284" enl="goobbue statue" jp="グゥーブーの像" jpl="" targets="None">Goobbue Statue</i>
   <i id="286" enl="Nanaa Mihgo statue" jp="ナナー・ミーゴの像" jpl="" targets="None">Nanaa Mihgo Statue</i>
   <i id="287" enl="Nanaa Mihgo statue II" jp="ナナー・ミーゴ像II" jpl="" targets="None">Nanaa Mihgo S. II</i>
+  <i id="294" enl="campfire" jp="かがり火" jpl="" targets="None">Campfire</i>
   <i id="295" enl="bonfire" jp="ボンファイア" jpl="" targets="None">Bonfire</i>
   <i id="303" enl="Crystal Stakes gold cup" jp="ＣＳＲ黄金杯" jpl="" targets="None">CS Gold Cup</i>
   <i id="304" enl="Crystal Stakes mythril cup" jp="ＣＳＲ霊銀杯" jpl="" targets="None">CS Mythril Cup</i>
@@ -3532,6 +3533,8 @@
   <i id="3717" enl="birch tree" jp="カバノキ" jpl="" targets="None">Birch Tree</i>
   <i id="3718" enl="handful of Adoulinian tomatoes" jp="アドゥリントマト" jpl="" targets="None">Ado. Tomatoes</i>
   <i id="3722" enl="Lion statue" jp="ライオンの像" jpl="" targets="None">Lion Statue</i>
+  <i id="3723" enl="Lilisette statue" jp="リリゼットの像" jpl="" targets="None">Lilisette Statue</i>
+  <i id="3725" enl="Cornelia statue" jp="コーネリアの像" jpl="" targets="None">Cornelia Statue</i>
   <i id="3726" enl="Aphmau statue" jp="アフマウの像" jpl="" targets="None">Aphmau Statue</i>
   <i id="3727" enl="Mumor statue" jp="ミュモルの像" jpl="" targets="None">Mumor Statue</i>
   <i id="3728" enl="Ullegore statue" jp="ウルゴアの像" jpl="" targets="None">Ullegore Statue</i>
@@ -3540,6 +3543,8 @@
   <i id="3731" enl="azure chest" jp="アジュールチェスト" jpl="" targets="None">Azure Chest</i>
   <i id="3735" enl="aurum coffer" jp="オーラムコッファー" jpl="" targets="None">Aurum Coffer</i>
   <i id="3736" enl="well" jp="ウェル" jpl="" targets="None">Well</i>
+  <i id="3737" enl="doll stand" jp="ひな壇" jpl="" targets="None">Doll Stand</i>
+  <i id="3738" enl="eastern umbrella" jp="和傘" jpl="" targets="None">Eastern Umbrella</i>
   <i id="3840" enl="pulse cell: Mx" jp="パルス管【Mx】" jpl="" targets="None">Pulse Cell: Mx</i>
   <i id="3841" enl="pulse cell: An" jp="パルス管【An】" jpl="" targets="None">Pulse Cell: An</i>
   <i id="3842" enl="pulse cell: Fa" jp="パルス管【Fa】" jpl="" targets="None">Pulse Cell: Fa</i>
@@ -7000,6 +7005,50 @@
   <i id="9539" enl="beastmen's medal" jp="獣人勲章" jpl="" targets="None">Beastmen's Medal</i>
   <i id="9540" enl="blackened identification card" jp="黒ずんだ認識票" jpl="" targets="None">Black. I. Card</i>
   <i id="9541" enl="kindred's medal" jp="獣神勲章" jpl="" targets="None">Kindred's Medal</i>
+  <i id="9544" enl="headshard: WAR" jp="面具の破片：戦" jpl="" targets="None">Headshard: WAR</i>
+  <i id="9545" enl="headshard: MNK" jp="面具の破片：モ" jpl="" targets="None">Headshard: MNK</i>
+  <i id="9546" enl="headshard: WHM" jp="面具の破片：白" jpl="" targets="None">Headshard: WHM</i>
+  <i id="9547" enl="headshard: BLM" jp="面具の破片：黒" jpl="" targets="None">Headshard: BLM</i>
+  <i id="9548" enl="headshard: RDM" jp="面具の破片：赤" jpl="" targets="None">Headshard: RDM</i>
+  <i id="9549" enl="headshard: THF" jp="面具の破片：シ" jpl="" targets="None">Headshard: THF</i>
+  <i id="9550" enl="headshard: PLD" jp="面具の破片：ナ" jpl="" targets="None">Headshard: PLD</i>
+  <i id="9551" enl="headshard: DRK" jp="面具の破片：暗" jpl="" targets="None">Headshard: DRK</i>
+  <i id="9552" enl="headshard: BST" jp="面具の破片：獣" jpl="" targets="None">Headshard: BST</i>
+  <i id="9553" enl="headshard: BRD" jp="面具の破片：吟" jpl="" targets="None">Headshard: BRD</i>
+  <i id="9554" enl="headshard: RNG" jp="面具の破片：狩" jpl="" targets="None">Headshard: RNG</i>
+  <i id="9555" enl="headshard: SAM" jp="面具の破片：侍" jpl="" targets="None">Headshard: SAM</i>
+  <i id="9556" enl="headshard: NIN" jp="面具の破片：忍" jpl="" targets="None">Headshard: NIN</i>
+  <i id="9557" enl="headshard: DRG" jp="面具の破片：竜" jpl="" targets="None">Headshard: DRG</i>
+  <i id="9558" enl="headshard: SMN" jp="面具の破片：召" jpl="" targets="None">Headshard: SMN</i>
+  <i id="9559" enl="headshard: BLU" jp="面具の破片：青" jpl="" targets="None">Headshard: BLU</i>
+  <i id="9560" enl="headshard: COR" jp="面具の破片：コ" jpl="" targets="None">Headshard: COR</i>
+  <i id="9561" enl="headshard: PUP" jp="面具の破片：か" jpl="" targets="None">Headshard: PUP</i>
+  <i id="9562" enl="headshard: DNC" jp="面具の破片：踊" jpl="" targets="None">Headshard: DNC</i>
+  <i id="9563" enl="headshard: SCH" jp="面具の破片：学" jpl="" targets="None">Headshard: SCH</i>
+  <i id="9564" enl="headshard: GEO" jp="面具の破片：風" jpl="" targets="None">Headshard: GEO</i>
+  <i id="9565" enl="headshard: RUN" jp="面具の破片：剣" jpl="" targets="None">Headshard: RUN</i>
+  <i id="9566" enl="piece of void headwear: WAR" jp="闇の面具：戦" jpl="" targets="None">Voidhead: WAR</i>
+  <i id="9567" enl="piece of void headwear: MNK" jp="闇の面具：モ" jpl="" targets="None">Voidhead: MNK</i>
+  <i id="9568" enl="piece of void headwear: WHM" jp="闇の面具：白" jpl="" targets="None">Voidhead: WHM</i>
+  <i id="9569" enl="piece of void headwear: BLM" jp="闇の面具：黒" jpl="" targets="None">Voidhead: BLM</i>
+  <i id="9570" enl="piece of void headwear: RDM" jp="闇の面具：赤" jpl="" targets="None">Voidhead: RDM</i>
+  <i id="9571" enl="piece of void headwear: THF" jp="闇の面具：シ" jpl="" targets="None">Voidhead: THF</i>
+  <i id="9572" enl="piece of void headwear: PLD" jp="闇の面具：ナ" jpl="" targets="None">Voidhead: PLD</i>
+  <i id="9573" enl="piece of void headwear: DRK" jp="闇の面具：暗" jpl="" targets="None">Voidhead: DRK</i>
+  <i id="9574" enl="piece of void headwear: BST" jp="闇の面具：獣" jpl="" targets="None">Voidhead: BST</i>
+  <i id="9575" enl="piece of void headwear: BRD" jp="闇の面具：吟" jpl="" targets="None">Voidhead: BRD</i>
+  <i id="9576" enl="piece of void headwear: RNG" jp="闇の面具：狩" jpl="" targets="None">Voidhead: RNG</i>
+  <i id="9577" enl="piece of void headwear: SAM" jp="闇の面具：侍" jpl="" targets="None">Voidhead: SAM</i>
+  <i id="9578" enl="piece of void headwear: NIN" jp="闇の面具：忍" jpl="" targets="None">Voidhead: NIN</i>
+  <i id="9579" enl="piece of void headwear: DRG" jp="闇の面具：竜" jpl="" targets="None">Voidhead: DRG</i>
+  <i id="9580" enl="piece of void headwear: SMN" jp="闇の面具：召" jpl="" targets="None">Voidhead: SMN</i>
+  <i id="9581" enl="piece of void headwear: BLU" jp="闇の面具：青" jpl="" targets="None">Voidhead: BLU</i>
+  <i id="9582" enl="piece of void headwear: COR" jp="闇の面具：コ" jpl="" targets="None">Voidhead: COR</i>
+  <i id="9583" enl="piece of void headwear: PUP" jp="闇の面具：か" jpl="" targets="None">Voidhead: PUP</i>
+  <i id="9584" enl="piece of void headwear: DNC" jp="闇の面具：踊" jpl="" targets="None">Voidhead: DNC</i>
+  <i id="9585" enl="piece of void headwear: SCH" jp="闇の面具：学" jpl="" targets="None">Voidhead: SCH</i>
+  <i id="9586" enl="piece of void headwear: GEO" jp="闇の面具：風" jpl="" targets="None">Voidhead: GEO</i>
+  <i id="9587" enl="piece of void headwear: RUN" jp="闇の面具：剣" jpl="" targets="None">Voidhead: RUN</i>
   <i id="9632" enl="handshard: WAR" jp="手具の破片：戦" jpl="" targets="None">Handshard: WAR</i>
   <i id="9633" enl="handshard: MNK" jp="手具の破片：モ" jpl="" targets="None">Handshard: MNK</i>
   <i id="9634" enl="handshard: WHM" jp="手具の破片：白" jpl="" targets="None">Handshard: WHM</i>
@@ -7105,6 +7154,7 @@
   <i id="10063" enl="♪Xzomit" jp="♪ゾミト" jpl="" targets="None">♪Xzomit</i>
   <i id="10064" enl="♪Hippogryph" jp="♪ヒポグリフ" jpl="" targets="None">♪Hippogryph</i>
   <i id="10065" enl="♪Spectral Chair" jp="♪悪霊の椅子" jpl="" targets="None">♪Spectral Chair</i>
+  <i id="10066" enl="♪Spheroid" jp="♪スフィアロイド" jpl="" targets="None">♪Spheroid</i>
   <i id="10112" enl="cipher of Zeid's alter ego" jp="盟-ザイド" jpl="" targets="None">Cipher: Zeid</i>
   <i id="10113" enl="cipher of Lion's alter ego" jp="盟-ライオン" jpl="" targets="None">Cipher: Lion</i>
   <i id="10114" enl="cipher of Tenzen's alter ego" jp="盟-テンゼン" jpl="" targets="None">Cipher: Tenzen</i>

@@ -3,6 +3,7 @@ function get_sets()
 	mote_include_version = 2
 	
 	include('Mote-Include.lua')
+	include('organizer-lib')
 
 end
 
@@ -21,6 +22,7 @@ function job_setup()
 	-- custom spell groups
 	helixes 							 = S{'Geohelix','Hydrohelix','Anemohelix','Pyrohelix','Cryohelix','Ionohelix','Noctohelix','Luminohelix'}
 	sleeps  							 = S{'Sleep', 'Sleep II', 'Sleepga', 'Sleepga II', 'Bind'}
+	elemental_debuffs      = S{'Burn','Choke','Shock','Rasp','Drown','Frost'}
 	
 	-- different spell skills for different arts
 	dark_arts_skill                      = S{'Elemental Magic','Dark Magic','Enfeebling Magic'}
@@ -122,7 +124,7 @@ function job_midcast(spell,action,spellMap,eventArgs)
 		equip(sets.midcast[spell.skill][spell.type])
 	else 
 		equip(sets.midcast[spell.skill])
-    end
+  end
 	
 end
 
@@ -150,7 +152,7 @@ end
 function job_get_spell_map(spell, default_spell_map)
 
     if spell.skill == 'Enfeebling Magic' and sleeps:contains(spell.english) then
-		return 'Sleep'
+		  return 'Sleep'
     end
 	
 end

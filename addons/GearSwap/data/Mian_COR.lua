@@ -40,14 +40,12 @@ function job_post_precast(spell,action,spellMap,eventArgs)
 		
 	end
 	
+	add_to_chat(spell.type..' '..spell.english)
+	
 end
 
 function job_buff_change(name,gain)
 
 	sleep_swap(name,gain)
-	
-	if name == 'Bust' then
-		send_command('cancel Bust')
-	end
 
 end
