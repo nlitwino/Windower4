@@ -348,7 +348,7 @@ function job_post_midcast(spell,action,spellMap,eventsArgs)
 			equip({main="Seveneyes",sub="Genbu's shield"})
 		end
 	elseif spellMap == 'Cure' then
-    equip({sub="Raptor leather strap +1"})
+    equip({main="Chatoyant staff",sub="Raptor leather strap +1"})
 	else
 		if player.status == 'Idle' and state.IdleMode.value == 'Normal' and state.CastingMode.value ~= 'Combat' then
 		  
