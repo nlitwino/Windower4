@@ -14,8 +14,6 @@
         <FootstepEffects>true</FootstepEffects>
         <!--Time in minutes of inactivity until a disconnect, 0 to disable-->
         <AutoDisconnectTime>0</AutoDisconnectTime>
-        <!--2 for 30 FPS, 1 for 60 FPS, 0 for uncapped frame rates-->
-        <FrameRateDivisor>2</FrameRateDivisor>
     </global>
     <Dynamisjeu>
         <!--2 for 30 FPS, 1 for 60 FPS, 0 for uncapped frame rates-->

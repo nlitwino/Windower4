@@ -28,6 +28,8 @@ function user_setup()
   elemental_debuffs = S{'Burn','Choke','Shock','Rasp','Drown','Frost'}
   
   spikes            = S{'Blaze Spikes','Shock Spikes','Ice Spikes'}
+  
+  casting_mode = ''
 	
   --bind combat mode cycles
   send_command('bind !f9 gs c toggle MagicBurst')
@@ -67,7 +69,7 @@ function init_gear_sets()
 	   ,ring1="Defending ring" 
 	   ,ring2="Shadow ring"
 	   ,back="Shadow mantle"   
-	   ,waist="Lycopodium sash"      
+	   ,waist="Resolute belt"      
 	   ,legs="Igqira lappas"   
 	   ,feet="Herald's gaiters"}
 															  
@@ -102,7 +104,8 @@ function init_gear_sets()
 	   ,hands="Bricta's cuffs"       
 	   ,ring1="Tamas ring"
 	   ,ring2="Star ring"      
-	   ,back="Ixion cape"                                      
+	   ,back="Ixion cape"
+	   ,waist="Ocean stone"                                      
 	   ,legs="Mahatma slops"    
 	   ,feet="Mahatma pigaches"}
 															   
@@ -148,7 +151,7 @@ function init_gear_sets()
 	sets.midcast['Divine Magic']
    = set_combine(sets.MND
                 ,{head="Elite beret"
-                 ,legs="Nashira manteel"})
+                 ,legs="Nashira seraweels"})
 	
 	sets.midcast['Enfeebling Magic']
 	 = {head="Sorcerer's petasos"
@@ -206,28 +209,15 @@ function init_gear_sets()
                  ,back="Merciful cape"
                  ,legs="Wizard's tonban"
                  ,feet="Igqira huaraches"})
-	
-	sets.midcast['Enhancing Magic']
-	 = {back="Merciful cape"
-	   ,feet="Igqira huaraches"}
 	               
-  sets.midcast['Enhancing Magic']['WhiteMagic']
-   = set_combine(sets.MND
-                ,sets.midcast.FastRecast
-                ,sets.midcast['Enhancing Magic']
+  sets.midcast['Enhancing Magic']
+   = set_combine(sets.midcast.FastRecast
                 ,{main="Seveneyes"
                  ,sub="Genbu's shield"
                  ,ear1="Magnetic earring"
-                 ,waist="Resolute belt"})
-                 
-  sets.midcast['Enhancing Magic']['BlackMagic']
-   = set_combine(sets.INT
-                ,sets.midcast.FastRecast
-                ,{main="Seveneyes"
-                 ,sub="Genbu's shield"
-                 ,ear1="Magnetic earring"
+                 ,back="Merciful cape"
                  ,waist="Resolute belt"
-                 ,back=prism_cape['Spell Interrupt']})	   
+                 ,feet="Igqira huaraches"})   
                              
   -- custom midcast sets
   sets.midcast.Cure
@@ -242,7 +232,7 @@ function init_gear_sets()
 	 = set_combine(sets.midcast.FastRecast
 	              ,sets.INT
 	              ,sets.midcast['Enfeebling Magic']
-	              ,{ring="Omega ring"
+	              ,{ring2="Omega ring"
 	               ,back=prism_cape['Magic Accuracy']})
 	              
   sets.midcast.EleEnfeebs
@@ -348,6 +338,10 @@ function customize_idle_set(idleSet)
 
   if player.mpp > 95 then 
     idleSet = set_combine(idleSet,{main="Terra's staff"})
+  end
+  
+  if daytime then 
+    idleSet = set_combine(idleSet,{hands="Garden bangles",waist="Lycopodium sash"})
   end
 
   return idleSet
