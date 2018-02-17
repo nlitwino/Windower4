@@ -1,27 +1,27 @@
 function get_sets()
 
-	--mote library settings
-	mote_include_version = 2
-	include('Mote-Include.lua')
-	include('organizer-lib')
+  --mote library settings
+  mote_include_version = 2
+  include('Mote-Include.lua')
+  include('organizer-lib')
 	
 end
 
 function job_setup()
-
-	--kay library settings
-	include('Kay-Include.lua')
+ 
+  --kay library settings
+  include('Kay-Include.lua')
 	
-	initialize_job()
+  initialize_job()
 	
 end
 
 function user_setup()
 
-	--combat modes
-	state.CastingMode:options('Normal','Accuracy','TH')
+  --combat modes
+  state.CastingMode:options('Normal','Accuracy','TH')
 	
-	state.MagicBurst = M(false, 'Magic Burst')
+  state.MagicBurst = M(false, 'Magic Burst')
 	
   helixes           = S{'Geohelix','Hydrohelix','Anemohelix','Pyrohelix','Cryohelix','Ionohelix','Noctohelix','Luminohelix'}
   sleeps            = S{'Sleep', 'Sleep II', 'Sleepga', 'Sleepga II', 'Bind'}
@@ -29,31 +29,31 @@ function user_setup()
   
   spikes            = S{'Blaze Spikes','Shock Spikes','Ice Spikes'}
 	
-	--bind combat mode cycles
-	send_command('bind !f9 gs c toggle MagicBurst')
+  --bind combat mode cycles
+  send_command('bind !f9 gs c toggle MagicBurst')
 	
 end
 
 function init_gear_sets()
 
-	--misc.
+  --misc.
 	sets.lowHP
 	 = {hands="Zenith mitts"
 	   ,ring1="Ether ring"
 	   ,ring2="Serket ring"}
 
-	--grips/obis														   
+  --grips/obis														   
 	sets.grip
    = {Fire 	    = {sub="Fire Grip"}
      ,Earth 	  = {sub="Earth Grip"}
-	 	 ,Water 	  = {sub="Water Grip"}
-	 	 ,Wind 	    = {sub="Wind Grip"}
-	 	 ,Ice 		  = {sub="Ice Grip"}
-	 	 ,Lightning = {sub="Thunder Grip"}
-	 	 ,Light 	  = {sub="Light Grip"}
- 		 ,Dark 	    = {sub="Dark Grip"}}
+     ,Water 	  = {sub="Water Grip"}
+     ,Wind 	    = {sub="Wind Grip"}
+     ,Ice 		  = {sub="Ice Grip"}
+     ,Lightning = {sub="Thunder Grip"}
+     ,Light 	  = {sub="Light Grip"}
+     ,Dark 	    = {sub="Dark Grip"}}
  	
-	--idle
+  --idle
 	sets.idle 
 	 = {main="Claustrum"
 	   ,sub="Bugard leather strap +1"                        
@@ -65,7 +65,7 @@ function init_gear_sets()
 	   ,body="Dalmatica"       
 	   ,hands="Oracle's gloves"      
 	   ,ring1="Defending ring" 
-	   ,ring2="Merman's ring"
+	   ,ring2="Shadow ring"
 	   ,back="Shadow mantle"   
 	   ,waist="Lycopodium sash"      
 	   ,legs="Igqira lappas"   
@@ -90,7 +90,7 @@ function init_gear_sets()
 		 ,legs="Oracle's braconi"
 		 ,feet="Avocat pigaches"}
 	
-	--base magic sets
+  --base magic sets
 	sets.MND
 	 = {main="Alkalurops"
 	   ,sub="Raptor leather strap +1"
@@ -137,7 +137,7 @@ function init_gear_sets()
                  ,legs="Nashira seraweels"
                  ,feet="Nashira crackows"})
 	
-	--non-cure healing magic
+  --non-cure healing magic
 	sets.midcast['Healing Magic']
 	 = set_combine(sets.MND
 	              ,sets.midcast.FastRecast
@@ -242,7 +242,8 @@ function init_gear_sets()
 	 = set_combine(sets.midcast.FastRecast
 	              ,sets.INT
 	              ,sets.midcast['Enfeebling Magic']
-	              ,{ring="Omega ring"})
+	              ,{ring="Omega ring"
+	               ,back=prism_cape['Magic Accuracy']})
 	              
   sets.midcast.EleEnfeebs
    = set_combine(sets.INT
@@ -264,7 +265,7 @@ function init_gear_sets()
                  ,back=prism_cape['Spell Interrupt']
                  ,legs="Mahatma slops"})
 	
-	--magic burst
+  --magic burst
 	sets.magic_burst
 	 = {hands="Sorcerer's gloves"
 	   ,ear1="Static earring"}
@@ -273,7 +274,7 @@ end
 
 function job_midcast(spell,action,spellMap,eventArgs)
 
-	-- handle different equipsets for White and Black magic
+  -- handle different equipsets for White and Black magic
   if spell.skill == 'Enfeebling Magic' then
     equip(sets.midcast[spell.skill][spell.type])
   else 
@@ -284,11 +285,17 @@ end
 
 function job_post_midcast(spell,action,spellMap,eventArgs)
 
-  if spell.skill == 'Elemental Magic' and not elemental_debuffs:contains(spell.english) then
+  if (spell.skill == 'Elemental Magic' or spell.skill == 'Dark Magic') and not elemental_debuffs:contains(spell.english) then
     if spell.element == world.weather_element and spell.element == world.day_element then
-      equip({waist="Hachirin-no-obi",main="Chatoyant staff",legs="Sorcerer's tonban"})
+      if spell.skill == 'Elemental Magic' then
+        equip({legs="Sorcerer's tonban"})
+      end
+      equip({waist="Hachirin-no-obi",main="Chatoyant staff"})
     elseif spell.element == world.day_element then
-      equip({waist="Hachirin-no-obi",main="Claustrum",legs="Sorcerer's tonban"})
+      if spell.skill == 'Elemental Magic' then
+        equip({legs="Sorcerer's tonban"})
+      end
+      equip({waist="Hachirin-no-obi",main="Claustrum"})
     elseif spell.element == world.weather_element then
       equip({waist="Hachirin-no-obi",main="Chatoyant staff"})
     end
@@ -296,7 +303,8 @@ function job_post_midcast(spell,action,spellMap,eventArgs)
     if state.CastingMode.value == 'TH' then
       equip({main="Lotus Katana"})
     end	
-  end
+    
+  end  
 	
   if spellMap == 'Cure' then
     if not (world.weather_element == 'Dark' or world.day_element == 'Dark') then
