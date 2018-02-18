@@ -41,12 +41,12 @@ function init_gear_sets()
 	sets.MND 												 = {main="Chatoyant staff"            ,sub="Bugard leather strap +1"
 	                                                           ,head="Choral roundlet"            ,neck="Holy phial"            ,ear1="Mamool Ja earring",ear2="Star earring"
 															   ,body="Kirin's osode"              ,hands="Bricta's cuffs"       ,ring1="Tamas ring"      ,ring2="Star ring"
-															   ,back=prism_capes['Magic Accuracy'],waist="Steppe rope"          ,legs="Mahatma slops"    ,feet="Suzaku's sune-ate"}
+															   ,back=prism_cape['Magic Accuracy'],waist="Steppe rope"          ,legs="Mahatma slops"    ,feet="Suzaku's sune-ate"}
 															   
 	sets.INT												 = {main="Chatoyant staff"            ,sub="Bugard leather strap +1"                       ,ammo="Phantom tathlum"
 															                                                                    ,ear1="Abyssal earring"
 															   ,body="Kirin's osode"              ,hands="Garrison gloves"      ,ring1="Tamas ring"    ,ring2="Snow ring"
-															   ,back=prism_capes['Magic Accuracy']                              ,legs="Mahatma slops"  ,feet="Rostrum pumps"}
+															   ,back=prism_cape['Magic Accuracy']                              ,legs="Mahatma slops"  ,feet="Rostrum pumps"}
 															   
 	sets.CHR												 = {main="Chatoyant staff" ,sub="Bugard leather strap +1",range="Gjallarhorn"
 															   ,head="Bard's roundlet" ,neck="Piper's torque"        ,ear1="Melody earring +1",ear2="Melody earring +1"
@@ -72,7 +72,7 @@ function init_gear_sets()
 															   ,Dark 	  = {sub="Dark Grip"}}
 	
 	-- Precast magic
-    sets.precast.FC 										 = {ear2="Loquacious earring",feet="Rostrum pumps",back=prism_capes['Fast Cast']}
+    sets.precast.FC 										 = {ear2="Loquacious earring",feet="Rostrum pumps",back=prism_cape['Fast Cast']}
     sets.precast.JA				 							 = {head="Bard's roundlet",body="Errant houppelande",hands="Bard's cuffs",ring1="Tamas ring",back="Ixion cape",legs="Choral cannions",feet="Avocat pigaches"}
 	
     sets.precast.Waltz 										 = set_combine(sets.CHR,{})

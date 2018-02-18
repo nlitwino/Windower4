@@ -328,7 +328,7 @@ function init_gear_sets()
 		 ,back="Cerberus mantle +1"
 		 ,waist="Swordbelt +1"         
 		 ,legs="Dusk trousers +1"   
-		 ,feet="Dusk ledelsens +1"}
+		 ,feet="Rutter sabatons"}
 	
 end
 

@@ -135,7 +135,7 @@ function init_gear_sets()
                  
   sets.midcast['Utsusemi: Ichi']
    = set_combine(sets.midcast['Utsusemi: Ni']
-                ,{head="Koenig schaller"
+                ,{head="Kaiser schaller"
                  ,ear2="Knightly earring"
                  ,waist="Resolute belt"
                  ,legs="Valor breeches"
@@ -207,7 +207,7 @@ function init_gear_sets()
   sets.idle.SuperPDT                 
    = set_combine(sets.idle
                 ,sets.defense.PDT
-                ,{head="Koenig schaller"
+                ,{head="Kaiser schaller"
                  ,feet="Gallant leggings +1"})
                  
   sets.idle.SuperMDT                 
@@ -244,7 +244,7 @@ function init_gear_sets()
                  ,back="Cuchulain's mantle"})
                  
   sets.engaged.Heavy                 
-   = {head="Koenig schaller"     
+   = {head="Kaiser schaller"     
      ,neck="Fortified chain" 
      ,ear1="Ethereal earring"
      ,ear2="Knight's earring"

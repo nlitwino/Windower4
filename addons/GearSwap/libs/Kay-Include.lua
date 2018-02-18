@@ -106,7 +106,7 @@ function initialize_custom_augments(name)
      = {["Fast Cast"]       = { name="Prism Cape", augments={'"Fast Cast"+2',}}
        ,["Spell Interrupt"] = { name="Prism Cape", augments={'Spell interruption rate down -17%',}}
        ,["Magic Accuracy"]  = { name="Prism Cape", augments={'Mag. Acc.+4',}}
-       ,["Cure Potency"]    = { name="Prism Cape", augments={'"Cure" potency +3%',}}}
+       ,["Cure Potency"]    = { name="Prism Cape", augments={'"Cure" potency +4%',}}}
        
 	end
 	

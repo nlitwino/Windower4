@@ -226,7 +226,7 @@ function init_gear_sets()
   sets.midcast.RA.HybridAcc                 
   = set_combine(sets.midcast.RA
                ,{ear2="Hollow earring"
-                ,ring1="Behemoth ring +1"
+                ,ring2="Behemoth ring +1"
                 ,feet="Hachiryu sune-ate"})
                 
   sets.midcast.RA.Acc                       

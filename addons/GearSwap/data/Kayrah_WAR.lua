@@ -64,7 +64,7 @@ function init_gear_sets()
    
   -- Waltz set (chr and vit)
   sets.precast.Waltz
-   = {head="Koenig schaller"
+   = {head="Kaiser schaller"
      ,neck="Temperance torque"
      ,ear1="Cassie earring"
      ,ear2="Melody earring +1"
