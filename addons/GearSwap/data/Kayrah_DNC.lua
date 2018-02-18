@@ -59,8 +59,8 @@ function init_gear_sets()
      ,ear2="Pixie earring"
      ,body="Etoile casaque +1"
      ,hands="Dancer's bangles +1"
-     ,ring1=toreador_ring["Triple Attack (1)"]
-     ,ring2=toreador_ring["Triple Attack (2)"]
+     ,ring1=toreador_ring["Triple Attack (2)"]
+     ,ring2=toreador_ring["Triple Attack (1)"]
      ,back="Etoile cape"
      ,waist="Virtuoso belt"
      ,legs="Oily trousers"
@@ -212,8 +212,8 @@ function init_gear_sets()
      ,ear2="Brutal earring"
      ,body="Rapparee harness"
      ,hands="Dusk gloves +1"
-     ,ring1=toreador_ring["Triple Attack (1)"]
-     ,ring2=toreador_ring["Triple Attack (2)"]
+     ,ring1=toreador_ring["Triple Attack (2)"]
+     ,ring2=toreador_ring["Triple Attack (1)"]
      ,back="Cerberus mantle +1"
      ,waist="Velocious belt"
      ,legs="Barbarossa's zerehs"

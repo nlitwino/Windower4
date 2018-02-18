@@ -3,6 +3,7 @@ function get_sets()
 	mote_include_version = 2
 	
 	include('Mote-Include.lua')
+  include('organizer-lib')
 
 end
 
@@ -327,7 +328,7 @@ function init_gear_sets()
 		 ,back="Cerberus mantle +1"
 		 ,waist="Swordbelt +1"         
 		 ,legs="Dusk trousers +1"   
-		 ,feet="Rutter sabatons"}
+		 ,feet="Dusk ledelsens +1"}
 	
 end
 

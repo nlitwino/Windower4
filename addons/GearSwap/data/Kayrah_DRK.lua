@@ -31,7 +31,7 @@ end
 
 function user_setup()
 
-  state.OffenseMode:options('Normal','Acc')
+  state.OffenseMode:options('Normal','Acc','Tank')
   state.WeaponskillMode:options('Normal','HNM','Test')
   state.CastingMode:options('Normal','Acc')
   state.PhysicalDefenseMode:options('PDT')
@@ -234,12 +234,12 @@ function init_gear_sets()
    = {ammo="Bomb core"
      ,head="Walahra turban"    
      ,neck="Chivalrous chain"
-     ,ear1="Ehereal earring"
+     ,ear1="Ethereal earring"
      ,ear2="Brutal earring"
      ,body="Armada hauberk"    
      ,hands="Dusk gloves +1" 
-     ,ring1=toreador_ring['Triple Attack (1)']  
-     ,ring2=toreador_ring['Triple Attack (2)']
+     ,ring1=toreador_ring['Triple Attack (2)']  
+     ,ring2=toreador_ring['Triple Attack (1)']
      ,back="Cerberus mantle +1"
      ,waist="Velocious belt" 
      ,legs="Homam cosciales"
@@ -267,8 +267,8 @@ function init_gear_sets()
      ,ear2="Brutal earring"
      ,body="Armada hauberk"    
      ,hands="Dusk gloves +1" 
-     ,ring1=toreador_ring['Triple Attack (1)']  
-     ,ring2=toreador_ring['Triple Attack (2)']
+     ,ring1=toreador_ring['Triple Attack (2)']  
+     ,ring2=toreador_ring['Triple Attack (1)']
      ,back="Cerberus mantle +1"
      ,waist="Velocious belt" 
      ,legs="Homam cosciales"
@@ -313,8 +313,8 @@ function init_gear_sets()
      ,ear2="Brutal earring"
      ,body="Aurum cuirass"     
      ,hands="Dusk gloves +1"
-     ,ring1=toreador_ring['Triple Attack (1)']  
-     ,ring2=toreador_ring['Triple Attack (2)']
+     ,ring1=toreador_ring['Triple Attack (2)']  
+     ,ring2=toreador_ring['Triple Attack (1)']
      ,back="Cerberus mantle +1"
      ,waist="Velocious belt"
      ,legs="Homam cosciales"
@@ -356,8 +356,8 @@ function init_gear_sets()
      ,ear2="Brutal earring"
      ,body="Armada hauberk"    
      ,hands="Dusk gloves +1" 
-     ,ring1=toreador_ring['Triple Attack (1)']  
-     ,ring2=toreador_ring['Triple Attack (2)']
+     ,ring1=toreador_ring['Triple Attack (2)']  
+     ,ring2=toreador_ring['Triple Attack (1)']
      ,back="Cerberus mantle +1"
      ,waist="Velocious belt" 
      ,legs="Homam cosciales" 
@@ -380,8 +380,8 @@ function init_gear_sets()
      ,ear2="Brutal earring"
      ,body="Armada hauberk"    
      ,hands="Dusk gloves +1" 
-     ,ring1=toreador_ring['Triple Attack (1)']  
-     ,ring2=toreador_ring['Triple Attack (2)']
+     ,ring1=toreador_ring['Triple Attack (2)']  
+     ,ring2=toreador_ring['Triple Attack (1)']
      ,back="Cerberus mantle +1"
      ,waist="Velocious belt" 
      ,legs="Homam cosciales" 

@@ -42,7 +42,7 @@ function init_gear_sets()
      ,ear2="Hades earring +1"
      ,body="Valor surcoat"
      ,hands="Homam manopolas"
-     ,ring1="Sattva ring"
+     ,ring1="Corneus ring"
      ,ring2="Hercules' ring"
      ,back="Cerberus mantle +1"
      ,waist="Trance belt"
@@ -103,7 +103,7 @@ function init_gear_sets()
                 ,{head="Valor coronet"
                  ,neck="Ritter gorget"
                  ,body="Avalon breastplate"
-                 ,ring1="Sattva ring"})
+                 ,ring1="Corneus ring"})
                 
   sets.midcast['Healing Magic'].self
    = set_combine(sets.midcast['Healing Magic']
@@ -230,8 +230,8 @@ function init_gear_sets()
      ,ear2="Brutal earring"
      ,body="Homam corazza"     
      ,hands="Dusk gloves +1"
-     ,ring1=toreador_ring['Triple Attack (1)']
-     ,ring2=toreador_ring['Triple Attack (2)']
+     ,ring1=toreador_ring['Triple Attack (2)']
+     ,ring2=toreador_ring['Triple Attack (1)']
      ,back="Cerberus mantle +1"
      ,waist="Velocious belt"
      ,legs="Homam cosciales"
@@ -270,8 +270,8 @@ function init_gear_sets()
      ,ear2="Brutal earring"
      ,body="Hecatomb harness"  
      ,hands="Alkyoneus's bracelets"
-     ,ring1=toreador_ring['Triple Attack (1)']       
-     ,ring2="Strigoi ring"
+     ,ring1="Rajas ring"
+     ,ring2=toreador_ring['Triple Attack (2)']  
      ,back="Cerberus mantle +1"
      ,waist="Warwolf belt"         
      ,legs="Hecatomb subligar +1"
@@ -280,7 +280,7 @@ function init_gear_sets()
   sets.precast.WS.Acc
    = set_combine(sets.precast.WS
                 ,{hands="Hecatomb mittens +1"
-                 ,ring2=toreador_ring['Triple Attack (2)']
+                 ,ring1=toreador_ring['Triple Attack (1)']
                  ,back="Cuchulain's mantle"})
 
   sets.precast.WS['Vorpal Blade']
@@ -290,7 +290,7 @@ function init_gear_sets()
    
   sets.precast.WS['Vorpal Blade'].Acc
    = set_combine(sets.precast.WS['Vorpal Blade']
-                ,{ring1=toreador_ring['Triple Attack (2)']
+                ,{ring1=toreador_ring['Triple Attack (1)']
                  ,back="Cuchulain's mantle"})
 
   sets.precast.WS['Requiescat']
