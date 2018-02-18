@@ -85,7 +85,7 @@ function init_gear_sets()
 
   -- precast magic
   sets.precast.FC
-   = {ear1="Loquacious earring"
+   = {ear2="Loquacious earring"
      ,legs="Homam cosciales"}
 
   -- midcast magic
@@ -102,6 +102,7 @@ function init_gear_sets()
                 ,sets.enmity
                 ,{head="Valor coronet"
                  ,neck="Ritter gorget"
+                 ,ear2="Knightly earring"
                  ,body="Avalon breastplate"
                  ,ring1="Corneus ring"})
                 

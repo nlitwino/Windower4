@@ -277,8 +277,8 @@ function init_gear_sets()
 
   sets.engaged.Apocalypse.AM          
    = set_combine(sets.engaged.Apocalypse
-                ,{hands="Tarasque mitts +1"
-                ,legs="Onyx cuisses"})
+                ,{legs="Onyx cuisses"
+                 ,feet="Black sollerets"})
      
   sets.engaged.Apocalypse.Acc         
    = set_combine(sets.engaged.Apocalypse
@@ -289,8 +289,7 @@ function init_gear_sets()
                 
   sets.engaged.Apocalypse.Acc.AM      
    = set_combine(sets.engaged.Apocalypse.Acc
-                ,{hands="Tarasque mitts +1"
-                 ,legs="Armada Breeches"
+                ,{legs="Armada Breeches"
                  ,feet="Aurum sabatons"})
                  
   sets.engaged.Apocalypse.Tank        
@@ -322,8 +321,8 @@ function init_gear_sets()
      
   sets.engaged.Apocalypse.SAM.AM    
    = set_combine(sets.engaged.Apocalypse.SAM
-                ,{hands="Tarasque mitts +1"
-                 ,legs="Onyx cuisses"})     
+                ,{legs="Onyx cuisses"
+                 ,feet="Black sollerets"})     
      
   sets.engaged.Apocalypse.Acc.SAM 	
    = set_combine(sets.engaged.Apocalypse.SAM
@@ -333,8 +332,7 @@ function init_gear_sets()
                  
   sets.engaged.Apocalypse.Acc.SAM.AM  
    = set_combine(sets.engaged.Apocalypse.Acc.SAM
-                ,{hands="Tarasque mitts +1"
-                 ,legs="Armada Breeches"
+                ,{legs="Armada Breeches"
                  ,feet="Aurum sabatons"})
                  
   sets.engaged.Apocalypse.Tank.SAM 	

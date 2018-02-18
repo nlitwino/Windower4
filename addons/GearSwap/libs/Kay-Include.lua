@@ -223,23 +223,21 @@ function select_default_macro_book()
 	local mainpage
 	local subpage
 	
-	if player.main_job ~= 'SMN' then
-		for mainjob = 1,20 do
-			if player.main_job == mainjobs[mainjob] then
-				mainpage = mainjob
-				add_to_chat('Main job '..player.main_job..': Macro Book '..mainjob..'.')
-			end
+	for mainjob = 1,20 do
+		if player.main_job == mainjobs[mainjob] then
+			mainpage = mainjob
+			add_to_chat('Main job '..player.main_job..': Macro Book '..mainjob..'.')
 		end
-		
-		for subjob = 1,10 do
-			if player.sub_job == commonsubs[subjob] then
-				subpage = subjob
-				add_to_chat('Sub job '..player.sub_job..': Macro Page '..subjob..'.')
-			end
+	end
+	
+	for subjob = 1,10 do
+		if player.sub_job == commonsubs[subjob] then
+			subpage = subjob
+			add_to_chat('Sub job '..player.sub_job..': Macro Page '..subjob..'.')
 		end
+	end
 		
 		set_macro_page(subpage,mainpage)
-	end
 	
 end
 

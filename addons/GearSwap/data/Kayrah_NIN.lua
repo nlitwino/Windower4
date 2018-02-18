@@ -9,11 +9,13 @@ end
 
 function job_setup()
 
+  include('Kay-Include.lua')
+
   state.Buff['Yonin'] = buffactive['Yonin'] or false
   state.Buff['Innin'] = buffactive['Innin'] or false
   state.Buff['Sange'] = buffactive['Sange'] or false
-
-  include('Kay-Include.lua')
+  
+  offhand_katana = S{'Narigitsune','Mamushito +1','Shusui'}
 
   initialize_job()
 
@@ -42,12 +44,6 @@ function init_gear_sets()
      ,waist="Ocean stone"
      ,legs="Yasha hakama"
      ,feet="Ninja kyahan +1"}
-
-  sets.enmityDown
-   = {head="Zha'Go's barbut"
-     ,ear1="Novia earring"
-     ,ring1="Veela ring"
-     ,waist="Buccaneer's belt"}
      
   sets.enmityUp
    = {head="Arhat's jinpachi +1"
@@ -59,6 +55,12 @@ function init_gear_sets()
      ,back="Cerberus mantle +1"
      ,waist="Trance belt"
      ,legs="Yasha hakama"}
+
+  sets.enmityDown
+   = {head="Zha'Go's barbut"
+     ,ear1="Novia earring"
+     ,ring1="Veela ring"
+     ,waist="Buccaneer's belt"}
 
   -- precast ja
   sets.precast.JA['Mijin Gakure']
@@ -186,7 +188,8 @@ function init_gear_sets()
                 
   sets.engaged.Acc
    = set_combine(sets.engaged.HybridAcc
-                ,{body="Hachiryu haramaki"})
+                ,{neck="Ancient torque"
+                 ,body="Hachiryu haramaki"})
                  
   sets.engaged.Tank
    = set_combine(sets.engaged.Acc
@@ -363,6 +366,10 @@ function customize_melee_set(meleeSet)
   
   if not daytime then
     meleeSet = set_combine(meleeSet,{hands="Koga tekko"})
+  end
+  
+  if not offhand_katana:contains(player.equipment.sub) then
+    meleeSet = set_combine(meleeSet,{neck="Ancient torque"})
   end
   
   return meleeSet
