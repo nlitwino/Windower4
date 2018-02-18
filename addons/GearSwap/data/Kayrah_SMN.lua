@@ -580,7 +580,8 @@ function init_gear_sets()
   -- Favor uses Caller's Horn instead of Convoker's Horn for refresh
   sets.idle.Avatar.Melee
    = set_combine(sets.idle.Avatar
-                ,{hands="Summoner's bracers"})
+                ,{hands="Summoner's bracers"
+                 ,feet="Summoner's pigaches"})
 
   sets.perp
    = {main="Claustrum"
@@ -624,7 +625,8 @@ function init_gear_sets()
   -- ws
   sets.precast.WS
    = set_combine(sets.INT
-                ,{neck="Fotia gorget",ear2="Brutal earring"})
+                ,{neck="Fotia gorget"
+                 ,ear2="Brutal earring"})
 end
 
 function job_midcast(spell, action, spellMap, eventArgs)
@@ -640,7 +642,7 @@ end
 
 function job_post_midcast(spell,action,spellMap,eventArgs)
 
-  if spell.skill == 'Enhancing Magic' or (spell.skill == 'Healing Magic' and spellMap ~= 'Cure') then
+  if spell.skill == 'Enhancing Magic' or spell.skill == 'Summoning Magic' or (spell.skill == 'Healing Magic' and spellMap ~= 'Cure') then
     if player.status == 'Idle' and state.IdleMode.value == 'Normal' and state.CastingMode.value ~= 'Combat' then
       equip({main="Seveneyes",sub="Genbu's shield"})
     end
@@ -686,6 +688,15 @@ function job_post_midcast(spell,action,spellMap,eventArgs)
     end
   end
 
+end
+
+function job_pet_midcast(spell, action, spellMap, eventArgs)
+  
+  if pet.name == 'Garuda' and not magicalRagePacts:contains(spell.english) then
+    add_to_chat('LUL')
+    equip({head="Karura hachigane"})
+  end
+  
 end
 
 function job_pet_aftercast(spell, action, spellMap, eventArgs)
@@ -785,7 +796,7 @@ function customize_idle_set(idleSet)
     if player.mpp > 95 then
       idleSet = set_combine(idleSet, {main="Terra's staff"})
     else
-      idleSet = set_combine(idleSet, {main="Claustrum"})
+      idleSet = set_combine(idleSet, {main="Claustrum",sub="Bugard leather strap +1"})
     end
     
     if daytime then
@@ -840,7 +851,6 @@ function handle_siphoning()
   end
 
   local siphonElement
-  local stormElementToUse
   local releasedAvatar
   local dontRelease
 
@@ -851,10 +861,13 @@ function handle_siphoning()
   end
 
   -- If we decided to use a storm, set that as the spirit element to cast.
-  if stormElementToUse then
-    siphonElement = stormElementToUse
-  elseif world.weather_element ~= 'None' and (get_weather_intensity() > 0 or world.weather_element ~= elements.weak_to[world.day_element]) then
-    siphonElement = world.weather_element
+  if world.weather_element ~= 'None' and (get_weather_intensity() > 0 or world.weather_element ~= elements.weak_to[world.day_element]) then
+    if world.weather_element ~= 'Lightning' or world.day_element ~= 'Lightning' then
+      siphonElement = world.weather_element
+    else
+      add_to_chat("No Lightning Spirit, defaulting to Light Spirit")
+      siphonElement = 'Light'
+    end
   else
     siphonElement = world.day_element
   end
@@ -866,11 +879,6 @@ function handle_siphoning()
     command = command..'input /pet "Release" <me>;wait 1.1;'
     releasedAvatar = pet.name
     releaseWait = 10
-  end
-
-  if stormElementToUse then
-    command = command..'input /ma "'..elements.storm_of[stormElementToUse]..'" <me>;wait 4;'
-    releaseWait = releaseWait - 4
   end
 
   if not (pet.isvalid and spirits:contains(pet.name)) then
@@ -897,6 +905,7 @@ function handle_siphoning()
   end
 
   send_command(command)
+  
 end
 
 
@@ -904,6 +913,7 @@ end
 -- cmdParams is the split of the self-command.
 -- gs c [pact] [pacttype]
 function handle_pacts(cmdParams)
+
   if areas.Cities:contains(world.area) then
     add_to_chat(122, 'You cannot use pacts in town.')
     return
@@ -911,7 +921,6 @@ function handle_pacts(cmdParams)
 
   if not pet.isvalid then
     add_to_chat(122,'No avatar currently available. Returning to default macro set.')
-    select_default_macro_book('reset')
     return
   end
 
@@ -937,10 +946,10 @@ function handle_pacts(cmdParams)
       add_to_chat(122,'Cannot use Astral Flow pacts at this time.')
       return
     end
-
     -- Leave out target; let Shortcuts auto-determine it.
     send_command('@input /pet "'..pacts[pact][pet.name]..'"')
   else
     add_to_chat(122,pet.name..' does not have a pact of type ['..pact..'].')
   end
+  
 end
