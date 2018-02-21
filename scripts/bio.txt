@@ -1,0 +1,630 @@
+input /ma "Dia" <t>
+wait 6
+input /ma "Dia" <t>
+wait 6
+input /ma "Dia" <t>
+wait 6
+input /ma "Dia" <t>
+wait 6
+input /ma "Dia" <t>
+wait 6
+input /ma "Dia" <t>
+wait 6
+input /ma "Dia" <t>
+wait 6
+input /ma "Dia" <t>
+wait 6
+input /ma "Dia" <t>
+wait 6
+input /ma "Dia" <t>
+wait 6
+input /ma "Dia" <t>
+wait 6
+input /ma "Dia" <t>
+wait 6
+input /ma "Dia" <t>
+wait 6
+input /ma "Dia" <t>
+wait 6
+input /ma "Dia" <t>
+wait 6
+input /ma "Dia" <t>
+wait 6
+input /ma "Dia" <t>
+wait 6
+input /ma "Dia" <t>
+wait 6
+input /ma "Dia" <t>
+wait 6
+input /ma "Dia" <t>
+wait 6
+input /ma "Dia" <t>
+wait 6
+input /ma "Dia" <t>
+wait 6
+input /ma "Dia" <t>
+wait 6
+input /ma "Dia" <t>
+wait 6
+input /ma "Dia" <t>
+wait 6
+input /ma "Dia" <t>
+wait 6
+input /ma "Dia" <t>
+wait 6
+input /ma "Dia" <t>
+wait 6
+input /ma "Dia" <t>
+wait 6
+input /ma "Dia" <t>
+wait 6
+input /ma "Dia" <t>
+wait 6
+input /ma "Dia" <t>
+wait 6
+input /ma "Dia" <t>
+wait 6
+input /ma "Dia" <t>
+wait 6
+input /ma "Dia" <t>
+wait 6
+input /ma "Dia" <t>
+wait 6
+input /ma "Dia" <t>
+wait 6
+input /ma "Dia" <t>
+wait 6
+input /ma "Dia" <t>
+wait 6
+input /ma "Dia" <t>
+wait 6
+input /ma "Dia" <t>
+wait 6
+input /ma "Dia" <t>
+wait 6
+input /ma "Dia" <t>
+wait 6
+input /ma "Dia" <t>
+wait 6
+input /ma "Dia" <t>
+wait 6
+input /ma "Dia" <t>
+wait 6
+input /ma "Dia" <t>
+wait 6
+input /ma "Dia" <t>
+wait 6
+input /ma "Dia" <t>
+wait 6
+input /ma "Dia" <t>
+wait 6
+input /ma "Dia" <t>
+wait 6
+input /ma "Dia" <t>
+wait 6
+input /ma "Dia" <t>
+wait 6
+input /ma "Dia" <t>
+wait 6
+input /ma "Dia" <t>
+wait 6
+input /ma "Dia" <t>
+wait 6
+input /ma "Dia" <t>
+wait 6
+input /ma "Dia" <t>
+wait 6
+input /ma "Dia" <t>
+wait 6
+input /ma "Dia" <t>
+wait 6
+input /ma "Dia" <t>
+wait 6
+input /ma "Dia" <t>
+wait 6
+input /ma "Dia" <t>
+wait 6
+input /ma "Dia" <t>
+wait 6
+input /ma "Dia" <t>
+wait 6
+input /ma "Dia" <t>
+wait 6
+input /ma "Dia" <t>
+wait 6
+input /ma "Dia" <t>
+wait 6
+input /ma "Dia" <t>
+wait 6
+input /ma "Dia" <t>
+wait 6
+input /ma "Dia" <t>
+wait 6
+input /ma "Dia" <t>
+wait 6
+input /ma "Dia" <t>
+wait 6
+input /ma "Dia" <t>
+wait 6
+input /ma "Dia" <t>
+wait 6
+input /ma "Dia" <t>
+wait 6
+input /ma "Dia" <t>
+wait 6
+input /ma "Dia" <t>
+wait 6
+input /ma "Dia" <t>
+wait 6
+input /ma "Dia" <t>
+wait 6
+input /ma "Dia" <t>
+wait 6
+input /ma "Dia" <t>
+wait 6
+input /ma "Dia" <t>
+wait 6
+input /ma "Dia" <t>
+wait 6
+input /ma "Dia" <t>
+wait 6
+input /ma "Dia" <t>
+wait 6
+input /ma "Dia" <t>
+wait 6
+input /ma "Dia" <t>
+wait 6
+input /ma "Dia" <t>
+wait 6
+input /ma "Dia" <t>
+wait 6
+input /ma "Dia" <t>
+wait 6
+input /ma "Dia" <t>
+wait 6
+input /ma "Dia" <t>
+wait 6
+input /ma "Dia" <t>
+wait 6
+input /ma "Dia" <t>
+wait 6
+input /ma "Dia" <t>
+wait 6
+input /ma "Dia" <t>
+wait 6
+input /ma "Dia" <t>
+wait 6
+input /ma "Dia" <t>
+wait 6
+input /ma "Dia" <t>
+wait 6
+input /ma "Dia" <t>
+wait 6
+input /ma "Dia" <t>
+wait 6
+input /ma "Dia" <t>
+wait 6
+input /ma "Dia" <t>
+wait 6
+input /ma "Dia" <t>
+wait 6
+input /ma "Dia" <t>
+wait 6
+input /ma "Dia" <t>
+wait 6
+input /ma "Dia" <t>
+wait 6
+input /ma "Dia" <t>
+wait 6
+input /ma "Dia" <t>
+wait 6
+input /ma "Dia" <t>
+wait 6
+input /ma "Dia" <t>
+wait 6
+input /ma "Dia" <t>
+wait 6
+input /ma "Dia" <t>
+wait 6
+input /ma "Dia" <t>
+wait 6
+input /ma "Dia" <t>
+wait 6
+input /ma "Dia" <t>
+wait 6
+input /ma "Dia" <t>
+wait 6
+input /ma "Dia" <t>
+wait 6
+input /ma "Dia" <t>
+wait 6
+input /ma "Dia" <t>
+wait 6
+input /ma "Dia" <t>
+wait 6
+input /ma "Dia" <t>
+wait 6
+input /ma "Dia" <t>
+wait 6
+input /ma "Dia" <t>
+wait 6
+input /ma "Dia" <t>
+wait 6
+input /ma "Dia" <t>
+wait 6
+input /ma "Dia" <t>
+wait 6
+input /ma "Dia" <t>
+wait 6
+input /ma "Dia" <t>
+wait 6
+input /ma "Dia" <t>
+wait 6
+input /ma "Dia" <t>
+wait 6
+input /ma "Dia" <t>
+wait 6
+input /ma "Dia" <t>
+wait 6
+input /ma "Dia" <t>
+wait 6
+input /ma "Dia" <t>
+wait 6
+input /ma "Dia" <t>
+wait 6
+input /ma "Dia" <t>
+wait 6
+input /ma "Dia" <t>
+wait 6
+input /ma "Dia" <t>
+wait 6
+input /ma "Dia" <t>
+wait 6
+input /ma "Dia" <t>
+wait 6
+input /ma "Dia" <t>
+wait 6
+input /ma "Dia" <t>
+wait 6
+input /ma "Dia" <t>
+wait 6
+input /ma "Dia" <t>
+wait 6
+input /ma "Dia" <t>
+wait 6
+input /ma "Dia" <t>
+wait 6
+input /ma "Dia" <t>
+wait 6
+input /ma "Dia" <t>
+wait 6
+input /ma "Dia" <t>
+wait 6
+input /ma "Dia" <t>
+wait 6
+input /ma "Dia" <t>
+wait 6
+input /ma "Dia" <t>
+wait 6
+input /ma "Dia" <t>
+wait 6
+input /ma "Dia" <t>
+wait 6
+input /ma "Dia" <t>
+wait 6
+input /ma "Dia" <t>
+wait 6
+input /ma "Dia" <t>
+wait 6
+input /ma "Dia" <t>
+wait 6
+input /ma "Dia" <t>
+wait 6
+input /ma "Dia" <t>
+wait 6
+input /ma "Dia" <t>
+wait 6
+input /ma "Dia" <t>
+wait 6
+input /ma "Dia" <t>
+wait 6
+input /ma "Dia" <t>
+wait 6
+input /ma "Dia" <t>
+wait 6
+input /ma "Dia" <t>
+wait 6
+input /ma "Dia" <t>
+wait 6
+input /ma "Dia" <t>
+wait 6
+input /ma "Dia" <t>
+wait 6
+input /ma "Dia" <t>
+wait 6
+input /ma "Dia" <t>
+wait 6
+input /ma "Dia" <t>
+wait 6
+input /ma "Dia" <t>
+wait 6
+input /ma "Dia" <t>
+wait 6
+input /ma "Dia" <t>
+wait 6
+input /ma "Dia" <t>
+wait 6
+input /ma "Dia" <t>
+wait 6
+input /ma "Dia" <t>
+wait 6
+input /ma "Dia" <t>
+wait 6
+input /ma "Dia" <t>
+wait 6
+input /ma "Dia" <t>
+wait 6
+input /ma "Dia" <t>
+wait 6
+input /ma "Dia" <t>
+wait 6
+input /ma "Dia" <t>
+wait 6
+input /ma "Dia" <t>
+wait 6
+input /ma "Dia" <t>
+wait 6
+input /ma "Dia" <t>
+wait 6
+input /ma "Dia" <t>
+wait 6
+input /ma "Dia" <t>
+wait 6
+input /ma "Dia" <t>
+wait 6
+input /ma "Dia" <t>
+wait 6
+input /ma "Dia" <t>
+wait 6
+input /ma "Dia" <t>
+wait 6
+input /ma "Dia" <t>
+wait 6
+input /ma "Dia" <t>
+wait 6
+input /ma "Dia" <t>
+wait 6
+input /ma "Dia" <t>
+wait 6
+input /ma "Dia" <t>
+wait 6
+input /ma "Dia" <t>
+wait 6
+input /ma "Dia" <t>
+wait 6
+input /ma "Dia" <t>
+wait 6
+input /ma "Dia" <t>
+wait 6
+input /ma "Dia" <t>
+wait 6
+input /ma "Dia" <t>
+wait 6
+input /ma "Dia" <t>
+wait 6
+input /ma "Dia" <t>
+wait 6
+input /ma "Dia" <t>
+wait 6
+input /ma "Dia" <t>
+wait 6
+input /ma "Dia" <t>
+wait 6
+input /ma "Dia" <t>
+wait 6
+input /ma "Dia" <t>
+wait 6
+input /ma "Dia" <t>
+wait 6
+input /ma "Dia" <t>
+wait 6
+input /ma "Dia" <t>
+wait 6
+input /ma "Dia" <t>
+wait 6
+input /ma "Dia" <t>
+wait 6
+input /ma "Dia" <t>
+wait 6
+input /ma "Dia" <t>
+wait 6
+input /ma "Dia" <t>
+wait 6
+input /ma "Dia" <t>
+wait 6
+input /ma "Dia" <t>
+wait 6
+input /ma "Dia" <t>
+wait 6
+input /ma "Dia" <t>
+wait 6
+input /ma "Dia" <t>
+wait 6
+input /ma "Dia" <t>
+wait 6
+input /ma "Dia" <t>
+wait 6
+input /ma "Dia" <t>
+wait 6
+input /ma "Dia" <t>
+wait 6
+input /ma "Dia" <t>
+wait 6
+input /ma "Dia" <t>
+wait 6
+input /ma "Dia" <t>
+wait 6
+input /ma "Dia" <t>
+wait 6
+input /ma "Dia" <t>
+wait 6
+input /ma "Dia" <t>
+wait 6
+input /ma "Dia" <t>
+wait 6
+input /ma "Dia" <t>
+wait 6
+input /ma "Dia" <t>
+wait 6
+input /ma "Dia" <t>
+wait 6
+input /ma "Dia" <t>
+wait 6
+input /ma "Dia" <t>
+wait 6
+input /ma "Dia" <t>
+wait 6
+input /ma "Dia" <t>
+wait 6
+input /ma "Dia" <t>
+wait 6
+input /ma "Dia" <t>
+wait 6
+input /ma "Dia" <t>
+wait 6
+input /ma "Dia" <t>
+wait 6
+input /ma "Dia" <t>
+wait 6
+input /ma "Dia" <t>
+wait 6
+input /ma "Dia" <t>
+wait 6
+input /ma "Dia" <t>
+wait 6
+input /ma "Dia" <t>
+wait 6
+input /ma "Dia" <t>
+wait 6
+input /ma "Dia" <t>
+wait 6
+input /ma "Dia" <t>
+wait 6
+input /ma "Dia" <t>
+wait 6
+input /ma "Dia" <t>
+wait 6
+input /ma "Dia" <t>
+wait 6
+input /ma "Dia" <t>
+wait 6
+input /ma "Dia" <t>
+wait 6
+input /ma "Dia" <t>
+wait 6
+input /ma "Dia" <t>
+wait 6
+input /ma "Dia" <t>
+wait 6
+input /ma "Dia" <t>
+wait 6
+input /ma "Dia" <t>
+wait 6
+input /ma "Dia" <t>
+wait 6
+input /ma "Dia" <t>
+wait 6
+input /ma "Dia" <t>
+wait 6
+input /ma "Dia" <t>
+wait 6
+input /ma "Dia" <t>
+wait 6
+input /ma "Dia" <t>
+wait 6
+input /ma "Dia" <t>
+wait 6
+input /ma "Dia" <t>
+wait 6
+input /ma "Dia" <t>
+wait 6
+input /ma "Dia" <t>
+wait 6
+input /ma "Dia" <t>
+wait 6
+input /ma "Dia" <t>
+wait 6
+input /ma "Dia" <t>
+wait 6
+input /ma "Dia" <t>
+wait 6
+input /ma "Dia" <t>
+wait 6
+input /ma "Dia" <t>
+wait 6
+input /ma "Dia" <t>
+wait 6
+input /ma "Dia" <t>
+wait 6
+input /ma "Dia" <t>
+wait 6
+input /ma "Dia" <t>
+wait 6
+input /ma "Dia" <t>
+wait 6
+input /ma "Dia" <t>
+wait 6
+input /ma "Dia" <t>
+wait 6
+input /ma "Dia" <t>
+wait 6
+input /ma "Dia" <t>
+wait 6
+input /ma "Dia" <t>
+wait 6
+input /ma "Dia" <t>
+wait 6
+input /ma "Dia" <t>
+wait 6
+input /ma "Dia" <t>
+wait 6
+input /ma "Dia" <t>
+wait 6
+input /ma "Dia" <t>
+wait 6
+input /ma "Dia" <t>
+wait 6
+input /ma "Dia" <t>
+wait 6
+input /ma "Dia" <t>
+wait 6
+input /ma "Dia" <t>
+wait 6
+input /ma "Dia" <t>
+wait 6
+input /ma "Dia" <t>
+wait 6
+input /ma "Dia" <t>
+wait 6
+input /ma "Dia" <t>
+wait 6
+input /ma "Dia" <t>
+wait 6
+input /ma "Dia" <t>
+wait 6
+input /ma "Dia" <t>
+wait 6
+input /ma "Dia" <t>
+wait 6
+input /ma "Dia" <t>
+wait 6
+input /ma "Dia" <t>
+wait 6
+input /ma "Dia" <t>
+wait 6
+input /ma "Dia" <t>
+wait 6
+input /ma "Dia" <t>
+wait 6
+input /ma "Dia" <t>
+wait 6

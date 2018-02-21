@@ -1,0 +1,630 @@
+input /ma "Cure" <me>
+wait 7
+input /ma "Cure" <me>
+wait 7
+input /ma "Cure" <me>
+wait 7
+input /ma "Cure" <me>
+wait 7
+input /ma "Cure" <me>
+wait 7
+input /ma "Cure" <me>
+wait 7
+input /ma "Cure" <me>
+wait 7
+input /ma "Cure" <me>
+wait 7
+input /ma "Cure" <me>
+wait 7
+input /ma "Cure" <me>
+wait 7
+input /ma "Cure" <me>
+wait 7
+input /ma "Cure" <me>
+wait 7
+input /ma "Cure" <me>
+wait 7
+input /ma "Cure" <me>
+wait 7
+input /ma "Cure" <me>
+wait 7
+input /ma "Cure" <me>
+wait 7
+input /ma "Cure" <me>
+wait 7
+input /ma "Cure" <me>
+wait 7
+input /ma "Cure" <me>
+wait 7
+input /ma "Cure" <me>
+wait 7
+input /ma "Cure" <me>
+wait 7
+input /ma "Cure" <me>
+wait 7
+input /ma "Cure" <me>
+wait 7
+input /ma "Cure" <me>
+wait 7
+input /ma "Cure" <me>
+wait 7
+input /ma "Cure" <me>
+wait 7
+input /ma "Cure" <me>
+wait 7
+input /ma "Cure" <me>
+wait 7
+input /ma "Cure" <me>
+wait 7
+input /ma "Cure" <me>
+wait 7
+input /ma "Cure" <me>
+wait 7
+input /ma "Cure" <me>
+wait 7
+input /ma "Cure" <me>
+wait 7
+input /ma "Cure" <me>
+wait 7
+input /ma "Cure" <me>
+wait 7
+input /ma "Cure" <me>
+wait 7
+input /ma "Cure" <me>
+wait 7
+input /ma "Cure" <me>
+wait 7
+input /ma "Cure" <me>
+wait 7
+input /ma "Cure" <me>
+wait 7
+input /ma "Cure" <me>
+wait 7
+input /ma "Cure" <me>
+wait 7
+input /ma "Cure" <me>
+wait 7
+input /ma "Cure" <me>
+wait 7
+input /ma "Cure" <me>
+wait 7
+input /ma "Cure" <me>
+wait 7
+input /ma "Cure" <me>
+wait 7
+input /ma "Cure" <me>
+wait 7
+input /ma "Cure" <me>
+wait 7
+input /ma "Cure" <me>
+wait 7
+input /ma "Cure" <me>
+wait 7
+input /ma "Cure" <me>
+wait 7
+input /ma "Cure" <me>
+wait 7
+input /ma "Cure" <me>
+wait 7
+input /ma "Cure" <me>
+wait 7
+input /ma "Cure" <me>
+wait 7
+input /ma "Cure" <me>
+wait 7
+input /ma "Cure" <me>
+wait 7
+input /ma "Cure" <me>
+wait 7
+input /ma "Cure" <me>
+wait 7
+input /ma "Cure" <me>
+wait 7
+input /ma "Cure" <me>
+wait 7
+input /ma "Cure" <me>
+wait 7
+input /ma "Cure" <me>
+wait 7
+input /ma "Cure" <me>
+wait 7
+input /ma "Cure" <me>
+wait 7
+input /ma "Cure" <me>
+wait 7
+input /ma "Cure" <me>
+wait 7
+input /ma "Cure" <me>
+wait 7
+input /ma "Cure" <me>
+wait 7
+input /ma "Cure" <me>
+wait 7
+input /ma "Cure" <me>
+wait 7
+input /ma "Cure" <me>
+wait 7
+input /ma "Cure" <me>
+wait 7
+input /ma "Cure" <me>
+wait 7
+input /ma "Cure" <me>
+wait 7
+input /ma "Cure" <me>
+wait 7
+input /ma "Cure" <me>
+wait 7
+input /ma "Cure" <me>
+wait 7
+input /ma "Cure" <me>
+wait 7
+input /ma "Cure" <me>
+wait 7
+input /ma "Cure" <me>
+wait 7
+input /ma "Cure" <me>
+wait 7
+input /ma "Cure" <me>
+wait 7
+input /ma "Cure" <me>
+wait 7
+input /ma "Cure" <me>
+wait 7
+input /ma "Cure" <me>
+wait 7
+input /ma "Cure" <me>
+wait 7
+input /ma "Cure" <me>
+wait 7
+input /ma "Cure" <me>
+wait 7
+input /ma "Cure" <me>
+wait 7
+input /ma "Cure" <me>
+wait 7
+input /ma "Cure" <me>
+wait 7
+input /ma "Cure" <me>
+wait 7
+input /ma "Cure" <me>
+wait 7
+input /ma "Cure" <me>
+wait 7
+input /ma "Cure" <me>
+wait 7
+input /ma "Cure" <me>
+wait 7
+input /ma "Cure" <me>
+wait 7
+input /ma "Cure" <me>
+wait 7
+input /ma "Cure" <me>
+wait 7
+input /ma "Cure" <me>
+wait 7
+input /ma "Cure" <me>
+wait 7
+input /ma "Cure" <me>
+wait 7
+input /ma "Cure" <me>
+wait 7
+input /ma "Cure" <me>
+wait 7
+input /ma "Cure" <me>
+wait 7
+input /ma "Cure" <me>
+wait 7
+input /ma "Cure" <me>
+wait 7
+input /ma "Cure" <me>
+wait 7
+input /ma "Cure" <me>
+wait 7
+input /ma "Cure" <me>
+wait 7
+input /ma "Cure" <me>
+wait 7
+input /ma "Cure" <me>
+wait 7
+input /ma "Cure" <me>
+wait 7
+input /ma "Cure" <me>
+wait 7
+input /ma "Cure" <me>
+wait 7
+input /ma "Cure" <me>
+wait 7
+input /ma "Cure" <me>
+wait 7
+input /ma "Cure" <me>
+wait 7
+input /ma "Cure" <me>
+wait 7
+input /ma "Cure" <me>
+wait 7
+input /ma "Cure" <me>
+wait 7
+input /ma "Cure" <me>
+wait 7
+input /ma "Cure" <me>
+wait 7
+input /ma "Cure" <me>
+wait 7
+input /ma "Cure" <me>
+wait 7
+input /ma "Cure" <me>
+wait 7
+input /ma "Cure" <me>
+wait 7
+input /ma "Cure" <me>
+wait 7
+input /ma "Cure" <me>
+wait 7
+input /ma "Cure" <me>
+wait 7
+input /ma "Cure" <me>
+wait 7
+input /ma "Cure" <me>
+wait 7
+input /ma "Cure" <me>
+wait 7
+input /ma "Cure" <me>
+wait 7
+input /ma "Cure" <me>
+wait 7
+input /ma "Cure" <me>
+wait 7
+input /ma "Cure" <me>
+wait 7
+input /ma "Cure" <me>
+wait 7
+input /ma "Cure" <me>
+wait 7
+input /ma "Cure" <me>
+wait 7
+input /ma "Cure" <me>
+wait 7
+input /ma "Cure" <me>
+wait 7
+input /ma "Cure" <me>
+wait 7
+input /ma "Cure" <me>
+wait 7
+input /ma "Cure" <me>
+wait 7
+input /ma "Cure" <me>
+wait 7
+input /ma "Cure" <me>
+wait 7
+input /ma "Cure" <me>
+wait 7
+input /ma "Cure" <me>
+wait 7
+input /ma "Cure" <me>
+wait 7
+input /ma "Cure" <me>
+wait 7
+input /ma "Cure" <me>
+wait 7
+input /ma "Cure" <me>
+wait 7
+input /ma "Cure" <me>
+wait 7
+input /ma "Cure" <me>
+wait 7
+input /ma "Cure" <me>
+wait 7
+input /ma "Cure" <me>
+wait 7
+input /ma "Cure" <me>
+wait 7
+input /ma "Cure" <me>
+wait 7
+input /ma "Cure" <me>
+wait 7
+input /ma "Cure" <me>
+wait 7
+input /ma "Cure" <me>
+wait 7
+input /ma "Cure" <me>
+wait 7
+input /ma "Cure" <me>
+wait 7
+input /ma "Cure" <me>
+wait 7
+input /ma "Cure" <me>
+wait 7
+input /ma "Cure" <me>
+wait 7
+input /ma "Cure" <me>
+wait 7
+input /ma "Cure" <me>
+wait 7
+input /ma "Cure" <me>
+wait 7
+input /ma "Cure" <me>
+wait 7
+input /ma "Cure" <me>
+wait 7
+input /ma "Cure" <me>
+wait 7
+input /ma "Cure" <me>
+wait 7
+input /ma "Cure" <me>
+wait 7
+input /ma "Cure" <me>
+wait 7
+input /ma "Cure" <me>
+wait 7
+input /ma "Cure" <me>
+wait 7
+input /ma "Cure" <me>
+wait 7
+input /ma "Cure" <me>
+wait 7
+input /ma "Cure" <me>
+wait 7
+input /ma "Cure" <me>
+wait 7
+input /ma "Cure" <me>
+wait 7
+input /ma "Cure" <me>
+wait 7
+input /ma "Cure" <me>
+wait 7
+input /ma "Cure" <me>
+wait 7
+input /ma "Cure" <me>
+wait 7
+input /ma "Cure" <me>
+wait 7
+input /ma "Cure" <me>
+wait 7
+input /ma "Cure" <me>
+wait 7
+input /ma "Cure" <me>
+wait 7
+input /ma "Cure" <me>
+wait 7
+input /ma "Cure" <me>
+wait 7
+input /ma "Cure" <me>
+wait 7
+input /ma "Cure" <me>
+wait 7
+input /ma "Cure" <me>
+wait 7
+input /ma "Cure" <me>
+wait 7
+input /ma "Cure" <me>
+wait 7
+input /ma "Cure" <me>
+wait 7
+input /ma "Cure" <me>
+wait 7
+input /ma "Cure" <me>
+wait 7
+input /ma "Cure" <me>
+wait 7
+input /ma "Cure" <me>
+wait 7
+input /ma "Cure" <me>
+wait 7
+input /ma "Cure" <me>
+wait 7
+input /ma "Cure" <me>
+wait 7
+input /ma "Cure" <me>
+wait 7
+input /ma "Cure" <me>
+wait 7
+input /ma "Cure" <me>
+wait 7
+input /ma "Cure" <me>
+wait 7
+input /ma "Cure" <me>
+wait 7
+input /ma "Cure" <me>
+wait 7
+input /ma "Cure" <me>
+wait 7
+input /ma "Cure" <me>
+wait 7
+input /ma "Cure" <me>
+wait 7
+input /ma "Cure" <me>
+wait 7
+input /ma "Cure" <me>
+wait 7
+input /ma "Cure" <me>
+wait 7
+input /ma "Cure" <me>
+wait 7
+input /ma "Cure" <me>
+wait 7
+input /ma "Cure" <me>
+wait 7
+input /ma "Cure" <me>
+wait 7
+input /ma "Cure" <me>
+wait 7
+input /ma "Cure" <me>
+wait 7
+input /ma "Cure" <me>
+wait 7
+input /ma "Cure" <me>
+wait 7
+input /ma "Cure" <me>
+wait 7
+input /ma "Cure" <me>
+wait 7
+input /ma "Cure" <me>
+wait 7
+input /ma "Cure" <me>
+wait 7
+input /ma "Cure" <me>
+wait 7
+input /ma "Cure" <me>
+wait 7
+input /ma "Cure" <me>
+wait 7
+input /ma "Cure" <me>
+wait 7
+input /ma "Cure" <me>
+wait 7
+input /ma "Cure" <me>
+wait 7
+input /ma "Cure" <me>
+wait 7
+input /ma "Cure" <me>
+wait 7
+input /ma "Cure" <me>
+wait 7
+input /ma "Cure" <me>
+wait 7
+input /ma "Cure" <me>
+wait 7
+input /ma "Cure" <me>
+wait 7
+input /ma "Cure" <me>
+wait 7
+input /ma "Cure" <me>
+wait 7
+input /ma "Cure" <me>
+wait 7
+input /ma "Cure" <me>
+wait 7
+input /ma "Cure" <me>
+wait 7
+input /ma "Cure" <me>
+wait 7
+input /ma "Cure" <me>
+wait 7
+input /ma "Cure" <me>
+wait 7
+input /ma "Cure" <me>
+wait 7
+input /ma "Cure" <me>
+wait 7
+input /ma "Cure" <me>
+wait 7
+input /ma "Cure" <me>
+wait 7
+input /ma "Cure" <me>
+wait 7
+input /ma "Cure" <me>
+wait 7
+input /ma "Cure" <me>
+wait 7
+input /ma "Cure" <me>
+wait 7
+input /ma "Cure" <me>
+wait 7
+input /ma "Cure" <me>
+wait 7
+input /ma "Cure" <me>
+wait 7
+input /ma "Cure" <me>
+wait 7
+input /ma "Cure" <me>
+wait 7
+input /ma "Cure" <me>
+wait 7
+input /ma "Cure" <me>
+wait 7
+input /ma "Cure" <me>
+wait 7
+input /ma "Cure" <me>
+wait 7
+input /ma "Cure" <me>
+wait 7
+input /ma "Cure" <me>
+wait 7
+input /ma "Cure" <me>
+wait 7
+input /ma "Cure" <me>
+wait 7
+input /ma "Cure" <me>
+wait 7
+input /ma "Cure" <me>
+wait 7
+input /ma "Cure" <me>
+wait 7
+input /ma "Cure" <me>
+wait 7
+input /ma "Cure" <me>
+wait 7
+input /ma "Cure" <me>
+wait 7
+input /ma "Cure" <me>
+wait 7
+input /ma "Cure" <me>
+wait 7
+input /ma "Cure" <me>
+wait 7
+input /ma "Cure" <me>
+wait 7
+input /ma "Cure" <me>
+wait 7
+input /ma "Cure" <me>
+wait 7
+input /ma "Cure" <me>
+wait 7
+input /ma "Cure" <me>
+wait 7
+input /ma "Cure" <me>
+wait 7
+input /ma "Cure" <me>
+wait 7
+input /ma "Cure" <me>
+wait 7
+input /ma "Cure" <me>
+wait 7
+input /ma "Cure" <me>
+wait 7
+input /ma "Cure" <me>
+wait 7
+input /ma "Cure" <me>
+wait 7
+input /ma "Cure" <me>
+wait 7
+input /ma "Cure" <me>
+wait 7
+input /ma "Cure" <me>
+wait 7
+input /ma "Cure" <me>
+wait 7
+input /ma "Cure" <me>
+wait 7
+input /ma "Cure" <me>
+wait 7
+input /ma "Cure" <me>
+wait 7
+input /ma "Cure" <me>
+wait 7
+input /ma "Cure" <me>
+wait 7
+input /ma "Cure" <me>
+wait 7
+input /ma "Cure" <me>
+wait 7
+input /ma "Cure" <me>
+wait 7
+input /ma "Cure" <me>
+wait 7
+input /ma "Cure" <me>
+wait 7
+input /ma "Cure" <me>
+wait 7
+input /ma "Cure" <me>
+wait 7
+input /ma "Cure" <me>
+wait 7
+input /ma "Cure" <me>
+wait 7
+input /ma "Cure" <me>
+wait 7
+input /ma "Cure" <me>
+wait 7
+input /ma "Cure" <me>
+wait 7

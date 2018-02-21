@@ -1,0 +1,256 @@
+input /ma "Stone" <t>
+wait 4
+input /ma "Water" <t>
+wait 4
+input /ma "Stone" <t>
+wait 4
+input /ma "Water" <t>
+wait 4
+input /ma "Stone" <t>
+wait 4
+input /ma "Water" <t>
+wait 4
+input /ma "Stone" <t>
+wait 4
+input /ma "Water" <t>
+wait 4
+input /ma "Stone" <t>
+wait 4
+input /ma "Water" <t>
+wait 4
+input /ma "Stone" <t>
+wait 4
+input /ma "Water" <t>
+wait 4
+input /ma "Stone" <t>
+wait 4
+input /ma "Water" <t>
+wait 4
+input /ma "Stone" <t>
+wait 4
+input /ma "Water" <t>
+wait 4
+input /ma "Stone" <t>
+wait 4
+input /ma "Water" <t>
+wait 4
+input /ma "Stone" <t>
+wait 4
+input /ma "Water" <t>
+wait 4
+input /ma "Stone" <t>
+wait 4
+input /ma "Water" <t>
+wait 4
+input /ma "Stone" <t>
+wait 4
+input /ma "Water" <t>
+wait 4
+input /ma "Stone" <t>
+wait 4
+input /ma "Water" <t>
+wait 4
+input /ma "Stone" <t>
+wait 4
+input /ma "Water" <t>
+wait 4
+input /ma "Stone" <t>
+wait 4
+input /ma "Water" <t>
+wait 4
+input /ma "Stone" <t>
+wait 4
+input /ma "Water" <t>
+wait 4
+input /ma "Stone" <t>
+wait 4
+input /ma "Water" <t>
+wait 4
+input /ma "Stone" <t>
+wait 4
+input /ma "Water" <t>
+wait 4
+input /ma "Stone" <t>
+wait 4
+input /ma "Water" <t>
+wait 4
+input /ma "Stone" <t>
+wait 4
+input /ma "Water" <t>
+wait 4
+input /ma "Stone" <t>
+wait 4
+input /ma "Water" <t>
+wait 4
+input /ma "Stone" <t>
+wait 4
+input /ma "Water" <t>
+wait 4
+input /ma "Stone" <t>
+wait 4
+input /ma "Water" <t>
+wait 4
+input /ma "Stone" <t>
+wait 4
+input /ma "Water" <t>
+wait 4
+input /ma "Stone" <t>
+wait 4
+input /ma "Water" <t>
+wait 4
+input /ma "Stone" <t>
+wait 4
+input /ma "Water" <t>
+wait 4
+input /ma "Stone" <t>
+wait 4
+input /ma "Water" <t>
+wait 4
+input /ma "Stone" <t>
+wait 4
+input /ma "Water" <t>
+wait 4
+input /ma "Stone" <t>
+wait 4
+input /ma "Water" <t>
+wait 4
+input /ma "Stone" <t>
+wait 4
+input /ma "Water" <t>
+wait 4
+input /ma "Stone" <t>
+wait 4
+input /ma "Water" <t>
+wait 4
+input /ma "Stone" <t>
+wait 4
+input /ma "Water" <t>
+wait 4
+input /ma "Stone" <t>
+wait 4
+input /ma "Water" <t>
+wait 4
+input /ma "Stone" <t>
+wait 4
+input /ma "Water" <t>
+wait 4
+input /ma "Stone" <t>
+wait 4
+input /ma "Water" <t>
+wait 4
+input /ma "Stone" <t>
+wait 4
+input /ma "Water" <t>
+wait 4
+input /ma "Stone" <t>
+wait 4
+input /ma "Water" <t>
+wait 4
+input /ma "Stone" <t>
+wait 4
+input /ma "Water" <t>
+wait 4
+input /ma "Stone" <t>
+wait 4
+input /ma "Water" <t>
+wait 4
+input /ma "Stone" <t>
+wait 4
+input /ma "Water" <t>
+wait 4
+input /ma "Stone" <t>
+wait 4
+input /ma "Water" <t>
+wait 4
+input /ma "Stone" <t>
+wait 4
+input /ma "Water" <t>
+wait 4
+input /ma "Stone" <t>
+wait 4
+input /ma "Water" <t>
+wait 4
+input /ma "Stone" <t>
+wait 4
+input /ma "Water" <t>
+wait 4
+input /ma "Stone" <t>
+wait 4
+input /ma "Water" <t>
+wait 4
+input /ma "Stone" <t>
+wait 4
+input /ma "Water" <t>
+wait 4
+input /ma "Stone" <t>
+wait 4
+input /ma "Water" <t>
+wait 4
+input /ma "Stone" <t>
+wait 4
+input /ma "Water" <t>
+wait 4
+input /ma "Stone" <t>
+wait 4
+input /ma "Water" <t>
+wait 4
+input /ma "Stone" <t>
+wait 4
+input /ma "Water" <t>
+wait 4
+input /ma "Stone" <t>
+wait 4
+input /ma "Water" <t>
+wait 4
+input /ma "Stone" <t>
+wait 4
+input /ma "Water" <t>
+wait 4
+input /ma "Stone" <t>
+wait 4
+input /ma "Water" <t>
+wait 4
+input /ma "Stone" <t>
+wait 4
+input /ma "Water" <t>
+wait 4
+input /ma "Stone" <t>
+wait 4
+input /ma "Water" <t>
+wait 4
+input /ma "Stone" <t>
+wait 4
+input /ma "Water" <t>
+wait 4
+input /ma "Stone" <t>
+wait 4
+input /ma "Water" <t>
+wait 4
+input /ma "Stone" <t>
+wait 4
+input /ma "Water" <t>
+wait 4
+input /ma "Stone" <t>
+wait 4
+input /ma "Water" <t>
+wait 4
+input /ma "Stone" <t>
+wait 4
+input /ma "Water" <t>
+wait 4
+input /ma "Stone" <t>
+wait 4
+input /ma "Water" <t>
+wait 4
+input /ma "Stone" <t>
+wait 4
+input /ma "Water" <t>
+wait 4
+input /ma "Stone" <t>
+wait 4
+input /ma "Water" <t>
+wait 4
+input /ma "Stone" <t>
+wait 4
+input /ma "Water" <t>
+wait 4

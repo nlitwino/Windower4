@@ -1,0 +1,17 @@
+sets.exported={
+    main="Claustrum",
+    sub="Bugard Strap +1",
+    ammo="Phtm. Tathlum",
+    head="Maat's Cap",
+    body="Errant Hpl.",
+    hands="Wzd. Gloves +1",
+    legs="Mahatma Slops",
+    feet="Src. Sabots +1",
+    neck="Lmg. Medallion +1",
+    waist="Sorcerer's Belt",
+    left_ear="Abyssal Earring",
+    right_ear="Morion Earring +1",
+    left_ring="Tamas Ring",
+    right_ring="Omega Ring",
+    back={ name="Prism Cape", augments={'Mag. Acc.+4',}},
+}
