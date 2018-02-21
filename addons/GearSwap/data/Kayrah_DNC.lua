@@ -141,7 +141,7 @@ function init_gear_sets()
                  ,back="Boxer's mantle"})
 
   sets.midcast['Utsusemi: Ichi']
-  = set_combine(sets.midcast['Utusemi: Ni']
+  = set_combine(sets.midcast['Utsusemi: Ni']
                ,{head="Gnole crown"
                ,neck="Fortified chain"
                ,ear1="Novia earring"

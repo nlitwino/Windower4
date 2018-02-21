@@ -693,7 +693,6 @@ end
 function job_pet_midcast(spell, action, spellMap, eventArgs)
   
   if pet.name == 'Garuda' and not magicalRagePacts:contains(spell.english) then
-    add_to_chat('LUL')
     equip({head="Karura hachigane"})
   end
   

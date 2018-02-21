@@ -282,9 +282,9 @@ function init_gear_sets()
 
 end
 
-function job_post_precast(spell,action,spellMap,eventArgs)
+function job_post_precast(spell,action,spellMap,eventArgs) 
 
-  if spell.skill:contains('Magic') then
+  if spell.type:contains('Magic') then
   
 	  if state.Buff['Dark Arts'] or  state.Buff['Light Arts'] then
 		   equip({head="Argute mortarboard",feet="Scholar's loafers +1"})

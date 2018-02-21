@@ -299,11 +299,6 @@ function job_buff_change(name,gain)
 
   sleep_swap(name,gain)
 
-  if name == 'Yonin' or name == 'Innin'then
-    adjust_melee_groups()
-    handle_equipping_gear(player.status)
-  end
-
 end
 
 function job_post_precast(spell)

@@ -71,7 +71,7 @@ function init_gear_sets()
    = set_combine(sets.midcast.FastRecast
                 ,{neck="Fortified chain"
                  ,ear1="Magnetic earring"
-                 ,body=scorpion_harness["Haste"]
+                 ,body=scorpion_harness['Haste']
                  ,back="Boxer's mantle"})
                  
   sets.midcast['Utsusemi: Ichi']
@@ -249,11 +249,18 @@ function job_post_precast(spell,action,spellMap,eventArgs)
     currentAM = 'GK'
   end
   
+  
   if spell.name:startswith('Tachi') then 
-    if state.CombatWeapon.value == 'Nanatsu' and spell.name ~= 'Tachi: Rana' then
-      equip({ammo="White tathlum",body="Hachiryu haramaki",feet="Hachiman sune-ate +1"})
+    if player.equipment.ranged == 'empty' then
+      if state.CombatWeapon.value == 'Nanatsu' and spell.name ~= 'Tachi: Rana' then
+        equip({ammo="White tathlum",body="Hachiryu haramaki",feet="Hachiman sune-ate +1"})
+      else
+        equip({ammo="Black tathlum"})
+      end
     else
-      equip({ammo="Black tathlum"})
+    if state.CombatWeapon.value == 'Nanatsu' and spell.name ~= 'Tachi: Rana' then
+        equip({body="Hachiman domaru +1",feet="Hachiman sune-ate +1"})
+      end
     end
   end
   
