@@ -36,7 +36,7 @@ require('pack')
 require('tables')
 
 defaults = {}
-defaults.size = 20
+defaults.size = 10
 
 settings = config.load(defaults)
 

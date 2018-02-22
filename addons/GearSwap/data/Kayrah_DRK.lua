@@ -155,7 +155,8 @@ function init_gear_sets()
   sets.midcast.Absorb 				
    = set_combine(sets.midcast['Dark Magic'].Acc
                 ,{hands="Vicious mufflers"
-                 ,legs="Onyx cuisses"})
+                 ,legs="Onyx cuisses"
+                 ,feet="Onyz sollerets"})
                  
   sets.midcast.Sleep  				
    = set_combine(sets.midcast['Enfeebling Magic'].Acc
@@ -278,7 +279,13 @@ function init_gear_sets()
   sets.engaged.Apocalypse.AM          
    = set_combine(sets.engaged.Apocalypse
                 ,{legs="Onyx cuisses"
-                 ,feet="Black sollerets"})
+                 ,feet="Onyx sollerets"})
+     
+
+  sets.engaged.Apocalypse.AMTank          
+   = set_combine(sets.engaged.Apocalypse.AM
+                ,{legs="Dusk trousers +1"
+                 ,feet="Aurum sabatons"})
      
   sets.engaged.Apocalypse.Acc         
    = set_combine(sets.engaged.Apocalypse
@@ -289,8 +296,12 @@ function init_gear_sets()
                 
   sets.engaged.Apocalypse.Acc.AM      
    = set_combine(sets.engaged.Apocalypse.Acc
-                ,{legs="Armada Breeches"
+                ,{legs="Armada breeches"
                  ,feet="Aurum sabatons"})
+                
+  sets.engaged.Apocalypse.Acc.AMTank    
+   = set_combine(sets.engaged.Apocalypse.Acc.AM
+                ,{legs="Dusk trousers +1"})
                  
   sets.engaged.Apocalypse.Tank        
    = set_combine(sets.engaged.Apocalypse.Acc
@@ -302,6 +313,10 @@ function init_gear_sets()
   sets.engaged.Apocalypse.Tank.AM     
    = set_combine(sets.engaged.Apocalypse.Tank
                 ,{body="Valhalla breastplate"})
+                 
+  sets.engaged.Apocalypse.Tank.AMTank     
+   = set_combine(sets.engaged.Apocalypse.Tank.AM
+                ,{})
 
   -- apoc engaged (sam) ROSE STRAP
   sets.engaged.Apocalypse.SAM
@@ -322,7 +337,12 @@ function init_gear_sets()
   sets.engaged.Apocalypse.SAM.AM    
    = set_combine(sets.engaged.Apocalypse.SAM
                 ,{legs="Onyx cuisses"
-                 ,feet="Black sollerets"})     
+                 ,feet="Onyx sollerets"})   
+     
+  sets.engaged.Apocalypse.SAM.AMTank    
+   = set_combine(sets.engaged.Apocalypse.SAM.AM
+                ,{legs="Dusk trousers +1"
+                 ,feet="Aurum sabatons"})  
      
   sets.engaged.Apocalypse.Acc.SAM 	
    = set_combine(sets.engaged.Apocalypse.SAM
@@ -332,8 +352,12 @@ function init_gear_sets()
                  
   sets.engaged.Apocalypse.Acc.SAM.AM  
    = set_combine(sets.engaged.Apocalypse.Acc.SAM
-                ,{legs="Armada Breeches"
+                ,{legs="Armada breeches"
                  ,feet="Aurum sabatons"})
+                 
+  sets.engaged.Apocalypse.Acc.SAM.AMTank  
+   = set_combine(sets.engaged.Apocalypse.Acc.SAM.AM
+                ,{legs="Dusk trousers +1"})
                  
   sets.engaged.Apocalypse.Tank.SAM 	
    = set_combine(sets.engaged.Apocalypse.Acc.SAM
@@ -344,6 +368,10 @@ function init_gear_sets()
   sets.engaged.Apocalypse.Tank.SAM.AM 
    = set_combine(sets.engaged.Apocalypse.Tank.SAM
                 ,{body="Valhalla breastplate"})
+
+  sets.engaged.Apocalypse.Tank.SAM.AMTank 
+   = set_combine(sets.engaged.Apocalypse.Tank.SAM.AM
+                ,{})
 
   -- rag engaged (no sam) ROSE STRAP
   sets.engaged.Ragnarok
@@ -415,13 +443,13 @@ function init_gear_sets()
      ,ear1="Triumph earring"
      ,ear2="Brutal earring"
      ,body="Armada hauberk"    
-     ,hands="Alkyoneus's bracelets"
+     ,hands="Onyx gadlings"
      ,ring1="Rajas ring"    
      ,ring2="Strigoi ring"
      ,back="Cerberus mantle +1"
      ,waist="Warwolf belt"         
      ,legs="Onyx cuisses"   
-     ,feet="Hecatomb leggings +1"}
+     ,feet="Onyx sollerets"}
      
   sets.precast.WS.HNM
    = set_combine(sets.precast.WS
@@ -513,11 +541,6 @@ function job_buff_change(name,gain)
 
   if name:startswith('Aftermath') and player.equipment.main == 'Apocalypse' then
   
-    if gain then
-      add_to_chat("Equipping AM Up set.")
-    else
-      add_to_chat("Equipping AM Down set.")
-    end
     
     adjust_melee_groups()
     handle_equipping_gear(player.status)
@@ -589,7 +612,11 @@ function adjust_melee_groups()
   end
   
   if state.Buff.Aftermath then
-    classes.CustomMeleeGroups:append('AM')
+    if state.Tank.value or state.OffenseMode.value == 'Tank' then
+      classes.CustomMeleeGroups:append('AMTank')
+    else
+      classes.CustomMeleeGroups:append('AM')
+    end
   end
 
 end
