@@ -43,5 +43,6 @@ lua load Silence;
 lua load timestamp;
 lua load TParty;
 lua load Treasury;
+lua load update;
 lua load zonetimer;
 exec init.txt;

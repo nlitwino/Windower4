@@ -10,11 +10,6 @@ function job_setup()
 
   include('Kay-Include.lua')
 
-  state.Buff['Aftermath'] = buffactive['Aftermath: Lv.1'] or
-                            buffactive['Aftermath: Lv.2'] or
-                            buffactive['Aftermath: Lv.3'] or
-                            false
-
   state.Buff['Dark Seal'] = buffactive['Dark Seal'] or false
 
   absorbs = S{'Absorb-STR', 'Absorb-DEX', 'Absorb-VIT', 'Absorb-AGI', 'Absorb-INT', 'Absorb-MND', 'Absorb-CHR', 'Absorb-Attri', 'Absorb-ACC'}
@@ -275,33 +270,12 @@ function init_gear_sets()
      ,legs="Homam cosciales"
      ,feet="Dusk ledelsens +1"}
      
-
-  sets.engaged.Apocalypse.AM          
-   = set_combine(sets.engaged.Apocalypse
-                ,{legs="Onyx cuisses"
-                 ,feet="Onyx sollerets"})
-     
-
-  sets.engaged.Apocalypse.AMTank          
-   = set_combine(sets.engaged.Apocalypse.AM
-                ,{legs="Dusk trousers +1"
-                 ,feet="Aurum sabatons"})
-     
   sets.engaged.Apocalypse.Acc         
    = set_combine(sets.engaged.Apocalypse
                 ,{ammo="Fire bomblet"
                  ,hands="Homam manopolas"
                  ,back="Cuchulain's mantle"
                  ,feet="Homam gambieras"})
-                
-  sets.engaged.Apocalypse.Acc.AM      
-   = set_combine(sets.engaged.Apocalypse.Acc
-                ,{legs="Armada breeches"
-                 ,feet="Aurum sabatons"})
-                
-  sets.engaged.Apocalypse.Acc.AMTank    
-   = set_combine(sets.engaged.Apocalypse.Acc.AM
-                ,{legs="Dusk trousers +1"})
                  
   sets.engaged.Apocalypse.Tank        
    = set_combine(sets.engaged.Apocalypse.Acc
@@ -309,14 +283,6 @@ function init_gear_sets()
                  ,ear2="Ethereal earring"
                  ,ring1="Defending ring"
                  ,back="Shadow mantle"})
-                 
-  sets.engaged.Apocalypse.Tank.AM     
-   = set_combine(sets.engaged.Apocalypse.Tank
-                ,{body="Valhalla breastplate"})
-                 
-  sets.engaged.Apocalypse.Tank.AMTank     
-   = set_combine(sets.engaged.Apocalypse.Tank.AM
-                ,{})
 
   -- apoc engaged (sam) ROSE STRAP
   sets.engaged.Apocalypse.SAM
@@ -334,44 +300,17 @@ function init_gear_sets()
      ,legs="Homam cosciales"
      ,feet="Dusk ledelsens +1"}
      
-  sets.engaged.Apocalypse.SAM.AM    
-   = set_combine(sets.engaged.Apocalypse.SAM
-                ,{legs="Onyx cuisses"
-                 ,feet="Onyx sollerets"})   
-     
-  sets.engaged.Apocalypse.SAM.AMTank    
-   = set_combine(sets.engaged.Apocalypse.SAM.AM
-                ,{legs="Dusk trousers +1"
-                 ,feet="Aurum sabatons"})  
-     
   sets.engaged.Apocalypse.Acc.SAM 	
    = set_combine(sets.engaged.Apocalypse.SAM
                 ,{hands="Homam manopolas"
                  ,back="Cuchulain's mantle"
                  ,feet="Homam gambieras"})
                  
-  sets.engaged.Apocalypse.Acc.SAM.AM  
-   = set_combine(sets.engaged.Apocalypse.Acc.SAM
-                ,{legs="Armada breeches"
-                 ,feet="Aurum sabatons"})
-                 
-  sets.engaged.Apocalypse.Acc.SAM.AMTank  
-   = set_combine(sets.engaged.Apocalypse.Acc.SAM.AM
-                ,{legs="Dusk trousers +1"})
-                 
   sets.engaged.Apocalypse.Tank.SAM 	
    = set_combine(sets.engaged.Apocalypse.Acc.SAM
                 ,{ear2="Ethereal earring"
                  ,ring1="Defending ring"
                  ,back="Shadow mantle"})
-
-  sets.engaged.Apocalypse.Tank.SAM.AM 
-   = set_combine(sets.engaged.Apocalypse.Tank.SAM
-                ,{body="Valhalla breastplate"})
-
-  sets.engaged.Apocalypse.Tank.SAM.AMTank 
-   = set_combine(sets.engaged.Apocalypse.Tank.SAM.AM
-                ,{})
 
   -- rag engaged (no sam) ROSE STRAP
   sets.engaged.Ragnarok
@@ -536,15 +475,11 @@ function job_post_precast(spell,action,spellMap,eventArgs)
 end
 
 function job_buff_change(name,gain)
-
-  sleep_swap(name,gain)
-
-  if name:startswith('Aftermath') and player.equipment.main == 'Apocalypse' then
   
-    
-    adjust_melee_groups()
-    handle_equipping_gear(player.status)
-    
+  sleep_swap(name,gain)
+  
+  if name == 'Aftermath' and player.equipment.main == 'Apocalypse' then
+      handle_equipping_gear(player.status)
   end
   
   if name == 'Dark Seal' then
@@ -610,14 +545,6 @@ function adjust_melee_groups()
   if player.sub_job == 'SAM' then
     classes.CustomMeleeGroups:append('SAM')
   end
-  
-  if state.Buff.Aftermath then
-    if state.Tank.value or state.OffenseMode.value == 'Tank' then
-      classes.CustomMeleeGroups:append('AMTank')
-    else
-      classes.CustomMeleeGroups:append('AM')
-    end
-  end
 
 end
 
@@ -625,6 +552,28 @@ function customize_melee_set(meleeSet)
 
   if state.OffenseMode.value == 'Normal' and daytime then
     meleeSet = set_combine(meleeSet, {ear1="Fenrir's earring"})
+  end
+  
+  if buffactive['Aftermath'] and state.CombatWeapon.value == 'Apocalypse' then
+    if state.Tank.value then
+    
+      if state.OffenseMode.value == 'Tank' then
+        meleeSet = set_combine(meleeSet, {body="Valhalla body"})
+      else
+        meleeSet = set_combine(meleeSet, {legs="Dusk trousers +1",feet="Aurum sabatons"})
+      end
+      
+    else
+    
+      if state.OffenseMode.value == 'Tank' then
+        meleeSet = set_combine(meleeSet, {body="Valhalla body"})
+      elseif state.OffenseMode.value == 'Accuracy' then
+        meleeSet = set_combine(meleeSet, {legs="Armada breeches",feet="Aurum sabatons"})
+      else
+        meleeSet = set_combine(meleeSet, {legs="Onyx cuisses",feet="Onyx sollerets"})
+      end
+      
+    end
   end
 
   return meleeSet

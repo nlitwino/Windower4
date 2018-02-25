@@ -195,6 +195,7 @@ function init_gear_sets()
 	sets.midcast['Elemental Magic']
 	 = set_combine(sets.INT
 	              ,{main="Chatoyant staff"
+	               ,ear1="Novio earring"
 	               ,ear2="Moldavite earring"
                  ,body="Morgana's cotehardie"
 	               ,hands="Vicious mufflers"

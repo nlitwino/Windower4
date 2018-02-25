@@ -687,6 +687,10 @@ function job_post_midcast(spell,action,spellMap,eventArgs)
       
     end
   end
+  
+  if spell.skill == 'Elemental Magic' and state.CastingMode.value == 'TH' then
+    equip({main="Lotus katana"})
+  end
 
 end
 

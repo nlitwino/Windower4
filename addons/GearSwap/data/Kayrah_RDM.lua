@@ -205,7 +205,8 @@ function init_gear_sets()
 	
 	sets.midcast['Elemental Magic']
 	 = set_combine(sets.INT
-	              ,{ear1="Moldavite earring"
+	              ,{ear1="Novio earring"
+	               ,ear2="Moldavite earring"
 	               ,hands="Zenith mitts"
 	               ,feet="Duelist's boots"})
 	 
@@ -343,6 +344,10 @@ function job_midcast(spell,action,spellMap,eventArgs)
 end
 
 function job_post_midcast(spell,action,spellMap,eventsArgs)
+
+  if state.IdleMode.value == 'Combat' and state.CastingMode.value == 'Combat' then
+  
+  end
 
 	if spell.skill == 'Enhancing Magic' or (spell.skill == 'Healing Magic' and spellMap ~= 'Cure') then
 		if player.status == 'Idle' and state.IdleMode.value == 'Normal' and state.CastingMode.value ~= 'Combat' then

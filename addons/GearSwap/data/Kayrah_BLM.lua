@@ -185,7 +185,8 @@ function init_gear_sets()
 	
 	sets.midcast['Elemental Magic']
 	 = set_combine(sets.INT
-	              ,{ear2="Moldavite earring"
+	              ,{ear1="Novio earring"
+                 ,ear2="Moldavite earring"
 	               ,body="Oracle's robe"
 	               ,hands="Zenith mitts"
 	               ,feet="Sorcerer's sabots +1"})
