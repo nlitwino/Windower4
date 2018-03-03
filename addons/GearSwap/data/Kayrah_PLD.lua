@@ -108,7 +108,8 @@ function init_gear_sets()
                 
   sets.midcast['Healing Magic'].self
    = set_combine(sets.midcast['Healing Magic']
-                ,{ear1="Cassie earring"
+                ,{ammo="Fenrir's stone"
+                 ,ear1="Cassie earring"
                  ,ear2="Bloodbead earring"
                  ,body="Crimson scale mail"
                  ,ring2="Bloodbead ring"

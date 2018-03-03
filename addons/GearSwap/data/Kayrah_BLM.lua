@@ -19,7 +19,7 @@ end
 function user_setup()
 
   --combat modes
-  state.CastingMode:options('Normal','Accuracy','TH')
+  state.CastingMode:options('Normal','HybridAcc','Accuracy','TH')
 	
   state.MagicBurst = M(false, 'Magic Burst')
 	
@@ -187,9 +187,17 @@ function init_gear_sets()
 	 = set_combine(sets.INT
 	              ,{ear1="Novio earring"
                  ,ear2="Moldavite earring"
-	               ,body="Oracle's robe"
+	               ,body="Errant houppelande"
 	               ,hands="Zenith mitts"
+	               ,waist="Witch sash"
 	               ,feet="Sorcerer's sabots +1"})
+  
+  sets.midcast['Elemental Magic'].HybridAcc
+   = set_combine(sets.midcast['Elemental Magic']
+                ,{body="Errant houppelande"
+                 ,hands="Wizard's gloves +1"
+                 ,ring2="Omega ring"
+                 ,back=prism_cape['Magic Accuracy']})
 	
 	sets.midcast['Elemental Magic'].Accuracy
 	 = set_combine(sets.midcast['Elemental Magic']
@@ -260,6 +268,10 @@ function init_gear_sets()
 	sets.magic_burst
 	 = {hands="Sorcerer's gloves"
 	   ,ear1="Static earring"}
+	   
+  sets.weather_day
+   = {waist="Hachirin-no-obi"
+     ,legs="Sorcerer's tonban"}
 	
 end
 

@@ -71,7 +71,6 @@ function init_gear_sets()
      ,body="Antares harness"   
      ,hands="Hecatomb mittens +1"
      ,ring1="Rajas ring"         
-     ,ring2=toreador_ring['Critical Damage']
      ,back="Cuchulain's mantle"
      ,waist="Warwolf belt"       
      ,legs="Hecatomb subligar +1"
@@ -84,7 +83,6 @@ function init_gear_sets()
      ,body="Antares harness"   
      ,hands="Rogue's armlets +1" 
      ,ring1="Blobnag ring"       
-     ,ring2=toreador_ring['Critical Damage']
      ,back="Assassin's cape"   
      ,waist="Warwolf belt"       
      ,legs="Oily trousers"       
@@ -324,139 +322,117 @@ function init_gear_sets()
   -- SA WS
   sets.precast.WS.SA
    = set_combine(sets.precast.WS      
-                ,{ear1="Pixie earring"
-                 ,ring2=toreador_ring['Critical Damage']})
+                ,{ear1="Pixie earring"})
    
   sets.precast.WS.Power.SA
    = set_combine(sets.precast.WS.Power
-                ,{ear1="Pixie earring"
-                 ,ring2=toreador_ring['Critical Damage']})
+                ,{ear1="Pixie earring"})
    
   sets.precast.WS.Acc.SA
    = set_combine(sets.precast.WS.Acc  
-                ,{ear1="Pixie earring"
-                 ,ring2=toreador_ring['Critical Damage']})
+                ,{ear1="Pixie earring"})
 
   sets.precast.WS['Shark Bite'].SA
    = set_combine(sets.precast.WS['Shark Bite']
-                ,{ear1="Pixie earring"
-                 ,ring2=toreador_ring['Critical Damage']})
+                ,{ear1="Pixie earring"})
                 
   sets.precast.WS['Shark Bite'].Power.SA
    = set_combine(sets.precast.WS['Shark Bite'].Power
                 ,{ear1="Pixie earring"
-                 ,body="Hecatomb harness"
-                 ,ring2=toreador_ring['Critical Damage']})
+                 ,body="Hecatomb harness"})
                 
   sets.precast.WS['Shark Bite'].Acc.SA
    = set_combine(sets.precast.WS['Shark Bite'].Acc 
-                ,{ear1="Pixie earring"
-                 ,ring2=toreador_ring['Critical Damage']})
+                ,{ear1="Pixie earring"})
 
   sets.precast.WS['Mercy Stroke'].SA
    = set_combine(sets.precast.WS['Mercy Stroke']      
                 ,{ear1="Pixie earring"
-                 ,hands="Hecatomb mittens +1"
-                 ,ring2=toreador_ring['Critical Damage']})
+                 ,hands="Hecatomb mittens +1"})
                 
   sets.precast.WS['Mercy Stroke'].Power.SA
    = set_combine(sets.precast.WS['Mercy Stroke'].Power
                 ,{ear1="Pixie earring"
-                 ,hands="Hecatomb mittens +1"
-                 ,ring2=toreador_ring['Critical Damage']})
+                 ,hands="Hecatomb mittens +1"})
                 
   sets.precast.WS['Mercy Stroke'].Acc.SA
    = set_combine(sets.precast.WS['Mercy Stroke'].Acc  
-                ,{ear1="Pixie earring"
-                 ,ring2=toreador_ring['Critical Damage']})
+                ,{ear1="Pixie earring"})
 
   sets.precast.WS['Mandalic Stab'].SA
    = set_combine(sets.precast.WS['Mandalic Stab']      
-                ,{ear1="Pixie earring"
-                 ,ring2=toreador_ring['Critical Damage']})
+                ,{ear1="Pixie earring"})
                 
   sets.precast.WS['Mandalic Stab'].Power.SA
    = set_combine(sets.precast.WS['Mandalic Stab'].Power
                 ,{ear1="Pixie earring"
-                 ,body="Hecatomb harness"
-                 ,ring2=toreador_ring['Critical Damage']})
+                 ,body="Hecatomb harness"})
                 
   sets.precast.WS['Mandalic Stab'].Acc.SA
    = set_combine(sets.precast.WS['Mandalic Stab'].Acc  
                 ,{ear1="Pixie earring"
-                 ,body="Hecatomb harness"
-                 ,ring2=toreador_ring['Critical Damage']})
+                 ,body="Hecatomb harness"})
 
   -- TA WS
   sets.precast.WS.TA
    = set_combine(sets.precast.WS      
                 ,{head="Maat's cap"
                  ,ear1="Drone earring"
-                 ,hands="Rogue's armlets +1"
-                 ,ring2=toreador_ring['Critical Damage']})
+                 ,hands="Rogue's armlets +1"})
    
   sets.precast.WS.Power.TA
    = set_combine(sets.precast.WS.Power
                 ,{head="Maat's cap"
                  ,ear1="Drone earring"
-                 ,hands="Rogue's armlets +1"
-                 ,ring2=toreador_ring['Critical Damage']})
+                 ,hands="Rogue's armlets +1"})
    
   sets.precast.WS.Acc.TA
    = set_combine(sets.precast.WS.Acc  
                 ,{head="Maat's cap"
                  ,ear1="Drone earring"
-                 ,hands="Rogue's armlets +1"
-                 ,ring2=toreador_ring['Critical Damage']})
+                 ,hands="Rogue's armlets +1"})
 
   sets.precast.WS['Shark Bite'].TA
    = set_combine(sets.precast.WS['Shark Bite']
                 ,{ear1="Drone earring"
-                 ,hands="Rogue's armlets +1"
-                 ,ring2=toreador_ring['Critical Damage']})
+                 ,hands="Rogue's armlets +1"})
                  
   sets.precast.WS['Shark Bite'].Power.TA
    = set_combine(sets.precast.WS['Shark Bite'].Power
                 ,{head="Maat's cap"
                  ,ear1="Drone earring"
-                 ,hands="Rogue's armlets +1"
-                 ,ring2=toreador_ring['Critical Damage']})
+                 ,hands="Rogue's armlets +1"})
                  
   sets.precast.WS['Shark Bite'].Acc.TA
    = set_combine(sets.precast.WS['Shark Bite'].Acc  
                 ,{head="Maat's cap"
                  ,ear1="Drone earring"
                  ,body="Antares harness"
-                 ,hands="Rogue's armlets +1"
-                 ,ring2=toreador_ring['Critical Damage']})
+                 ,hands="Rogue's armlets +1"})
 
   sets.precast.WS['Mercy Stroke'].TA
    = set_combine(sets.precast.WS['Mercy Stroke']      
                 ,{head="Maat's cap"
                  ,ear1="Drone earring"
-                 ,hands="Rogue's armlets +1"
-                 ,ring2=toreador_ring['Critical Damage']})
+                 ,hands="Rogue's armlets +1"})
                  
   sets.precast.WS['Mercy Stroke'].Power.TA
    = set_combine(sets.precast.WS['Mercy Stroke'].Power
                 ,{head="Maat's cap"
                  ,ear1="Drone earring"
-                 ,hands="Rogue's armlets +1"
-                 ,ring2=toreador_ring['Critical Damage']})
+                 ,hands="Rogue's armlets +1"})
                  
   sets.precast.WS['Mercy Stroke'].Acc.TA
    = set_combine(sets.precast.WS['Mercy Stroke'].Acc  
                 ,{head="Maat's cap"
                  ,ear1="Drone earring"
-                 ,hands="Rogue's armlets +1"
-                 ,ring2=toreador_ring['Critical Damage']})
+                 ,hands="Rogue's armlets +1"})
 
   sets.precast.WS['Mandalic Stab'].TA
    = set_combine(sets.precast.WS['Mandalic Stab']
                 ,{head="Maat's cap"
                  ,ear1="Drone earring"
                  ,hands="Rogue's armlets +1"
-                 ,ring2=toreador_ring['Critical Damage']
                  ,back="Assassin's cape"})
   
   sets.precast.WS['Mandalic Stab'].Power.TA
@@ -464,7 +440,6 @@ function init_gear_sets()
                 ,{head="Maat's cap"
                  ,ear1="Drone earring"
                  ,hands="Rogue's armlets +1"
-                 ,ring2=toreador_ring['Critical Damage']
                  ,back="Assassin's cape"})
   
   sets.precast.WS['Mandalic Stab'].Acc.TA
@@ -473,7 +448,6 @@ function init_gear_sets()
                  ,ear1="Drone earring"
                  ,body="Antares harness"
                  ,hands="Rogue's armlets +1"
-                 ,ring2=toreador_ring['Critical Damage']
                  ,back="Assassin's cape"})
 
   -- SATA WS

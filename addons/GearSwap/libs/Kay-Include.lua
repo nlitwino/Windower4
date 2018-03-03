@@ -76,7 +76,7 @@ function initialize_custom_augments(name)
     toreador_ring
 	   = {["Triple Attack (1)"] = { name="Toreador's Ring", augments={'Accuracy+5','"Triple Atk."+2',}}
 	     ,["Triple Attack (2)"] = { name="Toreador's Ring", augments={'"Triple Atk."+2','Accuracy+4',}}
-	     ,["Critical Damage"]   = { name="Toreador's Ring", augments={'Attack+4','Crit. hit damage +5%',}}}
+	     ,["Ranged Attack"]     = { name="Toreador's Ring", augments={'Rng.Atk.+5','Rng.Atk.+7',}}}
 	     
     scorpion_harness
      = {["Haste"]      = { name="Scorpion Harness +1", augments={'Haste+11',}}

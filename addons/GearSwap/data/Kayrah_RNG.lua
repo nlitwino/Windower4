@@ -217,7 +217,7 @@ function init_gear_sets()
      ,body="Kyudogi +1"     
      ,hands="Blood finger gauntlets"
      ,ring1="Rajas ring"     
-     ,ring2="Cerberus ring +1"
+     ,ring2=toreador_ring['Ranged Attack']
      ,back="Amemet mantle +1"
      ,waist="Scout's belt"          
      ,legs="Hachiryu haidate"
@@ -226,14 +226,16 @@ function init_gear_sets()
   sets.midcast.RA.HybridAcc                 
   = set_combine(sets.midcast.RA
                ,{ear2="Hollow earring"
-                ,ring2="Behemoth ring +1"
+                ,ring1="Behemoth ring +1"
                 ,feet="Hachiryu sune-ate"})
                 
   sets.midcast.RA.Acc                       
-  = set_combine(sets.midcast.RA.HybridAcc
+  = set_combine(sets.midcast.RA
                ,{hands="Seiryu's kote"
+                ,ring2="Dragon ring +1"
                 ,back="Mamool Ja mantle"
-                ,legs="Dusk trousers +1"})
+                ,legs="Dusk trousers +1"
+                ,feet="Hachiryu sune-ate"})
 
   -- midcast anni (AXE GRIP)
   sets.midcast.RA.Anni
@@ -246,8 +248,7 @@ function init_gear_sets()
                 
   sets.midcast.RA.Anni.Acc                 
    = set_combine(sets.midcast.RA.Acc
-                ,{ring1="Rajas ring"
-                 ,ring2="Behemoth ring +1"})
+                ,{})
 
   -- midcast yoichi (ROSE STRAP)
   sets.midcast.RA.Yoichi                    
@@ -292,7 +293,7 @@ function init_gear_sets()
    
   sets.precast.WS['Sidewinder'].Power
    = set_combine(sets.precast.WS['Sidewinder']
-                ,{ring2="Cerberus ring +1"})
+                ,{ring2=toreador_ring['Ranged Attack']})
    
   sets.precast.WS['Sidewinder'].Acc
    = set_combine(sets.precast.WS['Sidewinder']
@@ -333,7 +334,7 @@ function init_gear_sets()
   sets.precast.WS['Slug Shot'].Power
    = set_combine(sets.precast.WS['Slug Shot']
                 ,{hands="Blood finger gauntlets"
-                 ,ring2="Cerberus ring +1"
+                 ,ring2=toreador_ring['Ranged Attack']
                  ,feet="Scout's socks +1"})
    
   sets.precast.WS['Slug Shot'].Acc
@@ -355,24 +356,20 @@ function init_gear_sets()
   sets.precast.WS['Coronach']
    = set_combine(sets.precast.WS
                 ,{ear2="Drone earring"
-                 ,ring2="Cerberus ring +1"
+                 ,ring2=toreador_ring['Ranged Attack']
                  ,feet="Hunter's socks +1"})
                 
   sets.precast.WS['Coronach'].Power
    = set_combine(sets.precast.WS['Coronach']
                 ,{ear1="Triumph earring"
                  ,hands="Blood finger gauntlets"
-                 ,ring2="Cerberus ring +1"
+                 ,ring2=toreador_ring['Ranged Attack']
                  ,feet="Scout's socks +1"})
   
   sets.precast.WS['Coronach'].Acc
    = set_combine(sets.precast.WS['Coronach']
                 ,{ear2="Hollow earring"
                  ,feet="Hachiryu sune-ate"})
-                 
-  sets.precast.WS['Coronach'].Test
-   = set_combine(sets.precast.WS['Coronach'].Power
-                ,{ring2="Strigoi ring"})
                 
   -- custom EES
   sets.precast.JA['Eagle Eye Shot']

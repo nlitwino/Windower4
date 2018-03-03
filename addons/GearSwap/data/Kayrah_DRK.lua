@@ -165,7 +165,7 @@ function init_gear_sets()
                  
   sets.midcast['Dread Spikes']        
    = set_combine(sets.midcast.FastRecast
-                ,{ammo="White tathlum"
+                ,{ammo="Fenrir's stone"
                  ,neck="Bloodbead gorget"
                  ,ear1="Bloodbead earring"
                  ,ear2="Crimson earring"
@@ -552,6 +552,10 @@ function customize_melee_set(meleeSet)
 
   if state.OffenseMode.value == 'Normal' and daytime then
     meleeSet = set_combine(meleeSet, {ear1="Fenrir's earring"})
+  end
+  
+  if state.CombatWeapon.value = 'Zerg' and daytime then
+    meleeSet = set_combine(meleeSet,{ammo="Fenrir's stone"})
   end
   
   if buffactive['Aftermath'] and state.CombatWeapon.value == 'Apocalypse' then

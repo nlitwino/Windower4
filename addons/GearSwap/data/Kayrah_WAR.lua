@@ -258,7 +258,6 @@ function init_gear_sets()
   sets.engaged.DW.Acc
    = set_combine(sets.engaged.DW
                 ,{ammo="Fire bomblet"
-                 ,ring2=toreador_ring['Critical Damage']
                  ,back="Cuchulain's mantle"
                  ,feet="Aurum sabatons"})
 
@@ -441,10 +440,6 @@ function job_post_precast(spell,action,spellMap,eventsArgs)
       else
         equip({ear1="Merman's earring"})
       end
-    end
-    
-    if state.Buff['Mighty Strikes'] then
-      equip({ring2=toreador_ring['Critical Damage']})
     end
     
     if player.sub_job == 'SAM' then

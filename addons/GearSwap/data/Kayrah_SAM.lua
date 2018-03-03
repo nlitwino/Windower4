@@ -26,7 +26,7 @@ function user_setup()
 
   state.OffenseMode:options('Normal','Acc')
   state.RangedMode:options('Normal','Acc')
-  state.WeaponskillMode:options('Normal','Acc')
+  state.WeaponskillMode:options('Normal','MidAttack','HighAttack')
   state.PhysicalDefenseMode:options('PDT')
   state.MagicalDefenseMode:options('MDT')
 
@@ -35,7 +35,7 @@ end
 function init_gear_sets()
 
   -- misc.
-  sets.enmity
+  sets.enmityUp
    = {head="Aegishjalmr"
      ,neck="Ritter gorget"
      ,body="Avalon breastplate"
@@ -45,6 +45,12 @@ function init_gear_sets()
      ,waist="Trance belt"
      ,legs="Saotome haidate"
      ,feet="Myochin sune-ate"}
+     
+  sets.enmityDown
+   = {head="Zha'Go's barbut"
+     ,ear1="Novia earring"
+     ,ring1="Veela ring"
+     ,waist="Buccaneer's belt"}
 
   -- precast ja
   sets.precast.JA['Meditate']
@@ -169,7 +175,7 @@ function init_gear_sets()
      ,ring2="Dragon ring +1"
      ,back="Amemet mantle +1"
      ,waist="Buccaneer's belt"
-     ,legs="Dusk trousers" 
+     ,legs="Dusk trousers +1" 
      ,feet="Hachiryu sune-ate"}
 
   sets.midcast.RA
@@ -178,7 +184,7 @@ function init_gear_sets()
                  ,body="Kyudogi +1" })
   sets.midcast.RA.Acc
    = set_combine(sets.midcast.RA.Acc
-                ,{ring1="Bemeoth ring +1"})
+                ,{ring1="Behemoth ring +1"})
 
   -- GK ws (186tp)
   sets.precast.WS 
@@ -195,25 +201,86 @@ function init_gear_sets()
      ,legs="Hachiryu haidate"
      ,feet="Rutter sabatons"}
      
-  sets.precast.WS.Acc
+  sets.precast.WS.MidAttack
+   = set_combine(sets.precast.WS
+                ,{hands="Alkyoneus's bracelets"
+                 ,waist="Warwolf belt"})
+     
+  sets.precast.WS.HighAttack
+   = set_combine(sets.precast.WS.MidAttack
+                ,{head="Maat's cap"
+                 ,body="Kirin's osode"})
+   
+  -- 75% STR / 2x attack
+  sets.precast.WS['Tachi: Gekko']
+   = set_combine(sets.precast.WS
+                ,{}) 
+                
+  sets.precast.WS['Tachi: Gekko'].MidAttack
+   = set_combine(sets.precast.WS['Tachi: Gekko']
+                ,{hands="Alkyoneus's bracelets"
+                 ,waist="Warwolf belt"})
+                 
+  sets.precast.WS['Tachi: Gekko'].HighAttack
+   = set_combine(sets.precast.WS['Tachi: Gekko'].MidAttack
+                ,{head="Maat's cap"
+                 ,body="Kirin's osode"})
+  
+  -- 75% STR / 1.5x attack
+  sets.precast.WS['Tachi: Kasha']
+   = set_combine(sets.precast.WS
+                ,{}) 
+                
+  sets.precast.WS['Tachi: Kasha'].MidAttack
+   = set_combine(sets.precast.WS['Tachi: Kasha']
+                ,{hands="Alkyoneus's bracelets"})
+                 
+  sets.precast.WS['Tachi: Kasha'].HighAttack
+   = set_combine(sets.precast.WS['Tachi: Kasha'].MidAttack
+                ,{head="Maat's cap"
+                 ,body="Kirin's osode"
+                 ,waist="Warwolf belt"})
+  
+  -- Kasha Clone
+  sets.precast.WS['Tachi: Shoha']
+   = set_combine(sets.precast.WS['Tachi: Kasha']
+                ,{}) 
+                
+  sets.precast.WS['Tachi: Shoha'].MidAttack
+   = set_combine(sets.precast.WS['Tachi: Kasha'].MidAttack
+                ,{})
+                 
+  sets.precast.WS['Tachi: Shoha'].HighAttack
+   = set_combine(sets.precast.WS['Tachi: Kasha'].HighAttack
+                ,{})
+  
+  -- 60% STR / 1x attack
+  sets.precast.WS['Tachi: Kaiten']
    = set_combine(sets.precast.WS
                 ,{})
-
-  -- sets.precast.WS['Tachi: Yukikaze']        = {}
-  -- sets.precast.WS['Tachi: Yukikaze'].Acc    = {}
-
-  -- sets.precast.WS['Tachi: Gekko']           = {}
-  -- sets.precast.WS['Tachi: Gekko'].Acc       = {}
-
-  -- sets.precast.WS['Tachi: Kasha']           = {}
-  -- sets.precast.WS['Tachi: Kasha'].Acc       = {}
-
-  -- sets.precast.WS['Tachi: Shoha']           = {}
-  -- sets.precast.WS['Tachi: Shoha'].Acc       = {}
-
-  -- sets.precast.WS['Tachi: Kaiten']          = {}
-  -- sets.precast.WS['Tachi: Kaiten'].Acc      = {}
-
+                
+  sets.precast.WS['Tachi: Kaiten'].MidAttack
+   = set_combine(sets.precast.WS['Tachi: Kaiten']
+                ,{})
+                
+  sets.precast.WS['Tachi: Kaiten'].HighAttack
+   = set_combine(sets.precast.WS['Tachi: Kaiten'].MidAttack
+                ,{})
+  
+  -- 40% STR / 1x attack
+  sets.precast.WS['Tachi: Rana']
+   = set_combine(sets.precast.WS
+                ,{ring1=toreador_ring['Triple Attack (2)']
+                 ,ring2=toreador_ring['Triple Attack (1)']})
+                
+  sets.precast.WS['Tachi: Rana'].MidAttack
+   = set_combine(sets.precast.WS['Tachi: Rana']
+                ,{})
+                
+  sets.precast.WS['Tachi: Rana'].HighAttack
+   = set_combine(sets.precast.WS['Tachi: Rana'].MidAttack
+                ,{})
+  
   -- Bow ws
   sets.precast.WS['Sidewinder']
    = {head="Maat's cap"      
@@ -231,7 +298,7 @@ function init_gear_sets()
      
   sets.precast.WS['Sidewinder'].Acc
    = set_combine(sets.precast.WS['Sidewinder']
-                ,{legs="Oily trousers"})
+                ,{})
 
   sets.precast.WS['Jishnu\'s Radiance'] 	  = set_combine(sets.precast.WS['Sidewinder'],{})
   sets.precast.WS['Jishnu\'s Radiance'].Acc = set_combine(sets.precast.WS['Sidewinder'].Acc,{})
@@ -249,32 +316,45 @@ function job_post_precast(spell,action,spellMap,eventArgs)
     currentAM = 'GK'
   end
   
-  
-  if spell.name:startswith('Tachi') then 
+  if spell.name:startswith('Tachi') then
     if player.equipment.ranged == 'empty' then
       if state.CombatWeapon.value == 'Nanatsu' and spell.name ~= 'Tachi: Rana' then
-        equip({ammo="White tathlum",body="Hachiryu haramaki",feet="Hachiman sune-ate +1"})
+      
+        equip({feet="Hachiman sune-ate +1"})
+        
+        if state.WeaponskillMode.value == 'HighAttack' then
+          equip({ammo="Black tathlum",body="Hachiman domaru +1"})
+        else
+          equip({ammo="White tathlum",body="Hachiryu haramaki"})
+        end
+        
       else
         equip({ammo="Black tathlum"})
       end
     else
-    if state.CombatWeapon.value == 'Nanatsu' and spell.name ~= 'Tachi: Rana' then
+      if state.CombatWeapon.value == 'Nanatsu' and spell.name ~= 'Tachi: Rana' then
         equip({body="Hachiman domaru +1",feet="Hachiman sune-ate +1"})
       end
     end
   end
   
-  if spell.type == 'JobAbility' and state.OffenseMode.value == 'Tank' then
-    equip(set_combine(sets.enmity,sets.precast.JA[spell.name]))
+  if spell.type == 'JobAbility' then
+    if state.Tank.value then
+      equip(set_combine(sets.enmityUp,sets.precast.JA[spell.english]) or sets.enmityUp)
+    else
+      equip(set_combine(sets.enmityDown,sets.precast.JA[spell.english]) or sets.enmityDown)
+    end
   end
 
-  if spell.type == 'WeaponSkill' and (spell.skill == 'Marksmanship' or spell.skill == 'Archery') then
-    if state.WeaponskillMode.value ~= 'Acc' then
+  if spell.type == 'WeaponSkill' then
+    if spell.skill == 'Archery' then
       if daytime then
         equip({ear1="Ladybug earring +1",ear2="Ladybug earring +1"})
       else
         equip({ear1="Fenrir's earring"})
       end
+    elseif state.WeaponskillMode.value == 'HighAttack' and daytime then
+      equip({ear1="Fenrir's earring"})
     end
   end
 
@@ -283,6 +363,7 @@ end
 function job_buff_change(name,gain)
 
   sleep_swap(name,gain)
+  
   if name:startswith('Aftermath') and currentAM == 'GK' then
     state.Buff['Aftermath'] = gain
     adjust_melee_groups()
@@ -324,11 +405,12 @@ function customize_melee_set(meleeSet)
     else
       meleeSet = set_combine(meleeSet,{ammo="Black tathlum"})
     end
-  
   end
+  
   if state.Buff['Seigan'] then
     meleeSet = set_combine(meleeSet,{legs="Saotome haidate"})
   end
+  
   return meleeSet
 
 end
@@ -344,7 +426,9 @@ function job_status_change(new,old)
     else
       state.CombatWeapon:reset()
     end
+    
     adjust_melee_groups()
+    
   end
 
 end

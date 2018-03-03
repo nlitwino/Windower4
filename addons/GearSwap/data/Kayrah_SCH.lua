@@ -391,6 +391,9 @@ function customize_idle_set(idleSet)
 
 	if state.Buff['Sublimation: Activated'] then
 		idleSet = set_combine(idleSet,sets.sublimation)
+		if daytime then
+		  idleSet = set_combine(idleSet,{ammo="Fenrir's stone"})
+		end
 	else
 		if player.mpp > 95 then 
 			idleSet = set_combine(idleSet,{main="Terra's staff"})
