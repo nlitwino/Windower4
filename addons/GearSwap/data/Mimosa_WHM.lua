@@ -20,7 +20,7 @@ end
 
 function init_gear_sets()
 
-	--Misc.
+	-- misc
 	sets.MND 													= {sub="Bugard leather strap +1", head="Healer's cap", neck="Holy phial", ear1="Mamool Ja earring", ear2="Star earring", body="Errant houppelande", hands="Blessed mitts", ring1="Tamas ring", ring2="Star ring", back="Prism cape", waist="Cleric's belt", legs="Blessed trousers", feet="Cleric's duckbills"}
 	sets.INT 													= {sub="Bugard leather strap +1", body="Errant houppelande", ring1="Tamas ring", ring2="Snow ring", back="Prism cape", legs="Jet seraweels"}
 	sets.resting 												= {main="Chatoyant staff", sub="Bugard leather strap +1 +1", body="Errant houppelande", hands="Oracle's gloves", back="Invigorating cape",feet="Oracle's Pigaches"}

@@ -74,7 +74,7 @@ function init_gear_sets()
 	                                                   
 	sets.midcast['Divine Magic']                       = set_combine(sets.MND,{})
 	                                                   
-	sets.midcast['Enfeebling Magic']                   = {head="Duelist's chapeau",neck="Spider torque",body="Warlock's tabard",feet="Avocat pigaches"}
+	sets.midcast['Enfeebling Magic']                   = {head="Duelist's chapeau",neck="Enfeebling torque",body="Warlock's tabard",feet="Avocat pigaches"}
 	                                                   
 	sets.midcast['Enfeebling Magic']['BlackMagic']     = set_combine(sets.INT,{})
 	sets.midcast['Enfeebling Magic']['BlackMagic'].Acc = set_combine(sets.midcast['Enfeebling Magic']['BlackMagic'],sets.midcast['Enfeebling Magic'],{ammo="Sturm's report"})

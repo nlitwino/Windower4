@@ -107,6 +107,9 @@ function init_gear_sets()
      ,Lightning = {sub="Thunder Grip"}
      ,Light 	  = {sub="Light Grip"}
      ,Dark 	    = {sub="Dark Grip"}}
+     
+  sets.organizer
+   = {head="Argute mortarboard"}
 	
 	-- idle/resting
 	sets.idle

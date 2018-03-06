@@ -554,7 +554,7 @@ function customize_melee_set(meleeSet)
     meleeSet = set_combine(meleeSet, {ear1="Fenrir's earring"})
   end
   
-  if state.CombatWeapon.value = 'Zerg' and daytime then
+  if state.CombatWeapon.value == 'Zerg' and daytime then
     meleeSet = set_combine(meleeSet,{ammo="Fenrir's stone"})
   end
   

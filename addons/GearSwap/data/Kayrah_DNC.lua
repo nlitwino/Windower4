@@ -286,7 +286,7 @@ function init_gear_sets()
 
   sets.precast.WS['Pyrrhic Kleos']
    = set_combine(sets.precast.WS
-                ,{})
+                ,{hands="Enkidu's mittens"})
 
   sets.precast.WS['Pyrrhic Kleos'].HNM
    = set_combine(sets.precast.WS.HNM

@@ -42,7 +42,7 @@ end
 
 function init_gear_sets()
 
-	--Misc
+	-- misc
 	sets.MND 
 	 = {ammo="Sturm's report"
 	   ,head="Maat's cap"             
@@ -54,7 +54,7 @@ function init_gear_sets()
 		 ,ring1="Tamas ring"	  
 		 ,ring2="Star ring"
 		 ,back=prism_cape['Fast Cast']           
-		 ,waist="Duelist's belt"
+		 ,waist="Witch sash"
 		 ,legs="Mahatma slops"    
 		 ,feet="Mahatma pigaches"}
 		 
@@ -69,7 +69,7 @@ function init_gear_sets()
 	   ,ring1="Tamas ring"    
 	   ,ring2="Snow ring"
 	   ,back=prism_cape['Fast Cast']             
-	   ,waist="Duelist's belt"       
+	   ,waist="Witch sash"       
 	   ,legs="Mahatma slops"  
 	   ,feet="Wise pigaches"}
 	
@@ -224,7 +224,6 @@ function init_gear_sets()
 	 = set_combine(sets.INT
 	              ,{ammo="Sturm's report"
 	               ,neck="Dark torque"
-	               ,ear2="Loquacious earring"
 	               ,body="Nashira manteel"
 	               ,hands="Blood finger gauntlets"
                  ,ring2="Omega ring"
