@@ -80,6 +80,14 @@ function init_gear_sets()
      ,legs="Commodore culottes"
      ,feet="Commodore bottes"}
      
+  organizer_items
+   = {echos="Echo drops"
+     ,shihei="Shihei"
+     ,corsair_bullet="Corsair bullet"
+     ,cb_pouch="Corsair bullet pouch"
+     ,trump_card="Trump card"
+     ,trump_card_case="Trump card case"}
+     
   -- precast ja
   sets.precast.JA['Phantom Roll']
    = {head="Commodore tricorne"}
