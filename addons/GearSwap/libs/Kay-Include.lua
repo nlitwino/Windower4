@@ -23,6 +23,9 @@ function job_self_command(commandArgs,eventArgs)
 	elseif commandArgs[1] == 'lock_ranged' then
     lock_ranged()
     eventArgs.handled = true
+  elseif commandArgs[1] == 'handle_shot' then
+    handle_shot()
+    eventArgs.handled = true
   end
     
 end

@@ -12,20 +12,7 @@ function job_setup()
 	--kay library settings
 	include('Kay-Include.lua')
 	
-	-- custom state buffs
-	state.Buff['Bust'] = buffactive['Bust'] or false
-	
-	current_dice = 'Chaos Roll' -- default
-	
 	initialize_job()
-
-  initialize_job()
-
-  --get main and sub weapons for regear function
-  gear.ammo = player.equipment.ammo
-  
-  send_command('gs equip sets.lockstyle')
-  send_command('wait 3;input /lockstyle on; gs c update')
 	
 end
 
@@ -34,6 +21,22 @@ function user_setup()
   state.OffenseMode:options('Normal','DW','HNM')
   state.RangedMode:options('Normal','HybridAcc','Acc')
   state.WeaponskillMode:options('Normal','Power','Acc')
+  
+  state.Luzaf = M(false, 'Luzaf')
+
+  --get main and sub weapons for regear function
+  gear.ammo = player.equipment.ammo
+  
+  send_command('gs equip sets.lockstyle')
+  send_command('wait 3;input /lockstyle on; gs c update')
+  
+  -- custom state buffs
+  state.Buff['Bust'] = buffactive['Bust'] or false
+  
+  current_dice = 'Chaos Roll' -- default
+  
+  --bind combat mode cycles
+  send_command('bind !f9 gs c toggle Luzaf')
 	
 end
 
@@ -264,6 +267,10 @@ function job_post_precast(spell,action,spellMap,eventArgs)
 
 	if spell.type == 'CorsairRoll' or spell.english == 'Double-Up' then
 		
+		if state.Luzaf.value then
+		  equip({ring2="Luzaf's ring"})
+		end
+		
 		if spell.type == 'CorsairRoll' then
 			current_dice = spell.english
 		end
@@ -342,4 +349,26 @@ function customize_idle_set(idleSet)
   
   return idleSet
   
+end
+
+function handle_shot()
+
+  local shotName = ''
+  
+  if (world.weather_element ~= 'Dark' and world.weather_element ~= 'Light') and (world.day_element ~= 'Dark' and world.day_element ~= 'Light') then
+  
+    if world.weather_element ~= 'None' and (get_weather_intensity() > 0 or world.weather_element ~= elements.weak_to[world.day_element]) then
+      shotName = world.weather_element..' Shot'
+    else
+      shotName = world.day_element..' Shot'
+    end
+    
+  else
+  
+    shotName = 'Earth Shot'
+    
+  end
+    
+  send_command('input /ja "'..shotName..'" <t>')
+
 end
