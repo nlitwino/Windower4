@@ -32,7 +32,7 @@ function user_setup()
 
   spikes            = S{'Blaze Spikes','Shock Spikes','Ice Spikes'}
   
-  bard_debuffs      = S{'Lullaby','Magic Finale','Elegy','Requiem','Threnody'}
+  bard_debuffs      = S{'Lullaby','Elegy','Requiem','Threnody'}
 
   casting_mode = ''
 
@@ -107,22 +107,22 @@ function init_gear_sets()
      ,range="Gjallarhorn"
      ,head="Darksteel cap +1" 
      ,neck="Chocobo whistle"       
-     ,ear1="Merman's earring"
+     ,ear1="Astral earring"
      ,ear2="Merman's earring"
      ,body="Dalmatica"    
-     ,hands="Sheikh gages"         
+     ,hands="Zenith mitts"         
      ,ring1="Merman's ring"      
-     ,ring2="Merman's ring"
+     ,ring2="Serket ring"
      ,back="Hexerei cape" 
      ,waist="Resolute belt"      
-     ,legs="Byakko's haidate"    
-     ,feet="Suzaku's sune-ate"}
+     ,legs="Zenith slacks"    
+     ,feet="Rostrum pumps"}
      
   sets.idle.Town
    = set_combine(sets.idle
                 ,{neck="Orochi nodowa"
                  ,back="Nexus cape"
-                 ,ring2="Warp ring"})
+                 ,ring1="Warp ring"})
 
   sets.resting
    = {main="Chatoyant staff"
@@ -145,16 +145,8 @@ function init_gear_sets()
 
   sets.precast.FC['BardSong']
    = set_combine(sets.precast.FC
-                ,{range="Gjallarhorn"
-                 ,head="Faerie hairpin"
-                 ,neck="Morgana's choker"
-                 ,ear1="Astral earring"
-                 ,body="Sha'ir manteel"
-                 ,hands="Zenith mitts"
-                 ,ring1="Minstrel's ring"
-                 ,ring2="Serket ring"
-                 ,waist="Penitent's rope"
-                 ,legs="Zenith slacks"})
+                ,{body="Sha'ir manteel"
+                 ,ring1="Minstrel's ring"})
 
   -- midcast magic
   sets.midcast.FastRecast
@@ -354,20 +346,9 @@ function job_precast(spell,action,spellMap,eventArgs)
       end
 
     end
+    
   end
 
-end
-
-function job_post_precast(spell,action,spellMap,eventArgs)
-  
-  if spell.skill == 'BardSong' then
-    if player.status == 'Idle' and state.IdleMode.value == 'Normal' and state.CastingMode.value ~= 'Combat' then
-      equip({main="Alkalurops"})
-    else
-      equip({back="Ixion cape"})
-    end
-  end
-  
 end
 
 -- Enfeebling magic handling
@@ -403,7 +384,7 @@ function job_post_midcast(spell,action,spellMap,eventsArgs)
           equip({sub="Bugard leather strap +1"})
         end 
         
-      elseif spell.skill == 'BardSong' then
+      elseif spell.type == 'BardSong' then
         equip({main="Chatoyant staff",sub="Bugard leather strap +1"})
       elseif spell.english == 'Stoneskin' then
         equip({main="Alkalurops"})
@@ -433,14 +414,14 @@ function job_post_midcast(spell,action,spellMap,eventsArgs)
 end
 
 function job_get_spell_map(spell,spellMap,default_spell_map)
-  
+
   if spell.skill == 'Enfeebling Magic' and sleeps:contains(spell.english) then
     return 'Sleep'
   elseif spell.skill == 'Elemental Magic' and elemental_debuffs:contains(spell.english) then
     return 'EleEnfeebs'
   elseif spell.skill == 'Enhancing Magic' and spikes:contains(spell.english) then
     return 'Spikes'
-  elseif bard_debuffs:contains(spellMap) then
+  elseif bard_debuffs:contains(spellMap) or spell.english == 'Magic Finale' then
     return 'BardDebuff'
   end
  

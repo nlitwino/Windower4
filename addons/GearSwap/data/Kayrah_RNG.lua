@@ -28,7 +28,7 @@ function user_setup()
   -- Setup appropriate modes
   state.OffenseMode:options('Normal','DW','HNM')
   state.RangedMode:options('Normal','HybridAcc','Acc')
-  state.WeaponskillMode:options('Normal','Power','Acc','Test')
+  state.WeaponskillMode:options('Normal','Power','Acc')
 
 end
 
@@ -415,6 +415,7 @@ function job_precast(spell,action,spellMap,eventArgs)
   if spell.action_type == 'Ranged Attack' or spell.type == 'WeaponSkill' and (spell.skill == 'Marksmanship' or spell.skill == 'Archery') then
     ammo_recharge()
   end
+  
 end
 
 function job_post_precast(spell,action,spellMap,eventsArgs)
@@ -434,16 +435,18 @@ function job_post_precast(spell,action,spellMap,eventsArgs)
   end
 
   if spell.type == 'WeaponSkill' and (spell.skill == 'Marksmanship' or spell.skill == 'Archery') then
+  
     if state.WeaponskillMode.value == 'Power' then
       if daytime then
-        equip({ear1="Ladybug earring +1",ear1="Ladybug earring +1"})
+        equip({ear1="Ladybug earring +1",ear2="Ladybug earring +1"})
       else
         equip({ear1="Fenrir's earring"})
       end
     end
+    
   end
   
-  if spell.name == 'Eagle Eye Shot' then
+  if spell.name == 'Eagle Eye Shot' and state.OffenseMode.value ~= 'Acc' then
     if daytime then
       equip({ear1="Ladybug earring +1",ear2="Ladybug earring +1"})
     else
@@ -505,7 +508,13 @@ end
 function customize_idle_set(idleSet)
 
   if player.hpp < 75 and daytime then
-    idleSet = set_combine(idleSet,{head="Crimson mask",hands="Garden bangles",waist="Lycopodium sash"})
+    
+    idleSet = set_combine(idleSet,{head="Crimson mask"})
+    
+    if daytime then
+      idleSet = set_combine(idleSet,{hands="Garden bangles",waist="Lycopodium sash"})
+    end
+    
   end
   
   return idleSet

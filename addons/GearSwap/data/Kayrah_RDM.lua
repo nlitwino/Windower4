@@ -94,7 +94,7 @@ function init_gear_sets()
 		 ,ear1="Merman's earring"
 		 ,ear2="Merman's earring"
 		 ,body="Dalmatica"        
-		 ,hands="Blood finger gauntlets"
+		 ,hands="Duelist's gloves"
 		 ,ring1="Defending ring" 
 		 ,ring2="Shadow ring"
      ,back="Shadow mantle"    
@@ -321,7 +321,7 @@ function init_gear_sets()
 	   ,neck="Fotia gorget"          
 	   ,ear1="Merman's earring"
 	   ,ear2="Brutal earring"
-		 ,body="Scorpion harness +1"
+		 ,body="Antares harness"
 		 ,hands="Tarasque mitts +1"
 		 ,ring1=toreador_ring['Triple Attack (1)']  
      ,ring2="Strigoi ring"     
@@ -350,7 +350,7 @@ function job_post_midcast(spell,action,spellMap,eventsArgs)
 
 	if spell.skill == 'Enhancing Magic' or (spell.skill == 'Healing Magic' and spellMap ~= 'Cure') then
 		if player.status == 'Idle' and state.IdleMode.value == 'Normal' and state.CastingMode.value ~= 'Combat' then
-			equip({main="Seveneyes",sub="Genbu's shield"})
+			equip({main="Seveneyes",sub="Muse tariqah"})
 		end
 	elseif spellMap == 'Cure' then
     equip({main="Chatoyant staff",sub="Raptor leather strap +1"})
@@ -435,10 +435,16 @@ end
 
 function customize_idle_set(idleSet)
 
-  if daytime then 
-    idleSet = set_combine(idleSet,{hands="Garden bangles",waist="Lycopodium sash"})
+  if player.hpp < 75 and daytime then
+    
+    idleSet = set_combine(idleSet,{head="Crimson mask"})
+    
+    if daytime then
+      idleSet = set_combine(idleSet,{hands="Garden bangles",waist="Lycopodium sash"})
+    end
+    
   end
-
+  
   return idleSet
   
 end

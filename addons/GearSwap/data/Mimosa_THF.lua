@@ -61,7 +61,7 @@ function init_gear_sets()
 	                                         
 	-- idle                                  
 	sets.idle                                = {head="Hecatomb cap"  ,neck="Chocobo whistle"  ,ear1="Suppanomimi"      ,ear2="Brutal earring"
-										       ,body="Homam corazza" ,hands="Hecatomb mittens",ring1="Rajas ring"      ,ring2="Celerity ring"
+										       ,body="Homam corazza" ,hands="Hecatomb mittens +1",ring1="Rajas ring"      ,ring2="Celerity ring"
 										       ,back="Cerberus cape" ,waist="Lycopodium sash" ,legs="Hecatomb subligar",feet="Trotter boots"}
 	sets.idle.Town                           = set_combine(sets.idle,{back="Nexus cape",ring2="Warp ring"})
 	                                         
@@ -88,7 +88,7 @@ function init_gear_sets()
 	                                         
 	-- ws                                    
 	sets.precast.WS                          = {head="Hecatomb cap"     ,neck="Spike necklace"   ,ear1="Pixie earring"    ,ear2="Brutal earring"
-										       ,body="Enkidu's harness" ,hands="Hecatomb mittens",ring1="Rajas ring"      ,ring2="Flame ring"
+										       ,body="Enkidu's harness" ,hands="Hecatomb mittens +1",ring1="Rajas ring"      ,ring2="Flame ring"
 										       ,back="Amemet mantle"    ,waist="Warwolf belt"    ,legs="Hecatomb subligar",feet="Enkidu's leggings"}
 	sets.precast.WS.HNM                      = set_combine(sets.precast.WS,{head="Hecatomb cap",ear1="Bushinomimi",body="Hecatomb harness",feet="Hecatomb leggings +1"})
 	                                         
@@ -118,8 +118,8 @@ function init_gear_sets()
 	sets.precast.WS['Shark Bite'].SA         = set_combine(sets.precast.WS['Shark Bite'],sets.buff['Sneak Attack'])
 	sets.precast.WS['Shark Bite'].HNM.SA     = set_combine(sets.precast.WS['Shark Bite'].HNM,sets.buff['Sneak Attack'])
 	
-	sets.precast.WS['Mercy Stroke'].SA       = set_combine(sets.precast.WS['Mercy Stroke'],{ear1="Pixie earring",hands="Hecatomb mittens",legs="Hecatomb subligar"})
-	sets.precast.WS['Mercy Stroke'].HNM.SA   = set_combine(sets.precast.WS['Mercy Stroke'].HNM,{ear1="Bushinomimi",hands="Hecatomb mittens",legs="Hecatomb subligar"})
+	sets.precast.WS['Mercy Stroke'].SA       = set_combine(sets.precast.WS['Mercy Stroke'],{ear1="Pixie earring",hands="Hecatomb mittens +1",legs="Hecatomb subligar"})
+	sets.precast.WS['Mercy Stroke'].HNM.SA   = set_combine(sets.precast.WS['Mercy Stroke'].HNM,{ear1="Bushinomimi",hands="Hecatomb mittens +1",legs="Hecatomb subligar"})
 	
 	-- TA WS
 	sets.precast.WS.TA                       = set_combine(sets.precast.WS,sets.buff['Trick Attack'])
@@ -128,8 +128,8 @@ function init_gear_sets()
 	sets.precast.WS['Shark Bite'].TA         = set_combine(sets.precast.WS['Shark Bite'],sets.buff['Trick Attack'])
 	sets.precast.WS['Shark Bite'].HNM.TA     = set_combine(sets.precast.WS['Shark Bite'].HNM,sets.buff['Trick Attack'])
 	
-	sets.precast.WS['Mercy Stroke'].TA       = set_combine(sets.precast.WS['Mercy Stroke'],{body="Enkidu's harness",hands="Hecatomb mittens"})
-	sets.precast.WS['Mercy Stroke'].HNM.TA   = set_combine(sets.precast.WS['Mercy Stroke'].HNM,{ear1="Bushinomimi",hands="Hecatomb mittens"})
+	sets.precast.WS['Mercy Stroke'].TA       = set_combine(sets.precast.WS['Mercy Stroke'],{body="Enkidu's harness",hands="Hecatomb mittens +1"})
+	sets.precast.WS['Mercy Stroke'].HNM.TA   = set_combine(sets.precast.WS['Mercy Stroke'].HNM,{ear1="Bushinomimi",hands="Hecatomb mittens +1"})
 	
 	-- SATA WS
 	sets.precast.WS.SATA                     = set_combine(sets.precast.WS,sets.buff['Sneak Attack'],sets.buff['Trick Attack'])

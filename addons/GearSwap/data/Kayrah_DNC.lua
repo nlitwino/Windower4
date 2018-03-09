@@ -25,7 +25,7 @@ end
 function user_setup()
 
   state.OffenseMode:options('Normal','HybridAcc','OffTank','Tank')
-  state.WeaponskillMode:options('Normal', 'HNM')
+  state.WeaponskillMode:options('Normal','HybridAcc','Acc','Mod')
   state.PhysicalDefenseMode:options('Evasion','PDT')
   state.MagicalDefenseMode:options('MDT')
 
@@ -59,8 +59,8 @@ function init_gear_sets()
      ,ear2="Pixie earring"
      ,body="Etoile casaque +1"
      ,hands="Dancer's bangles +1"
-     ,ring1=toreador_ring["Triple Attack (2)"]
-     ,ring2=toreador_ring["Triple Attack (1)"]
+     ,ring1=toreador_ring['Triple Attack (2)']
+     ,ring2=toreador_ring['Triple Attack (1)']
      ,back="Etoile cape"
      ,waist="Virtuoso belt"
      ,legs="Oily trousers"
@@ -212,8 +212,8 @@ function init_gear_sets()
      ,ear2="Brutal earring"
      ,body="Rapparee harness"
      ,hands="Dusk gloves +1"
-     ,ring1=toreador_ring["Triple Attack (2)"]
-     ,ring2=toreador_ring["Triple Attack (1)"]
+     ,ring1=toreador_ring['Triple Attack (2)']
+     ,ring2=toreador_ring['Triple Attack (1)']
      ,back="Cerberus mantle +1"
      ,waist="Velocious belt"
      ,legs="Barbarossa's zerehs"
@@ -233,7 +233,7 @@ function init_gear_sets()
   = set_combine(sets.engaged.OffTank
                ,{body=scorpion_harness['Haste']})
 
-  -- ws
+  -- ws base
   sets.precast.WS
    = {ammo="Black tathlum"
      ,head="Gnadbhod's helm"
@@ -248,50 +248,106 @@ function init_gear_sets()
      ,waist="Swordbelt +1"
      ,legs="Dusk trousers +1"
      ,feet="Dancer's toe shoes +1"}
-
-  sets.precast.WS.HNM
+     
+  sets.precast.WS.HybridAcc
    = set_combine(sets.precast.WS
                 ,{hands="Enkidu's mittens"
+                 ,back="Cuchulain's mantle"})
+  
+  sets.precast.WS.Acc
+   = set_combine(sets.precast.WS.HybridAcc
+                ,{waist="Virtuoso belt"
+                 ,ring2=toreador_ring['Triple Attack (1)']
+                 ,feet="Etoile toe shoes +1"})
+  
+  -- evisceration                 
+  sets.precast.WS['Evisceration']
+   = set_combine(sets.precast.WS
+                ,{}) 
+  
+  sets.precast.WS['Evisceration'].HybridAcc
+   = set_combine(sets.precast.WS.HybridAcc
+                ,{}) 
+  
+  sets.precast.WS['Evisceration'].Acc
+   = set_combine(sets.precast.WS.Acc
+                ,{}) 
+  
+  sets.precast.WS['Evisceration'].Mod
+   = set_combine(sets.precast.WS['Evisceration']
+                ,{head="Maat's cap"
+                 ,ear1="Pixie earring"
+                 ,body="Antares harness"
+                 ,hands="Dancer's bangles +1"
+                 ,ring2=toreador_ring['Triple Attack (1)']
                  ,back="Cuchulain's mantle"
-                 ,waist="Virtuoso belt"})
-
-  -- dancing edge
+                 ,waist="Warwolf belt"
+                 ,legs="Enkidu's subligar"}) 
+                 
+  -- dancing edge / exenterator
   sets.precast.WS['Dancing Edge']
    = set_combine(sets.precast.WS
+                ,{hands="Dancer's bangles +1"})
+                
+  sets.precast.WS['Dancing Edge'].HybridAcc
+   = set_combine(sets.precast.WS.HybridAcc
+                ,{})
+                
+  sets.precast.WS['Dancing Edge'].Acc
+   = set_combine(sets.precast.WS.Acc
+                ,{})
+                
+  sets.precast.WS['Dancing Edge'].Mod
+   = set_combine(sets.precast.WS['Dancing Edge']
                 ,{head="Maat's cap"
-                 ,hands="Dancer's bangles +1"})
-
-  sets.precast.WS['Dancing Edge'].HNM
-   = set_combine(sets.precast.WS.HNM
-                ,{head="Maat's cap"
-                ,hands="Dancer's bangles +1"})
-
-  -- exenterator
+                 ,ear1="Pixie earring"
+                 ,body="Antares harness"
+                 ,hands="Dancer's bangles +1"
+                 ,ring2=toreador_ring['Triple Attack (1)']
+                 ,back="Etoile cape"
+                 ,waist="Warwolf belt"
+                 ,legs="Dancer's tights +1"
+                 ,feet="Volunteer's nails"})
+                 
   sets.precast.WS['Exenterator']
    = set_combine(sets.precast.WS['Dancing Edge']
                 ,{})
-
-  sets.precast.WS['Exenterator'].HNM
-   = set_combine(sets.precast.WS['Dancing Edge'].HNM
+                 
+  sets.precast.WS['Exenterator'].HybridAcc
+   = set_combine(sets.precast.WS['Dancing Edge'].HybridAcc
+                ,{})
+                 
+  sets.precast.WS['Exenterator'].Acc
+   = set_combine(sets.precast.WS['Dancing Edge'].Acc
+                ,{})
+                 
+  sets.precast.WS['Exenterator'].Mod
+   = set_combine(sets.precast.WS['Dancing Edge'].Mod
                 ,{})
 
-  -- evisceration
-  sets.precast.WS['Evisceration']
-   = set_combine(sets.precast.WS
-                ,{})
-
-  sets.precast.WS['Evisceration'].HNM
-   = set_combine(sets.precast.WS.HNM
-                ,{})
-
+  -- pyrrhic kleos
   sets.precast.WS['Pyrrhic Kleos']
    = set_combine(sets.precast.WS
-                ,{hands="Enkidu's mittens"})
-
-  sets.precast.WS['Pyrrhic Kleos'].HNM
-   = set_combine(sets.precast.WS.HNM
+                ,{})
+                 
+  sets.precast.WS['Pyrrhic Kleos'].HybridAcc
+   = set_combine(sets.precast.WS.HybridAcc
+                ,{})
+                 
+  sets.precast.WS['Pyrrhic Kleos'].Acc
+   = set_combine(sets.precast.WS.Acc
                 ,{ring2=toreador_ring['Triple Attack (1)']})
-
+                 
+  sets.precast.WS['Pyrrhic Kleos'].Mod
+   = set_combine(sets.precast.WS
+                ,{head="Maat's cap"
+                 ,ear1="Triumph earring"
+                 ,body="Dancer's casaque +1"
+                 ,hands="Enkidu's mittens"
+                 ,back="Cuchulain's mantle"
+                 ,waist="Warwolf belt"
+                 ,legs="Enkidu's leggings"})
+                 
 end
 
 function job_post_precast(spell,action,spellMap,eventArgs)
@@ -311,7 +367,7 @@ function job_post_precast(spell,action,spellMap,eventArgs)
     end
   end
 
-  if spell.type == 'WeaponSkill' then
+  if spell.type == 'WeaponSkill'and state.WeaponskillMode.value ~= 'Mod' then
     if daytime then
       equip({ear1="Fenrir's earring"})
     end

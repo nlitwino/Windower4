@@ -42,7 +42,7 @@ function init_gear_sets()
 
   -- misc
   sets.MND
-   = {sub="Raptor leather strap +1"
+   = {ammo="Sturm's report"
      ,neck="Morgana's choker"
      ,ear1="Mamool Ja earring"
      ,ear2="Star earring"
@@ -56,7 +56,7 @@ function init_gear_sets()
      ,feet="Duelist's boots"}
      
   sets.INT
-   = {sub="Bugard leather strap +1"
+   = {ammo="Phantom tathlum"
      ,head="Warlock's chapeau"
      ,ear2="Abyssal earring"
      ,ear2="Morion earring +1"
@@ -331,7 +331,7 @@ function job_post_midcast(spell,action,spellMap,eventsArgs)
 
   if spell.skill == 'Enhancing Magic' or (spell.skill == 'Healing Magic' and spellMap ~= 'Cure') then
     if player.status == 'Idle' and state.IdleMode.value == 'Normal' and state.CastingMode.value ~= 'Combat' then
-      equip({main="Seveneyes",sub="Genbu's shield"})
+      equip({main="Seveneyes",sub="Muse tariqah"})
     end
   elseif spellMap == 'Cure' then
     equip({main="Chatoyant staff",sub="Raptor leather strap +1"})

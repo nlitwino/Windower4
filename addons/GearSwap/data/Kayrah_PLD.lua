@@ -226,7 +226,8 @@ function init_gear_sets()
 
   -- engaged
   sets.engaged                       
-   = {head="Walahra turban"    
+   = {ammo="Bibiki seashell"
+     ,head="Walahra turban"    
      ,neck="Fortitude torque"
      ,ear1="Ethereal earring"
      ,ear2="Brutal earring"

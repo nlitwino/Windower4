@@ -523,10 +523,11 @@ function customize_idle_set(idleSet)
   
   if player.hpp < 75 then
   
+    idleSet = set_combine(idleSet,{head="Crimson mask"})
+  
     if daytime then
       idleSet = set_combine(idleSet,{hands="Garden bangles",waist="Lycopodium sash"})
     end
-    idleSet = set_combine(idleSet,{head="Crimson mask"})
   
   end
 
