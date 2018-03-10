@@ -22,7 +22,7 @@ function user_setup()
   state.RangedMode:options('Normal','HybridAcc','Acc')
   state.WeaponskillMode:options('Normal','Power','Acc')
   
-  state.Luzaf = M(false, 'Luzaf')
+  state.Luzaf = M(true, 'Luzaf')
 
   --get main and sub weapons for regear function
   gear.ammo = player.equipment.ammo
