@@ -244,6 +244,10 @@ function init_gear_sets()
 	               ,neck="Fylgja torque +1"
 	               ,back=prism_cape['Cure Potency']
 	               ,waist="Argute belt"}) 
+                 
+  sets.midcast.Curaga
+   = set_combine(sets.midcast.Cure
+                ,{})
 	
 	sets.midcast.Sleep                                
 	 = set_combine(sets.midcast.FastRecast

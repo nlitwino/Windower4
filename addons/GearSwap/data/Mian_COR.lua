@@ -65,11 +65,11 @@ function init_gear_sets()
      ,ear2="Drone earring"
      ,body="Antares harness"
      ,hands="Commodore gants"
-     --,ring1=""
-     --,ring2=""
+     ,ring1="Breeze ring"
+     ,ring2="Breeze ring"
      ,back="Commander's cape"
-     --,waist="Scouter's Rope"
-     ,legs="Commodore culottes"
+     ,waist="Scouter's Rope"
+     ,legs="Commodore trews"
      ,feet="Enkidu's leggings"}
      
   sets.lockstyle
@@ -77,7 +77,7 @@ function init_gear_sets()
      ,range="Death penalty"
      ,head="Commodore tricorne"
      ,body="Custom top +1"
-     ,legs="Commodore culottes"
+     ,legs="Commodore trews"
      ,feet="Commodore bottes"}
      
   organizer_items
@@ -121,7 +121,7 @@ function init_gear_sets()
    = set_combine(sets.midcast['Utsusemi: Ni']
                 ,{ear1="Magnetic earring"
                  ,waist="Resolute belt"
-                 ,legs="Commodore culottes"
+                 ,legs="Commodore trews"
                  ,feet="Hermes' sandals"})
                  
   sets.midcast['Healing Magic']
@@ -232,7 +232,7 @@ function init_gear_sets()
      ,ring2="Merman's ring"
      ,back="Amemet mantle"
      ,waist="Commodore belt"
-     ,legs="Commodore culottes"
+     ,legs="Commodore trews"
      ,feet="Enkidu's leggings"}
      
   sets.precast.WS.HybridAcc
@@ -361,22 +361,28 @@ end
 
 function handle_shot()
 
-  local shotName = ''
-  
-  if (world.weather_element ~= 'Dark' and world.weather_element ~= 'Light') and (world.day_element ~= 'Dark' and world.day_element ~= 'Light') then
-  
-    if world.weather_element ~= 'None' and (get_weather_intensity() > 0 or world.weather_element ~= elements.weak_to[world.day_element]) then
-      shotName = world.weather_element..' Shot'
+  local element = ''
+
+  if world.day_element ~= 'Dark' and world.day_element ~= 'Light' then
+    if world.weather_element ~= 'Dark' and world.weather_element ~= 'Light' then
+      if world.weather_element ~= 'None' and (get_weather_intensity() > 0 or world.weather_element ~= elements.weak_to[world.day_element]) then
+        element = world.weather_element
+      elseif world.weather_element == 'None' then
+        element = world.day_element
+      else
+        element = 'Earth'
+      end
     else
-      shotName = world.day_element..' Shot'
+      element = 'Earth'
     end
-    
   else
-  
-    shotName = 'Earth Shot'
-    
+    element = 'Earth'
   end
-    
-  send_command('input /ja "'..shotName..'" <t>')
+
+  if element == 'Lightning' then
+    element = 'Thunder'
+  end
+
+  send_command('input /ja "'..element..' Shot" <t>')
 
 end

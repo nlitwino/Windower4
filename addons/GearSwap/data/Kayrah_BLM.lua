@@ -237,6 +237,10 @@ function init_gear_sets()
                  ,body="Nashira manteel"
                  ,back=prism_cape['Cure Potency']})
                  
+  sets.midcast.Curaga
+   = set_combine(sets.midcast.Cure
+                ,{})
+                 
 	sets.midcast.Sleep
 	 = set_combine(sets.midcast.FastRecast
 	              ,sets.INT

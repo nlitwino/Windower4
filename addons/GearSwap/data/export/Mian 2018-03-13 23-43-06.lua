@@ -1,0 +1,18 @@
+sets.exported={
+    main="Caver's Shovel",
+    sub={ name="Rose Strap", augments={'"Store TP"+4 "Subtle Blow"+4','Staff skill +3',}},
+    range="Death Penalty",
+    ammo="Corsair Bullet",
+    head="Darksteel Cap +1",
+    body="Antares Harness",
+    hands="Crimson Fng. Gnt.",
+    legs="Comm. Trews",
+    feet="Hermes' Sandals",
+    neck="Orochi Nodowa",
+    waist="Resolute Belt",
+    left_ear="Merman's Earring",
+    right_ear="Merman's Earring",
+    left_ring="Merman's Ring",
+    right_ring="Warp Ring",
+    back="Nexus Cape",
+}

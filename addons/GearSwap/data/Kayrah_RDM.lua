@@ -223,6 +223,7 @@ function init_gear_sets()
 	sets.midcast['Dark Magic']
 	 = set_combine(sets.INT
 	              ,{ammo="Sturm's report"
+	               ,head="Nashira turban"
 	               ,neck="Dark torque"
 	               ,body="Nashira manteel"
 	               ,hands="Blood finger gauntlets"
@@ -274,6 +275,10 @@ function init_gear_sets()
                  ,waist="Duelist's belt"
                  ,legs="Warlock's tights +1"
                  ,feet="Mahatma pigaches"})
+                 
+  sets.midcast.Curaga
+   = set_combine(sets.midcast.Cure
+                ,{})
 
   sets.midcast['Cursna']
    = set_combine(sets.midcast['Healing Magic']
@@ -344,24 +349,20 @@ end
 
 function job_post_midcast(spell,action,spellMap,eventsArgs)
 
-  if state.IdleMode.value == 'Combat' and state.CastingMode.value == 'Combat' then
-  
-  end
-
-	if spell.skill == 'Enhancing Magic' or (spell.skill == 'Healing Magic' and spellMap ~= 'Cure') then
-		if player.status == 'Idle' and state.IdleMode.value == 'Normal' and state.CastingMode.value ~= 'Combat' then
-			equip({main="Seveneyes",sub="Muse tariqah"})
-		end
-	elseif spellMap == 'Cure' then
+  if spell.skill == 'Enhancing Magic' or (spell.skill == 'Healing Magic' and not (spellMap == 'Cure' or spellMap == 'Curaga')) then
+    if player.status == 'Idle' and state.IdleMode.value == 'Normal' and state.CastingMode.value ~= 'Combat' then
+      equip({main="Seveneyes",sub="Muse tariqah"})
+    end
+  elseif spellMap == 'Cure' or spellMap == 'Curaga' then
     equip({main="Chatoyant staff",sub="Raptor leather strap +1"})
-	else
-		if player.status == 'Idle' and state.IdleMode.value == 'Normal' and state.CastingMode.value ~= 'Combat' then
-		  
-		  if spell.skill == 'Enfeebling Magic' then
-		    
-		    if state.CastingMode.value == 'Normal' then
-		      equip({main="Alkalurops"})
-		    else
+  else
+    if player.status == 'Idle' and state.IdleMode.value == 'Normal' and state.CastingMode.value ~= 'Combat' then
+      
+      if spell.skill == 'Enfeebling Magic' then
+        
+        if state.CastingMode.value == 'Normal' then
+          equip({main="Alkalurops"})
+        else
           equip({main="Chatoyant staff"})
         end
         
@@ -373,27 +374,27 @@ function job_post_midcast(spell,action,spellMap,eventsArgs)
         
       end
       
-			if state.CastingMode.value == 'Acc' and player.status ~= 'Engaged' then
-				equip(sets.grip[spell.element])
-			end
-			
-		end
-	end
+      if state.CastingMode.value == 'Acc' and player.status ~= 'Engaged' then
+        equip(sets.grip[spell.element])
+      end
+      
+    end
+  end
 
-	if spell.skill ~= 'Enhancing Magic' or spell.skill ~= 'Enfeebling Magic' then
-		if spell.element == world.weather_element or spell.element == world.day_element then
-			
-			if world.weather_element ~= 'Dark' and spellMap == 'Cure' then
-				equip({waist="Hachirin-no-obi"})
-			end
-			
-			if spell.skill == 'Elemental Magic' then
-				equip({waist="Hachirin-no-obi"})
-			end
-			
-		end
-	end
-	
+  if spell.skill ~= 'Enhancing Magic' or spell.skill ~= 'Enfeebling Magic' then
+    if spell.element == world.weather_element or spell.element == world.day_element then
+      
+      if world.weather_element ~= 'Dark' and spellMap == 'Cure' then
+        equip({waist="Hachirin-no-obi"})
+      end
+      
+      if spell.skill == 'Elemental Magic' then
+        equip({waist="Hachirin-no-obi"})
+      end
+      
+    end
+  end
+  
 end
 
 function job_get_spell_map(spell, default_spell_map)

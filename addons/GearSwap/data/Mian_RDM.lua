@@ -268,6 +268,10 @@ sets.midcast['Healing Magic']
                  ,waist="Duelist's belt"
                  ,legs="Warlock's tights"
                  ,feet="Errant pigaches"})
+                 
+  sets.midcast.Curaga
+   = set_combine(sets.midcast.Cure
+                ,{})
 
   sets.midcast['Cursna']
    = set_combine(sets.midcast['Healing Magic']
@@ -335,15 +339,11 @@ end
 
 function job_post_midcast(spell,action,spellMap,eventsArgs)
 
-  if state.IdleMode.value == 'Combat' and state.CastingMode.value == 'Combat' then
-  
-  end
-
-  if spell.skill == 'Enhancing Magic' or (spell.skill == 'Healing Magic' and spellMap ~= 'Cure') then
+  if spell.skill == 'Enhancing Magic' or (spell.skill == 'Healing Magic' and not (spellMap == 'Cure' or spellMap == 'Curaga')) then
     if player.status == 'Idle' and state.IdleMode.value == 'Normal' and state.CastingMode.value ~= 'Combat' then
       equip({main="Seveneyes",sub="Muse tariqah"})
     end
-  elseif spellMap == 'Cure' then
+  elseif spellMap == 'Cure' or spellMap == 'Curaga' then
     equip({main="Chatoyant staff",sub="Raptor leather strap +1"})
   else
     if player.status == 'Idle' and state.IdleMode.value == 'Normal' and state.CastingMode.value ~= 'Combat' then
@@ -388,7 +388,6 @@ function job_post_midcast(spell,action,spellMap,eventsArgs)
 end
 
 function job_get_spell_map(spell, default_spell_map)
-
   if spell.skill == 'Enfeebling Magic' and sleeps:contains(spell.english) then
     return 'Sleep'
   elseif spell.skill == 'Elemental Magic' and elemental_debuffs:contains(spell.english) then
@@ -424,12 +423,12 @@ function job_buff_change(name,gain)
 
 end
 
-function customize_idle_set(idleSet)
+--[[ function customize_idle_set(idleSet)
 
-  if daytime then 
+ if daytime then 
     idleSet = set_combine(idleSet,{hands="Garden bangles",waist="Lycopodium sash"})
   end
 
   return idleSet
   
-end
+end]]

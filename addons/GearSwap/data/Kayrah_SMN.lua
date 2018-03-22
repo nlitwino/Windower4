@@ -474,6 +474,10 @@ function init_gear_sets()
                  ,back=prism_cape['Cure Potency']
                  ,feet="Mahatma slops"
                  ,feet="Mahatma pigaches"})
+                 
+  sets.midcast.Curaga
+   = set_combine(sets.midcast.Cure
+                ,{})
 
   sets.midcast['Cursna']
    = set_combine(sets.midcast['Healing Magic']
@@ -642,11 +646,11 @@ end
 
 function job_post_midcast(spell,action,spellMap,eventArgs)
 
-  if spell.skill == 'Enhancing Magic' or spell.skill == 'Summoning Magic' or (spell.skill == 'Healing Magic' and spellMap ~= 'Cure') then
+  if spell.skill == 'Enhancing Magic' or spell.skill == 'Summoning Magic' or (spell.skill == 'Healing Magic' and not (spellMap == 'Cure' or spellMap == 'Curaga')) then
     if player.status == 'Idle' and state.IdleMode.value == 'Normal' and state.CastingMode.value ~= 'Combat' then
       equip({main="Seveneyes",sub="Genbu's shield"})
     end
-  elseif spellMap == 'Cure' then
+  elseif spellMap == 'Cure' or spellMap == 'Curaga' then
     equip({main="Chatoyant staff",sub="Raptor leather strap +1"})
   else
     if player.status == 'Idle' and state.IdleMode.value == 'Normal' and state.CastingMode.value ~= 'Combat' then

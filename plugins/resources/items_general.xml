@@ -5658,7 +5658,7 @@
   <i id="6061" enl="Adloquium schema" jp="鼓舞激励の策" jpl="" targets="Self" casttime="1">Adloquium</i>
   <i id="6063" enl="fruit parfait" jp="フルーツパフェ" jpl="" targets="Self" casttime="1">Fruit Parfait</i>
   <i id="6064" enl="queen's crown" jp="女王の王冠" jpl="" targets="Self" casttime="1">Queen's Crown</i>
-  <i id="6065" enl="tiny macaroon" jp="ベビーマカロン" jpl="" targets="Self" casttime="1">Tiny Macaroon</i>
+  <i id="6065" enl="tiny macaron" jp="ベビーマカロン" jpl="" targets="Self" casttime="1">Tiny Macaron</i>
   <i id="6066" enl="tiny rusk" jp="ベビーラスク" jpl="" targets="Self" casttime="1">Tiny Rusk</i>
   <i id="6067" enl="ontic extremity" jp="帰路の頭指" jpl="" targets="Self" casttime="10">Ontic Extremity</i>
   <i id="6068" enl="slice of gabbrath meat" jp="ギャブラスの肉" jpl="" targets="Self" casttime="1">Gabbrath Meat</i>
@@ -7004,7 +7004,7 @@
   <i id="9538" enl="rusted identification card" jp="錆びた認識票" jpl="" targets="None">Rusted I. Card</i>
   <i id="9539" enl="beastmen's medal" jp="獣人勲章" jpl="" targets="None">Beastmen's Medal</i>
   <i id="9540" enl="blackened identification card" jp="黒ずんだ認識票" jpl="" targets="None">Black. I. Card</i>
-  <i id="9541" enl="kindred's medal" jp="獣神勲章" jpl="" targets="None">Kindred's Medal</i>
+  <i id="9541" enl="Kindred's medal" jp="獣神勲章" jpl="" targets="None">Kindred's Medal</i>
   <i id="9544" enl="headshard: WAR" jp="面具の破片：戦" jpl="" targets="None">Headshard: WAR</i>
   <i id="9545" enl="headshard: MNK" jp="面具の破片：モ" jpl="" targets="None">Headshard: MNK</i>
   <i id="9546" enl="headshard: WHM" jp="面具の破片：白" jpl="" targets="None">Headshard: WHM</i>
@@ -7049,6 +7049,50 @@
   <i id="9585" enl="piece of void headwear: SCH" jp="闇の面具：学" jpl="" targets="None">Voidhead: SCH</i>
   <i id="9586" enl="piece of void headwear: GEO" jp="闇の面具：風" jpl="" targets="None">Voidhead: GEO</i>
   <i id="9587" enl="piece of void headwear: RUN" jp="闇の面具：剣" jpl="" targets="None">Voidhead: RUN</i>
+  <i id="9588" enl="torsoshard: WAR" jp="胴具の破片：戦" jpl="" targets="None">Torsoshard: WAR</i>
+  <i id="9589" enl="torsoshard: MNK" jp="胴具の破片：モ" jpl="" targets="None">Torsoshard: MNK</i>
+  <i id="9590" enl="torsoshard: WHM" jp="胴具の破片：白" jpl="" targets="None">Torsoshard: WHM</i>
+  <i id="9591" enl="torsoshard: BLM" jp="胴具の破片：黒" jpl="" targets="None">Torsoshard: BLM</i>
+  <i id="9592" enl="torsoshard: RDM" jp="胴具の破片：赤" jpl="" targets="None">Torsoshard: RDM</i>
+  <i id="9593" enl="torsoshard: THF" jp="胴具の破片：シ" jpl="" targets="None">Torsoshard: THF</i>
+  <i id="9594" enl="torsoshard: PLD" jp="胴具の破片：ナ" jpl="" targets="None">Torsoshard: PLD</i>
+  <i id="9595" enl="torsoshard: DRK" jp="胴具の破片：暗" jpl="" targets="None">Torsoshard: DRK</i>
+  <i id="9596" enl="torsoshard: BST" jp="胴具の破片：獣" jpl="" targets="None">Torsoshard: BST</i>
+  <i id="9597" enl="torsoshard: BRD" jp="胴具の破片：吟" jpl="" targets="None">Torsoshard: BRD</i>
+  <i id="9598" enl="torsoshard: RNG" jp="胴具の破片：狩" jpl="" targets="None">Torsoshard: RNG</i>
+  <i id="9599" enl="torsoshard: SAM" jp="胴具の破片：侍" jpl="" targets="None">Torsoshard: SAM</i>
+  <i id="9600" enl="torsoshard: NIN" jp="胴具の破片：忍" jpl="" targets="None">Torsoshard: NIN</i>
+  <i id="9601" enl="torsoshard: DRG" jp="胴具の破片：竜" jpl="" targets="None">Torsoshard: DRG</i>
+  <i id="9602" enl="torsoshard: SMN" jp="胴具の破片：召" jpl="" targets="None">Torsoshard: SMN</i>
+  <i id="9603" enl="torsoshard: BLU" jp="胴具の破片：青" jpl="" targets="None">Torsoshard: BLU</i>
+  <i id="9604" enl="torsoshard: COR" jp="胴具の破片：コ" jpl="" targets="None">Torsoshard: COR</i>
+  <i id="9605" enl="torsoshard: PUP" jp="胴具の破片：か" jpl="" targets="None">Torsoshard: PUP</i>
+  <i id="9606" enl="torsoshard: DNC" jp="胴具の破片：踊" jpl="" targets="None">Torsoshard: DNC</i>
+  <i id="9607" enl="torsoshard: SCH" jp="胴具の破片：学" jpl="" targets="None">Torsoshard: SCH</i>
+  <i id="9608" enl="torsoshard: GEO" jp="胴具の破片：風" jpl="" targets="None">Torsoshard: GEO</i>
+  <i id="9609" enl="torsoshard: RUN" jp="胴具の破片：剣" jpl="" targets="None">Torsoshard: RUN</i>
+  <i id="9610" enl="piece of void torsowear: WAR" jp="闇の胴具：戦" jpl="" targets="None">Voidtorso: WAR</i>
+  <i id="9611" enl="piece of void torsowear: MNK" jp="闇の胴具：モ" jpl="" targets="None">Voidtorso: MNK</i>
+  <i id="9612" enl="piece of void torsowear: WHM" jp="闇の胴具：白" jpl="" targets="None">Voidtorso: WHM</i>
+  <i id="9613" enl="piece of void torsowear: BLM" jp="闇の胴具：黒" jpl="" targets="None">Voidtorso: BLM</i>
+  <i id="9614" enl="piece of void torsowear: RDM" jp="闇の胴具：赤" jpl="" targets="None">Voidtorso: RDM</i>
+  <i id="9615" enl="piece of void torsowear: THF" jp="闇の胴具：シ" jpl="" targets="None">Voidtorso: THF</i>
+  <i id="9616" enl="piece of void torsowear: PLD" jp="闇の胴具：ナ" jpl="" targets="None">Voidtorso: PLD</i>
+  <i id="9617" enl="piece of void torsowear: DRK" jp="闇の胴具：暗" jpl="" targets="None">Voidtorso: DRK</i>
+  <i id="9618" enl="piece of void torsowear: BST" jp="闇の胴具：獣" jpl="" targets="None">Voidtorso: BST</i>
+  <i id="9619" enl="piece of void torsowear: BRD" jp="闇の胴具：吟" jpl="" targets="None">Voidtorso: BRD</i>
+  <i id="9620" enl="piece of void torsowear: RNG" jp="闇の胴具：狩" jpl="" targets="None">Voidtorso: RNG</i>
+  <i id="9621" enl="piece of void torsowear: SAM" jp="闇の胴具：侍" jpl="" targets="None">Voidtorso: SAM</i>
+  <i id="9622" enl="piece of void torsowear: NIN" jp="闇の胴具：忍" jpl="" targets="None">Voidtorso: NIN</i>
+  <i id="9623" enl="piece of void torsowear: DRG" jp="闇の胴具：竜" jpl="" targets="None">Voidtorso: DRG</i>
+  <i id="9624" enl="piece of void torsowear: SMN" jp="闇の胴具：召" jpl="" targets="None">Voidtorso: SMN</i>
+  <i id="9625" enl="piece of void torsowear: BLU" jp="闇の胴具：青" jpl="" targets="None">Voidtorso: BLU</i>
+  <i id="9626" enl="piece of void torsowear: COR" jp="闇の胴具：コ" jpl="" targets="None">Voidtorso: COR</i>
+  <i id="9627" enl="piece of void torsowear: PUP" jp="闇の胴具：か" jpl="" targets="None">Voidtorso: PUP</i>
+  <i id="9628" enl="piece of void torsowear: DNC" jp="闇の胴具：踊" jpl="" targets="None">Voidtorso: DNC</i>
+  <i id="9629" enl="piece of void torsowear: SCH" jp="闇の胴具：学" jpl="" targets="None">Voidtorso: SCH</i>
+  <i id="9630" enl="piece of void torsowear: GEO" jp="闇の胴具：風" jpl="" targets="None">Voidtorso: GEO</i>
+  <i id="9631" enl="piece of void torsowear: RUN" jp="闇の胴具：剣" jpl="" targets="None">Voidtorso: RUN</i>
   <i id="9632" enl="handshard: WAR" jp="手具の破片：戦" jpl="" targets="None">Handshard: WAR</i>
   <i id="9633" enl="handshard: MNK" jp="手具の破片：モ" jpl="" targets="None">Handshard: MNK</i>
   <i id="9634" enl="handshard: WHM" jp="手具の破片：白" jpl="" targets="None">Handshard: WHM</i>
@@ -7093,6 +7137,50 @@
   <i id="9673" enl="pair of void handwear: SCH" jp="闇の手具：学" jpl="" targets="None">Voidhand: SCH</i>
   <i id="9674" enl="pair of void handwear: GEO" jp="闇の手具：風" jpl="" targets="None">Voidhand: GEO</i>
   <i id="9675" enl="pair of void handwear: RUN" jp="闇の手具：剣" jpl="" targets="None">Voidhand: RUN</i>
+  <i id="9676" enl="legshard: WAR" jp="脚具の破片：戦" jpl="" targets="None">Legshard: WAR</i>
+  <i id="9677" enl="legshard: MNK" jp="脚具の破片：モ" jpl="" targets="None">Legshard: MNK</i>
+  <i id="9678" enl="legshard: WHM" jp="脚具の破片：白" jpl="" targets="None">Legshard: WHM</i>
+  <i id="9679" enl="legshard: BLM" jp="脚具の破片：黒" jpl="" targets="None">Legshard: BLM</i>
+  <i id="9680" enl="legshard: RDM" jp="脚具の破片：赤" jpl="" targets="None">Legshard: RDM</i>
+  <i id="9681" enl="legshard: THF" jp="脚具の破片：シ" jpl="" targets="None">Legshard: THF</i>
+  <i id="9682" enl="legshard: PLD" jp="脚具の破片：ナ" jpl="" targets="None">Legshard: PLD</i>
+  <i id="9683" enl="legshard: DRK" jp="脚具の破片：暗" jpl="" targets="None">Legshard: DRK</i>
+  <i id="9684" enl="legshard: BST" jp="脚具の破片：獣" jpl="" targets="None">Legshard: BST</i>
+  <i id="9685" enl="legshard: BRD" jp="脚具の破片：吟" jpl="" targets="None">Legshard: BRD</i>
+  <i id="9686" enl="legshard: RNG" jp="脚具の破片：狩" jpl="" targets="None">Legshard: RNG</i>
+  <i id="9687" enl="legshard: SAM" jp="脚具の破片：侍" jpl="" targets="None">Legshard: SAM</i>
+  <i id="9688" enl="legshard: NIN" jp="脚具の破片：忍" jpl="" targets="None">Legshard: NIN</i>
+  <i id="9689" enl="legshard: DRG" jp="脚具の破片：竜" jpl="" targets="None">Legshard: DRG</i>
+  <i id="9690" enl="legshard: SMN" jp="脚具の破片：召" jpl="" targets="None">Legshard: SMN</i>
+  <i id="9691" enl="legshard: BLU" jp="脚具の破片：青" jpl="" targets="None">Legshard: BLU</i>
+  <i id="9692" enl="legshard: COR" jp="脚具の破片：コ" jpl="" targets="None">Legshard: COR</i>
+  <i id="9693" enl="legshard: PUP" jp="脚具の破片：か" jpl="" targets="None">Legshard: PUP</i>
+  <i id="9694" enl="legshard: DNC" jp="脚具の破片：踊" jpl="" targets="None">Legshard: DNC</i>
+  <i id="9695" enl="legshard: SCH" jp="脚具の破片：学" jpl="" targets="None">Legshard: SCH</i>
+  <i id="9696" enl="legshard: GEO" jp="脚具の破片：風" jpl="" targets="None">Legshard: GEO</i>
+  <i id="9697" enl="legshard: RUN" jp="脚具の破片：剣" jpl="" targets="None">Legshard: RUN</i>
+  <i id="9698" enl="piece of void legwear: WAR" jp="闇の脚具：戦" jpl="" targets="None">Voidleg: WAR</i>
+  <i id="9699" enl="piece of void legwear: MNK" jp="闇の脚具：モ" jpl="" targets="None">Voidleg: MNK</i>
+  <i id="9700" enl="piece of void legwear: WHM" jp="闇の脚具：白" jpl="" targets="None">Voidleg: WHM</i>
+  <i id="9701" enl="piece of void legwear: BLM" jp="闇の脚具：黒" jpl="" targets="None">Voidleg: BLM</i>
+  <i id="9702" enl="piece of void legwear: RDM" jp="闇の脚具：赤" jpl="" targets="None">Voidleg: RDM</i>
+  <i id="9703" enl="piece of void legwear: THF" jp="闇の脚具：シ" jpl="" targets="None">Voidleg: THF</i>
+  <i id="9704" enl="piece of void legwear: PLD" jp="闇の脚具：ナ" jpl="" targets="None">Voidleg: PLD</i>
+  <i id="9705" enl="piece of void legwear: DRK" jp="闇の脚具：暗" jpl="" targets="None">Voidleg: DRK</i>
+  <i id="9706" enl="piece of void legwear: BST" jp="闇の脚具：獣" jpl="" targets="None">Voidleg: BST</i>
+  <i id="9707" enl="piece of void legwear: BRD" jp="闇の脚具：吟" jpl="" targets="None">Voidleg: BRD</i>
+  <i id="9708" enl="piece of void legwear: RNG" jp="闇の脚具：狩" jpl="" targets="None">Voidleg: RNG</i>
+  <i id="9709" enl="piece of void legwear: SAM" jp="闇の脚具：侍" jpl="" targets="None">Voidleg: SAM</i>
+  <i id="9710" enl="piece of void legwear: NIN" jp="闇の脚具：忍" jpl="" targets="None">Voidleg: NIN</i>
+  <i id="9711" enl="piece of void legwear: DRG" jp="闇の脚具：竜" jpl="" targets="None">Voidleg: DRG</i>
+  <i id="9712" enl="piece of void legwear: SMN" jp="闇の脚具：召" jpl="" targets="None">Voidleg: SMN</i>
+  <i id="9713" enl="piece of void legwear: BLU" jp="闇の脚具：青" jpl="" targets="None">Voidleg: BLU</i>
+  <i id="9714" enl="piece of void legwear: COR" jp="闇の脚具：コ" jpl="" targets="None">Voidleg: COR</i>
+  <i id="9715" enl="piece of void legwear: PUP" jp="闇の脚具：か" jpl="" targets="None">Voidleg: PUP</i>
+  <i id="9716" enl="piece of void legwear: DNC" jp="闇の脚具：踊" jpl="" targets="None">Voidleg: DNC</i>
+  <i id="9717" enl="piece of void legwear: SCH" jp="闇の脚具：学" jpl="" targets="None">Voidleg: SCH</i>
+  <i id="9718" enl="piece of void legwear: GEO" jp="闇の脚具：風" jpl="" targets="None">Voidleg: GEO</i>
+  <i id="9719" enl="piece of void legwear: RUN" jp="闇の脚具：剣" jpl="" targets="None">Voidleg: RUN</i>
   <i id="9720" enl="footshard: WAR" jp="足具の破片：戦" jpl="" targets="None">Footshard: WAR</i>
   <i id="9721" enl="footshard: MNK" jp="足具の破片：モ" jpl="" targets="None">Footshard: MNK</i>
   <i id="9722" enl="footshard: WHM" jp="足具の破片：白" jpl="" targets="None">Footshard: WHM</i>
@@ -7137,6 +7225,14 @@
   <i id="9761" enl="pair of void footwear: SCH" jp="闇の足具：学" jpl="" targets="None">Voidfoot: SCH</i>
   <i id="9762" enl="pair of void footwear: GEO" jp="闇の足具：風" jpl="" targets="None">Voidfoot: GEO</i>
   <i id="9763" enl="pair of void footwear: RUN" jp="闇の足具：剣" jpl="" targets="None">Voidfoot: RUN</i>
+  <i id="9764" enl="fire card" jp="炎紋のカード" jpl="" targets="None">Fire Card</i>
+  <i id="9765" enl="ice card" jp="氷紋のカード" jpl="" targets="None">Ice Card</i>
+  <i id="9766" enl="wind card" jp="風紋のカード" jpl="" targets="None">Wind Card</i>
+  <i id="9767" enl="earth card" jp="土紋のカード" jpl="" targets="None">Earth Card</i>
+  <i id="9768" enl="lightning card" jp="雷紋のカード" jpl="" targets="None">Lightning Card</i>
+  <i id="9769" enl="water card" jp="水紋のカード" jpl="" targets="None">Water Card</i>
+  <i id="9770" enl="light card" jp="光紋のカード" jpl="" targets="None">Light Card</i>
+  <i id="9771" enl="dark card" jp="闇紋のカード" jpl="" targets="None">Dark Card</i>
   <i id="10049" enl="♪Raptor" jp="♪ラプトル" jpl="" targets="None">♪Raptor</i>
   <i id="10050" enl="♪Tiger" jp="♪剣虎" jpl="" targets="None">♪Tiger</i>
   <i id="10051" enl="♪Crab" jp="♪クラブ" jpl="" targets="None">♪Crab</i>
@@ -7155,6 +7251,7 @@
   <i id="10064" enl="♪Hippogryph" jp="♪ヒポグリフ" jpl="" targets="None">♪Hippogryph</i>
   <i id="10065" enl="♪Spectral Chair" jp="♪悪霊の椅子" jpl="" targets="None">♪Spectral Chair</i>
   <i id="10066" enl="♪Spheroid" jp="♪スフィアロイド" jpl="" targets="None">♪Spheroid</i>
+  <i id="10067" enl="♪Omega" jp="♪オメガ" jpl="" targets="None">♪Omega</i>
   <i id="10112" enl="cipher of Zeid's alter ego" jp="盟-ザイド" jpl="" targets="None">Cipher: Zeid</i>
   <i id="10113" enl="cipher of Lion's alter ego" jp="盟-ライオン" jpl="" targets="None">Cipher: Lion</i>
   <i id="10114" enl="cipher of Tenzen's alter ego" jp="盟-テンゼン" jpl="" targets="None">Cipher: Tenzen</i>

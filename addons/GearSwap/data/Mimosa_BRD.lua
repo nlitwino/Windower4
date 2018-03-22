@@ -257,6 +257,10 @@ function init_gear_sets()
                  ,back=prism_cape['Cure Potency']
                  ,legs="Warlock's tights"
                  ,feet="Errant pigaches"})
+                 
+  sets.midcast.Curaga
+   = set_combine(sets.midcast.Cure
+                ,{})
 
   sets.midcast['Cursna']
    = set_combine(sets.midcast['Healing Magic']

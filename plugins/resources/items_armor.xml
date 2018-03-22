@@ -383,8 +383,8 @@
   <i id="10638" enl="Khepri gamashes" jp="ケプリゲマッシュ" jpl="" slots="0100" jobs="004B2844" races="01FE" level="99" targets="None" casttime="0" recast="0">Khepri Gamashes</i>
   <i id="10639" enl="Spurrina nails" jp="スプリナネール" jpl="" slots="0100" jobs="00318030" races="01FE" level="99" targets="None" casttime="0" recast="0">Spurrina Nails</i>
   <i id="10640" enl="Iaso boots" jp="イアソブーツ" jpl="" slots="0100" jobs="00100428" races="01FE" level="99" targets="None" casttime="0" recast="0">Iaso Boots</i>
-  <i id="10641" enl="ugol solerets" jp="ウゴルソルレ" jpl="" slots="0100" jobs="00003382" races="01FE" level="97" targets="None" casttime="0" recast="0">Ugol Solerets</i>
-  <i id="10642" enl="mavros solerets" jp="マヴロスソルレ" jpl="" slots="0100" jobs="00003382" races="01FE" level="97" targets="None" casttime="0" recast="0">Mavros Solerets</i>
+  <i id="10641" enl="ugol sollerets" jp="ウゴルソルレ" jpl="" slots="0100" jobs="00003382" races="01FE" level="97" targets="None" casttime="0" recast="0">Ugol Sollerets</i>
+  <i id="10642" enl="mavros sollerets" jp="マヴロスソルレ" jpl="" slots="0100" jobs="00003382" races="01FE" level="97" targets="None" casttime="0" recast="0">Mavros Sollerets</i>
   <i id="10643" enl="urja ledelsens" jp="ウルジャレデルセン" jpl="" slots="0100" jobs="004B7FE2" races="01FE" level="97" targets="None" casttime="0" recast="0">Urja Ledelsens</i>
   <i id="10644" enl="sthira ledelsens" jp="スティラレデルセン" jpl="" slots="0100" jobs="004B7FE2" races="01FE" level="97" targets="None" casttime="0" recast="0">Sthira Ledelsens</i>
   <i id="10645" enl="spolia pigaches" jp="スポリアピガッシュ" jpl="" slots="0100" jobs="00758438" races="01FE" level="97" targets="None" casttime="0" recast="0">Spolia Pigaches</i>
@@ -467,7 +467,7 @@
   <i id="10723" enl="wyrm brais +2" jp="ＷＭブレー+2" jpl="" slots="0080" jobs="00004000" races="01FE" level="90" targets="None" casttime="0" recast="0">Wym. Brais +2</i>
   <i id="10724" enl="summoner's spats +2" jp="ＳＭスパッツ+2" jpl="" slots="0080" jobs="00008000" races="01FE" level="90" targets="None" casttime="0" recast="0">Smn. Spats +2</i>
   <i id="10725" enl="mirage shalwar +2" jp="ＭＩシャルワー+2" jpl="" slots="0080" jobs="00010000" races="01FE" level="90" targets="None" casttime="0" recast="0">Mirage Shalwar +2</i>
-  <i id="10726" enl="commodore culottes +2" jp="ＣＭトルーズ+2" jpl="" slots="0080" jobs="00020000" races="01FE" level="90" targets="None" casttime="0" recast="0">Comm. Culottes +2</i>
+  <i id="10726" enl="commodore trews +2" jp="ＣＭトルーズ+2" jpl="" slots="0080" jobs="00020000" races="01FE" level="90" targets="None" casttime="0" recast="0">Comm. Trews +2</i>
   <i id="10727" enl="pantin churidars +2" jp="ＰＮチュリダル+2" jpl="" slots="0080" jobs="00040000" races="01FE" level="90" targets="None" casttime="0" recast="0">Ptn. Churidars +2</i>
   <i id="10728" enl="etoile tights +2" jp="ＥＴタイツ+2" jpl="" slots="0080" jobs="00080000" races="01FE" level="90" targets="None" casttime="0" recast="0">Etoile Tights +2</i>
   <i id="10729" enl="argute pants +2" jp="ＡＧパンツ+2" jpl="" slots="0080" jobs="00100000" races="01FE" level="90" targets="None" casttime="0" recast="0">Argute Pants +2</i>
@@ -1137,7 +1137,7 @@
   <i id="11410" enl="Setanta's ledelsens" jp="セタンタレデルセン" jpl="" slots="0100" jobs="004F0844" races="01FE" level="74" targets="None" casttime="0" recast="0">Setanta's Led.</i>
   <i id="11411" enl="shrewd pumps" jp="シュルードパンプス" jpl="" slots="0100" jobs="007181B8" races="01FE" level="74" targets="None" casttime="0" recast="0">Shrewd Pumps</i>
   <i id="11412" enl="mettle leggings +1" jp="メトルレギンス+1" jpl="" slots="0100" jobs="004B77E6" races="01FE" level="17" targets="None" casttime="0" recast="0">Mtt. Leggings +1</i>
-  <i id="11413" enl="perle solerets" jp="ペルルソルレ" jpl="" slots="0100" jobs="00005382" races="01FE" level="78" targets="None" casttime="0" recast="0">Perle Solerets</i>
+  <i id="11413" enl="perle sollerets" jp="ペルルソルレ" jpl="" slots="0100" jobs="00005382" races="01FE" level="78" targets="None" casttime="0" recast="0">Perle Sollerets</i>
   <i id="11414" enl="aurore gaiters" jp="オロールゲートル" jpl="" slots="0100" jobs="004F2A44" races="01FE" level="78" targets="None" casttime="0" recast="0">Aurore Gaiters</i>
   <i id="11415" enl="teal pigaches" jp="ティールピガッシュ" jpl="" slots="0100" jobs="00758438" races="01FE" level="78" targets="None" casttime="0" recast="0">Teal Pigaches</i>
   <i id="11416" enl="clout boots" jp="クラウトブーツ" jpl="" slots="0100" jobs="004047C2" races="01FE" level="79" targets="None" casttime="0" recast="0">Clout Boots</i>
@@ -1150,8 +1150,8 @@
   <i id="11423" enl="rager ledelsens" jp="レイジャレデルセン" jpl="" slots="0100" jobs="004E6A64" races="01FE" level="77" targets="None" casttime="0" recast="0">Rager Ledelsens</i>
   <i id="11424" enl="gules leggings" jp="ギュルズレギンス" jpl="" slots="0100" jobs="004F0844" races="01FE" level="79" targets="None" casttime="0" recast="0">Gules Leggings</i>
   <i id="11425" enl="gules leggings +1" jp="ギュルズレギンス+1" jpl="" slots="0100" jobs="004F0844" races="01FE" level="79" targets="None" casttime="0" recast="0">Gules Leggings +1</i>
-  <i id="11426" enl="versa solerets" jp="ベルサソルレット" jpl="" slots="0100" jobs="00003382" races="01FE" level="77" targets="None" casttime="0" recast="0">Versa Solerets</i>
-  <i id="11427" enl="versa solerets +1" jp="ベルサソルレット+1" jpl="" slots="0100" jobs="00003382" races="01FE" level="77" targets="None" casttime="0" recast="0">Versa Solerets +1</i>
+  <i id="11426" enl="versa sollerets" jp="ベルサソルレット" jpl="" slots="0100" jobs="00003382" races="01FE" level="77" targets="None" casttime="0" recast="0">Versa Sollerets</i>
+  <i id="11427" enl="versa sollerets +1" jp="ベルサソルレット+1" jpl="" slots="0100" jobs="00003382" races="01FE" level="77" targets="None" casttime="0" recast="0">Versa Sollerets +1</i>
   <i id="11428" enl="lore sabots" jp="ローアサボ" jpl="" slots="0100" jobs="006FC6EC" races="01FE" level="77" targets="None" casttime="0" recast="0">Lore Sabots</i>
   <i id="11429" enl="lore sabots +1" jp="ローアサボ+1" jpl="" slots="0100" jobs="006FC6EC" races="01FE" level="77" targets="None" casttime="0" recast="0">Lore Sabots +1</i>
   <i id="11430" enl="tandava crackows" jp="タンダバクラッコー" jpl="" slots="0100" jobs="00080000" races="01FE" level="83" targets="None" casttime="0" recast="0">Tandava Crackows</i>
@@ -5055,8 +5055,8 @@
   <i id="15338" enl="vampire boots" jp="バンパイアブーツ" jpl="" slots="0100" jobs="00758CBC" races="01FE" level="59" targets="None" casttime="0" recast="0">Vampire Boots</i>
   <i id="15339" enl="black sollerets" jp="ブラックソルレット" jpl="" slots="0100" jobs="00000100" races="01FE" level="71" targets="None" casttime="0" recast="0">Black Sollerets</i>
   <i id="15340" enl="onyx sollerets" jp="オニキスソルレット" jpl="" slots="0100" jobs="00000100" races="01FE" level="71" targets="None" casttime="0" recast="0">Onyx Sollerets</i>
-  <i id="15341" enl="alumine solerets" jp="アルミナソルレ" jpl="" slots="0100" jobs="00003382" races="01FE" level="45" targets="None" casttime="0" recast="0">Alumine Solerets</i>
-  <i id="15342" enl="luisant solerets" jp="ルイサンソルレ" jpl="" slots="0100" jobs="00003382" races="01FE" level="45" targets="None" casttime="0" recast="0">Luisant Solerets</i>
+  <i id="15341" enl="alumine sollerets" jp="アルミナソルレ" jpl="" slots="0100" jobs="00003382" races="01FE" level="45" targets="None" casttime="0" recast="0">Alumine Sollerets</i>
+  <i id="15342" enl="luisant sollerets" jp="ルイサンソルレ" jpl="" slots="0100" jobs="00003382" races="01FE" level="45" targets="None" casttime="0" recast="0">Luisant Sollerets</i>
   <i id="15343" enl="trader's pigaches" jp="トレダーピガッシュ" jpl="" slots="0100" jobs="007F8D7C" races="01FE" level="20" targets="None" casttime="0" recast="0">Trader's Pigaches</i>
   <i id="15344" enl="baron's pigaches" jp="バロンピガッシュ" jpl="" slots="0100" jobs="007F8D7C" races="01FE" level="20" targets="None" casttime="0" recast="0">Baron's Pigaches</i>
   <i id="15345" enl="unicorn leggings" jp="ユニコンレギンス" jpl="" slots="0100" jobs="00000002" races="01FE" level="74" targets="None" casttime="0" recast="0">Unicorn Leggings</i>
@@ -6055,8 +6055,8 @@
   <i id="16346" enl="mirage shalwar" jp="ミラージシャルワー" jpl="" slots="0080" jobs="00010000" races="01FE" level="72" targets="None" casttime="0" recast="0">Mirage Shalwar</i>
   <i id="16347" enl="mirage shalwar +1" jp="ＭＩシャルワー+1" jpl="" slots="0080" jobs="00010000" races="01FE" level="75" targets="None" casttime="0" recast="0">Mirage Shalwar +1</i>
   <i id="16348" enl="corsair's culottes +1" jp="ＣＯトルーズ+1" jpl="" slots="0080" jobs="00020000" races="01FE" level="74" targets="None" casttime="0" recast="0">Cor. Culottes +1</i>
-  <i id="16349" enl="commodore culottes" jp="コモドアトルーズ" jpl="" slots="0080" jobs="00020000" races="01FE" level="71" targets="None" casttime="0" recast="0">Comm. Culottes</i>
-  <i id="16350" enl="commodore culottes +1" jp="ＣＭトルーズ+1" jpl="" slots="0080" jobs="00020000" races="01FE" level="75" targets="None" casttime="0" recast="0">Comm. Culottes +1</i>
+  <i id="16349" enl="commodore trews" jp="コモドアトルーズ" jpl="" slots="0080" jobs="00020000" races="01FE" level="71" targets="None" casttime="0" recast="0">Comm. Trews</i>
+  <i id="16350" enl="commodore trews +1" jp="ＣＭトルーズ+1" jpl="" slots="0080" jobs="00020000" races="01FE" level="75" targets="None" casttime="0" recast="0">Comm. Trews +1</i>
   <i id="16351" enl="puppetry churidars +1" jp="ＰＴチュリダル+1" jpl="" slots="0080" jobs="00040000" races="01FE" level="74" targets="None" casttime="0" recast="0">Pup. Churidars +1</i>
   <i id="16352" enl="pantin churidars" jp="パンタンチュリダル" jpl="" slots="0080" jobs="00040000" races="01FE" level="71" targets="None" casttime="0" recast="0">Pantin Churidars</i>
   <i id="16353" enl="pantin churidars +1" jp="ＰＮチュリダル+1" jpl="" slots="0080" jobs="00040000" races="01FE" level="75" targets="None" casttime="0" recast="0">Ptn. Churidars +1</i>
@@ -6158,6 +6158,28 @@
   <i id="23127" enl="academic's gown +2" jp="ＡＣガウン+2" jpl="" slots="0020" jobs="00100000" races="01FE" level="99" targets="None" casttime="0" recast="0">Acad. Gown +2</i>
   <i id="23128" enl="geomancy tunic +2" jp="ＧＯチュニック+2" jpl="" slots="0020" jobs="00200000" races="01FE" level="99" targets="None" casttime="0" recast="0">Geomancy Tunic +2</i>
   <i id="23129" enl="runeist's coat +2" jp="ＲＮコート+2" jpl="" slots="0020" jobs="00400000" races="01FE" level="99" targets="None" casttime="0" recast="0">Runeist's Coat +2</i>
+  <i id="23130" enl="agoge lorica +2" jp="ＡＧロリカ+2" jpl="" slots="0020" jobs="00000002" races="01FE" level="99" targets="None" casttime="0" recast="0">Agoge Lorica +2</i>
+  <i id="23131" enl="hesychast's cyclas +2" jp="ＨＥシクラス+2" jpl="" slots="0020" jobs="00000004" races="01FE" level="99" targets="None" casttime="0" recast="0">Hes. Cyclas +2</i>
+  <i id="23132" enl="piety briault +2" jp="ＰＩブリオー+2" jpl="" slots="0020" jobs="00000008" races="01FE" level="99" targets="None" casttime="0" recast="0">Piety Briault +2</i>
+  <i id="23133" enl="archmage's coat +2" jp="ＡＲコート+2" jpl="" slots="0020" jobs="00000010" races="01FE" level="99" targets="None" casttime="0" recast="0">Arch. Coat +2</i>
+  <i id="23134" enl="vitiation tabard +2" jp="ＶＩタバード+2" jpl="" slots="0020" jobs="00000020" races="01FE" level="99" targets="None" casttime="0" recast="0">Viti. Tabard +2</i>
+  <i id="23135" enl="plunderer's vest +2" jp="ＰＤベスト+2" jpl="" slots="0020" jobs="00000040" races="01FE" level="99" targets="None" casttime="0" recast="0">Plunderer's Vest +2</i>
+  <i id="23136" enl="caballarius surcoat +2" jp="ＣＢサーコート+2" jpl="" slots="0020" jobs="00000080" races="01FE" level="99" targets="None" casttime="0" recast="0">Cab. Surcoat +2</i>
+  <i id="23137" enl="fallen's cuirass +2" jp="ＦＬキュイラス+2" jpl="" slots="0020" jobs="00000100" races="01FE" level="99" targets="None" casttime="0" recast="0">Fall. Cuirass +2</i>
+  <i id="23138" enl="ankusa jackcoat +2" jp="ＡＫジャック+2" jpl="" slots="0020" jobs="00000200" races="01FE" level="99" targets="None" casttime="0" recast="0">An. Jackcoat +2</i>
+  <i id="23139" enl="bihu justaucorps +2" jp="ＢＩジュストコル+2" jpl="" slots="0020" jobs="00000400" races="01FE" level="99" targets="None" casttime="0" recast="0">Bihu Jstcorps. +2</i>
+  <i id="23140" enl="arcadian jerkin +2" jp="ＡＲジャーキン+2" jpl="" slots="0020" jobs="00000800" races="01FE" level="99" targets="None" casttime="0" recast="0">Arc. Jerkin +2</i>
+  <i id="23141" enl="sakonji domaru +2" jp="真左近士胴丸" jpl="" slots="0020" jobs="00001000" races="01FE" level="99" targets="None" casttime="0" recast="0">Sakonji Domaru +2</i>
+  <i id="23142" enl="mochizuki chainmail +2" jp="真望月鎖帷子" jpl="" slots="0020" jobs="00002000" races="01FE" level="99" targets="None" casttime="0" recast="0">Mochi. Chainmail +2</i>
+  <i id="23143" enl="pteroslaver mail +2" jp="ＰＴメイル+2" jpl="" slots="0020" jobs="00004000" races="01FE" level="99" targets="None" casttime="0" recast="0">Ptero. Mail +2</i>
+  <i id="23144" enl="glyphic doublet +2" jp="ＧＬダブレット+2" jpl="" slots="0020" jobs="00008000" races="01FE" level="99" targets="None" casttime="0" recast="0">Glyphic Doublet +2</i>
+  <i id="23145" enl="luhlaza jubbah +2" jp="ＬＬジュバ+2" jpl="" slots="0020" jobs="00010000" races="01FE" level="99" targets="None" casttime="0" recast="0">Luhlaza Jubbah +2</i>
+  <i id="23146" enl="lanun frac +2" jp="ＬＡフラック+2" jpl="" slots="0020" jobs="00020000" races="01FE" level="99" targets="None" casttime="0" recast="0">Lanun Frac +2</i>
+  <i id="23147" enl="pitre tobe +2" jp="ＰＩトベ+2" jpl="" slots="0020" jobs="00040000" races="01FE" level="99" targets="None" casttime="0" recast="0">Pitre Tobe +2</i>
+  <i id="23148" enl="horos casaque +2" jp="ＨＯカザク+2" jpl="" slots="0020" jobs="00080000" races="01FE" level="99" targets="None" casttime="0" recast="0">Horos Casaque +2</i>
+  <i id="23149" enl="pedagogy gown +2" jp="ＰＤガウン+2" jpl="" slots="0020" jobs="00100000" races="01FE" level="99" targets="None" casttime="0" recast="0">Peda. Gown +2</i>
+  <i id="23150" enl="bagua tunic +2" jp="ＢＡチュニック+2" jpl="" slots="0020" jobs="00200000" races="01FE" level="99" targets="None" casttime="0" recast="0">Bagua Tunic +2</i>
+  <i id="23151" enl="futhark coat +2" jp="ＦＵコート+2" jpl="" slots="0020" jobs="00400000" races="01FE" level="99" targets="None" casttime="0" recast="0">Futhark Coat +2</i>
   <i id="23174" enl="pummeler's mufflers +2" jp="ＰＭマフラ+2" jpl="" slots="0040" jobs="00000002" races="01FE" level="99" targets="None" casttime="0" recast="0">Pumm. Mufflers +2</i>
   <i id="23175" enl="anchorite's gloves +2" jp="ＡＮグローブ+2" jpl="" slots="0040" jobs="00000004" races="01FE" level="99" targets="None" casttime="0" recast="0">Anchor. Gloves +2</i>
   <i id="23176" enl="theophany mitts +2" jp="ＴＥミトン+2" jpl="" slots="0040" jobs="00000008" races="01FE" level="99" targets="None" casttime="0" recast="0">Theophany Mitts +2</i>
@@ -6226,6 +6248,28 @@
   <i id="23261" enl="academic's pants +2" jp="ＡＣパンツ+2" jpl="" slots="0080" jobs="00100000" races="01FE" level="99" targets="None" casttime="0" recast="0">Acad. Pants +2</i>
   <i id="23262" enl="geomancy pants +2" jp="ＧＯパンツ+2" jpl="" slots="0080" jobs="00200000" races="01FE" level="99" targets="None" casttime="0" recast="0">Geomancy Pants +2</i>
   <i id="23263" enl="runiest's trousers +2" jp="ＲＮトラウザ+2" jpl="" slots="0080" jobs="00400000" races="01FE" level="99" targets="None" casttime="0" recast="0">Rune. Trousers +2</i>
+  <i id="23264" enl="agoge cuisses +2" jp="ＡＧクウィス+2" jpl="" slots="0080" jobs="00000002" races="01FE" level="99" targets="None" casttime="0" recast="0">Agoge Cuisses +2</i>
+  <i id="23265" enl="hesychast's hose +2" jp="ＨＥホーズ+2" jpl="" slots="0080" jobs="00000004" races="01FE" level="99" targets="None" casttime="0" recast="0">Hes. Hose +2</i>
+  <i id="23266" enl="piety pantaloons +2" jp="ＰＩパンタロン+2" jpl="" slots="0080" jobs="00000008" races="01FE" level="99" targets="None" casttime="0" recast="0">Piety Pantaln. +2</i>
+  <i id="23267" enl="archmage's tonban +2" jp="ＡＲトンバン+2" jpl="" slots="0080" jobs="00000010" races="01FE" level="99" targets="None" casttime="0" recast="0">Arch. Tonban +2</i>
+  <i id="23268" enl="vitiation tights +2" jp="ＶＩタイツ+2" jpl="" slots="0080" jobs="00000020" races="01FE" level="99" targets="None" casttime="0" recast="0">Viti. Tights +2</i>
+  <i id="23269" enl="plunderer's culottes +2" jp="ＰＤキュロット+2" jpl="" slots="0080" jobs="00000040" races="01FE" level="99" targets="None" casttime="0" recast="0">Plun. Culottes +2</i>
+  <i id="23270" enl="caballarius breeches +2" jp="ＣＢブリーチズ+2" jpl="" slots="0080" jobs="00000080" races="01FE" level="99" targets="None" casttime="0" recast="0">Cab. Breeches +2</i>
+  <i id="23271" enl="fallen's flanchard +2" jp="ＦＬフランチャー+2" jpl="" slots="0080" jobs="00000100" races="01FE" level="99" targets="None" casttime="0" recast="0">Fall. Flanchard +2</i>
+  <i id="23272" enl="ankusa trousers +2" jp="ＡＫトラウザ+2" jpl="" slots="0080" jobs="00000200" races="01FE" level="99" targets="None" casttime="0" recast="0">Ankusa Trousers +2</i>
+  <i id="23273" enl="bihu cannions +2" jp="ＢＩキャニオンズ+2" jpl="" slots="0080" jobs="00000400" races="01FE" level="99" targets="None" casttime="0" recast="0">Bihu Cannions +2</i>
+  <i id="23274" enl="arcadian braccae +2" jp="ＡＲブラッカエ+2" jpl="" slots="0080" jobs="00000800" races="01FE" level="99" targets="None" casttime="0" recast="0">Arc. Braccae +2</i>
+  <i id="23275" enl="sakonji haidate +2" jp="真左近士板佩楯" jpl="" slots="0080" jobs="00001000" races="01FE" level="99" targets="None" casttime="0" recast="0">Sakonji Haidate +2</i>
+  <i id="23276" enl="mochizuki hakama +2" jp="真望月袴" jpl="" slots="0080" jobs="00002000" races="01FE" level="99" targets="None" casttime="0" recast="0">Mochi. Hakama +2</i>
+  <i id="23277" enl="pteroslaver brais +2" jp="ＰＴブレー+2" jpl="" slots="0080" jobs="00004000" races="01FE" level="99" targets="None" casttime="0" recast="0">Ptero. Brais +2</i>
+  <i id="23278" enl="glyphic spats +2" jp="ＧＬスパッツ+2" jpl="" slots="0080" jobs="00008000" races="01FE" level="99" targets="None" casttime="0" recast="0">Glyphic Spats +2</i>
+  <i id="23279" enl="luhlaza shalwar +2" jp="ＬＬシャルワー+2" jpl="" slots="0080" jobs="00010000" races="01FE" level="99" targets="None" casttime="0" recast="0">Luhlaza Shalwar +2</i>
+  <i id="23280" enl="lanun trews +2" jp="ＬＡトルーズ+2" jpl="" slots="0080" jobs="00020000" races="01FE" level="99" targets="None" casttime="0" recast="0">Lanun Trews +2</i>
+  <i id="23281" enl="pitre churidars +2" jp="ＰＩチュリダル+2" jpl="" slots="0080" jobs="00040000" races="01FE" level="99" targets="None" casttime="0" recast="0">Pitre Churidars +2</i>
+  <i id="23282" enl="horos tights +2" jp="ＨＯタイツ+2" jpl="" slots="0080" jobs="00080000" races="01FE" level="99" targets="None" casttime="0" recast="0">Horos Tights +2</i>
+  <i id="23283" enl="pedagogy pants +2" jp="ＰＤパンツ+2" jpl="" slots="0080" jobs="00100000" races="01FE" level="99" targets="None" casttime="0" recast="0">Peda. Pants +2</i>
+  <i id="23284" enl="bagua pants +2" jp="ＢＡパンツ+2" jpl="" slots="0080" jobs="00200000" races="01FE" level="99" targets="None" casttime="0" recast="0">Bagua Pants +2</i>
+  <i id="23285" enl="futhark trousers +2" jp="ＦＵトラウザ+2" jpl="" slots="0080" jobs="00400000" races="01FE" level="99" targets="None" casttime="0" recast="0">Futhark Trousers +2</i>
   <i id="23308" enl="pummeler's calligae +2" jp="ＰＭカリガ+2" jpl="" slots="0100" jobs="00000002" races="01FE" level="99" targets="None" casttime="0" recast="0">Pumm. Calligae +2</i>
   <i id="23309" enl="anchorite's gaiters +2" jp="ＡＮゲートル+2" jpl="" slots="0100" jobs="00000004" races="01FE" level="99" targets="None" casttime="0" recast="0">Anch. Gaiters +2</i>
   <i id="23310" enl="theophany duckbills +2" jp="ＴＥダックビル+2" jpl="" slots="0100" jobs="00000008" races="01FE" level="99" targets="None" casttime="0" recast="0">Theo. Duckbills +2</i>
@@ -6339,6 +6383,28 @@
   <i id="23462" enl="academic's gown +3" jp="ＡＣガウン+3" jpl="" slots="0020" jobs="00100000" races="01FE" level="99" targets="None" casttime="0" recast="0">Acad. Gown +3</i>
   <i id="23463" enl="geomancy tunic +3" jp="ＧＯチュニック+3" jpl="" slots="0020" jobs="00200000" races="01FE" level="99" targets="None" casttime="0" recast="0">Geomancy Tunic +3</i>
   <i id="23464" enl="runeist's coat +3" jp="ＲＮコート+3" jpl="" slots="0020" jobs="00400000" races="01FE" level="99" targets="None" casttime="0" recast="0">Runeist's Coat +3</i>
+  <i id="23465" enl="agoge lorica +3" jp="ＡＧロリカ+3" jpl="" slots="0020" jobs="00000002" races="01FE" level="99" targets="None" casttime="0" recast="0">Agoge Lorica +3</i>
+  <i id="23466" enl="hesychast's cyclas +3" jp="ＨＥシクラス+3" jpl="" slots="0020" jobs="00000004" races="01FE" level="99" targets="None" casttime="0" recast="0">Hes. Cyclas +3</i>
+  <i id="23467" enl="piety briault +3" jp="ＰＩブリオー+3" jpl="" slots="0020" jobs="00000008" races="01FE" level="99" targets="None" casttime="0" recast="0">Piety Briault +3</i>
+  <i id="23468" enl="archmage's coat +3" jp="ＡＲコート+3" jpl="" slots="0020" jobs="00000010" races="01FE" level="99" targets="None" casttime="0" recast="0">Arch. Coat +3</i>
+  <i id="23469" enl="vitiation tabard +3" jp="ＶＩタバード+3" jpl="" slots="0020" jobs="00000020" races="01FE" level="99" targets="None" casttime="0" recast="0">Viti. Tabard +3</i>
+  <i id="23470" enl="plunderer's vest +3" jp="ＰＤベスト+3" jpl="" slots="0020" jobs="00000040" races="01FE" level="99" targets="None" casttime="0" recast="0">Plunderer's Vest +3</i>
+  <i id="23471" enl="caballarius surcoat +3" jp="ＣＢサーコート+3" jpl="" slots="0020" jobs="00000080" races="01FE" level="99" targets="None" casttime="0" recast="0">Cab. Surcoat +3</i>
+  <i id="23472" enl="fallen's cuirass +3" jp="ＦＬキュイラス+3" jpl="" slots="0020" jobs="00000100" races="01FE" level="99" targets="None" casttime="0" recast="0">Fall. Cuirass +3</i>
+  <i id="23473" enl="ankusa jackcoat +3" jp="ＡＫジャック+3" jpl="" slots="0020" jobs="00000200" races="01FE" level="99" targets="None" casttime="0" recast="0">An. Jackcoat +3</i>
+  <i id="23474" enl="bihu justaucorps +3" jp="ＢＩジュストコル+3" jpl="" slots="0020" jobs="00000400" races="01FE" level="99" targets="None" casttime="0" recast="0">Bihu Jstcorps. +3</i>
+  <i id="23475" enl="arcadian jerkin +3" jp="ＡＲジャーキン+3" jpl="" slots="0020" jobs="00000800" races="01FE" level="99" targets="None" casttime="0" recast="0">Arc. Jerkin +3</i>
+  <i id="23476" enl="sakonji domaru +3" jp="極左近士胴丸" jpl="" slots="0020" jobs="00001000" races="01FE" level="99" targets="None" casttime="0" recast="0">Sakonji Domaru +3</i>
+  <i id="23477" enl="mochizuki chainmail +3" jp="極望月鎖帷子" jpl="" slots="0020" jobs="00002000" races="01FE" level="99" targets="None" casttime="0" recast="0">Mochi. Chainmail +3</i>
+  <i id="23478" enl="pteroslaver mail +3" jp="ＰＴメイル+3" jpl="" slots="0020" jobs="00004000" races="01FE" level="99" targets="None" casttime="0" recast="0">Ptero. Mail +3</i>
+  <i id="23479" enl="glyphic doublet +3" jp="ＧＬダブレット+3" jpl="" slots="0020" jobs="00008000" races="01FE" level="99" targets="None" casttime="0" recast="0">Glyphic Doublet +3</i>
+  <i id="23480" enl="luhlaza jubbah +3" jp="ＬＬジュバ+3" jpl="" slots="0020" jobs="00010000" races="01FE" level="99" targets="None" casttime="0" recast="0">Luhlaza Jubbah +3</i>
+  <i id="23481" enl="lanun frac +3" jp="ＬＡフラック+3" jpl="" slots="0020" jobs="00020000" races="01FE" level="99" targets="None" casttime="0" recast="0">Lanun Frac +3</i>
+  <i id="23482" enl="pitre tobe +3" jp="ＰＩトベ+3" jpl="" slots="0020" jobs="00040000" races="01FE" level="99" targets="None" casttime="0" recast="0">Pitre Tobe +3</i>
+  <i id="23483" enl="horos casaque +3" jp="ＨＯカザク+3" jpl="" slots="0020" jobs="00080000" races="01FE" level="99" targets="None" casttime="0" recast="0">Horos Casaque +3</i>
+  <i id="23484" enl="pedagogy gown +3" jp="ＰＤガウン+3" jpl="" slots="0020" jobs="00100000" races="01FE" level="99" targets="None" casttime="0" recast="0">Peda. Gown +3</i>
+  <i id="23485" enl="bagua tunic +3" jp="ＢＡチュニック+3" jpl="" slots="0020" jobs="00200000" races="01FE" level="99" targets="None" casttime="0" recast="0">Bagua Tunic +3</i>
+  <i id="23486" enl="futhark coat +3" jp="ＦＵコート+3" jpl="" slots="0020" jobs="00400000" races="01FE" level="99" targets="None" casttime="0" recast="0">Futhark Coat +3</i>
   <i id="23509" enl="pummeler's mufflers +3" jp="ＰＭマフラ+3" jpl="" slots="0040" jobs="00000002" races="01FE" level="99" targets="None" casttime="0" recast="0">Pumm. Mufflers +3</i>
   <i id="23510" enl="anchorite's gloves +3" jp="ＡＮグローブ+3" jpl="" slots="0040" jobs="00000004" races="01FE" level="99" targets="None" casttime="0" recast="0">Anchor. Gloves +3</i>
   <i id="23511" enl="theophany mitts +3" jp="ＴＥミトン+3" jpl="" slots="0040" jobs="00000008" races="01FE" level="99" targets="None" casttime="0" recast="0">Theophany Mitts +3</i>
@@ -6407,6 +6473,28 @@
   <i id="23596" enl="academic's pants +3" jp="ＡＣパンツ+3" jpl="" slots="0080" jobs="00100000" races="01FE" level="99" targets="None" casttime="0" recast="0">Acad. Pants +3</i>
   <i id="23597" enl="geomancy pants +3" jp="ＧＯパンツ+3" jpl="" slots="0080" jobs="00200000" races="01FE" level="99" targets="None" casttime="0" recast="0">Geomancy Pants +3</i>
   <i id="23598" enl="runeist's trousers +3" jp="ＲＮトラウザ+3" jpl="" slots="0080" jobs="00400000" races="01FE" level="99" targets="None" casttime="0" recast="0">Rune. Trousers +3</i>
+  <i id="23599" enl="agoge cuisses +3" jp="ＡＧクウィス+3" jpl="" slots="0080" jobs="00000002" races="01FE" level="99" targets="None" casttime="0" recast="0">Agoge Cuisses +3</i>
+  <i id="23600" enl="hesychast's hose +3" jp="ＨＥホーズ+3" jpl="" slots="0080" jobs="00000004" races="01FE" level="99" targets="None" casttime="0" recast="0">Hes. Hose +3</i>
+  <i id="23601" enl="piety pantaloons +3" jp="ＰＩパンタロン+3" jpl="" slots="0080" jobs="00000008" races="01FE" level="99" targets="None" casttime="0" recast="0">Piety Pantaln. +3</i>
+  <i id="23602" enl="archmage's tonban +3" jp="ＡＲトンバン+3" jpl="" slots="0080" jobs="00000010" races="01FE" level="99" targets="None" casttime="0" recast="0">Arch. Tonban +3</i>
+  <i id="23603" enl="vitiation tights +3" jp="ＶＩタイツ+3" jpl="" slots="0080" jobs="00000020" races="01FE" level="99" targets="None" casttime="0" recast="0">Viti. Tights +3</i>
+  <i id="23604" enl="plunderer's culottes +3" jp="ＰＤキュロット+3" jpl="" slots="0080" jobs="00000040" races="01FE" level="99" targets="None" casttime="0" recast="0">Plun. Culottes +3</i>
+  <i id="23605" enl="caballarius breeches +3" jp="ＣＢブリーチズ+3" jpl="" slots="0080" jobs="00000080" races="01FE" level="99" targets="None" casttime="0" recast="0">Cab. Breeches +3</i>
+  <i id="23606" enl="fallen's flanchard +3" jp="ＦＬフランチャー+3" jpl="" slots="0080" jobs="00000100" races="01FE" level="99" targets="None" casttime="0" recast="0">Fall. Flanchard +3</i>
+  <i id="23607" enl="ankusa trousers +3" jp="ＡＫトラウザ+3" jpl="" slots="0080" jobs="00000200" races="01FE" level="99" targets="None" casttime="0" recast="0">Ankusa Trousers +3</i>
+  <i id="23608" enl="bihu cannions +3" jp="ＢＩキャニオンズ+3" jpl="" slots="0080" jobs="00000400" races="01FE" level="99" targets="None" casttime="0" recast="0">Bihu Cannions +3</i>
+  <i id="23609" enl="arcadian braccae +3" jp="ＡＲブラッカエ+3" jpl="" slots="0080" jobs="00000800" races="01FE" level="99" targets="None" casttime="0" recast="0">Arc. Braccae +3</i>
+  <i id="23610" enl="sakonji haidate +3" jp="極左近士板佩楯" jpl="" slots="0080" jobs="00001000" races="01FE" level="99" targets="None" casttime="0" recast="0">Sakonji Haidate +3</i>
+  <i id="23611" enl="mochizuki hakama +3" jp="極望月袴" jpl="" slots="0080" jobs="00002000" races="01FE" level="99" targets="None" casttime="0" recast="0">Mochi. Hakama +3</i>
+  <i id="23612" enl="pteroslaver brais +3" jp="ＰＴブレー+3" jpl="" slots="0080" jobs="00004000" races="01FE" level="99" targets="None" casttime="0" recast="0">Ptero. Brais +3</i>
+  <i id="23613" enl="glyphic spats +3" jp="ＧＬスパッツ+3" jpl="" slots="0080" jobs="00008000" races="01FE" level="99" targets="None" casttime="0" recast="0">Glyphic Spats +3</i>
+  <i id="23614" enl="luhlaza shalwar +3" jp="ＬＬシャルワー+3" jpl="" slots="0080" jobs="00010000" races="01FE" level="99" targets="None" casttime="0" recast="0">Luhlaza Shalwar +3</i>
+  <i id="23615" enl="lanun trews +3" jp="ＬＡトルーズ+3" jpl="" slots="0080" jobs="00020000" races="01FE" level="99" targets="None" casttime="0" recast="0">Lanun Trews +3</i>
+  <i id="23616" enl="pitre churidars +3" jp="ＰＩチュリダル+3" jpl="" slots="0080" jobs="00040000" races="01FE" level="99" targets="None" casttime="0" recast="0">Pitre Churidars +3</i>
+  <i id="23617" enl="horos tights +3" jp="ＨＯタイツ+3" jpl="" slots="0080" jobs="00080000" races="01FE" level="99" targets="None" casttime="0" recast="0">Horos Tights +3</i>
+  <i id="23618" enl="pedagogy pants +3" jp="ＰＤパンツ+3" jpl="" slots="0080" jobs="00100000" races="01FE" level="99" targets="None" casttime="0" recast="0">Peda. Pants +3</i>
+  <i id="23619" enl="bagua pants +3" jp="ＢＡパンツ+3" jpl="" slots="0080" jobs="00200000" races="01FE" level="99" targets="None" casttime="0" recast="0">Bagua Pants +3</i>
+  <i id="23620" enl="futhark trousers +3" jp="ＦＵトラウザ+3" jpl="" slots="0080" jobs="00400000" races="01FE" level="99" targets="None" casttime="0" recast="0">Futhark Trousers +3</i>
   <i id="23643" enl="pummeler's calligae +3" jp="ＰＭカリガ+3" jpl="" slots="0100" jobs="00000002" races="01FE" level="99" targets="None" casttime="0" recast="0">Pumm. Calligae +3</i>
   <i id="23644" enl="anchorite's gaiters +3" jp="ＡＮゲートル+3" jpl="" slots="0100" jobs="00000004" races="01FE" level="99" targets="None" casttime="0" recast="0">Anch. Gaiters +3</i>
   <i id="23645" enl="theophany duckbills +3" jp="ＴＥダックビル+3" jpl="" slots="0100" jobs="00000008" races="01FE" level="99" targets="None" casttime="0" recast="0">Theo. Duckbills +3</i>
@@ -6455,18 +6543,23 @@
   <i id="23710" enl="volte beret" jp="ヴォルトベレー" jpl="" slots="0010" jobs="00308438" races="01FE" level="99" targets="None" casttime="0" recast="0">Volte Beret</i>
   <i id="23711" enl="volte tiara" jp="ヴォルトティアラ" jpl="" slots="0010" jobs="004F7FE6" races="01FE" level="99" targets="None" casttime="0" recast="0">Volte Tiara</i>
   <i id="23712" enl="volte salade" jp="ヴォルトサラド" jpl="" slots="0010" jobs="00000182" races="01FE" level="99" targets="None" casttime="0" recast="0">Volte Salade</i>
+  <i id="23713" enl="volte cap" jp="ヴォルトキャップ" jpl="" slots="0010" jobs="007FFFFE" races="01FE" level="99" targets="None" casttime="0" recast="0">Volte Cap</i>
   <i id="23714" enl="volte doublet" jp="ヴォルトダブレット" jpl="" slots="0020" jobs="00308438" races="01FE" level="99" targets="Self" casttime="0" recast="72000">Volte Doublet</i>
   <i id="23715" enl="volte harness" jp="ヴォルトハーネス" jpl="" slots="0020" jobs="004F7FE6" races="01FE" level="99" targets="Self" casttime="0" recast="72000">Volte Harness</i>
   <i id="23716" enl="volte haubert" jp="ヴォルトオーベール" jpl="" slots="0020" jobs="00000182" races="01FE" level="99" targets="None" casttime="0" recast="0">Volte Haubert</i>
+  <i id="23717" enl="volte jupon" jp="ヴォルトジュポン" jpl="" slots="0020" jobs="007FFFFE" races="01FE" level="99" targets="None" casttime="0" recast="0">Volte Jupon</i>
   <i id="23718" enl="volte gloves" jp="ヴォルトグローブ" jpl="" slots="0040" jobs="00308438" races="01FE" level="99" targets="None" casttime="0" recast="0">Volte Gloves</i>
   <i id="23719" enl="volte mittens" jp="ヴォルトミトン" jpl="" slots="0040" jobs="004F7FE6" races="01FE" level="99" targets="None" casttime="0" recast="0">Volte Mittens</i>
   <i id="23720" enl="volte moufles" jp="ヴォルトムフル" jpl="" slots="0040" jobs="00000182" races="01FE" level="99" targets="None" casttime="0" recast="0">Volte Moufles</i>
+  <i id="23721" enl="volte bracers" jp="ヴォルトブレーサー" jpl="" slots="0040" jobs="007FFFFE" races="01FE" level="99" targets="None" casttime="0" recast="0">Volte Bracers</i>
   <i id="23722" enl="volte brais" jp="ヴォルトブレー" jpl="" slots="0080" jobs="00308438" races="01FE" level="99" targets="None" casttime="0" recast="0">Volte Brais</i>
   <i id="23723" enl="volte tights" jp="ヴォルトタイツ" jpl="" slots="0080" jobs="004F7FE6" races="01FE" level="99" targets="None" casttime="0" recast="0">Volte Tights</i>
   <i id="23724" enl="volte brayettes" jp="ヴォルトブレエット" jpl="" slots="0080" jobs="00000182" races="01FE" level="99" targets="None" casttime="0" recast="0">Volte Brayettes</i>
+  <i id="23725" enl="volte hose" jp="ヴォルトホーズ" jpl="" slots="0080" jobs="007FFFFE" races="01FE" level="99" targets="None" casttime="0" recast="0">Volte Hose</i>
   <i id="23726" enl="volte gaiters" jp="ヴォルトゲートル" jpl="" slots="0100" jobs="00308438" races="01FE" level="99" targets="None" casttime="0" recast="0">Volte Gaiters</i>
   <i id="23727" enl="volte spats" jp="ヴォルトスパッツ" jpl="" slots="0100" jobs="004F7FE6" races="01FE" level="99" targets="None" casttime="0" recast="0">Volte Spats</i>
   <i id="23728" enl="volte sollerets" jp="ヴォルトソルレ" jpl="" slots="0100" jobs="00000182" races="01FE" level="99" targets="None" casttime="0" recast="0">Volte Sollerets</i>
+  <i id="23729" enl="volte boots" jp="ヴォルトブーツ" jpl="" slots="0100" jobs="007FFFFE" races="01FE" level="99" targets="None" casttime="0" recast="0">Volte Boots</i>
   <i id="25549" enl="Oshosi mask" jp="オショシマスク" jpl="" slots="0010" jobs="00020800" races="01FE" level="99" targets="None" casttime="0" recast="0">Oshosi Mask</i>
   <i id="25550" enl="Oshosi mask +1" jp="オショシマスク+1" jpl="" slots="0010" jobs="00020800" races="01FE" level="99" targets="None" casttime="0" recast="0">Oshosi Mask +1</i>
   <i id="25551" enl="kendatsuba jinpachi" jp="乾闥婆陣鉢" jpl="" slots="0010" jobs="00003004" races="01FE" level="99" targets="None" casttime="0" recast="0">Ken. Jinpachi</i>
@@ -7018,6 +7111,8 @@
   <i id="26402" enl="forfend +1" jp="フォフェンド+1" jpl="" slots="0002" jobs="000012A2" races="01FE" level="99" targets="None" casttime="0" recast="0">Forfend +1</i>
   <i id="26403" enl="Srivatsa" jp="スリヴァーザ" jpl="" slots="0002" jobs="00000080" races="01FE" level="99" targets="None" casttime="0" recast="0">Srivatsa</i>
   <i id="26406" enl="kupo shield" jp="クポシールド" jpl="" slots="0002" jobs="007FFFFE" races="01FE" level="1" targets="None" casttime="0" recast="0">Kupo Shield</i>
+  <i id="26410" enl="diamond buckler" jp="ダイアバックラー" jpl="" slots="0002" jobs="007FFFFE" races="01FE" level="1" targets="None" casttime="0" recast="0">Diamond Buckler</i>
+  <i id="26411" enl="diamond buckler +1" jp="ダイアバックラー+1" jpl="" slots="0002" jobs="007FFFFE" races="01FE" level="1" targets="Self" casttime="0" recast="1800">Diamond Buckler +1</i>
   <i id="26419" enl="Ammurapi shield" jp="アムラピシールド" jpl="" slots="0002" jobs="00308438" races="01FE" level="99" targets="None" casttime="0" recast="0">Ammurapi Shield</i>
   <i id="26420" enl="Adapa shield" jp="アダパシールド" jpl="" slots="0002" jobs="00000302" races="01FE" level="99" targets="None" casttime="0" recast="0">Adapa Shield</i>
   <i id="26421" enl="Nusku shield" jp="ヌスクシールド" jpl="" slots="0002" jobs="00020800" races="01FE" level="99" targets="None" casttime="0" recast="0">Nusku Shield</i>
@@ -7665,8 +7760,8 @@
   <i id="27181" enl="glyphic spats +1" jp="ＧＬスパッツ+1" jpl="" slots="0080" jobs="00008000" races="01FE" level="99" targets="None" casttime="0" recast="0">Glyphic Spats +1</i>
   <i id="27182" enl="luhlaza shalwar" jp="ルラーザシャルワー" jpl="" slots="0080" jobs="00010000" races="01FE" level="99" targets="None" casttime="0" recast="0">Luhlaza Shalwar</i>
   <i id="27183" enl="luhlaza shalwar +1" jp="ＬＬシャルワー+1" jpl="" slots="0080" jobs="00010000" races="01FE" level="99" targets="None" casttime="0" recast="0">Luhlaza Shalwar +1</i>
-  <i id="27184" enl="lanun culottes" jp="ラヌントルーズ" jpl="" slots="0080" jobs="00020000" races="01FE" level="99" targets="None" casttime="0" recast="0">Lanun Culottes</i>
-  <i id="27185" enl="lanun culottes +1" jp="ＬＡトルーズ+1" jpl="" slots="0080" jobs="00020000" races="01FE" level="99" targets="None" casttime="0" recast="0">Lanun Culottes +1</i>
+  <i id="27184" enl="lanun trews" jp="ラヌントルーズ" jpl="" slots="0080" jobs="00020000" races="01FE" level="99" targets="None" casttime="0" recast="0">Lanun Trews</i>
+  <i id="27185" enl="lanun trews +1" jp="ＬＡトルーズ+1" jpl="" slots="0080" jobs="00020000" races="01FE" level="99" targets="None" casttime="0" recast="0">Lanun Trews +1</i>
   <i id="27186" enl="pitre churidars" jp="ピトルチュリダル" jpl="" slots="0080" jobs="00040000" races="01FE" level="99" targets="None" casttime="0" recast="0">Pitre Churidars</i>
   <i id="27187" enl="pitre churidars +1" jp="ＰＩチュリダル+1" jpl="" slots="0080" jobs="00040000" races="01FE" level="99" targets="None" casttime="0" recast="0">Pitre Churidars +1</i>
   <i id="27188" enl="horos tights" jp="ホロスタイツ" jpl="" slots="0080" jobs="00080000" races="01FE" level="99" targets="None" casttime="0" recast="0">Horos Tights</i>
