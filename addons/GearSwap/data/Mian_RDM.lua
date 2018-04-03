@@ -125,6 +125,7 @@ function init_gear_sets()
 	   ,ammo="Bibiki seashell"
 	   ,neck="Grandiose chain"
 	   ,ear1="Magnetic earring"
+	   ,ear2="Relaxing earring"
 	   ,body="Errant houppelande"
 	   ,waist="Duelist's belt"
 	   ,feet="Avocat pigaches"}
@@ -315,7 +316,7 @@ sets.midcast['Healing Magic']
   
   -- ws
   sets.precast.WS
-   = {neck="Peacock amulet"          
+   = {neck="Fotia gorget"          
      ,ear1="Merman's earring"
      ,ear2="Brutal earring"
      ,body="Antares harness"

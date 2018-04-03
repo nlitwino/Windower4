@@ -117,7 +117,7 @@ function init_gear_sets()
      ,ammo="Bibiki seashell"
      ,neck="Grandiose chain"
      ,ear1="Magnetic earring"
-     --,ear1="Relaxing earring"
+     ,ear2="Relaxing earring"
      ,body="Errant houppelande"
      ,ring2="Star ring"
      ,back="Invigorating cape"
@@ -311,7 +311,7 @@ function init_gear_sets()
 
   --Weaponskill Sets
   sets.precast.WS
-   = {}
+   = {neck="Fotia gorget"}
 
 end
 

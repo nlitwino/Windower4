@@ -27,7 +27,7 @@ function user_setup()
   --get main and sub weapons for regear function
   gear.ammo = player.equipment.ammo
   
-  send_command('gs equip sets.lockstyle')
+  send_command('wait 2;gs equip sets.lockstyle')
   send_command('wait 3;input /lockstyle on; gs c update')
   
   -- custom state buffs
@@ -203,6 +203,8 @@ function init_gear_sets()
                 ,{head="Commodore tricorne"
                  ,body="Commodore frac"
                  ,hands="Crimson finger gauntlets"
+                 ,ring1="Behemoth ring +1"
+                 ,ring2="Behemoth ring +1"
                  ,feet="Enkidu's leggings"})
                  
   sets.midcast.RA.HybridAcc
@@ -223,7 +225,7 @@ function init_gear_sets()
   -- weaponskill
   sets.precast.WS
    = {head="Commodore tricorne"
-     ,neck="Peacock amulet"
+     ,neck="Fotia gorget"
      ,ear1="Drone earring"
      ,ear2="Drone earring"
      ,body="Commodore frac"
@@ -250,7 +252,8 @@ function init_gear_sets()
   -- TEST PURE INT VS PURE AGI                  
   sets.precast.WS['Leaden Salute']
    = set_combine(sets.AGI
-                ,{ear2="Moldavite earring"
+                ,{neck="Fotia gorget"
+                 ,ear2="Moldavite earring"
                  ,})  
    
    sets.precast.WS['Leaden Salute'].HybridAcc
@@ -373,7 +376,7 @@ function handle_shot()
         element = 'Earth'
       end
     else
-      element = 'Earth'
+      element = world.day_element
     end
   else
     element = 'Earth'

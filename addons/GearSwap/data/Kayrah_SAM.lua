@@ -144,11 +144,13 @@ function init_gear_sets()
                  ,back="Cuchulain's mantle"})
 
   -- amano engaged / 437 delay GKT
-  sets.engaged.Amano                        = {}
-  sets.engaged.Acc.Amano                    = {}
-
-  sets.engaged.Amano.AM                     = {}
-  sets.engaged.Acc.Amano.AM                 = {}
+  sets.engaged.Amano
+   = set_combine(sets.engaged
+                ,{body="Shinimusha hara-ate"})
+   
+  sets.engaged.Acc.Amano
+   = set_combine(sets.engaged.Amano
+                ,{})
 
   -- nanatsu engaged /  420 delay GKT
   ---------------- ROSE STRAP / WHITE TATH ---------------
@@ -316,45 +318,55 @@ function job_post_precast(spell,action,spellMap,eventArgs)
     currentAM = 'GK'
   end
   
-  if spell.name:startswith('Tachi') then
-    if player.equipment.ranged == 'empty' then
-      if state.CombatWeapon.value == 'Nanatsu' and spell.name ~= 'Tachi: Rana' then
-      
-        equip({feet="Hachiman sune-ate +1"})
-        
-        if state.WeaponskillMode.value == 'HighAttack' then
-          equip({ammo="Black tathlum",body="Hachiman domaru +1"})
-        else
-          equip({ammo="White tathlum",body="Hachiryu haramaki"})
-        end
-        
-      else
-        equip({ammo="Black tathlum"})
-      end
-    else
-      if state.CombatWeapon.value == 'Nanatsu' and spell.name ~= 'Tachi: Rana' then
-        equip({body="Hachiman domaru +1",feet="Hachiman sune-ate +1"})
-      end
-    end
-  end
-  
-  if spell.type == 'JobAbility' then
-    if state.Tank.value then
-      equip(set_combine(sets.enmityUp,sets.precast.JA[spell.english]) or sets.enmityUp)
-    else
-      equip(set_combine(sets.enmityDown,sets.precast.JA[spell.english]) or sets.enmityDown)
-    end
-  end
-
   if spell.type == 'WeaponSkill' then
-    if spell.skill == 'Archery' then
+    if spell.name:startswith('Tachi') then
+      
+      if state.WeaponskillMode.value ~= 'HighAttack' and daytime then
+        equip({ear1="Fenrir's earring"})
+      end
+      
+      if player.equipment.ranged == 'empty' then
+        if spell.name ~= 'Tachi: Rana' then
+        
+          equip({})
+          
+          if state.CombatWeapon.value == 'Nanatsu' then
+            equip({ammo="Black tathlum",body="Hachiman domaru +1",feet="Hachiman sune-ate +1"})
+          elseif state.CombatWeapon.value == 'Amano' then
+            equip({ammo="White tathlum",feet="Hachiman sune-ate +1"})
+          else
+            equip({ammo="Black tathlum"})
+          end
+          
+        else
+          equip({ammo="Black tathlum"})
+        end
+      else
+        if spell.name ~= 'Tachi: Rana' then
+          if state.CombatWeapon.value == 'Nanatsu' then
+            equip({body="Hachiman domaru +1",feet="Hachiman sune-ate +1"})
+          elseif state.CombatWeapon.value == 'Amano' then
+            if state.WeaponskillMode.value == 'HighAttack' then
+              equip({body="Hachiryu haramaki",hands="Alkyoneus's bracelets",feet="Hachiman sune-ate +1"})
+            else
+              equip({hands="Hachiman kote +1"})
+            end
+          end
+        end
+      end
+      
+    elseif spell.skill == 'Archery' then
       if daytime then
         equip({ear1="Ladybug earring +1",ear2="Ladybug earring +1"})
       else
         equip({ear1="Fenrir's earring"})
       end
-    elseif state.WeaponskillMode.value == 'HighAttack' and daytime then
-      equip({ear1="Fenrir's earring"})
+    end
+  elseif spell.type == 'JobAbility' then
+    if state.Tank.value then
+      equip(set_combine(sets.enmityUp,sets.precast.JA[spell.english]) or sets.enmityUp)
+    else
+      equip(set_combine(sets.enmityDown,sets.precast.JA[spell.english]) or sets.enmityDown)
     end
   end
 
@@ -364,11 +376,7 @@ function job_buff_change(name,gain)
 
   sleep_swap(name,gain)
   
-  if name:startswith('Aftermath') and currentAM == 'GK' then
-    state.Buff['Aftermath'] = gain
-    adjust_melee_groups()
-    handle_equipping_gear(player.status)
-  elseif name == 'Seigan' then
+  if name == 'Seigan' then
     state.Buff[name] = gain
     handle_equipping_gear(player.status)
   end
@@ -400,10 +408,14 @@ end
 function customize_melee_set(meleeSet)
   
   if player.equipment.ranged == 'empty' then
-    if state.CombatWeapon.value == 'Nanatsu' or state.OffenseMode.value ~= 'Normal' then
+    if (state.CombatWeapon.value == 'Nanatsu' or state.CombatWeapon.value == 'Amano') or state.OffenseMode.value ~= 'Normal' then
       meleeSet = set_combine(meleeSet,{ammo="White tathlum"})
     else
       meleeSet = set_combine(meleeSet,{ammo="Black tathlum"})
+    end
+  else
+    if state.CombatWeapon.value == 'Amano' or state.CombatWeapon.value == 'Nanatsu' then
+      meleeSet = set_combine(meleeSet,{neck="Almah torque"})
     end
   end
   

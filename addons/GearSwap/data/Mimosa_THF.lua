@@ -211,7 +211,7 @@ function init_gear_sets()
   sets.precast.WS
    = {ammo="Bomb core"
      ,head="Hecatomb cap"        
-     ,neck="Spike necklace"        
+     ,neck="Fotia gorget"        
      ,ear1="Merman's earring"     
      ,ear2="Brutal earring"
      ,body="Antares harness"   
@@ -547,7 +547,7 @@ end
 function customize_idle_set(idleSet)
 
   if daytime then
-    idleSet = set_combine(idleSet,{hands="Garden bangles",waist="Lycopodium sash"})
+    idleSet = set_combine(idleSet,{--[[hands="Garden bangles",]]waist="Lycopodium sash"})
   end
   
   return idleSet

@@ -130,6 +130,7 @@ function init_gear_sets()
      ,head="Oracle's cap"
      ,neck="Grandiose chain"
      ,ear1="Magnetic earring"
+     ,ear2="Relaxing earring"
      ,body="Oracle's robe"
      ,hands="Oracle's gloves"
      ,ring2="Star ring"
@@ -317,7 +318,7 @@ function init_gear_sets()
   -- WS sets
   sets.precast.WS
    = {head="Hecatomb cap"
-     ,neck="Spike necklace"
+     ,neck="Fotia gorget"
      ,ear1="Merman's earring"
      ,ear2="Brutal earring"
      ,body="Kirin's osode"
