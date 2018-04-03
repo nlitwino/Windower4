@@ -223,7 +223,7 @@ function init_gear_sets()
   -- ranged
   sets.precast.RA
    = {head="Zha'Go's barbut"
-     ,scorpion_harness['Rapid Shot']}
+     ,body=scorpion_harness['Rapid Shot']}
      
   sets.midcast.RA
    = {head="Zha'Go's barbut"
