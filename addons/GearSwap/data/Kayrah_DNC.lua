@@ -130,7 +130,7 @@ function init_gear_sets()
                  ,neck="Tiercel necklace"
                  ,body="Rapparee harness"
                  ,hands="Dusk gloves +1"
-                 ,waist="Velocious belt"
+                 ,waist="Ninurta's sash"
                  ,legs="Etoile tights +1"
                  ,feet="Dusk ledelsens +1"})
 
@@ -146,7 +146,6 @@ function init_gear_sets()
                ,neck="Fortified chain"
                ,ear1="Novia earring"
                ,body=scorpion_harness['Haste']
-               ,waist="Resolute belt"
                ,legs="Raven hose"
                ,feet="Dancer's toe shoes +1"})
 
@@ -168,9 +167,10 @@ function init_gear_sets()
 
   sets.idle.Town
    = set_combine(sets.idle
-                ,{neck="Orochi nodowa"
+                ,{neck="Orochi nodowa +1"
                  ,ring2="Warp ring"
-                 ,back="Nexus cape"})
+                 ,back="Nexus cape"
+                 ,waist="Ninurta's sash"})
 
   -- defense
   sets.defense.Evasion
@@ -215,7 +215,7 @@ function init_gear_sets()
      ,ring1=toreador_ring['Triple Attack (2)']
      ,ring2=toreador_ring['Triple Attack (1)']
      ,back="Cerberus mantle +1"
-     ,waist="Velocious belt"
+     ,waist="Ninurta's sash"
      ,legs="Barbarossa's zerehs"
      ,feet="Dusk ledelsens +1"}
 
@@ -257,7 +257,7 @@ function init_gear_sets()
   sets.precast.WS.Acc
    = set_combine(sets.precast.WS.HybridAcc
                 ,{waist="Virtuoso belt"
-                 ,ring2=toreador_ring['Triple Attack (1)']
+                 ,ring2="Mars's ring"
                  ,feet="Etoile toe shoes +1"})
   
   -- evisceration                 
@@ -336,7 +336,7 @@ function init_gear_sets()
                  
   sets.precast.WS['Pyrrhic Kleos'].Acc
    = set_combine(sets.precast.WS.Acc
-                ,{ring2=toreador_ring['Triple Attack (1)']})
+                ,{})
                  
   sets.precast.WS['Pyrrhic Kleos'].Mod
    = set_combine(sets.precast.WS

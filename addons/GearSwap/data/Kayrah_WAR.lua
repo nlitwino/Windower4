@@ -92,15 +92,18 @@ function init_gear_sets()
                  ,ear1="Magnetic earring"
                  ,body=scorpion_harness['Haste']
                  ,hands="Dusk gloves +1"
-                 ,waist="Velocious belt"
+                 ,waist="Ninurta's sash"
                  ,legs="Byakko's haidate"
                  ,feet="Dusk ledelsens +1"})
 
   sets.midcast['Utsusemi: Ni']
    = set_combine(sets.midcast.FastRecast
                 ,{neck="Fortified chain"
-                 ,back="Shadow mantle"
-                 ,waist="Resolute belt"})
+                 ,back="Shadow mantle"})
+                 
+  sets.midcast['Utsusemi: Ichi']
+   = set_combine(sets.midcast['Utsusemi: Ni']
+                ,{})
 
   --Idle Sets
   sets.idle
@@ -120,9 +123,10 @@ function init_gear_sets()
      
   sets.idle.Town
    = set_combine(sets.idle
-                ,{neck="Orochi nodowa"
+                ,{neck="Orochi nodowa +1"
                  ,ring2="Warp ring"
-                 ,back="Nexus cape"})
+                 ,back="Nexus cape"
+                 ,waist="Ninurta's sash"})
 
   --Defense Sets
   sets.defense.PDT                       
@@ -158,7 +162,7 @@ function init_gear_sets()
      ,ring1=toreador_ring['Triple Attack (2)']     
      ,ring2=toreador_ring['Triple Attack (1)']     
      ,back="Cerberus mantle +1"
-     ,waist="Velocious belt" 
+     ,waist="Ninurta's sash"
      ,legs="Byakko's haidate"
      ,feet="Dusk ledelsens +1"}
      
@@ -212,7 +216,7 @@ function init_gear_sets()
      ,ring1=toreador_ring['Triple Attack (2)']     
      ,ring2=toreador_ring['Triple Attack (1)']   
      ,back="Cerberus mantle +1"     
-     ,waist="Velocious belt" 
+     ,waist="Ninurta's sash"
      ,legs="Byakko's haidate"
      ,feet="Dusk ledelsens +1"}
      
@@ -236,7 +240,7 @@ function init_gear_sets()
      ,ring1="Rajas ring"    
      ,ring2=toreador_ring['Triple Attack (1)']   
      ,back="Cerberus mantle +1"
-     ,waist="Velocious belt" 
+     ,waist="Ninurta's sash"
      ,legs="Byakko's haidate"
      ,feet="Dusk ledelsens +1"}
      
@@ -297,6 +301,7 @@ function init_gear_sets()
    = set_combine(sets.precast.WS['Vorpal Blade']
                 ,{ammo="Fire bomblet"
                  ,ear1="Suppanomimi"
+                 ,ring2="Mars's ring"
                  ,back="Cuchulain's mantle"
                  ,waist="Virtuoso belt"
                  ,legs="Armada breeches"})
@@ -418,6 +423,7 @@ function init_gear_sets()
    = set_combine(sets.precast.WS['Resolution']
                 ,{ammo="Fire bomblet"
                  ,ear1="Fowling earring"
+                 ,ring2="Mars's ring"
                  ,back="Cuchulain's mantle"
                  ,waist="Virtuoso belt"
                  ,legs="Armada breeches"})

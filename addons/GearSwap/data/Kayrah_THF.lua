@@ -115,7 +115,7 @@ function init_gear_sets()
                 ,{head="Walahra turban"
                  ,body="Rapparee harness"
                  ,hands="Dusk gloves +1"
-                 ,waist="Velocious belt"
+                 ,waist="Ninurta's sash"
                  ,feet="Dusk ledelsens +1"})
 
   sets.midcast['Utsusemi: Ni']
@@ -127,8 +127,7 @@ function init_gear_sets()
                  
   sets.midcast['Utsusemi: Ichi']
    = set_combine(sets.midcast['Utsusemi: Ni']
-                ,{body=scorpion_harness['Haste']
-                 ,waist="Resolute belt"})
+                ,{body=scorpion_harness['Haste']})
 
   -- idle
   sets.idle
@@ -148,7 +147,7 @@ function init_gear_sets()
      
   sets.idle.Town                           
    = set_combine(sets.idle
-                ,{neck="Orochi nodowa"
+                ,{neck="Orochi nodowa +1"
                  ,ring2="Warp ring"
                  ,back="Nexus cape"})
 
@@ -195,7 +194,7 @@ function init_gear_sets()
      ,ring1=toreador_ring['Triple Attack (2)']         
      ,ring2=toreador_ring['Triple Attack (1)']
      ,back="Cerberus mantle +1"
-     ,waist="Velocious belt"
+     ,waist="Ninurta's sash"
      ,legs="Barbarossa's zerehs"
      ,feet="Dusk ledelsens +1"}
      

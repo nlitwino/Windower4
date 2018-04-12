@@ -107,9 +107,10 @@ function init_gear_sets()
 	 
 	sets.idle.Town                                     
 	 = set_combine(sets.idle
-	              ,{neck="Orochi nodowa"
+	              ,{neck="Orochi nodowa +1"
 	               ,ring2="Warp ring"
-	               ,back="Nexus cape"})
+	               ,back="Nexus cape"
+	               ,waist="Ninurta's sash"})
 	 
 	sets.idle.Combat                                   
 	 = set_combine(sets.idle,{main="",sub=""})
@@ -142,7 +143,7 @@ function init_gear_sets()
 	sets.midcast.FastRecast
 	 = set_combine(sets.precast.FC
 	              ,{hands="Dusk gloves +1"
-	               ,waist="Velocious belt"
+                 ,waist="Ninurta's sash"
 	               ,legs="Nashira seraweels"
 	               ,feet="Dusk ledelsens +1"})
 	               
@@ -155,7 +156,6 @@ function init_gear_sets()
 	 = set_combine(sets.midcast['Utsusemi: Ni']
 	              ,{body=scorpion_harness['Haste']
 	               ,ring1="Defending ring"
-	               ,waist="Resolute belt"
 	               ,back=prism_cape['Spell Interrupt']})
 	
 	                                                   
@@ -238,7 +238,7 @@ function init_gear_sets()
 	 = set_combine(sets.midcast.FastRecast
 	              ,{ear1="Magnetic earring"
 	               ,hands="Duelist's gloves"
-	               ,waist="Velocious belt"
+                 ,waist="Ninurta's sash"
 	               ,legs="Warlock's tights +1"})
 	                                                   
 	-- custom midcast magic                            
@@ -247,8 +247,7 @@ function init_gear_sets()
 	              ,sets.midcast.FastRecast
 	              ,{ear1="Magnetic earring"
 	               ,body="Warlock's tabard"
-	               ,back=prism_cape['Spell Interrupt']
-	               ,waist="Resolute belt"})
+	               ,back=prism_cape['Spell Interrupt']})
 	               
   sets.midcast['Phalanx']
    = set_combine(sets.midcast['Stoneskin']
@@ -313,7 +312,7 @@ function init_gear_sets()
      ,ring1=toreador_ring['Triple Attack (1)']    
      ,ring2=toreador_ring['Triple Attack (2)'] 
      ,back="Cerberus mantle +1" 
-     ,waist="Velocious belt"
+     ,waist="Ninurta's sash"
      ,legs="Nashira seraweels"
      ,feet="Dusk ledelsens +1"}
      
@@ -328,7 +327,7 @@ function init_gear_sets()
 	   ,ear2="Brutal earring"
 		 ,body="Antares harness"
 		 ,hands="Tarasque mitts +1"
-		 ,ring1=toreador_ring['Triple Attack (1)']  
+		 ,ring1="Mars's ring"  
      ,ring2="Strigoi ring"     
 		 ,back="Cerberus mantle +1"
 		 ,waist="Swordbelt +1"         

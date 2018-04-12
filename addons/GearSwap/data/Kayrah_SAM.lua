@@ -69,7 +69,7 @@ function init_gear_sets()
    = set_combine(sets.precast.FC
                 ,{head="Walahra turban"
                  ,hands="Dusk gloves +1"
-                 ,waist="Velocious belt"
+                 ,waist="Ninurta's sash"
                  ,legs="Byakko's haidate"
                  ,feet="Dusk ledelsens +1"})
 
@@ -82,7 +82,7 @@ function init_gear_sets()
                  
   sets.midcast['Utsusemi: Ichi']
    = set_combine(sets.midcast['Utsusemi: Ni']
-                ,{waist="Resolute belt"})
+                ,{})
 
   -- idle
   sets.idle 
@@ -101,9 +101,10 @@ function init_gear_sets()
     
   sets.idle.Town
    = set_combine(sets.idle
-                ,{neck="Orochi nodowa"
+                ,{neck="Orochi nodowa +1"
                  ,ring2="Warp ring"
-                 ,back="Nexus cape"})
+                 ,back="Nexus cape"
+                 ,waist="Ninurta's sash"})
 
   -- defense
   sets.defense.PDT
@@ -124,18 +125,18 @@ function init_gear_sets()
   -- default engaged / 450 delay GKT (hagun/soboro)
   ------------------ WHITE TATHLUM ------------------
   sets.engaged 
-  = {head="Walahra turban"     
-    ,neck="Justice torque"  
-    ,ear1="Bushinomimi"     
-    ,ear2="Brutal earring"
-    ,body="Hachiman domaru +1"
-    ,hands="Dusk gloves +1" 
-    ,ring1=toreador_ring['Triple Attack (2)']   
-    ,ring2=toreador_ring['Triple Attack (1)']
-    ,back="Cerberus mantle +1" 
-    ,waist="Velocious belt"
-    ,legs="Byakko's haidate"
-    ,feet="Dusk ledelsens +1"}
+   = {head="Walahra turban"     
+     ,neck="Justice torque"  
+     ,ear1="Bushinomimi"     
+     ,ear2="Brutal earring"
+     ,body="Hachiman domaru +1"
+     ,hands="Dusk gloves +1" 
+     ,ring1=toreador_ring['Triple Attack (2)']   
+     ,ring2=toreador_ring['Triple Attack (1)']
+     ,back="Cerberus mantle +1" 
+     ,waist="Ninurta's sash"
+     ,legs="Byakko's haidate"
+     ,feet="Dusk ledelsens +1"}
     
   sets.engaged.Acc
    = set_combine(sets.engaged
@@ -273,7 +274,7 @@ function init_gear_sets()
   sets.precast.WS['Tachi: Rana']
    = set_combine(sets.precast.WS
                 ,{ring1=toreador_ring['Triple Attack (2)']
-                 ,ring2=toreador_ring['Triple Attack (1)']})
+                 ,ring2="Mars's ring"})
                 
   sets.precast.WS['Tachi: Rana'].MidAttack
    = set_combine(sets.precast.WS['Tachi: Rana']
@@ -302,11 +303,21 @@ function init_gear_sets()
    = set_combine(sets.precast.WS['Sidewinder']
                 ,{})
 
-  sets.precast.WS['Jishnu\'s Radiance'] 	  = set_combine(sets.precast.WS['Sidewinder'],{})
-  sets.precast.WS['Jishnu\'s Radiance'].Acc = set_combine(sets.precast.WS['Sidewinder'].Acc,{})
+  sets.precast.WS['Jishnu\'s Radiance']
+   = set_combine(sets.precast.WS['Sidewinder']
+                ,{})
+   
+  sets.precast.WS['Jishnu\'s Radiance'].Acc
+   = set_combine(sets.precast.WS['Sidewinder'].Acc
+                ,{})
 
-  sets.precast.WS['Namas Arrow'] 		      = set_combine(sets.precast.WS['Sidewinder'],{ear1="Triumph earring",ring2="Strigoi ring"})
-  sets.precast.WS['Namas Arrow'].Acc        = set_combine(sets.precast.WS['Sidewinder'],{})
+  sets.precast.WS['Namas Arrow']
+   = set_combine(sets.precast.WS['Sidewinder']
+                ,{ear1="Triumph earring",ring2="Strigoi ring"})
+   
+  sets.precast.WS['Namas Arrow'].Acc
+   = set_combine(sets.precast.WS['Sidewinder']
+                ,{})
 
 end
 

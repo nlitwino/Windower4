@@ -90,7 +90,7 @@ function init_gear_sets()
                 ,{head="Walahra turban"
                  ,body=scorpion_harness['Haste']
                  ,hands="Dusk gloves +1"
-                 ,waist="Velocious belt"
+                 ,waist="Ninurta's sash"
                  ,feet="Homam gambieras"})
 
   sets.midcast['Utsusemi: Ni']
@@ -103,7 +103,7 @@ function init_gear_sets()
                  
   sets.midcast['Utsusemi: Ichi']
    = set_combine(sets.midcast['Utsusemi: Ni']
-                ,{waist="Resolute belt"})
+                ,{waist="Ninurta's sash"})
 
   sets.midcast['Dark Magic']
    = set_combine(sets.INT
@@ -121,7 +121,7 @@ function init_gear_sets()
   sets.midcast['Dark Magic'].Acc      
    = set_combine(sets.midcast['Dark Magic']
                 ,{body="Corselet"
-                ,back="Abyss cape" })
+                ,back="Abyss cape"})
 
   sets.midcast['Elemental Magic']
    = set_combine(sets.INT
@@ -191,9 +191,10 @@ function init_gear_sets()
      
   sets.idle.Town
    = set_combine(sets.idle
-                ,{neck="Orochi nodowa"
+                ,{neck="Orochi nodowa +1"
                  ,ring2="Warp ring"
-                 ,back="Nexus cape"})
+                 ,back="Nexus cape"
+                 ,waist="Ninurta's sash"})
   sets.resting                        
    = {ammo="Bibiki seashell"
      ,head="Crimson mask"
@@ -237,7 +238,7 @@ function init_gear_sets()
      ,ring1=toreador_ring['Triple Attack (2)']  
      ,ring2=toreador_ring['Triple Attack (1)']
      ,back="Cerberus mantle +1"
-     ,waist="Velocious belt" 
+     ,waist="Ninurta's sash"
      ,legs="Homam cosciales"
      ,feet="Dusk ledelsens +1"}
      
@@ -266,7 +267,7 @@ function init_gear_sets()
      ,ring1=toreador_ring['Triple Attack (2)']  
      ,ring2=toreador_ring['Triple Attack (1)']
      ,back="Cerberus mantle +1"
-     ,waist="Velocious belt" 
+     ,waist="Ninurta's sash"
      ,legs="Homam cosciales"
      ,feet="Dusk ledelsens +1"}
      
@@ -296,7 +297,7 @@ function init_gear_sets()
      ,ring1=toreador_ring['Triple Attack (2)']  
      ,ring2=toreador_ring['Triple Attack (1)']
      ,back="Cerberus mantle +1"
-     ,waist="Velocious belt"
+     ,waist="Ninurta's sash"
      ,legs="Homam cosciales"
      ,feet="Dusk ledelsens +1"}
      
@@ -324,7 +325,7 @@ function init_gear_sets()
      ,ring1=toreador_ring['Triple Attack (2)']  
      ,ring2=toreador_ring['Triple Attack (1)']
      ,back="Cerberus mantle +1"
-     ,waist="Velocious belt" 
+     ,waist="Ninurta's sash"
      ,legs="Homam cosciales" 
      ,feet="Dusk ledelsens +1"}
      
@@ -348,7 +349,7 @@ function init_gear_sets()
      ,ring1=toreador_ring['Triple Attack (2)']  
      ,ring2=toreador_ring['Triple Attack (1)']
      ,back="Cerberus mantle +1"
-     ,waist="Velocious belt" 
+     ,waist="Ninurta's sash"
      ,legs="Homam cosciales" 
      ,feet="Dusk ledelsens +1"}
      

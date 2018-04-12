@@ -131,8 +131,10 @@ function init_gear_sets()
 	sets.idle.Town
 	 = set_combine(sets.idle
 	              ,{main="Elder staff"
+	               ,neck="Orochi nodowa +1"
 	               ,ring2="Warp ring"
-	               ,back="Nexus cape"})
+	               ,back="Nexus cape" 
+                 ,waist="Ninurta's sash"})
 	
 	sets.resting
 	 = {main="Chatoyant staff"
@@ -154,7 +156,8 @@ function init_gear_sets()
 	-- midcast
 	sets.midcast.FastRecast
 	 = set_combine(sets.precast.FC
-	              ,{head="Walahra turban"})
+	              ,{head="Walahra turban" 
+                 ,waist="Ninurta's sash"})
 	
 	sets.midcast['Healing Magic']
 	 = set_combine(sets.MND
@@ -162,7 +165,6 @@ function init_gear_sets()
 	              ,{main="Elder staff"
 	               ,ammo="White tathlum"
 	               ,ear1="Magnetic earring"
-	               ,waist="Buccaneer's belt"
 	               ,feet="Argute loafers"})
 	               
 	sets.midcast['Divine Magic']

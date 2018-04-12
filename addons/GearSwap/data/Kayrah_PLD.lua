@@ -94,7 +94,7 @@ function init_gear_sets()
                 ,{head="Walahra turban"
                  ,body=scorpion_harness['Haste']
                  ,hands="Dusk gloves +1"
-                 ,waist="Velocious belt"
+                 ,waist="Ninurta's sash"
                  ,feet="Homam gambieras"})
 
   sets.midcast['Healing Magic'] 
@@ -139,7 +139,6 @@ function init_gear_sets()
    = set_combine(sets.midcast['Utsusemi: Ni']
                 ,{head="Kaiser schaller"
                  ,ear2="Knightly earring"
-                 ,waist="Resolute belt"
                  ,legs="Valor breeches"
                  ,feet="Gallant leggings +1"})
 
@@ -202,9 +201,10 @@ function init_gear_sets()
      
   sets.idle.Town
    = set_combine(sets.idle
-                ,{neck="Orochi nodowa"
+                ,{neck="Orochi nodowa +1"
                  ,ring2="Warp ring"
-                 ,back="Nexus cape"})
+                 ,back="Nexus cape"
+                 ,waist="Ninurta's sash"})
 
   sets.idle.SuperPDT                 
    = set_combine(sets.idle
@@ -236,7 +236,7 @@ function init_gear_sets()
      ,ring1=toreador_ring['Triple Attack (2)']
      ,ring2=toreador_ring['Triple Attack (1)']
      ,back="Cerberus mantle +1"
-     ,waist="Velocious belt"
+     ,waist="Ninurta's sash"
      ,legs="Homam cosciales"
      ,feet="Homam gambieras"}
      
@@ -272,9 +272,9 @@ function init_gear_sets()
      ,ear1="Triumph earring"     
      ,ear2="Brutal earring"
      ,body="Hecatomb harness"  
-     ,hands="Alkyoneus's bracelets"
+     ,hands="Tarasque mitts +1"
      ,ring1="Rajas ring"
-     ,ring2=toreador_ring['Triple Attack (2)']  
+     ,ring2="Strigoi ring"
      ,back="Cerberus mantle +1"
      ,waist="Warwolf belt"         
      ,legs="Hecatomb subligar +1"
@@ -283,7 +283,7 @@ function init_gear_sets()
   sets.precast.WS.Acc
    = set_combine(sets.precast.WS
                 ,{hands="Hecatomb mittens +1"
-                 ,ring1=toreador_ring['Triple Attack (1)']
+                 ,ring2="Mars's ring"
                  ,back="Cuchulain's mantle"})
 
   sets.precast.WS['Vorpal Blade']
@@ -293,12 +293,12 @@ function init_gear_sets()
    
   sets.precast.WS['Vorpal Blade'].Acc
    = set_combine(sets.precast.WS['Vorpal Blade']
-                ,{ring1=toreador_ring['Triple Attack (1)']
-                 ,back="Cuchulain's mantle"})
+                ,{back="Cuchulain's mantle"})
 
   sets.precast.WS['Requiescat']
    = set_combine(sets.precast.WS['Vorpal Blade']
                 ,{})
+                
   sets.precast.WS['Requiescat'].Acc
    = set_combine(sets.precast.WS['Vorpal Blade'].Acc
                 ,{})
@@ -306,6 +306,7 @@ function init_gear_sets()
   sets.precast.WS['Atonement']
    = set_combine(sets.enmity
                 ,{})
+                
   sets.precast.WS['Atonement'].Acc
    = set_combine(sets.precast.WS['Atonement']
                 ,{})

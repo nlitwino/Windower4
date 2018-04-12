@@ -77,7 +77,7 @@ function init_gear_sets()
                  ,neck="Tiercel necklace"
                  ,body=scorpion_harness['Haste']
                  ,hands="Dusk gloves +1"
-                 ,waist="Velocious belt"
+                 ,waist="Ninurta's sash"
                  ,legs="Byakko's haidate"
                  ,feet="Dusk ledelsens +1"}) 
 
@@ -127,9 +127,10 @@ function init_gear_sets()
 
   sets.idle.Town
    = set_combine(sets.idle
-                ,{neck="Orochi nodowa"
+                ,{neck="Orochi nodowa +1"
                  ,ring2="Warp ring"
-                 ,back="Nexus cape"})
+                 ,back="Nexus cape"
+                 ,waist="Ninurta's sash"})
 
   -- defense
   sets.defense.Evasion
@@ -176,7 +177,7 @@ function init_gear_sets()
      ,ring1=toreador_ring['Triple Attack (2)']     
      ,ring2=toreador_ring['Triple Attack (1)'] 
      ,back="Cerberus mantle +1"
-     ,waist="Velocious belt"
+     ,waist="Ninurta's sash"
      ,legs="Byakko's haidate"
      ,feet="Dusk ledelsens +1"}
      

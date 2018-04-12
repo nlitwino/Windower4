@@ -361,6 +361,7 @@ function init_gear_sets()
                 ,{head="Walahra turban"
                  ,body="Nashira manteel"
                  ,hands="Nashira gages"
+                 ,waist="Ninurta's sash"
                  ,legs="Nashira seraweels"
                  ,feet="Nashira crackows"})
 
@@ -448,7 +449,6 @@ function init_gear_sets()
                 ,{ear2="Loquacious earring"
                  ,body="Nashira manteel"
                  ,back=prism_cape['Spell Interrupt']
-                 ,waist="Resolute belt"
                  ,feet="Mahatma pigaches"})
                  
   sets.midcast['Phalanx']
@@ -577,9 +577,10 @@ function init_gear_sets()
                  
   sets.idle.Town
    = set_combine(sets.idle
-                ,{neck="Orochi nodowa"
+                ,{neck="Orochi nodowa +1"
                  ,back="Nexus cape"
-                 ,ring2="Warp ring"})
+                 ,ring2="Warp ring"
+                 ,waist="Ninurta's sash"})
 
   -- Favor uses Caller's Horn instead of Convoker's Horn for refresh
   sets.idle.Avatar.Melee
@@ -622,7 +623,7 @@ function init_gear_sets()
      ,body="Nashira manteel"
      ,ring1=toreador_ring['Triple Attack (2)']
      ,ring1=toreador_ring['Triple Attack (1)']
-     ,waist="Virtuoso belt"
+     ,waist="Ninurta's sash"
      ,legs="Nashira seraweels"
      ,feet="Nashira crackows"}
 

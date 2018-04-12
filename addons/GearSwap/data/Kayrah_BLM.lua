@@ -77,7 +77,8 @@ function init_gear_sets()
 	 = set_combine(sets.idle
 	              ,{neck="Orochi nodowa"
 	               ,back="Nexus cape"
-	               ,ring2="Warp ring"})
+	               ,ring2="Warp ring"
+	               ,waist="Ninurta's sash"})
 	
 	sets.resting
 	 = {main="Claustrum"                                                    
@@ -137,6 +138,7 @@ function init_gear_sets()
                 ,{head="Walahra turban"
                  ,body="Nashira manteel"
                  ,hands="Nashira gages"
+                 ,waist="Ninurta's sash"
                  ,legs="Nashira seraweels"
                  ,feet="Nashira crackows"})
 	
@@ -225,7 +227,7 @@ function init_gear_sets()
                  ,sub="Genbu's shield"
                  ,ear1="Magnetic earring"
                  ,back="Merciful cape"
-                 ,waist="Resolute belt"
+                 ,waist="Ninurta's sash"
                  ,feet="Igqira huaraches"})   
                              
   -- custom midcast sets
