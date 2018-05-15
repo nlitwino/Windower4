@@ -19,6 +19,11 @@ function job_setup()
   JA_Types = S{'Flourish1','Flourish2','JobAbility'}
 
   initialize_job()
+  setskin({head=305
+          ,body=305
+          ,hands=305
+          ,legs=305
+          ,feet=305})
 
 end
 

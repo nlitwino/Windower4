@@ -6823,6 +6823,7 @@
   <i id="25843" enl="merlinic shalwar" jp="マーリンシャルワ" jpl="" slots="0080" jobs="00308030" races="01FE" level="99" targets="None" casttime="0" recast="0">Merlinic Shalwar</i>
   <i id="25844" enl="chironic hose" jp="カイロンホーズ" jpl="" slots="0080" jobs="00100428" races="01FE" level="99" targets="None" casttime="0" recast="0">Chironic Hose</i>
   <i id="25849" enl="dashing subligar" jp="ダッシングサブリガ" jpl="" slots="0080" jobs="004B77E6" races="01FE" level="99" targets="None" casttime="0" recast="0">Dashing Subligar</i>
+  <i id="25850" enl="pretty pink subligar" jp="ピンクサブリガ" jpl="" slots="0080" jobs="007FFFFE" races="01FE" level="1" targets="None" casttime="0" recast="0">Pink Subligar</i>
   <i id="25852" enl="darraigner's brais" jp="ダレイナーブレー" jpl="" slots="0080" jobs="00020840" races="01FE" level="99" targets="None" casttime="0" recast="0">Darraigner's Brais</i>
   <i id="25853" enl="querkening brais" jp="クァーケンブレー" jpl="" slots="0080" jobs="00308438" races="01FE" level="99" targets="None" casttime="0" recast="0">Querkening Brais</i>
   <i id="25854" enl="arjuna breeches" jp="アジュナブリーチズ" jpl="" slots="0080" jobs="00003382" races="01FE" level="99" targets="None" casttime="0" recast="0">Arjuna Breeches</i>
@@ -7113,6 +7114,7 @@
   <i id="26406" enl="kupo shield" jp="クポシールド" jpl="" slots="0002" jobs="007FFFFE" races="01FE" level="1" targets="None" casttime="0" recast="0">Kupo Shield</i>
   <i id="26410" enl="diamond buckler" jp="ダイアバックラー" jpl="" slots="0002" jobs="007FFFFE" races="01FE" level="1" targets="None" casttime="0" recast="0">Diamond Buckler</i>
   <i id="26411" enl="diamond buckler +1" jp="ダイアバックラー+1" jpl="" slots="0002" jobs="007FFFFE" races="01FE" level="1" targets="Self" casttime="0" recast="1800">Diamond Buckler +1</i>
+  <i id="26412" enl="Kam'lanaut's shield" jp="カムラナートの盾" jpl="" slots="0002" jobs="007FFFFE" races="01FE" level="1" targets="None" casttime="0" recast="0">Kam'lanaut's Shield</i>
   <i id="26419" enl="Ammurapi shield" jp="アムラピシールド" jpl="" slots="0002" jobs="00308438" races="01FE" level="99" targets="None" casttime="0" recast="0">Ammurapi Shield</i>
   <i id="26420" enl="Adapa shield" jp="アダパシールド" jpl="" slots="0002" jobs="00000302" races="01FE" level="99" targets="None" casttime="0" recast="0">Adapa Shield</i>
   <i id="26421" enl="Nusku shield" jp="ヌスクシールド" jpl="" slots="0002" jobs="00020800" races="01FE" level="99" targets="None" casttime="0" recast="0">Nusku Shield</i>
@@ -7182,6 +7184,7 @@
   <i id="26486" enl="chef's shield -1" jp="ＳＦシールド-1" jpl="" slots="0002" jobs="007FFFFE" races="01FE" level="1" targets="None" casttime="0" recast="0">Chef's Shield -1</i>
   <i id="26520" enl="akitu shirt" jp="アキトゥシャツ" jpl="" slots="0020" jobs="007FFFFE" races="01FE" level="1" targets="None" casttime="0" recast="0">Akitu Shirt</i>
   <i id="26523" enl="delegate's garb" jp="デレゲートガーブ" jpl="" slots="0020" jobs="007FFFFE" races="01FE" level="1" targets="Self" casttime="0" recast="72000">Delegate's Garb</i>
+  <i id="26524" enl="gil nabber shirt" jp="ギルナバーシャツ" jpl="" slots="0020" jobs="007FFFFE" races="01FE" level="1" targets="None" casttime="0" recast="0">Gil Nabber Shirt</i>
   <i id="26525" enl="Oshosi vest" jp="オショシベスト" jpl="" slots="0020" jobs="00020800" races="01FE" level="99" targets="None" casttime="0" recast="0">Oshosi Vest</i>
   <i id="26526" enl="Oshosi vest +1" jp="オショシベスト+1" jpl="" slots="0020" jobs="00020800" races="01FE" level="99" targets="None" casttime="0" recast="0">Oshosi Vest +1</i>
   <i id="26527" enl="kendatsuba samue" jp="乾闥婆作務衣" jpl="" slots="0020" jobs="00003004" races="01FE" level="99" targets="None" casttime="0" recast="0">Ken. Samue</i>

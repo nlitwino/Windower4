@@ -16,6 +16,7 @@ load Config;
 load DelayMeNot;
 load FFXIDB;
 load JaZero;
+load SSOrganizer;
 load Tickle;
 load Timers;
 lua load aecho;

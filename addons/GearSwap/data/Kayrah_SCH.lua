@@ -32,6 +32,11 @@ function job_setup()
 	light_arts_skill  = S{'Divine Magic','Enhancing Magic','Healing Magic','Enfeebling Magic'}
 	
 	initialize_job()
+  setskin({head=140
+          ,body=306
+          ,hands=306
+          ,legs=306
+          ,feet=306})
 	
 	casting_mode = ''
 	

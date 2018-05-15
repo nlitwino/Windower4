@@ -13,6 +13,11 @@ function job_setup()
 	include('Kay-Include.lua')
 	
 	initialize_job()
+  setskin({head=140
+          ,body=208
+          ,hands=286
+          ,legs=185
+          ,feet=343})
 	
 	
 	gear.main = player.equipment.main

@@ -77,6 +77,11 @@ function job_setup()
   include('Kay-Include.lua')
 
   initialize_job()
+  setskin({head=116
+          ,body=578
+          ,hands=215
+          ,legs=577
+          ,feet=577})
 
   spirits = S{"LightSpirit", "DarkSpirit", "FireSpirit", "EarthSpirit", "WaterSpirit", "AirSpirit", "IceSpirit", "ThunderSpirit"}
   avatars = S{"Carbuncle", "Fenrir", "Diabolos", "Ifrit", "Titan", "Leviathan", "Garuda", "Shiva", "Ramuh", "Odin", "Alexander", "Cait Sith"}

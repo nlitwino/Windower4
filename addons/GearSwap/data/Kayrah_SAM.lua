@@ -17,6 +17,11 @@ function job_setup()
   include('Kay-Include.lua')
 
   initialize_job()
+  setskin({head=140
+          ,body=37
+          ,hands=9
+          ,legs=14
+          ,feet=98})
 
   currentAM = 'GK'
 

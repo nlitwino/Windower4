@@ -6,6 +6,8 @@ function job_self_command(commandArgs,eventArgs)
     trade_earring1()
 	elseif commandArgs[1] == 'trade_earring2' then
 		trade_earring2()
+  elseif commandArgs[1] == 'trade_whistle' then
+    trade_whistle()
 	elseif commandArgs[1] == 'regear' then
 		regear()
 	elseif commandArgs[1] == 'custom_treasure_cycle' then
@@ -140,6 +142,7 @@ function set_custom_universal_keybinds()
 	send_command('bind !x gs c trade_earring1')
 	send_command('bind !c gs c trade_earring2')
 	send_command('bind !v gs c trade_ring')
+  send_command('bind !q gs c trade_whistle')
 
 end
 
@@ -156,7 +159,7 @@ function trade_ring()
 	end
 	
 	if player.target.name == "Runga-Kopunga" then
-		send_command('@input /item "'..currentRing..'" <t> ')
+		send_command('input /item "'..currentRing..'" <t> ')
 	else
 		add_to_chat("Please target Runga-Kopunga!")
 		return
@@ -181,7 +184,7 @@ function trade_earring1()
 	end
 	
 	if player.target.name == "Runga-Kopunga" then
-		send_command('@input /item "'..currentEarring..'" <t> ')
+		send_command('input /item "'..currentEarring..'" <t> ')
 	else
 		add_to_chat("Please target Runga-Kopunga!")
 		return
@@ -204,12 +207,24 @@ function trade_earring2()
 	end
 	
 	if player.target.name == "Runga-Kopunga" then
-		send_command('@input /item "'..currentEarring..'" <t> ')
+		send_command('input /item "'..currentEarring..'" <t> ')
 	else
 		add_to_chat("Please target Runga-Kopunga!")
 		return
 	end
 	
+end
+
+function trade_whistle()
+
+  if player.target.name == "Honorine" then
+    equip({neck="Chocobo Whistle"})
+    send_command('wait 0.25;input /item "Chocobo Whistle" <t>')
+  else
+    add_to_chat("Please target Honorine!")
+    return
+  end
+
 end
 
 function job_sub_job_change(new,old)
@@ -260,6 +275,8 @@ function sleep_swap(name,gain)
         if gain then
             if player.main_job == 'WAR' or player.main_job == 'PLD' or player.main_job == 'DRK' or player.main_job == 'SAM' or player.main_job == 'DRG' then
                 neckpiece='Berserker\'s torque'
+            elseif player.main_job == 'DNC' or player.main_job == 'THF' or player.main_job == 'MNK' or player.main_job == 'BST' then
+                neckpiece='Frenzy sallet'
             else
                 neckpiece='Opo-opo necklace'
             end
@@ -336,6 +353,18 @@ function handle_cor_rolls(roll)
         add_to_chat(roll..': '..rollinfo.bonus..'.')
         add_to_chat('Lucky: '..tostring(rollinfo.lucky)..', Unlucky: '..tostring(rollinfo.unlucky)..'.')
     end
+end
+
+function setskin(ids)
+
+  slots = {"head","body","hands","legs","feet","main","sub","ranged","ammo","set"}
+  send_command('gs c update')
+  local command = ''
+  for slot = 1,5 do
+    command = command..'wait 2;input !setskin '..slots[slot]..' '..ids[slots[slot]]..';'
+  end 
+  send_command(command..'wait 1; input /lockstyle on')
+
 end
 
 -- function protect_shell_pt()

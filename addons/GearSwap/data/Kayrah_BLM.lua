@@ -75,7 +75,7 @@ function init_gear_sets()
 															  
 	sets.idle.Town
 	 = set_combine(sets.idle
-	              ,{neck="Orochi nodowa"
+	              ,{neck="Orochi nodowa +1"
 	               ,back="Nexus cape"
 	               ,ring2="Warp ring"
 	               ,waist="Ninurta's sash"})

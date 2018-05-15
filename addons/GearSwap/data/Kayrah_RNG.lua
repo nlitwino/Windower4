@@ -17,6 +17,11 @@ function job_setup()
   state.Buff['Unlimited Shot'] = buffactive['Unlimited Shot'] or false
 
   initialize_job()
+  setskin({head=140
+          ,body=180
+          ,hands=84
+          ,legs=62
+          ,feet=11})
 
   --get main and sub weapons for regear function
   gear.ammo = player.equipment.ammo
@@ -28,7 +33,7 @@ function user_setup()
   -- Setup appropriate modes
   state.OffenseMode:options('Normal','DW','HNM')
   state.RangedMode:options('Normal','HybridAcc','Acc')
-  state.WeaponskillMode:options('Normal','Power','Acc')
+  state.WeaponskillMode:options('Normal','Power','Acc','TEST')
 
 end
 
@@ -370,6 +375,11 @@ function init_gear_sets()
    = set_combine(sets.precast.WS['Coronach']
                 ,{ear2="Hollow earring"
                  ,feet="Hachiryu sune-ate"})
+  
+  sets.precast.WS['Coronach'].TEST
+   = set_combine(sets.precast.WS['Coronach']
+                ,{legs="Byakko's haidate"
+                 ,feet="Hunter's socks +1"})
                 
   -- custom EES
   sets.precast.JA['Eagle Eye Shot']

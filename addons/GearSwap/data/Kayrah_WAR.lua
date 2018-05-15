@@ -18,6 +18,11 @@ function job_setup()
   aggressor_mode = ''
 
   initialize_job()
+  setskin({head=179
+          ,body=328
+          ,hands=282
+          ,legs=282
+          ,feet=3})
 
 end
 
@@ -119,7 +124,7 @@ function init_gear_sets()
      ,back="Shadow mantle"  
      ,waist="Resolute belt"
      ,legs="Koenig diechlings"
-     ,feet="Hermes' sandals"}
+     ,feet="Hermes' sandals +1"}
      
   sets.idle.Town
    = set_combine(sets.idle

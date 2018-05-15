@@ -3664,6 +3664,7 @@
   <i id="20652" enl="Tizona" jp="ティソーナ" jpl="" slots="0003" jobs="00010000" races="01FE" level="99" targets="None" casttime="0" recast="0">Tizona</i>
   <i id="20653" enl="Almace" jp="アルマス" jpl="" slots="0003" jobs="000100A0" races="01FE" level="99" targets="None" casttime="0" recast="0">Almace</i>
   <i id="20654" enl="Almace" jp="アルマス" jpl="" slots="0003" jobs="000100A0" races="01FE" level="99" targets="None" casttime="0" recast="0">Almace</i>
+  <i id="20665" enl="Kam'lanaut's sword" jp="カムラナートの剣" jpl="" slots="0003" jobs="007FFFFE" races="01FE" level="1" targets="None" casttime="0" recast="0">Kam'lanaut's Sword</i>
   <i id="20666" enl="blizzard brand" jp="ブリザドブランド" jpl="" slots="0003" jobs="007FFFFE" races="01FE" level="1" targets="None" casttime="0" recast="0">Blizzard Brand</i>
   <i id="20667" enl="blizzard brand +1" jp="ブリザドブランド+1" jpl="" slots="0003" jobs="007FFFFE" races="01FE" level="1" targets="Enemy" casttime="0" recast="1968129">Blizzard Brand +1</i>
   <i id="20668" enl="firetongue" jp="ファイアタン" jpl="" slots="0003" jobs="007FFFFE" races="01FE" level="1" targets="None" casttime="0" recast="0">Firetongue</i>
@@ -4441,6 +4442,7 @@
   <i id="21505" enl="arasy sainti +1" jp="アラシサインティ+1" jpl="" slots="0001" jobs="00042206" races="01FE" level="99" targets="None" casttime="0" recast="0">Arasy Sainti +1</i>
   <i id="21506" enl="pair of jolt counter" jp="ジョルトカウンタ" jpl="" slots="0001" jobs="00040004" races="01FE" level="99" targets="None" casttime="0" recast="0">Jolt Counter</i>
   <i id="21507" enl="pair of jolt counter +1" jp="ジョルトカウンタ+1" jpl="" slots="0001" jobs="00040004" races="01FE" level="99" targets="None" casttime="0" recast="0">Jolt Counter +1</i>
+  <i id="21509" enl="premium mogti" jp="プレミアムモグタス" jpl="" slots="0001" jobs="007FFFFE" races="01FE" level="1" targets="None" casttime="0" recast="0">Premium Mogti</i>
   <i id="21511" enl="hepatizon baghnakhs" jp="ヘパテゾバグナウ" jpl="" slots="0001" jobs="000C2366" races="01FE" level="99" targets="None" casttime="0" recast="0">Hep. Baghnakhs</i>
   <i id="21512" enl="hepatizon baghnakhs +1" jp="ヘパテゾバグナウ+1" jpl="" slots="0001" jobs="000C2366" races="01FE" level="99" targets="None" casttime="0" recast="0">Hep. Baghnakhs +1</i>
   <i id="21513" enl="pair of raetic baghnakhs" jp="レテクバグナウ" jpl="" slots="0001" jobs="001DA776" races="01FE" level="99" targets="None" casttime="0" recast="0">Raetic Baghnakhs</i>
@@ -4468,6 +4470,7 @@
   <i id="21655" enl="arasy claymore +1" jp="アラシクレイモア+1" jpl="" slots="0001" jobs="00400182" races="01FE" level="99" targets="None" casttime="0" recast="0">Arasy Claymore +1</i>
   <i id="21656" enl="Dyrnwyn" jp="ダンウィン" jpl="" slots="0001" jobs="00000100" races="01FE" level="99" targets="None" casttime="0" recast="0">Dyrnwyn</i>
   <i id="21657" enl="Dyrnwyn +1" jp="ダンウィン+1" jpl="" slots="0001" jobs="00000100" races="01FE" level="99" targets="None" casttime="0" recast="0">Dyrnwyn +1</i>
+  <i id="21658" enl="brave blade II" jp="ブレイブブレイドII" jpl="" slots="0001" jobs="007FFFFE" races="01FE" level="99" targets="None" casttime="0" recast="0">Brave Blade II</i>
   <i id="21659" enl="beryllium sword" jp="ベリリムソード" jpl="" slots="0001" jobs="00400182" races="01FE" level="99" targets="None" casttime="0" recast="0">Beryllium Sword</i>
   <i id="21660" enl="beryllium sword +1" jp="ベリリムソード+1" jpl="" slots="0001" jobs="00400182" races="01FE" level="99" targets="None" casttime="0" recast="0">Bery. Sword +1</i>
   <i id="21661" enl="rune algol" jp="ルーンアルゴル" jpl="" slots="0001" jobs="00400182" races="01FE" level="70" targets="None" casttime="0" recast="0">Rune Algol</i>

@@ -6079,6 +6079,7 @@
   <i id="6534" enl="rift boulder coffer" jp="宝箱【ボウルダー】" jpl="" targets="Self" casttime="1">Coffer (Boulder)</i>
   <i id="6535" enl="pinch of pungent powder II" jp="ベビーパウダーII" jpl="" targets="Self" casttime="1">Pungent Powder II</i>
   <i id="6536" enl="New Year's pouch" jp="小袋【お年玉】" jpl="" targets="Self" casttime="1">New Year's Pouch</i>
+  <i id="6537" enl="pinch of pungent powder III" jp="ベビーパウダーIII" jpl="" targets="Self" casttime="1">Pungent Powder III</i>
   <i id="8193" enl="Harlequin head" jp="湎用ヘッド" jpl="">Harlequin Head</i>
   <i id="8194" enl="Valoredge X-900 head" jp="白兵戦ヘッド" jpl="">Valoredge Head</i>
   <i id="8195" enl="Sharpshot Z-500 head" jp="射撃戦ヘッド" jpl="">Sharpshot Head</i>
@@ -6690,10 +6691,12 @@
   <i id="9215" enl="tuft of void grass" jp="ヴォイドグラス" jpl="" targets="None">Void Grass</i>
   <i id="9216" enl="voidsnapper" jp="ヴォイドキンギョ" jpl="" targets="None">Voidsnapper</i>
   <i id="9217" enl="dial key #Ab" jp="ダイヤルキー#Ab" jpl="" targets="None">Dial Key #Ab</i>
+  <i id="9218" enl="dial key #Fo" jp="ダイヤルキー#Fo" jpl="" targets="None">Dial Key #Fo</i>
   <i id="9220" enl="spool of Abdhaljs thread" jp="アブダルスの糸" jpl="" targets="None">Abdhaljs Thread</i>
   <i id="9221" enl="pinch of Abdhaljs dust" jp="アブダルスの金粉" jpl="" targets="None">Abdhaljs Dust</i>
   <i id="9222" enl="pot of Abdhaljs dye" jp="アブダルスの染料" jpl="" targets="None">Abdhaljs Dye</i>
   <i id="9223" enl="bottle of Abdhaljs sap" jp="アブダルスの水油" jpl="" targets="None">Abdhaljs Sap</i>
+  <i id="9224" enl="container of Abdhaljs resin" jp="アブダルスの樹脂" jpl="" targets="None">Abdhaljs Resin</i>
   <i id="9225" enl="Abdhaljs needle" jp="アブダルスエギーユ" jpl="" targets="None">Abdhaljs Needle</i>
   <i id="9226" enl="Mog Kupon A-EMI" jp="クーポンA-EMI" jpl="" targets="None">Kupon A-EMI</i>
   <i id="9227" enl="Mog Kupon A-SYW" jp="クーポンA-SYO" jpl="" targets="None">Kupon A-SYW</i>
@@ -7252,6 +7255,7 @@
   <i id="10065" enl="♪Spectral Chair" jp="♪悪霊の椅子" jpl="" targets="None">♪Spectral Chair</i>
   <i id="10066" enl="♪Spheroid" jp="♪スフィアロイド" jpl="" targets="None">♪Spheroid</i>
   <i id="10067" enl="♪Omega" jp="♪オメガ" jpl="" targets="None">♪Omega</i>
+  <i id="10068" enl="♪Coeurl" jp="♪クァール" jpl="" targets="None">♪Coeurl</i>
   <i id="10112" enl="cipher of Zeid's alter ego" jp="盟-ザイド" jpl="" targets="None">Cipher: Zeid</i>
   <i id="10113" enl="cipher of Lion's alter ego" jp="盟-ライオン" jpl="" targets="None">Cipher: Lion</i>
   <i id="10114" enl="cipher of Tenzen's alter ego" jp="盟-テンゼン" jpl="" targets="None">Cipher: Tenzen</i>
