@@ -28,6 +28,9 @@ function job_self_command(commandArgs,eventArgs)
   elseif commandArgs[1] == 'handle_shot' then
     handle_shot()
     eventArgs.handled = true
+  elseif commandArgs[1] == 'setskin' then
+    setskin(player.main_job)
+    eventArgs.handled = true
   end
     
 end
@@ -38,6 +41,7 @@ function initialize_job()
 	duskdawn = (world.time >= (17*60) and world.time <= (18*60)) and (world.time >= (6*60) and world.time <= (7*60))
 	
 	initialize_custom_augments(player.name)
+	initialize_skins(player.name)
 	
 	state.Tank = M(false, 'Tank')
 	state.Range = M(false, 'Range')
@@ -117,6 +121,40 @@ function initialize_custom_augments(name)
 	
 end
 
+function initialize_skins(name)
+
+  if name == "Kayrah" then
+    skins
+     = {['WAR'] = {head=179,body=328,hands=282,legs=282,feet=3}
+       ,['BLM'] = {set=385}
+       ,['RDM'] = {head=140,body=208,hands=286,legs=185,feet=343}
+       ,['THF'] = {set=367}
+       ,['PLD'] = {head=140,body=113,hands=77,legs=62,feet=77}
+       ,['DRK'] = {head=140,body=113,hands=79,legs=62,feet=79}
+       ,['RNG'] = {head=140,body=180,hands=84,legs=62,feet=11}
+       ,['SAM'] = {head=140,body=37,hands=9,legs=14,feet=98}
+       ,['NIN'] = {head=140,body=196,hands=89,legs=294,feet=294}
+       ,['SMN'] = {head=116,body=578,hands=215,legs=577,feet=577}
+       ,['DNC'] = {set=305}
+       ,['SCH'] = {head=140,body=306,hands=306,legs=306,feet=306}}
+       
+  elseif name == "Mimosa" then
+    skins
+     = {['WHM'] = {}
+       ,['BLM'] = {}
+       ,['RDM'] = {}
+       ,['THF'] = {}
+       ,['BRD'] = {}}
+       
+  elseif name == "Mian" then
+    skins
+     = {['RDM'] = {}
+       ,['COR'] = {}}
+       
+  end
+
+end
+
 function set_custom_universal_keybinds()
 
 	-- Defensive cycles
@@ -143,6 +181,9 @@ function set_custom_universal_keybinds()
 	send_command('bind !c gs c trade_earring2')
 	send_command('bind !v gs c trade_ring')
   send_command('bind !q gs c trade_whistle')
+  
+  -- Setskin
+  send_command('bind !b gs c setskin')
 
 end
 
@@ -355,15 +396,18 @@ function handle_cor_rolls(roll)
     end
 end
 
-function setskin(ids)
+function setskin(job)
 
+  ids = skins[job]
   slots = {"head","body","hands","legs","feet","main","sub","ranged","ammo","set"}
-  send_command('gs c update')
+  
   local command = ''
-  for slot = 1,5 do
-    command = command..'wait 2;input !setskin '..slots[slot]..' '..ids[slots[slot]]..';'
+  for slot = 1,10 do
+    if ids[slots[slot]] then
+      command = command..'wait 2;input !setskin '..slots[slot]..' '..ids[slots[slot]]..';'
+    end
   end 
-  send_command(command..'wait 1; input /lockstyle on')
+  send_command('gs c update;'..command..'wait 1; input /lockstyle on')
 
 end
 

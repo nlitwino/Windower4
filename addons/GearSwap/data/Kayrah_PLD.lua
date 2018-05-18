@@ -46,7 +46,7 @@ function init_gear_sets()
      ,ring2="Hercules' ring"
      ,back="Cerberus mantle +1"
      ,waist="Trance belt"
-     ,legs="Gallant breeches"
+     ,legs="Valor breeches"
      ,feet="Valor leggings"}
 
   sets.MND
@@ -82,6 +82,11 @@ function init_gear_sets()
    
   sets.precast.JA['Holy Circle']      
    = {feet="Gallant leggings +1"}
+   
+  sets.precast.JA['Chivalry']      
+   = set_combine(sets.enmity
+                ,sets.MND
+                ,{})
 
   -- precast magic
   sets.precast.FC
