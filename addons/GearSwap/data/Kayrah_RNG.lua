@@ -17,11 +17,6 @@ function job_setup()
   state.Buff['Unlimited Shot'] = buffactive['Unlimited Shot'] or false
 
   initialize_job()
-  setskin({head=140
-          ,body=180
-          ,hands=84
-          ,legs=62
-          ,feet=11})
 
   --get main and sub weapons for regear function
   gear.ammo = player.equipment.ammo

@@ -18,11 +18,6 @@ function job_setup()
   aggressor_mode = ''
 
   initialize_job()
-  setskin({head=179
-          ,body=328
-          ,hands=282
-          ,legs=282
-          ,feet=3})
 
 end
 
