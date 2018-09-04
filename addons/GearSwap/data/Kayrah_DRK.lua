@@ -26,8 +26,8 @@ end
 
 function user_setup()
 
-  state.OffenseMode:options('Normal','Acc','Tank')
-  state.WeaponskillMode:options('Normal','HNM','Test')
+  state.OffenseMode:options('Normal','HybridAcc','Tank')
+  state.WeaponskillMode:options('Normal','MOD','ACC','ATSMOD','ATSACC','MODACC')
   state.CastingMode:options('Normal','Acc')
   state.PhysicalDefenseMode:options('PDT')
   state.MagicalDefenseMode:options('MDT')
@@ -69,7 +69,7 @@ function init_gear_sets()
      ,waist="Buccaneer's belt"
      ,legs="Jet seraweels"}
 
-  -- precast ja
+  --precast ja
   sets.precast.JA['Last Resort']      
    = {feet="Abyss sollerets"}
    
@@ -79,12 +79,12 @@ function init_gear_sets()
   sets.precast.JA['Weapon Bash']      
    = {hands="Chaos gauntlets"}
 
-  -- precast magic
+  --precast magic
   sets.precast.FC                     
    = {ear2="Loquacious earring"
      ,legs="Homam cosciales"}
 
-  -- midcast magic
+  --midcast magic
   sets.midcast.FastRecast             
    = set_combine(sets.precast.FC
                 ,{head="Walahra turban"
@@ -173,7 +173,7 @@ function init_gear_sets()
                  ,ring2="Bloodbead ring"
                  ,back="Gigant mantle"})
 
-  -- idle
+  --idle
   sets.idle                            
    = {ammo="Bibiki seashell"
      ,head="Valhalla helm"       
@@ -201,7 +201,7 @@ function init_gear_sets()
      ,ear1="Relaxing earring"
      ,ring2="Star ring"}
 
-  -- defense
+  --defense
   sets.defense.PDT
    = {ammo="Bibiki seashell"
      ,head="Valhalla helm"
@@ -226,7 +226,7 @@ function init_gear_sets()
      ,waist="Resolute belt"
      ,legs="Abyss flanchard"}
 
-  -- default engaged
+  --default engaged
   sets.engaged
    = {ammo="Bomb core"
      ,head="Walahra turban"    
@@ -242,7 +242,7 @@ function init_gear_sets()
      ,legs="Homam cosciales"
      ,feet="Dusk ledelsens +1"}
      
-  sets.engaged.Acc 	                
+  sets.engaged.HybridAcc 	                
    = set_combine(sets.engaged
                 ,{ammo="Fire bomblet"
                  ,neck="Ancient torque"
@@ -251,11 +251,11 @@ function init_gear_sets()
                  ,feet="Homam gambieras"})
                 
   sets.engaged.Tank                   
-   = set_combine(sets.engaged.Acc
+   = set_combine(sets.engaged.HybridAcc
                 ,{ring1="Defending ring"
                  ,back="Shadow mantle"})
 
-  -- apoc engaged ROSE STRAP
+  --apoc engaged ROSE STRAP
   sets.engaged.Apocalypse
    = {ammo="Bomb core"
      ,head="Walahra turban"    
@@ -271,7 +271,7 @@ function init_gear_sets()
      ,legs="Homam cosciales"
      ,feet="Dusk ledelsens +1"}
      
-  sets.engaged.Apocalypse.Acc         
+  sets.engaged.Apocalypse.HybridAcc         
    = set_combine(sets.engaged.Apocalypse
                 ,{ammo="Fire bomblet"
                  ,hands="Homam manopolas"
@@ -279,17 +279,17 @@ function init_gear_sets()
                  ,feet="Homam gambieras"})
                  
   sets.engaged.Apocalypse.Tank        
-   = set_combine(sets.engaged.Apocalypse.Acc
+   = set_combine(sets.engaged.Apocalypse.HybridAcc
                 ,{ammo="Bibiki seashell"
                  ,ear2="Ethereal earring"
                  ,ring1="Defending ring"
                  ,back="Shadow mantle"})
 
-  -- apoc engaged (sam) ROSE STRAP
+  --apoc engaged (sam) ROSE STRAP
   sets.engaged.Apocalypse.SAM
    = {ammo="White tathlum"
      ,head="Walahra turban"    
-     ,neck="Justice torque" 
+     ,neck="Chivalrous chain"
      ,ear1="Abyssal earring"
      ,ear2="Brutal earring"
      ,body="Aurum cuirass"     
@@ -301,19 +301,19 @@ function init_gear_sets()
      ,legs="Homam cosciales"
      ,feet="Dusk ledelsens +1"}
      
-  sets.engaged.Apocalypse.Acc.SAM 	
+  sets.engaged.Apocalypse.HybridAcc.SAM 	
    = set_combine(sets.engaged.Apocalypse.SAM
                 ,{hands="Homam manopolas"
                  ,back="Cuchulain's mantle"
                  ,feet="Homam gambieras"})
                  
   sets.engaged.Apocalypse.Tank.SAM 	
-   = set_combine(sets.engaged.Apocalypse.Acc.SAM
+   = set_combine(sets.engaged.Apocalypse.HybridAcc.SAM
                 ,{ear2="Ethereal earring"
                  ,ring1="Defending ring"
                  ,back="Shadow mantle"})
 
-  -- rag engaged (no sam) ROSE STRAP
+  --rag engaged (no sam) ROSE STRAP
   sets.engaged.Ragnarok
    = {ammo="Bomb core"
      ,head="Walahra turban"    
@@ -329,7 +329,7 @@ function init_gear_sets()
      ,legs="Homam cosciales" 
      ,feet="Dusk ledelsens +1"}
      
-  sets.engaged.Ragnarok.Acc           
+  sets.engaged.Ragnarok.HybridAcc           
    = set_combine(sets.engaged.Ragnarok
                 ,{neck="Ancient torque"
                  ,ear1="Fowling earring"
@@ -337,7 +337,7 @@ function init_gear_sets()
                  ,back="Cuchulain's mantle"
                  ,feet="Homam gambieras"})
 
-  -- rag engaged (sam)
+  --rag engaged (sam)
   sets.engaged.Ragnarok.SAM
    = {ammo="White tathlum"
      ,head="Walahra turban"    
@@ -353,13 +353,13 @@ function init_gear_sets()
      ,legs="Homam cosciales" 
      ,feet="Dusk ledelsens +1"}
      
-  sets.engaged.Ragnarok.Acc.SAM
+  sets.engaged.Ragnarok.HybridAcc.SAM
    = set_combine(sets.engaged.Ragnarok
                 ,{hands="Homam manopolas"
                  ,back="Cuchulain's mantle"
                  ,feet="Homam gambieras"})
 
-  -- zerg engaged
+  --zerg engaged
   sets.engaged.Zerg
    = {ammo="White tathlum"
      ,head="Walahra turban"   
@@ -375,7 +375,13 @@ function init_gear_sets()
      ,legs="Homam cosciales"  
      ,feet="Homam gambieras"}
   
-  -- default ws
+  --[[
+    * ATS - attack/str
+    * ACC - accuracy
+    * MOD - modifiers
+  ]]
+  
+  --no MOD sets for default set
   sets.precast.WS
    = {ammo="Bomb core"
      ,head="Hecatomb cap +1"   
@@ -387,62 +393,212 @@ function init_gear_sets()
      ,ring1="Rajas ring"    
      ,ring2="Strigoi ring"
      ,back="Cerberus mantle +1"
-     ,waist="Warwolf belt"         
+     ,waist="Swordbelt +1"         
      ,legs="Onyx cuisses"   
      ,feet="Onyx sollerets"}
      
-  sets.precast.WS.HNM
+  sets.precast.WS.ACC
    = set_combine(sets.precast.WS
                 ,{ammo="Fire bomblet"
-                 ,ear1="Fowling earring"
-                 ,hands="Hecatomb mittens +1"})
-
-  -- ws scythe
-  sets.precast.WS['Guillotine']       
+                 ,ring2=toreador_ring['Triple Attack (1)']
+                 ,back="Cuchulain's mantle"
+                 ,waist="Virtuoso belt"
+                 ,legs="Armada breeches"})
+                  
+  sets.precast.WS.ATSACC
    = set_combine(sets.precast.WS
-                ,{ear1="Abyssal earring"})
-   
-  sets.precast.WS['Guillotine'].HNM   
-   = set_combine(sets.precast.WS['Guillotine']
                 ,{ammo="Fire bomblet"
-                ,hands="Hecatomb mittens +1"
-                ,back="Cuchulain's mantle"})
-
-  sets.precast.WS['Entropy']          
-   = set_combine(sets.precast.WS['Guillotine']
-                ,{})
-   
-  sets.precast.WS['Entropy'].HNM      
-   = set_combine(sets.precast.WS['Guillotine'].HNM
-                ,{})
-
-  sets.precast.WS['Catastrophe']      
+                 ,waist="Virtuoso belt"})
+     
+   --Scythe specific
+   --[[Guillotine (ERA)
+       MODS: 25% STR, 25% MND
+       HITS: 4
+       xATT: 1.0 ]]
+  sets.precast.WS['Guillotine']
    = set_combine(sets.precast.WS
                 ,{ear1="Abyssal earring"})
-   
-  sets.precast.WS['Catastrophe'].HNM  
-   = set_combine(sets.precast.WS['Catastrophe']
+                
+  sets.precast.WS['Guillotine'].MOD
+   = set_combine(sets.precast.WS['Guillotine']
+                ,{hands="Alkyoneus's bracelets"
+                 ,waist="Warwolf belt"
+                 ,feet="Hecatomb leggings +1"})
+                
+  sets.precast.WS['Guillotine'].ACC
+   = set_combine(sets.precast.WS.Acc
+                ,{ear1="Abyssal earring"
+                 ,ring1="Mars's ring"})
+                
+  sets.precast.WS['Guillotine'].ATSMOD
+   = set_combine(sets.precast.WS['Guillotine']
                 ,{})
                 
-  -- SAM WS
-  -- GS
-  sets.precast.WS.SAM
+  sets.precast.WS['Guillotine'].ATSACC
+   = set_combine(sets.precast.WS['Guillotine']
+                ,{ammo="Fire bomblet"
+                 ,waist="Virtuoso belt"
+                 ,ring1="Strigoi ring"
+                 ,ring2=toreador_ring['Triple Attack (1)']
+                 ,legs="Armada breeches"})
+                
+  sets.precast.WS['Guillotine'].MODACC
+   = set_combine(sets.precast.WS['Guillotine'].MOD
+                ,{ammo="Fire bomblet"
+                 ,ring1="Strigoi ring"
+                 ,ring2=toreador_ring['Triple Attack (1)']
+                 ,legs="Armada breeches"})
+                 
+   --[[Entropy (ERA)
+       MODS: 25% STR, 25% DEX
+       HITS: 4
+       xATT: 1.0 ]]
+  sets.precast.WS['Entropy']
+   = set_combine(sets.precast.WS['Guillotine']
+                ,{})
+  
+  sets.precast.WS['Entropy'].MOD
+   = set_combine(sets.precast.WS['Guillotine'].MOD
+                ,{hands="Hecatomb mittens +1"
+                 ,legs="Hecatomb subligar +1"})
+  
+  sets.precast.WS['Entropy'].ACC
+   = set_combine(sets.precast.WS['Guillotine'].ACC
+                ,{})
+  
+  sets.precast.WS['Entropy'].ATSMOD
+   = set_combine(sets.precast.WS['Guillotine'].ATSMOD
+                ,{})
+  
+  sets.precast.WS['Entropy'].ATSACC
+   = set_combine(sets.precast.WS['Guillotine'].ATSACC
+                ,{})
+  
+  sets.precast.WS['Entropy'].MODACC
+   = set_combine(sets.precast.WS['Guillotine'].MODACC
+                ,{hands="Hecatomb mittens +1"
+                 ,ring1="Rajas ring"
+                 ,back="Cuchulain's mantle"
+                 ,legs="Aurum sabatons"})
+                 
+   --[[Catastrophe (ERA)
+       MODS: 40% AGI, 40% INT
+       HITS: 1
+       xATT: 1.0 ]]
+  sets.precast.WS['Catastrophe']
    = set_combine(sets.precast.WS
-                ,{body="Aurum cuirass"}) 
-   
-  sets.precast.WS.HNM.SAM
-   = set_combine(sets.precast.WS.HNM
-                ,{body="Aurum cuirass"}) 
-
-  -- SCYTHE
-  sets.precast.WS['Catastrophe'].SAM
-   = set_combine(sets.precast.WS['Catastrophe']
-                ,{body="Aurum cuirass"}) 
-   
-  sets.precast.WS['Catastrophe'].HNM.SAM
-   = set_combine(sets.precast.WS['Catastrophe'].HNM
-                ,{body="Aurum cuirass"}) 
-
+                ,{head="Maat's cap"
+                 ,ear1="Abyssal earring"}) 
+                 
+  sets.precast.WS['Catastrophe'].MOD
+   = set_combine(sets.precast.WS
+                ,{head="Maat's cap"
+                 ,ear1="Abyssal earring"
+                 ,ring2="Snow ring"}) 
+  
+  sets.precast.WS['Catastrophe'].ACC
+   = set_combine(sets.precast.WS.ACC
+                ,{})
+  
+  sets.precast.WS['Catastrophe'].ATSMOD
+   = set_combine(sets.precast.WS['Catastrophe'].MOD
+                ,{ring2="Strigoi ring"})
+  
+  sets.precast.WS['Catastrophe'].ATSACC
+   = set_combine(sets.precast.WS.ATSACC
+                ,{ring2=toreador_ring['Triple Attack (1)']})
+  
+  sets.precast.WS['Catastrophe'].MODACC
+   = set_combine(sets.precast.WS['Catastrophe'].ACC
+                ,{})
+                
+  --Greatsword specific
+  --[[Resolution (ERA)
+      MODS: 30% STR, 30% INT
+      HITS: 1
+      xATT: 1.5 ]]
+  sets.precast.WS['Resolution']
+   = set_combine(sets.precast.WS
+                ,{})  
+                
+  sets.precast.WS['Resolution'].MOD
+   = set_combine(sets.precast.WS
+                ,{head="Maat's cap"
+                 ,waist="Warwolf belt"})  
+                
+  sets.precast.WS['Resolution'].ACC
+   = set_combine(sets.precast.WS.ACC
+                ,{})  
+                
+  sets.precast.WS['Resolution'].ATSMOD
+   = set_combine(sets.precast.WS
+                ,{})  
+                
+  sets.precast.WS['Resolution'].ATSACC
+   = set_combine(sets.precast.WS
+                ,{})  
+                
+  sets.precast.WS['Resolution'].MODACC
+   = set_combine(sets.precast.WS
+                ,{})  
+                
+  --[[Ground Strike (ERA)
+      MODS: 50% STR, 50% INT
+      HITS: 1
+      xATT: 1.75 ]]
+  sets.precast.WS['Ground Strike']
+   = set_combine(sets.precast.WS
+                ,{})  
+                
+  sets.precast.WS['Ground Strike'].MOD
+   = set_combine(sets.precast.WS
+                ,{head="Maat's cap"
+                 ,waist="Warwolf belt"})  
+                
+  sets.precast.WS['Ground Strike'].ACC
+   = set_combine(sets.precast.WS
+                ,{})  
+                
+  sets.precast.WS['Ground Strike'].ATSMOD
+   = set_combine(sets.precast.WS
+                ,{})  
+                
+  sets.precast.WS['Ground Strike'].ATSACC
+   = set_combine(sets.precast.WS
+                ,{})  
+                
+  sets.precast.WS['Ground Strike'].MODACC
+   = set_combine(sets.precast.WS
+                ,{})  
+                
+  --[[Scourge (ERA)
+      MODS: 40% MND, 40% CHR
+      HITS: 1
+      xATT: 1.0 ]]
+  sets.precast.WS['Scourge']
+   = set_combine(sets.precast.WS
+                ,{})  
+                
+  sets.precast.WS['Scourge'].MOD
+   = set_combine(sets.precast.WS
+                ,{head="Maat's cap"})  
+                
+  sets.precast.WS['Scourge'].ACC
+   = set_combine(sets.precast.WS.ACC
+                ,{})  
+                
+  sets.precast.WS['Scourge'].ATSMOD
+   = set_combine(sets.precast.WS
+                ,{})  
+                
+  sets.precast.WS['Scourge'].ATSACC
+   = set_combine(sets.precast.WS
+                ,{})  
+                
+  sets.precast.WS['Scourge'].MODACC
+   = set_combine(sets.precast.WS
+                ,{})
+  
 end
 
 function job_post_precast(spell,action,spellMap,eventArgs)
@@ -457,9 +613,9 @@ function job_post_precast(spell,action,spellMap,eventArgs)
     
     if player.sub_job == 'SAM' then
       if state.CombatWeapon.value == 'Apocalypse' and scythe_singlehit:contains(spell.english) then
-        equip({body="Aurum cuirass"})
-      elseif state.CombatWeapon.value == 'Ragnarok' and gs_singlehit:contains(spell.english) then
-        equip({body="Aurum cuirass"})
+        equip({ammo="White tathlum"})
+      --elseif state.CombatWeapon.value == 'Ragnarok' and gs_singlehit:contains(spell.english) then
+       -- equip({body="Aurum cuirass"})
       end
     end
     

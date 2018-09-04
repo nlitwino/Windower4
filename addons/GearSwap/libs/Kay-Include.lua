@@ -126,29 +126,29 @@ function initialize_skins(name)
   if name == "Kayrah" then
     skins
      = {['WAR'] = {head=179,body=328,hands=282,legs=282,feet=3}
-       ,['BLM'] = {set=385}
+       ,['BLM'] = {set=285}
        ,['RDM'] = {head=140,body=208,hands=286,legs=185,feet=343}
        ,['THF'] = {set=367}
        ,['PLD'] = {head=140,body=113,hands=77,legs=62,feet=77}
-       ,['DRK'] = {head=140,body=113,hands=79,legs=62,feet=79}
+       ,['DRK'] = {head=140,body=113,hands=78,legs=62,feet=78}
        ,['RNG'] = {head=140,body=180,hands=84,legs=62,feet=11}
        ,['SAM'] = {head=140,body=37,hands=9,legs=14,feet=98}
        ,['NIN'] = {head=140,body=196,hands=89,legs=294,feet=294}
        ,['SMN'] = {head=116,body=578,hands=215,legs=577,feet=577}
        ,['DNC'] = {set=305}
-       ,['SCH'] = {head=140,body=306,hands=306,legs=306,feet=306}}
+       ,['SCH'] = {head=140,body=306,hands=306,legs=215,feet=21}}
        
   elseif name == "Mimosa" then
     skins
      = {['WHM'] = {}
        ,['BLM'] = {}
-       ,['RDM'] = {}
+       ,['RDM'] = {head=140,body=208,hands=286,legs=185,feet=343}
        ,['THF'] = {}
        ,['BRD'] = {}}
        
   elseif name == "Mian" then
     skins
-     = {['RDM'] = {}
+     = {['RDM'] = {head=223,body=208,hands=286,legs=185,feet=343}
        ,['COR'] = {}}
        
   end

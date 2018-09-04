@@ -265,7 +265,7 @@ local enums = {
 }
 
 local e = function(t, val)
-    return enums[t][val] or 'Unknown value for \'%s\': %i':format(t, val)
+    return enums[t][val] or 'Unknown value for \'%s\': %s':format(t, tostring(val))
 end
 
 --[[
@@ -445,7 +445,7 @@ fields.outgoing[0x037] = L{
     {ctype='unsigned char',     label='Slot',               fn=inv+{0}},        -- 0E
     {ctype='unsigned char',     label='_unknown2'},                             -- 0F   Takes values
     {ctype='unsigned char',     label='Bag',                fn=bag},            -- 10
-    {ctype='data[3]',           label='_unknown2'}                              -- 11
+    {ctype='data[3]',           label='_unknown3'}                              -- 11
 }
 
 -- Sort Item
@@ -1419,7 +1419,7 @@ fields.incoming[0x00E] = L{
     {ctype='unsigned char',     label='Status',             fn=statuses},       -- 1F   Status used to be 0x20
     {ctype='unsigned int',      label='_unknown2',          fn=bin+{4}},        -- 20
     {ctype='unsigned int',      label='_unknown3',          fn=bin+{4}},        -- 24
-    {ctype='unsigned int',      label='_unknown4',          fn=bin+{4}},        -- 28
+    {ctype='unsigned int',      label='_unknown4',          fn=bin+{4}},        -- 28   In Dynamis - Divergence statue's eye colors
     {ctype='unsigned int',      label='Claimer',            fn=id},             -- 2C
     {ctype='unsigned short',    label='_unknown5'},                             -- 30
     {ctype='unsigned short',    label='Model'},                                 -- 32

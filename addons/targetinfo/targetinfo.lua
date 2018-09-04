@@ -1,6 +1,6 @@
 _addon.name = 'TargetInfo'
 _addon.author = 'Arcon'
-_addon.version = '1.0.1.0'
+_addon.version = '1.0.1.2'
 _addon.language = 'English'
 
 require('luau')
@@ -12,10 +12,7 @@ defaults = {}
 defaults.ShowHexID = true
 defaults.ShowFullID = true
 defaults.ShowSpeed = true
-defaults.ShowClaimName = true
-defaults.ShowClaimID = true
-defaults.ShowTargetName = true
-defaults.ShowTargetID = true
+defaults.ShowTargetName = false
 defaults.display = {}
 defaults.display.pos = {}
 defaults.display.pos.x = 0
@@ -34,6 +31,7 @@ defaults.display.text.alpha = 255
 defaults.display.text.size = 12
 
 settings = config.load(defaults)
+settings:save()
 
 text_box = texts.new(settings.display, settings)
 
@@ -42,25 +40,16 @@ text_box = texts.new(settings.display, settings)
 initialize = function(text, settings)
     local properties = L{}
     if settings.ShowFullID then
-        properties:append('ID:            ${full||%08s}')
+        properties:append('ID:            ${full|-|%08s}')
     end
     if settings.ShowHexID then
-        properties:append('Hex ID:        ${hex||%.8X}')
+        properties:append('Hex ID:             ${hex|-|%.3X}')
     end
     if settings.ShowSpeed then
-        properties:append('Speed:           ${speed}')
-    end
-    if settings.ShowClaimName then
-        properties:append('Claim: ${claim_name||%16s}')
-    end
-    if settings.ShowClaimID then
-        properties:append('Claim ID: ${claim_id||%13s}')
+        properties:append('Speed:           ${speed|-}')
     end
     if settings.ShowTargetName then
-        properties:append('Target: ${target_name||%15s}')
-    end
-    if settings.ShowTargetID then
-        properties:append('Target ID: ${target_id||%12s}')
+        properties:append('${target_label} ${target_name||%15s}')
     end
 
     text:clear()
@@ -69,35 +58,19 @@ end
 
 text_box:register_event('reload', initialize)
 
-windower.register_event('incoming chunk',function(id)
-    if id == 0xB and text_box:visible() then
-        zoning_bool = true
-    elseif id == 0xA and zoning_bool then
-        zoning_bool = nil
-    end
-end)
-
 -- Events
 
 windower.register_event('prerender', function()
+    local remove = S{}
     local mob = windower.ffxi.get_mob_by_target('st') or windower.ffxi.get_mob_by_target('t')
-    local player = windower.ffxi.get_player()
-    if zoning_bool then
-        text_box:hide()
-        return
-    end
     if mob and mob.id > 0 then
+        local player = windower.ffxi.get_player()
         local mobclaim = windower.ffxi.get_mob_by_id(mob.claim_id)
         local target = windower.ffxi.get_mob_by_index(mob.target_index)
         local info = {}
-        info.hex = mob.id % 0x100000000
+        info.hex = mob.index
         info.full = mob.id
-        local speed
-        if mob.status == 5 or mob.status == 85 then
-            speed = (100 * (mob.movement_speed / 4)):round(2)
-        else
-            speed = (100 * (mob.movement_speed / 5 - 1)):round(2)
-        end
+        local speed = (mob.status == 5 or mob.status == 85) and (100 * (mob.movement_speed / 4)):round(2) or (100 * (mob.movement_speed / 5 - 1)):round(2)
         info.speed = (
             speed > 0 and
                 '\\cs(0,255,0)' .. ('+' .. speed):lpad(' ', 5)
@@ -106,35 +79,30 @@ windower.register_event('prerender', function()
             or
                 '\\cs(102,102,102)' .. ('+' .. speed):lpad(' ', 5)) .. '%\\cr'
         if mob.id == player.id then
-            info.claim_name = mobclaim and mobclaim.name or 'None'
-            info.claim_id = mobclaim and mobclaim.id or 'None'
-            info.target_name = mob and mob.name or 'None'
-            info.target_id = mob and mob.id or 'None'
+            info.target_label = 'Target:'
+            info.target_name = mob.name
         elseif mobclaim and mobclaim.id > 0 then
-            info.claim_name = mobclaim and mobclaim.name or 'None'
-            info.claim_id = mobclaim and mobclaim.id or 'None'
-            info.target_name = target and target.name or 'None'
-            info.target_id = target and target.id or 'None'
+            info.target_label = 'Claim: '
+            info.target_name = mobclaim and mobclaim.name or nil
         elseif target and target.id > 0 then
-            info.claim_name = mobclaim and mobclaim.name or 'None'
-            info.claim_id = mobclaim and mobclaim.id or 'None'
-			info.target_name = target and target.name or 'None'
-            info.target_id = target and target.id or 'None'
+            info.target_label = 'Target:'
+            info.target_name = target and target.name or nil
         else
-            info.claim_name = mobclaim and mobclaim.name or 'None'
-            info.claim_id = mobclaim and mobclaim.id or 'None'
-            info.target_name = target and target.name or 'None'
-			info.target_id = target and target.id or 'None'
+            remove:add('target_label')
+            remove:add('target_name')
         end
         text_box:update(info)
         text_box:show()
+        for entry in remove:it() do
+            text_box[entry] = nil
+        end
     else
         text_box:hide()
     end
 end)
 
 --[[
-Copyright © 2013-2015, Windower
+Copyright © 2013-2017, Windower
 All rights reserved.
 
 Redistribution and use in source and binary forms, with or without modification, are permitted provided that the following conditions are met:
