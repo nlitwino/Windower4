@@ -78,7 +78,7 @@
     </plugin>
     <plugin>
       <name>Guildwork</name>
-      <version>1.4.3.5</version>
+      <version>1.4.4.3</version>
       <description>
         Interface with guildwork.com
       </description>
@@ -100,7 +100,7 @@
     </plugin>
     <plugin>
       <name>JaZero</name>
-      <version>1.2.2.15</version>
+      <version>1.2.2.16</version>
       <hidden>true</hidden>
       <description>
         Eliminates the job ability lock.

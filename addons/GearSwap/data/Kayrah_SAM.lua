@@ -396,6 +396,8 @@ end
 
 function adjust_melee_groups()
 
+  classes.CustomMeleeGroups:clear()
+
   if state.Buff['Aftermath'] then
     classes.CustomMeleeGroups:append('AM')
   end
