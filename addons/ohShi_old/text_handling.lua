@@ -45,9 +45,7 @@ function remText()
 end
 
 --Add text to textbox. Anytime text is added this is called.
-function addText(name, abtype, abil, dMob, dangerous) -- Base Function Definition
---function addText(name, abtype, abil, dMob, weaponskills, spells) --splits dangerous category
---    sid = tonumber(sid)
+function addText(name, abtype, abil, dMob, dangerous)
    if tracking:length() > 9 then 
       tracking:clear()
       textUpdate()
@@ -93,69 +91,12 @@ function addText(name, abtype, abil, dMob, dangerous) -- Base Function Definitio
     end
     if doit then
         local str = name..': '..abilname
---[[base code, attempting to filter by watch type and change colors        
         if dangerous or dMob then
             tracking:append(' \\cs(255,100,100)'..str..'\\cr')
             flashImage()
         else
             tracking:append(' '..str)
         end
-]]
-       
-        if dangerous then
-            if abtype == 'spell' then
-                if settings.dangerwords.bigdmgaoe:contains(abilname) then
-                    tracking:append(' \\cs(255,147,15)'..str..'\\cr')
-                    flashImageTwo()
-                elseif settings.dangerwords.statusaoe:contains(abilname) then
-                    tracking:append(' \\cs(0,255,0)'..str..'\\cr')
-                    flashImageTwo()
-                elseif settings.dangerwords.bigdmg:contains(abilname) then
-                    tracking:append(' \\cs(255,147,15)'..str..'\\cr')
-                    flashImage()
-                elseif settings.dangerwords.status:contains(abilname) then
-                    tracking:append(' \\cs(0,255,0)'..str..'\\cr')
-                    flashImage()
-                elseif settings.dangerwords.charm:contains(abilname) then
-                    tracking:append(' \\cs(250,0,255)'..str..'\\cr')
-                    flashImage()
-                end
-            elseif abtype == 'ws' then
-                if settings.dangerwords.bigdmgaoe:contains(abilname) then
-                    tracking:append(' \\cs(255,147,15)'..str..'\\cr')
-                    flashImageTwo()
-                elseif settings.dangerwords.dmgaoe:contains(abilname) then
-                    tracking:append(' \\cs(255,255,0)'..str..'\\cr')
-                    flashImageTwo()
-                elseif settings.dangerwords.statusaoe:contains(abilname) then
-                    tracking:append(' \\cs(0,255,0)'..str..'\\cr')
-                    flashImageTwo()
-                elseif settings.dangerwords.charmaoe:contains(abilname) then
-                    tracking:append(' \\cs(250,0,255)'..str..'\\cr')
-                    flashImageTwo()
-                elseif settings.dangerwords.aidsaoe:contains(abilname) then
-                    tracking:append(' \\cs(255,255,0)'..str..'\\cr')
-                    flashImageTwo()
-                elseif settings.dangerwords.charm:contains(abilname) then
-                    tracking:append(' \\cs(250,0,255)'..str..'\\cr')
-                    flashImage()
-                elseif settings.dangerwords.buff:contains(abilname) then
-                    tracking:append(' \\cs(0,203,255)'..str..'\\cr')
-                    flashImage()
-                elseif settings.dangerwords.ult:contains(abilname) then
-                    tracking:append(' \\cs(255,0,0)'..str..'\\cr')
-                    flashImage()
-                end
-            end
-        elseif dMob then
-            tracking:append(' \\cs(255,255,255)'..str..'\\cr')
-            flashImage()
-        else
-            tracking:append(' '..str)
-            flashImage()
-        end
-
-
     end
     coroutine.schedule(remText, settings.duration or 7)
     textUpdate()
@@ -197,27 +138,8 @@ function flashImage()
     coroutine.schedule(deleteImage:prepare(name), settings.duration or 7)
 end
 
-function flashImageTwo()
-    local name = 'ohShi'..tostring(math.random(10000000,99999999))
-    prims:add(name)
-    windower.prim.create(name)
-    windower.prim.set_color(name,255,255,255,255)
-    windower.prim.set_fit_to_texture(name,false)
-    windower.prim.set_texture(name,windower.addon_path..'data/Warning2.png')
-    windower.prim.set_repeat(name,1,1)
-    windower.prim.set_visibility(name,true)
-    windower.prim.set_position(name,settings.pos.x-30,settings.pos.y-10)
-    windower.prim.set_size(name,30,30)
-    coroutine.schedule(deleteImageTwo:prepare(name), settings.duration or 7)
-end
-
 --Called to delete the image after it's time is up.
 function deleteImage(str)
-    prims:remove(str)
-    windower.prim.delete(str)
-end
-
-function deleteImageTwo(str)
     prims:remove(str)
     windower.prim.delete(str)
 end

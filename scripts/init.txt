@@ -58,7 +58,5 @@ bind !` input !mk
 
 // custom addons
 lua load onthego
-lua load debuffed
 lua load snub
-lua load homepoint
 lua load partybuffs

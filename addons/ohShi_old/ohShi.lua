@@ -222,7 +222,7 @@ windower.register_event('action', function(act)
                 if settings.selfrolls and not selfroll then return end
                 addText(actor.name, 'roll', extparam, targets[1].actions[1].param)
             end
-            elseif isMob(actor.id) and S{7,8}:contains(curact.category) and extparam ~= 28787 then
+        elseif isMob(actor.id) and S{7,8}:contains(curact.category) and extparam ~= 28787 then
             local inact = targets[1].actions[1]
             if curact.category == 8 then typ = 'spell'
             else typ = 'ws' end

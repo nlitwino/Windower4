@@ -32,7 +32,7 @@ defaults = T{}
 defaults.staggeronly = false  
 defaults.showrolls = true
 defaults.selfrolls = false
-defaults.duration = 7
+defaults.duration = 10
 
 --Textbox settings
 defaults.bg = {}
@@ -48,7 +48,7 @@ defaults.text.red = 255
 defaults.text.green = 255
 defaults.text.blue = 255
 defaults.text.font = 'Consolas'
-defaults.text.size = 15
+defaults.text.size = 10
 
 --Moblist defaults
 defaults.moblist = T{}
@@ -59,18 +59,8 @@ defaults.moblist['meebles'] = S{"Goldwing", "Silagilith", "Surtr", "Dreyruk", "S
 defaults.moblist['other'] = S{"Tiamat", "Khimaira", "Khrysokhimaira", "Cerberus", "Dvergr", "Bloodthirsty", "Hydra", "Enraged", "Odin"}
 defaults.moblist['dangerous'] = S{"Provenance Watcher", "Apademak"}
 defaults.dangerwords = T{}
-defaults.dangerwords['ult'] = S{"Spirit Surge","Call Wyvern","Manafont","Blood Weapon","Perfect Dodge","Astral Flow","Soul Voice","Chainspell","Eagle Eye Shot","Meikyo Shisui","Invincible","Mighty Strikes","Hundred Fists","Mijin Gakure","Benediction","Familiar"}
-defaults.dangerwords['bigdmg'] = S{"Comet","Head Snatch","Quake","Quake II","Tornado","Tornado II","Flare","Flare II","Freeze","Freeze II","Flood","Flood II","Burst","Burst II","Aero V","Fire V","Blizzard V","Thunder V","Stone V","Water V","Aero IV","Fire IV","Blizzard IV","Thunder IV","Stone IV","Water IV"}
-defaults.dangerwords['bigdmgaoe'] = S{"Meteor","Discoid","Dragon Breath","Fiery Breath","Glacial Breath","Geotic Breath","Lightning Spear","Stonega III","Stoneja","Aeroga III","Aeroja","Firaga III","Firaja","Blizzaga III","Blizzaja","Waterga III","Thundaga III","Thundaja","Explosive Impulse"}
-defaults.dangerwords['status'] = S{"Death","Kaustra"}
-defaults.dangerwords['charm'] = S{"Absolute Terror","Stasis","Maiden's Virelai","Brainjack","Danse Macabre","Frog Song"}
-defaults.dangerwords['buff'] = S{"Heavy Armature","Raksha Stance","Extreme Purgation"}
-defaults.dangerwords['aidsaoe'] = S{"Fulmination","Gates of Hades","Tebbad Wing","Gregale Wing","Thundris Shriek","Ballistic Kick","Optic Induration","Geirrothr"}
-defaults.dangerwords['statusaoe'] = S{"Eternal Damnation","Zantetsuken","Breakga","Pleiades Ray","Nerve Gas","Impact Stream"}
-defaults.dangerwords['charmaoe'] = S{"Luminous Drape","Frog Chorus","Gala Macabre"}
-defaults.dangerwords['buffaoe'] = S{"Arcane Stomp"}
-defaults.dangerwords['dmgaoe'] = S{"Homing Missile","Gorge","Arm Cannon"}
--- REMOVED "Aeroga IV", DUE TO AV TESTS
+defaults.dangerwords['weaponskills'] = S{"Zantetsuken", "Geirrothr", "Astral Flow", "Chainspell", "Beastruction", "Mandible Massacre", "Oblivion's Mantle", "Divesting Gale", "Frog Song", "Frog Chorus", "Danse Macabre", "Raksha Stance", "Yama's Judgment", "Ballistic Kick", "Eradicator", "Arm Cannon", "Gorge", "Extreme Purgitation", "Slimy Proposal", "Rancid Reflux", "Pawn's Penumbra", "Gates of Hades", "Fulmination", "Nerve Gas", "Thundris Shriek"}
+defaults.dangerwords['spells'] = S{"Death", "Meteor", "Kaustra", "Breakga", "Thundaga IV", "Thundaja", "Firaga IV", "Firaja", "Aeroga IV", "Aeroja", "Blizzaga IV", "Blizzaja", "Stonega IV", "Stoneja"}
 
 --Fill settings from either defaults table or settings.xml
 settings = config.load(defaults)

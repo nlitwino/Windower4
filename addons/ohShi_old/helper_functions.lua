@@ -55,7 +55,6 @@ end
 function dCheck(typ, sid)
     --log('DEBUG TYP: '..typ..' ID: '..sid)
     sid = tonumber(sid)
---[[
     if typ == 'spell' then
         if settings.dangerwords.spells:find(string.imatch-{res.spells[sid].english .. '$'}) then
             return true
@@ -66,20 +65,6 @@ function dCheck(typ, sid)
         end 
     else   
         if settings.dangerwords.weaponskills:find(string.imatch-{res.monster_abilities[sid].english .. '$'}) then
-            return true
-        end 
-    end
-]]
-    if typ == 'spell' then
-        if (settings.dangerwords.bigdmgaoe:find(string.imatch-{res.spells[sid].english .. '$'}) or settings.dangerwords.bigdmg:find(string.imatch-{res.spells[sid].english .. '$'}) or settings.dangerwords.status:find(string.imatch-{res.spells[sid].english .. '$'}) or settings.dangerwords.statusaoe:find(string.imatch-{res.spells[sid].english .. '$'}) or settings.dangerwords.charm:find(string.imatch-{res.spells[sid].english .. '$'})) then
-            return true
-        end
-    elseif sid <= 255 then
-        if  (settings.dangerwords.bigdmg:find(string.imatch-{res.weaponskills[sid].english .. '$'})) then
-            return true
-        end 
-    else   
-        if (settings.dangerwords.ult:find(string.imatch-{res.monster_abilities[sid].english .. '$'}) or settings.dangerwords.bigdmgaoe:find(string.imatch-{res.monster_abilities[sid].english .. '$'}) or settings.dangerwords.bigdmg:find(string.imatch-{res.monster_abilities[sid].english .. '$'}) or settings.dangerwords.charm:find(string.imatch-{res.monster_abilities[sid].english .. '$'}) or settings.dangerwords.buff:find(string.imatch-{res.monster_abilities[sid].english .. '$'}) or settings.dangerwords.aidsaoe:find(string.imatch-{res.monster_abilities[sid].english .. '$'}) or settings.dangerwords.dmgaoe:find(string.imatch-{res.monster_abilities[sid].english .. '$'}) or settings.dangerwords.statusaoe:find(string.imatch-{res.monster_abilities[sid].english .. '$'}) or settings.dangerwords.charmaoe:find(string.imatch-{res.monster_abilities[sid].english .. '$'}) or settings.dangerwords.buffaoe:find(string.imatch-{res.monster_abilities[sid].english .. '$'})) then
             return true
         end 
     end

@@ -144,12 +144,12 @@ function initialize_skins(name)
        ,['BLM'] = {}
        ,['RDM'] = {head=140,body=208,hands=286,legs=185,feet=343}
        ,['THF'] = {}
-       ,['BRD'] = {}}
+       ,['BRD'] = {head=379,body=578,hands=215,legs=215,feet=215}}
        
   elseif name == "Mian" then
     skins
      = {['RDM'] = {head=223,body=208,hands=286,legs=185,feet=343}
-       ,['COR'] = {}}
+       ,['COR'] = {head=168,body=225,hands=225,legs=168,feet=168}}
        
   end
 

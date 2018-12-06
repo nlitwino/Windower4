@@ -28,7 +28,7 @@ function user_setup()
   gear.ammo = player.equipment.ammo
   
   send_command('wait 2;gs equip sets.lockstyle')
-  send_command('wait 3;input /lockstyle on; gs c update')
+  send_command('wait 3;gs c setskin')
   
   -- custom state buffs
   state.Buff['Bust'] = buffactive['Bust'] or false
@@ -74,11 +74,7 @@ function init_gear_sets()
      
   sets.lockstyle
    = {main="Caver's shovel"
-     ,range="Death penalty"
-     ,head="Commodore tricorne"
-     ,body="Custom top +1"
-     ,legs="Commodore trews"
-     ,feet="Commodore bottes"}
+     ,range="Magnatus"}
      
   organizer_items
    = {echos="Echo drops"
