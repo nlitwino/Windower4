@@ -121,8 +121,8 @@ return {
     [1162] = {id=1162,en="Raiton Effect",ja="雷遁の術効果",endesc="Increase damage by 2, and length of earth resistance down effect by 2 seconds.",jadesc="能力値1で雷遁の術攻撃力を+2、属性防御ダウン時間を2秒延長します。"},
     [1164] = {id=1164,en="Suiton Effect",ja="水遁の術効果",endesc="Increase damage by 2, and length of ltng. resistance down effect by 2 seconds.",jadesc="能力値1で水遁の術攻撃力を+2、属性防御ダウン時間を2秒延長します。"},
     [1216] = {id=1216,en="Ancient Circle Recast",ja="エンシェントサークル使用間隔",endesc="Shorten recast time by 10 seconds.",jadesc="能力値1で使用間隔を10秒短縮します。"},
-    [1218] = {id=1218,en="Jump Recast",ja="ジャンプ使用間隔",endesc="Shorten recast time by 2 seconds.",jadesc="能力値1で使用間隔を2秒短縮します。"},
-    [1220] = {id=1220,en="High Jump Recast",ja="ハイジャンプ使用間隔",endesc="Shorten recast time by 4 seconds.",jadesc="能力値1で使用間隔を4秒短縮します。"},
+    [1218] = {id=1218,en="Jump Recast",ja="ジャンプ使用間隔",endesc="Shorten recast time of Jump and Spirit Jump by 2 seconds.",jadesc="能力値1で使用間隔を2秒短縮します。\nスピリットジャンプの使用間隔も短縮します。"},
+    [1220] = {id=1220,en="High Jump Recast",ja="ハイジャンプ使用間隔",endesc="Shorten recast time of High Jump and Soul Jump by 4 seconds.",jadesc="能力値1で使用間隔を4秒短縮します。\nソウルジャンプの使用間隔も短縮します。"},
     [1222] = {id=1222,en="Super Jump Recast",ja="スーパージャンプ使用間隔",endesc="Shorten recast time by 6 seconds.",jadesc="能力値1で使用間隔を6秒短縮します。"},
     [1224] = {id=1224,en="Spirit Link Recast",ja="スピリットリンク使用間隔",endesc="Shorten recast time by 3 seconds.",jadesc="能力値1で使用間隔を3秒短縮します。"},
     [1280] = {id=1280,en="Avatar Physical Accuracy",ja="召喚獣物理命中率",endesc="Increase avatars' physical accuracy by 3.",jadesc="能力値1で召喚獣の物理命中率を+3します。"},
@@ -189,6 +189,8 @@ return {
     [2178] = {id=2178,en="Devotion",ja="デヴォーション",endesc="Sacrifices HP to grant a party member the same amount in MP. Recast: 10min.\nIncrease amount of MP granted by 5 percent.",jadesc="標的のパーティメンバーに自身のHPの一部をMPと\nして分け与える。使用間隔:10分\n能力値1でMP回復量を5%アップします。"},
     [2180] = {id=2180,en="Protectra V",ja="プロテアV",endesc="Increases the defense of party members within area of effect.\nIncrease bonus defense by 5.",jadesc="範囲内にいるパーティメンバーの防御力をアップす\nる。\n能力値1で防御力を+5します。"},
     [2182] = {id=2182,en="Shellra V",ja="シェルラV",endesc="Increases the magic defense of party members within area of effect.\nIncrease bonus magic defense by 1.",jadesc="範囲内にいるパーティメンバーの魔法防御力をアップする。\n能力値1で魔法防御力を+1します。"},
+    [2184] = {id=2184,en="Animus Solace",ja="ソウルオブソラス",endesc="Increases the maximum damage absorbed by Stoneskin applied by certain healing spells during Afflatus Solace.\nIncrease maximum damage absorbed by 2%.",jadesc="ハートオブソラスの特定の回復魔法で付与される\nストンスキンの被ダメージ吸収量上限をアップする。\n能力値1で被ダメージ吸収量上限を+5します。"},
+    [2186] = {id=2186,en="Animus Misery",ja="ソウルオブミゼリ",endesc="Increases the maximum total damage stored during Afflatus Misery.\nIncrease maximum total damage stored by 5%.",jadesc="ハートオブミゼリの被ダメージ蓄積上限をアップする\n能力値1で被ダメージ蓄積上限を5%アップします。"},
     [2240] = {id=2240,en="Flare II",ja="フレアII",endesc="Deals fire damage to an enemy and lowers its resistance against water.\nIncrease Flare II magic burst damage by 3, and magic accuracy by 5.",jadesc="敵に火属性のダメージを与え、水属性に対する防御力をダウン。\n能力値1でフレアIIのマジックバーストダメージボーナスを+3、魔法命中率を+5します。"},
     [2242] = {id=2242,en="Freeze II",ja="フリーズII",endesc="Deals ice damage to an enemy and lowers its resistance against fire.\nIncrease Freeze II magic burst damage by 3, and magic accuracy by 5.",jadesc="敵に氷属性のダメージを与え、火属性に対する防御力をダウン。\n能力値1でフリーズIIのマジックバーストダメージボーナスを+3、魔法命中率を+5します。"},
     [2244] = {id=2244,en="Tornado II",ja="トルネドII",endesc="Deals wind damage to an enemy and lowers its resistance against ice.\nIncrease Tornado II magic burst damage by 3, and magic accuracy by 5.",jadesc="敵に風属性のダメージを与え、氷属性に対する防御力をダウン。\n能力値1でトルネドIIのマジックバーストダメージボーナスを+3、魔法命中率を+5します。"},
@@ -252,7 +254,7 @@ return {
     [3012] = {id=3012,en="Enchainment",ja="エンチェーンメント",endesc="Grants a TP bonus to Chain Affinity.\nIncrease TP bonus by 100.",jadesc="ブルーチェーンにTPボーナスの効果を得る。\n能力値1でTPボーナスを+100します。"},
     [3014] = {id=3014,en="Assimilation",ja="アシミレーション",endesc="Increases maximum blue magic points.\nIncrease blue magic point maximum by 1.",jadesc="青魔法ポイントの上限をアップ。\n能力値1で青魔法ポイントの上限を+1します。"},
     [3072] = {id=3072,en="Snake Eye",ja="スネークアイ",endesc="Your next roll will automatically be a 1. Recast: 5min.\nWhen current roll is 5 or higher, increase chance of rolling an 11 by 10%.",jadesc="次に振るロールの値を1にする。使用間隔:5分\n能力値1で現在のロールの値が5以上の時、11になる\nロールの値の出る確率が10%アップします。"},
-    [3074] = {id=3074,en="Fold",ja="フォールド",endesc="Erases one roll or bust effect. Targets self-cast effect with the longest remaining duration. Recast: 5min.\nIncrease chance of resetting Phantom Roll recast timer by 10%.",jadesc="自身のかけたロール、及びバストの残り効果時間の\n長い方を1つ消す。使用間隔:5分\n能力値1でファントムロールの使用間隔をリセット\nする確率が10%アップします。"},
+    [3074] = {id=3074,en="Fold",ja="フォールド",endesc="Erases one roll or bust effect.\nBusts will be removed first, while if a roll is erased, the one with the longest remaining duration will be chosen. Recast: 5min.\nIncrease chance of resetting Phantom Roll recast timer by 10%.",jadesc="自身のかけたバストかロールを1つ消す。\nバストが優先して消され、ロールは残りの効果時間の\n長いほうを消す。使用間隔:5分\n能力値1でファントムロールの使用間隔をリセット\nする確率が10%アップします。"},
     [3076] = {id=3076,en="Winning Streak",ja="ウィニングストリーク",endesc="Extends the duration of Phantom Roll effects.\nIncrease duration of effect by 20 seconds.",jadesc="ファントムロールの効果時間を延長。\n能力値1で効果時間を20秒延長します。"},
     [3078] = {id=3078,en="Loaded Deck",ja="ローデッドデッキ",endesc="Focuses effect of Random Deal on abilities waiting on recast.\nHas a chance to fail if only one ability is waiting on recast.\nReduce chance of failure by 10%.",jadesc="ランダムディールの対象がリキャスト発生中のアビリティに絞られる。ただし、リキャスト発生中のアビリティが1つの場合はミスの可能性がある。\n能力値1でミスの確率を10%ダウンします。"},
     [3136] = {id=3136,en="Role Reversal",ja="黒衣チェンジ",endesc="Swaps HP of master and automaton. Recast: 2min.\nSupplement HP granted by 5%.",jadesc="マスターとオートマトンのHPを入れ替える。\n使用間隔:2分\n能力値1で入れ替えたHPを5%アップします。"},
@@ -280,7 +282,7 @@ return {
 }, {"id", "en", "ja", "endesc", "jadesc"}
 
 --[[
-Copyright © 2013-2018, Windower
+Copyright © 2013-2019, Windower
 All rights reserved.
 
 Redistribution and use in source and binary forms, with or without modification, are permitted provided that the following conditions are met:

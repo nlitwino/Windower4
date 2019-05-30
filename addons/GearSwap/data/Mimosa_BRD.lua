@@ -146,7 +146,7 @@ function init_gear_sets()
 
   sets.precast.FC['BardSong']
    = set_combine(sets.precast.FC
-                ,{body="Sha'ir manteel"
+                ,{body="sheikh manteel"
                  ,ring1="Minstrel's ring"})
 
   -- midcast magic
@@ -306,7 +306,7 @@ function init_gear_sets()
      ,neck="Peacock amulet"
      ,ear1="Pixie earring"
      ,ear2="Brutal earring"
-     ,body="Sha'ir manteel"
+     ,body="sheikh manteel"
      ,hands="Dusk gloves"
      ,ring1="Sniper's ring +1"
      ,ring2="Sniper's ring +1"

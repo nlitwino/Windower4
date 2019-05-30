@@ -276,7 +276,7 @@ function init_gear_sets()
      ,neck="Fotia gorget"          
      ,ear1="Triumph earring"     
      ,ear2="Brutal earring"
-     ,body="Hecatomb harness"  
+     ,body="Hecatomb harness +1"  
      ,hands="Tarasque mitts +1"
      ,ring1="Rajas ring"
      ,ring2="Strigoi ring"

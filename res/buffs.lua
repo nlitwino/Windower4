@@ -509,7 +509,7 @@ return {
     [517] = {id=517,en="Collimated Fervor",ja="コリメイトファーバー",enl="Collimated Fervor",jal="コリメイトファーバー"},
     [518] = {id=518,en="Dematerialize",ja="デマテリアライズ",enl="Dematerialize",jal="デマテリアライズ"},
     [519] = {id=519,en="Theurgic Focus",ja="タウマテルギフォカス",enl="Theurgic Focus",jal="タウマテルギフォカス"},
-    [522] = {id=522,en="Elemental Sforzo",ja="Ｅ.スフォルツォ",enl="Elemental Sforzo",jal="Ｅ.スフォルツォ"},
+    [522] = {id=522,en="Elemental Sforzo",ja="E.スフォルツォ",enl="Elemental Sforzo",jal="E.スフォルツォ"},
     [523] = {id=523,en="Ignis",ja="イグニス",enl="Ignis",jal="イグニス"},
     [524] = {id=524,en="Gelus",ja="ゲールス",enl="Gelus",jal="ゲールス"},
     [525] = {id=525,en="Flabra",ja="フラブラ",enl="Flabra",jal="フラブラ"},
@@ -604,10 +604,12 @@ return {
     [614] = {id=614,en="Ullegore's Gloom",ja="ウルゴアの闇",enl="Ullegore's Gloom",jal="ウルゴアの闇"},
     [615] = {id=615,en="Boost",ja="ためる",enl="Boost",jal="ためる"},
     [616] = {id=616,en="Artisanal Knowledge",ja="芸術家肌",enl="Artisanal Knowledge",jal="芸術家肌"},
+    [617] = {id=617,en="Sacrifice",ja="サクリファイス",enl="Sacrifice",jal="サクリファイス"},
+    [618] = {id=618,en="Emporox's Gift",ja="エンポロックスのツボ",enl="Emporox's Gift",jal="エンポロックスのツボ"},
 }, {"id", "en", "ja", "enl", "jal"}
 
 --[[
-Copyright © 2013-2018, Windower
+Copyright © 2013-2019, Windower
 All rights reserved.
 
 Redistribution and use in source and binary forms, with or without modification, are permitted provided that the following conditions are met:

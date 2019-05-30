@@ -31,6 +31,9 @@ function job_self_command(commandArgs,eventArgs)
   elseif commandArgs[1] == 'setskin' then
     setskin(player.main_job)
     eventArgs.handled = true
+  elseif commandArgs[1] == 'warp_out' then
+    warp_out()
+    eventArgs.handled = true
   end
     
 end
@@ -143,7 +146,7 @@ function initialize_skins(name)
      = {['WHM'] = {}
        ,['BLM'] = {}
        ,['RDM'] = {head=140,body=208,hands=286,legs=185,feet=343}
-       ,['THF'] = {}
+       ,['THF'] = {set=367}
        ,['BRD'] = {head=379,body=578,hands=215,legs=215,feet=215}}
        
   elseif name == "Mian" then
@@ -182,8 +185,11 @@ function set_custom_universal_keybinds()
 	send_command('bind !v gs c trade_ring')
   send_command('bind !q gs c trade_whistle')
   
-  -- Setskin
+  -- other misc
   send_command('bind !b gs c setskin')
+  send_command('bind !n ffo me')
+  send_command('bind !m ffo stopall')
+  send_command('bind !v gs c warp_out')
 
 end
 
@@ -408,6 +414,15 @@ function setskin(job)
     end
   end 
   send_command('gs c update;'..command..'wait 1; input /lockstyle on')
+
+end
+
+function warp_out()
+
+  local send = 'send @all '
+  local equip_ring = 'input /equip ring2 \\"Warp ring\\"'
+  local use_ring = 'input /item \\"Warp ring\\" <me>'
+  send_command(send..equip_ring..';wait 10;'..send..use_ring)
 
 end
 

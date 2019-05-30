@@ -257,7 +257,7 @@ function init_gear_sets()
   sets.precast.WS.Power
    = set_combine(sets.precast.WS      
                 ,{head="Gnadbhod's helm"
-                 ,body="Hecatomb harness"})
+                 ,body="Hecatomb harness +1"})
                 
   sets.precast.WS.Acc
    = set_combine(sets.precast.WS.Power
@@ -291,7 +291,7 @@ function init_gear_sets()
   sets.precast.WS['Mercy Stroke']
    = set_combine(sets.precast.WS                
                 ,{head="Hecatomb cap +1"
-                ,body="Hecatomb harness"
+                ,body="Hecatomb harness +1"
                 ,hands="Alkyoneus's bracelets"})
                 
   sets.precast.WS['Mercy Stroke'].Power
@@ -338,7 +338,7 @@ function init_gear_sets()
   sets.precast.WS['Shark Bite'].Power.SA
    = set_combine(sets.precast.WS['Shark Bite'].Power
                 ,{ear1="Pixie earring"
-                 ,body="Hecatomb harness"})
+                 ,body="Hecatomb harness +1"})
                 
   sets.precast.WS['Shark Bite'].Acc.SA
    = set_combine(sets.precast.WS['Shark Bite'].Acc 
@@ -365,12 +365,12 @@ function init_gear_sets()
   sets.precast.WS['Mandalic Stab'].Power.SA
    = set_combine(sets.precast.WS['Mandalic Stab'].Power
                 ,{ear1="Pixie earring"
-                 ,body="Hecatomb harness"})
+                 ,body="Hecatomb harness +1"})
                 
   sets.precast.WS['Mandalic Stab'].Acc.SA
    = set_combine(sets.precast.WS['Mandalic Stab'].Acc  
                 ,{ear1="Pixie earring"
-                 ,body="Hecatomb harness"})
+                 ,body="Hecatomb harness +1"})
 
   -- TA WS
   sets.precast.WS.TA

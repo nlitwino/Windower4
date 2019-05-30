@@ -276,7 +276,7 @@ function init_gear_sets()
      ,head="Maat's cap"        
      ,neck="Gnole torque"   
      ,ear1="Mamool Ja earring"
-     ,ear2="Star earring"
+     ,ear2="Celestial earring"
      ,body="Errant houppelande"
      ,hands="Bricta's cuffs"
      ,ring1="Tamas ring"

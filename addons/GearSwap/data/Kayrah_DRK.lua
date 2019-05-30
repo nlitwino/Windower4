@@ -748,7 +748,7 @@ function job_status_change(new,old)
 
     if player.equipment.main == 'Apocalypse' or player.equipment.main == 'Ragnarok' then
       state.CombatWeapon:set(player.equipment.main)
-    elseif player.equipment.main == 'Kraken Club' or 'Mercurial Kris' then
+    elseif player.equipment.main == 'Kraken Club' or player.equipment.main == 'Mercurial Kris' then
       state.CombatWeapon:set('Zerg')
     else
       state.CombatWeapon:reset()

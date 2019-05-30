@@ -338,8 +338,6 @@ function job_post_precast(spell,action,spellMap,eventArgs)
       
       if player.equipment.ranged == 'empty' then
         if spell.name ~= 'Tachi: Rana' then
-        
-          equip({})
           
           if state.CombatWeapon.value == 'Nanatsu' then
             equip({ammo="Black tathlum",body="Hachiman domaru +1",feet="Hachiman sune-ate +1"})

@@ -371,7 +371,7 @@ return {
     [368] = {id=368,en="\"Phalanx\"%+d ",ja="ファランクス%+d "},
     [369] = {id=369,en="\"Blood Pact\" damage %+d ",ja="契約の履行ダメージ%+d "},
     [370] = {id=370,en="\"Rev. Flourish\"%+d ",ja="R.フラリッシュ%+d "},
-    [371] = {id=371,en="\"Regen\" potency %+d%% ",ja="リジェネ回復量%+d%% "},
+    [371] = {id=371,en="\"Regen\" potency %+d ",ja="リジェネ回復量%+d "},
     [372] = {id=372,en="\"Embolden\"%+d ",ja="エンボルド%+d "},
     [373] = {id=373,en="374",ja="374"},
     [374] = {id=374,en="375",ja="375"},
@@ -860,9 +860,9 @@ return {
     [857] = {id=857,en="Enhances \"Mantra\" effect",ja="マントラ効果アップ"},
     [858] = {id=858,en="859",ja="859"},
     [859] = {id=859,en="860",ja="860"},
-    [860] = {id=860,en="Enhances \"Protectra V\" effect",ja="プロテアV効果アップ"},
+    [860] = {id=860,en="Enhances \"Afflatus Solace\" effect",ja="ソウルオブソラス効果アップ"},
     [861] = {id=861,en="Enhances \"Martyr\" effect",ja="マーター効果アップ"},
-    [862] = {id=862,en="Enhances \"Shellra V\" effect",ja="シェルラV効果アップ"},
+    [862] = {id=862,en="Enhances \"Afflatus Misery\" effect",ja="ソウルオブミゼリ効果アップ"},
     [863] = {id=863,en="Enhances \"Devotion\" effect",ja="デヴォーション効果アップ"},
     [864] = {id=864,en="865",ja="865"},
     [865] = {id=865,en="866",ja="866"},
@@ -2050,7 +2050,7 @@ return {
 }, {"id", "en", "ja"}
 
 --[[
-Copyright © 2013-2018, Windower
+Copyright © 2013-2019, Windower
 All rights reserved.
 
 Redistribution and use in source and binary forms, with or without modification, are permitted provided that the following conditions are met:

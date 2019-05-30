@@ -50,7 +50,7 @@ function init_gear_sets()
 
 	-- misc
 	sets.sublimation
-   = {main="Elder staff"             
+   = {main="Crook"             
      ,sub="Axe grip"                                 
      ,ammo="White tathlum"
      ,head="Scholar's mortarboard +1"
@@ -130,7 +130,7 @@ function init_gear_sets()
      
 	sets.idle.Town
 	 = set_combine(sets.idle
-	              ,{main="Elder staff"
+	              ,{main="Crook"
 	               ,neck="Orochi nodowa +1"
 	               ,ring2="Warp ring"
 	               ,back="Nexus cape" 
@@ -148,7 +148,7 @@ function init_gear_sets()
 	                                                   
 	-- precast                                         
 	sets.precast.FC
-   = {main="Elder staff"
+   = {main="Crook"
      ,ear2="Loquacious earring"
      ,back=prism_cape['Fast Cast']
      ,feet="Rostrum pumps"}
@@ -162,7 +162,7 @@ function init_gear_sets()
 	sets.midcast['Healing Magic']
 	 = set_combine(sets.MND
 	              ,sets.midcast.FastRecast
-	              ,{main="Elder staff"
+	              ,{main="Crook"
 	               ,ammo="White tathlum"
 	               ,ear1="Magnetic earring"
 	               ,feet="Argute loafers"})
@@ -376,10 +376,10 @@ function job_post_midcast(spell,action,spellMap,eventArgs)
 		if spell.skill == 'Enhancing Magic' then
 			equip({legs="Scholar's pants +1"})
 			if spell.name == 'Phalanx' then
-				equip({main="Elder staff"})
+				equip({main="Crook"})
 			end
 		else
-			equip({main="Elder staff",legs="Scholar's pants +1"})
+			equip({main="Crook",legs="Scholar's pants +1"})
 		end
 	end
 	

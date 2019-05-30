@@ -522,8 +522,11 @@ function customize_idle_set(idleSet)
     idleSet = set_combine(idleSet,{ring2="Hercules' ring"})
   end
   
-  if daytime and player.hpp < 75 then
-    idleSet = set_combine(idleSet,{waist="Lycopodium sash"})
+  if player.hpp < 75 then
+      idleSet = set_combine(idleSet,{body="Barone corazza"})
+    if daytime then
+      idleSet = set_combine(idleSet,{waist="Lycopodium sash"})
+    end
   end
 
   return idleSet

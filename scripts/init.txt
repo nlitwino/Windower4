@@ -60,3 +60,6 @@ bind !` input !mk
 lua load onthego
 lua load snub
 lua load partybuffs
+lua load FastFollow
+lua load MobLevel
+lua load EraMobDrops

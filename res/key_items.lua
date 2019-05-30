@@ -2961,9 +2961,12 @@ return {
     [3088] = {id=3088,en="♪Hippogryph companion",ja="♪ヒポグリフ",category="Mounts"},
     [3089] = {id=3089,en="♪Spectral chair companion",ja="♪悪霊の椅子",category="Mounts"},
     [3090] = {id=3090,en="♪Spheroid companion",ja="♪スフィアロイド",category="Mounts"},
-    [3091] = {id=3091,en="♪Omega",ja="♪オメガ",category="Mounts"},
-    [3092] = {id=3092,en="♪Coeurl",ja="♪クァール",category="Mounts"},
-    [3093] = {id=3093,en="♪Goobbue",ja="♪グゥーブー",category="Mounts"},
+    [3091] = {id=3091,en="♪Omega whistle",ja="♪オメガ",category="Mounts"},
+    [3092] = {id=3092,en="♪Coeurl companion",ja="♪クァール",category="Mounts"},
+    [3093] = {id=3093,en="♪Goobbue companion",ja="♪グゥーブー",category="Mounts"},
+    [3094] = {id=3094,en="♪Raaz companion",ja="♪ラズ",category="Mounts"},
+    [3095] = {id=3095,en="♪Levitus key",ja="♪レヴィデイス",category="Mounts"},
+    [3095] = {id=3095,en="♪Adamantoise companion",ja="♪アダマンタス",category="Mounts"},
     [3136] = {id=3136,en="sheet of Shadow Lord tunes",ja="オーケストリオン譜：闇の王",category="Permanent Key Items"},
     [3137] = {id=3137,en="mystical canteen",ja="チカラを閉じ込めた飯盒",category="Temporary Key Items"},
     [3138] = {id=3138,en="Ygnas's insignia",ja="ユグナスの紹介状",category="Permanent Key Items"},
@@ -2994,10 +2997,29 @@ return {
     [3163] = {id=3163,en="Tarutaru Mask of Light",ja="分かたれしタルタルの光の仮面",category="Permanent Key Items"},
     [3164] = {id=3164,en="Mithra Mask of Darkness",ja="分かたれしミスラの闇の仮面",category="Temporary Key Items"},
     [3165] = {id=3165,en="Mithra Mask of Light",ja="分かたれしミスラの光の仮面",category="Permanent Key Items"},
+    [3166] = {id=3166,en="broken flying machine",ja="壊れた飛翔機",category="Temporary Key Items"},
+    [3167] = {id=3167,en="levitation device",ja="浮遊機関",category="Temporary Key Items"},
+    [3168] = {id=3168,en="whirring engine",ja="稼働し始めた浮遊機関",category="Temporary Key Items"},
+    [3169] = {id=3169,en="Mog Kupon W-RMEA",ja="クーポンW-RMEA",category="Temporary Key Items"},
+    [3170] = {id=3170,en="Deed Voucher",ja="Ｄ．チケット",category="Temporary Key Items"},
+    [3171] = {id=3171,en="Deed Voucher +1: Head",ja="Ｄ．チケット+1:頭",category="Temporary Key Items"},
+    [3172] = {id=3172,en="Deed Voucher +1: Chest",ja="Ｄ．チケット+1:胴",category="Temporary Key Items"},
+    [3173] = {id=3173,en="Deed Voucher +1: Hands",ja="Ｄ．チケット+1:手",category="Temporary Key Items"},
+    [3174] = {id=3174,en="Deed Voucher +1: Legs",ja="Ｄ．チケット+1:脚",category="Temporary Key Items"},
+    [3175] = {id=3175,en="Deed Voucher +1: Feet",ja="Ｄ．チケット+1:足",category="Temporary Key Items"},
+    [3176] = {id=3176,en="Deed Voucher +2: Head",ja="Ｄ．チケット+2:頭",category="Temporary Key Items"},
+    [3177] = {id=3177,en="Deed Voucher +2: Chest",ja="Ｄ．チケット+2:胴",category="Temporary Key Items"},
+    [3178] = {id=3178,en="Deed Voucher +2: Hands",ja="Ｄ．チケット+2:手",category="Temporary Key Items"},
+    [3179] = {id=3179,en="Deed Voucher +2: Legs",ja="Ｄ．チケット+2:脚",category="Temporary Key Items"},
+    [3180] = {id=3180,en="Deed Voucher +2: Feet",ja="Ｄ．チケット+2:足",category="Temporary Key Items"},
+    [3181] = {id=3181,en="tentacle touching ticket",ja="触手券",category="Permanent Key Items"},
+    [3182] = {id=3182,en="Invitation from Excenmille",ja="エグセニミルの招待状",category="Temporary Key Items"},
+    [3183] = {id=3183,en="Invitation from Naji",ja="ナジの招待状",category="Temporary Key Items"},
+    [3184] = {id=3184,en="Invitation from Kupipi",ja="クピピの招待状",category="Temporary Key Items"},
 }, {"id", "en", "ja", "category"}
 
 --[[
-Copyright © 2013-2018, Windower
+Copyright © 2013-2019, Windower
 All rights reserved.
 
 Redistribution and use in source and binary forms, with or without modification, are permitted provided that the following conditions are met:
