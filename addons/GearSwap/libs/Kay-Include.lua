@@ -47,7 +47,6 @@ function initialize_job()
 	initialize_skins(player.name)
 	
 	state.Tank = M(false, 'Tank')
-	state.Range = M(false, 'Range')
 	
 	gear.main = player.equipment.main
 	gear.sub = player.equipment.sub
@@ -88,6 +87,7 @@ function initialize_custom_augments(name)
     toreador_ring
 	   = {["Triple Attack (1)"] = { name="Toreador's Ring", augments={'Accuracy+5','"Triple Atk."+2',}}
 	     ,["Triple Attack (2)"] = { name="Toreador's Ring", augments={'"Triple Atk."+2','Accuracy+4',}}
+       ,["Triple Attack (3)"] = { name="Toreador's Ring", augments={'"Triple Atk."+2','"Triple Atk."+1',}}
 	     ,["Ranged Attack"]     = { name="Toreador's Ring", augments={'Rng.Atk.+5','Rng.Atk.+7',}}}
 	     
     scorpion_harness
@@ -189,7 +189,7 @@ function set_custom_universal_keybinds()
   send_command('bind !b gs c setskin')
   send_command('bind !n ffo me')
   send_command('bind !m ffo stopall')
-  send_command('bind !v gs c warp_out')
+  send_command('bind !, gs c warp_out')
 
 end
 
@@ -316,18 +316,16 @@ end
 
 function sleep_swap(name,gain)
 
-    local neckpiece
+    local neck = 'Opo-opo necklace'
 
     if name == 'sleep' then
         if gain then
             if player.main_job == 'WAR' or player.main_job == 'PLD' or player.main_job == 'DRK' or player.main_job == 'SAM' or player.main_job == 'DRG' then
-                neckpiece='Berserker\'s torque'
+              neck='Berserker\'s torque'
             elseif player.main_job == 'DNC' or player.main_job == 'THF' or player.main_job == 'MNK' or player.main_job == 'BST' then
-                neckpiece='Frenzy sallet'
-            else
-                neckpiece='Opo-opo necklace'
+              equip({head='Frenzy sallet'})
             end
-            equip({neck=neckpiece})
+            equip({neck=neck})
         else
             send_command('gs c update')
         end
