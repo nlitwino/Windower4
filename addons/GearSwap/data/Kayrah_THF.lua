@@ -58,8 +58,7 @@ function init_gear_sets()
      ,legs="Assassin's culottes"}
      
   sets.enmityDown
-   = {ammo="White tathlum"
-     ,head="Zha'Go's barbut"
+   = {head="Zha'Go's barbut"
      ,ear1="Novia earring"
      ,ring2="Veela ring"
      ,waist="Buccaneer's belt"
@@ -136,6 +135,24 @@ function init_gear_sets()
   sets.precast.FC
   = {ear2="Loquacious earring"
     ,legs="Homam cosciales"}
+    
+  sets.precast.Waltz
+   = {head="Maat's cap"
+     ,neck="Temperance torque"
+     ,ear2="Melody earring +1"
+     ,body="Avalon breastplate"
+     ,hands="Assassin's armlets"
+     ,ring1="Veela ring"
+     ,ring2="Light ring"
+     ,waist="Corsette +1"
+     ,legs="Barbarossa's zerehs"
+     ,feet="Volunteer's nails"}
+
+  sets.precast.WaltzSelf
+   = set_combine(sets.precast.Waltz
+                ,{hands="Etoile bangles +1"
+                 ,legs="Barbarossa's zerehs"
+                 ,ring2="Corneus ring"})
 
   -- midcast magic
   sets.midcast.FastRecast
@@ -686,6 +703,11 @@ function job_post_precast(spell,action,spellMap,eventArgs)
       sets.postPrecast = set_combine(sets.enmityUp,sets.precast.JA[spell.english]) or sets.enmityUp
     else
       sets.postPrecast = set_combine(sets.enmityDown,sets.precast.JA[spell.english]) or sets.enmityDown
+    end
+  elseif spell.type == 'Waltz' and spell.target.type == 'SELF' then
+    sets.postPrecast = set_combine(sets.postPrecast,sets.precast.WaltzSelf)
+    if world.day_element == 'Dark' then
+      sets.postPrecast = set_combine(sets.postPrecast,{back="Shadow mantle"})
     end
   end
 

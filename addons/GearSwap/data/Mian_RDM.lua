@@ -82,9 +82,7 @@ function init_gear_sets()
      
 	-- idle
 	sets.idle
-	 = {main="Terra's staff"
-	   ,sub="Bugard leather strap +1"
-	   ,ammo="Bibiki seashell"
+	 = {ammo="Bibiki seashell"
 		 ,head="Duelist's chapeau"
 		 ,neck="Chocobo whistle"         
 		 ,ear1="Merman's earring"
@@ -340,11 +338,17 @@ end
 
 function job_post_midcast(spell,action,spellMap,eventsArgs)
 
+  if spell.skill == 'Enfeebling Magic' then
+    equip(sets.midcast[spell.skill][spell.type])
+  else 
+    equip(sets.midcast[spell.skill])
+  end
+
   if spell.skill == 'Enhancing Magic' or (spell.skill == 'Healing Magic' and not (spellMap == 'Cure' or spellMap == 'Curaga')) then
     if player.status == 'Idle' and state.IdleMode.value == 'Normal' and state.CastingMode.value ~= 'Combat' then
       equip({main="Seveneyes",sub="Muse tariqah"})
     end
-  elseif spellMap == 'Cure' or spellMap == 'Curaga' then
+  elseif (spellMap == 'Cure' or spellMap == 'Curaga') and (state.IdleMode.value ~= 'Combat' and state.CastingMode.value ~= 'Combat') then
     equip({main="Chatoyant staff",sub="Raptor leather strap +1"})
   else
     if player.status == 'Idle' and state.IdleMode.value == 'Normal' and state.CastingMode.value ~= 'Combat' then
@@ -424,12 +428,16 @@ function job_buff_change(name,gain)
 
 end
 
---[[ function customize_idle_set(idleSet)
+function customize_idle_set(idleSet)
 
- if daytime then 
+--[[ if daytime then 
     idleSet = set_combine(idleSet,{hands="Garden bangles",waist="Lycopodium sash"})
+  end]]
+
+  if (state.CastingMode.value ~= 'Combat' and state.CastingMode.value ~= 'Combat') then 
+    idleSet = set_combine(idleSet,{main="Terra's staff",sub="Raptor leather strap +1"})
   end
 
   return idleSet
   
-end]]
+end

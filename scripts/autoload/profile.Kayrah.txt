@@ -27,7 +27,6 @@ lua load cancel;
 lua load chars;
 lua load ConsoleBG;
 lua load craft;
-lua load Debuffed;
 lua load DistancePlus;
 lua load enternity;
 lua load findAll;

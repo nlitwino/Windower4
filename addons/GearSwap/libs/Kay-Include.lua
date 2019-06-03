@@ -130,7 +130,7 @@ function initialize_skins(name)
     skins
      = {['WAR'] = {head=179,body=328,hands=282,legs=282,feet=3}
        ,['BLM'] = {set=285}
-       ,['RDM'] = {head=140,body=208,hands=286,legs=185,feet=343}
+       ,['RDM'] = {head=286,body=208,hands=286,legs=185,feet=343}
        ,['THF'] = {set=367}
        ,['PLD'] = {head=140,body=113,hands=77,legs=62,feet=77}
        ,['DRK'] = {head=140,body=113,hands=78,legs=62,feet=78}
@@ -145,13 +145,13 @@ function initialize_skins(name)
     skins
      = {['WHM'] = {}
        ,['BLM'] = {}
-       ,['RDM'] = {head=140,body=208,hands=286,legs=185,feet=343}
+       ,['RDM'] = {head=286,body=208,hands=286,legs=185,feet=343}
        ,['THF'] = {set=367}
        ,['BRD'] = {head=379,body=578,hands=215,legs=215,feet=215}}
        
   elseif name == "Mian" then
     skins
-     = {['RDM'] = {head=223,body=208,hands=286,legs=185,feet=343}
+     = {['RDM'] = {head=286,body=208,hands=286,legs=185,feet=343}
        ,['COR'] = {head=168,body=225,hands=225,legs=168,feet=168}}
        
   end

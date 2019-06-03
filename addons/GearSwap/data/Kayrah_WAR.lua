@@ -213,8 +213,8 @@ function init_gear_sets()
      ,ear2="Brutal earring"
      ,body="Hachiryu haramaki"
      ,hands="Dusk gloves +1" 
-     ,ring1=toreador_ring['Triple Attack (2)']     
-     ,ring2=toreador_ring['Triple Attack (1)']   
+     ,ring1=toreador_ring['Triple Attack (1)']     
+     ,ring2=toreador_ring['Triple Attack (3)']   
      ,back="Cerberus mantle +1"     
      ,waist="Ninurta's sash"
      ,legs="Byakko's haidate"
@@ -238,7 +238,7 @@ function init_gear_sets()
      ,body="Hachiryu haramaki"     
      ,hands="Dusk gloves +1" 
      ,ring1="Rajas ring"    
-     ,ring2=toreador_ring['Triple Attack (1)']   
+     ,ring2=toreador_ring['Triple Attack (3)']   
      ,back="Cerberus mantle +1"
      ,waist="Ninurta's sash"
      ,legs="Byakko's haidate"
@@ -247,6 +247,7 @@ function init_gear_sets()
   sets.engaged.Ragnarok.SAM.Acc
    = set_combine(sets.engaged.Ragnarok.SAM
                 ,{ammo="Fire bomblet"
+                 ,ring1=toreador_ring['Triple Attack (2)']   
                  ,back="Cuchulain's mantle"
                  ,feet="Aurum sabatons"})
 

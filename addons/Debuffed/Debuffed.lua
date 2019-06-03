@@ -1,231 +1,318 @@
---[[
-Copyright © 2019, Xathe
-All rights reserved.
-
-Redistribution and use in source and binary forms, with or without
-modification, are permitted provided that the following conditions are met:
-
-    * Redistributions of source code must retain the above copyright
-    notice, this list of conditions and the following disclaimer.
-    * Redistributions in binary form must reproduce the above copyright
-    notice, this list of conditions and the following disclaimer in the
-    documentation and/or other materials provided with the distribution.
-    * Neither the name of Debuffed nor the
-    names of its contributors may be used to endorse or promote products
-    derived from this software without specific prior written permission.
-
-THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND
-ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED
-WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE
-DISCLAIMED. IN NO EVENT SHALL Xathe BE LIABLE FOR ANY
-DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES
-(INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES;
-LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND
-ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
-(INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS
-SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
-]]
-
 _addon.name = 'Debuffed'
-_addon.author = 'Xathe (Asura)'
-_addon.version = '1.0.0.4'
-_addon.commands = {'dbf','debuffed'}
+_addon.author = 'original: Auk, improvements and additions: Kenshi'
+_addon.version = '1.2'
 
-config = require('config')
+require('luau')
 packets = require('packets')
-res = require('resources')
 texts = require('texts')
-require('logger')
 
 defaults = {}
-defaults.interval = .1
-defaults.mode = 'blacklist'
-defaults.timers = true
-defaults.hide_below_zero = false
-defaults.whitelist = S{}
-defaults.blacklist = S{}
-defaults.colors = {}
-defaults.colors.player = {}
-defaults.colors.player.red = 255
-defaults.colors.player.green = 255
-defaults.colors.player.blue = 255
-defaults.colors.others = {}
-defaults.colors.others.red = 255
-defaults.colors.others.green = 255
-defaults.colors.others.blue = 0
+defaults.pos = {}
+defaults.pos.x = 600
+defaults.pos.y = 300
+defaults.text = {}
+defaults.text.font = 'Consolas'
+defaults.text.size = 10
+defaults.flags = {}
+defaults.flags.bold = false
+defaults.flags.draggable = true
+defaults.bg = {}
+defaults.bg.alpha = 255
 
 settings = config.load(defaults)
 box = texts.new('${current_string}', settings)
 box:show()
 
-list_commands = T{
-    w = 'whitelist',
-    wlist = 'whitelist',
-    white = 'whitelist',
-    whitelist = 'whitelist',
-    b = 'blacklist',
-    blist = 'blacklist',
-    black = 'blacklist',
-    blacklist = 'blacklist'
-}
-
-sort_commands = T{
-    a = 'add',
-    add = 'add',
-    ['+'] = 'add',
-    r = 'remove',
-    remove = 'remove',
-    ['-'] = 'remove'
-}
-
-player_id = 0
 frame_time = 0
 debuffed_mobs = {}
 
-function update_box()
-    local lines = L{}
-    local target = windower.ffxi.get_mob_by_target('t')
-    
-    if target and target.valid_target and (target.claim_id ~= 0 or target.spawn_type == 16) then
-        local data = debuffed_mobs[target.id]
-        
-        if data then
-            for effect, spell in pairs(data) do
-                local name = res.spells[spell.id].name
-                local remains = math.max(0, spell.timer - os.clock())
-                
-                if settings.mode == 'whitelist' and settings.whitelist:contains(name) or settings.mode == 'blacklist' and not settings.blacklist:contains(name) then
-                    if settings.timers and remains > 0 then
-                        lines:append('\\cs(%s)%s: %.0f\\cr':format(get_color(spell.actor), name, remains))
-                    elseif remains < 0 and settings.hide_below_zero then
-                        debuffed_mobs[target.id][effect] = nil
-                    else
-                        lines:append('\\cs(%s)%s\\cr':format(get_color(spell.actor), name))
-                    end
-                end
-            end
-        end
-    end
-    
-    if lines:length() == 0 then
-        box.current_string = ''
-    else
-        box.current_string = 'Debuffed [' .. target.name .. ']\n\n' .. lines:concat('\n')
-    end
-end
+helixes = S{278,279,280,281,282,283,284,285,
+    885,886,887,888,889,890,891,892}
 
-function get_color(actor)
-    if actor == player_id then
-        return '%s,%s,%s':format(settings.colors.player.red, settings.colors.player.green, settings.colors.player.blue)
-    else
-        return '%s,%s,%s':format(settings.colors.others.red, settings.colors.others.green, settings.colors.others.blue)
-    end
-end
+debuffs = {
+    [2] = S{253,259,273,274,376,377,463,471,584,598,678}, --Sleep
+    [3] = S{220,221,225,350,351,716}, --Poison
+    [4] = S{58,80,341,644,704}, --Paralyze
+    [5] = S{254,276,347,348}, --Blind
+    [6] = S{59,687,727}, --Silence
+    [7] = S{255,365,722}, --Break
+    [10] = S{252}, --Stun
+    [11] = S{258,531}, --Bind
+    [12] = S{216,217,708}, --Gravity
+    [13] = S{56,79,344,345,703}, --Slow
+	[21] = S{286,472,884}, --addle/nocturne
+	[28] = S{575,720,738,746}, --terror
+	[31] = S{682}, --plague
+    [128] = S{235,572,719}, --int down
+    [129] = S{236,535}, --AGI down
+    [130] = S{237}, --VIT down
+    [131] = S{238}, --dex down
+    [132] = S{239}, --mnd down
+	[133] = S{240,705}, --str down
+	[146] = S{524,699}, --accuracy down
+	[147] = S{319,651,659,726}, --attack down
+    [148] = S{610,841,842,882}, --Evasion Down
+	[149] = S{651,717,728}, -- defense down
+	[156] = S{112,707,725}, --Flash
+	[167] = S{656}, --Magic Def. Down
+	[168] = S{508}, --inhibit TP
+	[192] = S{368,369,370,371,372,373,374,375}, --requiem
+	[194] = S{421,422,423}, --elegy
+	[217] = S{454,455,456,457,458,459,460,461,871,872,873,874,875,876,877,878}, --threnodies
+    [242] = 242, --Absorb ACC
+    [266] = 266, --Absorb STR
+    [267] = 267, --Absorb DEX
+    [268] = 268, --Absorb VIT
+    [269] = 269, --Absorb AGI
+    [270] = 270, --Absorb INT
+    [271] = 271, --Absorb MND
+    [272] = 272, --Absorb CHR
+    [404] = S{843,844,883}, --Magic Evasion Down
+	[597] = S{879}, --inundation
 
-function handle_overwrites(target, new, t)
-    if not debuffed_mobs[target] then
-        return true
-    end
-    
-    for effect, spell in pairs(debuffed_mobs[target]) do
-        local old = res.spells[spell.id].overwrites or {}
-        
-        -- Check if there isn't a higher priority debuff active
-        if table.length(old) > 0 then
-            for _,v in ipairs(old) do
-                if new == v then
-                    return false
-                end
-            end
-        end
-        
-        -- Check if a lower priority debuff is being overwritten
-        if table.length(t) > 0 then
-            for _,v in ipairs(t) do
-                if spell.id == v then
-                    debuffed_mobs[target][effect] = nil
-                end
-            end
-        end
-    end
-    return true
-end
+}
 
-function apply_debuff(target, effect, spell, actor)
+hierarchy = {
+    [23] = 1, --Dia
+    [24] = 4, --Dia II
+    [25] = 6, --Dia III
+    [33] = 2, --Diaga
+    [230] = 3, --Bio
+    [231] = 5, --Bio II
+    [232] = 7, --Bio III
+}
+
+timers = T{}
+
+function apply_dot(target, spell)
     if not debuffed_mobs[target] then
         debuffed_mobs[target] = {}
     end
-    
-    -- Check overwrite conditions
-    local overwrites = res.spells[spell].overwrites or {}
-    if not handle_overwrites(target, spell, overwrites) then
-        return
+
+    local priority = 0
+    local current = debuffed_mobs[target][134] or debuffed_mobs[target][135]
+    if current then
+        priority = hierarchy[current.name] or hierarchy[current]
     end
-    
-    -- Create timer
-    debuffed_mobs[target][effect] = {id=spell, timer=(os.clock() + (res.spells[spell].duration or 0)), actor=actor}
+
+    if hierarchy[spell] > priority then
+        if T{23,24,25,33}:contains(spell) then
+            if spell == 23 then
+                debuffed_mobs[target][134] = {name = spell, timer = os.clock() + 60}
+            elseif spell == 33 then
+                debuffed_mobs[target][134] = {name = spell, timer = os.clock() + 60}
+            elseif spell == 24 then
+                debuffed_mobs[target][134] = {name = spell, timer = os.clock() + 120}
+            else
+                debuffed_mobs[target][134] = {name = spell, timer = os.clock() + 180}
+            end
+            debuffed_mobs[target][135] = nil
+        elseif T{230,231,232}:contains(spell) then
+            debuffed_mobs[target][134] = nil
+            if spell == 230 then
+                debuffed_mobs[target][135] = {name = spell, timer = os.clock() + 60}
+            elseif spell == 231 then
+                debuffed_mobs[target][135] = {name = spell, timer = os.clock() + 120}
+            else
+                debuffed_mobs[target][135] = {name = spell, timer = os.clock() + 180}
+            end
+        end
+    end
 end
 
-function handle_shot(target)
-    if not debuffed_mobs[target] or not debuffed_mobs[target][134] then
-        return true
+function apply_helix(target, spell)
+    if not debuffed_mobs[target] then
+        debuffed_mobs[target] = {}
     end
+    debuffed_mobs[target][186] = {name = spell, timer = os.clock() + 230}
+end
+
+function update_box()
+    local current_string = ''
+    local player = windower.ffxi.get_player()
+    local target = windower.ffxi.get_mob_by_target('t')
     
-    local current = debuffed_mobs[target][134].id
-    if current < 26 then
-        debuffed_mobs[target][134].id = current + 1
+    if target and target.valid_target and target.is_npc and (target.claim_id ~= 0 or target.spawn_type == 16) then
+    
+        local debuff_table = debuffed_mobs[target.id]
+
+        current_string = 'Debuffed ['..target.name..']\n'
+        if debuff_table then
+            for effect, spell in pairs(debuff_table) do
+                if spell then
+                    if type(spell) == 'table' then
+                        if (spell.timer - os.clock()) >= 0 then
+                            current_string = current_string..'\n'..res.spells[spell.name].en
+                            current_string = current_string..' : '..string.format('%.0f',spell.timer - os.clock())
+                        else
+                            debuff_table[effect] = nil
+                        end
+                    else
+                        current_string = current_string..'\n'..res.spells[spell].en
+                        if timers[spell] then
+                            if (timers[spell] - os.clock()) >= 0 then
+                                current_string = current_string..' : '..string.format('%.0f',timers[spell] - os.clock())
+                            else
+                                debuff_table[effect] = nil
+                            end
+                        end
+                    end
+                end
+            end
+        end     
     end
+
+    box.current_string = current_string
 end
 
 function inc_action(act)
-    if act.category ~= 4 then
-        if act.category == 6 and act.param == 131 then
-            handle_shot(act.targets[1].id)
-        end
-        return
-    end
-    
-    -- Damaging spells
-    if S{2,252}:contains(act.targets[1].actions[1].message) then
-        local target = act.targets[1].id
-        local spell = act.param
-        local effect = res.spells[spell].status
-        local actor = act.actor_id
+    if act.category == 4 then
+        if act.targets[1].actions[1].message == 2 or act.targets[1].actions[1].message == 252 then
+            if T{23,24,25,33,230,231,232}:contains(act.param) then
+                apply_dot(act.targets[1].id, act.param)
+            elseif helixes:contains(act.param) then
+                apply_helix(act.targets[1].id, act.param)
+            end
+        elseif T{236,237,268,271}:contains(act.targets[1].actions[1].message) then
+            local effect = act.targets[1].actions[1].param
+            local target = act.targets[1].id
+            local spell = act.param
+            
+            if T{575}:contains(spell) then -- Jettatura
+                timers[spell] = os.clock() + 2
+            elseif T{112,252}:contains(spell) then -- flash and stun
+                timers[spell] = os.clock() + 12
+            elseif T{225,255,365,350,659,716,720,738,746}:contains(spell) then -- 30 secs spells durations
+                timers[spell] = os.clock() + 30
+            elseif T{376,463}:contains(spell) then -- horde and foe lullaby
+                timers[spell] = os.clock() + 45
+                if debuffed_mobs[target] and debuffed_mobs[target][2] then
+                    debuffed_mobs[target][2] = nil
+                end
+            elseif T{253,258,273,454,455,456,457,458,459,460,461,531,584,598,610,651,678,682,687,707,722,725}:contains(spell) then -- 1 min spells durations
+                timers[spell] = os.clock() + 60
+            elseif T{220,259,274,871,872,873,874,875,876,877,878}:contains(spell) then -- 1 min 30 secs spells durations
+                timers[spell] = os.clock() + 90
+            elseif T{377,471}:contains(spell) then -- horde and foe lullaby II
+                timers[spell] = os.clock() + 90
+                if debuffed_mobs[target] and debuffed_mobs[target][2] then
+                    debuffed_mobs[target][2] = nil
+                end
+            elseif T{240,705}:contains(spell) then -- Drown overwrittes Burn
+                timers[spell] = os.clock() + 90
+                if debuffed_mobs[target] and debuffed_mobs[target][128] then
+                    debuffed_mobs[target][128] = nil
+                end
+            elseif T{235,572,719}:contains(spell) then -- Burn overwrittes Frost
+                timers[spell] = os.clock() + 90
+                if debuffed_mobs[target] and debuffed_mobs[target][129] then
+                    debuffed_mobs[target][129] = nil
+                end
+            elseif T{236,535}:contains(spell) then -- Frost overwrittes Choke
+                timers[spell] = os.clock() + 90
+                if debuffed_mobs[target] and debuffed_mobs[target][130] then
+                    debuffed_mobs[target][130] = nil
+                end
+            elseif T{237}:contains(spell) then -- Choke overwrittes Rasp
+                timers[spell] = os.clock() + 90
+                if debuffed_mobs[target] and debuffed_mobs[target][131] then
+                    debuffed_mobs[target][131] = nil
+                end
+            elseif T{238}:contains(spell) then -- Rasp overwrittes Shock
+                timers[spell] = os.clock() + 90
+                if debuffed_mobs[target] and debuffed_mobs[target][132] then
+                    debuffed_mobs[target][132] = nil
+                end
+            elseif T{239}:contains(spell) then -- Rasp overwrittes Shock
+                timers[spell] = os.clock() + 90
+                if debuffed_mobs[target] and debuffed_mobs[target][133] then
+                    debuffed_mobs[target][133] = nil
+                end
+            elseif T{56,58,59,80,216,217,221,319,341,344,351,368,369,370,371,372,373,374,375,421,644,656,704,708,717,841,842,843,844}:contains(spell) then -- 2 min spells durations
+                timers[spell] = os.clock() + 120
+            elseif T{882,883}:contains(spell) then -- 2 min 10 secs spells durations
+                timers[spell] = os.clock() + 130
+            elseif T{79,254,276,286,347,348,422,508,524,699,703}:contains(spell) then -- 3 min spells durations
+                timers[spell] = os.clock() + 180
+            elseif T{884}:contains(spell) then -- 3 min 10 secs spells durations
+                timers[spell] = os.clock() + 190
+            elseif T{423,472}:contains(spell) then -- 4 min spells durations
+                timers[spell] = os.clock() + 240
+            elseif T{345,726,727,728,879}:contains(spell) then -- 5 min spells durations
+                timers[spell] = os.clock() + 300
+            end
+            
+            if not debuffed_mobs[target] then
+                debuffed_mobs[target] = {}
+            end
 
-        if effect then
-            apply_debuff(target, effect, spell, actor)
+            if debuffs[effect] and debuffs[effect]:contains(spell) then
+                debuffed_mobs[target][effect] = spell
+            end
+        elseif T{329,330,331,332,333,334,335,533}:contains(act.targets[1].actions[1].message) then
+            local effect = act.param
+            local target = act.targets[1].id
+            local spell = act.param
+            timers[spell] = os.clock() + 215
+
+            if not debuffed_mobs[target] then
+                debuffed_mobs[target] = {}
+            end
+
+            if debuffs[effect] and tostring(debuffs[effect]):contains(spell) then
+                debuffed_mobs[target][effect] = spell
+            end
         end
-        
-    -- Non-damaging spells
-    elseif S{236,237,268,271}:contains(act.targets[1].actions[1].message) then
-        local target = act.targets[1].id
-        local effect = act.targets[1].actions[1].param
-        local spell = act.param
-        local actor = act.actor_id
-        
-        if res.spells[spell].status and res.spells[spell].status == effect then
-            apply_debuff(target, effect, spell, actor)
+    elseif act.category == 1 and debuffed_mobs[act.actor] then
+        if debuffed_mobs[act.actor][2] then
+            debuffed_mobs[act.actor][2] = nil
+        elseif debuffed_mobs[act.actor][7] then
+            debuffed_mobs[act.actor][7] = nil
+        elseif debuffed_mobs[act.actor][28] then
+            debuffed_mobs[act.actor][28] = nil
         end
     end
 end
 
 function inc_action_message(arr)
-
-    -- Unit died
-    if S{6,20,113,406,605,646}:contains(arr.message_id) then
+    if T{6,20,113,406,605,646}:contains(arr.message_id) then
         debuffed_mobs[arr.target_id] = nil
-        
-    -- Debuff expired
-    elseif S{64,204,206,350,531}:contains(arr.message_id) then
+    elseif T{204,206}:contains(arr.message_id) then
         if debuffed_mobs[arr.target_id] then
-            debuffed_mobs[arr.target_id][arr.param_1] = nil
+            if arr.message_id == 206 then
+                if arr.param_1 == 136 then
+                    debuffed_mobs[arr.target_id][arr.param_1] = nil
+                    debuffed_mobs[arr.target_id][266] = nil
+                elseif arr.param_1 == 137 then
+                    debuffed_mobs[arr.target_id][arr.param_1] = nil
+                    debuffed_mobs[arr.target_id][267] = nil
+                elseif arr.param_1 == 138 then
+                    debuffed_mobs[arr.target_id][arr.param_1] = nil
+                    debuffed_mobs[arr.target_id][268] = nil
+                elseif arr.param_1 == 139 then
+                    debuffed_mobs[arr.target_id][arr.param_1] = nil
+                    debuffed_mobs[arr.target_id][269] = nil
+                elseif arr.param_1 == 140 then
+                    debuffed_mobs[arr.target_id][arr.param_1] = nil
+                    debuffed_mobs[arr.target_id][270] = nil
+                elseif arr.param_1 == 141 then
+                    debuffed_mobs[arr.target_id][arr.param_1] = nil
+                    debuffed_mobs[arr.target_id][271] = nil
+                elseif arr.param_1 == 142 then
+                    debuffed_mobs[arr.target_id][arr.param_1] = nil
+                    debuffed_mobs[arr.target_id][272] = nil
+                elseif arr.param_1 == 146 then
+                    debuffed_mobs[arr.target_id][arr.param_1] = nil
+                    debuffed_mobs[arr.target_id][242] = nil
+                else
+                    debuffed_mobs[arr.target_id][arr.param_1] = nil
+                end
+            else
+                debuffed_mobs[arr.target_id][arr.param_1] = nil
+            end
         end
     end
 end
-
-windower.register_event('login','load', function()
-    player_id = (windower.ffxi.get_player() or {}).id
-end)
 
 windower.register_event('logout','zone change', function()
     debuffed_mobs = {}
@@ -246,60 +333,8 @@ end)
 
 windower.register_event('prerender', function()
     local curr = os.clock()
-    if curr > frame_time + settings.interval then
+    if curr > frame_time + .1 then
         frame_time = curr
         update_box()
-    end
-end)
-
-windower.register_event('addon command', function(command1, command2, ...)
-    local args = L{...}
-    command1 = command1 and command1:lower() or nil
-    command2 = command2 and command2:lower() or nil
-    
-    local name = args:concat(' ')
-    if command1 == 'm' or command1 == 'mode' then
-        if settings.mode == 'blacklist' then
-            settings.mode = 'whitelist'
-        else
-            settings.mode = 'blacklist'
-        end
-        log('Changed to %s mode.':format(settings.mode))
-        settings:save()
-    elseif command1 == 't' or command1 == 'timers' then
-        settings.timers = not settings.timers
-        log('Timer display %s.':format(settings.timers and 'enabled' or 'disabled'))
-        settings:save()
-    elseif command1 == 'i' or command1 == 'interval' then
-        settings.interval = tonumber(command2) or .1
-        log('Refresh interval set to %s seconds.':format(settings.interval))
-        settings:save()
-    elseif command1 == 'h' or command1 == 'hide' then
-        settings.hide_below_zero = not settings.hide_below_zero
-        log('Timers that reach 0 will be %s.':format(settings.hide_below_zero and 'hidden' or 'shown'))
-        settings:save()
-    elseif list_commands:containskey(command1) then
-        if sort_commands:containskey(command2) then
-            local spell = res.spells:with('name', windower.wc_match-{name})
-            command1 = list_commands[command1]
-            command2 = sort_commands[command2]
-            
-            if spell == nil then
-                error('No spells found that match: %s':format(name))
-            elseif command2 == 'add' then
-                settings[command1]:add(spell.name)
-                log('Added spell to %s: %s':format(command1, spell.name))
-            else
-                settings[command1]:remove(spell.name)
-                log('Removed spell from %s: %s':format(command1, spell.name))
-            end
-            settings:save()
-        end
-    else
-        print('%s (v%s)':format(_addon.name, _addon.version))
-        print('    \\cs(255,255,255)mode\\cr - Switches between blacklist and whitelist mode (default: blacklist)')
-        print('    \\cs(255,255,255)timers\\cr - Toggles display of debuff timers (default: true)')
-        print('    \\cs(255,255,255)interval <value>\\cr - Allows you to change the refresh interval (default: 0.1)')
-        print('    \\cs(255,255,255)blacklist|whitelist add|remove <name>\\cr - Adds or removes the spell <name> to the specified list')
     end
 end)

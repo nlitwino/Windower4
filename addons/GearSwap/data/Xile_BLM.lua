@@ -60,44 +60,43 @@ function init_gear_sets()
 	 = {main="Claustrum"
 	   ,sub="Bugard leather strap +1"                        
 	   ,ammo="Bibiki seashell"
-	   ,head="Wizard's petasos"
+	   ,head="Sorcerer's petasos"
 	   ,neck="Chocobo whistle"       
 	   ,ear1="Merman's earring"
 	   ,ear2="Merman's earring"
 	   ,body="Dalmatica"       
 	   ,hands="Oracle's gloves"      
 	   ,ring1="Defending ring" 
-	   ,ring2="Shadow ring"
+	   ,ring2="Jelly ring"
 	   ,back="Shadow mantle"   
 	   ,waist="Resolute belt"      
-	   ,legs="Igqira lappas"   
+	   ,legs="igqira lappas"   
 	   ,feet="Herald's gaiters"}
 															  
 	sets.idle.Town
 	 = set_combine(sets.idle
-	              ,{neck="Orochi nodowa +1"
+	              ,{neck="Orochi nodowa"
 	               ,back="Nexus cape"
-	               ,ring2="Warp ring"
-	               ,waist="Ninurta's sash"})
+	               ,ring2="Warp ring"})
 	
 	sets.resting
 	 = {main="Claustrum"                                                    
 	   ,ammo="Bibiki seashell"
 	   ,head="Oracle's cap" 
-	   ,neck="Gnole torque"    
-	   ,ear1="Relaxing earring"
+	   ,neck="Grandiose chain"    
+--	   ,ear1="Relaxing earring"
 	   ,ear2="Magnetic earring"
-	   ,body="Oracle's robe"
+	   ,body="Errant houppelande"
 	   ,hands="Oracle's gloves"                        
 	   ,ring1="Star ring"
-		 ,legs="Oracle's braconi"
-		 ,feet="Avocat pigaches"}
+	   ,legs="Oracle's braconi"
+	   ,feet="Avocat pigaches"}
 	
   --base magic sets
 	sets.MND
-	 = {main="Alkalurops"
+	 = {main="Claustrum"
 	   ,sub="Raptor leather strap +1"
-	   ,head="Maat's cap"
+	   ,head="Elite beret"
 	   ,neck="Gnole torque"
 	   ,ear1="Mamool Ja earring"
 	   ,ear2="Star earring"
@@ -107,14 +106,14 @@ function init_gear_sets()
 	   ,ring2="Star ring"      
 	   ,back="Ixion cape"
 	   ,waist="Ocean stone"                                      
-	   ,legs="Mahatma slops"    
-	   ,feet="Mahatma pigaches"}
+	   ,legs="Jet seraweels"    
+	   ,feet="errant pigaches"}
 															   
 	sets.INT 
 	 = {main="Claustrum"
 	   ,sub="Bugard leather strap +1"                       
 	   ,ammo="Phantom tathlum"
-	   ,head="Maat's cap"        
+	   ,head="Sorcerer's petasos"        
 	   ,neck="Lemegeton medallion +1"
 	   ,ear1="Abyssal earring"
 	   ,ear2="Morion earring +1"
@@ -123,24 +122,24 @@ function init_gear_sets()
 	   ,ring1="Tamas ring"    
 	   ,ring2="Snow ring"
 	   ,back="Ixion cape"        
-	   ,waist="Sorcerer's belt"      
-	   ,legs="Mahatma slops" 
-	   ,feet="Sorcerer's sabots +1"}
+	   ,waist="Penitent's rope"      
+	   ,legs="Jet seraweels" 
+	   ,feet="Sorcerer's sabots"}
      
   --precast magic
   sets.precast.FC
    = {ear2="Loquacious earring"
-     ,back=prism_cape['Fast Cast']
-     ,feet="Rostrum pumps"}
+     ,back="prism cape"
+     }
      
   sets.midcast.FastRecast 
    = set_combine(sets.precast.FC
                 ,{head="Walahra turban"
-                 ,body="Nashira manteel"
-                 ,hands="Nashira gages"
-                 ,waist="Ninurta's sash"
-                 ,legs="Nashira seraweels"
-                 ,feet="Nashira crackows"})
+--                ,body="Nashira manteel"
+--                 ,hands="Nashira gages"
+--                 ,legs="Nashira seraweels"
+--                 ,feet="Nashira crackows"
+				 })
 	
   --non-cure healing magic
 	sets.midcast['Healing Magic']
@@ -153,11 +152,12 @@ function init_gear_sets()
 	sets.midcast['Divine Magic']
    = set_combine(sets.MND
                 ,{head="Elite beret"
-                 ,legs="Nashira seraweels"})
+ --                ,legs="Nashira seraweels"
+				 })
 	
 	sets.midcast['Enfeebling Magic']
 	 = {head="Sorcerer's petasos"
-	   ,body="Wizard's coat"
+--	   ,body="Wizard's coat"
 	   ,legs="Igqira lappas"
 	   ,feet="Avocat pigaches"}
 	
@@ -170,8 +170,8 @@ function init_gear_sets()
 	              ,sets.midcast['Enfeebling Magic']
 	              ,{ammo="Sturm's report"
 	               ,hands="Bricta's cuffs"
-	               ,ring2="Omega ring"
-	               ,back=prism_cape['Magic Accuracy']})
+--	               ,ring2="Omega ring"
+	               ,back="prim cape"})
 	
 	sets.midcast['Enfeebling Magic']['WhiteMagic']
    = set_combine(sets.MND
@@ -183,42 +183,42 @@ function init_gear_sets()
 	              ,{main="Chatoyant staff"
 	               ,ammo="Sturm's report"
 	               ,ring2="Omega ring"
-	               ,back=prism_cape['Magic Accuracy']})
+	               ,back="prism cape"})
 	
 	sets.midcast['Elemental Magic']
 	 = set_combine(sets.INT
-	              ,{ear1="Novio earring"
-                 ,ear2="Moldavite earring"
+	               ,{ear1="Moldavite earring"
+                   ,ear2="Morion earring +1"
 	               ,body="Errant houppelande"
 	               ,hands="Zenith mitts"
-	               ,waist="Witch sash"
-	               ,feet="Sorcerer's sabots +1"})
+	               ,waist="Penitent's rope"
+	               ,feet="Sorcerer's sabots"})
   
-  sets.midcast['Elemental Magic'].HybridAcc
-   = set_combine(sets.midcast['Elemental Magic']
-                ,{body="Errant houppelande"
-                 ,hands="Wizard's gloves +1"
-                 ,ring2="Omega ring"
-                 ,back=prism_cape['Magic Accuracy']})
+--  sets.midcast['Elemental Magic'].HybridAcc
+ --  = set_combine(sets.midcast['Elemental Magic']
+ --               ,{body="Errant houppelande"
+ --                ,hands="Wizard's gloves +1"
+ --                ,ring2="Omega ring"
+ --                ,back=prism_cape['Magic Accuracy']})
 	
-	sets.midcast['Elemental Magic'].Accuracy
-	 = set_combine(sets.midcast['Elemental Magic']
-	              ,{ammo="Sturm's report"
-	               ,head="Sorcerer's petasos"
-	               ,hands="Wizard's gloves +1"
-	               ,ring2="Omega ring"
-	               ,back=prism_cape['Magic Accuracy']})
+--	sets.midcast['Elemental Magic'].Accuracy
+--	 = set_combine(sets.midcast['Elemental Magic']
+--	              ,{ammo="Sturm's report"
+--	               ,head="Sorcerer's petasos"
+--	               ,hands="Wizard's gloves +1"
+--	               ,ring2="Omega ring"
+--               ,back=prism_cape['Magic Accuracy']})
 	
 	sets.midcast['Dark Magic']
    = set_combine(sets.INT
                 ,{ammo="Sturm's report"
-                 ,head="Nashira turban"
-                 ,neck="Dark torque"
-                 ,body="Nashira manteel"
-                 ,hands="Sorcerer's gloves"
-                 ,ring2="Omega ring"
+--                 ,head="Nashira turban"
+--                 ,neck="Dark torque"
+--                 ,body="Nashira manteel"
+--                 ,hands="Sorcerer's gloves"
+--                 ,ring2="Omega ring"
                  ,back="Merciful cape"
-                 ,legs="Wizard's tonban"
+ --                ,legs="Wizard's tonban"
                  ,feet="Igqira huaraches"})
 	               
   sets.midcast['Enhancing Magic']
@@ -227,7 +227,7 @@ function init_gear_sets()
                  ,sub="Genbu's shield"
                  ,ear1="Magnetic earring"
                  ,back="Merciful cape"
-                 ,waist="Ninurta's sash"
+                 ,waist="Resolute belt"
                  ,feet="Igqira huaraches"})   
                              
   -- custom midcast sets
@@ -235,9 +235,9 @@ function init_gear_sets()
    = set_combine(sets.MND
                 ,{main="Chatoyant staff"
                  ,neck="Fylgja torque +1"
-                 ,ear2="Roundel earring"
-                 ,body="Nashira manteel"
-                 ,back=prism_cape['Cure Potency']})
+ --                ,ear2="Roundel earring"
+ --                ,body="Nashira manteel"
+                 ,back="prism cape"})
                  
   sets.midcast.Curaga
    = set_combine(sets.midcast.Cure
@@ -248,27 +248,27 @@ function init_gear_sets()
 	              ,sets.INT
 	              ,sets.midcast['Enfeebling Magic']
 	              ,{ring2="Omega ring"
-	               ,back=prism_cape['Magic Accuracy']})
+	               ,back="prim cape"})
 	              
   sets.midcast.EleEnfeebs
    = set_combine(sets.INT
-                ,{hands="Wizard's gloves +1"
-                 ,ring2="Omega ring"
-                 ,back=prism_cape['Magic Accuracy']})
+                ,{hands="Wizard's gloves"
+ --                ,ring2="Omega ring"
+                 ,back="prism cap"})
                 
   sets.midcast.Spikes
    = set_combine(sets.INT
-                ,{back=prism_cape['Spell Interrupt']})
+                ,{back="prism cape"})
              
   sets.midcast['Cursna']
    = set_combine(sets.midcast['Healing Magic']
                 ,{body="Nashira manteel"})
                 
   sets.midcast['Stoneskin']
-   = set_combine(sets.midcast['Enhancing Magic']
+   = set_combine(sets.midcast['Enhancing Magic']['WhiteMagic']
                 ,{hands="Bricta's cuffs"
-                 ,back=prism_cape['Spell Interrupt']
-                 ,legs="Mahatma slops"})
+                 ,back="prism cape"
+                 ,legs="Jet seraweels"})
 	
   --magic burst
 	sets.magic_burst
