@@ -150,8 +150,7 @@ function init_gear_sets()
 
   sets.precast.WaltzSelf
    = set_combine(sets.precast.Waltz
-                ,{hands="Etoile bangles +1"
-                 ,legs="Barbarossa's zerehs"
+                ,{legs="Barbarossa's zerehs"
                  ,ring2="Corneus ring"})
 
   -- midcast magic

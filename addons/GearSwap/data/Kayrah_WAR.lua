@@ -38,12 +38,12 @@ function init_gear_sets()
      ,neck="Ritter gorget"
      ,ear1="Hades earring +1"
      ,body="Warrior's lorica"
-     ,hands="Warrior's mufflers"
+     ,hands="Hydra moufles"
      ,ring1="Corneus ring"
      ,ring2="Hercules' ring"
      ,back="Cerberus mantle +1"
-     ,waist="Trance belt",
-     legs="Warrior's cuisses"
+     ,waist="Trance belt"
+     ,legs="Hydra brayettes"
      ,feet="Conte gambieras"}
      
   sets.enmityDown

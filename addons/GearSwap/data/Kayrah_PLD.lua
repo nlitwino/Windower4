@@ -41,12 +41,12 @@ function init_gear_sets()
      ,neck="Ritter gorget"
      ,ear2="Hades earring +1"
      ,body="Valor surcoat"
-     ,hands="Homam manopolas"
+     ,hands="Hydra moufles"
      ,ring1="Corneus ring"
      ,ring2="Hercules' ring"
      ,back="Cerberus mantle +1"
      ,waist="Trance belt"
-     ,legs="Valor breeches"
+     ,legs="Hydra brayettes"
      ,feet="Valor leggings"}
 
   sets.MND

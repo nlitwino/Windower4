@@ -12,7 +12,7 @@ require 'generic_helpers'
 require 'parse_action_packet'
 require 'statics'
 
-_addon.version = '3.24'
+_addon.version = '3.25'
 _addon.name = 'BattleMod'
 _addon.author = 'Byrth, maintainer: SnickySnacks'
 _addon.commands = {'bm','battlemod'}
@@ -107,7 +107,7 @@ windower.register_event('addon command', function(command, ...)
     end
 end)
 
-windower.register_event('incoming text',function (original, modified, color)
+windower.register_event('incoming text',function (original, modified, color, color_m, blocked)
     if debugging then windower.debug('incoming text') end
     local redcol = color%256
     
@@ -132,9 +132,30 @@ windower.register_event('incoming text',function (original, modified, color)
             modified = true
         end
     end
+    if block_modes:contains(color) then
+        local endline = string.char(0x7F, 0x31)
+        local item = string.char(0x1E)
+        if not bm_message(original) then
+            if original:endswith(endline) then --allow add_to_chat messages with the modes we blocking
+                blocked = true
+                return blocked
+            end
+        elseif original:endswith(endline) and string.find(original, item) then --block items action messages
+            blocked = true
+            return blocked
+        end
+    end
     
     return modified,color
 end)
+
+function bm_message(original)
+    local check = string.char(0x1E)
+    local check2 = string.char(0x1F)
+    if string.find(original, check) or string.find(original, check2) then
+        return true
+    end
+end
 
 function flip_block_equip()
     block_equip = not block_equip
@@ -300,7 +321,11 @@ windower.register_event('incoming chunk',function (id,original,modified,is_injec
             end
             
             if fields.number then
-                number = am.param_1
+                if am.message_id == 31 then
+                    number = am.param_2
+                else
+                    number = am.param_1
+                end
             end
             
             if fields.number2 then
@@ -330,7 +355,9 @@ windower.register_event('incoming chunk',function (id,original,modified,is_injec
                 :gsub('$\123skill\125',skill or '')
                 :gsub('$\123lb\125','\7'))
             windower.add_to_chat(res.action_messages[am.message_id]['color'],outstr)
-            am.message_id = false
+            if am.message_id ~= 31 then
+                am.message_id = false
+            end
         elseif debugging and res.action_messages[am.message_id] then 
         -- 38 is the Skill Up message, which (interestingly) uses all the number params.
         -- 202 is the Time Remaining message, which (interestingly) uses all the number params.

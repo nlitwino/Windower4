@@ -49,6 +49,7 @@ function init_gear_sets()
 	   ,body="Errant houppelande"
 	   ,hands="Devotee's mitts +1"
 	   ,ring1="Tamas ring"
+	   ,ring2="Aqua ring"
      ,back=prism_cape['Fast Cast']    
 	   ,waist="Penitent's rope"
 	   ,legs="Errant slops"

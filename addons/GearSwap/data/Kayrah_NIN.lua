@@ -63,8 +63,6 @@ function init_gear_sets()
      ,waist="Buccaneer's belt"}
 
   -- precast ja
-  sets.precast.JA['Mijin Gakure']
-   = {ammo="Reacton arm"}
 
   -- precast magic
   sets.precast.FC                           

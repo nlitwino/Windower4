@@ -63,3 +63,4 @@ lua load partybuffs
 lua load FastFollow
 lua load MobLevel
 lua load EraMobDrops
+lua load Debuffed

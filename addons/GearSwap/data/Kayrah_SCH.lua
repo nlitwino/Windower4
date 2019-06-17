@@ -407,12 +407,11 @@ function customize_idle_set(idleSet)
 		if player.mpp > 95 then 
 			idleSet = set_combine(idleSet,{main="Terra's staff"})
 		end
+		if daytime then 
+      idleSet = set_combine(idleSet,{waist="Lycopodium sash"})
+    end
 	end
-	
-  if daytime then 
-    idleSet = set_combine(idleSet,{waist="Lycopodium sash"})
-  end
-	
+
   return idleSet
 	
 end

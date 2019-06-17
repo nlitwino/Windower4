@@ -55,6 +55,7 @@ function init_gear_sets()
    = {neck="Morgana's choker"
      ,ear1="Star earring"
      ,ear2="Star earring"
+     ,ring2="Aqua ring"
      ,hands="Corsair's gants"
      ,waist="Velocious belt"
      ,legs="Custom pants"}
@@ -69,7 +70,7 @@ function init_gear_sets()
      ,ring2="Breeze ring"
      ,back="Commander's cape"
      ,waist="Scouter's Rope"
-     ,legs="Commodore trews"
+     ,legs="Oily trousers"
      ,feet="Enkidu's leggings"}
      
   sets.lockstyle
@@ -210,7 +211,8 @@ function init_gear_sets()
    
    sets.midcast.RA.Acc
     = set_combine(sets.midcast.RA.HybridAcc
-                 ,{feet="Corsair's bottes"})
+                 ,{legs="Oily trousers"
+                  ,feet="Corsair's bottes"})
  
   -- quickdraw
   sets.precast.JA['CorsairShot']

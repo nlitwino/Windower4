@@ -29671,6 +29671,12 @@ return {
             "Silver Nugget",
         },
     },
+    ["Silver Ingot Desynth"] = {
+        ["crystal"] = "Lightng. Crystal",
+        ["ingredients"] = {
+            "Silver Earring",
+        },
+    },
     ["Silver Mail"] = {
         ["crystal"] = "Fire Crystal",
         ["ingredients"] = {

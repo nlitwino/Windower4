@@ -55,10 +55,11 @@ function init_gear_sets()
      ,neck="Ritter gorget"   
      ,ear1="Hades earring +1"
      ,body="Valhalla breastplate"
-     ,hands="Homam manopolas"				           
+     ,hands="Hydra moufles"         
      ,ring2="Corneus ring"
      ,back="Cerberus mantle +1"  
-     ,waist="Trance belt"}
+     ,waist="Trance belt"
+     ,legs="Hydra brayettes"}
      
   sets.enmityDown                     
    = {ammo="White tathlum"
