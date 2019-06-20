@@ -29,10 +29,11 @@ function user_setup()
 
   state.OffenseMode:options('Normal','HybridAcc','Acc','MDT')
   state.WeaponskillMode:options('Normal','Atk','Acc','AtkAcc')
-  state.RangedMode:options('Normal','Acid','Bloody','Sleep','Throw')
+  state.RangedMode:options('Normal','Acid','Bloody','Sleep')
   state.PhysicalDefenseMode:options('Evasion','PDT')
   state.MagicalDefenseMode:options('MDT')
-
+  
+  send_command('bind !f10 gs c toggle Ranged')
   send_command('bind !f9 gs c cycle TreasureMode')
 
 end
@@ -76,9 +77,9 @@ function init_gear_sets()
   = {range="Staurobow"
     ,ammo="Sleep bolt"}
                 
-  sets['Throw']
-  = {range="Ungur boomerang"
-    ,ammo=empty}
+  --[[sets['Normal']
+  = {range="Staurobow"
+    ,ammo="Darksteel bolt"}]]
      
   sets.idle['Regen']
   = {neck="Orochi nodowa +1"}
@@ -279,9 +280,9 @@ function init_gear_sets()
     ,hands="Barbarossa's moufles"
     ,ring1="Behemoth ring +1"
     ,ring2="Dragon ring +1"
-    ,back="Mamool Ja mantle"
+    ,back="Jaeger mantle"
     ,waist="Buccaneer's belt"    
-    ,legs="Oily trousers" 
+    ,legs="Dusk trousers +1" 
     ,feet="Homam gambieras"}
   
   -- BASE WEAPONSKILL SETS
@@ -652,7 +653,7 @@ function job_post_precast(spell,action,spellMap,eventArgs)
 
   if spell.type == 'WeaponSkill' then  -- extra weaponskill handling
 
-    if state.RangedMode.value == 'Normal' then  -- if no boomerang or crossbow equipped
+    if state.Ranged then  -- if no boomerang or crossbow equipped
       if spell.english == 'Cyclone' or state.Buff['Sneak Attack'] then
         sets.postPrecast = set_combine(sets.postPrecast,{ammo="Black tathlum"})  -- always black tath when sneak attacking
       else
@@ -720,10 +721,8 @@ function customize_melee_set(meleeSet)
   if state.TreasureMode.value == 'Fulltime' then
     meleeSet = set_combine(meleeSet, sets.TreasureHunter)
   end
-
-  if state.RangedMode.value == 'Normal' then
-    meleeSet = set_combine(meleeSet, sets[state.OffenseMode.value])
-  else
+  
+  if state.Ranged then
     meleeSet = set_combine(meleeSet, sets[state.RangedMode.value])
   end
   
@@ -748,8 +747,8 @@ function customize_idle_set(idleSet)
       idleSet = set_combine(idleSet,sets.idle['Regen'])
     end
   end
-
-  if state.RangedMode.value ~= 'Normal' then
+ 
+  if state.Ranged then
     idleSet = set_combine(idleSet, sets[state.RangedMode.value])
   end
 

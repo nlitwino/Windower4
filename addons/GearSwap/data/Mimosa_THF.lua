@@ -164,8 +164,8 @@ function init_gear_sets()
      ,ear2="Brutal earring"
      ,body="Rapparee harness"  
      ,hands="Dusk gloves"
-     ,ring1="Sniper's ring +1"         
-     ,ring2="Sniper's ring +1"
+     ,ring1="Sniper's ring +1"        
+     ,ring2=toreador_ring['Triple Attack (3)']
      ,back="Forager's mantle"
      ,waist="Velocious belt"
      ,legs="Homam cosciales"

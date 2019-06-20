@@ -47,6 +47,7 @@ function initialize_job()
 	initialize_skins(player.name)
 	
 	state.Tank = M(false, 'Tank')
+  state.Ranged = M(false, 'Ranged')
 	
 	gear.main = player.equipment.main
 	gear.sub = player.equipment.sub
@@ -101,6 +102,9 @@ function initialize_custom_augments(name)
 			 ,["Cure Potency"]    = { name="Prism Cape", augments={'"Cure" potency +4%',}}}
 			 
 	elseif name == "Mimosa" then
+	  toreador_ring
+	  = {["Triple Attack (4"] = { name="Toreador's Ring", augments={'"Triple Atk."+2','"Triple Atk."+2',}}}
+	  
     scorpion_harness
      = {["Haste"]      = { name="Scorpion Harness +1", augments={'Haste+11',}}}
      

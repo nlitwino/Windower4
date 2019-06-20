@@ -1,0 +1,17 @@
+sets.exported={
+    main="Terra's Staff",
+    sub="Bugard Strap +1",
+    range="Gjallarhorn",
+    head="Darksteel Cap +1",
+    body="Dalmatica",
+    hands="Zenith Mitts",
+    legs="Zenith Slacks",
+    feet="Rostrum Pumps",
+    neck="Chocobo Whistle",
+    waist="Lycopodium Sash",
+    left_ear="Astral Earring",
+    right_ear="Merman's Earring",
+    left_ring="Merman's Ring",
+    right_ring={ name="Toreador's Ring", augments={'"Triple Atk."+2','"Triple Atk."+2',}},
+    back="Hexerei Cape",
+}
