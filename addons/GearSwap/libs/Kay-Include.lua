@@ -134,6 +134,7 @@ function initialize_skins(name)
     skins
      = {['WAR'] = {head=179,body=328,hands=282,legs=282,feet=3}
        ,['BLM'] = {set=285}
+       ,['MNK'] = {head=140,body=216,hands=336,legs=238,feet=415}
        ,['RDM'] = {head=286,body=208,hands=286,legs=185,feet=343}
        ,['THF'] = {set=367}
        ,['PLD'] = {head=140,body=113,hands=77,legs=62,feet=77}

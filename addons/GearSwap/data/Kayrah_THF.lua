@@ -45,25 +45,25 @@ function init_gear_sets()
   = {}
   
   sets.TreasureHunter
-   = {hands="Assassin's armlets"}
+  = {hands="Assassin's armlets"}
 
   sets.enmityUp
-   = {head="Assassin's bonnet"
-     ,neck="Ritter gorget"
-     ,ear1="Hades earring +1"
-     ,body="Avalon breastplate"
-     ,hands="Assassin's armlets"
-     ,ring2="Corneus ring"
-     ,back="Assassin's cape"
-     ,waist="Trance belt"
-     ,legs="Assassin's culottes"}
+  = {head="Assassin's bonnet"
+    ,neck="Ritter gorget"
+    ,ear1="Hades earring +1"
+    ,body="Avalon breastplate"
+    ,hands="Assassin's armlets"
+    ,ring2="Corneus ring"
+    ,back="Assassin's cape"
+    ,waist="Trance belt"
+    ,legs="Assassin's culottes"}
      
   sets.enmityDown
-   = {head="Zha'Go's barbut"
-     ,ear1="Novia earring"
-     ,ring2="Veela ring"
-     ,waist="Buccaneer's belt"
-     ,legs="Raven hose"}
+  = {head="Zha'Go's barbut"
+    ,ear1="Novia earring"
+    ,ring2="Veela ring"
+    ,waist="Buccaneer's belt"
+    ,legs="Raven hose"}
                 
   sets['Acid']
   = {range="Staurobow"
@@ -76,16 +76,12 @@ function init_gear_sets()
   sets['Sleep']
   = {range="Staurobow"
     ,ammo="Sleep bolt"}
-                
-  --[[sets['Normal']
-  = {range="Staurobow"
-    ,ammo="Darksteel bolt"}]]
      
-  sets.idle['Regen']
+  sets.Regen
   = {neck="Orochi nodowa +1"}
 
-  sets.idle['Regen'].daytime
-  = set_combine(sets.idle['Regen']
+  sets.Regen.daytime
+  = set_combine(sets.Regen
     ,{hands="Garden bangles"
      ,waist="Lycopodium sash"})
 
@@ -96,8 +92,8 @@ function init_gear_sets()
     ,ear1="Pixie earring"
     ,body="Antares harness"   
     ,hands="Hecatomb mittens +1"  
-    ,ring1=toreador_ring['Triple Attack (1)']         
-    ,ring2=toreador_ring['Triple Attack (3)']
+    ,ring1="Rajas ring"        
+    ,ring2="Zilant ring"
     ,back="Cuchulain's mantle"
     ,waist="Warwolf belt"       
     ,legs="Hecatomb subligar +1"
@@ -109,8 +105,8 @@ function init_gear_sets()
     ,ear1="Drone earring"
     ,body="Antares harness"   
     ,hands="Rogue's armlets +1"  
-    ,ring1=toreador_ring['Triple Attack (1)']         
-    ,ring2=toreador_ring['Triple Attack (3)'] 
+    ,ring1=toreador_ring['Triple Attack (3)']         
+    ,ring2="Blobnag ring"
     ,back="Assassin's cape"   
     ,waist="Warwolf belt"       
     ,legs="Oily trousers"       
@@ -131,11 +127,6 @@ function init_gear_sets()
    
   sets.precast.JA['Hide']
   = {body="Rogue's vest +1"}
-
-  -- precast magic
-  sets.precast.FC
-  = {ear2="Loquacious earring"
-    ,legs="Homam cosciales"}
     
   sets.precast.Waltz
    = {head="Maat's cap"
@@ -154,11 +145,17 @@ function init_gear_sets()
                 ,{legs="Barbarossa's zerehs"
                  ,ring2="Corneus ring"})
 
+  -- precast magic
+  sets.precast.FC
+  = {ear2="Loquacious earring"
+    ,legs="Homam cosciales"}
+
   -- midcast magic
   sets.midcast.FastRecast
   = set_combine(sets.precast.FC
                ,{head="Walahra turban"
                 ,neck="Tiercel necklace"
+                ,ear1="Novia earring"
                 ,body="Rapparee harness"
                 ,hands="Dusk gloves +1"
                 ,waist="Ninurta's sash"
@@ -285,8 +282,82 @@ function init_gear_sets()
     ,legs="Dusk trousers +1" 
     ,feet="Homam gambieras"}
   
+  sets.midcast.RA['Bloody']
+  = set_combine(sets.midcast.RA
+               ,{head="Maat's cap"})
+    
+  sets.midcast.RA['Holy']
+  = set_combine(sets.midcast.RA
+               ,{head="Maat's cap"})
+  
   -- BASE WEAPONSKILL SETS
   sets.precast.WS
+  = {head="Maat's cap"
+    ,neck="Fotia gorget"
+    ,ear1="Merman's earring"
+    ,ear2="Brutal earring"
+    ,body="Hecatomb harness +1"
+    ,hands="Hecatomb mittens +1"
+    ,ring1="Rajas ring"
+    ,ring2=toreador_ring['Triple Attack (3)']
+    ,back="Cerberus mantle +1"
+    ,waist="Warwolf belt"
+    ,legs="Hecatomb subligar +1"
+    ,feet="Hecatomb leggings +1"}
+    
+  sets.precast.WS.Atk
+  = set_combine(sets.precast.WS
+               ,{head="Hecatomb cap +1"
+                ,waist="Swordbelt +1"}) 
+  
+  sets.precast.WS.Acc
+  = set_combine(sets.precast.WS
+               ,{ring2=toreador_ring['Triple Attack (2)']
+                ,back="Cuchulain's mantle"
+                ,waist="Virtuoso belt"})
+  
+  sets.precast.WS.AtkAcc
+  = set_combine(sets.precast.WS.Atk
+               ,{ring2=toreador_ring['Triple Attack (2)']
+                ,back="Cuchulain's mantle"})
+                
+  -- Evisceration
+  sets.precast.WS['Evisceration'] 
+  = {head="Maat's cap"
+    ,neck="Fotia gorget"
+    ,ear1="Pixie earring"
+    ,ear2="Brutal earring"
+    ,body="Antares harness"
+    ,hands="Hecatomb mittens +1"
+    ,ring1="Rajas ring"
+    ,ring2=toreador_ring['Triple Attack (3)']
+    ,back="Cuchulain's mantle"
+    ,waist="Warwolf belt"
+    ,legs="Hecatomb subligar +1"
+    ,feet="Hecatomb leggings +1"} 
+  
+  sets.precast.WS['Evisceration'].Atk
+  = set_combine(sets.precast.WS['Evisceration']
+               ,{head="Hecatomb cap +1"
+                ,ear1="Merman's earring"
+                ,body="Hecatomb harness +1"
+                ,back="Cerberus mantle +1"
+                ,waist="Swordbelt +1"})
+                 
+  sets.precast.WS['Evisceration'].Acc
+  = set_combine(sets.precast.WS['Evisceration']
+               ,{ring2=toreador_ring['Triple Attack (2)']
+                ,waist="Virtuoso belt"
+                ,hands="Enkidu's mittens"})
+  
+  sets.precast.WS['Evisceration'].AtkAcc
+  = set_combine(sets.precast.WS['Evisceration'].Atk
+               ,{ring2=toreador_ring['Triple Attack (2)']
+                ,back="Cuchulain's mantle"
+                ,waist="Virtuoso belt"})
+                
+  -- Dancing Edge
+  sets.precast.WS['Dancing Edge'] 
   = {head="Maat's cap"
     ,neck="Fotia gorget"
     ,ear1="Pixie earring"
@@ -300,339 +371,370 @@ function init_gear_sets()
     ,legs="Hecatomb subligar +1"
     ,feet="Hecatomb leggings +1"}
     
-  sets.precast.WS['Cyclone'] 
-  = set_combine(sets.precast.WS
-               ,{ear1="Moldavite earring"
-                ,ear2="Novio earring"
-                ,body="Antares harness"
-                ,hands="Assassin's armlets"
-                ,ring1="Snow ring"
-                ,ring2="Omega ring"}) 
-  
-  sets.precast.WS['Dancing Edge'] 
-  = set_combine(sets.precast.WS) 
-  
-  sets.precast.WS['Exenterator'] 
-  = set_combine(sets.precast.WS['Dancing Edge'] 
-               ,{}) 
-                
-  sets.precast.WS['Evisceration'] 
-  = set_combine(sets.precast.WS['Dancing Edge'] 
-               ,{}) 
-  
-  sets.precast.WS['Shark Bite'] 
-  = set_combine(sets.precast.WS['Dancing Edge'] 
-               ,{back="Assassin's cape"
-                ,legs="Oily trousers"}) 
-  
-  sets.precast.WS['Mandalic Stab'] 
-  = set_combine(sets.precast.WS
-               ,{}) 
-  
-  sets.precast.WS['Mercy Stroke'] 
-  = set_combine(sets.precast.WS
-               ,{head="Hecatomb cap +1"
-                ,ear1="Triumph earring"
+  sets.precast.WS['Dancing Edge'].Atk
+  = set_combine(sets.precast.WS['Dancing Edge']
+               ,{ear1="Merman's earring"
                 ,body="Hecatomb harness +1"
-                ,hands="Alkyoneus's bracelets"
-                ,ring2="Strigoi ring"
-                ,legs="Enkidu's subligar"}) 
+                ,back="Cerberus mantle +1"
+                ,waist="Swordbelt +1"})
+               
+  sets.precast.WS['Dancing Edge'].Acc
+  = set_combine(sets.precast.WS['Dancing Edge']
+               ,{ring2=toreador_ring['Triple Attack (2)']
+                ,waist="Virtuoso belt"
+                ,hands="Enkidu's mittens"})
                 
-  -- -- sneak attack              
-  sets.precast.WS['Shark Bite'].SA
-  = set_combine(sets.precast.WS['Shark Bite']
-               ,{feet="Enkidu's leggings"})
-               
-  sets.precast.WS['Mandalic Stab'].SA
-  = set_combine(sets.precast.WS['Mandalic Stab']
-               ,{})
-               
-  sets.precast.WS['Mercy Stroke'].SA
+  sets.precast.WS['Dancing Edge'].AtkAcc
+  = set_combine(sets.precast.WS['Dancing Edge'].Atk
+               ,{ring2=toreador_ring['Triple Attack (2)']
+                ,back="Cuchulain's mantle"
+                ,waist="Virtuoso belt"})
+                
+  -- Exenterator
+  sets.precast.WS['Exenterator'] 
+  = sets.precast.WS['Dancing Edge']
+  
+  sets.precast.WS['Exenterator'].Atk
+  = sets.precast.WS['Dancing Edge'].Atk
+  
+  sets.precast.WS['Exenterator'].Acc
+  = sets.precast.WS['Dancing Edge'].Acc
+  
+  sets.precast.WS['Exenterator'].AtkAcc
+  = sets.precast.WS['Dancing Edge'].AtkAcc
+                
+  -- Mercy Stroke
+  sets.precast.WS['Mercy Stroke'] 
+  = {head="Hecatomb cap +1"
+    ,neck="Fotia gorget"
+    ,ear1="Triumph earring"
+    ,ear2="Brutal earring"
+    ,body="Hecatomb harness +1"
+    ,hands="Alkyoneus's bracelets"
+    ,ring1="Strigoi ring"
+    ,ring2=toreador_ring['Triple Attack (3)']
+    ,back="Cerberus mantle +1"
+    ,waist="Warwolf belt"
+    ,legs="Enkidu's subligar"
+    ,feet="Hecatomb leggings +1"}
+    
+  sets.precast.WS['Mercy Stroke'].Atk
+  = set_combine(sets.precast.WS['Mercy Stroke']
+               ,{waist="Swordbelt +1"
+                ,legs="Hecatomb subligar +1"})
+                
+  sets.precast.WS['Mercy Stroke'].Acc
+  = set_combine(sets.precast.WS['Mercy Stroke']
+               ,{hands="Hecatomb mittens +1"})
+  
+  sets.precast.WS['Mercy Stroke'].AtkAcc
+  = set_combine(sets.precast.WS['Mercy Stroke'].Atk
+               ,{hands="Hecatomb mittens +1"})
+  
+  -- SA
+  sets.precast.WS['Mercy Stroke'].SA 
   = set_combine(sets.precast.WS['Mercy Stroke']
                ,{ear1="Pixie earring"
-                ,hands="Hecatomb mittens +1"})
-                
-  -- -- trick attack
-  sets.precast.WS['Shark Bite'].TA
-  = set_combine(sets.precast.WS['Shark Bite']
-               ,{ear1="Drone earring"
-                ,hands="Rogue's armlets +1"
-                ,feet="Enkidu's leggings"})
+                ,hands="Hecatomb mittens +1"
+                ,ring1="Rajas ring"
+                ,back="Cuchulain's mantle"
+                ,legs="Hecatomb subligar +1"})
                
-  sets.precast.WS['Mandalic Stab'].TA
-  = set_combine(sets.precast.WS['Mandalic Stab']
-               ,{ear1="Drone earring"
-                ,hands="Rogue's armlets +1"
-                ,ring2="Blobnag ring"
-                ,back="Assassin's cape"
-                ,feet="Enkidu's leggings"})
+  sets.precast.WS['Mercy Stroke'].Atk.SA
+  = set_combine(sets.precast.WS['Mercy Stroke'].Atk
+               ,{ear1="Merman's earring"
+                ,hands="Hecatomb mittens +1"
+                ,ring1="Rajas ring"
+                ,waist="Warwolf belt"
+                ,legs="Hecatomb subligar +1"})
                
-  sets.precast.WS['Mercy Stroke'].TA
+  sets.precast.WS['Mercy Stroke'].Acc.SA
+  = set_combine(sets.precast.WS['Mercy Stroke'].Acc
+               ,{ear1="Pixie earring"
+                ,ring1="Rajas ring"
+                ,back="Cuchulain's mantle"
+                ,legs="Hecatomb subligar +1"})
+               
+  sets.precast.WS['Mercy Stroke'].AtkAcc.SA
+  = set_combine(sets.precast.WS['Mercy Stroke'].AtkAcc
+               ,{ear1="Merman's earring"
+                ,ring1="Rajas ring"
+                ,back="Cuchulain's mantle"
+                ,waist="Warwolf belt"})
+  
+  --TA
+  sets.precast.WS['Mercy Stroke'].TA 
   = set_combine(sets.precast.WS['Mercy Stroke']
                ,{head="Maat's cap"
                 ,ear1="Drone earring"
                 ,hands="Rogue's armlets +1"
-                ,legs="Oily trousers"})
+                ,back="Commander's cape"})
                
-  -- -- sata
-  sets.precast.WS['Shark Bite'].SATA
-  = set_combine(sets.precast.WS['Shark Bite'].TA
-               ,{ear1="Pixie earring"})
-               
-  sets.precast.WS['Mandalic Stab'].SATA
-  = set_combine(sets.precast.WS['Mandalic Stab'].TA
-               ,{ear1="Pixie earring"
-                ,back="Assassin's cape"
-                ,ring2="Zilant ring"})
-               
-  sets.precast.WS['Mercy Stroke'].SATA
-  = set_combine(sets.precast.WS['Mercy Stroke'].TA
-               ,{ear1="Pixie earring"
-                ,back="Assassin's cape"})
-    
-  -- HIGH ATTACK/STR WEAPONSKILL SETS SETS           
-  sets.precast.WS.Atk 
-  = set_combine(sets.precast.WS
-               ,{head="Hecatomb cap +1"
-                ,ear1="Triumph earring"
-                ,body="Hecatomb harness +1"
-                ,ring2="Strigoi ring"
-                ,back="Cerberus mantle +1"
-                ,waist="Swordbelt +1"})
-                
-  sets.precast.WS['Dancing Edge'].Atk 
-  = set_combine(sets.precast.WS.Atk)
-                
-  sets.precast.WS['Exenterator'].Atk 
-  = set_combine(sets.precast.WS['Dancing Edge'].Atk)
-                
-  sets.precast.WS['Evisceration'].Atk 
-  = set_combine(sets.precast.WS['Dancing Edge'].Atk)
-                
-  sets.precast.WS['Shark Bite'].Atk 
-  = set_combine(sets.precast.WS['Dancing Edge'].Atk
-               ,{head="Maat's cap"})
-                
-  sets.precast.WS['Mandalic Stab'].Atk 
-  = set_combine(sets.precast.WS.Atk)
-                
-  sets.precast.WS['Mercy Stroke'].Atk 
-  = set_combine(sets.precast.WS['Mercy Stroke']
-               ,{head="Gnadbhod's helm"
-                ,back="Cerberus mantle +1"
-                ,legs="Hecatomb subligar +1"})
-
-  -- -- sneak attack
-  sets.precast.WS['Shark Bite'].Atk.SA
-  = set_combine(sets.precast.WS['Shark Bite'].Atk
-               ,{head="Hecatomb cap +1"
-                ,ear1="Pixie earring"
-                ,waist="Warwolf belt"})
-  
-  sets.precast.WS['Mandalic Stab'].Atk.SA
-  = set_combine(sets.precast.WS['Mandalic Stab'].Atk
-               ,{ear1="Pixie earring"
-                ,waist="Warwolf belt"})
-               
-  sets.precast.WS['Mercy Stroke'].Atk.SA
+  sets.precast.WS['Mercy Stroke'].Atk.TA 
   = set_combine(sets.precast.WS['Mercy Stroke'].Atk
-               ,{head="Hecatomb cap +1"
-                ,hands="Hecatomb mittens +1"})
-  
-  -- -- trick attack             
-  sets.precast.WS['Shark Bite'].Atk.TA
-  = set_combine(sets.precast.WS['Shark Bite'].TA
-               ,{body="Enkidu's harness"
-                ,back="Cerberus mantle +1"
-                ,legs="Hecatomb subligar +1"
-                ,feet="Hecatomb leggings +1"
+               ,{hands="Rogue's armlets +1"
+                ,ear1="Merman's earring"
+                ,waist="Swordbelt +1"
+                ,legs="Hecatomb subligar +1"})
+               
+  sets.precast.WS['Mercy Stroke'].Acc.TA 
+  = set_combine(sets.precast.WS['Mercy Stroke'].Acc
+               ,{hands="Rogue's armlets +1"
+                ,back="Cuchulain's mantle"
                 ,waist="Swordbelt +1"})
                
-  sets.precast.WS['Mandalic Stab'].Atk.TA
-  = set_combine(sets.precast.WS['Mandalic Stab'].TA
-               ,{ring2="Strigoi ring"
-                ,back="Cerberus mantle +1"})
-               
-  sets.precast.WS['Mercy Stroke'].Atk.TA
-  = set_combine(sets.precast.WS['Mercy Stroke'].TA
-               ,{legs="Hecatomb subligar +1"
-                ,back="Cerberus mantle +1"})
+  sets.precast.WS['Mercy Stroke'].AtkAcc.TA 
+  = set_combine(sets.precast.WS['Mercy Stroke'].AtkAcc
+               ,{head="Maat's cap"
+                ,ear1="Merman's earring"
+                ,hands="Rogue's armlets +1"
+                ,ring1="Mars's ring"
+                ,waist="Swordbelt +1"})
   
-  -- -- sata          
-  sets.precast.WS['Shark Bite'].Atk.SATA
-  = set_combine(sets.precast.WS['Shark Bite'].Atk.TA
-               ,{ear1="Pixie earring"
-                ,body="Hecatomb harness +1"
-                ,waist="Warwolf belt"})
-               
-  sets.precast.WS['Mandalic Stab'].Atk.SATA
-  = set_combine(sets.precast.WS['Mandalic Stab'].Atk.TA
-               ,{ear1="Pixie earring"
-                ,body="Hecatomb harness +1"
-                ,waist="Warwolf belt"})
+  --SATA
+  sets.precast.WS['Mercy Stroke'].SATA
+  = set_combine(sets.precast.WS['Mercy Stroke']
+               ,{head="Maat's cap"
+                ,ear1="Drone earring"
+                ,hands="Rogue's armlets +1"
+                ,ring1="Rajas ring"
+                ,back="Commander's cape"})
                
   sets.precast.WS['Mercy Stroke'].Atk.SATA
-  = set_combine(sets.precast.WS['Mercy Stroke'].Atk.TA
-               ,{body="Hecatomb harness +1"
+  = set_combine(sets.precast.WS['Mercy Stroke'].Atk
+               ,{head="Maat's cap"
+                ,ear1="Merman's earring"
+                ,hands="Rogue's armlets +1"
+                ,ring1="Rajas ring"
                 ,waist="Warwolf belt"})
-  
-  -- HIGH ACCURACY WS             
-  sets.precast.WS.Acc 
-  = set_combine(sets.precast.WS
-               ,{head="Hecatomb cap +1"
-                ,hands="Enkidu's mittens"
-                ,ring2=toreador_ring['Triple Attack (1)']})
-                
-  sets.precast.WS['Dancing Edge'].Acc 
-  = set_combine(sets.precast.WS.Acc
-               ,{waist="Virtuoso belt"})
-                
-  sets.precast.WS['Exenterator'].Acc 
-  = set_combine(sets.precast.WS['Dancing Edge'].Acc)
-                
-  sets.precast.WS['Evisceration'].Acc 
-  = set_combine(sets.precast.WS['Dancing Edge'].Acc)
-                
-  sets.precast.WS['Shark Bite'].Acc 
-  = set_combine(sets.precast.WS['Dancing Edge'].Acc
-               ,{head="Maat's cap"})
-                
-  sets.precast.WS['Mandalic Stab'].Acc 
-  = set_combine(sets.precast.WS.Acc)
-                
-  sets.precast.WS['Mercy Stroke'].Acc 
-  = set_combine(sets.precast.WS.Acc
-               ,{ear1="Triumph earring"
-                ,body="Hecatomb harness +1"
-                ,hands="Hecatomb mittens +1"
-                ,waist="Virtuoso belt"
-                ,legs="Hecatomb subligar +1"})
-  
-  -- -- SA              
-  sets.precast.WS['Shark Bite'].Acc.SA
-  = set_combine(sets.precast.WS['Shark Bite'].Acc
-               ,{head="Hecatomb cap +1"})
                
-  sets.precast.WS['Mandalic Stab'].Acc.SA
-  = set_combine(sets.precast.WS['Mandalic Stab'].Acc
+  sets.precast.WS['Mercy Stroke'].Acc.SATA
+  = set_combine(sets.precast.WS['Mercy Stroke'].Acc
+               ,{head="Maat's cap"
+                ,hands="Rogue's armlets +1"
+                ,ring1="Rajas ring"
+                ,back="Commander's cape"
+                ,legs="Hecatomb leggings +1"})
+               
+  sets.precast.WS['Mercy Stroke'].AtkAcc.SATA
+  = set_combine(sets.precast.WS['Mercy Stroke'].AtkAcc
+               ,{head="Maat's cap"
+                ,ear1="Merman's earring"
+                ,hands="Rogue's armlets +1"
+                ,ring1="Rajas ring"
+                ,back="Cerberus mantle +1"
+                ,waist="Warwolf belt"})
+               
+                
+  -- Mandalic Stab
+  sets.precast.WS['Mandalic Stab'] 
+  = {head="Maat's cap"
+    ,neck="Fotia gorget"
+    ,ear1="Pixie earring"
+    ,ear2="Brutal earring"
+    ,body="Antares harness"
+    ,hands="Hecatomb mittens +1"
+    ,ring1="Rajas ring"
+    ,ring2=toreador_ring['Triple Attack (3)']
+    ,back="Cuchulain's mantle"
+    ,waist="Warwolf belt"
+    ,legs="Hecatomb subligar +1"
+    ,feet="Hecatomb leggings +1"}
+  
+  sets.precast.WS['Mandalic Stab'].Atk
+  = set_combine(sets.precast.WS['Mandalic Stab']
+               ,{head="Gnadbhod's helm"
+                ,ear1="Merman's earring"
+                ,back="Cerberus mantle +1"
+                ,waist="Swordbelt +1"})  
+  
+  sets.precast.WS['Mandalic Stab'].Acc
+  = set_combine(sets.precast.WS['Mandalic Stab']
+               ,{})
+  
+  sets.precast.WS['Mandalic Stab'].AtkAcc
+  = set_combine(sets.precast.WS['Mandalic Stab']
+               ,{head="Gnadbhod's helm"
+                ,back="Cerberus mantle +1"})
+  
+  -- SA
+  sets.precast.WS['Mandalic Stab'].SA 
+  = set_combine(sets.precast.WS['Mandalic Stab']
                ,{})
                
-  sets.precast.WS['Mercy Stroke'].Acc.SA
-  = set_combine(sets.precast.WS['Mercy Stroke'].Acc
-               ,{ear1="Pixie earring"})
+  sets.precast.WS['Mandalic Stab'].Atk.SA
+  = set_combine(sets.precast.WS['Mandalic Stab']
+               ,{head="Gnadbhod's helm"
+                ,body="Hecatomb harness +1"
+                ,back="Cerberus mantle +1"
+                ,waist="Swordbelt +1"})
+               
+  sets.precast.WS['Mandalic Stab'].Acc.SA
+  = set_combine(sets.precast.WS['Mandalic Stab']
+               ,{head="Gnadbhod's helm"})
+               
+  sets.precast.WS['Mandalic Stab'].AtkAcc.SA
+  = set_combine(sets.precast.WS['Mandalic Stab']
+               ,{head="Hecatomb cap +1"
+                ,ear1="Merman's earring"
+                ,body="Hecatomb harness +1"
+                ,back="Cerberus mantle +1"})
   
-  -- -- TA             
-  sets.precast.WS['Shark Bite'].Acc.TA
-  = set_combine(sets.precast.WS['Shark Bite'].Acc
-               ,{hands="Rogue's armlets +1"
-                ,legs="Oily trousers"})
+  --TA
+  sets.precast.WS['Mandalic Stab'].TA 
+  = set_combine(sets.precast.WS['Mandalic Stab']
+               ,{ear1="Drone earring"
+                ,hands="Rogue's armlets +1"
+                ,back="Assassin's cape"
+                ,legs="Oily trousers"
+                ,feet="Enkidu's leggings"})
+               
+  sets.precast.WS['Mandalic Stab'].Atk.TA
+  = set_combine(sets.precast.WS['Mandalic Stab'].Atk
+               ,{head="Maat's cap"
+                ,hands="Rogue's armlets +1"})
                
   sets.precast.WS['Mandalic Stab'].Acc.TA
   = set_combine(sets.precast.WS['Mandalic Stab'].Acc
-               ,{head="Maat's cap"
-                ,hands="Rogue's armlets +1"})
-               
-  sets.precast.WS['Mercy Stroke'].Acc.TA
-  = set_combine(sets.precast.WS['Mercy Stroke'].Acc
-               ,{head="Maat's cap"
-                ,body="Enkidu's harness"
-                ,hands="Rogue's armlets +1"})
-  
-  -- SATA             
-  sets.precast.WS['Shark Bite'].Acc.SATA
-  = set_combine(sets.precast.WS['Shark Bite'].Acc.TA
-               ,{legs="Oily trousers"
-                ,waist="Virtuoso belt"})
-               
-  sets.precast.WS['Mandalic Stab'].Acc.SATA
-  = set_combine(sets.precast.WS['Mandalic Stab'].Acc.TA
-               ,{legs="Oily trousers"})
-  
-  sets.precast.WS['Mercy Stroke'].Acc.SATA
-  = set_combine(sets.precast.WS['Mercy Stroke'].Acc.TA
-               ,{body="Antares harness"
+               ,{ear1="Drone earring"
+                ,hands="Rogue's armlets +1"
+                ,back="Assassin's cape"
                 ,legs="Oily trousers"})
-               
--- HIGH ATTACK/ACCURACY WS             
-  sets.precast.WS.AtkAcc 
-  = set_combine(sets.precast.WS
-               ,{head="Gnadbhod's helm"
-                ,body="Hecatomb harness +1"
-                ,ring2=toreador_ring['Triple Attack (1)']
-                ,back="Cerberus mantle +1"
-                ,waist="Swordbelt +1"})
-                
-  sets.precast.WS['Dancing Edge'].AtkAcc 
-  = set_combine(sets.precast.WS.AtkAcc)
-                
-  sets.precast.WS['Exenterator'].AtkAcc 
-  = set_combine(sets.precast.WS['Dancing Edge'].AtkAcc)
-                
-  sets.precast.WS['Evisceration'].AtkAcc 
-  = set_combine(sets.precast.WS['Dancing Edge'].AtkAcc)
-                
-  sets.precast.WS['Shark Bite'].AtkAcc 
-  = set_combine(sets.precast.WS['Dancing Edge'].AtkAcc
-               ,{head="Maat's cap"})
-                
-  sets.precast.WS['Mandalic Stab'].AtkAcc 
-  = set_combine(sets.precast.WS.AtkAcc)
-                
-  sets.precast.WS['Mercy Stroke'].AtkAcc 
-  = set_combine(sets.precast.WS.AtkAcc
-               ,{ear1="Triumph earring"})
-  
-  -- -- SA              
-  sets.precast.WS['Shark Bite'].AtkAcc.SA
-  = set_combine(sets.precast.WS['Shark Bite'].AtkAcc
-               ,{head="Hecatomb cap +1"
-                ,back="Cuchulain's mantle"
-                ,waist="Warwolf belt"})
-               
-  sets.precast.WS['Mandalic Stab'].AtkAcc.SA
-  = set_combine(sets.precast.WS['Mandalic Stab'].AtkAcc
-               ,{head="Hecatomb cap +1"
-                ,waist="Warwolf belt"})
-               
-  sets.precast.WS['Mercy Stroke'].AtkAcc.SA
-  = set_combine(sets.precast.WS['Mercy Stroke'].AtkAcc
-               ,{head="Hecatomb cap +1"
-                ,ear1="Pixie earring"
-                ,waist="Warwolf belt"})
-  
-  -- -- TA             
-  sets.precast.WS['Shark Bite'].AtkAcc.TA
-  = set_combine(sets.precast.WS['Shark Bite'].AtkAcc
-               ,{hands="Rogue's armlets +1"})
                
   sets.precast.WS['Mandalic Stab'].AtkAcc.TA
   = set_combine(sets.precast.WS['Mandalic Stab'].AtkAcc
                ,{head="Maat's cap"
-                ,hands="Rogue's armlets +1"})
-               
-  sets.precast.WS['Mercy Stroke'].AtkAcc.TA
-  = set_combine(sets.precast.WS['Mercy Stroke'].AtkAcc
-               ,{body="Enkidu's harness"
+                ,ear1="Drone earring"
                 ,hands="Rogue's armlets +1"})
   
-  -- SATA             
-  sets.precast.WS['Shark Bite'].AtkAcc.SATA
-  = set_combine(sets.precast.WS['Shark Bite'].AtkAcc.TA
-               ,{back="Cuchulain's mantle"
-                ,waist="Warwolf belt"
-                ,legs="Hecatomb subligar +1"})
+  --SATA
+  sets.precast.WS['Mandalic Stab'].SATA
+  = set_combine(sets.precast.WS['Mandalic Stab']
+               ,{hands="Rogue's armlets +1"
+                ,back="Assassin's cape"})
+               
+  sets.precast.WS['Mandalic Stab'].Atk.SATA
+  = set_combine(sets.precast.WS['Mandalic Stab'].Atk
+               ,{head="Maat's cap"
+                ,ear1="Merman's earring"
+                ,body="Hecatomb harness +1"
+                ,hands="Rogue's armlets +1"
+                ,back="Commander's cape"
+                ,waist="Warwolf belt"})
+               
+  sets.precast.WS['Mandalic Stab'].Acc.SATA
+  = set_combine(sets.precast.WS['Mandalic Stab'].Acc
+               ,{head="Maat's cap"
+                ,hands="Rogue's armlets +1"
+                ,back="Assassin's cape"})
                
   sets.precast.WS['Mandalic Stab'].AtkAcc.SATA
-  = set_combine(sets.precast.WS['Mandalic Stab'].AtkAcc.TA
+  = set_combine(sets.precast.WS['Mandalic Stab'].AtkAcc
                ,{head="Maat's cap"
-                ,back="Cuchulain's mantle"
-                ,waist="Warwolf belt"})
+                ,ear1="Merman's earring"
+                ,body="Hecatomb harness +1"
+                ,hands="Rogue's armlets +1"
+                ,back="Commander's cape"})
+               
+                
+  -- Shark Bite
+  sets.precast.WS['Shark Bite'] 
+  = {head="Maat's cap"
+    ,neck="Fotia gorget"
+    ,ear1="Pixie earring"
+    ,ear2="Brutal earring"
+    ,body="Antares harness"
+    ,hands="Hecatomb mittens +1"
+    ,ring1="Rajas ring"
+    ,ring2=toreador_ring['Triple Attack (3)']
+    ,back="Assassin's cape"
+    ,waist="Warwolf belt"
+    ,legs="Hecatomb subligar +1"
+    ,feet="Enkidu's leggings"}
+    
+  sets.precast.WS['Shark Bite'].Atk
+  = set_combine(sets.precast.WS['Shark Bite'] 
+               ,{ear1="Merman's earring"
+                ,body="Hecatomb harness +1"
+                ,back="Cerberus mantle +1"
+                ,waist="Swordbelt +1"
+                ,feet="Hecatomb leggings +1"}) 
   
-  sets.precast.WS['Mercy Stroke'].AtkAcc.SATA
-  = set_combine(sets.precast.WS['Mercy Stroke'].AtkAcc.TA
-               ,{head="Maat's cap"
+  sets.precast.WS['Shark Bite'].Acc
+  = set_combine(sets.precast.WS['Shark Bite'] 
+               ,{back="Cuchulain's mantle"
+                ,waist="Virtuoso belt"}) 
+  
+  sets.precast.WS['Shark Bite'].AtkAcc
+  = set_combine(sets.precast.WS['Shark Bite'] 
+               ,{ear1="Merman's earring"
                 ,body="Hecatomb harness +1"
                 ,back="Cuchulain's mantle"
+                ,waist="Swordbelt +1"
+                ,feet="Hecatomb leggings +1"}) 
+  
+  -- SA
+  sets.precast.WS['Shark Bite'].SA 
+  = set_combine(sets.precast.WS['Shark Bite']
+               ,{feet="Hecatomb leggings +1"})
+  
+  sets.precast.WS['Shark Bite'].Atk.SA 
+  = set_combine(sets.precast.WS['Shark Bite'].Atk
+               ,{waist="Warwolf belt"})
+  
+  sets.precast.WS['Shark Bite'].Acc.SA 
+  = set_combine(sets.precast.WS['Shark Bite'].Acc
+               ,{waist="Warwolf belt"
+                ,feet="Hecatomb leggings +1"})
+  
+  sets.precast.WS['Shark Bite'].AtkAcc.SA 
+  = set_combine(sets.precast.WS['Shark Bite'].AtkAcc
+               ,{waist="Warwolf belt"})
+  
+  
+  --TA
+  sets.precast.WS['Shark Bite'].TA 
+  = set_combine(sets.precast.WS['Shark Bite']
+               ,{ear1="Drone earring"
+                ,hands="Rogue's armlets +1"})
+               
+  sets.precast.WS['Shark Bite'].Atk.TA 
+  = set_combine(sets.precast.WS['Shark Bite'].Atk
+               ,{hands="Rogue's armlets +1"
+                ,back="Cerberus mantle +1"})
+               
+  sets.precast.WS['Shark Bite'].Acc.TA 
+  = set_combine(sets.precast.WS['Shark Bite'].Acc
+               ,{ear1="Drone earring"
+                ,hands="Rogue's armlets +1"
+                ,back="Assassin's cape"})
+               
+  sets.precast.WS['Shark Bite'].AtkAcc.TA 
+  = set_combine(sets.precast.WS['Shark Bite'].AtkAcc
+               ,{hands="Rogue's armlets +1"
+                ,feet="Hecatomb leggings +1"})
+  
+  --SATA
+  sets.precast.WS['Shark Bite'].SATA 
+  = set_combine(sets.precast.WS['Shark Bite']
+               ,{hands="Rogue's armlets +1"})
+               
+  sets.precast.WS['Shark Bite'].Atk.SATA 
+  = set_combine(sets.precast.WS['Shark Bite'].Atk
+               ,{hands="Rogue's armlets +1"
+                ,back="Commander's cape"
+                ,waist="Warwolf belt"})
+               
+  sets.precast.WS['Shark Bite'].Acc.SATA 
+  = set_combine(sets.precast.WS['Shark Bite'].Acc
+               ,{ear1="Pixie earring"
+                ,hands="Rogue's armlets +1"
+                ,back="Assassin's cape"})
+               
+  sets.precast.WS['Shark Bite'].AtkAcc.SATA 
+  = set_combine(sets.precast.WS['Shark Bite'].AtkAcc
+               ,{hands="Rogue's armlets +1"
+                ,back="Commander's cape"
                 ,waist="Warwolf belt"})
   
 end
@@ -653,7 +755,7 @@ function job_post_precast(spell,action,spellMap,eventArgs)
 
   if spell.type == 'WeaponSkill' then  -- extra weaponskill handling
 
-    if state.Ranged then  -- if no boomerang or crossbow equipped
+    if not state.Ranged.value then  -- if no boomerang or crossbow equipped
       if spell.english == 'Cyclone' or state.Buff['Sneak Attack'] then
         sets.postPrecast = set_combine(sets.postPrecast,{ammo="Black tathlum"})  -- always black tath when sneak attacking
       else
@@ -742,13 +844,13 @@ function customize_idle_set(idleSet)
 
   if player.hpp <= 75 then
     if daytime then
-      idleSet = set_combine(idleSet,sets.idle['Regen'].daytime)
+      idleSet = set_combine(idleSet,sets.Regen.daytime)
     else
-      idleSet = set_combine(idleSet,sets.idle['Regen'])
+      idleSet = set_combine(idleSet,sets.Regen)
     end
   end
  
-  if state.Ranged then
+  if state.Ranged.value then
     idleSet = set_combine(idleSet, sets[state.RangedMode.value])
   end
 
